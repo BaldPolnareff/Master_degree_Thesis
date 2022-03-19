@@ -19,27 +19,27 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{Padovano_SLS_Review}{article}{}
+    \entry{Recent_progress_polymers_AM}{article}{}
       \name{author}{1}{}{%
-        {{hash=082dd4eecb157591e416f836aefc4a82}{%
-           family={Badini},
-           familyi={B\bibinitperiod},
-           given={Federico\bibnamedelimb Lupone;\bibnamedelimb Elisa\bibnamedelimb Padovano;\bibnamedelimb Francesco\bibnamedelimb Casamento;\bibnamedelima Claudio},
-           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=8fbe073c0bb159b81763c877d46300c8}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Lisa\bibnamedelimb Jiaying\bibnamedelimb Tan;\bibnamedelimb Wei\bibnamedelimb Zhu;\bibnamedelima Kun},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
-      \strng{namehash}{082dd4eecb157591e416f836aefc4a82}
-      \strng{fullhash}{082dd4eecb157591e416f836aefc4a82}
-      \strng{bibnamehash}{082dd4eecb157591e416f836aefc4a82}
-      \strng{authorbibnamehash}{082dd4eecb157591e416f836aefc4a82}
-      \strng{authornamehash}{082dd4eecb157591e416f836aefc4a82}
-      \strng{authorfullhash}{082dd4eecb157591e416f836aefc4a82}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \strng{namehash}{8fbe073c0bb159b81763c877d46300c8}
+      \strng{fullhash}{8fbe073c0bb159b81763c877d46300c8}
+      \strng{bibnamehash}{8fbe073c0bb159b81763c877d46300c8}
+      \strng{authorbibnamehash}{8fbe073c0bb159b81763c877d46300c8}
+      \strng{authornamehash}{8fbe073c0bb159b81763c877d46300c8}
+      \strng{authorfullhash}{8fbe073c0bb159b81763c877d46300c8}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Materials}
-      \field{title}{Process Phenomena and Material Properties in Selective Laser Sintering of Polymers: A Review}
-      \field{year}{2021}
+      \field{journaltitle}{Advanced Functional Materials}
+      \field{title}{Recent Progress on Polymer Materials for Additive Manufacturing}
+      \field{year}{2020}
     \endentry
   \enddatalist
 \endrefsection

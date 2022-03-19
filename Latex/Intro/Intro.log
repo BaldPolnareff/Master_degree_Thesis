@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  18 MAR 2022 21:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  19 MAR 2022 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -646,7 +646,7 @@ Package epstopdf Info: Source file: <Pictures/polito_logo.eps>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/polito_logo-eps-converted-to.pdf Pictures/polito_logo.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/polito_logo-eps-converted-to.pdf, id=8, 915.42pt x 860.21375pt>
+<Pictures/polito_logo-eps-converted-to.pdf, id=12, 915.42pt x 860.21375pt>
 File: Pictures/polito_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/polito_logo-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/polito_logo-eps-converted-to.pdf  used on input line 29.
@@ -657,28 +657,38 @@ Package pdftex.def Info: Pictures/polito_logo-eps-converted-to.pdf  used on inpu
 \tf@toc=\write5
 \openout5 = `Intro.toc'.
 
- [2] [3] [4
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+
+ []
+
+[3] [4
 
 ] (/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.aux)
 Package rerunfilecheck Info: File `Intro.out' has not changed.
-(rerunfilecheck)             Checksum: A02D95553E30B97FF125B1AA17CF9044;47.
+(rerunfilecheck)             Checksum: 01282E0C3F0EED49CDCFC4791106BF70;120.
 Package logreq Info: Writing requests to 'Intro.run.xml'.
 \openout1 = `Intro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16317 strings out of 479304
- 314381 string characters out of 5869778
- 1014496 words of memory out of 5000000
- 33291 multiletter control sequences out of 15000+600000
- 411980 words of font info for 59 fonts, out of 8000000 for 9000
+ 16320 strings out of 479304
+ 314450 string characters out of 5869778
+ 1017512 words of memory out of 5000000
+ 33293 multiletter control sequences out of 15000+600000
+ 412287 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,6n,75p,785b,1598s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.pdf (4 pages, 104827 bytes).
+Output written on /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.pdf (4 pages, 112697 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 14 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 64 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 22 words of extra memory for PDF output out of 10000 (max. 10000000)
 

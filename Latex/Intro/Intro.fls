@@ -814,6 +814,7 @@ INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.toc
 INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.toc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.aux
 INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.out
 INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.out
