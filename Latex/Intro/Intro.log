@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  19 MAR 2022 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  20 MAR 2022 20:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -792,12 +792,11 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 \openout3 = `Intro.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Intro.bbl' not found.
-
-No file Intro.bbl.
+Package biblatex Info: ... file 'Intro.bbl' found.
+ (/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.bbl)
 Package biblatex Info: Reference section=0 on input line 26.
 Package biblatex Info: Reference segment=0 on input line 26.
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count455
 \scratchdimen=\dimen304
@@ -830,6 +829,7 @@ LaTeX Info: Redefining \Ref on input line 520.
 LaTeX Info: Redefining \ref on input line 26.
 LaTeX Info: Redefining \pageref on input line 26.
 LaTeX Info: Redefining \nameref on input line 26.
+ (/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.out) (/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.out)
 \@outlinefile=\write5
 \openout5 = `Intro.out'.
 
@@ -859,14 +859,14 @@ Package epstopdf Info: Source file: <Pictures/polito_logo.eps>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/polito_logo-eps-converted-to.pdf Pictures/polito_logo.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/polito_logo-eps-converted-to.pdf, id=7, 915.42pt x 860.21375pt>
+<Pictures/polito_logo-eps-converted-to.pdf, id=23, 915.42pt x 860.21375pt>
 File: Pictures/polito_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/polito_logo-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/polito_logo-eps-converted-to.pdf  used on input line 30.
 (pdftex.def)             Requested size: 276.00105pt x 259.35243pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/giorgio/Master_degree_Thesis/Latex/Intro/Pictures/polito_logo-eps-converted-to.pdf>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/giorgio/Master_degree_Thesis/Latex/Intro/Pictures/polito_logo-eps-converted-to.pdf>] (/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.toc)
 \tf@toc=\write6
 \openout6 = `Intro.toc'.
 
@@ -881,121 +881,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--48
  []
 
 
-LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 3 undefined on input line 55.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
-
-
-LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 3 undefined on input line 64.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--65
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
 [3]
-/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.tex:75: Missing $ inserted.
-<inserted text> 
-                $
-l.75 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
-/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.tex:75: Display math should end with $$.
-<to be read again> 
-                   \par 
-l.75 
-     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+ []
 
+[4] [5
 
-/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.tex:76: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76     \end{equation}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.tex:76: You can't use `\eqno' in vertical mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.76     \end{equation}
-                       
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.tex:76: Missing $ inserted.
-<inserted text> 
-                $
-l.76     \end{equation}
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.tex:76: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.76     \end{equation}
-                       
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[4]
-
-LaTeX Warning: Empty bibliography on input line 92.
-
-(/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Intro.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Intro.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  237A08486670BF505A8478DCB4AC97BB;130.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Intro
-(biblatex)                and rerun LaTeX afterwards.
-
+] (/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.aux)
+Package rerunfilecheck Info: File `Intro.out' has not changed.
+(rerunfilecheck)             Checksum: 7D65E9F1AD8E8B0DF906DA667294AB9E;305.
 Package logreq Info: Writing requests to 'Intro.run.xml'.
 \openout1 = `Intro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27582 strings out of 479304
- 553200 string characters out of 5869778
- 1251376 words of memory out of 5000000
- 44340 multiletter control sequences out of 15000+600000
- 412287 words of font info for 60 fonts, out of 8000000 for 9000
+ 27622 strings out of 479304
+ 554356 string characters out of 5869778
+ 1252909 words of memory out of 5000000
+ 44367 multiletter control sequences out of 15000+600000
+ 412622 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,103p,785b,1589s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.pdf (4 pages, 111684 bytes).
+ 102i,6n,103p,785b,1674s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.pdf (5 pages, 126829 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 50 words of extra memory for PDF output out of 10000 (max. 10000000)
 
