@@ -2350,6 +2350,9 @@
     <bcf:citekey order="4">Recent_progress_polymers_AM</bcf:citekey>
     <bcf:citekey order="5">Recent_progress_polymers_AM</bcf:citekey>
     <bcf:citekey order="6">Recent_progress_polymers_AM</bcf:citekey>
+    <bcf:citekey order="7">Recent_progress_polymers_AM</bcf:citekey>
+    <bcf:citekey order="8">Recent_progress_polymers_AM</bcf:citekey>
+    <bcf:citekey order="9">Recent_progress_polymers_AM</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

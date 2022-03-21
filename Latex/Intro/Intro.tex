@@ -72,7 +72,7 @@
     A great example is \textit{PLA} (PolyLactic Acid), a polymer widely used in 3D printing, whose monomer is obtained by fermenting starches, such as corn starch. \\ 
 
     Many new eco-friendly polymers have been and are currently being studied for AM techniques, but this case study will focus mostly on materials that can be potentially turned 
-    into powders for \textit{PBF} (Powder Bed Fusion) techniques or filaments for \textbf{ME} (Material Extrusion). 
+    into powders for \textit{PBF} (Powder Bed Fusion) techniques or filaments for \textit{ME} (Material Extrusion). 
     
     \subsection{Common AM techniques for polymers\label{AM_techniques_summary}}
     
@@ -86,17 +86,41 @@
                             high speed printing \autocite*{Recent_progress_polymers_AM};
         \item \textbf{PBF} (Powder Bed Fusion), where the object is printed by locally fusing a powder bed (with a pulsing energy source -such as lasers- or with a local deposition of chemicals),
                             layed out in a layer-by-layer fashion \autocite*{Recent_progress_polymers_AM};
-        \item \textbf{ME} (Material Extrusion), where each layer is printed by direct deposition of materials through a nozzle, that solidify as they cool down \autocite*{Recent_progress_polymers_AM}. 
+        \item \textbf{ME} (Material Extrusion), where each layer is printed by direct deposition of materials through a nozzle, that solidify as they cool down \autocite*{Recent_progress_polymers_AM};
+        \item \textbf{BJ} (Binder Jetting), similarly to 2D inkjet printing utilizes a
+                        polymer in the form of a liquid binder, that gets deposited in droplets onto a powder bed (usually made of metallic or ceramic particles). This 
+                        method can build large parts without support structures and the lack of a high power heat source cuts its cost down, but the structural 
+                        properties of the final parts are poor compared to sinterized equivalents, making heat treatments necessary \autocite*{Recent_progress_polymers_AM};
+        \item \textbf{Sheet Lamination}, where thin sheets of material are stacked together and bonded with adhesives or heat. This class of techniques 
+                        is not entirely additive, since subtractive processes are used to cut and refine the final part, creating substantial material waste \autocite*{Recent_progress_polymers_AM}.
     \end{itemize}
 
     \subsubsection{FDM (Fused Deposition Modeling) \label{FDM_general}}
 
     FDM is a ME technique and the most well known AM process, commonly named 3D printing in popular media. \\
     
-    The process consists of a direct layer-by-layer deposition of a plastic filament, heated up to its melting point and extruded through a nozzle. 
+    The process consists of a direct layer-by-layer deposition of a thermoplastic filament, heated up to its melting point (or enough to soften it until it reaches an 
+    optimal flow) and extruded through a nozzle \autocite*{Recent_progress_polymers_AM}. 
+
+    The nozzle is generally moved in the x-y plane until a layer is completed with the desired infill, then either the extruder head or the growth plate are moved along the z axis, 
+    initiating the printing of the subsequent layer.
+
+    The planar infill and the resolution on the z axis will determine the quality of the final print for a given material and geometry, in terms of density and visual appeal.
     
-    This method has gained a lot of popularity in the last few years, given its general ease of use, low cost of both materials and equipment and its growing 
-    community of enthusiasts. 
+    For a given planar infill, the z axis resolution greatly influences the final look of the part, as well as printing times:
+    modern slicing software can analyze the geometry and generate an adaptive resolution, reducing the number of layers where the local  
+    curvature of the object is within a certain threshold and increasing it when necessary. 
+    
+    This approach can produce good quality parts, 
+    while reducing printing times. \\ 
+    
+    FDM has gained a lot of popularity in the last few years, given its general ease of use, relatively low cost of both materials and equipment and its growing 
+    community of enthusiasts. \\
+
+    A wide variety of materials can be used with this technique, including (but not limited to) \textit{PLA}, \textit{ABS}, \textit{PET}, \textit{PETG}, \textit{HIPS}, \textit{TPU}, \textit{nylon}.
+
+
+
 
 
 
