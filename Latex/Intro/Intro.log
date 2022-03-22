@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  22 MAR 2022 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  22 MAR 2022 19:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -859,7 +859,7 @@ Package epstopdf Info: Source file: <Pictures/polito_logo.eps>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/polito_logo-eps-converted-to.pdf Pictures/polito_logo.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/polito_logo-eps-converted-to.pdf, id=23, 915.42pt x 860.21375pt>
+<Pictures/polito_logo-eps-converted-to.pdf, id=31, 915.42pt x 860.21375pt>
 File: Pictures/polito_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/polito_logo-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/polito_logo-eps-converted-to.pdf  used on input line 30.
@@ -895,12 +895,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-[3]
+[3] [4]
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
@@ -910,28 +910,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
-[5] [6
+[5
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--143
+
+ []
+
+Package epstopdf Info: Source file: <Pictures/SLS_temp_over_time.eps>
+(epstopdf)                    date: 2022-03-22 16:25:16
+(epstopdf)                    size: 28795 bytes
+(epstopdf)             Output file: <Pictures/SLS_temp_over_time-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-03-22 16:27:25
+(epstopdf)                    size: 19386 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SLS_temp_over_time-eps-converted-to.pdf Pictures/SLS_temp_over_time.eps>
+(epstopdf)             \includegraphics on input line 154.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SLS_temp_over_time-eps-converted-to.pdf, id=80, 1291.82625pt x 984.67876pt>
+File: Pictures/SLS_temp_over_time-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SLS_temp_over_time-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SLS_temp_over_time-eps-converted-to.pdf  used on input line 154.
+(pdftex.def)             Requested size: 217.35168pt x 165.6653pt.
+[6
+
+ </home/giorgio/Master_degree_Thesis/Latex/Intro/Pictures/SLS_temp_over_time-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 164--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
+
+ []
+
+[7] [8
+
+] [9
 
 ] (/home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.aux)
 Package rerunfilecheck Info: File `Intro.out' has not changed.
-(rerunfilecheck)             Checksum: 7D65E9F1AD8E8B0DF906DA667294AB9E;305.
+(rerunfilecheck)             Checksum: 45A26EAA55A4510E0EBD6ED354565D2F;479.
 Package logreq Info: Writing requests to 'Intro.run.xml'.
 \openout1 = `Intro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27623 strings out of 479304
- 554362 string characters out of 5869778
- 1252908 words of memory out of 5000000
- 44367 multiletter control sequences out of 15000+600000
+ 27649 strings out of 479304
+ 555054 string characters out of 5869778
+ 1253237 words of memory out of 5000000
+ 44384 multiletter control sequences out of 15000+600000
  412622 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,103p,785b,1676s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.pdf (6 pages, 132356 bytes).
+ 102i,6n,103p,785b,1816s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.pdf (9 pages, 186634 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

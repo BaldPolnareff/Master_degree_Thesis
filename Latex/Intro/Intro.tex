@@ -93,7 +93,7 @@
                         properties of the final parts are poor compared to sinterized equivalents, making heat treatments necessary \autocite*{Recent_progress_polymers_AM};
         \item \textbf{Sheet Lamination}, where thin sheets of material are stacked together and bonded with adhesives or heat. This class of techniques 
                         is not entirely additive, since subtractive processes are used to cut and refine the final part, creating substantial material waste \autocite*{Recent_progress_polymers_AM}.
-    \end{itemize}
+    \end{itemize} \clearpage
 
     \subsubsection{FDM (Fused Deposition Modeling) \label{FDM_general}}
 
@@ -117,7 +117,91 @@
     FDM has gained a lot of popularity in the last few years, given its general ease of use, relatively low cost of both materials and equipment and its growing 
     community of enthusiasts. \\
 
-    A wide variety of materials can be used with this technique, including (but not limited to) \textit{PLA}, \textit{ABS}, \textit{PET}, \textit{PETG}, \textit{HIPS}, \textit{TPU}, \textit{nylon}.
+    A wide variety of materials can be used with this technique, including (but not limited to) 
+    \textit{PLA}, \textit{ABS}, \textit{PET}, \textit{PETG}, \textit{HIPS}, \textit{TPU}, \textit{nylon}. \clearpage
+
+    \subsubsection{SLS (Selective Laser Sintering) \label{SLS_general}}
+
+    \textit{SLS} is a manufacturing process in the PBF family. 
+
+    A powder bed is layed out onto a platform and a focused heat source (a laser) locally sinterizes the powder, until a single layer is completed \autocite*{Recent_progress_polymers_AM}. 
+
+    A mechanism swipes out the remaining powder, which is recollected and automatically redistributed by a recoating 
+    system for each subsequent layer \autocite*{Padovano_SLS_Review}. 
+
+    This process is similar to \textit{SLM} (Selective Laser Melting), typically used with metal alloys: in \textit{SLS} the energy input is not high enough 
+    to bring the powders to their melting point, but sufficient for sinterization of the powders. 
+
+    Despite the slight difference, many sources use the terms interchangeably, often effectively referring to SLM. 
+    
+    When it comes to thermoplastic materials, the required laser power to melt each layer is substantially lower than that needed for metals. \\ 
+
+    \textit{SLS} printers can be considerably more expensive than \textit{FDM} machines of similar printing volume, but the advantages they offer, 
+    in terms of customizability, superior consistency in print quality and accuracy, higher production rate, less need for support structures, 
+    makes them a more cost effective solution for larger scale industrial production, whereas \textit{FDM} printers are still more established 
+    in the hobbyists and enthusiasts market \autocite*{Padovano_SLS_Review}. \\ 
+
+    Generally speaking, \textit{SLS} is a three stage process, consisting of: 
+    
+    \begin{itemize}
+        \item warm up (A)
+        \item building (B)
+        \item cooling (C)
+    \end{itemize}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.63\textwidth]{Pictures/SLS_temp_over_time.eps}\\
+        \caption{Phases of an \textit{SLS} process \autocites{Inkscape}{Padovano_SLS_Review}} 
+        \label{fig:SLS_temp_over_time}
+    \end{figure}
+
+    As seen in figure (\ref{fig:SLS_temp_over_time}), the first phase is the time required to reach a specific powder bed temperature $(T_b)$, based on the chosen material. 
+
+    Ideally this temperature should be maintained constant inside the printing
+    chamber, during the entire printing phase, through infrared or electric heaters. 
+    
+    The main goal is avoiding drastic temperature gradients in different areas of the printed part, since they can cause 
+    visual artefacts such as local or global deformation and, most importantly, uneven residual mechanical tension that can 
+    rapidly degrade the structural integrity of the final piece, especially in structural components that might be placed under static or
+    dynamic loads. \\ 
+    
+    Once the final piece is printed, the entire chamber is cooled down homogeneously and gradually, until the equilibrium is reached at room 
+    temperature $(T_e)$ \autocite*{Padovano_SLS_Review}. \\ 
+
+    Quality standards for \textit{SLS} printed parts have increased dramatically over the last few years, to the point where 
+    the manufactured components are not exclusively used for prototyping or as sacrificial items for investment casting, but they are 
+    used as finalized industrial grade parts. 
+
+    However, there is still room for substantial improvements in the consistency of print accuracy, overall quality, reliability 
+    and scalability of the entire process, compared to more traditional manufacturing techniques. \\ 
+
+    The variety of physical phenomena involved in SLS, the fact that they can be interdepent and their different temporal regimes are the main 
+    source of complexity that makes the process very hard to study and inconsistent. 
+
+    The most predominant phenomena are the following \autocite*{Padovano_SLS_Review}: 
+
+    \begin{itemize}
+        \item Laser motion and irradiation
+        \item Thermal diffusion
+        \item Polymer viscous flow and particle coalescence 
+        \item Powder spreading
+        \item Solidification/crystallization 
+    \end{itemize} 
+    
+    Further improvements are required in order to reduce the amount of discarded parts (still comparatively 
+    higher than most consolidated manufacturing techniques), usually defective in terms of porosity or 
+    thermal distortion or warping \autocite*{Padovano_SLS_Review}. \\ 
+
+    The next chapters will focus on potential SLS materials for this case study and their powder production specifically. \clearpage
+
+    \section{PHAs (Polyhydroxyalkanoates) in 3D printing \label{PHAs_in_3d_printing}}
+
+
+    
+    
+
+
 
 
 

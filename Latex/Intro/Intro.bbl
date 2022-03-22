@@ -19,6 +19,49 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Padovano_SLS_Review}{article}{}
+      \name{author}{1}{}{%
+        {{hash=082dd4eecb157591e416f836aefc4a82}{%
+           family={Badini},
+           familyi={B\bibinitperiod},
+           given={Federico\bibnamedelimb Lupone;\bibnamedelimb Elisa\bibnamedelimb Padovano;\bibnamedelimb Francesco\bibnamedelimb Casamento;\bibnamedelima Claudio},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{fullhash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{bibnamehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{authorbibnamehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{authornamehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{authorfullhash}{082dd4eecb157591e416f836aefc4a82}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials}
+      \field{title}{Process Phenomena and Material Properties in Selective Laser Sintering of Polymers: A Review}
+      \field{year}{2021}
+    \endentry
+    \entry{Inkscape}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6376cab05e82f18f4779e535e95f621}{%
+           family={Project},
+           familyi={P\bibinitperiod},
+           given={The\bibnamedelima Inkscape},
+           giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{fullhash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{bibnamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authorbibnamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authornamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authorfullhash}{b6376cab05e82f18f4779e535e95f621}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://inkscape.org/}}
+      \field{title}{Inkscape}
+    \endentry
     \entry{Recent_progress_polymers_AM}{article}{}
       \name{author}{1}{}{%
         {{hash=8fbe073c0bb159b81763c877d46300c8}{%
