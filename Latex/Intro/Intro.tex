@@ -80,13 +80,13 @@
 
     \begin{itemize}
         \item \textbf{VP} (Vat Photopolymerization), which make use of UV lights (or other radiations) to solidify photosensitive resins. This class of AM processes can produce 
-                        parts with the highest resolution among all AM methods \autocite*{Recent_progress_polymers_AM};
+                        parts with the highest resolution among all AM methods \autocites*{Recent_progress_polymers_AM}{Kovalcik_PHA_Review};
         \item \textbf{MJ} (Material Jetting), which consist of a deposition of viscous fluids (either in droplets or in a continuous fashion), solidified by different agents 
                             (time interacting chemicals, heating, cooling, drying, photopolymerization, etc.). These processes include several patented methods, characterized by 
                             high speed printing \autocite*{Recent_progress_polymers_AM};
         \item \textbf{PBF} (Powder Bed Fusion), where the object is printed by locally fusing a powder bed (with a pulsing energy source -such as lasers- or with a local deposition of chemicals),
-                            layed out in a layer-by-layer fashion \autocite*{Recent_progress_polymers_AM};
-        \item \textbf{ME} (Material Extrusion), where each layer is printed by direct deposition of materials through a nozzle, that solidify as they cool down \autocite*{Recent_progress_polymers_AM};
+                            layed out in a layer-by-layer fashion \autocites*{Recent_progress_polymers_AM}{Kovalcik_PHA_Review};
+        \item \textbf{ME} (Material Extrusion), where each layer is printed by direct deposition of materials through a nozzle, that solidify as they cool down \autocites*{Recent_progress_polymers_AM}{Kovalcik_PHA_Review};
         \item \textbf{BJ} (Binder Jetting), similarly to 2D inkjet printing utilizes a
                         polymer in the form of a liquid binder, that gets deposited in droplets onto a powder bed (usually made of metallic or ceramic particles). This 
                         method can build large parts without support structures and the lack of a high power heat source cuts its cost down, but the structural 
@@ -100,7 +100,7 @@
     FDM is a ME technique and the most well known AM process, commonly named 3D printing in popular media. \\
     
     The process consists of a direct layer-by-layer deposition of a thermoplastic filament, heated up to its melting point (or enough to soften it until it reaches an 
-    optimal flow) and extruded through a nozzle \autocite*{Recent_progress_polymers_AM}. 
+    optimal flow) and extruded through a nozzle \autocites*{Recent_progress_polymers_AM}{Kovalcik_PHA_Review}. 
 
     The nozzle is generally moved in the x-y plane until a layer is completed with the desired infill, then either the extruder head or the growth plate are moved along the z axis, 
     initiating the printing of the subsequent layer.
@@ -124,7 +124,8 @@
 
     \textit{SLS} is a manufacturing process in the PBF family. 
 
-    A powder bed is layed out onto a platform and a focused heat source (a laser) locally sinterizes the powder, until a single layer is completed \autocite*{Recent_progress_polymers_AM}. 
+    A powder bed is layed out onto a platform and a focused heat source (a laser) locally sinterizes the powder, 
+    until a single layer is completed \autocites*{Recent_progress_polymers_AM}{Kovalcik_PHA_Review}. 
 
     A mechanism swipes out the remaining powder, which is recollected and automatically redistributed by a recoating 
     system for each subsequent layer \autocite*{Padovano_SLS_Review}. 
@@ -223,12 +224,29 @@
     polymers of similar properties \autocite{Kovalcik_PHA_Review}. 
 
     The increasing demand and the improvements on their biosynthesis will make their price more accessible in the future, for all sorts of 
-    applications, including additive manufacturing, where PHAs can be printed successfully either with FDM or SLS techniques. \\ 
+    applications, including additive manufacturing, where PHAs can be printed successfully either with FDM or SLS techniques. \clearpage
 
     
     \subsection{PHA and Additive Manufacturing \label{PHA_in_Additive}}
 
+    PHAs can be used in different AM techniques, including Stereolitography, which is part of VP processes (\ref{AM_techniques_summary}), 
+    Fused Deposition Modeling (\ref{FDM_general}), where the filaments are made of a mixture of PHA and PLA, 
+    (which increases thermal stability and cuts down cost), and 
+    Selective Laser Sintering (\ref{SLS_general}) \autocite{Kovalcik_PHA_Review}. \\ 
+
+    This case study will focus on its usage in SLS. \\ 
+
+    PHAs have been successfully printed via SLS and utilized in the medical field as scaffolds for tissues engineering applications. 
+
+    These scaffolds can be printed with a porous structure (controlled by the laser energy density), 
+    which could carry biomolecules and release drugs, for instance.
     
+    Unlike with FDM applications, where PHA can not be used as a standalone filament, but needs PLA addition in order to stabilize its melting 
+    phase, PHA powders in SLS maintain a good stability and their chemical composition does not get altered as easily. 
+
+    This is a clear advantage, since the overall properties of the final products do not change drastically from its starting powder, 
+    and, in addition to this, the remaining powder is not thermally altered close to the melting pool, meaning that it can 
+    be reused for additional printing \autocite{Kovalcik_PHA_Review}.  
 
 
 
