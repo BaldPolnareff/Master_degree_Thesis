@@ -4,4 +4,5 @@
 \contentsline {subsection}{\numberline {1.2}Common AM techniques for polymers}{4}{subsection.1.2}%
 \contentsline {subsubsection}{\numberline {1.2.1}FDM (Fused Deposition Modeling) }{5}{subsubsection.1.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.2}SLS (Selective Laser Sintering) }{6}{subsubsection.1.2.2}%
-\contentsline {section}{\numberline {2}PHAs (Polyhydroxyalkanoates) in 3D printing }{8}{section.2}%
+\contentsline {section}{\numberline {2}PHAs (Polyhydroxyalkanoates) }{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}PHA and Additive Manufacturing }{8}{subsection.2.1}%

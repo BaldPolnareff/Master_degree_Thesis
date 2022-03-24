@@ -41,6 +41,29 @@
       \field{title}{Process Phenomena and Material Properties in Selective Laser Sintering of Polymers: A Review}
       \field{year}{2021}
     \endentry
+    \entry{Kovalcik_PHA_Review}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a89a0622925a29f7ae7b3741335b9c88}{%
+           family={Kovalcik},
+           familyi={K\bibinitperiod},
+           given={Adriana},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a89a0622925a29f7ae7b3741335b9c88}
+      \strng{fullhash}{a89a0622925a29f7ae7b3741335b9c88}
+      \strng{bibnamehash}{a89a0622925a29f7ae7b3741335b9c88}
+      \strng{authorbibnamehash}{a89a0622925a29f7ae7b3741335b9c88}
+      \strng{authornamehash}{a89a0622925a29f7ae7b3741335b9c88}
+      \strng{authorfullhash}{a89a0622925a29f7ae7b3741335b9c88}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The EuroBiotech Journal}
+      \field{title}{Recent Advances in 3D Printing of Polyhydroxyalkanoates: A Review}
+      \field{volume}{5}
+      \field{year}{2021}
+    \endentry
     \entry{Inkscape}{misc}{}
       \name{author}{1}{}{%
         {{hash=b6376cab05e82f18f4779e535e95f621}{%
