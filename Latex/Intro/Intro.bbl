@@ -119,6 +119,53 @@
       \field{volume}{5}
       \field{year}{2021}
     \endentry
+    \entry{Junghare_cryogenic_grinding_review}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cf4916856217e5d2fdb24aabadef0899}{%
+           family={M.Lele},
+           familyi={M\bibinitperiod},
+           given={Hemantkumar\bibnamedelimb Junghare*;\bibnamedelimb Mayur\bibnamedelimb Hamjade;\bibnamedelimb C.K.Patil;\bibnamedelimb S.B.Girase;\bibnamedelima Mandar},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{cf4916856217e5d2fdb24aabadef0899}
+      \strng{fullhash}{cf4916856217e5d2fdb24aabadef0899}
+      \strng{bibnamehash}{cf4916856217e5d2fdb24aabadef0899}
+      \strng{authorbibnamehash}{cf4916856217e5d2fdb24aabadef0899}
+      \strng{authornamehash}{cf4916856217e5d2fdb24aabadef0899}
+      \strng{authorfullhash}{cf4916856217e5d2fdb24aabadef0899}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Current Engineering and Technology}
+      \field{title}{A Review on Cryogenic Grinding}
+      \field{year}{2017}
+    \endentry
+    \entry{cryogenic_grinding_video}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=862e283eac9f07b456340170203fec1c}{%
+           family={Milling},
+           familyi={M\bibinitperiod},
+           given={FRITSCH},
+           giveni={F\bibinitperiod}}}%
+        {{hash=92672a7a2b909945fbfa9f44f057c7a1}{%
+           family={Sizing},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ed78540a8a700257171156a532600d4}
+      \strng{fullhash}{2ed78540a8a700257171156a532600d4}
+      \strng{bibnamehash}{2ed78540a8a700257171156a532600d4}
+      \strng{authorbibnamehash}{2ed78540a8a700257171156a532600d4}
+      \strng{authornamehash}{2ed78540a8a700257171156a532600d4}
+      \strng{authorfullhash}{2ed78540a8a700257171156a532600d4}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.youtube.com/watch?v=3KUGXICL3Is}}
+      \field{title}{Cryogenic Grinding with the Variable Speed Rotor Mill PULVERISETTE 14 𝘱𝘳𝘦𝘮𝘪𝘶𝘮 line}
+      \field{year}{2021}
+    \endentry
     \entry{Inkscape}{misc}{}
       \name{author}{1}{}{%
         {{hash=b6376cab05e82f18f4779e535e95f621}{%

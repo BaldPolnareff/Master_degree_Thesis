@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{fontenc}
 \usepackage[backend=biber]{biblatex}
 \usepackage{graphicx}
 \usepackage[colorlinks=true]{hyperref}
@@ -133,9 +134,9 @@
     This process is similar to \textit{SLM} (Selective Laser Melting), typically used with metal alloys: in \textit{SLS} the energy input is not high enough 
     to bring the powders to their melting point, but sufficient for sinterization of the powders. 
 
-    Despite the slight difference, many sources use the terms interchangeably, often effectively referring to SLM. 
+    Despite the slight difference, many sources use the terms interchangeably, often effectively referring to SLM in metal manufacturing. 
     
-    When it comes to thermoplastic materials, the required laser power to melt each layer is substantially lower than that needed for metals. \\ 
+    When it comes to thermoplastic materials, the required laser power to sinter each layer is substantially lower than that needed for metals. \\ 
 
     \textit{SLS} printers can be considerably more expensive than \textit{FDM} machines of similar printing volume, but the advantages they offer, 
     in terms of customizability, superior consistency in print quality and accuracy, higher production rate, less need for support structures, 
@@ -277,10 +278,42 @@
     Two radically different approaches are possible, each with its own critical issues: 
 
     \begin{itemize}
-        \item Chemical precipitation
         \item Mechanical milling
-    \end{itemize}
+        \item Chemical precipitation
+    \end{itemize} 
 
+    \subsection{Powder requirements for SLS \label{Powder_requirements}}
+
+    The success rate of SLS prints is highly dependent on the characteristics of the powders involved. 
+
+    The key factors in powder quality controls are particle size distribution and powder morphology. 
+    Ideally, a gaussian distribution, with most particles close to the average size is desirable. 
+
+    The average particle size directly influences the layer thickness in the SLS process.  
+    
+    Particle morphology is crucial in the sintering mechanism, where regular, smooth and non-hollow spherical geometries are preferrable.  
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.7\textwidth]{Pictures/sintering_neck.eps}\\
+        \caption{Two spherical powder particles forming a sintering neck \autocite{Inkscape}} 
+        \label{fig:SLS_sintering_neck}
+    \end{figure}
+
+    \subsection{Mechanical milling \label{Mechanical_milling}}
+
+    Grinding plastics into fine and homogeneous powders can be a challenge, since the high speed milling devices can easily overheat the 
+    plastics above their softening point, creating lumps of material, far from the desired result.
+    
+    A solution to this problem is using so called \textit{cryogenic grinding} devices, which utilize cooling agents such as dry ice, liquid 
+    carbon dioxide or liquid nitrogen, in order to keep the plastics below the glass transition point, where polymers become intrinsically
+    brittle, similarly to a ceramic material, making it possible to turn the original mass into a powder \autocites*{cryogenic_grinding_video}{Junghare_cryogenic_grinding_review}. 
+
+    The heterogeneous powders can later be sieved and separated based on their different granulometry. 
+
+    \subsection{Chemical precipitation \label{Chemical precipitation}}
+
+    a
 
 
 
