@@ -2367,11 +2367,16 @@
     <bcf:citekey order="21">Padovano_SLS_Review</bcf:citekey>
     <bcf:citekey order="22">Padovano_SLS_Review</bcf:citekey>
     <bcf:citekey order="23">Kovalcik_PHA_Review</bcf:citekey>
-    <bcf:citekey order="24">Kovalcik_PHA_Review</bcf:citekey>
+    <bcf:citekey order="24">Messori_Bondioli_PHAs</bcf:citekey>
     <bcf:citekey order="25">Kovalcik_PHA_Review</bcf:citekey>
-    <bcf:citekey order="26">Kovalcik_PHA_Review</bcf:citekey>
+    <bcf:citekey order="26">Messori_Bondioli_PHAs</bcf:citekey>
     <bcf:citekey order="27">Kovalcik_PHA_Review</bcf:citekey>
-    <bcf:citekey order="28">Kovalcik_PHA_Review</bcf:citekey>
+    <bcf:citekey order="28">Messori_Bondioli_PHAs</bcf:citekey>
+    <bcf:citekey order="29">Kovalcik_PHA_Review</bcf:citekey>
+    <bcf:citekey order="30">Kovalcik_PHA_Review</bcf:citekey>
+    <bcf:citekey order="31">Kovalcik_PHA_Review</bcf:citekey>
+    <bcf:citekey order="32">Kovalcik_PHA_Review</bcf:citekey>
+    <bcf:citekey order="33">Kovalcik_PHA_Review</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

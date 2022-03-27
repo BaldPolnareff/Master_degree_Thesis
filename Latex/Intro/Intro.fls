@@ -1049,6 +1049,7 @@ INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Pictures/SLS_temp_over_time
 INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Pictures/SLS_temp_over_time-eps-converted-to.pdf
 INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Pictures/SLS_temp_over_time-eps-converted-to.pdf
 INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Pictures/SLS_temp_over_time-eps-converted-to.pdf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.aux
 INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.out
 INPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.out
@@ -1057,6 +1058,7 @@ OUTPUT /home/giorgio/Master_degree_Thesis/Latex/Intro/Intro.run.xml
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

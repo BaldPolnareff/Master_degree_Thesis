@@ -1,15 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'Intro.blg'
-[45] biber:340> INFO - === Thu Mar 24, 2022, 21:03:23
-[53] Biber.pm:415> INFO - Reading 'Intro.bcf'
-[101] Biber.pm:952> INFO - Found 4 citekeys in bib section 0
-[110] Biber.pm:4340> INFO - Processing section 0
-[116] Biber.pm:4531> INFO - Looking for bibtex format file '/home/giorgio/Bibliography/bibliography.bib' for section 0
-[117] bibtex.pm:1689> INFO - LaTeX decoding ...
-[144] bibtex.pm:1494> INFO - Found BibTeX data source '/home/giorgio/Bibliography/bibliography.bib'
-[177] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[177] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[177] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[177] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[180] bbl.pm:654> INFO - Writing 'Intro.bbl' with encoding 'UTF-8'
-[181] bbl.pm:757> INFO - Output to Intro.bbl
+[47] biber:340> INFO - === Sun Mar 27, 2022, 18:59:19
+[55] Biber.pm:415> INFO - Reading 'Intro.bcf'
+[103] Biber.pm:952> INFO - Found 5 citekeys in bib section 0
+[112] Biber.pm:4340> INFO - Processing section 0
+[119] Biber.pm:4531> INFO - Looking for bibtex format file '/home/giorgio/Bibliography/bibliography.bib' for section 0
+[120] bibtex.pm:1689> INFO - LaTeX decoding ...
+[148] bibtex.pm:1494> INFO - Found BibTeX data source '/home/giorgio/Bibliography/bibliography.bib'
+[187] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[187] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[187] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[187] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[193] bbl.pm:654> INFO - Writing 'Intro.bbl' with encoding 'UTF-8'
+[195] bbl.pm:757> INFO - Output to Intro.bbl

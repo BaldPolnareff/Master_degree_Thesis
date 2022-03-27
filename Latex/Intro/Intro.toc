@@ -6,4 +6,6 @@
 \contentsline {subsubsection}{\numberline {1.2.2}SLS (Selective Laser Sintering) }{6}{subsubsection.1.2.2}%
 \contentsline {section}{\numberline {2}PHAs (Polyhydroxyalkanoates) }{8}{section.2}%
 \contentsline {subsection}{\numberline {2.1}PHA and Additive Manufacturing }{9}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}PHBH }{9}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.1}PHBH }{9}{subsubsection.2.1.1}%
+\contentsline {section}{\numberline {3}PBS (Polybutylene Succinate) }{10}{section.3}%
+\contentsline {section}{\numberline {4}PBAT (Polybutylene Adipate Terephtalate) }{10}{section.4}%

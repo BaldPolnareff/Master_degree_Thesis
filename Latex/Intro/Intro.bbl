@@ -41,6 +41,61 @@
       \field{title}{Process Phenomena and Material Properties in Selective Laser Sintering of Polymers: A Review}
       \field{year}{2021}
     \endentry
+    \entry{Messori_Bondioli_PHAs}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d284d0c24a1e7d5da8b2082876199166}{%
+           family={Giubilini},
+           familyi={G\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9b34388e22c92e437614f5b33716d7e8}{%
+           family={Bondioli},
+           familyi={B\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=dddc74c273b151ee218a38a5103a707f}{%
+           family={Messori},
+           familyi={M\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2955225dad661d6fa8886d1552d85b1a}{%
+           family={Nyström},
+           familyi={N\bibinitperiod},
+           given={Gustav},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9e80da04365e2fbe23ff3c74b4f69d11}{%
+           family={Siqueira},
+           familyi={S\bibinitperiod},
+           given={Gilberto},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{fullhash}{f00d36acffa8362e004ff394790319ad}
+      \strng{bibnamehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{authorbibnamehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{authornamehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{authorfullhash}{f00d36acffa8362e004ff394790319ad}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In recent years, biopolymers have been attracting the attention of researchers and specialists from different fields, including biotechnology, material science, engineering, and medicine. The reason is the possibility of combining sustainability with scientific and technological progress. This is an extremely broad research topic, and a distinction has to be made among different classes and types of biopolymers. Polyhydroxyalkanoate (PHA) is a particular family of polyesters, synthetized by microorganisms under unbalanced growth conditions, making them both bio-based and biodegradable polymers with a thermoplastic behavior. Recently, PHAs were used more intensively in biomedical applications because of their tunable mechanical properties, cytocompatibility, adhesion for cells, and controllable biodegradability. Similarly, the 3D-printing technologies show increasing potential in this particular field of application, due to their advantages in tailor-made design, rapid prototyping, and manufacturing of complex structures. In this review, first, the synthesis and the production of PHAs are described, and different production techniques of medical implants are compared. Then, an overview is given on the most recent and relevant medical applications of PHA for drug delivery, vessel stenting, and tissue engineering. A special focus is reserved for the innovations brought by the introduction of additive manufacturing in this field, as compared to the traditional techniques. All of these advances are expected to have important scientific and commercial applications in the near future.}
+      \field{issn}{2306-5354}
+      \field{journaltitle}{Bioengineering}
+      \field{number}{2}
+      \field{title}{Advantages of Additive Manufacturing for Biomedical Applications of Polyhydroxyalkanoates}
+      \field{volume}{8}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.3390/bioengineering8020029
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2306-5354/8/2/29
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2306-5354/8/2/29
+      \endverb
+    \endentry
     \entry{Kovalcik_PHA_Review}{article}{}
       \name{author}{1}{}{%
         {{hash=a89a0622925a29f7ae7b3741335b9c88}{%
