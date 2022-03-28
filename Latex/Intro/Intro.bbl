@@ -187,6 +187,54 @@
       \field{howpublished}{\url{https://inkscape.org/}}
       \field{title}{Inkscape}
     \endentry
+    \entry{doi:10.1063/1.4918516}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2bdd013f1939d4ddc923b2c4b36e2762}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78ca6c0dafe7a08305d08e85320421e0}{%
+           family={Amado},
+           familyi={A\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eaaabc6348988f0a3fb8d71aca611102}{%
+           family={Wegener},
+           familyi={W\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \strng{fullhash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \strng{bibnamehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \strng{authorbibnamehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \strng{authornamehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \strng{authorfullhash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AIP Conference Proceedings}
+      \field{number}{1}
+      \field{title}{Polymer powders for selective laser sintering (SLS)}
+      \field{volume}{1664}
+      \field{year}{2015}
+      \field{pages}{160009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4918516
+      \endverb
+      \verb{eprint}
+      \verb https://aip.scitation.org/doi/pdf/10.1063/1.4918516
+      \endverb
+      \verb{urlraw}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.4918516
+      \endverb
+      \verb{url}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.4918516
+      \endverb
+    \endentry
     \entry{Recent_progress_polymers_AM}{article}{}
       \name{author}{1}{}{%
         {{hash=8fbe073c0bb159b81763c877d46300c8}{%
