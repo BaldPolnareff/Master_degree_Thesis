@@ -365,10 +365,53 @@
     There is little variety in the market of SLS ready polymer powders, with polyamide-12 (PA12) being the most optimized for this 
     application and being produced by precipitation in ethanol \autocite*{DechetMaximilianA2020OtDo}.
     
-    Many other powders are produced using the precipitation method, but the developments of such powders are currently very limited 
-    and in early-stage, especially with thermoplastics, which are not as optimized as PA12. 
-
+    Many other polymer powders can be produced using the precipitation method, but their development is currently very limited 
+    and in early-stage, especially with thermoplastics, which are not as optimized as PA12.
     
+    Most of the experimental work on the precipitation method for thermoplastics is not available from large chemical corporations, 
+    but rather from academic environment. 
+
+    \subsubsection{Polymer-Solvent System \label{polymer_solvent_system}}
+
+    Assuming there is a potential material to use this technique with, the recommended solvent choice gravitates towards 
+    so called \textit{moderate solvents}. \\
+    
+    These compounds have the peculiarity of acting as a solvent only when heated above a certain temperature. 
+
+    Therefore, thermoplastics can be dissolved into a heated compatible solvent and form a liquid-liquid phase separation
+    upon cooling of the system, where complex crystallization and precipitation phenomena are later induced via stirring of 
+    the nucleated polymer-rich droplets \autocite*{DechetMaximilianA2020OtDo}.  \\ 
+
+    A common criterion of solvent pre-selection is the evaluation of Hansen parameters, through the following equation: 
+
+    \begin{equation}
+        \textit{f} (\delta_x) = 100 \cdot \frac{\delta_x}{\delta_d + \delta_p + \delta_h}
+        \phantomsection
+        \label{eq:hansen_parameters}
+    \end{equation}
+
+    which quantifies the interaction between the polymer and the solvent, in correlation with the dispersion $(\delta_d)$, 
+    the polar interactions $(\delta_p)$ and the hydrogen bond interactions $(\delta_h)$ \autocite*{DechetMaximilianA2020OtDo}. \\ 
+
+    Once the polymer-solvent system is tested, the experimental data can be effectively represented in the TEAS plot, which 
+    helps visualizing the equation (\ref{eq:hansen_parameters}). 
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\textwidth]{Pictures/TEAS_plot.eps}
+        \caption{Generic TEAS plot for any given polymer \autocites{DechetMaximilianA2020OtDo}{Inkscape}}
+        \label{fig:TEAS_plot}
+    \end{figure}
+
+    This approach has been used successfully to determine solubility of polypropylene (PP), polyethylene terephtalate (PET), 
+    polycarbonate (PC), etc, and could be effectively utilized with the target biopolymers, polybutylene succinate (PBS)
+    (\ref{PBS_in_general}), 
+    polybutilene adipate terephtalate (PBAT) (\ref{PBAT_in_general}) and with polyhydroxyalkanoates (PHA) such as PHBH (\ref{PHA_in_general}). 
+
+
+
+
+
 
 
 
