@@ -286,13 +286,30 @@
 
     The success rate of SLS prints is highly dependent on the characteristics of the powders involved. 
 
-    The key factors in powder quality are particle size distribution, morphology, as well as thermal and optical properties. \\
+    The key factors in powder quality are particle size distribution, morphology, as well as thermal, flow and optical properties. \\
     
-    Ideally, a gaussian distribution, with most particles close to the average size is desirable. 
+    Ideally, a gaussian distribution, with most particles close to the average size is desirable, 
+    with a tipical range of $(20 \div 80) \ \mu m$ \autocite*{doi:10.1063/1.4918516}. 
 
     The average particle size directly influences the layer thickness in the SLS process.  
     
-    Particle morphology is crucial in the sintering mechanism, where regular, smooth and non-hollow spherical geometries are preferrable.  
+    Particle morphology is crucial in the sintering mechanism, where regular, smooth and non-hollow spherical 
+    geometries are preferrable \autocite*{doi:10.1063/1.4918516}.  
+
+    The powder's density is another parameter that should be considered, as it directly correlates with the final part's 
+    global density and it allows calculation of the Hausner ratio $H_r$, which is a direct predictor of powder flowability. 
+    
+    Ideally, this coefficient should be lower than 1.4, otherwise the powder could result in issues with fluidization \autocite*{doi:10.1063/1.4918516}. 
+
+    \begin{equation}
+        \phantomsection
+        \label{eq:Hausner_ratio}
+        H_r = \frac{\rho_{tap}}{\rho_{bulk}}
+    \end{equation} 
+
+    where $\rho_{tap}$ is the tap density and $\rho_{bulk}$ is the bulk density of the powder. 
+
+    \clearpage
 
     \begin{figure}[h!]
         \centering
@@ -302,7 +319,32 @@
     \end{figure}
 
     Understanding the thermal properties of the powder is essential during the SLS process. 
-    The amount \autocite*{doi:10.1063/1.4918516}
+    SLS is characterized by an optimal sintering window, with a temperature range between
+    crystallization $(T_c)$ and melting $(T_m)$. 
+    For any given heat flow within that range, the material is in a metastable phase, 
+    where full coalescence of the top powder layer, as well as adhesion with previously sintered layers are 
+    most likely guaranteed \autocite{doi:10.1063/1.4918516}. 
+
+    Therefore, creating a tailor-made powder feedstock involves using materials with a wide enough 
+    sintering window \autocites*{DechetMaximilianA2020OtDo}{doi:10.1063/1.4918516}. \\
+
+    Furthermore, optical properties of the powder bed need to be taken into account, since highly reflective materials (for a given 
+    laser wavelength) can waste most of the energy input, instead of absorbing a significant amount of radiation needed to 
+    effectively melt the powder \autocite{doi:10.1063/1.4918516}.  
+
+    This issue is prevalent in metal SLM \ref{SLS_general}, especially with aluminum. 
+    
+    However, when it comes to SLS and plastics powders, the required energy is substantially lower than that needed to melt metal alloys, 
+    meaning that any potential problem with poor radiation absorbtion can be compensated by increasing the 
+    laser power output \autocite{doi:10.1063/1.4918516}. \\ 
+    
+    Viscosity and surface tension of the melt pool are more relevant factors when choosing powders for SLS. 
+    High viscosity and surface tension can hinder the coalescence of polymer powders and the adhesion with previously 
+    sintered layers, resulting in residual sheer stress, high porosity and thus poor quality of the 3D printed part in general. 
+    
+    In SLS, unlike other processes like investment casting or injection molding, there is no well distributed force
+    (e.g. built up pressure against the mold) that can increase particle coalescence and layer adhesion, the only
+    force acting on the printed part is gravity, along the vertical axis \autocite*{doi:10.1063/1.4918516}. 
 
     \subsection{Mechanical milling \label{Mechanical_milling}}
 
@@ -313,11 +355,20 @@
     carbon dioxide or liquid nitrogen, in order to keep the plastics below the glass transition point, where polymers become intrinsically
     brittle, similarly to a ceramic material, making it possible to turn the original mass into a powder \autocites*{cryogenic_grinding_video}{Junghare_cryogenic_grinding_review}. 
 
-    The heterogeneous powders can later be sieved and separated based on their different granulometry. 
+    The heterogeneous powders can later be sieved and separated, based on their different granulometry. \\ 
+
+    Despite being an effective process for powder production, the morphology obtained with cryogenic milling is extremely irregular 
+    and unpredictable, which makes this method generally unsuitable for high quality SLS parts \autocite*{doi:10.1063/1.4918516}. 
 
     \subsection{Chemical precipitation \label{Chemical precipitation}}
 
-    a
+    There is little variety in the market of SLS ready polymer powders, with polyamide-12 (PA12) being the most optimized for this 
+    application and being produced by precipitation in ethanol \autocite*{DechetMaximilianA2020OtDo}.
+    
+    Many other powders are produced using the precipitation method, but the developments of such powders are currently very limited 
+    and in early-stage, especially with thermoplastics, which are not as optimized as PA12. 
+
+    
 
 
 

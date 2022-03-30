@@ -41,6 +41,45 @@
       \field{title}{Process Phenomena and Material Properties in Selective Laser Sintering of Polymers: A Review}
       \field{year}{2021}
     \endentry
+    \entry{DechetMaximilianA2020OtDo}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8b18ddd92993dbc85eda5e4a7525c146}{%
+           family={Dechet},
+           familyi={D\bibinitperiod},
+           given={Maximilian\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=96b5dbb1e0b7434389230a521dea46bb}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V}%
+      }
+      \strng{namehash}{72f3babcc0f6b63717533647620478a7}
+      \strng{fullhash}{72f3babcc0f6b63717533647620478a7}
+      \strng{bibnamehash}{72f3babcc0f6b63717533647620478a7}
+      \strng{authorbibnamehash}{72f3babcc0f6b63717533647620478a7}
+      \strng{authornamehash}{72f3babcc0f6b63717533647620478a7}
+      \strng{authorfullhash}{72f3babcc0f6b63717533647620478a7}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this contribution, some aspects of the development of powder bed fusion (PBF) feedstock powders via the solution-dissolution process, also known as precipitation, are exemplary addressed based on the authors' own work. The development is based on the selection of an appropriate polymer-solvent system, followed by the investigation of the cloud point diagram. After identification of a polymer-solvent system for precipitation, process-product relations, i.e. the influence of stirring, concentration and thermal regime on particle size distribution and shape, can be assessed. Via thorough product characterization concerning, amongst others, flowability and thermal properties, not only applicable PBF process parameters, but also necessary in-situ additive-enhancement with thermal stabilizers or post-processing with flow aids can be derived.}
+      \field{issn}{2212-8271}
+      \field{journaltitle}{Procedia CIRP}
+      \field{title}{On the Development of Polymer Particles for Laser Powder Bed Fusion via Precipitation}
+      \field{volume}{94}
+      \field{year}{2020}
+      \field{pages}{95\bibrangedash 99}
+      \range{pages}{5}
+      \keyw{Additive Manufacturing ; Feedstock ; Particles ; Polymers ; Powder bed fusion ; Precipitation}
+    \endentry
     \entry{Messori_Bondioli_PHAs}{article}{}
       \name{author}{5}{}{%
         {{hash=d284d0c24a1e7d5da8b2082876199166}{%
