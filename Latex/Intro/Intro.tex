@@ -50,7 +50,7 @@
 
     Given the same material, the complex shapes allowed by AM can replace components made of multiple assembled parts with a unique solid piece of comparable or even better mechanical properties. 
     
-    The inherent flexibility of AM often allows product designers to simplify or even entirely bypass the very strict CAD workflow (which is intrinsically tied to 
+    The inherent flexibility of AM often allows product designers to simplify or even entirely bypass the very strict CAD workflow (which is inherently tied to 
     traditional manufacturing processes) and make use of organic and/or generative modeling. 
 
     As a consequence of better design choices and minimal need of post-processing of AM objects, far less raw material is wasted, compared to subtractive manufacturing techniques, leading to 
@@ -81,7 +81,7 @@
     Polymers can be processed with several AM techniques, including, but not limited to: 
 
     \begin{itemize}
-        \item \textbf{VP} (Vat Photopolymerization), which make use of UV lights (or other radiations) to solidify photosensitive resins. This class of AM processes can produce 
+        \item \textbf{VP} (Vat Photopolymerization), which makes use of UV lights (or other radiations) to solidify photosensitive resins. This class of AM processes can produce 
                         parts with the highest resolution among all AM methods \autocites*{Recent_progress_polymers_AM}{Kovalcik_PHA_Review};
         \item \textbf{MJ} (Material Jetting), which consist of a deposition of viscous fluids (either in droplets or in a continuous fashion), solidified by different agents 
                             (time interacting chemicals, heating, cooling, drying, photopolymerization, etc.). These processes include several patented methods, characterized by 
@@ -92,7 +92,7 @@
         \item \textbf{BJ} (Binder Jetting), similarly to 2D inkjet printing utilizes a
                         polymer in the form of a liquid binder, that gets deposited in droplets onto a powder bed (usually made of metallic or ceramic particles). This 
                         method can build large parts without support structures and the lack of a high power heat source cuts its cost down, but the structural 
-                        properties of the final parts are poor compared to sinterized equivalents, making heat treatments necessary \autocite*{Recent_progress_polymers_AM};
+                        properties of the final parts are poor compared to sintered equivalents, making heat treatments necessary \autocite*{Recent_progress_polymers_AM};
         \item \textbf{Sheet Lamination}, where thin sheets of material are stacked together and bonded with adhesives or heat. This class of techniques 
                         is not entirely additive, since subtractive processes are used to cut and refine the final part, creating substantial material waste \autocite*{Recent_progress_polymers_AM}.
     \end{itemize} \clearpage
@@ -126,14 +126,14 @@
 
     \textit{SLS} is a manufacturing process in the PBF family. 
 
-    A powder bed is layed out onto a platform and a focused heat source (a laser) locally sinterizes the powder, 
+    A powder bed is layed out onto a platform and a focused heat source (a laser) locally sinters the powder, 
     until a single layer is completed \autocites*{Recent_progress_polymers_AM}{Kovalcik_PHA_Review}. 
 
-    A mechanism swipes out the remaining powder, which is recollected and automatically redistributed by a recoating 
-    system for each subsequent layer \autocite*{Padovano_SLS_Review}. 
+    A mechanism wipes out the remaining powder, which is recollected and automatically redistributed by a recoating 
+    system, for each subsequent layer \autocite*{Padovano_SLS_Review}. 
 
     This process is similar to \textit{SLM} (Selective Laser Melting), typically used with metal alloys: in \textit{SLS} the energy input is not high enough 
-    to bring the powders to their melting point, but sufficient for sinterization of the powders. 
+    to bring the powders to their melting point, but sufficient for sintering of the powders. 
 
     Despite the slight difference, many sources use the terms interchangeably, often effectively referring to SLM in metal manufacturing. 
     
@@ -159,10 +159,10 @@
         \label{fig:SLS_temp_over_time}
     \end{figure}
 
-    As seen in figure (\ref{fig:SLS_temp_over_time}), the first phase is the time required to reach a specific powder bed temperature $(T_b)$, based on the chosen material. 
+    As seen in figure (\ref{fig:SLS_temp_over_time}), the first phase is the time required to reach a specific powder bed temperature $(T_b)$, based on the material of choice. 
 
     Ideally this temperature should be maintained constant inside the printing
-    chamber, during the entire printing phase, through infrared or electric heaters. 
+    chamber, during the entire building phase, through infrared or electric heaters. 
     
     The main goal is avoiding drastic temperature gradients in different areas of the printed part, since they can cause 
     visual artefacts such as local or global deformation and, most importantly, uneven residual mechanical tension that can 
@@ -180,7 +180,7 @@
     and scalability of the entire process, compared to more traditional manufacturing techniques. \\ 
 
     The variety of physical phenomena involved in SLS, the fact that they can be interdepent and their different temporal regimes are the main 
-    source of complexity that makes the process very hard to study and inconsistent. 
+    source of complexity that makes the process inconsistent and very hard to study. 
 
     The most predominant phenomena are the following \autocite*{Padovano_SLS_Review}: 
 
@@ -223,18 +223,18 @@
     \end{itemize}
 
 
-    Estimating the exact meaningful measures of these properties is not always a straight-forward process, 
-    since manufacturers are not transparent about the exact composition of their products, which may be 
-    improved by additives, whose percentage is not often fully disclosed \autocite{Kovalcik_PHA_Review}. \\ 
+    Estimating the exact meaningful measures of their properties is not always a straight-forward process, 
+    since manufacturers are not transparent about the exact composition of their products, which may have been 
+    improved by proprietary additives, whose concentration and exact composition are not usually fully disclosed \autocite{Kovalcik_PHA_Review}. \\ 
     
     The market for bioderived PHA has gradually increased over the years and the growth is estimated to keep its pace, given that not only are they more sustainable
-    to competing petrochemical polymers, but they offer additional valuable properties, such as piezolectricity 
+    than competing petrochemical polymers, but they offer additional valuable properties, such as piezolectricity 
     and protection against gases and UV lights \autocite{Kovalcik_PHA_Review}.
 
     Their bio-origin, non-toxicity, renewability, biodegradability and biocompatibility make PHAs a very compelling product in the 
     ever growing market of sustainable materials. 
 
-    However, these desirable qualities are a contributing factor to their higher price, which is still not competetive with more established 
+    However, these desirable qualities contribute to their higher price, which is still not competetive against more established 
     polymers of similar properties \autocite{Kovalcik_PHA_Review}. 
 
     The increasing demand and the improvements on their biosynthesis will make their price more accessible in the future, for all sorts of 
@@ -253,13 +253,13 @@
     PHAs have been successfully printed via SLS and utilized in the medical field as scaffolds for tissues engineering applications. 
 
     These scaffolds can be printed with a porous structure (controlled by the laser energy density), 
-    which could carry biomolecules and release drugs, for instance.
+    which could aid in carrying biomolecules and slowly release drugs, for instance.
     
     Unlike with FDM applications, where PHA can not be used as a standalone filament, but needs PLA addition in order to stabilize its melting 
-    phase, PHA powders in SLS maintain a good stability and their chemical composition does not get altered as easily. 
+    phase, PHA powders for SLS tend to maintain a better stability and their chemical composition does not get altered as easily. 
 
-    This is a clear advantage, since the overall properties of the final products do not change drastically from its starting powder, 
-    and, in addition to this, the remaining powder is not thermally altered close to the melting pool, meaning that it can 
+    This is a clear advantage, since general properties of the final products do not change drastically from its starting feedstock, 
+    and, in addition to this, the remaining powder is not thermally altered in proximity to the melt pool, meaning that it can 
     be reused for additional printing \autocite{Kovalcik_PHA_Review}.  \\
         
     \subsubsection{PHBH \label{PHBH}}
@@ -270,24 +270,25 @@
     
     Despite having gained attention in the PHA family for SLS, especially in academic environments, the general interest for this copolymer
     is still relatively lower than other 
-    petrochemical polymers, due to its early-stage synthesis process that could be further improved, its high cost and the strict confidentiality 
+    petrochemical polymers, due to its early-stage synthesis process, its cost and the strict confidentiality 
     of polymer manufacturers \autocite{Eraslan_PHBH_review}.  \clearpage
 
     \section{PBS (Polybutylene Succinate) \label{PBS_in_general}}
 
-    PBS is an eco-friendly biopolymer with excellent properties and major benefits over comparable materials, which rose interest among 
-    industrial and academic environments, as well as some minor drawbacks, which currently hold back its full potential. \\ 
+    PBS is an eco-friendly biopolymer, which rose interest among 
+    industrial and academic environments. It possesses excellent properties and major benefits over comparable materials, as well as some minor drawbacks, 
+    which currently hold back its full potential. \\ 
     
-    While generally brittle, relatively expensive and still challenging to manufacture in SLS-ready powders, without compromises on its environmenal 
-    impact (see (\ref{Environmental_impact})), this polymer has very desirable features, such as high processability 
-    (at least with traditional methods), flexibility, as well as visual clarity and specularity. 
+    While generally brittle, relatively expensive and still challenging to manufacture in SLS-ready powders without compromises on its environmenal 
+    impact (see \ref{Environmental_impact}), this polymer has very desirable features, such as high processability 
+    (with traditional methods, at least), flexibility, as well as visual clarity and specularity. 
 
     It is also thermally stable and its melting point is around $115 \ \celsius $, which can make its processing, generally speaking, 
     less energy wasting, especially when mass production is taken into account. 
 
-    PBS is also easy to blend with other materials, for instance, 
-    its mechanical and thermal properties can be drastically improved when used in composite materials, where long or short fibers or 
-    even particles can be either randomly distributed or woven into the polymer matrix.
+    PBS is also easy to blend with other materials; for instance, 
+    its mechanical and thermal properties can be drastically improved when used in composite materials, where long or short fibers (or 
+    even particles) can be either randomly distributed, or woven into the polymer matrix.
     
     Not only are fibers used for producing high tech composite materials with improved properties, but cheap natural fibers, such as 
     palm fibers, or even blends with starches, can be utilized as an effective way to cut down cost in 
@@ -307,6 +308,9 @@
 
     Currently used mainly in food packaging and agriculture, similarly to PBS \ref{PBS_in_general}, PBAT can be blended with other materials, either 
     for technical enhancing or cost reduction.  
+
+    The considerations made for PHAs and SLS \ref{PHA_in_Additive} should be applicable to both PBS and PBAT, but further experiments need to 
+    be conducted and more reliable data needs to be acquired, although different studies are already showing promising results.  
 
     \clearpage
 
@@ -337,6 +341,13 @@
     Particle morphology is crucial in the sintering mechanism, where regular, smooth and non-hollow spherical 
     geometries are preferrable \autocite*{doi:10.1063/1.4918516}.  
 
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.5\textwidth]{Pictures/sintering_neck.eps}\\
+        \caption{Two spherical powder particles forming a sintering neck \autocite{Inkscape}} 
+        \label{fig:SLS_sintering_neck}
+    \end{figure}
+
     The powder's density is another parameter that should be considered, as it directly correlates with the final part's 
     global density and it allows calculation of the Hausner ratio $H_r$, which is a direct predictor of powder flowability. 
     
@@ -352,14 +363,11 @@
 
     \clearpage
 
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=0.7\textwidth]{Pictures/sintering_neck.eps}\\
-        \caption{Two spherical powder particles forming a sintering neck \autocite{Inkscape}} 
-        \label{fig:SLS_sintering_neck}
-    \end{figure}
 
-    Understanding the thermal properties of the powder is essential during the SLS process. 
+
+    Understanding thermal properties of the powder is essential in SLS. 
+
+
     SLS is characterized by an optimal sintering window, with a temperature range between
     crystallization $(T_c)$ and melting $(T_m)$. 
     For any given heat flow within that range, the material is in a metastable phase, 
@@ -383,8 +391,8 @@
     High viscosity and surface tension can hinder the coalescence of polymer powders and the adhesion with previously 
     sintered layers, resulting in residual sheer stress, high porosity and thus poor quality of the 3D printed part in general. 
     
-    In SLS, unlike other processes like investment casting or injection molding, there is no well distributed force
-    (e.g. built up pressure against the mold) that can increase particle coalescence and layer adhesion, the only
+    In SLS, unlike other processes i.e. investment casting or injection molding, there is no well distributed force
+    (e.g. built up pressure against the mold) that can increase particle coalescence and layer adhesion. The only relevant
     force acting on the printed part is gravity, along the vertical axis \autocite*{doi:10.1063/1.4918516}. 
 
     \subsection{Mechanical milling \label{Mechanical_milling}}
@@ -409,8 +417,8 @@
     Many other polymer powders can be produced using the precipitation method, but their development is currently very limited 
     and in early-stage, especially with thermoplastics, which are not as optimized as PA12.
     
-    Most of the experimental work on the precipitation method for thermoplastics is not available from large chemical corporations, 
-    but rather from academic environment. 
+    Most of the experimental work on the precipitation method for thermoplastics is not made available by large chemical corporations, 
+    but rather by academic environment. 
 
     \subsubsection{Polymer-Solvent System \label{polymer_solvent_system}}
 
@@ -419,7 +427,7 @@
     
     These compounds have the peculiarity of acting as a solvent only when heated above a certain temperature. 
 
-    Therefore, thermoplastics can be dissolved into a heated compatible solvent and form a liquid-liquid phase separation
+    Therefore, thermoplastics can be dissolved into a compatible solvent and form a liquid-liquid phase separation
     upon cooling of the system, where complex crystallization and precipitation phenomena are later induced via stirring of 
     the nucleated polymer-rich droplets \autocite*{DechetMaximilianA2020OtDo}.  \\ 
 
@@ -432,22 +440,25 @@
     \end{equation}
 
     which quantifies the interaction between the polymer and the solvent, in correlation with the dispersion $(\delta_d)$, 
-    the polar interactions $(\delta_p)$ and the hydrogen bond interactions $(\delta_h)$ \autocite*{DechetMaximilianA2020OtDo}. \\ 
+    the polar interactions $(\delta_p)$ and the hydrogen bond interactions $(\delta_h)$ \autocite*{DechetMaximilianA2020OtDo}. 
 
     Once the polymer-solvent system is tested, the experimental data can be effectively represented in the TEAS plot, which 
     helps visualizing the equation (\ref{eq:hansen_parameters}). 
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=\textwidth]{Pictures/TEAS_plot.eps}
+        \includegraphics[width=0.4\textwidth]{Pictures/TEAS_plot.eps}
         \caption{Generic TEAS plot for any given polymer \autocites{DechetMaximilianA2020OtDo}{Inkscape}}
         \label{fig:TEAS_plot}
     \end{figure}
 
-    This approach has been used successfully to determine solubility of polypropylene (PP), polyethylene terephtalate (PET), 
+
+    This approach has been successfully used to determine solubility of polypropylene (PP), polyethylene terephtalate (PET), 
     polycarbonate (PC), etc, and could be effectively utilized with the target biopolymers, polybutylene succinate (PBS)
     (\ref{PBS_in_general}), 
-    polybutilene adipate terephtalate (PBAT) (\ref{PBAT_in_general}) and with polyhydroxyalkanoates (PHA) such as PHBH (\ref{PHA_in_general}). 
+    polybutilene adipate terephtalate (PBAT) (\ref{PBAT_in_general}) and with polyhydroxyalkanoates (PHA) such as PHBH (\ref{PHA_in_general}).
+    
+    
 
     \subsubsection{Cloud point diagram \label{Cloud_point_diagram}}
 
@@ -468,26 +479,26 @@
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=\textwidth]{Pictures/particle_size_stirring.eps}
+        \includegraphics[width=0.5\textwidth]{Pictures/particle_size_stirring.eps}
         \caption{Particle size decreases as stirring RPM increase \autocites{DechetMaximilianA2020OtDo}{Inkscape}}
         \label{fig:stirring_rpm}
     \end{figure}
 
     \subsection{Environmental impact \label{Environmental_impact}}
 
-    Cryogenic milling seems to be a more sustainable option for powder production, however, the issues discussed in \ref{Mechanical_milling}, 
+    At first glance, cryogenic milling seems to be a more sustainable option for powder production. However, the issues discussed in \ref{Mechanical_milling}, 
     make this method unsuitable for SLS, unless future development will improve overall powder morphology, perhaps with the aid of 
-    post processing with thermal rounding of the particles \autocite{DechetMaximilianA2020OtDo}. \\ 
+    post processing via thermal rounding of the particles \autocite{DechetMaximilianA2020OtDo}. \\ 
     
-    While powder production by 
+    On the other hand, while powder production by 
     chemical precipitation produces much better and more 
     controllable powder feedstock, it is worth noting that organic solvents are intrinsically environmentally impactful and that should be taken 
-    into account especially for large scale production of these powders. 
+    into account, especially for large scale production of these powders. 
 
-    The entire purpose of utilizing biopolymers in the first place might be pointless if their powder production 
+    The entire purpose of utilizing sustainable biopolymers in the first place might be rendered pointless, if their powder production 
     utilizes compounds or processes that are not environmentally friendly. \\ 
 
-    Better innovative solutions or mitigations of these issues in the current pipelines need to be implemented in the near future. \\ 
+    Better innovative solutions (or mitigations of the mentioned issues in the current pipelines) need to be implemented in the near future. \\ 
 
     Thermal rounding is a heat treatment, aimed at improving the bulk powder morphology for SLS applications. 
     This kind of treatment might be the crucial step in the success of a more environmentally friendly pipeline, which does not involve 
@@ -495,7 +506,7 @@
 
     Powders can be heated either directly, with a carrier gas, or indirectly, using heated walls. 
 
-    While the former method has a better process yield and a reduced risk of lumping, the latter produces powders with 
+    While the former method has a better process yield and reduced risk of lumping, the latter produces powders with 
     a better, more spherical morphology, but with a significantly higher risk of particle agglomeration \autocite{Dechet_Schmidt_thermal_rounding}.
     
     
