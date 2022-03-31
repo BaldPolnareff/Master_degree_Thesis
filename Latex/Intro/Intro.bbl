@@ -226,6 +226,54 @@
       \verb https://www.mdpi.com/2306-5354/8/2/29
       \endverb
     \endentry
+    \entry{Jian_PBAT_overview}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a9707159c9db8c6fbd8db1e764f4abc4}{%
+           family={Jian},
+           familyi={J\bibinitperiod},
+           given={Jiao},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6dc72757f19927b520ef66224b8dbf3d}{%
+           family={Xiangbin},
+           familyi={X\bibinitperiod},
+           given={Zeng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8c949c6081871ca68a71089c5e60da0b}{%
+           family={Xianbo},
+           familyi={X\bibinitperiod},
+           given={Huang},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2261c31e1905f1518b77a56920179074}
+      \strng{fullhash}{2261c31e1905f1518b77a56920179074}
+      \strng{bibnamehash}{2261c31e1905f1518b77a56920179074}
+      \strng{authorbibnamehash}{2261c31e1905f1518b77a56920179074}
+      \strng{authornamehash}{2261c31e1905f1518b77a56920179074}
+      \strng{authorfullhash}{2261c31e1905f1518b77a56920179074}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A significantly growing interest is to design new biodegradable polymers in order to solve fossil resources and environmental pollution problems associated with conventional plastics. A kind of new biodegradable polymers, aliphatic–aromatic co-polyesters have been researched widely and developed rapidly in recent years, since that can combine excellent biodegradability provided from aliphatic polyesters and good properties from aromatic polyesters. Out of which, poly (butylene-adipate-co-terephthalate) (PBAT) shows the most importance. PBAT has been commercialized by polycondensation reaction of butanediol (BDO), adipic acid (AA) and terephthalic acid (PTA) using general polyester manufacturing technology. And it has been considered to have desirable properties and competitive costs to be applied in many fields. Therefore, this review aims to present an overview on the synthesis, properties and applications of PBAT.}
+      \field{issn}{2542-5048}
+      \field{journaltitle}{Advanced Industrial and Engineering Polymer Research}
+      \field{number}{1}
+      \field{title}{An overview on synthesis, properties and applications of poly(butylene-adipate-co-terephthalate)–PBAT}
+      \field{volume}{3}
+      \field{year}{2020}
+      \field{pages}{19\bibrangedash 26}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aiepr.2020.01.001
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2542504820300014
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2542504820300014
+      \endverb
+      \keyw{Biodegradation,Polyester,PBAT,Synthesis,Property,Application}
+    \endentry
     \entry{Kovalcik_PHA_Review}{article}{}
       \name{author}{1}{}{%
         {{hash=a89a0622925a29f7ae7b3741335b9c88}{%
@@ -316,6 +364,76 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://inkscape.org/}}
       \field{title}{Inkscape}
+    \endentry
+    \entry{Rafiqah_Khalina_PBS_review}{article}{}
+      \name{author}{8}{}{%
+        {{hash=63dced6ee778c62a9246c6db6b70f694}{%
+           family={Rafiqah},
+           familyi={R\bibinitperiod},
+           given={S.\bibnamedelimi Ayu},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4230cfaf156a2c851e800bd916ee789c}{%
+           family={Khalina},
+           familyi={K\bibinitperiod},
+           given={Abdan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=971451d78a5ba6f11a1bbac742e2aef7}{%
+           family={Harmaen},
+           familyi={H\bibinitperiod},
+           given={Ahmad\bibnamedelima Saffian},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f51db996ff2a8bc4996ca5585f2c3a76}{%
+           family={Tawakkal},
+           familyi={T\bibinitperiod},
+           given={Intan\bibnamedelima Amin},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=15714e513e8e8b0f6a0985a9c1ea6d1c}{%
+           family={Zaman},
+           familyi={Z\bibinitperiod},
+           given={Khairul},
+           giveni={K\bibinitperiod}}}%
+        {{hash=af1adc73fb7162a9b7f60f052a8dd3b0}{%
+           family={Asim},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9a6e04c8a26aa832bf1355ab88a05238}{%
+           family={Nurrazi},
+           familyi={N\bibinitperiod},
+           given={M.N.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4a2c787c4b26799d7a1da36cd0a5057d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Ching\bibnamedelima Hao},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c28f15e4bb5360f5736b2901d249984}
+      \strng{fullhash}{a5b8cec95528f245a95ece2a5d125b20}
+      \strng{bibnamehash}{1c28f15e4bb5360f5736b2901d249984}
+      \strng{authorbibnamehash}{1c28f15e4bb5360f5736b2901d249984}
+      \strng{authornamehash}{1c28f15e4bb5360f5736b2901d249984}
+      \strng{authorfullhash}{a5b8cec95528f245a95ece2a5d125b20}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Researchers and companies have increasingly been drawn to biodegradable polymers and composites because of their environmental resilience, eco-friendliness, and suitability for a range of applications. For various uses, biodegradable fabrics use biodegradable polymers or natural fibers as reinforcement. Many approaches have been taken to achieve better compatibility for tailored and improved material properties. In this article, PBS (polybutylene succinate) was chosen as the main topic due to its excellent properties and intensive interest among industrial and researchers. PBS is an environmentally safe biopolymer that has some special properties, such as good clarity and processability, a shiny look, and flexibility, but it also has some drawbacks, such as brittleness. PBS-based natural fiber composites are completely biodegradable and have strong physical properties. Several research studies on PBS-based composites have been published, including physical, mechanical, and thermal assessments of the properties and its ability to replace petroleum-based materials, but no systematic analysis of up-to-date research evidence is currently available in the literature. The aim of this analysis is to highlight recent developments in PBS research and production, as well as its natural fiber composites. The current research efforts focus on the synthesis, copolymers and biodegradability for its properties, trends, challenges and prospects in the field of PBS and its composites also reviewed in this paper.}
+      \field{issn}{2073-4360}
+      \field{journaltitle}{Polymers}
+      \field{number}{9}
+      \field{title}{A Review on Properties and Application of Bio-Based Poly(Butylene Succinate)}
+      \field{volume}{13}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.3390/polym13091436
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4360/13/9/1436
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4360/13/9/1436
+      \endverb
     \endentry
     \entry{doi:10.1063/1.4918516}{article}{}
       \name{author}{3}{}{%
