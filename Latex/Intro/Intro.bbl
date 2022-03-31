@@ -19,6 +19,30 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Dechet_Schmidt_thermal_rounding}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7a9a713c078a523c7ec61e0b871d7071}{%
+           family={A},
+           familyi={A\bibinitperiod},
+           given={Gomez\bibnamedelimb Bonilla;\bibnamedelimb Dechet\bibnamedelimb M.A.;\bibnamedelimb Schmidt\bibnamedelimb J.;\bibnamedelimb Peukert\bibnamedelimb W.;\bibnamedelima Buck},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a9a713c078a523c7ec61e0b871d7071}
+      \strng{fullhash}{7a9a713c078a523c7ec61e0b871d7071}
+      \strng{bibnamehash}{7a9a713c078a523c7ec61e0b871d7071}
+      \strng{authorbibnamehash}{7a9a713c078a523c7ec61e0b871d7071}
+      \strng{authornamehash}{7a9a713c078a523c7ec61e0b871d7071}
+      \strng{authorfullhash}{7a9a713c078a523c7ec61e0b871d7071}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Rapid Prototyping Journal}
+      \field{number}{9}
+      \field{title}{Thermal rounding of micron-sized polymer particles in a downer reactor: direct vs indirect heating}
+      \field{volume}{26}
+      \field{year}{2020}
+    \endentry
     \entry{Padovano_SLS_Review}{article}{}
       \name{author}{1}{}{%
         {{hash=082dd4eecb157591e416f836aefc4a82}{%
@@ -79,6 +103,73 @@
       \field{pages}{95\bibrangedash 99}
       \range{pages}{5}
       \keyw{Additive Manufacturing ; Feedstock ; Particles ; Polymers ; Powder bed fusion ; Precipitation}
+    \endentry
+    \entry{Eraslan_PHBH_review}{article}{}
+      \name{author}{7}{}{%
+        {{hash=5545073b6633e674a56d6372be3bf431}{%
+           family={Eraslan},
+           familyi={E\bibinitperiod},
+           given={Kerim},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c5273ec6c57631fdf6aa7a6039dec26c}{%
+           family={Aversa},
+           familyi={A\bibinitperiod},
+           given={Clizia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6ae9b166e2ca6e9ee6a2ee5a0e00eaf2}{%
+           family={Nofar},
+           familyi={N\bibinitperiod},
+           given={Mohammadreza},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4408b7e05093ff98f01b0c4dd3fc6cc7}{%
+           family={Barletta},
+           familyi={B\bibinitperiod},
+           given={Massimiliano},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1d451bfe8bba7c74d175c4137a420b7a}{%
+           family={Gisario},
+           familyi={G\bibinitperiod},
+           given={Annamaria},
+           giveni={A\bibinitperiod}}}%
+        {{hash=527a95f2f5fb6776848c544c818758ec}{%
+           family={Salehiyan},
+           familyi={S\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5de8360620e3a9031eb564dc7ef60404}{%
+           family={Goksu},
+           familyi={G\bibinitperiod},
+           given={Yonca\bibnamedelima Alkan},
+           giveni={Y\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{52cbf79d979c37a38d24d2184edd075f}
+      \strng{fullhash}{712b5db8ecee1d931390e7b762293fd6}
+      \strng{bibnamehash}{52cbf79d979c37a38d24d2184edd075f}
+      \strng{authorbibnamehash}{52cbf79d979c37a38d24d2184edd075f}
+      \strng{authornamehash}{52cbf79d979c37a38d24d2184edd075f}
+      \strng{authorfullhash}{712b5db8ecee1d931390e7b762293fd6}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The development of biobased and environmental-friendly polymeric materials to replace petroleum-based plastics is one of the main global challenges nowadays. Among biopolymers, polyhydroxyalkanoates (PHAs) have gained increasing attention due to their compostability under environmental conditions. Copolymers of poly(3-hydroxybutyrate) (PHB) with comonomers belonging to PHA types have been developed to tackle better processability, higher ductility, and better impact properties. These common copolymers could be listed as poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV) and poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH). Compared to PHB and PHBV, PHBH has revealed a wider processing window with better thermal stability and more promising mechanical performance due to its tailorable composition of both highly crystalline (3HB) and elastomeric (3HH) units. The increase in 3HH unit content decreases the crystallinity and the melting temperature, which broadens the processing window with minimized thermal degradation. Therefore, PHBH could be employed in applications where both flexibility and room temperature compostability are required. However, PHBH has received minimal attention due to its low availability in the market, high cost, strict confidentiality of the polymer manufacturers, and continuous evolution in the synthesis stage. This article reviews the achievements in PHBH synthesis and the dependency of PHBH thermal, mechanical, and physical properties on the 3HH content. It also explores PHBH compostability and degradation behavior and the attempts made to develop PHBH based blends and composites. It further discusses the challenges and future perspectives for the usage of PHBH in various industrial applications.}
+      \field{issn}{0014-3057}
+      \field{journaltitle}{European Polymer Journal}
+      \field{title}{Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH): Synthesis, properties, and applications - A review}
+      \field{volume}{167}
+      \field{year}{2022}
+      \field{pages}{111044}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.eurpolymj.2022.111044
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0014305722000489
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0014305722000489
+      \endverb
+      \keyw{Poly (3-hydroxybutyrate-co-3-hydroxyhexanoate),PHBH,PHBHHx,Review}
     \endentry
     \entry{Messori_Bondioli_PHAs}{article}{}
       \name{author}{5}{}{%

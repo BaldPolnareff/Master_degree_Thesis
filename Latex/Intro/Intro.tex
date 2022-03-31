@@ -263,7 +263,14 @@
         
     \subsubsection{PHBH \label{PHBH}}
 
-    Can't find anything RN \clearpage
+    Poly(3-hydroxybutirate-\textit{co}-3-hydroxyhexanoate) is a copolymer of the PHA family, which gained 
+    interest in the AM field and specifically in SLS applications, since it has a wider sintering window (\ref{Powder_requirements}) than other polyhydroxyalkanoates
+    such as PHB and PHBV \autocites{DechetMaximilianA2020OtDo}{doi:10.1063/1.4918516}. \\ 
+    
+    Despite having gained attention in the PHA family for SLS, especially in academic environments, the general interest for this copolymer
+    is still relatively lower than other 
+    petrochemical polymers, due to its early-stage synthesis process that could be further improved, its high cost and the strict confidentiality 
+    of polymer manufacturers \autocite{Eraslan_PHBH_review}.  
 
     \section{PBS (Polybutylene Succinate) \label{PBS_in_general}}
 
@@ -408,7 +415,57 @@
     (\ref{PBS_in_general}), 
     polybutilene adipate terephtalate (PBAT) (\ref{PBAT_in_general}) and with polyhydroxyalkanoates (PHA) such as PHBH (\ref{PHA_in_general}). 
 
+    \subsubsection{Cloud point diagram \label{Cloud_point_diagram}}
 
+    After choosing a suitable moderate solvent, the process needs to be studied and quantified 
+    with a cloud point diagram of temperature, as a function of polymer weight concentration, allowing the identification of a dissolution 
+    temperature and the temperature where LLPS (liquid-liquid phase separation) occurs. 
+    
+    These measures allow better scalability of the process in larger controlled environments such as a reactor or autoclave system \autocite{DechetMaximilianA2020OtDo}.
+    
+    \subsubsection{Production in a controlled environment \label{precipitation_production_controlled_environment}}
+
+    The cloud point diagram data allows for an optimization of the production process in autoclave or reactor system. 
+
+    Temperature profile, initial polymer concentration and, most importantly, stirring conditions can greatly influence the final 
+    particle size distribution. 
+    
+    Stirring is the most impactful of these factors, producing smaller particles as the intensity increases. 
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\textwidth]{Pictures/particle_size_stirring.eps}
+        \caption{Particle size decreases as stirring RPM increase \autocites{DechetMaximilianA2020OtDo}{Inkscape}}
+        \label{fig:stirring_rpm}
+    \end{figure}
+
+    \subsection{Environmental impact \label{Environmental_impact}}
+
+    Cryogenic milling seems to be a more sustainable option for powder production, however, the issues discussed in \ref{Mechanical_milling}, 
+    make this method unsuitable for SLS, unless future development will improve overall powder morphology, perhaps with the aid of 
+    post processing with thermal rounding of the particles \autocite{DechetMaximilianA2020OtDo}. \\ 
+    
+    While powder production by 
+    chemical precipitation produces much better and more 
+    controllable powder feedstock, it is worth noting that organic solvents are intrinsically environmentally impactful and that should be taken 
+    into account especially for large scale production of these powders. 
+
+    The entire purpose of utilizing biopolymers in the first place might be pointless if their powder production 
+    utilizes compounds or processes that are not environmentally friendly. \\ 
+
+    Better innovative solutions or mitigations of these issues in the current pipelines need to be implemented in the near future. \\ 
+
+    Thermal rounding is a heat treatment, aimed at improving the bulk powder morphology for SLS applications. 
+    This kind of treatment might be the crucial step in the success of a more environmentally friendly pipeline, which does not involve 
+    any polluting solvent.
+
+    Powders can be heated either directly, with a carrier gas, or indirectly, using heated walls. 
+
+    While the former method has a better process yield and a reduced risk of lumping, the latter produces powders with 
+    a better, more spherical morphology, but with a significantly higher risk of particle agglomeration \autocite{Dechet_Schmidt_thermal_rounding}.
+    
+    
+    
 
 
 
