@@ -1,18 +1,18 @@
-\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Polymers in Additive Manufacturing}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Common AM techniques for polymers}{section.1}% 3
-\BOOKMARK [3][-]{subsubsection.1.2.1}{FDM \(Fused Deposition Modeling\) }{subsection.1.2}% 4
-\BOOKMARK [3][-]{subsubsection.1.2.2}{SLS \(Selective Laser Sintering\) }{subsection.1.2}% 5
-\BOOKMARK [1][-]{section.2}{PHAs \(Polyhydroxyalkanoates\) }{}% 6
-\BOOKMARK [2][-]{subsection.2.1}{PHA and Additive Manufacturing }{section.2}% 7
-\BOOKMARK [3][-]{subsubsection.2.1.1}{PHBH }{subsection.2.1}% 8
-\BOOKMARK [1][-]{section.3}{PBS \(Polybutylene Succinate\) }{}% 9
-\BOOKMARK [1][-]{section.4}{PBAT \(Polybutylene Adipate Terephtalate\) }{}% 10
-\BOOKMARK [1][-]{section.5}{Powder production for SLS }{}% 11
-\BOOKMARK [2][-]{subsection.5.1}{Powder requirements for SLS }{section.5}% 12
-\BOOKMARK [2][-]{subsection.5.2}{Mechanical milling }{section.5}% 13
-\BOOKMARK [2][-]{subsection.5.3}{Chemical precipitation }{section.5}% 14
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Polymer-Solvent System }{subsection.5.3}% 15
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Cloud point diagram }{subsection.5.3}% 16
-\BOOKMARK [3][-]{subsubsection.5.3.3}{Production in a controlled environment }{subsection.5.3}% 17
-\BOOKMARK [2][-]{subsection.5.4}{Environmental impact }{section.5}% 18
+\BOOKMARK [1][-]{section.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{\376\377\000P\000o\000l\000y\000m\000e\000r\000s\000\040\000i\000n\000\040\000A\000d\000d\000i\000t\000i\000v\000e\000\040\000M\000a\000n\000u\000f\000a\000c\000t\000u\000r\000i\000n\000g}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{\376\377\000C\000o\000m\000m\000o\000n\000\040\000A\000M\000\040\000t\000e\000c\000h\000n\000i\000q\000u\000e\000s\000\040\000f\000o\000r\000\040\000p\000o\000l\000y\000m\000e\000r\000s}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.2.1}{\376\377\000F\000D\000M\000\040\000\050\000F\000u\000s\000e\000d\000\040\000D\000e\000p\000o\000s\000i\000t\000i\000o\000n\000\040\000M\000o\000d\000e\000l\000i\000n\000g\000\051\000\040}{subsection.1.2}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.2}{\376\377\000S\000L\000S\000\040\000\050\000S\000e\000l\000e\000c\000t\000i\000v\000e\000\040\000L\000a\000s\000e\000r\000\040\000S\000i\000n\000t\000e\000r\000i\000n\000g\000\051\000\040}{subsection.1.2}% 5
+\BOOKMARK [1][-]{section.2}{\376\377\000P\000H\000A\000s\000\040\000\050\000P\000o\000l\000y\000h\000y\000d\000r\000o\000x\000y\000a\000l\000k\000a\000n\000o\000a\000t\000e\000s\000\051\000\040}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{\376\377\000P\000H\000A\000\040\000a\000n\000d\000\040\000A\000d\000d\000i\000t\000i\000v\000e\000\040\000M\000a\000n\000u\000f\000a\000c\000t\000u\000r\000i\000n\000g\000\040}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.1}{\376\377\000P\000H\000B\000H\000\040}{subsection.2.1}% 8
+\BOOKMARK [1][-]{section.3}{\376\377\000P\000B\000S\000\040\000\050\000P\000o\000l\000y\000b\000u\000t\000y\000l\000e\000n\000e\000\040\000S\000u\000c\000c\000i\000n\000a\000t\000e\000\051\000\040}{}% 9
+\BOOKMARK [1][-]{section.4}{\376\377\000P\000B\000A\000T\000\040\000\050\000P\000o\000l\000y\000b\000u\000t\000y\000l\000e\000n\000e\000\040\000A\000d\000i\000p\000a\000t\000e\000\040\000T\000e\000r\000e\000p\000h\000t\000a\000l\000a\000t\000e\000\051\000\040}{}% 10
+\BOOKMARK [1][-]{section.5}{\376\377\000P\000o\000w\000d\000e\000r\000\040\000p\000r\000o\000d\000u\000c\000t\000i\000o\000n\000\040\000f\000o\000r\000\040\000S\000L\000S\000\040}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{\376\377\000P\000o\000w\000d\000e\000r\000\040\000r\000e\000q\000u\000i\000r\000e\000m\000e\000n\000t\000s\000\040\000f\000o\000r\000\040\000S\000L\000S\000\040}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{\376\377\000M\000e\000c\000h\000a\000n\000i\000c\000a\000l\000\040\000m\000i\000l\000l\000i\000n\000g\000\040}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.3}{\376\377\000C\000h\000e\000m\000i\000c\000a\000l\000\040\000p\000r\000e\000c\000i\000p\000i\000t\000a\000t\000i\000o\000n\000\040}{section.5}% 14
+\BOOKMARK [3][-]{subsubsection.5.3.1}{\376\377\000P\000o\000l\000y\000m\000e\000r\000-\000S\000o\000l\000v\000e\000n\000t\000\040\000S\000y\000s\000t\000e\000m\000\040}{subsection.5.3}% 15
+\BOOKMARK [3][-]{subsubsection.5.3.2}{\376\377\000C\000l\000o\000u\000d\000\040\000p\000o\000i\000n\000t\000\040\000d\000i\000a\000g\000r\000a\000m\000\040}{subsection.5.3}% 16
+\BOOKMARK [3][-]{subsubsection.5.3.3}{\376\377\000P\000r\000o\000d\000u\000c\000t\000i\000o\000n\000\040\000i\000n\000\040\000a\000\040\000c\000o\000n\000t\000r\000o\000l\000l\000e\000d\000\040\000e\000n\000v\000i\000r\000o\000n\000m\000e\000n\000t\000\040}{subsection.5.3}% 17
+\BOOKMARK [2][-]{subsection.5.4}{\376\377\000E\000n\000v\000i\000r\000o\000n\000m\000e\000n\000t\000a\000l\000\040\000i\000m\000p\000a\000c\000t\000\040}{section.5}% 18
