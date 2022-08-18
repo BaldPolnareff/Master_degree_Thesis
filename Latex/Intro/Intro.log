@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  16 AUG 2022 19:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  18 AUG 2022 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -519,45 +519,98 @@ Package: fancyref 1999/02/03 v0.9c Fancy cross-referencing
  (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/varioref.sty
 Package: varioref 2021/07/07 v1.6f package for extended references (FMi)
 \c@vrcnt=\count425
-))
-Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/fancylabel/fancylabel.sty
+Package: fancylabel 2017/12/30 v1.1 Referencing in a fancy way
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count426
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+\c@fancylabel=\count427
+\c@fancysublabel=\count428
+\c@fancyref@sort@x=\count429
+\c@fancyref@sort@y=\count430
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyheadings.sty
+Package: fancyheadings 2021/01/28 v4.0.1 Legacy package to call fancyhdr
+
+
+Package fancyheadings Warning: Please stop using fancyheadings!
+(fancyheadings)                Use fancyhdr instead.
+(fancyheadings)                We will call fancyhdr with the very same
+(fancyheadings)                options you passed to fancyheadings.
+(fancyheadings)                
+(fancyheadings)                fancyhdr is 99 percent compatible with
+(fancyheadings)                fancyheadings. The only incompatibility is
+(fancyheadings)                that \headrulewidth and \footrulewidth and
+(fancyheadings)                their \plain... versions are no longer length
+(fancyheadings)                parameters, but normal macros (to be changed
+(fancyheadings)                with \renewcommand rather than \setlength)..
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip81
+\f@nch@O@elh=\skip82
+\f@nch@O@erh=\skip83
+\f@nch@O@olh=\skip84
+\f@nch@O@orh=\skip85
+\f@nch@O@elf=\skip86
+\f@nch@O@erf=\skip87
+\f@nch@O@olf=\skip88
+\f@nch@O@orf=\skip89
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count431
+\l__lipsum_a_int=\count432
+\l__lipsum_b_int=\count433
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+Package hyperref Info: Option `colorlinks' set `true' on input line 26.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 23.
+(hyperref)                setting the option has no effect on input line 26.
 
-\@quotelevel=\count426
-\@quotereset=\count427
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 28.
+\@quotelevel=\count434
+\@quotereset=\count435
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 31.
 (./Intro.aux)
 \openout1 = `Intro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Info: Redefining \celsius on input line 28.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Info: Redefining \celsius on input line 31.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 31.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 28.
-Package gensymb Info: Using \Omega for \ohm on input line 28.
+LaTeX Info: Redefining \ohm on input line 31.
+Package gensymb Info: Using \Omega for \ohm on input line 31.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -574,30 +627,24 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Intro.bbl' found.
  (./Intro.bbl)
-Package biblatex Info: Reference section=0 on input line 28.
-Package biblatex Info: Reference segment=0 on input line 28.
+Package biblatex Info: Reference section=0 on input line 31.
+Package biblatex Info: Reference segment=0 on input line 31.
  (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count428
+\scratchcounter=\count436
 \scratchdimen=\dimen184
 \scratchbox=\box63
-\nofMPsegments=\count429
-\nofMParguments=\count430
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count431
+\nofMPsegments=\count437
+\nofMParguments=\count438
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count439
 \MPscratchDim=\dimen185
-\MPnumerator=\count432
-\makeMPintoPDFobject=\count433
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count440
+\makeMPintoPDFobject=\count441
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
@@ -607,7 +654,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
-Package hyperref Info: Link coloring ON on input line 28.
+Package hyperref Info: Link coloring ON on input line 31.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -615,21 +662,21 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count434
+\c@section@level=\count442
 LaTeX Info: Redefining \Ref on input line 520.
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
  (./Intro.out) (./Intro.out)
 \@outlinefile=\write4
 \openout4 = `Intro.out'.
 
-LaTeX Info: Redefining \Ref on input line 28.
+LaTeX Info: Redefining \Ref on input line 31.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 28.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 31.
 Package epstopdf Info: Source file: <Pictures/polito_logo.eps>
 (epstopdf)                    date: 2022-04-03 21:33:01
 (epstopdf)                    size: 106431 bytes
@@ -637,68 +684,81 @@ Package epstopdf Info: Source file: <Pictures/polito_logo.eps>
 (epstopdf)                    date: 2022-04-03 21:33:01
 (epstopdf)                    size: 42331 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/polito_logo-eps-converted-to.pdf Pictures/polito_logo.eps>
-(epstopdf)             \includegraphics on input line 32.
+(epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/polito_logo-eps-converted-to.pdf, id=76, 915.42pt x 860.21375pt>
+<Pictures/polito_logo-eps-converted-to.pdf, id=164, 915.42pt x 860.21375pt>
 File: Pictures/polito_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/polito_logo-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/polito_logo-eps-converted-to.pdf  used on input line 32.
+Package pdftex.def Info: Pictures/polito_logo-eps-converted-to.pdf  used on input line 35.
 (pdftex.def)             Requested size: 276.00105pt x 259.35243pt.
  [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/polito_logo-eps-converted-to.pdf>] (./Intro.toc)
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/polito_logo-eps-converted-to.pdf>] [2]
+Overfull \hbox (3.09709pt too wide) in paragraph at lines 48--50
+[]\OT1/cmr/m/n/9 After an ex-ten-sive re-search on cur-rent \OT1/cmr/m/it/9 state-of-the-art \OT1/cmr/m/n/9 pro-duc-tion meth-
+ []
+
+[3] (./Intro.toc [4])
 \tf@toc=\write5
 \openout5 = `Intro.toc'.
 
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+ [5] (./Intro.lof)
+\tf@lof=\write6
+\openout6 = `Intro.lof'.
+
+ [6] (./Intro.lot)
+\tf@lot=\write7
+\openout7 = `Intro.lot'.
+
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
-[5
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+
+ []
+
+[10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--147
+Underfull \hbox (badness 10000) in paragraph at lines 165--169
 
  []
 
@@ -709,100 +769,100 @@ Package epstopdf Info: Source file: <Pictures/SLS_temp_over_time.eps>
 (epstopdf)                    date: 2022-04-03 21:33:01
 (epstopdf)                    size: 19386 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SLS_temp_over_time-eps-converted-to.pdf Pictures/SLS_temp_over_time.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 180.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/SLS_temp_over_time-eps-converted-to.pdf, id=143, 1291.82625pt x 984.67876pt>
+<Pictures/SLS_temp_over_time-eps-converted-to.pdf, id=298, 1291.82625pt x 984.67876pt>
 File: Pictures/SLS_temp_over_time-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/SLS_temp_over_time-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/SLS_temp_over_time-eps-converted-to.pdf  used on input line 158.
+Package pdftex.def Info: Pictures/SLS_temp_over_time-eps-converted-to.pdf  used on input line 180.
 (pdftex.def)             Requested size: 217.35168pt x 165.6653pt.
-[6
+[11
 
  <./Pictures/SLS_temp_over_time-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
+Underfull \hbox (badness 10000) in paragraph at lines 190--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--175
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--199
+Underfull \hbox (badness 10000) in paragraph at lines 218--221
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--230
+Underfull \hbox (badness 10000) in paragraph at lines 249--252
 
  []
 
-[8
+[13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 247--251
+Underfull \hbox (badness 10000) in paragraph at lines 269--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--265
+Underfull \hbox (badness 10000) in paragraph at lines 284--287
 
  []
 
 
-Overfull \hbox (1.10857pt too wide) in paragraph at lines 268--271
+Overfull \hbox (1.10857pt too wide) in paragraph at lines 290--293
 \OT1/cmr/m/n/10 Poly(3-hydroxybutirate-\OT1/cmr/m/it/10 co\OT1/cmr/m/n/10 -3-hydroxyhexanoate) is a copoly-mer of the PHA fam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--271
+Underfull \hbox (badness 10000) in paragraph at lines 290--293
 
  []
 
-[9
+[14
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 279--282
+Underfull \hbox (badness 10000) in paragraph at lines 301--304
 
  []
 
-[10
+[15
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 305--309
+Underfull \hbox (badness 10000) in paragraph at lines 327--331
 
  []
 
-[11
+[16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
 
-Overfull \hbox (0.16728pt too wide) in paragraph at lines 342--344
+Overfull \hbox (0.16728pt too wide) in paragraph at lines 364--366
 []\OT1/cmr/m/n/10 Particle mor-phol-ogy is cru-cial in the sin-ter-ing mech-a-nism, where reg-u-lar, smooth
  []
 
@@ -813,44 +873,44 @@ Package epstopdf Info: Source file: <Pictures/sintering_neck.eps>
 (epstopdf)                    date: 2022-04-03 21:33:01
 (epstopdf)                    size: 3339469 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/sintering_neck-eps-converted-to.pdf Pictures/sintering_neck.eps>
-(epstopdf)             \includegraphics on input line 347.
+(epstopdf)             \includegraphics on input line 369.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/sintering_neck-eps-converted-to.pdf, id=222, 1483.5425pt x 825.0825pt>
+<Pictures/sintering_neck-eps-converted-to.pdf, id=373, 1483.5425pt x 825.0825pt>
 File: Pictures/sintering_neck-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/sintering_neck-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/sintering_neck-eps-converted-to.pdf  used on input line 347.
+Package pdftex.def Info: Pictures/sintering_neck-eps-converted-to.pdf  used on input line 369.
 (pdftex.def)             Requested size: 172.5pt x 95.93373pt.
-[12
+[17
 
  <./Pictures/sintering_neck-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--390
+Underfull \hbox (badness 10000) in paragraph at lines 409--412
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
 
  []
 
 
-Overfull \hbox (10.63844pt too wide) in paragraph at lines 415--417
+Overfull \hbox (10.63844pt too wide) in paragraph at lines 437--439
 \OT1/cmr/m/n/10 There is lit-tle va-ri-ety in the mar-ket of SLS ready poly-mer pow-ders, with polyamide-
  []
 
-[13
+[18
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 426--428
+Underfull \hbox (badness 10000) in paragraph at lines 448--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--434
+Underfull \hbox (badness 10000) in paragraph at lines 453--456
 
  []
 
@@ -861,14 +921,14 @@ Package epstopdf Info: Source file: <Pictures/TEAS_plot.eps>
 (epstopdf)                    date: 2022-04-03 21:33:01
 (epstopdf)                    size: 12876 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/TEAS_plot-eps-converted-to.pdf Pictures/TEAS_plot.eps>
-(epstopdf)             \includegraphics on input line 451.
+(epstopdf)             \includegraphics on input line 473.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/TEAS_plot-eps-converted-to.pdf, id=260, 1840.8775pt x 1314.9125pt>
+<Pictures/TEAS_plot-eps-converted-to.pdf, id=409, 1840.8775pt x 1314.9125pt>
 File: Pictures/TEAS_plot-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/TEAS_plot-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/TEAS_plot-eps-converted-to.pdf  used on input line 451.
+Package pdftex.def Info: Pictures/TEAS_plot-eps-converted-to.pdf  used on input line 473.
 (pdftex.def)             Requested size: 137.9979pt x 98.55399pt.
-[14 <./Pictures/TEAS_plot-eps-converted-to.pdf>]
+[19 <./Pictures/TEAS_plot-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/particle_size_stirring.eps>
 (epstopdf)                    date: 2022-04-03 21:33:01
 (epstopdf)                    size: 143218 bytes
@@ -876,70 +936,82 @@ Package epstopdf Info: Source file: <Pictures/particle_size_stirring.eps>
 (epstopdf)                    date: 2022-04-03 21:33:01
 (epstopdf)                    size: 136147 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/particle_size_stirring-eps-converted-to.pdf Pictures/particle_size_stirring.eps>
-(epstopdf)             \includegraphics on input line 483.
+(epstopdf)             \includegraphics on input line 505.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/particle_size_stirring-eps-converted-to.pdf, id=279, 2275.50125pt x 2031.59pt>
+<Pictures/particle_size_stirring-eps-converted-to.pdf, id=428, 2275.50125pt x 2031.59pt>
 File: Pictures/particle_size_stirring-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/particle_size_stirring-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/particle_size_stirring-eps-converted-to.pdf  used on input line 483.
+Package pdftex.def Info: Pictures/particle_size_stirring-eps-converted-to.pdf  used on input line 505.
 (pdftex.def)             Requested size: 172.5pt x 154.00565pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--493
+Underfull \hbox (badness 10000) in paragraph at lines 512--515
 
  []
 
-[15 <./Pictures/particle_size_stirring-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 499--501
+[20 <./Pictures/particle_size_stirring-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 521--523
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
 
  []
 
-[16]
-Overfull \hbox (27.42413pt too wide) in paragraph at lines 529--529
+[21]
+Overfull \hbox (9.05615pt too wide) in paragraph at lines 537--537
+[]\OT1/cmr/bx/n/14.4 Laboratory en-vi-ron-men-tal con-di-tions and avail-
+ []
+
+
+Overfull \hbox (1.1413pt too wide) in paragraph at lines 539--539
+[]\OT1/cmr/bx/n/14.4 Initial chem-i-cal pre-cip-i-ta-tion recipe for PHBH[] 
+ []
+
+[22
+
+] [23]
+Overfull \hbox (27.42413pt too wide) in paragraph at lines 583--583
 []\OT1/cmr/m/n/10 Kerim Eraslan et al. ``Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH):
  []
 
 
-Overfull \hbox (4.79904pt too wide) in paragraph at lines 529--529
+Overfull \hbox (4.79904pt too wide) in paragraph at lines 583--583
 []\OT1/cmr/m/n/10 Alberto Giu-bilini et al. ``Ad-van-tages of Ad-di-tive Man-u-fac-tur-ing for Biomed-
  []
 
 
-Overfull \hbox (2.25262pt too wide) in paragraph at lines 529--529
+Overfull \hbox (2.25262pt too wide) in paragraph at lines 583--583
 \OT1/cmr/m/n/10 i-cal Ap-pli-ca-tions of Poly-hy-drox-yalka-noates''. In: \OT1/cmr/m/it/10 Bio-engi-neer-ing \OT1/cmr/m/n/10 8.2 (2021).
  []
 
 
-Overfull \hbox (22.13965pt too wide) in paragraph at lines 529--529
+Overfull \hbox (22.13965pt too wide) in paragraph at lines 583--583
 \OT1/cmr/m/n/10 prop-er-ties and ap-pli-ca-tions of poly(butylene-adipate-co-terephthalate)-PBAT''.
  []
 
-[17
+[24
 
-] [18] (./Intro.aux)
+] [25] (./Intro.aux)
 Package rerunfilecheck Info: File `Intro.out' has not changed.
-(rerunfilecheck)             Checksum: 1D9CAD0EE52102FFD6FF3C315F5727C6;3599.
+(rerunfilecheck)             Checksum: 4735346F72FE70F9A4BD7833D273C956;8036.
 Package logreq Info: Writing requests to 'Intro.run.xml'.
 \openout1 = `Intro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20897 strings out of 478268
- 415192 string characters out of 5846347
- 1075976 words of memory out of 5000000
- 38831 multiletter control sequences out of 15000+600000
- 476797 words of font info for 54 fonts, out of 8000000 for 9000
+ 22083 strings out of 478268
+ 439168 string characters out of 5846347
+ 1190592 words of memory out of 5000000
+ 39940 multiletter control sequences out of 15000+600000
+ 477749 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,68p,1917b,1819s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Intro.pdf (18 pages, 3742306 bytes).
+ 60i,6n,69p,1917b,1820s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Intro.pdf (25 pages, 3791036 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 339 compressed objects within 4 object streams
- 60 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 580 PDF objects out of 1000 (max. 8388607)
+ 501 compressed objects within 6 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 346 words of extra memory for PDF output out of 10000 (max. 10000000)
 
