@@ -10,6 +10,10 @@
 \usepackage{gensymb}
 \usepackage{mathtools}
 \usepackage{fancyref}
+\usepackage{fancylabel}
+\usepackage{fancyheadings}
+\usepackage{lipsum}
+\usepackage{glossaries}
 %\usepackage{chemfig}
 \addbibresource{/Users/giorgio/Bibliography/bibliography.bib}
 \hypersetup{
@@ -22,7 +26,7 @@
     bookmarks=true,
 }
 
-\author{Giorgio De Trane}
+\author{Giorgio De Trane, s275514}
 \title{\textbf{Selective Laser Sintering for sustainable polymers}}
 
 \begin{document}
@@ -30,11 +34,38 @@
     \maketitle
     \begin{center}
         \includegraphics[width=0.8\textwidth]{Pictures/polito_logo.eps}\linebreak\newline
+        
         \textit{Year 2021/2022}
     \end{center}
 
     \newpage
+    \begin{center}
+        To my parents, whose love has always been unconditional, intense and at times hard to comprehend. 
+    \end{center}
+    \newpage
+
+    %% Glossary
+
+    %\newacronym{PHBH}{PHBH}{Poly(3-hydroxybutirate-\textit{co}-3-hydroxyhexanoate)}
+%
+    %\makeglossary
+    %\newpage
+    \begin{abstract}
+        The goal of this case study is to optimize the production of SLS suitable fine powders of sustainable biopolymers. 
+
+        After an extensive research on current \textit{state-of-the-art} production methods, suitable processes have been experimented, 
+        with the available lab equipment, leading to the choice of \textit{chemical precipitation}. 
+
+        An initial recipe for \textit{PHBH}, previously tested by other researchers at \textit{DISAT, PoliTo}, has been tweaked and improved, 
+        achieving over a ten-fold increase in pellet-to-powder production yield. 
+
+    \end{abstract}
+    \newpage
     \tableofcontents
+    \newpage 
+    \listoffigures
+    \newpage
+    \listoftables
     \newpage
     \section{Introduction\label{Intro}}
 
@@ -508,6 +539,93 @@
 
     While the former method has a better process yield and reduced risk of lumping, the latter produces powders with 
     a better, more spherical morphology, but with a significantly higher risk of particle agglomeration \autocite{Dechet_Schmidt_thermal_rounding}.
+
+    \clearpage
+
+    \section{Laboratory environmental conditions and available equipment\label{Lab_condition_equipment}}
+
+    The experimental phase of this case study has been conducted in various laboratories at \textit{DISAT@PoliTo}. \\ 
+
+    The main production process (\ref{Choice_material_process}) has been studied and optimized in 
+    the \textit{Tape Casting} lab, then the residual moisture of each - cleaned and 
+    unsieved - batch of powder has been removed in an oven at the \textit{Burner Rig} lab (\ref{Choice_material_process}).
+
+    Several powder samples, collected at different phases of the optimization process, have been analyzed 
+    with a \textit{SEM} (Scanning Electron Microscope) at a third party 
+    facility (\ref{SEM_analysis}), and subjected to 
+    a \textit{TGA} (\ref{TGA_Analysis}) and a \textit{DSC} (\ref{DSC_analysis}) 
+    at the \textit{Thermal Analysis} lab of the same department. \\ 
+    
+        \subsection{Tape Casting lab\label{Tape_casting}}
+
+        The laboratory has a large workbench and is stocked with all sorts of useful tools and equipment, especially flasks,
+        beakers and glassware 
+        in general, as well as a chemical hood, which was essential for a safe use of chloroform 
+        (\ref{Initial_recipe}, \ref{detailed_reaction}). \\ 
+
+        A huge problem of this specific laboratory were the uncontrolled environmental conditions. \\
+
+        The extremely high summer temperatures (usually close to $40 \ ^{\circ} C$ and never lower than 
+        $30 \ ^{\circ} C$) drastically accelerated the evaporation of chloroform, which resulted in a 
+        very viscous PHBH solution that either ended up in a very low yield, or entirely disrupted the 
+        precipitation process by clogging the drippers (\ref{Initial_recipe, recipe_improvement}).
+
+        The uncontrolled humidity was another factor that hindered the production pipeline, given that the very 
+        fine powders are extremely hygroscopic and prone to creating hard to separate lumps. \\ 
+        
+        These critical issues led to several adaptations and better choices among the available pieces of
+        equipment (\ref{recipe_improvement}, \ref{faulty_equipment}), as well as tweaking of the precipitation 
+        reaction, which in turn increased the pellet-to-powder yield by over ten-fold, compared to the initial 
+        results (\ref{initial_failures}).
+
+
+
+    \clearpage
+    \section{Choice of material and production process\label{Choice_material_process}}
+
+    \clearpage
+    \section{Initial chemical precipitation recipe for PHBH\label{Initial_recipe}}
+    General description, critical aspects of the process' sensitivity to the external 
+    environment, extremely low yield, yada yada yada 
+        \subsection{Components\label{Components}}
+        \subsection{Detailed step-by-step reaction\label{detailed_reaction}}
+        \subsection{Initial results and failures\label{initial_failures}}
+
+    \clearpage
+
+    \section{Recipe tweaking and improvements\label{recipe_improvement}}
+        \subsection{Key variables\label{key_variables}}
+        \subsection{Adaptation to faulty or unsuitable equipment\label{faulty_equipment}}
+        \subsection{Current results\label{promising_results}}
+        \subsection{Consistent reproducibility and scalability\label{consistent_reproducibility}}
+
+    \clearpage
+    \section{Powder granulometry and morphology\label{powder_granulometry_morphology}}
+        \subsection{Sieving process\label{sieving}}
+
+    \clearpage
+        \subsection{SEM (Scanning Electron Microscope) analysis\label{SEM_analysis}}
+        Generalities of SEM yada yada yada 
+            \subsubsection{Results}
+
+    \clearpage
+    \section{Thermal analysis\label{Thermal_analysis}}
+    Generalities of thermal analysis yada yada yada
+        \subsection{DSC (Differential Scanning Calorimetry)\label{DSC_analysis}}
+        Generalities of DSC yada yada yada 
+            \subsubsection{Results}
+        \subsection{TGA (Thermal Gravimetric Analysis)\label{TGA_Analysis}}
+        Generalities of TGA yada yada yada 
+            \subsubsection{Results}
+
+    \clearpage
+    \section{SLS printing of a single layer object}
+
+    \clearpage
+    \section{Conclusion}
+
+    
+
     
     
     
@@ -525,5 +643,4 @@
     \clearpage
 
     \printbibliography
-    
 \end{document}

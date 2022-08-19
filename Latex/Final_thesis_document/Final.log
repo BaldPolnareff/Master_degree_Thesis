@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  19 AUG 2022 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  19 AUG 2022 22:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/giorgio/GIT/Master_degree_Thesis/Latex/Intro/Intro.tex
-(/Users/giorgio/GIT/Master_degree_Thesis/Latex/Intro/Intro.tex
+**/Users/giorgio/GIT/Master_degree_Thesis/Latex/Final_thesis_document/Final.tex
+(/Users/giorgio/GIT/Master_degree_Thesis/Latex/Final_thesis_document/Final.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -704,8 +704,8 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 \@quotelevel=\count460
 \@quotereset=\count461
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 32.
-(./Intro.aux)
-\openout1 = `Intro.aux'.
+(./Final.aux)
+\openout1 = `Final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -744,11 +744,11 @@ File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `Intro.bcf'.
+\openout3 = `Final.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Intro.bbl' found.
- (./Intro.bbl)
+Package biblatex Info: ... file 'Final.bbl' found.
+ (./Final.bbl)
 Package biblatex Info: Reference section=0 on input line 32.
 Package biblatex Info: Reference segment=0 on input line 32.
  (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -790,21 +790,20 @@ LaTeX Info: Redefining \Ref on input line 520.
 LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
 LaTeX Info: Redefining \nameref on input line 32.
- (./Intro.out) (./Intro.out)
+ (./Final.out) (./Final.out)
 \@outlinefile=\write4
-\openout4 = `Intro.out'.
+\openout4 = `Final.out'.
 
 LaTeX Info: Redefining \Ref on input line 32.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 32.
- (./Intro.glsdefs)
 Package epstopdf Info: Source file: <Pictures/polito_logo.eps>
-(epstopdf)                    date: 2022-04-03 21:33:01
+(epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 106431 bytes
 (epstopdf)             Output file: <Pictures/polito_logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-04-03 21:33:01
+(epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 42331 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/polito_logo-eps-converted-to.pdf Pictures/polito_logo.eps>
 (epstopdf)             \includegraphics on input line 36.
@@ -821,17 +820,17 @@ Overfull \hbox (3.09709pt too wide) in paragraph at lines 56--58
 []\OT1/cmr/m/n/9 After an ex-ten-sive re-search on cur-rent \OT1/cmr/m/it/9 state-of-the-art \OT1/cmr/m/n/9 pro-duc-tion meth-
  []
 
-[3] (./Intro.toc [4])
+[3] (./Final.toc [4])
 \tf@toc=\write5
-\openout5 = `Intro.toc'.
+\openout5 = `Final.toc'.
 
- [5] (./Intro.lof)
+ [5] (./Final.lof)
 \tf@lof=\write6
-\openout6 = `Intro.lof'.
+\openout6 = `Final.lof'.
 
- [6] (./Intro.lot)
+ [6] (./Final.lot)
 \tf@lot=\write7
-\openout7 = `Intro.lot'.
+\openout7 = `Final.lot'.
 
  [7]
 Underfull \hbox (badness 10000) in paragraph at lines 75--77
@@ -886,10 +885,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--177
  []
 
 Package epstopdf Info: Source file: <Pictures/SLS_temp_over_time.eps>
-(epstopdf)                    date: 2022-04-03 21:33:01
+(epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 28795 bytes
 (epstopdf)             Output file: <Pictures/SLS_temp_over_time-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-04-03 21:33:01
+(epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 19386 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SLS_temp_over_time-eps-converted-to.pdf Pictures/SLS_temp_over_time.eps>
 (epstopdf)             \includegraphics on input line 188.
@@ -990,10 +989,10 @@ Overfull \hbox (0.16728pt too wide) in paragraph at lines 372--374
  []
 
 Package epstopdf Info: Source file: <Pictures/sintering_neck.eps>
-(epstopdf)                    date: 2022-04-03 21:33:01
+(epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 4281565 bytes
 (epstopdf)             Output file: <Pictures/sintering_neck-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-04-03 21:33:01
+(epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 3339469 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/sintering_neck-eps-converted-to.pdf Pictures/sintering_neck.eps>
 (epstopdf)             \includegraphics on input line 377.
@@ -1038,10 +1037,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 461--464
  []
 
 Package epstopdf Info: Source file: <Pictures/TEAS_plot.eps>
-(epstopdf)                    date: 2022-04-03 21:33:01
+(epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 31092 bytes
 (epstopdf)             Output file: <Pictures/TEAS_plot-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-04-03 21:33:01
+(epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 12876 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/TEAS_plot-eps-converted-to.pdf Pictures/TEAS_plot.eps>
 (epstopdf)             \includegraphics on input line 481.
@@ -1053,10 +1052,10 @@ Package pdftex.def Info: Pictures/TEAS_plot-eps-converted-to.pdf  used on input 
 (pdftex.def)             Requested size: 137.9979pt x 98.55399pt.
 [19 <./Pictures/TEAS_plot-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/particle_size_stirring.eps>
-(epstopdf)                    date: 2022-04-03 21:33:01
+(epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 143218 bytes
 (epstopdf)             Output file: <Pictures/particle_size_stirring-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-04-03 21:33:01
+(epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 136147 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/particle_size_stirring-eps-converted-to.pdf Pictures/particle_size_stirring.eps>
 (epstopdf)             \includegraphics on input line 513.
@@ -1114,9 +1113,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 573--575
 
  []
 
-
-LaTeX Warning: Reference `recipe_improvement, faulty_equipment' on page 22 undefined on input line 577.
-
 [22
 
 ] [23
@@ -1162,29 +1158,29 @@ Overfull \hbox (22.13965pt too wide) in paragraph at lines 646--646
 
 [31
 
-] [32] (./Intro.aux)
+] [32] (./Final.aux)
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Intro.out' has not changed.
+Package rerunfilecheck Info: File `Final.out' has not changed.
 (rerunfilecheck)             Checksum: 27D6EC8B705EB9FA72DC6160D581D311;8180.
-Package logreq Info: Writing requests to 'Intro.run.xml'.
-\openout1 = `Intro.run.xml'.
+Package logreq Info: Writing requests to 'Final.run.xml'.
+\openout1 = `Final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25952 strings out of 478268
- 508121 string characters out of 5846347
+ 25919 strings out of 478268
+ 507645 string characters out of 5846347
  1300636 words of memory out of 5000000
- 43709 multiletter control sequences out of 15000+600000
+ 43678 multiletter control sequences out of 15000+600000
  477749 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,6n,91p,1917b,1820s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 91i,6n,91p,1933b,1820s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Intro.pdf (32 pages, 3796071 bytes).
+Output written on Final.pdf (32 pages, 3796125 bytes).
 PDF statistics:
- 623 PDF objects out of 1000 (max. 8388607)
- 537 compressed objects within 6 object streams
+ 625 PDF objects out of 1000 (max. 8388607)
+ 539 compressed objects within 6 object streams
  99 named destinations out of 1000 (max. 500000)
  354 words of extra memory for PDF output out of 10000 (max. 10000000)
 
