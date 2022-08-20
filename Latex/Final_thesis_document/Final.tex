@@ -1,5 +1,4 @@
 \documentclass{article}
-%usepackage[T1]{fontenc}
 \usepackage{gensymb}
 \usepackage[backend=biber]{biblatex}
 \usepackage{graphicx}
@@ -7,14 +6,9 @@
 \usepackage{booktabs}
 \usepackage{siunitx}
 \usepackage[]{amsmath}
-\usepackage{gensymb}
 \usepackage{mathtools}
 \usepackage{fancyref}
-\usepackage{fancylabel}
-\usepackage{fancyheadings}
 \usepackage{lipsum}
-\usepackage{glossaries}
-%\usepackage{chemfig}
 \addbibresource{/Users/giorgio/Bibliography/bibliography.bib}
 \hypersetup{
     colorlinks=true,
@@ -44,12 +38,6 @@
     \end{center}
     \newpage
 
-    %% Glossary
-
-    %\newacronym{PHBH}{PHBH}{Poly(3-hydroxybutirate-\textit{co}-3-hydroxyhexanoate)}
-%
-    %\makeglossary
-    %\newpage
     \begin{abstract}
         The goal of this case study is to optimize the production of SLS suitable fine powders of sustainable biopolymers. 
 
@@ -65,7 +53,7 @@
     \newpage 
     \listoffigures
     \newpage
-    \listoftables
+    %\listoftables
     \newpage
     \section{Introduction\label{Intro}}
 
@@ -568,7 +556,7 @@
         The extremely high summer temperatures (usually close to $40 \ ^{\circ} C$ and never lower than 
         $30 \ ^{\circ} C$) drastically accelerated the evaporation of chloroform, which resulted in a 
         very viscous PHBH solution that either ended up in a very low yield, or entirely disrupted the 
-        precipitation process by clogging the drippers (\ref{Initial_recipe, recipe_improvement}).
+        precipitation process by clogging the drippers (\ref{Initial_recipe}, \ref{recipe_improvement}).
 
         The uncontrolled humidity was another factor that hindered the production pipeline, given that the very 
         fine powders are extremely hygroscopic and prone to creating hard to separate lumps. \\ 
@@ -582,6 +570,26 @@
 
     \clearpage
     \section{Choice of material and production process\label{Choice_material_process}}
+
+    As seen in previous chapters, samples of PHBH (\ref{PHBH}), PBAT (\ref{PBAT_in_general}) and 
+    PBS (\ref{PBS_in_general}) were available for this experimental phase. \\ 
+
+    An early stage precipitation reaction had already been developed for PHBH, by other researchers at \textit{Disat@PoliTo}. 
+    This initial recipe (\ref{Initial_recipe}) has been tested out with the other biopolymers as well, but PHBH held the most promising 
+    results even in its early stages. \\ 
+
+    Other approaches such as cryogenic milling (\ref{Mechanical_milling}) have been briefly tried, but quickly 
+    discarded, due to the lack of equipment suitable for thermal rounding treatments. 
+
+    The grinding procedure, aided by liquid nitrogen, proved to be successful at producing fine powders. 
+
+    However, unless a thermal rounding treatment is applied, the powder 
+    morphology is too irregular and far from the ideal spherical geometry, thus making the 
+    obtained batches unsuitable for 3D printing. \\  
+
+    All of the mentioned points led to choosing PHBH for this case study, focusing on the optimization of 
+    the available blueprint for a suitable chemical 
+    precipitation process. 
 
     \clearpage
     \section{Initial chemical precipitation recipe for PHBH\label{Initial_recipe}}

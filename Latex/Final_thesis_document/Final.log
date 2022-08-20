@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  19 AUG 2022 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.14)  20 AUG 2022 20:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -519,220 +519,50 @@ Package: fancyref 1999/02/03 v0.9c Fancy cross-referencing
  (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/varioref.sty
 Package: varioref 2021/07/07 v1.6f package for extended references (FMi)
 \c@vrcnt=\count425
-)) (/usr/local/texlive/2022/texmf-dist/tex/latex/fancylabel/fancylabel.sty
-Package: fancylabel 2017/12/30 v1.1 Referencing in a fancy way
- (/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
- (/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks23
-\XKV@tempa@toks=\toks24
-)
-\XKV@depth=\count426
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/local/texlive/2022/texmf-dist/tex/latex/xifthen/xifthen.sty
-Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
- (/usr/local/texlive/2022/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
-Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
-)) (/usr/local/texlive/2022/texmf-dist/tex/latex/bigfoot/suffix.sty
-Package: suffix 2006/07/15 1.5a Variant command support
-)
-\c@fancylabel=\count427
-\c@fancysublabel=\count428
-\c@fancyref@sort@x=\count429
-\c@fancyref@sort@y=\count430
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyheadings.sty
-Package: fancyheadings 2021/01/28 v4.0.1 Legacy package to call fancyhdr
-
-
-Package fancyheadings Warning: Please stop using fancyheadings!
-(fancyheadings)                Use fancyhdr instead.
-(fancyheadings)                We will call fancyhdr with the very same
-(fancyheadings)                options you passed to fancyheadings.
-(fancyheadings)                
-(fancyheadings)                fancyhdr is 99 percent compatible with
-(fancyheadings)                fancyheadings. The only incompatibility is
-(fancyheadings)                that \headrulewidth and \footrulewidth and
-(fancyheadings)                their \plain... versions are no longer length
-(fancyheadings)                parameters, but normal macros (to be changed
-(fancyheadings)                with \renewcommand rather than \setlength)..
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip81
-\f@nch@O@elh=\skip82
-\f@nch@O@erh=\skip83
-\f@nch@O@olh=\skip84
-\f@nch@O@orh=\skip85
-\f@nch@O@elf=\skip86
-\f@nch@O@erf=\skip87
-\f@nch@O@olf=\skip88
-\f@nch@O@orf=\skip89
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count431
-\l__lipsum_a_int=\count432
-\l__lipsum_b_int=\count433
- (/usr/local/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2021/11/01 v4.49 (NLCT)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-Package: mfirstuc 2021/10/15 v2.07 (NLCT)
-\@glsmfirst=\toks25
-\@glsmrest=\toks26
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/xfor/xfor.sty
-Package: xfor 2009/02/05 v1.05 (NLCT)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/datatool/datatool-base.sty
-Package: datatool-base 2019/09/27 v2.32 (NLCT)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/substr/substr.sty
-Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count434
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/datatool/datatool-fp.sty
-Package: datatool-fp 2019/09/27 v2.32 (NLCT)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp.sty
-Package: fp 1995/04/02
- `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/defpattern.sty
-Package: defpattern 1994/10/12
-\actioncount=\count435
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-basic.sty
-Package: fp-basic 1996/05/13
-\FP@xs=\count436
-\FP@xia=\count437
-\FP@xib=\count438
-\FP@xfa=\count439
-\FP@xfb=\count440
-\FP@rega=\count441
-\FP@regb=\count442
-\FP@regs=\count443
-\FP@times=\count444
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-addons.sty
-Package: fp-addons 1995/03/15
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-snap.sty
-Package: fp-snap 1995/04/05
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-exp.sty
-Package: fp-exp 1995/04/03
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-trigo.sty
-Package: fp-trigo 1995/04/14
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-pas.sty
-Package: fp-pas 1994/08/29
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-random.sty
-Package: fp-random 1995/02/23
-\FPseed=\count445
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-eqn.sty
-Package: fp-eqn 1995/04/03
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-upn.sty
-Package: fp-upn 1996/10/21
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-eval.sty
-Package: fp-eval 1995/04/03
-)))
-\@dtl@toks=\toks27
-\@dtl@tmpcount=\count446
-\dtl@tmplength=\skip90
-\dtl@sortresult=\count447
-\@dtl@numgrpsepcount=\count448
-\@dtl@datatype=\count449
-\dtl@codeA=\count450
-\dtl@codeB=\count451
-\@dtl@foreach@level=\count452
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
-Package: glossaries-compatible-307 2021/11/01 v4.49 (NLCT)
-)
-\gls@level=\count453
-\@gls@tmpb=\toks28
-\gls@tmplen=\skip91
-\glskeylisttok=\toks29
-\glslabeltok=\toks30
-\glsshorttok=\toks31
-\glslongtok=\toks32
- (/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
-Package: glossary-hypernav 2021/11/01 v4.49 (NLCT)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-Package: glossary-list 2021/11/01 v4.49 (NLCT)
-\glslistdottedwidth=\skip92
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-Package: glossary-long 2021/11/01 v4.49 (NLCT)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip93
-\LTright=\skip94
-\LTpre=\skip95
-\LTpost=\skip96
-\LTchunksize=\count454
-\LTcapwidth=\dimen184
-\LT@head=\box63
-\LT@firsthead=\box64
-\LT@foot=\box65
-\LT@lastfoot=\box66
-\LT@gbox=\box67
-\LT@cols=\count455
-\LT@rows=\count456
-\c@LT@tables=\count457
-\c@LT@chunks=\count458
-\LT@p@ftn=\toks33
-)
-\glsdescwidth=\skip97
-\glspagelistwidth=\skip98
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
-Package: glossary-super 2021/11/01 v4.49 (NLCT)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/supertabular/supertabular.sty
-Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count459
-\ST@wd=\dimen185
-\ST@rightskip=\skip99
-\ST@leftskip=\skip100
-\ST@parfillskip=\skip101
-\ST@pageleft=\dimen186
-\ST@headht=\dimen187
-\ST@tailht=\dimen188
-\ST@pagesofar=\dimen189
-\ST@pboxht=\dimen190
-\ST@lineht=\dimen191
-\ST@prevht=\dimen192
-\ST@toadd=\dimen193
-\ST@dimen=\dimen194
-\ST@pbox=\box68
-)) (/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-Package: glossary-tree 2021/11/01 v4.49 (NLCT)
-\glstreeindent=\skip102
-))
-Package hyperref Info: Option `colorlinks' set `true' on input line 27.
+\g__lipsum_par_int=\count426
+\l__lipsum_a_int=\count427
+\l__lipsum_b_int=\count428
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+Package hyperref Info: Option `colorlinks' set `true' on input line 21.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 27.
+(hyperref)                setting the option has no effect on input line 21.
 
-\@quotelevel=\count460
-\@quotereset=\count461
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 32.
+\@quotelevel=\count429
+\@quotereset=\count430
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 26.
 (./Final.aux)
 \openout1 = `Final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Info: Redefining \celsius on input line 32.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Info: Redefining \celsius on input line 26.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 26.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 32.
-Package gensymb Info: Using \Omega for \ohm on input line 32.
+LaTeX Info: Redefining \ohm on input line 26.
+Package gensymb Info: Using \Omega for \ohm on input line 26.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -747,26 +577,33 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `Final.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Final.bbl' found.
- (./Final.bbl)
-Package biblatex Info: Reference section=0 on input line 32.
-Package biblatex Info: Reference segment=0 on input line 32.
- (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+Package biblatex Info: ... file 'Final.bbl' not found.
+
+No file Final.bbl.
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count462
-\scratchdimen=\dimen195
-\scratchbox=\box69
-\nofMPsegments=\count463
-\nofMParguments=\count464
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count465
-\MPscratchDim=\dimen196
-\MPnumerator=\count466
-\makeMPintoPDFobject=\count467
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count431
+\scratchdimen=\dimen184
+\scratchbox=\box63
+\nofMPsegments=\count432
+\nofMParguments=\count433
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count434
+\MPscratchDim=\dimen185
+\MPnumerator=\count435
+\makeMPintoPDFobject=\count436
+\everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
@@ -776,7 +613,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
-Package hyperref Info: Link coloring ON on input line 32.
+Package hyperref Info: Link coloring ON on input line 26.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -784,21 +621,20 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count468
+\c@section@level=\count437
 LaTeX Info: Redefining \Ref on input line 520.
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
- (./Final.out) (./Final.out)
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 \@outlinefile=\write4
 \openout4 = `Final.out'.
 
-LaTeX Info: Redefining \Ref on input line 32.
+LaTeX Info: Redefining \Ref on input line 26.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 32.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 26.
 Package epstopdf Info: Source file: <Pictures/polito_logo.eps>
 (epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 106431 bytes
@@ -806,81 +642,149 @@ Package epstopdf Info: Source file: <Pictures/polito_logo.eps>
 (epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 42331 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/polito_logo-eps-converted-to.pdf Pictures/polito_logo.eps>
-(epstopdf)             \includegraphics on input line 36.
+(epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/polito_logo-eps-converted-to.pdf, id=168, 915.42pt x 860.21375pt>
+<Pictures/polito_logo-eps-converted-to.pdf, id=4, 915.42pt x 860.21375pt>
 File: Pictures/polito_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/polito_logo-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/polito_logo-eps-converted-to.pdf  used on input line 36.
+Package pdftex.def Info: Pictures/polito_logo-eps-converted-to.pdf  used on input line 30.
 (pdftex.def)             Requested size: 276.00105pt x 259.35243pt.
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/polito_logo-eps-converted-to.pdf>] [2]
-Overfull \hbox (3.09709pt too wide) in paragraph at lines 56--58
+Overfull \hbox (3.09709pt too wide) in paragraph at lines 44--46
 []\OT1/cmr/m/n/9 After an ex-ten-sive re-search on cur-rent \OT1/cmr/m/it/9 state-of-the-art \OT1/cmr/m/n/9 pro-duc-tion meth-
  []
 
-[3] (./Final.toc [4])
+[3]
 \tf@toc=\write5
 \openout5 = `Final.toc'.
 
- [5] (./Final.lof)
+ [4]
 \tf@lof=\write6
 \openout6 = `Final.lof'.
 
- [6] (./Final.lot)
-\tf@lot=\write7
-\openout7 = `Final.lot'.
-
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 6 undefined on input line 76.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--98
+LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 6 undefined on input line 85.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 7 undefined on input line 104.
+
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 7 undefined on input line 104.
+
+
+LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 7 undefined on input line 107.
+
+
+LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 7 undefined on input line 109.
+
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 7 undefined on input line 109.
+
+
+LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 7 undefined on input line 110.
+
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 7 undefined on input line 110.
+
+
+Overfull \hbox (97.01088pt too wide) in paragraph at lines 110--111
+\OT1/cmr/m/n/10 of ma-te-ri-als through a noz-zle, that so-lid-ify as they cool down [[],
+ []
+
+
+LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 7 undefined on input line 114.
+
+
+LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 7 undefined on input line 116.
+
+
+Overfull \hbox (15.37181pt too wide) in paragraph at lines 115--117
+\OT1/cmr/m/n/10 part, cre-at-ing sub-stan-tial ma-te-rial waste [[]]. 
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-[8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 8 undefined on input line 124.
+
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 8 undefined on input line 124.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--152
-
- []
-
-[10
+[8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+LaTeX Warning: Citation 'Recent_progress_polymers_AM' on page 9 undefined on input line 149.
+
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 9 undefined on input line 149.
+
+
+Overfull \hbox (53.20514pt too wide) in paragraph at lines 148--150
+\OT1/cmr/m/n/10 cally sin-ters the pow-der, un-til a sin-gle layer is com-pleted [[],
+ []
+
+
+LaTeX Warning: Citation 'Padovano_SLS_Review' on page 9 undefined on input line 152.
+
+
+Overfull \hbox (64.0693pt too wide) in paragraph at lines 151--153
+\OT1/cmr/m/n/10 i-cally re-dis-tributed by a re-coat-ing sys-tem, for each sub-se-quent layer [[]]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--177
+LaTeX Warning: Citation 'Padovano_SLS_Review' on page 9 undefined on input line 164.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--165
 
  []
 
@@ -891,100 +795,228 @@ Package epstopdf Info: Source file: <Pictures/SLS_temp_over_time.eps>
 (epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 19386 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SLS_temp_over_time-eps-converted-to.pdf Pictures/SLS_temp_over_time.eps>
-(epstopdf)             \includegraphics on input line 188.
+(epstopdf)             \includegraphics on input line 176.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/SLS_temp_over_time-eps-converted-to.pdf, id=303, 1291.82625pt x 984.67876pt>
+<Pictures/SLS_temp_over_time-eps-converted-to.pdf, id=55, 1291.82625pt x 984.67876pt>
 File: Pictures/SLS_temp_over_time-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/SLS_temp_over_time-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/SLS_temp_over_time-eps-converted-to.pdf  used on input line 188.
+Package pdftex.def Info: Pictures/SLS_temp_over_time-eps-converted-to.pdf  used on input line 176.
 (pdftex.def)             Requested size: 217.35168pt x 165.6653pt.
-[11
 
- <./Pictures/SLS_temp_over_time-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 198--202
-
- []
+LaTeX Warning: Citation 'Inkscape' on page 9 undefined on input line 177.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
-
- []
+LaTeX Warning: Citation 'Padovano_SLS_Review' on page 9 undefined on input line 177.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
-
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--229
+LaTeX Warning: Reference `fig:SLS_temp_over_time' on page 9 undefined on input line 181.
 
- []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 186--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--260
+LaTeX Warning: Citation 'Padovano_SLS_Review' on page 9 undefined on input line 192.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
-[13
+[9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 277--281
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+LaTeX Warning: Citation 'Padovano_SLS_Review' on page 10 undefined on input line 204.
+
+
+LaTeX Warning: Citation 'Padovano_SLS_Review' on page 10 undefined on input line 216.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--217
+
+ []
+
+[10 <./Pictures/SLS_temp_over_time-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 11 undefined on input line 223.
+
+
+LaTeX Warning: Citation 'Messori_Bondioli_PHAs' on page 11 undefined on input line 223.
+
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 11 undefined on input line 226.
+
+
+LaTeX Warning: Citation 'Messori_Bondioli_PHAs' on page 11 undefined on input line 226.
+
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 11 undefined on input line 229.
+
+
+Overfull \hbox (28.8725pt too wide) in paragraph at lines 228--230
+\OT1/cmr/m/n/10 byprod-ucts as sub-strates (corn, soy, cof-fee, oil wastes, etc.) [[]]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--295
+LaTeX Warning: Citation 'Messori_Bondioli_PHAs' on page 11 undefined on input line 236.
+
+
+Overfull \hbox (43.7123pt too wide) in paragraph at lines 236--237
+[]\OT1/cmr/m/n/10 PHAs can be clas-si-fied by the chain-length of their monomers [[]]: 
+ []
+
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 11 undefined on input line 247.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--248
 
  []
 
 
-Overfull \hbox (1.10857pt too wide) in paragraph at lines 298--301
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 11 undefined on input line 251.
+
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 11 undefined on input line 257.
+
+[11
+
+]
+
+LaTeX Warning: Reference `AM_techniques_summary' on page 12 undefined on input line 265.
+
+
+LaTeX Warning: Reference `FDM_general' on page 12 undefined on input line 266.
+
+
+LaTeX Warning: Reference `SLS_general' on page 12 undefined on input line 268.
+
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 12 undefined on input line 268.
+
+
+Overfull \hbox (25.38168pt too wide) in paragraph at lines 265--269
+\OT1/cmr/m/n/10 ity and cuts down cost), and Se-lec-tive Laser Sin-ter-ing ([]) [[]]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+
+ []
+
+
+LaTeX Warning: Citation 'Kovalcik_PHA_Review' on page 12 undefined on input line 282.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
+
+ []
+
+
+LaTeX Warning: Reference `Powder_requirements' on page 12 undefined on input line 287.
+
+
+LaTeX Warning: Citation 'DechetMaximilianA2020OtDo' on page 12 undefined on input line 288.
+
+
+LaTeX Warning: Citation 'doi:10.1063/1.4918516' on page 12 undefined on input line 288.
+
+
+Overfull \hbox (1.10857pt too wide) in paragraph at lines 286--289
 \OT1/cmr/m/n/10 Poly(3-hydroxybutirate-\OT1/cmr/m/it/10 co\OT1/cmr/m/n/10 -3-hydroxyhexanoate) is a copoly-mer of the PHA fam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--301
+Overfull \hbox (36.69102pt too wide) in paragraph at lines 286--289
+\OT1/cmr/m/n/10 such as PHB and PHBV [[], []]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--289
 
  []
+
+
+LaTeX Warning: Citation 'Eraslan_PHBH_review' on page 12 undefined on input line 293.
+
+
+Overfull \hbox (64.86935pt too wide) in paragraph at lines 290--293
+\OT1/cmr/m/n/10 cess, its cost and the strict con-fi-den-tial-ity of poly-mer man-u-fac-tur-ers [[]]. 
+ []
+
+[12
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 297--300
+
+ []
+
+
+LaTeX Warning: Reference `Environmental_impact' on page 13 undefined on input line 302.
+
+
+LaTeX Warning: Citation 'Rafiqah_Khalina_PBS_review' on page 13 undefined on input line 314.
+
+[13
+
+]
+
+LaTeX Warning: Citation 'Jian_PBAT_overview' on page 14 undefined on input line 326.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--327
+
+ []
+
+
+LaTeX Warning: Reference `PBS_in_general' on page 14 undefined on input line 328.
+
+
+LaTeX Warning: Reference `PHA_in_Additive' on page 14 undefined on input line 331.
 
 [14
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 309--312
 
- []
+LaTeX Warning: Reference `FDM_general' on page 15 undefined on input line 338.
 
-[15
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 335--339
-
- []
-
-[16
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
 
-Overfull \hbox (0.16728pt too wide) in paragraph at lines 372--374
+LaTeX Warning: Citation 'doi:10.1063/1.4918516' on page 15 undefined on input line 356.
+
+
+LaTeX Warning: Citation 'doi:10.1063/1.4918516' on page 15 undefined on input line 361.
+
+
+Overfull \hbox (0.16728pt too wide) in paragraph at lines 360--362
 []\OT1/cmr/m/n/10 Particle mor-phol-ogy is cru-cial in the sin-ter-ing mech-a-nism, where reg-u-lar, smooth
  []
 
@@ -995,46 +1027,105 @@ Package epstopdf Info: Source file: <Pictures/sintering_neck.eps>
 (epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 3339469 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/sintering_neck-eps-converted-to.pdf Pictures/sintering_neck.eps>
-(epstopdf)             \includegraphics on input line 377.
+(epstopdf)             \includegraphics on input line 365.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/sintering_neck-eps-converted-to.pdf, id=378, 1483.5425pt x 825.0825pt>
+<Pictures/sintering_neck-eps-converted-to.pdf, id=99, 1483.5425pt x 825.0825pt>
 File: Pictures/sintering_neck-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/sintering_neck-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/sintering_neck-eps-converted-to.pdf  used on input line 377.
+Package pdftex.def Info: Pictures/sintering_neck-eps-converted-to.pdf  used on input line 365.
 (pdftex.def)             Requested size: 172.5pt x 95.93373pt.
-[17
+
+LaTeX Warning: Citation 'Inkscape' on page 15 undefined on input line 366.
+
+
+LaTeX Warning: Citation 'doi:10.1063/1.4918516' on page 15 undefined on input line 373.
+
+[15
 
  <./Pictures/sintering_neck-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
+
+LaTeX Warning: Citation 'doi:10.1063/1.4918516' on page 16 undefined on input line 394.
+
+
+LaTeX Warning: Citation 'DechetMaximilianA2020OtDo' on page 16 undefined on input line 397.
+
+
+LaTeX Warning: Citation 'doi:10.1063/1.4918516' on page 16 undefined on input line 397.
+
+
+Overfull \hbox (68.88771pt too wide) in paragraph at lines 396--398
+\OT1/cmr/m/n/10 a wide enough sin-ter-ing win-dow [[], []]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--420
+LaTeX Warning: Citation 'doi:10.1063/1.4918516' on page 16 undefined on input line 401.
+
+
+LaTeX Warning: Reference `SLS_general' on page 16 undefined on input line 403.
+
+
+LaTeX Warning: Citation 'doi:10.1063/1.4918516' on page 16 undefined on input line 407.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--408
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+LaTeX Warning: Citation 'doi:10.1063/1.4918516' on page 16 undefined on input line 415.
+
+
+LaTeX Warning: Citation 'cryogenic_grinding_video' on page 16 undefined on input line 424.
+
+
+LaTeX Warning: Citation 'Junghare_cryogenic_grinding_review' on page 16 undefined on input line 424.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
 
-Overfull \hbox (10.63844pt too wide) in paragraph at lines 445--447
+LaTeX Warning: Citation 'doi:10.1063/1.4918516' on page 16 undefined on input line 429.
+
+
+Overfull \hbox (57.72113pt too wide) in paragraph at lines 428--430
+\OT1/cmr/m/n/10 makes this method gen-er-ally un-suit-able for high qual-ity SLS parts [[]]. 
+ []
+
+
+LaTeX Warning: Citation 'DechetMaximilianA2020OtDo' on page 16 undefined on input line 434.
+
+
+Overfull \hbox (10.63844pt too wide) in paragraph at lines 433--435
 \OT1/cmr/m/n/10 There is lit-tle va-ri-ety in the mar-ket of SLS ready poly-mer pow-ders, with polyamide-
  []
 
-[18
+[16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 456--458
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--464
+LaTeX Warning: Citation 'DechetMaximilianA2020OtDo' on page 17 undefined on input line 451.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--452
 
  []
+
+
+LaTeX Warning: Citation 'DechetMaximilianA2020OtDo' on page 17 undefined on input line 462.
+
+
+LaTeX Warning: Reference `eq:hansen_parameters' on page 17 undefined on input line 465.
 
 Package epstopdf Info: Source file: <Pictures/TEAS_plot.eps>
 (epstopdf)                    date: 2022-08-14 17:16:23
@@ -1043,14 +1134,51 @@ Package epstopdf Info: Source file: <Pictures/TEAS_plot.eps>
 (epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 12876 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/TEAS_plot-eps-converted-to.pdf Pictures/TEAS_plot.eps>
-(epstopdf)             \includegraphics on input line 481.
+(epstopdf)             \includegraphics on input line 469.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/TEAS_plot-eps-converted-to.pdf, id=414, 1840.8775pt x 1314.9125pt>
+<Pictures/TEAS_plot-eps-converted-to.pdf, id=121, 1840.8775pt x 1314.9125pt>
 File: Pictures/TEAS_plot-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/TEAS_plot-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/TEAS_plot-eps-converted-to.pdf  used on input line 481.
+Package pdftex.def Info: Pictures/TEAS_plot-eps-converted-to.pdf  used on input line 469.
 (pdftex.def)             Requested size: 137.9979pt x 98.55399pt.
-[19 <./Pictures/TEAS_plot-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation 'DechetMaximilianA2020OtDo' on page 17 undefined on input line 470.
+
+
+LaTeX Warning: Citation 'Inkscape' on page 17 undefined on input line 470.
+
+
+LaTeX Warning: Citation 'DechetMaximilianA2020OtDo' on page 17 undefined on input line 470.
+
+
+LaTeX Warning: Citation 'Inkscape' on page 17 undefined on input line 470.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--470
+[]\OT1/cmr/m/n/10 Figure 3: []Generic TEAS plot for any given poly-mer
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `PBS_in_general' on page 17 undefined on input line 477.
+
+
+LaTeX Warning: Reference `PBAT_in_general' on page 17 undefined on input line 478.
+
+
+LaTeX Warning: Reference `PHA_in_general' on page 17 undefined on input line 478.
+
+
+LaTeX Warning: Citation 'DechetMaximilianA2020OtDo' on page 17 undefined on input line 488.
+
+
+Overfull \hbox (16.41614pt too wide) in paragraph at lines 488--489
+\OT1/cmr/m/n/10 ron-ments such as a re-ac-tor or au-to-clave sys-tem [[]]. 
+ []
+
+[17]
 Package epstopdf Info: Source file: <Pictures/particle_size_stirring.eps>
 (epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 143218 bytes
@@ -1058,71 +1186,171 @@ Package epstopdf Info: Source file: <Pictures/particle_size_stirring.eps>
 (epstopdf)                    date: 2022-08-14 17:16:23
 (epstopdf)                    size: 136147 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/particle_size_stirring-eps-converted-to.pdf Pictures/particle_size_stirring.eps>
-(epstopdf)             \includegraphics on input line 513.
+(epstopdf)             \includegraphics on input line 501.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/particle_size_stirring-eps-converted-to.pdf, id=433, 2275.50125pt x 2031.59pt>
+<Pictures/particle_size_stirring-eps-converted-to.pdf, id=131, 2275.50125pt x 2031.59pt>
 File: Pictures/particle_size_stirring-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/particle_size_stirring-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/particle_size_stirring-eps-converted-to.pdf  used on input line 513.
+Package pdftex.def Info: Pictures/particle_size_stirring-eps-converted-to.pdf  used on input line 501.
 (pdftex.def)             Requested size: 172.5pt x 154.00565pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--523
+
+LaTeX Warning: Citation 'DechetMaximilianA2020OtDo' on page 18 undefined on input line 502.
+
+
+LaTeX Warning: Citation 'Inkscape' on page 18 undefined on input line 502.
+
+
+LaTeX Warning: Citation 'DechetMaximilianA2020OtDo' on page 18 undefined on input line 502.
+
+
+LaTeX Warning: Citation 'Inkscape' on page 18 undefined on input line 502.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\OT1/cmr/m/n/10 Figure 4: []Particle size de-creases as stir-ring RPM in-crease
+ []
+
+
+LaTeX Warning: Reference `Mechanical_milling' on page 18 undefined on input line 508.
+
+
+LaTeX Warning: Citation 'DechetMaximilianA2020OtDo' on page 18 undefined on input line 510.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--511
 
  []
 
-[20 <./Pictures/particle_size_stirring-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 529--531
+[18 <./Pictures/TEAS_plot-eps-converted-to.pdf> <./Pictures/particle_size_stirring-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--533
+Underfull \hbox (badness 10000) in paragraph at lines 520--521
 
  []
 
-[21]
-Overfull \hbox (9.05615pt too wide) in paragraph at lines 545--545
+
+LaTeX Warning: Citation 'Dechet_Schmidt_thermal_rounding' on page 19 undefined on input line 529.
+
+
+Overfull \hbox (51.91626pt too wide) in paragraph at lines 528--530
+\OT1/cmr/m/n/10 a sig-nif-i-cantly higher risk of par-ti-cle ag-glom-er-a-tion [[]]. 
+ []
+
+[19]
+Overfull \hbox (9.05615pt too wide) in paragraph at lines 533--533
 []\OT1/cmr/bx/n/14.4 Laboratory en-vi-ron-men-tal con-di-tions and avail-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--548
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--558
+LaTeX Warning: Reference `Choice_material_process' on page 20 undefined on input line 537.
+
+
+LaTeX Warning: Reference `Choice_material_process' on page 20 undefined on input line 539.
+
+
+LaTeX Warning: Reference `SEM_analysis' on page 20 undefined on input line 543.
+
+
+LaTeX Warning: Reference `TGA_Analysis' on page 20 undefined on input line 544.
+
+
+LaTeX Warning: Reference `DSC_analysis' on page 20 undefined on input line 544.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--546
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--565
+LaTeX Warning: Reference `Initial_recipe' on page 20 undefined on input line 552.
+
+
+LaTeX Warning: Reference `detailed_reaction' on page 20 undefined on input line 552.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--553
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 566--567
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
 
  []
 
 
-LaTeX Warning: Reference `Initial_recipe, recipe_improvement' on page 22 undefined on input line 571.
+LaTeX Warning: Reference `Initial_recipe' on page 20 undefined on input line 559.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--575
+LaTeX Warning: Reference `recipe_improvement' on page 20 undefined on input line 559.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--563
+
+ []
+
+
+LaTeX Warning: Reference `recipe_improvement' on page 20 undefined on input line 565.
+
+
+LaTeX Warning: Reference `faulty_equipment' on page 20 undefined on input line 565.
+
+
+LaTeX Warning: Reference `initial_failures' on page 20 undefined on input line 567.
+
+[20
+
+]
+
+LaTeX Warning: Reference `PHBH' on page 21 undefined on input line 574.
+
+
+LaTeX Warning: Reference `PBAT_in_general' on page 21 undefined on input line 574.
+
+
+LaTeX Warning: Reference `PBS_in_general' on page 21 undefined on input line 575.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--576
+
+ []
+
+
+LaTeX Warning: Reference `Initial_recipe' on page 21 undefined on input line 578.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--580
+
+ []
+
+
+LaTeX Warning: Reference `Mechanical_milling' on page 21 undefined on input line 581.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--589
+
+ []
+
+[21
+
+]
+Overfull \hbox (1.1413pt too wide) in paragraph at lines 595--595
+[]\OT1/cmr/bx/n/14.4 Initial chem-i-cal pre-cip-i-ta-tion recipe for PHBH[] 
  []
 
 [22
 
 ] [23
 
-]
-Overfull \hbox (1.1413pt too wide) in paragraph at lines 587--587
-[]\OT1/cmr/bx/n/14.4 Initial chem-i-cal pre-cip-i-ta-tion recipe for PHBH[] 
- []
-
-[24
+] [24
 
 ] [25
 
@@ -1132,55 +1360,47 @@ Overfull \hbox (1.1413pt too wide) in paragraph at lines 587--587
 
 ] [28
 
-] [29
-
-] [30
-
 ]
-Overfull \hbox (27.42413pt too wide) in paragraph at lines 646--646
-[]\OT1/cmr/m/n/10 Kerim Eraslan et al. ``Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH):
- []
 
+LaTeX Warning: Empty bibliography on input line 653.
 
-Overfull \hbox (4.79904pt too wide) in paragraph at lines 646--646
-[]\OT1/cmr/m/n/10 Alberto Giu-bilini et al. ``Ad-van-tages of Ad-di-tive Man-u-fac-tur-ing for Biomed-
- []
-
-
-Overfull \hbox (2.25262pt too wide) in paragraph at lines 646--646
-\OT1/cmr/m/n/10 i-cal Ap-pli-ca-tions of Poly-hy-drox-yalka-noates''. In: \OT1/cmr/m/it/10 Bio-engi-neer-ing \OT1/cmr/m/n/10 8.2 (2021).
- []
-
-
-Overfull \hbox (22.13965pt too wide) in paragraph at lines 646--646
-\OT1/cmr/m/n/10 prop-er-ties and ap-pli-ca-tions of poly(butylene-adipate-co-terephthalate)-PBAT''.
- []
-
-[31
-
-] [32] (./Final.aux)
+(./Final.aux)
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Final.out' has not changed.
-(rerunfilecheck)             Checksum: 27D6EC8B705EB9FA72DC6160D581D311;8180.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Final.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Final.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  27D6EC8B705EB9FA72DC6160D581D311;8180.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Final
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Final.run.xml'.
 \openout1 = `Final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25919 strings out of 478268
- 507645 string characters out of 5846347
- 1300636 words of memory out of 5000000
- 43678 multiletter control sequences out of 15000+600000
- 477749 words of font info for 57 fonts, out of 8000000 for 9000
+ 21217 strings out of 478268
+ 421239 string characters out of 5846347
+ 1165078 words of memory out of 5000000
+ 39129 multiletter control sequences out of 15000+600000
+ 477280 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,6n,91p,1933b,1820s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Final.pdf (32 pages, 3796125 bytes).
+ 60i,6n,68p,806b,1801s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Final.pdf (28 pages, 3753069 bytes).
 PDF statistics:
- 625 PDF objects out of 1000 (max. 8388607)
- 539 compressed objects within 6 object streams
- 99 named destinations out of 1000 (max. 500000)
- 354 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 218 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
