@@ -822,20 +822,190 @@
         with metal fines and other materials, which might have contributed to some of the impurities and alien particles detected 
         by SEM analysis in the earliest samples (\ref{SEM_analysis}). \\ 
 
-        
+
 
 
     \clearpage
 
     \section{Recipe tweaking and improvements\label{recipe_improvement}}
+
+    All of the aforementioned failed attempts (\ref{initial_failures}) led to an optimization process that originally aimed at 
+    matching the $30 \ \%$ yield (\ref{Initial_recipe}) obtained by previous researchers (who provided 
+    the prototype recipe but worked in different environmental conditions), but later far exceeded the 
+    initial expectations, improving upon the available blueprint procedure by a wide margin. 
+
+
         \subsection{Key variables\label{key_variables}}
+
+        Dealing with a simple yet unstable process, based on theoretical studies and very rough experimental data, requires a
+        long trial and error approach, that should carefully isolate each variable, whether it is intrinsic to the 
+        involved physical and chemical reactions, environmental, equipment related, or introduced by human 
+        interaction with the process. \\ 
+
+        Generally speaking, once all the independent variables are isolated and understood, only a few are extremely relevant and can 
+        radically influence the success rate of the entire process. 
+
+        Should these variables be changed, even unintentionally and by a small amount, the final yield
+        could be dramatically cut down. \\ 
+
+        It has been pointed out several times that the external temperature is one of the most 
+        (if not the absolute most) influential parameter of the entire process, given the fast evaporation pace of chloroform, 
+        or organic solvents in general, should the reaction be re-engineered with a less impactful solvent, like the moderate 
+        solvents often mentioned in the scientific literature (\ref{Chemical precipitation}). 
+
+        This variable could not be controlled, as air conditioning was not present in the \textit{Tape Casting} lab 
+        (\ref{Tape_casting}). 
+
+        For all the issues discussed in previous chapters, an increase in external temperature correlates with an increase in 
+        chloroform use. Starting from the initial 55 ml per 4 g of PHBH pellets, extra chloroform has been added 
+        by 2.5 ml increments, until the process stabilized and yield reached a peak that would not benefit from further 
+        increase. 
+
+        Assuming that, in any human operated laboratory, temperatures should not exceeed those experienced during this case study,  
+        the maximum useful amount of chloroform (per 4 g of PHBH pellets) would be around $65 \div 70 \ ml$. 
+
+        This range consistently produced the highest yield (\ref{promising_results}) and not only did further chloroform use stall the 
+        results, but it proved to be detrimental over a certain threshold ($ > \ 75 \ ml$), as insufficient 
+        viscosity would prevent an accurate flow control during the dripping phase. \\ 
+
+        All these adjustments in chloroform quantity are only a consequence of uncontrolled operational temperatures. A 10 ml 
+        increase in chloroform use might seem insignificant at a lab scale, but this would translate to significant waste, 
+        should the process be scaled to an industrial level (\ref{consistent_reproducibility}). 
+
+        This consideration ties with the environmental sustainability issue (\ref{Environmental_impact}), since organic solvents are 
+        inherently impactful and unnecessary waste should not be promoted, especially when sustainable biopolymers such as PHBH are involved. 
+
+        Overall, the key parameter that actually matters is viscosity: very low temperatures can minimize chloroform evaporation, 
+        but directly increase density and thus viscosity; on the other hand, liquids at higher temperatures should be inherently 
+        less viscous, but the drastic solvent evaporation dramatically increases viscosity, simply by having more PHBH and less 
+        liquid proportionally. \\ 
+        
+        The process should be tailored to obtain a PHBH-chlofororm solution with the ideal viscosity, that allows a perfect dripping 
+        phase, while producing the highest pellet-to-powder yield. 
+
+        However, future experiments should focus on achieving this goal with the lowest amount of chloroform possible, which requires 
+        being able to control operational temperature. \\ 
+
+        By contrast, other variables like dripping flow (as previously discussed a drop by drop fashion is ideal but occasional 
+        flow distruptions do not seem to have a great influence (\ref{detailed_reaction})), or a very precise measure in 
+        PVA concentration are not as important for the success of the precipitation process. 
+
+        With a PVA concentration as low as $0.25 \ \%$ and successful reactions even with defective
+        solution batches, it is plausible that the precipitation process could be accomplished by 
+        substituting PVA with other alcohols such as isopropanol or ethanol or even by simply using distilled water \footnotemark.
+        
+            \footnotetext{These substitutions would immensely simplify the production of the precipitation solution for the previously 
+            discussed issues of dissolving PVA (\ref{detailed_reaction}), but no experiments have been conducted yet} 
+
+        Assuming the adjustment of viscosity and the optimization of the dripping phase have been dealt with, 
+        another relevant parameter is the stirring speed of the PVA solution (\ref{detailed_reaction}). 
+
+        The experiments conducted during this case study confirm what has been found in the scientific literature: 
+        an increase in stirring speed directly correlates to a decrease in average powder particle size (\ref{fig:stirring_rpm}). 
+
+        However, this correlation is generally measured in terms of RPM, which is an active control of any magnetic stirrer and 
+        a good indication of the average rotational speed of the stirred fluid, assuming that the device is properly functioning
+        and every other variable is fixed. 
+        
+        In fact, the RPM controlled by the machine does correlate with the average angular velocity, but does not indicate 
+        an exact speed value. 
+
+        For any fixed fluids, should other factors like container size and shape, stirring rod weight and size change, 
+        then the average angular velocity would change as well, despite the stirrer being at a fixed RPM value. 
+
+        Since the production rate had been doubled to 8 g of pellets per batch, the reaction has been split into two 
+        4 g batches, for lack of single batch capable equipment. 
+
+        Despite perfectly measuring all the quantities and mirroring equipment use for both batches, the magnetic stirrers'
+        reported RPM did not match the uneven velocities (even though the utilized models were exactly the same). 
+
+        This aspect is later discussed in further detail (\ref{faulty_equipment}). \\ 
+
+        Once this issue has been partially solved with some workarounds, increasing RPM has proven to be an effective 
+        strategy to increase final yield: powders were effectively produced at the initially planned 700 RPM, however 
+        most of the powder batch could not be sieved under $100 \ \mu m$. 
+
+        Higher RPM values produced almost no waste during the sieving phase. 
+
+
         \subsection{Adaptation to faulty or unsuitable equipment\label{faulty_equipment}}
+
+        Some of the available equipment was not perfectly suited for the necessary tasks or, sometimes, even broken or malfunctioning. \\ 
+
+        For instance, the drippers used for the precipitation reaction had a manual flux valve, which made flow control unpredictable 
+        and hard to regulate. \\ 
+
+        The fritted filters initially used had already been utilized for other production pipelines, transferring some impurities
+        to the first samples, which are visible in the SEM images (\ref{SEM_analysis}). This required a new filter to be bought 
+        and used solely for producing PHBH powders. \\ 
+
+        A major issue was the malfunctioning of one of the magnetic stirrers, which used to stop stirring unexpectedly, for hours at times, 
+        while the reaction was not meant to be supervised. This caused a few batches to be lost, since the prolonged absence of 
+        a stirring motion did not allow for the precipitation process to occur. 
+
+        The defective stirrer was replaced. However, despite both the available stirrers being functional, a huge discrepancy 
+        in stirring speeds was noticeable, as briefly mentioned in the previous chapter (\ref{key_variables}). 
+
+        In spite of the fact that both solutions were prepared identically and the beakers and stirring rods used 
+        were exactly the same, one of the stirrers would visibly show a much lower speed at the same RPM value. 
+
+        As a workaround, a satisfying speed (based on previous results in terms of final yield) was set on the slower stirrer, 
+        then the much faster stirrer was set at a "lower" RPM value, that would visually match the same angular 
+        velocity as the reference. \\ 
+
+        Adaptations were needed for storing the sieved powders. With average particle sizes under $ \ 100 \ \mu m$, 
+        electrostatic interaction and powder volatility proved to be challenging when handling the final product. 
+        
+        Sieved powders have been transferred to test tubes or other comparable containers by using folded parchment paper. \\ 
+
+        
+        All the workarounds and adaptations can normally be part of a very experimental lab workflow, but the process should ideally 
+        be capable of producing even greater yields, once it is scaled for industrial production, where each step is standardized 
+        and custom equipment tailored to specific tasks. 
+
         \subsection{Current results\label{promising_results}}
+
+        Compared to the earliest batches, even the experiments conducted by previous researchers held substantially better 
+        results, with maximum yields of $30 \ \%$. \\ 
+
+        The minimum requirement for the current case study was that of replicating the previous records but, after 
+        a huge amount of failed attempts, optimization and tweaking in the entire process pipeline, current results 
+        far exceed the initial expectations, with even more room for improvement. \\ 
+
+        The pellet-to-powder yield has increased to a minimum of 5 g of powder and a maximum of 6 g, over 8 g of raw material. 
+
+        The current yield ranges between $62.5 \ \%$ and $75 \ \%$, which is a relative improvement of $2 \div 2.5$ times that 
+        achieved in the previous research that this work is based on, and over an order of magnitude increase compared to the 
+        initial experiments. \\ 
+
         \subsection{Consistent reproducibility and scalability\label{consistent_reproducibility}}
 
+        Not only has the total yield been improved, but the process has been stabilized and better understood in all of its 
+        peculiarities (\ref{key_variables}). 
+
+        Until all the optimization work had been accomplished, the process held inconsistent results, with powder quantities drastically 
+        varying from insignificant to mediocre yields. \\ 
+
+        A key aspect of a reliable process is in fact its consistent reproducibility under known and controllable conditions, 
+        which is necessary (but not sufficient) for large scale production and adoption at industrial scale. \\ 
+
+        The latest results have been reproduced consistently in the lab and might be scaled to higher production rates after 
+        further optimization studies. 
+
     \clearpage
-    \section{Powder granulometry and morphology\label{powder_granulometry_morphology}}
+    \section{Powder granulometry and morphology\label{powder_granulometry_morphology}} 
+
+    While obtaining some form of powder with the precipitation process was somewhat expected, all the work would be 
+    pointless if the criteria discussed at the beginning of this research (\ref{Powder_requirements}) were not met. \\ 
+
+    The powders produced would not be suitable for SLS additive manufacturing, if granulometry (average grain size distribution)
+    were not under a certain size threshold and if the morphology of those powders was not close to a non hollow spherical geometry. \\ 
+
+    While proper granulometry is guaranteed by sieving the powders (\ref{sieving}), adequate morphology can only be 
+    determined by thoroughly inspecting SEM images (\ref{SEM_analysis}). 
         \subsection{Sieving process\label{sieving}}
+
+        
 
     \clearpage
         \subsection{SEM (Scanning Electron Microscope) analysis\label{SEM_analysis}}
