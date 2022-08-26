@@ -43,6 +43,62 @@
       \field{volume}{26}
       \field{year}{2020}
     \endentry
+    \entry{DALLE2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ef44b8a7fa9f85a025cf3121ee213386}{%
+           family={AI},
+           familyi={A\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{fullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{bibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorbibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authornamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorfullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DALL-E 2}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://labs.openai.com
+      \endverb
+      \verb{url}
+      \verb https://labs.openai.com
+      \endverb
+    \endentry
+    \entry{DALLE2_roundparticles}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ef44b8a7fa9f85a025cf3121ee213386}{%
+           family={AI},
+           familyi={A\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{fullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{bibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorbibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authornamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorfullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Round particles seen through a SEM microscope}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://labs.openai.com/e/8rNkMtCHXwQmVW0GZ00sc20q/ZCXOrjp8yxNf2UvDrupbdSuW
+      \endverb
+      \verb{url}
+      \verb https://labs.openai.com/e/8rNkMtCHXwQmVW0GZ00sc20q/ZCXOrjp8yxNf2UvDrupbdSuW
+      \endverb
+    \endentry
     \entry{Padovano_SLS_Review}{article}{}
       \name{author}{1}{}{%
         {{hash=082dd4eecb157591e416f836aefc4a82}{%
@@ -371,7 +427,33 @@
       \field{title}{Cryogenic Grinding with the Variable Speed Rotor Mill PULVERISETTE 14 premium line}
       \field{year}{2021}
     \endentry
-    \entry{Inkscape}{misc}{}
+    \entry{GIMP}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=684ecd1d1aa57cdc1536ecb2ac81b303}{%
+           family={Pagès},
+           familyi={P\bibinitperiod},
+           given={Øyvind\bibnamedelimb Kolås;\bibnamedelima Jehan},
+           giveni={Ø\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8b880490ac1f48e94c717ffc3f30d4da}{%
+           family={others},
+           familyi={o\bibinitperiod},
+           prefix={many},
+           prefixi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{fullhash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{bibnamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authorbibnamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authornamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authorfullhash}{9f4993078c173c4e0a27397eb664a84c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gimp.org/}}
+      \field{title}{GNU Image Manipulation Program}
+    \endentry
+    \entry{Inkscape}{software}{}
       \name{author}{1}{}{%
         {{hash=b6376cab05e82f18f4779e535e95f621}{%
            family={Project},
@@ -508,6 +590,33 @@
       \endverb
       \verb{url}
       \verb https://aip.scitation.org/doi/abs/10.1063/1.4918516
+      \endverb
+    \endentry
+    \entry{Pixelmator_Pro}{software}{}
+      \name{author}{1}{}{%
+        {{hash=1fffbae67d95c0bb17c4daa12d32b376}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={Pixelmator},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{fullhash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{bibnamehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{authorbibnamehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{authornamehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{authorfullhash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pixelmator Pro}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.pixelmator.com/pro/
+      \endverb
+      \verb{url}
+      \verb https://www.pixelmator.com/pro/
       \endverb
     \endentry
     \entry{Recent_progress_polymers_AM}{article}{}
