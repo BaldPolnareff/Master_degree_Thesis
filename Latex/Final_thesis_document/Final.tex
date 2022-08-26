@@ -1005,7 +1005,15 @@
     determined by thoroughly inspecting SEM images (\ref{SEM_analysis}). 
         \subsection{Sieving process\label{sieving}}
 
-        
+        Sieving is an essential step when selecting SLS suitable powders. \\ 
+
+        A general guideline on SLS powders granulometry is that particles should be smaller than $100 \ \mu m$, with many 
+        sources in the literature reporting an ideal range of $20 \div 80 \ \mu m$ (\ref{powder_granulometry_morphology}). 
+
+        The powders obtained during the first experiments produced a lot of waste during the sieving phase, where a 
+        $100 \ \mu m$ sieve has been used to collect suitable samples. 
+
+        With the current optimized process, the powder batches are almost entirely sieved, producing little to no waste during this phase. 
 
     \clearpage
         \subsection{SEM (Scanning Electron Microscope) analysis\label{SEM_analysis}}
@@ -1014,13 +1022,108 @@
 
     \clearpage
     \section{Thermal analysis\label{Thermal_analysis}}
-    Generalities of thermal analysis yada yada yada
+    
+    Thermal analysis tools have been utilized in this case study, as many critical properties of the studied material 
+    can be deducted with different measurments at various temperature ranges. 
+
+    This is especially true with materials suited for SLS, where knowledge of thermal properties is 
+    essential in determining a polymer's feasibility for this AM method. 
+
         \subsection{DSC (Differential Scanning Calorimetry)\label{DSC_analysis}}
-        Generalities of DSC yada yada yada 
+        
+        \textit{Differential Scanning Calorimetry} is a thermoanalytical technique that can be implemented with different types of machines, 
+        but its general purpose is the analysis of the change in heat flux as a function of temperature, which is generally increased in 
+        a linear fashion. 
+        
+        The term differential indicates that each test sample is analyzed in parallel to a reference sample, whose heat capacity and 
+        thermal properties are well known and used to calibrate the machine. \\
+        
+        A typical use of DSC is the detection of phase transitions, which is crucial for applications such as SLS, where each material 
+        needs to be locally fused within an optimal sintering window (\ref{Powder_requirements}, \ref{PHBH}). 
+
+        One of the greatest advantage of PHBH over comparable materials is its wider sintering window, which makes it ideal 
+        for SLS (\ref{PHBH}). \\ 
+
+        This sintering window can be measured by analyzing a DSC plot of heat flux over temperature, given that this test measures 
+        phase transitions but is also capable of detecting more subtle physical changes, such as glass transition. 
+
+        Since the sintering window is defined as the temperature range comprised between glass transition and 
+        melting point (\ref{Powder_requirements}), both detected by a DSC analysis, then calculating it is trivial, 
+        based on the available data. 
+
             \subsubsection{Results}
+
+            The test has been run on a 7.8 mg PHBH sample and the raw data set has been plotted with GNU/Octave \autocite{Octave}. 
+
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DSC.eps}\\
+                    \caption{DSC analysis plot for a PHBH sample} 
+                    \label{fig:DSC_plot}
+                \end{figure} 
+
+        \clearpage
         \subsection{TGA (Thermal Gravimetric Analysis)\label{TGA_Analysis}}
-        Generalities of TGA yada yada yada 
+        
+        \textit{Thermal Gravimetric Analysis} is a technique that constantly measures the mass of an object subjected to a deliberate 
+        change in temperature for a certain period of time, through a precision scale. 
+
+        Time, temperature and mass are the involved variables and while mass is a direct measure, whose sudden changes (visible peaks
+        in the weight vs temperature plot) can indicate relevant transition points, time and temperature are directly controlled 
+        as machine parameters. \\ 
+
+        Generally speaking, TGA instruments can be set up for different workflows: 
+
+                \begin{itemize}
+                    \item static or isothermal analysis, where weight changes are registered over a specified time frame, 
+                    at a fixed temperature of interest
+                    \item quasi-static analysis, where temperature is changed in discrete steps, with isothermal intervals in between 
+                    \item dynamic analysis, where temperature is changed in a continuous linear fashion
+                \end{itemize}
+
+            The analysis can be set up to end after a certain time, temperature or residual weight and be performed 
+            in vacuum, air or inert gas such as argon. \\
+
+        This analysis technique can be used to reveal many important temperature values where physical transformations or chemical 
+        reactions occur, pinpoint the presence of certain materials with known transition points, in samples of unknown composition, 
+        (e.g residual moisture can be detected by checking any sudden weight changes around $100 \ ^{\circ}C $, water's boiling point), 
+        determine the complete degradation cycle of a sample, testing the thermal stability of a material at its operational temperature, etc. \\ 
+        
             \subsubsection{Results}
+
+            The analysis has been firstly performed on the raw material, which had been acquired in pellets, as a benchmark test
+            that consistently returned the expected degradation behaviour, over multiple analysis. 
+
+            Then samples of PHBH powder have been tested throughout the entire experimental activity, as a quality control check that 
+            would eventually highlight discrepancies with the benchmark values, which might indicate the presence of impurities
+            that might have been undetected during SEM analysis (\ref{SEM_analysis}) or even undesired residual moisture. \\ 
+
+            The typical instrument set up for the analysis, extrapolated by one of the latest tests: 
+
+
+                \begin{table}[h!]
+                    \centering
+                    \resizebox{\textwidth}{!}{%
+                    \begin{tabular}{@{}ccccc@{}}
+                    \toprule
+                    \textbf{PHBH} & Atmosphere & Temperature range {[}$^{\circ}C${]} & Temperature increase step {[}$^{\circ}C/min${]} & Weight {[}mg{]} \\ \midrule
+                    Pellet        & air        & 25-900                    & 10                                    & 8.7688          \\
+                    Powder        & air        & 25-900                    & 10                                    & 29.0641         \\ \bottomrule
+                    \end{tabular}%
+                    }
+                    \label{table:TGA_instrument_parameters}
+                    \end{table}
+
+            No significant discrepancies have been highlighted throughout the analysis process; the raw data for the latest analysis have been plotted with GNU/Octave \autocite{Octave}, showing an almost perfect overlap between the pellet 
+            and the powder tests. 
+
+                \begin{figure}[h!]
+                    \centering 
+                    \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/TGA.eps}
+                    \caption{TGA of PHBH pellets and powder samples, showing an almost identical trend. Values of percentage 
+                    weight above $100 \ \%$ are expected instabilities of the high precision scale}
+                    \label{fig:TGA_plot}
+                \end{figure}
 
     \clearpage
     \section{SLS printing of a single layer object}
