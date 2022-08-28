@@ -23,20 +23,20 @@
 \contentsline {subsection}{\numberline {8.1}Components}{23}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Equipment}{24}{subsection.8.2}%
 \contentsline {subsection}{\numberline {8.3}Detailed step-by-step reaction}{24}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Initial results and failures}{27}{subsection.8.4}%
-\contentsline {section}{\numberline {9}Recipe tweaking and improvements}{29}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Key variables}{29}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Adaptation to faulty or unsuitable equipment}{31}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Current results}{32}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Consistent reproducibility and scalability}{32}{subsection.9.4}%
-\contentsline {section}{\numberline {10}Powder granulometry and morphology}{33}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Sieving process}{33}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}SEM (Scanning Electron Microscope) analysis}{34}{subsection.10.2}%
-\contentsline {subsubsection}{\numberline {10.2.1}Results}{34}{subsubsection.10.2.1}%
-\contentsline {section}{\numberline {11}Thermal analysis}{42}{section.11}%
-\contentsline {subsection}{\numberline {11.1}DSC (Differential Scanning Calorimetry)}{42}{subsection.11.1}%
-\contentsline {subsubsection}{\numberline {11.1.1}Results}{42}{subsubsection.11.1.1}%
-\contentsline {subsection}{\numberline {11.2}TGA (Thermal Gravimetric Analysis)}{44}{subsection.11.2}%
-\contentsline {subsubsection}{\numberline {11.2.1}Results}{44}{subsubsection.11.2.1}%
-\contentsline {section}{\numberline {12}SLS printing of a single layer object}{46}{section.12}%
-\contentsline {section}{\numberline {13}Conclusion}{47}{section.13}%
+\contentsline {subsection}{\numberline {8.4}Initial results and failures}{28}{subsection.8.4}%
+\contentsline {section}{\numberline {9}Recipe tweaking and improvements}{30}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Key variables}{30}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Adaptation to faulty or unsuitable equipment}{32}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Current results}{33}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Consistent reproducibility and scalability}{33}{subsection.9.4}%
+\contentsline {section}{\numberline {10}Powder granulometry and morphology}{34}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Sieving process}{34}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}SEM (Scanning Electron Microscope) analysis}{35}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}Results}{35}{subsubsection.10.2.1}%
+\contentsline {section}{\numberline {11}Thermal analysis}{43}{section.11}%
+\contentsline {subsection}{\numberline {11.1}DSC (Differential Scanning Calorimetry)}{43}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}Results}{43}{subsubsection.11.1.1}%
+\contentsline {subsection}{\numberline {11.2}TGA (Thermal Gravimetric Analysis)}{45}{subsection.11.2}%
+\contentsline {subsubsection}{\numberline {11.2.1}Results}{45}{subsubsection.11.2.1}%
+\contentsline {section}{\numberline {12}SLS printing of a single layer object}{47}{section.12}%
+\contentsline {section}{\numberline {13}Conclusion}{48}{section.13}%
