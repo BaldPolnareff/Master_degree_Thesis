@@ -3510,6 +3510,7 @@ xdata_TGA_powder = [33.6798,
 885.934];
 
 % Plotting the TGA for pellets and powders to see any substantial (undesired) discrepancy
+% Plotting the TGA derivative, which indicates the material degradation rate
 
 figure()
 plot(xdata_TGA_pellet, ydata_TGA_pellet);
@@ -3519,10 +3520,44 @@ hold on
 xlim([0 900])
 ylim([0 105])
 grid on
-xlabel("Weight [%]")
-ylabel("Temperature [C]")
+ylabel("Weight [%]")
+xlabel("Temperature [C]")
 legend("TGA: Pellet", "TGA: Powder", 'Location', "northeast")
 title('TGA (Thermal Gravimetric Analysis) of PHBH pellets and powder')
+
+% Defining the TGA derivatives
+
+diff_ypellet_VS_xpellet = gradient(ydata_TGA_pellet(:)) ./ gradient(xdata_TGA_pellet(:)); 
+diff_ypowder_VS_xpowder = gradient(ydata_TGA_powder(:)) ./ gradient(xdata_TGA_powder(:));
+
+% Plotting the TGA derivatives, which indicate the material degradation rate
+
+figure()
+plot(xdata_TGA_pellet, ydata_TGA_pellet);
+hold on 
+plot(diff_ypellet_VS_xpellet);
+hold on 
+xlim([0 900])
+ylim([-8 105])
+grid on
+ylabel("Weight [%]")
+xlabel("Temperature [C]")
+legend("TGA Pellet", "TGA derivative", 'Location', "northeast")
+title('TGA of pellet sample xxxx and its derivative')
+
+figure()
+plot(xdata_TGA_powder, ydata_TGA_powder);
+hold on 
+plot(diff_ypowder_VS_xpowder);
+hold on 
+xlim([0 900])
+ylim([-8 105])
+grid on
+ylabel("Weight [%]")
+xlabel("Temperature [C]")
+legend("TGA Powder", "TGA derivative", 'Location', "northeast")
+title('TGA of powder sample xxxx and its derivative')
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -16138,7 +16173,7 @@ hold on
 xlim([-50 250])
 ylim([-2 2])
 grid on
-xlabel("Heat Flux [W/g]")
-ylabel("Temperature [C]")
+ylabel("Heat Flux [W/g]")
+xlabel("Temperature [C]")
 %legend("TGA: Pellet", "TGA: Powder", 'Location', "northeast")
 title('DSC (Differential Scanning Calorimetry) of PHBH')

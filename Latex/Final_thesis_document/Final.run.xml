@@ -79,7 +79,7 @@
       <file>Final.bcf</file>
     </requires>
     <requires type="editable">
-      <file>/Users/giorgio/Bibliography/bibliography.bib</file>
+      <file>/home/giorgio/Bibliography/bibliography.bib</file>
     </requires>
   </external>
 </requests>
