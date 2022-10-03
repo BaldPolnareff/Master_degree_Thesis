@@ -1,10 +1,10 @@
-
-
-Curve Name:
-  !PHBH_powder
-Curve Values:
-       Index           t          Ts          Tr       Value
-                     [s]        [�C]        [�C]         [%]
+# 
+# 
+# Curve Name:
+#   !PHBH_powder
+# Curve Values:
+#        Index           t          Ts          Tr       Value
+#                      [s]        [�C]        [�C]         [%]
            0           0     32.2597          25         100
            6           6     33.3275          26     100.064
           12          12      34.188          27     100.254
@@ -880,15 +880,15 @@ Curve Values:
         5232        5232     877.375         897     1.58303
         5238        5238     878.305         898      1.5833
         5244        5244     879.248         899     1.58273
-Results:
-Texts:
-  !PHBH_powder
-  PHBH_powder. 38.2253 mg
-
-Sample:
-  PHBH_powder. 38.2253 mg
-Sample Remarks:
-  
-Method:
-  25-900_10�C/min_air50ml/min_luca
+# Results:
+# Texts:
+#   !PHBH_powder
+#   PHBH_powder. 38.2253 mg
+# 
+# Sample:
+#   PHBH_powder. 38.2253 mg
+# Sample Remarks:
+#   
+# Method:
+#   25-900_10�C/min_air50ml/min_luca
 

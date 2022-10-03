@@ -1,10 +1,10 @@
-
-
-Curve Name:
-  !PHBHp0607
-Curve Values:
-       Index           t          Ts          Tr       Value
-                     [s]        [�C]        [�C]         [%]
+# 
+# 
+# Curve Name:
+#   !PHBHp0607
+# Curve Values:
+#        Index           t          Ts          Tr       Value
+#                      [s]        [�C]        [�C]         [%]
            0           0     33.0274          25         100
            6           6     34.1027          26     100.081
           12          12     34.9918          27     100.468
@@ -880,15 +880,15 @@ Curve Values:
         5232        5232     883.237         897     3.06807
         5238        5238     884.175         898     3.06807
         5244        5244     885.117         899     3.06878
-Results:
-Texts:
-  !PHBHp0607
-  PHBHp0607. 15.4821 mg
-
-Sample:
-  PHBHp0607. 15.4821 mg
-Sample Remarks:
-  
-Method:
-  25-900_10�C/min_air50ml/min_luca
+# Results:
+# Texts:
+#   !PHBHp0607
+#   PHBHp0607. 15.4821 mg
+# 
+# Sample:
+#   PHBHp0607. 15.4821 mg
+# Sample Remarks:
+#   
+# Method:
+#   25-900_10�C/min_air50ml/min_luca
 

@@ -1,10 +1,10 @@
-
-
-Curve Name:
-  !PHBH
-Curve Values:
-       Index           t          Ts          Tr       Value
-                     [s]        [°C]        [°C]         [%]
+# 
+# 
+# Curve Name:
+#   !PHBH
+# Curve Values:
+#        Index           t          Ts          Tr       Value
+#                      [s]        [°C]        [°C]         [%]
            0           0     32.1246          25         100
            6           6     33.1247          26     100.067
           12          12     33.9793          27     100.308
@@ -880,16 +880,16 @@ Curve Values:
         5232        5232     884.598         897     1.79947
         5238        5238     885.552         898     1.79947
         5244        5244     886.504         899     1.80061
-Results:
-Texts:
-  !PHBH
-  PHBH. 29.0641 mg
-
-Sample:
-  PHBH. 29.0641 mg
-Sample Remarks:
-  
-Method:
-  25-900_10°C/min_air50ml/min_luca
+# Results:
+# Texts:
+#   !PHBH
+#   PHBH. 29.0641 mg
+# 
+# Sample:
+#   PHBH. 29.0641 mg
+# Sample Remarks:
+#   
+# Method:
+#   25-900_10°C/min_air50ml/min_luca
 
 

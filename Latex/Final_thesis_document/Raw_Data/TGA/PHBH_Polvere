@@ -1,10 +1,10 @@
-
-
-Curve Name:
-  !PHBH polvere
-Curve Values:
-       Index           t          Ts          Tr       Value
-                     [s]        [°C]        [°C]         [%]
+# 
+# 
+# Curve Name:
+#   !PHBH polvere
+# Curve Values:
+#        Index           t          Ts          Tr       Value
+#                      [s]        [°C]        [°C]         [%]
            0           0     33.6798          25         100
            6           6     34.6823          26     100.262
           12          12     35.5759          27     101.163
@@ -880,16 +880,16 @@ Curve Values:
         5232        5232     884.058         897    -1.50534
         5238        5238         885         898    -1.53291
         5244        5244     885.934         899    -1.55983
-Results:
-Texts:
-  !PHBH polvere
-  PHBH polvere. 8.7688 mg
-
-Sample:
-  PHBH polvere. 8.7688 mg
-Sample Remarks:
-  
-Method:
-  25-900_10°C/min_air50ml/min_luca
+# Results:
+# Texts:
+#   !PHBH polvere
+#   PHBH polvere. 8.7688 mg
+# 
+# Sample:
+#   PHBH polvere. 8.7688 mg
+# Sample Remarks:
+#   
+# Method:
+#   25-900_10°C/min_air50ml/min_luca
 
 

@@ -1,10 +1,10 @@
-
-
-Curve Name:
-  !PHBH_10 layer
-Curve Values:
-       Index           t          Ts          Tr       Value
-                     [s]        [�C]        [�C]         [%]
+# 
+# 
+# Curve Name:
+#   !PHBH_10 layer
+# Curve Values:
+#        Index          t         Ts          Tr       Value
+#                     [s]       [�C]        [�C]         [%]
            0           0     32.8067          25         100
            6           6     33.8448          26     100.166
           12          12     34.6915          27     100.784
@@ -880,15 +880,15 @@ Curve Values:
         5232        5232     877.384         897     4.53804
         5238        5238     878.322         898     4.53389
         5244        5244     879.257         899     4.52868
-Results:
-Texts:
-  !PHBH_10 layer
-  PHBH_10 layer. 10.5330 mg
-
-Sample:
-  PHBH_10 layer. 10.5330 mg
-Sample Remarks:
-  
-Method:
-  25-900_10�C/min_air50ml/min_luca
+# Results:
+# Texts:
+#   !PHBH_10 layer
+#   PHBH_10 layer. 10.5330 mg
+# 
+# Sample:
+#   PHBH_10 layer. 10.5330 mg
+# Sample Remarks:
+#   
+# Method:
+#   25-900_10�C/min_air50ml/min_luca
 
