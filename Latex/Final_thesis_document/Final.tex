@@ -1,4 +1,3 @@
-% !TeX root = Final.tex
 \documentclass{article}
 \usepackage{textcomp}
 \usepackage{gensymb}
@@ -10,7 +9,7 @@
 \usepackage[]{amsmath}
 \usepackage{mathtools}
 \usepackage{fancyref}
-\usepackage{fancyheadings}
+\usepackage{fancyhdr}
 \usepackage{lipsum}
 \addbibresource{/home/giorgio/Bibliography/bibliography.bib}
 \hypersetup{
@@ -28,12 +27,36 @@
 
 \begin{document}
     \setlength{\parindent}{0pt}
+
     \maketitle
     \begin{center}
-        \includegraphics[width=0.8\textwidth]{Pictures/polito_logo.eps}\linebreak\newline
-        
-        \textit{Year 2021/2022}
+        \textbf{POLITECNICO DI TORINO} \\ 
+        \textit{Department of Mechanical and Aerospace Engineering} \\
     \end{center}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.8\textwidth]{Pictures/polito_logo.eps}  
+        \label{fig:polito_logo}      
+    \end{figure}
+
+    \begin{center} 
+        \textbf{Master of Science in Aerospace Engineering} \\
+    \end{center}
+
+
+    \begin{center}
+        \textbf{Supervisor:} Prof. Massimo Messori \\
+        \textbf{Co-supervisor:} Prof. Giovanna Colucci \\
+    \end{center}
+
+
+    %\maketitle
+    %\begin{center}
+    %    \includegraphics[width=0.8\textwidth]{Pictures/polito_logo.eps}\linebreak\newline
+    %    
+    %    \textit{Year 2021/2022}
+    %\end{center}
 
     \newpage
     \begin{center}
@@ -42,17 +65,48 @@
     \newpage
 
     \begin{abstract}
-        The goal of this case study is to optimize the production of SLS suitable fine powders of sustainable biopolymers and directly assess their printability. 
 
-        After an extensive research on current \textit{state-of-the-art} production methods, suitable processes have been experimented, 
-        with the available lab equipment, leading to the choice of \textit{chemical precipitation}. 
+        The goal of this case study is to optimize the production of SLS suitable
+        fine powders of sustainable biopolymers and directly assess their printability.
 
-        An initial recipe for \textit{PHBH}, previously tested by other researchers at \textit{DISAT, PoliTo}, has been tweaked and improved, 
-        achieving over a ten-fold increase in pellet-to-powder production yield. 
 
-        The resulting powder has been characterized by means of a series of tests, including various \textit{thermal analysis} methods and \textit{dynamic mechanical analysis}.
+        Among the biopolymers, PLA is the most widely used in the \textit{Fused Deposition Modeling} (FDM) hobbyist and enthusiast markets, whereas more invasive polymers such as PA12 are commonly used in
+        \textit{Selective Laser Sintering} (SLS), the most common 3D printing technology for the production of functional parts.
 
-        The powder has been successfully printed on a \textit{Sharebot Snowhite²} SLS 3D printer, achieving a print quality comparable to that of standard SLS polymers such as PA12.
+        A higher demand for biopolymers in the SLS industry is expected in the near future - following the general sustainability goals of all industries - as the technology allows for the production of more complex geometries and intricate details, as well as ad-hoc parts for the medical industry, where the use of biopolymers is already widespread.
+
+        The catalogue of biopolymers available for SLS is currently expanding, but still limited, and the production of fine powders is a critical step in the process of producing functional parts.
+
+        This study focused on PHBH, a copolymer of the \textit{Polyhydroxyalcanoate} family, with a wider sintering window and thus a higher potential for SLS applications, compared to other polymers of the same group.
+
+
+        An extensive research on current \textit{state-of-the-art} production methods, most notably cryogenic mechanical milling and chemical precipitation, led to choosing the latter, since the former does not produce spherical particles, unless further heat treatments are applied, with unpredictable rates of success and potentially high power consumption.
+
+
+        An initial recipe for PHBH, previously tested by other researchers, has been tweaked and improved, achieving over a ten-fold increase in \textit{pellet-to-powder} yield, compared to the very early stages of production.
+
+        The process involves the dissolution of the polymer in chloroform, followed by dripping the viscous liquid in a $0.25 \ \%$ PVA solution and stirring the mixture, which eventually causes the solvent to evaporate completely and the polymer to precipitate as a fine powder.
+
+        The resulting powder is then cleaned, dried overnight and sieved, to obtain a final product with a particle size distribution suitable for SLS applications ($ < 100 \ \mu m $).
+
+
+        Specimens of the obtained powder have been collected and characterized by means of a series of tests, including various thermal analysis methods, such as TGA and DSC, as well as a flowability test and density measurments via a gas pycnometer.
+
+        The SLS suitability of the powder has been further assessed in terms of morphology by \textit{Scanning Electron Microscopy} (SEM), which revealed a close to ideal distribution of predominantly spherical, non-hollow particles. 
+
+        The powder has been printed on an SLS 3D printer, with single layer and multilayer objects achieving a print quality comparable to that of standard SLS polymers such as PA12.
+
+        Complex geometries and intricate details have been successfully printed as a proof of concept, as well as prismatic samples (50x10x1 mm) that have undergone a DMA.
+
+        Other samples have been tested with a TGA to assess the thermal stability of the printed parts, and the results have been compared to those of the powder itself. 
+
+        The overall results of this study have been very promising, starting from the production of a SLS suitable powder, using a high yield precipitation process that can be easily streamlined and scaled up to industrial production, to the successful printing of complex geometries and intricate details, with a print quality comparable to that of standard SLS polymers. 
+
+        However, further improvements and research in the powder production pipeline are expected, especially with regards to the sustainability of the process, as the use of a solvent such as chloroform is not ideal, and the use of a more sustainable solvent needs to be investigated.
+
+
+
+
 
     \end{abstract}
     \newpage
