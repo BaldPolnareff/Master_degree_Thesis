@@ -619,6 +619,31 @@
       \verb https://www.pixelmator.com/pro/
       \endverb
     \endentry
+    \entry{FIB-SEM_TESCAN_S9000G}{howpublished}{}
+      \name{author}{1}{}{%
+        {{hash=65f366fa94039b5f8583fff879d94fbe}{%
+           family={Tescan},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{65f366fa94039b5f8583fff879d94fbe}
+      \strng{fullhash}{65f366fa94039b5f8583fff879d94fbe}
+      \strng{bibnamehash}{65f366fa94039b5f8583fff879d94fbe}
+      \strng{authorbibnamehash}{65f366fa94039b5f8583fff879d94fbe}
+      \strng{authornamehash}{65f366fa94039b5f8583fff879d94fbe}
+      \strng{authorfullhash}{65f366fa94039b5f8583fff879d94fbe}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FIB-SEM, TESCAN S9000G, Tescan}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.tescan.com/fib-sem-tomography-of-biological-specimens-with-the-new-tescan-s9000g/#file-lead?filename=Advanced-Focused-Ion-Beam-Scanning-Electron-Microscopy-for-3D-ultrastructural-analysis-of-mitochondria-ER-in
+      \endverb
+      \verb{url}
+      \verb https://www.tescan.com/fib-sem-tomography-of-biological-specimens-with-the-new-tescan-s9000g/#file-lead?filename=Advanced-Focused-Ion-Beam-Scanning-Electron-Microscopy-for-3D-ultrastructural-analysis-of-mitochondria-ER-in
+      \endverb
+    \endentry
     \entry{Recent_progress_polymers_AM}{article}{}
       \name{author}{1}{}{%
         {{hash=8fbe073c0bb159b81763c877d46300c8}{%

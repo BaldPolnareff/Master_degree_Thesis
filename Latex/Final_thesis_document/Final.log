@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.25)  31 OCT 2022 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.25)  1 NOV 2022 20:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -756,7 +756,7 @@ Package epstopdf Info: Source file: <Pictures/SLS_temp_over_time.eps>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SLS_temp_over_time-eps-converted-to.pdf Pictures/SLS_temp_over_time.eps>
 (epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/SLS_temp_over_time-eps-converted-to.pdf, id=368, 1291.82625pt x 984.67876pt>
+<Pictures/SLS_temp_over_time-eps-converted-to.pdf, id=383, 1291.82625pt x 984.67876pt>
 File: Pictures/SLS_temp_over_time-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/SLS_temp_over_time-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/SLS_temp_over_time-eps-converted-to.pdf  used on input line 242.
@@ -860,7 +860,7 @@ Package epstopdf Info: Source file: <Pictures/sintering_neck.eps>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/sintering_neck-eps-converted-to.pdf Pictures/sintering_neck.eps>
 (epstopdf)             \includegraphics on input line 431.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/sintering_neck-eps-converted-to.pdf, id=441, 1483.5425pt x 825.0825pt>
+<Pictures/sintering_neck-eps-converted-to.pdf, id=454, 1483.5425pt x 825.0825pt>
 File: Pictures/sintering_neck-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/sintering_neck-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/sintering_neck-eps-converted-to.pdf  used on input line 431.
@@ -908,7 +908,7 @@ Package epstopdf Info: Source file: <Pictures/TEAS_plot.eps>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/TEAS_plot-eps-converted-to.pdf Pictures/TEAS_plot.eps>
 (epstopdf)             \includegraphics on input line 535.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/TEAS_plot-eps-converted-to.pdf, id=478, 1840.8775pt x 1314.9125pt>
+<Pictures/TEAS_plot-eps-converted-to.pdf, id=490, 1840.8775pt x 1314.9125pt>
 File: Pictures/TEAS_plot-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/TEAS_plot-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/TEAS_plot-eps-converted-to.pdf  used on input line 535.
@@ -923,7 +923,7 @@ Package epstopdf Info: Source file: <Pictures/particle_size_stirring.eps>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/particle_size_stirring-eps-converted-to.pdf Pictures/particle_size_stirring.eps>
 (epstopdf)             \includegraphics on input line 567.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/particle_size_stirring-eps-converted-to.pdf, id=496, 2275.50125pt x 2031.59pt>
+<Pictures/particle_size_stirring-eps-converted-to.pdf, id=508, 2275.50125pt x 2031.59pt>
 File: Pictures/particle_size_stirring-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/particle_size_stirring-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/particle_size_stirring-eps-converted-to.pdf  used on input line 567.
@@ -1034,7 +1034,7 @@ Package epstopdf Info: Source file: <Pictures/process_diagram.eps>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/process_diagram-eps-converted-to.pdf Pictures/process_diagram.eps>
 (epstopdf)             \includegraphics on input line 747.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/process_diagram-eps-converted-to.pdf, id=564, 744.7825pt x 835.12pt>
+<Pictures/process_diagram-eps-converted-to.pdf, id=576, 744.7825pt x 835.12pt>
 File: Pictures/process_diagram-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/process_diagram-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/process_diagram-eps-converted-to.pdf  used on input line 747.
@@ -1259,7 +1259,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1104--1106
 
  []
 
-<Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png, id=669, 1027.84pt x 1027.84pt>
+<Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png, id=681, 1027.84pt x 1027.84pt>
 File: Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png Graphic file (type png)
 <use Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png>
 Package pdftex.def Info: Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png  used on input line 1114.
@@ -1267,107 +1267,266 @@ Package pdftex.def Info: Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1120--1122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
-
- []
-
-<Pictures/SEM/Edited/unedited_vs_edited.png, id=675, 2312.64pt x 1564.34438pt>
-File: Pictures/SEM/Edited/unedited_vs_edited.png Graphic file (type png)
-<use Pictures/SEM/Edited/unedited_vs_edited.png>
-Package pdftex.def Info: Pictures/SEM/Edited/unedited_vs_edited.png  used on input line 1141.
-(pdftex.def)             Requested size: 345.0pt x 233.35255pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [35
 
 ] [36 <./Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png (PNG copy)>]
-<Pictures/SEM/Edited/05_01.png, id=692, 3083.52pt x 2094.82625pt>
-File: Pictures/SEM/Edited/05_01.png Graphic file (type png)
-<use Pictures/SEM/Edited/05_01.png>
-Package pdftex.def Info: Pictures/SEM/Edited/05_01.png  used on input line 1168.
-(pdftex.def)             Requested size: 345.0pt x 234.36322pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Pictures/SEM/Edited/05_02.png, id=697, 3083.52pt x 2094.82625pt>
-File: Pictures/SEM/Edited/05_02.png Graphic file (type png)
-<use Pictures/SEM/Edited/05_02.png>
-Package pdftex.def Info: Pictures/SEM/Edited/05_02.png  used on input line 1175.
-(pdftex.def)             Requested size: 345.0pt x 234.36322pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Pictures/SEM/Edited/06_02.png, id=702, 3083.52pt x 2094.82625pt>
-File: Pictures/SEM/Edited/06_02.png Graphic file (type png)
-<use Pictures/SEM/Edited/06_02.png>
-Package pdftex.def Info: Pictures/SEM/Edited/06_02.png  used on input line 1182.
-(pdftex.def)             Requested size: 345.0pt x 234.36322pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Pictures/SEM/Edited/05_03.png, id=707, 3083.52pt x 2094.82625pt>
-File: Pictures/SEM/Edited/05_03.png Graphic file (type png)
-<use Pictures/SEM/Edited/05_03.png>
-Package pdftex.def Info: Pictures/SEM/Edited/05_03.png  used on input line 1191.
-(pdftex.def)             Requested size: 345.0pt x 234.36322pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Pictures/SEM/Edited/06_01.png, id=710, 3083.52pt x 2094.82625pt>
-File: Pictures/SEM/Edited/06_01.png Graphic file (type png)
-<use Pictures/SEM/Edited/06_01.png>
-Package pdftex.def Info: Pictures/SEM/Edited/06_01.png  used on input line 1198.
-(pdftex.def)             Requested size: 345.0pt x 234.36322pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Pictures/SEM/Edited/06_03.png, id=713, 3083.52pt x 2094.82625pt>
-File: Pictures/SEM/Edited/06_03.png Graphic file (type png)
-<use Pictures/SEM/Edited/06_03.png>
-Package pdftex.def Info: Pictures/SEM/Edited/06_03.png  used on input line 1205.
-(pdftex.def)             Requested size: 345.0pt x 234.36322pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Pictures/SEM/Edited/04_01.png, id=716, 874.06866pt x 593.80902pt>
-File: Pictures/SEM/Edited/04_01.png Graphic file (type png)
-<use Pictures/SEM/Edited/04_01.png>
-Package pdftex.def Info: Pictures/SEM/Edited/04_01.png  used on input line 1212.
-(pdftex.def)             Requested size: 345.0pt x 234.3753pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Pictures/SEM/Edited/04_02.png, id=719, 8880.5376pt x 6033.0996pt>
-File: Pictures/SEM/Edited/04_02.png Graphic file (type png)
-<use Pictures/SEM/Edited/04_02.png>
-Package pdftex.def Info: Pictures/SEM/Edited/04_02.png  used on input line 1219.
-(pdftex.def)             Requested size: 345.0pt x 234.37857pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Pictures/SEM/Edited/04_03.png, id=722, 8880.5376pt x 6033.0996pt>
-File: Pictures/SEM/Edited/04_03.png Graphic file (type png)
-<use Pictures/SEM/Edited/04_03.png>
-Package pdftex.def Info: Pictures/SEM/Edited/04_03.png  used on input line 1226.
-(pdftex.def)             Requested size: 345.0pt x 234.37857pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[37 <./Pictures/SEM/Edited/unedited_vs_edited.png>] [38 <./Pictures/SEM/Edited/05_01.png (PNG copy)> <./Pictures/SEM/Edited/05_02.png (PNG copy)>] [39 <./Pictures/SEM/Edited/06_02.png (PNG copy)> <./Pictures/SEM/Edited/05_03.png (PNG copy)>] [40 <./Pictures/SEM/Edited/06_01.png (PNG copy)> <./Pictures/SEM/Edited/06_03.png (PNG copy)>] [41 <./Pictures/SEM/Edited/04_01.png> <./Pictures/SEM/Edited/04_02.png>] [42 <./Pictures/SEM/Edited/04_03.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1246--1248
+Underfull \hbox (badness 10000) in paragraph at lines 1122--1125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1252--1254
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1138--1140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1167--1168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1174--1176
+
+ []
+
+[37
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
+
+ []
+
+<Pictures/SEM/Edited/unedited_vs_edited.png, id=704, 2312.64pt x 1564.34438pt>
+File: Pictures/SEM/Edited/unedited_vs_edited.png Graphic file (type png)
+<use Pictures/SEM/Edited/unedited_vs_edited.png>
+Package pdftex.def Info: Pictures/SEM/Edited/unedited_vs_edited.png  used on input line 1181.
+(pdftex.def)             Requested size: 345.0pt x 233.35255pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
+
+ []
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/04_01.eps>
+(epstopdf)                    date: 2022-10-22 20:23:59
+(epstopdf)                    size: 3550471 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/04_01-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:34:38
+(epstopdf)                    size: 833659 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/04_01-eps-converted-to.pdf Pictures/SEM/Edited/04_01.eps>
+(epstopdf)             \includegraphics on input line 1190.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/04_01-eps-converted-to.pdf, id=708, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/04_01-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/04_01-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/04_01-eps-converted-to.pdf  used on input line 1190.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/04_02.eps>
+(epstopdf)                    date: 2022-10-22 20:24:00
+(epstopdf)                    size: 3540492 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/04_02-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:34:41
+(epstopdf)                    size: 915008 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/04_02-eps-converted-to.pdf Pictures/SEM/Edited/04_02.eps>
+(epstopdf)             \includegraphics on input line 1197.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/04_02-eps-converted-to.pdf, id=711, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/04_02-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/04_02-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/04_02-eps-converted-to.pdf  used on input line 1197.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/04_03.eps>
+(epstopdf)                    date: 2022-10-22 20:24:00
+(epstopdf)                    size: 3553618 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/04_03-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:34:42
+(epstopdf)                    size: 891961 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/04_03-eps-converted-to.pdf Pictures/SEM/Edited/04_03.eps>
+(epstopdf)             \includegraphics on input line 1204.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/04_03-eps-converted-to.pdf, id=714, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/04_03-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/04_03-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/04_03-eps-converted-to.pdf  used on input line 1204.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/05_03.eps>
+(epstopdf)                    date: 2022-10-22 20:24:00
+(epstopdf)                    size: 3261387 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/05_03-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:34:44
+(epstopdf)                    size: 782738 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/05_03-eps-converted-to.pdf Pictures/SEM/Edited/05_03.eps>
+(epstopdf)             \includegraphics on input line 1211.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/05_03-eps-converted-to.pdf, id=717, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/05_03-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/05_03-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/05_03-eps-converted-to.pdf  used on input line 1211.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/06_01.eps>
+(epstopdf)                    date: 2022-10-22 20:24:00
+(epstopdf)                    size: 3525881 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/06_01-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:34:47
+(epstopdf)                    size: 815213 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/06_01-eps-converted-to.pdf Pictures/SEM/Edited/06_01.eps>
+(epstopdf)             \includegraphics on input line 1218.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/06_01-eps-converted-to.pdf, id=720, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/06_01-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/06_01-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/06_01-eps-converted-to.pdf  used on input line 1218.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/06_03.eps>
+(epstopdf)                    date: 2022-10-22 20:24:00
+(epstopdf)                    size: 3107786 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/06_03-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:34:48
+(epstopdf)                    size: 758626 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/06_03-eps-converted-to.pdf Pictures/SEM/Edited/06_03.eps>
+(epstopdf)             \includegraphics on input line 1225.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/06_03-eps-converted-to.pdf, id=723, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/06_03-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/06_03-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/06_03-eps-converted-to.pdf  used on input line 1225.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_01.eps>
+(epstopdf)                    date: 2022-10-22 20:24:00
+(epstopdf)                    size: 8675313 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/sample_01-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:34:52
+(epstopdf)                    size: 1349682 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/sample_01-eps-converted-to.pdf Pictures/SEM/Edited/sample_01.eps>
+(epstopdf)             \includegraphics on input line 1232.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/sample_01-eps-converted-to.pdf, id=726, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/sample_01-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/sample_01-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/sample_01-eps-converted-to.pdf  used on input line 1232.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_02.eps>
+(epstopdf)                    date: 2022-10-22 20:24:00
+(epstopdf)                    size: 10764035 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/sample_02-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:34:57
+(epstopdf)                    size: 1354699 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/sample_02-eps-converted-to.pdf Pictures/SEM/Edited/sample_02.eps>
+(epstopdf)             \includegraphics on input line 1239.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/sample_02-eps-converted-to.pdf, id=729, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/sample_02-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/sample_02-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/sample_02-eps-converted-to.pdf  used on input line 1239.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_03.eps>
+(epstopdf)                    date: 2022-10-22 20:24:00
+(epstopdf)                    size: 7495295 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/sample_03-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:35:01
+(epstopdf)                    size: 1071228 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/sample_03-eps-converted-to.pdf Pictures/SEM/Edited/sample_03.eps>
+(epstopdf)             \includegraphics on input line 1246.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/sample_03-eps-converted-to.pdf, id=732, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/sample_03-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/sample_03-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/sample_03-eps-converted-to.pdf  used on input line 1246.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_04.eps>
+(epstopdf)                    date: 2022-10-22 20:24:00
+(epstopdf)                    size: 14812628 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/sample_04-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:35:07
+(epstopdf)                    size: 1617837 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/sample_04-eps-converted-to.pdf Pictures/SEM/Edited/sample_04.eps>
+(epstopdf)             \includegraphics on input line 1253.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/sample_04-eps-converted-to.pdf, id=735, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/sample_04-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/sample_04-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/sample_04-eps-converted-to.pdf  used on input line 1253.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_05.eps>
+(epstopdf)                    date: 2022-10-22 20:24:00
+(epstopdf)                    size: 7899715 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/sample_05-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:35:11
+(epstopdf)                    size: 1512421 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/sample_05-eps-converted-to.pdf Pictures/SEM/Edited/sample_05.eps>
+(epstopdf)             \includegraphics on input line 1260.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/sample_05-eps-converted-to.pdf, id=738, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/sample_05-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/sample_05-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/sample_05-eps-converted-to.pdf  used on input line 1260.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_06.eps>
+(epstopdf)                    date: 2022-10-22 20:24:00
+(epstopdf)                    size: 9811086 bytes
+(epstopdf)             Output file: <Pictures/SEM/Edited/sample_06-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-01 20:35:15
+(epstopdf)                    size: 1438800 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/sample_06-eps-converted-to.pdf Pictures/SEM/Edited/sample_06.eps>
+(epstopdf)             \includegraphics on input line 1267.
+Package epstopdf Info: Output file is already uptodate.
+<Pictures/SEM/Edited/sample_06-eps-converted-to.pdf, id=741, 2312.64pt x 1571.8725pt>
+File: Pictures/SEM/Edited/sample_06-eps-converted-to.pdf Graphic file (type pdf)
+<use Pictures/SEM/Edited/sample_06-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/SEM/Edited/sample_06-eps-converted-to.pdf  used on input line 1267.
+(pdftex.def)             Requested size: 345.0pt x 234.47552pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[38 <./Pictures/SEM/Edited/unedited_vs_edited.png>] [39 <./Pictures/SEM/Edited/04_01-eps-converted-to.pdf> <./Pictures/SEM/Edited/04_02-eps-converted-to.pdf>] [40 <./Pictures/SEM/Edited/04_03-eps-converted-to.pdf> <./Pictures/SEM/Edited/05_03-eps-converted-to.pdf>] [41 <./Pictures/SEM/Edited/06_01-eps-converted-to.pdf> <./Pictures/SEM/Edited/06_03-eps-converted-to.pdf>] [42 <./Pictures/SEM/Edited/sample_01-eps-converted-to.pdf> <./Pictures/SEM/Edited/sample_02-eps-converted-to.pdf>] [43 <./Pictures/SEM/Edited/sample_03-eps-converted-to.pdf> <./Pictures/SEM/Edited/sample_04-eps-converted-to.pdf>] [44 <./Pictures/SEM/Edited/sample_05-eps-converted-to.pdf> <./Pictures/SEM/Edited/sample_06-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1286--1288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1292--1294
 
  []
 
@@ -1378,35 +1537,35 @@ Package epstopdf Info: Source file: <Pictures/Thermal_analysis_plots/DSC.eps>
 (epstopdf)                    date: 2022-10-22 20:24:00
 (epstopdf)                    size: 51669 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Thermal_analysis_plots/DSC-eps-converted-to.pdf Pictures/Thermal_analysis_plots/DSC.eps>
-(epstopdf)             \includegraphics on input line 1268.
+(epstopdf)             \includegraphics on input line 1308.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Thermal_analysis_plots/DSC-eps-converted-to.pdf, id=756, 978.65625pt x 559.08875pt>
+<Pictures/Thermal_analysis_plots/DSC-eps-converted-to.pdf, id=852, 978.65625pt x 559.08875pt>
 File: Pictures/Thermal_analysis_plots/DSC-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Thermal_analysis_plots/DSC-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Thermal_analysis_plots/DSC-eps-converted-to.pdf  used on input line 1268.
+Package pdftex.def Info: Pictures/Thermal_analysis_plots/DSC-eps-converted-to.pdf  used on input line 1308.
 (pdftex.def)             Requested size: 345.0pt x 197.0916pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43
+[45
 
-] [44 <./Pictures/Thermal_analysis_plots/DSC-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1279--1282
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1292--1294
+] [46 <./Pictures/Thermal_analysis_plots/DSC-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1319--1322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1295--1299
+Underfull \hbox (badness 10000) in paragraph at lines 1332--1334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1305--1308
+Underfull \hbox (badness 10000) in paragraph at lines 1335--1339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1345--1348
 
  []
 
@@ -1420,47 +1579,57 @@ Package epstopdf Info: Source file: <Pictures/Thermal_analysis_plots/TGA.eps>
 (epstopdf)                    date: 2022-10-22 20:24:00
 (epstopdf)                    size: 29307 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf Pictures/Thermal_analysis_plots/TGA.eps>
-(epstopdf)             \includegraphics on input line 1330.
+(epstopdf)             \includegraphics on input line 1370.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf, id=778, 978.65625pt x 559.08875pt>
+<Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf, id=873, 978.65625pt x 559.08875pt>
 File: Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf  used on input line 1330.
+Package pdftex.def Info: Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf  used on input line 1370.
 (pdftex.def)             Requested size: 345.0pt x 197.0916pt.
-[45
+[47
 
-] [46 <./Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf>] [47
+] [48 <./Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf>] [49
 
-] [48
+] [50
 
 ]
-Overfull \hbox (77.07996pt too wide) in paragraph at lines 1361--1361
+Overfull \hbox (77.07996pt too wide) in paragraph at lines 1401--1401
 [][]$\OT1/cmtt/m/n/10 https : / / labs . openai . com / e / 8rNkMtCHXwQmVW0GZ00sc20q / ZCXOrjp8yxNf2UvDrupbdSuW$[][]\OT1/cmr/m/n/10 . 
  []
 
 
-Overfull \hbox (27.42413pt too wide) in paragraph at lines 1361--1361
+Overfull \hbox (27.42413pt too wide) in paragraph at lines 1401--1401
 []\OT1/cmr/m/n/10 Kerim Eraslan et al. ``Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH):
  []
 
 
-Overfull \hbox (4.79904pt too wide) in paragraph at lines 1361--1361
+Overfull \hbox (4.79904pt too wide) in paragraph at lines 1401--1401
 []\OT1/cmr/m/n/10 Alberto Giu-bilini et al. ``Ad-van-tages of Ad-di-tive Man-u-fac-tur-ing for Biomed-
  []
 
 
-Overfull \hbox (2.25262pt too wide) in paragraph at lines 1361--1361
+Overfull \hbox (2.25262pt too wide) in paragraph at lines 1401--1401
 \OT1/cmr/m/n/10 i-cal Ap-pli-ca-tions of Poly-hy-drox-yalka-noates''. In: \OT1/cmr/m/it/10 Bio-engi-neer-ing \OT1/cmr/m/n/10 8.2 (2021).
  []
 
 
-Overfull \hbox (22.13965pt too wide) in paragraph at lines 1361--1361
+Overfull \hbox (22.13965pt too wide) in paragraph at lines 1401--1401
 \OT1/cmr/m/n/10 prop-er-ties and ap-pli-ca-tions of poly(butylene-adipate-co-terephthalate)-PBAT''.
  []
 
-[49
+[51
 
-] [50] (./Final.aux)
+]
+
+Package biblatex Warning: No driver for entry type 'howpublished'.
+(biblatex)                Using fallback driver on input line 1400.
+
+
+Overfull \hbox (4.80281pt too wide) in paragraph at lines 1401--1401
+\OT1/cmtt/m/n/10 Ion -[] Beam -[] Scanning -[] Electron -[] Microscopy -[] for -[] 3D -[] ultrastructural -[]
+ []
+
+[52] (./Final.aux)
 Package rerunfilecheck Info: File `Final.out' has not changed.
 (rerunfilecheck)             Checksum: 3EEB79702B34AC839D2FE9BF79A170F3;8283.
 Package logreq Info: Writing requests to 'Final.run.xml'.
@@ -1468,18 +1637,18 @@ Package logreq Info: Writing requests to 'Final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19964 strings out of 480852
- 372306 string characters out of 5906872
- 1156058 words of memory out of 6000000
- 36881 multiletter control sequences out of 15000+600000
+ 20002 strings out of 480852
+ 374454 string characters out of 5906872
+ 1159538 words of memory out of 6000000
+ 36907 multiletter control sequences out of 15000+600000
  417913 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,11n,81p,1928b,1825s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Final.pdf (50 pages, 42653822 bytes).
+Output written on Final.pdf (52 pages, 36604577 bytes).
 PDF statistics:
- 951 PDF objects out of 1000 (max. 8388607)
- 816 compressed objects within 9 object streams
- 144 named destinations out of 1000 (max. 500000)
- 432 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1053 PDF objects out of 1200 (max. 8388607)
+ 883 compressed objects within 9 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 447 words of extra memory for PDF output out of 10000 (max. 10000000)
 

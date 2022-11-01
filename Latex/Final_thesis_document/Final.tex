@@ -1115,119 +1115,159 @@
                 \caption{"Round particles seen through a SEM microscope" as imagined by Dall-E 2's artificial intelligence algohorithm \autocites{DALLE2}{DALLE2_roundparticles}}
                 \label{fig:SEM_DALLE2}
             \end{figure}
+
+            \clearpage
             \subsubsection{Results\label{SEM_analysis_results}}
 
-            As mentioned, samples have been collected throughout the entirety of the experimental activity, which has been characterized by a lot of trial and error, before the entire production pipeline got optimized and 
+            As mentioned, samples have been collected throughout the entirety of the experimental activity, which has been characterized by a lot of trial and error, 
+            before the entire production pipeline got optimized and 
             under perfect control (\ref{recipe_improvement}). \\ 
 
-            The SEM instrument has been set up with the following parameters: 
+            The experiment has been conducted using a \textit{FIB-SEM, TESCAN S9000G, Tescan} instrument, which is a high resolution 
+            scanning electron microscope, equipped with a focused ion beam (FIB) for sample preparation and 
+            an electron backscatter diffraction (EBSD) detector \autocites{FIB-SEM_TESCAN_S9000G}. \\
+
+            The collected specimens have been selected, categorized and then assigned an ID:
+
+            \begin{equation}
+                ID = SEM_{NN}-nnnX_{(SignalA)}
+                \phantomsection
+                \label{eq:SEM_ID}
+            \end{equation}
+
+            where $SEM_{NN}$ is the sample's absolute ascending time number, $nnnX$ is the magnification factor and $(SignalA)$ is the signal type 
+            used by the instrument to generate the image. \\ 
+
+
+            All the selected samples have been catalogued as follows:
 
             \begin{table}[h!]
-                \centering
                 \resizebox{\textwidth}{!}{%
-                \begin{tabular}{@{}cccc@{}}
-                \toprule
-                \multicolumn{1}{|c|}{\textbf{MAG}} & \multicolumn{1}{c|}{\textbf{EHT (Electron High Tension) {[}kV{]}}} & \multicolumn{1}{c|}{\textbf{WD (Working Distance) {[}mm{]}}} & \multicolumn{1}{c|}{\textbf{Grid scale {[}$\mu m${]}}} \\ \midrule
-                461 X                              & 10.00                                                              & 8.65                                                         & 50                                                    
-                \end{tabular}%
+                    \begin{tabular}{@{}ccccccc@{}}
+                        \toprule
+                        \textbf{ID}                          & \textit{EHT {[}kV{]}} & \textit{WD {[}mm{]}} & Magnification & Signal A & \textit{Date {[}dd/mm/yyyy{]}} & \textit{Time {[}hh:mm:ss{]}} \\ \midrule
+                        \textbf{$SEM_{01}-461X_{(SE1)}$}     & 10.00                 & 8.65                 & 461 X         & SE1      & 12/07/2022                     & 15:21:07                     \\
+                        \textbf{$SEM_{02}-461X_{(SE1}$}      & 10.00                 & 8.60                 & 461 X         & SE1      & 12/07/2022                     & 15:22:19                     \\
+                        \textbf{$SEM_{03}-461X_{(SE1)}$}     & 10.00                 & 8.60                 & 461 X         & SE1      & 12/07/2022                     & 15:22:41                     \\
+                        \textbf{$SEM_{04}-461X_{(SE1)}$}     & 10.00                 & 8.60                 & 461 X         & SE1      & 12/07/2022                     & 15:24:52                     \\
+                        \textbf{$SEM_{05}-461X_{(SE1)}$}     & 10.00                 & 8.60                 & 461 X         & SE1      & 12/07/2022                     & 15:25:31                     \\
+                        \textbf{$SEM_{06}-461X_{(SE1)}$}      & 10.00                 & 8.60                 & 461 X         & SE1      & 12/07/2022                     & 15:27:17                     \\
+                        \textbf{$SEM_{07}-800X_{(VPSE \ G4)}$} & 20.00                 & 8.64                 & 800 X         & VPSE G4  & 03/10/2022                     & 18:46:15                     \\
+                        \textbf{$SEM_{08}-800X_{(VPSE \ G4)}$}  & 20.00                 & 8.64                 & 800 X         & VPSE G4  & 03/10/2022                     & 18:49:02                     \\
+                        \textbf{$SEM_{09}-800X_{(VPSE \ G4)}$}  & 20.00                 & 8.76                 & 800 X         & VPSE G4  & 03/10/2022                     & 18:51:15                     \\
+                        \textbf{$SEM_{10}-400X_{(VPSE \ G4)}$} & 20.00                 & 8.76                 & 400 X         & VPSE G4  & 03/10/2022                     & 18:54:00                     \\
+                        \textbf{$SEM_{11}-400X_{(VPSE \ G4)}$} & 20.00                 & 8.76                 & 400 X         & VPSE G4  & 03/10/2022                     & 18:55:21                     \\
+                        \textbf{$SEM_{12}-400X_{(VPSE \ G4)}$} & 20.00                 & 8.76                 & 400 X         & VPSE G4  & 03/10/2022                     & 18:56:40                     \\ \bottomrule
+                    \end{tabular}%
                 }
-                \label{tab:SEM_parameters}
+                \caption{All catalogued SEM samples}
+                \label{tab:SEM_samples_catalogue}
             \end{table}
+
+            The samples have been collected in a total of 12 different occasions, with a total of 12 different specimens. \\
+
+            The main instrument parameters to be modified during the experiment were the electron beam energy, the working distance, the magnification 
+            factor and the signal type.  \\
+            The electron beam energy has been set to 10 kV for the first 6 samples, using the secondary electrons signal at constant pressure (SE)
+            and then to 20 kV for the remaining 6 samples, using the variable pressure secondary electrons signal (VPSE G4). \\
+
+            Different magnifications factors have been used, ranging from 400 to 800 X, to showcase different particle sizes and to better understand 
+            the particle morphology. \\
 
             All SEM images have been AI upscaled and enhanced with basic raster image editing workflows. \\ 
 
                 \begin{figure}[h!]
                     \centering
                     \includegraphics[width=\textwidth]{Pictures/SEM/Edited/unedited_vs_edited.png}
-                    \caption{SEM image before and after enhancing \autocites{Inkscape}{Pixelmator_Pro}}
+                    \caption{Example of a SEM image before and after enhancing \autocites{Inkscape}{Pixelmator_Pro}}
                     \label{fig:SEM_edited_vs_unedited}
                 \end{figure}
                 
-            Issues with the earliest samples were also highlighted by SEM images, which further proved the absolute necessity of 
-            reorganizing the entire process. 
-            
-            Not only were the samples insufficient in terms of quantity, but morphology was far from being ideal (\ref{fig:SEM_DALLE2}), with elongated and deformed particles, full of surface irregularities and bumps. 
-
-            These abnormal particles could have simply been outliars, polluting otherwise 
-            regular samples, given how small SEM specimens need to be and given that TGA plots did not show any unexpected peaks, that could have signified the presence of impurities (\ref{TGA_Analysis}). 
-
-            The most likely scenario is that these outliars could have still been PHBH particles, but with non conformant morphology to the expected standards. 
-
-            The possibility that these particles could have been metallic or oxide impurities is very unlikely, but not totally implausible,considering that, as mentioned in previous chapters (\ref{faulty_equipment}), fritted flask filters had been contaminated with metals by other research teams. 
-
-            The specimens utilized in thermal analysis were also extremely small and randomly picked from the available samples, 
-            which means impurities could have been present but undetected. 
-
-            Despite this possibility being remote, these SEM images have been reflected upon and general anti-contamination practices
-            have highly been taken into account.
-            
-            This even led to discard the previous fritted glass filters and buy a new one, solely used for working with PHBH (\ref{faulty_equipment}). 
+            The FIB-SEM instrument has produced a total of 12 different images, which are shown below: \\
 
                 \begin{figure}[h!]
                     \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/05_01.png}
-                    \caption{Enhanced SEM images of the first samples, showcasing irregular particles \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_irregular_particles1}
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_01.eps}
+                    \caption{Enhanced SEM image, $SEM_{01}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_01}
                 \end{figure}
 
                 \begin{figure}[h!]
                     \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/05_02.png}
-                    \caption{Enhanced SEM images of the first samples, showcasing irregular particles \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_irregular_particles2}
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_02.eps}
+                    \caption{Enhanced SEM image, $SEM_{02}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_02}
                 \end{figure}
 
                 \begin{figure}[h!]
                     \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_02.png}
-                    \caption{Enhanced SEM images of the first samples, showcasing irregular particles \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_irregular_particles3}
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_03.eps}
+                    \caption{Enhanced SEM image, $SEM_{03}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_03}
                 \end{figure}
-
-            Later on, the newest samples did not present any appreciable anomaly, with particles close to a spherical morphology. 
 
                 \begin{figure}[h!]
                     \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/05_03.png}
-                    \caption{Enhanced SEM images \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_particles1}
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/05_03.eps}
+                    \caption{Enhanced SEM image, $SEM_{04}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_04}
                 \end{figure}
             
                 \begin{figure}[h!]
                     \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_01.png}
-                    \caption{Enhanced SEM images \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_particles2}
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_01.eps}
+                    \caption{Enhanced SEM image, $SEM_{05}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_05}
                 \end{figure}
             
                 \begin{figure}[h!]
                     \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_03.png}
-                    \caption{Enhanced SEM images \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_particles3}
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_03.eps}
+                    \caption{Enhanced SEM image, $SEM_{06}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_06}
                 \end{figure}
             
                 \begin{figure}[h!]
                     \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_01.png}
-                    \caption{Enhanced SEM images \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_particles4}
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_01.eps}
+                    \caption{Enhanced SEM image, $SEM_{07}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_07}
                 \end{figure}
             
                 \begin{figure}[h!]
                     \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_02.png}
-                    \caption{Enhanced SEM images \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_particles5}
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_02.eps}
+                    \caption{Enhanced SEM image, $SEM_{08}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_08}
                 \end{figure}
             
                 \begin{figure}[h!]
                     \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_03.png}
-                    \caption{Enhanced SEM images \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_particles6}
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_03.eps}
+                    \caption{Enhanced SEM image, $SEM_{09}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_09}
                 \end{figure}
 
+                \begin{figure}[h!]
+                    \centering 
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_04.eps}
+                    \caption{Enhanced SEM image, $SEM_{10}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_10}
+                \end{figure}
+
+                \begin{figure}[h!]
+                    \centering 
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_05.eps}
+                    \caption{Enhanced SEM image, $SEM_{11}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_11}
+                \end{figure}
+
+                \begin{figure}[h!]
+                    \centering 
+                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_06.eps}
+                    \caption{Enhanced SEM image, $SEM_{12}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+                    \label{fig:SEM_12}
+                \end{figure}
     \clearpage
     \section{Thermal analysis\label{Thermal_analysis}}
     
