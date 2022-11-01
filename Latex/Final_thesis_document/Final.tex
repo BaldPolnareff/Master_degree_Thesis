@@ -1166,6 +1166,7 @@
 
             The samples have been collected in a total of 12 different occasions, with a total of 12 different specimens. \\
 
+
             The main instrument parameters to be modified during the experiment were the electron beam energy, the working distance, the magnification 
             factor and the signal type.  \\
             The electron beam energy has been set to 10 kV for the first 6 samples, using the secondary electrons signal at constant pressure (SE)
@@ -1276,14 +1277,17 @@
 
     This is especially true with materials suited for SLS, where knowledge of thermal properties is 
     essential in determining a polymer's feasibility for this AM method. 
+    The thermal analysis tools used in this case study are the Differential Scanning Calorimetry (DSC) and the Thermogravimetric Analysis (TGA).
+
 
         \subsection{DSC (Differential Scanning Calorimetry)\label{DSC_analysis}}
         
         \textit{Differential Scanning Calorimetry} is a thermoanalytical technique that can be implemented with different types of machines, 
         but its general purpose is the analysis of the change in heat flux as a function of temperature, which is generally increased in 
         a linear fashion. 
+    
         
-        The term differential indicates that each test sample is analyzed in parallel to a reference sample, whose heat capacity and 
+        The term differential in DSC indicates that each test sample is analyzed in parallel to a reference sample, whose heat capacity and 
         thermal properties are well known and used to calibrate the machine. \\
         
         A typical use of DSC is the detection of phase transitions, which is crucial for applications such as SLS, where each material 
@@ -1301,7 +1305,18 @@
 
             \subsubsection{Results}
 
-            The test has been run on a 7.8 mg PHBH sample and the raw data set has been plotted with GNU/Octave \autocite{Octave}. 
+                The DSC machine used in this case study is the \textit{Mettler-Toledo DSC-1 STARe System}, which is a benchtop instrument that can be used for 
+                a wide range of applications. \\ 
+
+                It is equipped with a \textit{Gas Controller GC100}, in the temperature range from $-50 \ °C$ 
+                to $250 \ °C$ with 
+                a heating rate of $10 \ (or \ 5) \ °C/min$, and from $250°$ to $-50 \ °C$ with a cooling rate of $10 \ (or \ 5) \ °C/min$, 
+                under nitrogen flow $(50 \ mL/min)$. \\ 
+
+                The included \textit{Mettler-Toledo STARe software} (V9.2) allows for the analysis of the 
+                DSC data, as well as the creation of a report with the results. \\ 
+
+                The test has been run on a 7.8 mg PHBH sample and the raw data set has been plotted with GNU/Octave \autocite{Octave}. 
 
                 \begin{figure}[h!]
                     \centering
