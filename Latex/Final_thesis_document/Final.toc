@@ -36,7 +36,7 @@
 \contentsline {section}{\numberline {11}Thermal analysis}{45}{section.11}%
 \contentsline {subsection}{\numberline {11.1}DSC (Differential Scanning Calorimetry)}{45}{subsection.11.1}%
 \contentsline {subsubsection}{\numberline {11.1.1}Results}{45}{subsubsection.11.1.1}%
-\contentsline {subsection}{\numberline {11.2}TGA (Thermal Gravimetric Analysis)}{47}{subsection.11.2}%
-\contentsline {subsubsection}{\numberline {11.2.1}Results}{47}{subsubsection.11.2.1}%
-\contentsline {section}{\numberline {12}SLS printing of a single layer object}{49}{section.12}%
-\contentsline {section}{\numberline {13}Conclusion}{50}{section.13}%
+\contentsline {subsection}{\numberline {11.2}TGA (Thermal Gravimetric Analysis)}{48}{subsection.11.2}%
+\contentsline {subsubsection}{\numberline {11.2.1}Results}{48}{subsubsection.11.2.1}%
+\contentsline {section}{\numberline {12}SLS printing of a single layer object}{50}{section.12}%
+\contentsline {section}{\numberline {13}Conclusion}{51}{section.13}%

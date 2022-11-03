@@ -357,6 +357,31 @@
       \endverb
       \keyw{Biodegradation,Polyester,PBAT,Synthesis,Property,Application}
     \endentry
+    \entry{Labplot}{software}{}
+      \name{author}{1}{}{%
+        {{hash=c627cea4b070d10b855f85184f36b0c0}{%
+           family={KDE},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{fullhash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{bibnamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authorbibnamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authornamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authorfullhash}{c627cea4b070d10b855f85184f36b0c0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Labplot}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://labplot.kde.org
+      \endverb
+      \verb{url}
+      \verb https://labplot.kde.org
+      \endverb
+    \endentry
     \entry{Kovalcik_PHA_Review}{article}{}
       \name{author}{1}{}{%
         {{hash=a89a0622925a29f7ae7b3741335b9c88}{%
@@ -642,6 +667,33 @@
       \endverb
       \verb{url}
       \verb https://www.tescan.com/fib-sem-tomography-of-biological-specimens-with-the-new-tescan-s9000g/#file-lead?filename=Advanced-Focused-Ion-Beam-Scanning-Electron-Microscopy-for-3D-ultrastructural-analysis-of-mitochondria-ER-in
+      \endverb
+    \endentry
+    \entry{Mettler_Toledo}{website}{}
+      \name{author}{1}{}{%
+        {{hash=81d74fdfb3d6ed2c6b7266b601a3dd5a}{%
+           family={Toledo},
+           familyi={T\bibinitperiod},
+           given={Mettler},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{fullhash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{bibnamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authorbibnamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authornamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authorfullhash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mettler Toledo}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.mt.com
+      \endverb
+      \verb{url}
+      \verb https://www.mt.com
       \endverb
     \endentry
     \entry{Recent_progress_polymers_AM}{article}{}

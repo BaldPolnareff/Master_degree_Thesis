@@ -1308,22 +1308,78 @@
                 The DSC machine used in this case study is the \textit{Mettler-Toledo DSC-1 STARe System}, which is a benchtop instrument that can be used for 
                 a wide range of applications. \\ 
 
-                It is equipped with a \textit{Gas Controller GC100}, in the temperature range from $-50 \ °C$ 
-                to $250 \ °C$ with 
-                a heating rate of $10 \ (or \ 5) \ °C/min$, and from $250°$ to $-50 \ °C$ with a cooling rate of $10 \ (or \ 5) \ °C/min$, 
+                It is equipped with a \textit{Gas Controller GC100}, in the temperature range from $-50 \ ^{\circ} C$ 
+                to $250 \ ^{\circ} C$ with 
+                a heating rate of $10 \ (or \ 5) \ °C/min$, and from $250°$ to $-50 \ °C$ with a cooling rate of $10 \ (or \ 5) \ ^{\circ}C/min$, 
                 under nitrogen flow $(50 \ mL/min)$. \\ 
 
-                The included \textit{Mettler-Toledo STARe software} (V9.2) allows for the analysis of the 
+                The included \textit{Mettler-Toledo STARe software} (V12.10) allows for the analysis of the 
                 DSC data, as well as the creation of a report with the results. \\ 
 
-                The test has been run on a 7.8 mg PHBH sample and the raw data set has been plotted with GNU/Octave \autocite{Octave}. 
+                    \begin{figure}[h!]
+                        \includegraphics[width=\textwidth]{Pictures/mettler_toledo_DSC1.eps}
+                        \caption{Mettler-Toledo DSC-1 STARe System \autocites{Mettler_Toledo}}
+                        \label{fig:mettler_toledo_DSC1}
+                    \end{figure}
 
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DSC.eps}\\
-                    \caption{DSC analysis plot for a PHBH sample} 
-                    \label{fig:DSC_plot}
-                \end{figure} 
+                Multiple DSC analysis have been conducted and specimens have been catalogued with the following ID: 
+
+                \begin{equation}
+                    ID = xDSC_{(n ^{\circ}C/min)}-NN
+                    \label{eq:DSC_ID}
+                \end{equation}
+
+                where x is either \textit{p} for powder or \textit{s} for specimens derived from sintered samples, n is the temperature range, and NN is the sample's absolute 
+                ascending time number. \\
+
+                The specimens have been catalogued as follows: %p09, p AG 10, p AG 5, 10 layer
+
+                    \begin{table}[h!]
+                        \resizebox{\textwidth}{!}{%
+                            \begin{tabular}{@{}cccccc@{}}
+                            \toprule
+                            \textbf{ID}                 & \textit{Weight {[}mg{]}} & \textit{Temperature ramp {[}°C/min{]}} & Type     & \textit{Date {[}dd/mm//yyyy{]}} & \textit{Time {[}hh:mm{]}} \\ \midrule
+                            $ID = pDSC_{(10 \ ^{\circ}C/min)}-01$ & 8.5000                   & 10                                     & powder   & 20/09/2022                      & 09:21                     \\
+                            $ID = pDSC_{(10 \ ^{\circ}C/min)}-02$ & 15.7000                  & 10                                     & powder   & 21/09/2022                      & 12:03                     \\
+                            $ID = pDSC_{(5 \ ^{\circ}C/min)}-03$  & 10.7000                  & 5                                      & powder   & 21/09/2022                      & 12:04                     \\
+                            $ID = sDSC_{(10 \ ^{\circ}C/min)}-04$ & 13.6000                  & 10                                     & sintered & 21/09/2022                      & 12:05                     \\ \bottomrule
+                            \end{tabular}%
+                        }
+                        \caption{All catalogued DSC samples}
+                    \label{tab:DSC_ID}
+                    \end{table}
+
+
+                The DSC analysis of the powder and sintered samples have been conducted in the temperature range of $-50 \ ^{\circ}C$ to $250 \ ^{\circ}C$, 
+                the data set has been imported and plotted with \textit{Labplot} \autocites{Labplot} and the results are presented in the following figures. \\
+
+                    %\begin{figure}[h!]
+                    %    \centering
+                    %    \includegraphics[width=\textwidth]{Pictures/DSC/DSC_01.eps}
+                    %    \caption{DSC analysis of powder sample $pDSC_{(10 \ ^{\circ}C/min)}-01$ \autocites{Mettler_Toledo}}
+                    %    \label{fig:DSC_01}
+                    %\end{figure}
+%
+                    %\begin{figure}[h!]
+                    %    \centering
+                    %    \includegraphics[width=\textwidth]{Pictures/DSC/DSC_02.eps}
+                    %    \caption{DSC analysis of powder sample $pDSC_{(10 \ ^{\circ}C/min)}-02$ \autocites{Mettler_Toledo}}
+                    %    \label{fig:DSC_02}
+                    %\end{figure}
+%
+                    %\begin{figure}[h!]
+                    %    \centering
+                    %    \includegraphics[width=\textwidth]{Pictures/DSC/DSC_03.eps}
+                    %    \caption{DSC analysis of powder sample $pDSC_{(5 \ ^{\circ}C/min)}-03$ \autocites{Mettler_Toledo}}
+                    %    \label{fig:DSC_03}
+                    %\end{figure}
+%
+                    %\begin{figure}[h!]
+                    %    \centering
+                    %    \includegraphics[width=\textwidth]{Pictures/DSC/DSC_04.eps}
+                    %    \caption{DSC analysis of sintered sample $sDSC_{(10 \ ^{\circ}C/min)}-04$ \autocites{Mettler_Toledo}}
+                    %    \label{fig:DSC_04}
+                    %\end{figure}
 
         \clearpage
         \subsection{TGA (Thermal Gravimetric Analysis)\label{TGA_Analysis}}
