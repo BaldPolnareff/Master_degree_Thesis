@@ -1105,17 +1105,6 @@ INPUT ./Pictures/mettler_toledo_DSC1-eps-converted-to.pdf
 INPUT ./Pictures/mettler_toledo_DSC1-eps-converted-to.pdf
 INPUT ./Pictures/mettler_toledo_DSC1-eps-converted-to.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcti1000.tfm
-INPUT ./Pictures/Thermal_analysis_plots/TGA.eps
-INPUT ./Pictures/Thermal_analysis_plots/TGA.eps
-INPUT Pictures/Thermal_analysis_plots/TGA.eps
-INPUT ./Pictures/Thermal_analysis_plots/TGA.eps
-INPUT ./Pictures/Thermal_analysis_plots/TGA.eps
-INPUT ./Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf
-INPUT ./Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf
-INPUT ./Pictures/Thermal_analysis_plots/TGA.eps
-INPUT ./Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf
-INPUT ./Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf
-INPUT ./Pictures/Thermal_analysis_plots/TGA-eps-converted-to.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT Final.aux
 INPUT ./Final.out

@@ -1410,39 +1410,43 @@
         
             \subsubsection{Results}
 
-            The analysis has been firstly performed on the raw material, which had been acquired in pellets, as a benchmark test
+            The analysis has been firstly performed on the raw pellet material, as a benchmark test
             that consistently returned the expected degradation behaviour, over multiple analysis. 
 
-            Then samples of PHBH powder have been tested throughout the entire experimental activity, as a quality control check that 
-            would eventually highlight discrepancies with the benchmark values, which might indicate the presence of impurities
-            that might have been undetected during SEM analysis (\ref{SEM_analysis}) or even undesired residual moisture. \\ 
+            The test has then been conducted on powder samples and SLS printed samples, focusing on finding relevant 
+            discrepancies with the reference behaviour, which could potentially highlight the presence of impurities
+            that might have been undetected during SEM analysis (\ref{SEM_analysis}). \\ 
 
-            The typical instrument set up for the analysis, extrapolated by one of the latest tests: 
+            The TGA analysis was performed on a \textit{Mettler-Toledo TGA/SDTA 851e} \autocites{Mettler_Toledo} instrument, 
+            in air atmosphere, with a heating rate of $10 \ ^{\circ}C/min$ and a temperature range of $25 \ ^{\circ}C$ to $900 \ ^{\circ}C$. \\
+
+            The data has been exported with \textit{Mettler-Toledo}'s included software \autocites{Mettler_Toledo} (\ref{DSC_analysis}), after normalizing the data to the initial weight of the sample,
+            then imported, elaborated and plotted with \textit{Labplot} \autocites{Labplot}. \\
 
 
-                \begin{table}[h!]
-                    \centering
-                    \resizebox{\textwidth}{!}{%
-                    \begin{tabular}{@{}ccccc@{}}
-                    \toprule
-                    \textbf{PHBH} & Atmosphere & Temperature range {[}$^{\circ}C${]} & Temperature increase step {[}$^{\circ}C/min${]} & Weight {[}mg{]} \\ \midrule
-                    Pellet        & air        & 25-900                    & 10                                    & 8.7688          \\
-                    Powder        & air        & 25-900                    & 10                                    & 29.0641         \\ \bottomrule
-                    \end{tabular}%
-                    }
-                    \label{tab:TGA_instrument_parameters}
-                    \end{table}
 
-            No significant discrepancies have been highlighted throughout the analysis process; the raw data for the latest analysis have been plotted with GNU/Octave \autocite{Octave}, showing an almost perfect overlap between the pellet 
-            and the powder tests. 
+            %    \begin{table}[h!]
+            %        \centering
+            %        \resizebox{\textwidth}{!}{%
+            %        \begin{tabular}{@{}ccccc@{}}
+            %        \toprule
+            %        \textbf{PHBH} & Atmosphere & Temperature range {[}$^{\circ}C${]} & Temperature increase step {[}$^{\circ}C/min${]} & Weight {[}mg{]} \\ \midrule
+            %        Pellet        & air        & 25-900                    & 10                                    & 8.7688          \\
+            %        Powder        & air        & 25-900                    & 10                                    & 29.0641         \\ \bottomrule
+            %        \end{tabular}%
+            %        }
+            %        \label{tab:TGA_instrument_parameters}
+            %        \end{table}
+%
+        
 
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/TGA.eps}
-                    \caption{TGA of PHBH pellets and powder samples, showing an almost identical trend. Values of percentage 
-                    weight above $100 \ \%$ are expected instabilities of the high precision scale}
-                    \label{fig:TGA_plot}
-                \end{figure}
+            %    \begin{figure}[h!]
+            %        \centering 
+            %        \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/TGA.eps}
+            %        \caption{TGA of PHBH pellets and powder samples, showing an almost identical trend. Values of percentage 
+            %        weight above $100 \ \%$ are expected instabilities of the high precision scale}
+            %        \label{fig:TGA_plot}
+            %    \end{figure}
 
     \clearpage
     \section{SLS printing of a single layer object}
