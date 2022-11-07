@@ -227,6 +227,33 @@
       \endverb
       \keyw{Poly (3-hydroxybutyrate-co-3-hydroxyhexanoate),PHBH,PHBHHx,Review}
     \endentry
+    \entry{Blender}{software}{}
+      \name{author}{1}{}{%
+        {{hash=44275c392a37e9fa9de37082ab548a59}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Blender},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{fullhash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{bibnamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authorbibnamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authornamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authorfullhash}{44275c392a37e9fa9de37082ab548a59}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Blender}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.blender.org
+      \endverb
+      \verb{url}
+      \verb https://www.blender.org
+      \endverb
+    \endentry
     \entry{Messori_Bondioli_PHAs}{article}{}
       \name{author}{5}{}{%
         {{hash=d284d0c24a1e7d5da8b2082876199166}{%
@@ -540,6 +567,60 @@
       \endverb
       \verb{url}
       \verb https://www.mdpi.com/2073-4360/13/9/1436
+      \endverb
+    \endentry
+    \entry{PrusaSlicer}{software}{}
+      \name{author}{1}{}{%
+        {{hash=120b6d22998b726590376085d087a297}{%
+           family={Research},
+           familyi={R\bibinitperiod},
+           given={Prusa},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{120b6d22998b726590376085d087a297}
+      \strng{fullhash}{120b6d22998b726590376085d087a297}
+      \strng{bibnamehash}{120b6d22998b726590376085d087a297}
+      \strng{authorbibnamehash}{120b6d22998b726590376085d087a297}
+      \strng{authornamehash}{120b6d22998b726590376085d087a297}
+      \strng{authorfullhash}{120b6d22998b726590376085d087a297}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PrusaSlicer}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.prusa3d.com
+      \endverb
+      \verb{url}
+      \verb https://www.prusa3d.com
+      \endverb
+    \endentry
+    \entry{Sharebot}{company}{}
+      \name{author}{1}{}{%
+        {{hash=47ec906ca4b65f8809d774e2839caf83}{%
+           family={S.r.l.},
+           familyi={S\bibinitperiod},
+           given={Sharebot},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{47ec906ca4b65f8809d774e2839caf83}
+      \strng{fullhash}{47ec906ca4b65f8809d774e2839caf83}
+      \strng{bibnamehash}{47ec906ca4b65f8809d774e2839caf83}
+      \strng{authorbibnamehash}{47ec906ca4b65f8809d774e2839caf83}
+      \strng{authornamehash}{47ec906ca4b65f8809d774e2839caf83}
+      \strng{authorfullhash}{47ec906ca4b65f8809d774e2839caf83}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sharebot}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.sharebot.it/en/
+      \endverb
+      \verb{url}
+      \verb https://www.sharebot.it/en/
       \endverb
     \endentry
     \entry{doi:10.1063/1.4918516}{article}{}

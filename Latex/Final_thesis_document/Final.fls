@@ -1116,6 +1116,17 @@ INPUT ./Pictures/PHBH_collected_powder.eps
 INPUT ./Pictures/PHBH_collected_powder-eps-converted-to.pdf
 INPUT ./Pictures/PHBH_collected_powder-eps-converted-to.pdf
 INPUT ./Pictures/PHBH_collected_powder-eps-converted-to.pdf
+INPUT ./Pictures/3dprint_file_pipeline_scheme.eps
+INPUT ./Pictures/3dprint_file_pipeline_scheme.eps
+INPUT Pictures/3dprint_file_pipeline_scheme.eps
+INPUT ./Pictures/3dprint_file_pipeline_scheme.eps
+INPUT ./Pictures/3dprint_file_pipeline_scheme.eps
+INPUT ./Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf
+INPUT ./Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf
+INPUT ./Pictures/3dprint_file_pipeline_scheme.eps
+INPUT ./Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf
+INPUT ./Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf
+INPUT ./Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcbx1200.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT Final.aux

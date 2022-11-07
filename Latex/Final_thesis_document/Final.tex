@@ -1481,13 +1481,84 @@
         The next step is to prepare the print files, which are the files that will be sent to the SLS machine, 
         to instruct it on how to print the part. \\
 
+        The approach can vary depending on the software used to prepare the files, but the general idea is to 
+        create a 3D model of the part, then slice it into layers, and finally export the files to the SLS machine. \\
+
         The pipeline starts with the creation of a 3D model of the part and ends with a g-code file, and can 
         be summarized as follows: 
         
+                \begin{figure}[h!]
+                    \centering 
+                    \includegraphics[width=\textwidth]{Pictures/3dprint_file_pipeline_scheme.eps}
+                    \caption{3D printing file pipeline}
+                    \label{fig:3dprint_file_pipeline_scheme}
+                \end{figure}
 
+        \subsubsection{3D model creation\label{3D_model_creation}}
+
+        The first step is to create a 3D model of the part, which can be done in many ways, 
+        depending on the software used. \\
+
+        The models have been created from scratch, either by directly modeling them in \textit{Blender} 3.3.1 \autocites{Blender},
+        or by creating SVG files in \textit{Inkscape} 1.2 \autocites{Inkscape} and then extruding them in \textit{Blender}, where
+        they are handled as bezier curves. \\
+
+        This approach is particularly useful for this case study, where planar complex geometries better suit the SLS printing process
+        with low powder availability and low printing volumes. As seen in (\ref{Printed_samples}), the SLS printed parts 
+        are extremely small, with heights in the order of millimeters. \\
+        
+        Working with planar geometries also allows to easily create very intricate 3D models, by simply extruding the 2D SVG file, 
+        which as earlier mentioned is handled as bezier curves and inherits their properties, such as resolution 
+        dependant smoothness, non destructive extrusion and custom profile beveling. \\
+
+        The extruded bezier curves have then been converted to meshes, remeshed when necessary, and finally 
+        exported as STL files (which is the most common file format for 3D printing), using 
+        Blender's internal 3D Printing Toolbox addon, which also offers useful mesh stats and 
+        automatic mesh fixing tools. \\
+        
+        \subsubsection{Slicing\label{Slicing}}
+        
+        The next step is to slice the 3D model into layers, which is done by the slicing software. \\
+
+        The slicing software takes the STL file as input (or other formats such as OBJ, which are
+        automatically triangulated during the import), and outputs a g-code file, which is the file that will be sent to the SLS machine. \\
+
+        There are some caveats with slicing software, which are worth mentioning. \\
+
+        The first one is that the software is not able to handle meshes with non manifold edges, so 
+        the STL file must be checked for non manifold edges before being imported. \\ 
+
+        More importantly, all slicing software is designed to work with an FDM workflow, whereas 
+        many industrial SLS machines tend to have a dedicated CNC software. 
+
+        This means that the slicing software is not able to handle the SLS workflow without workarounds. 
+
+        The most common workaround is to load a custom configuration file for the slicing software, 
+        which will instruct it on how to handle the SLS workflow for a specific printer. 
+        The slicing software is not aware of the SLS workflow, so it will slice the model 
+        based on a FDM workflow, and the custom configuration file, which bundles a set of 
+        parameters for the printing area and a fictitious filament. \\ 
+
+        While clearly there is no filament extrusion in SLS, once the software has sliced the model by simulating 
+        an FDM workflow, the output g-code file will be compatible with the SLS machine and provide 
+        accurate movement instruction. \\
+
+        The slicing software used for this case study is \textit{PrusaSlicer} \autocites{PrusaSlicer}, 
+        which is a free and open source slicing software, forked from the \textit{Slic3r} project. \\
+
+        The SLS machine used for this case study does not have a dedicated CNC software, but the 
+        manufacturer provides a custom \textit{.ini} bundle configuration file for \textit{PrusaSlicer}, which is
+        a universal file format, and can be used by any slicing software. \\
+        
+        
         \clearpage
 
         \subsection{Sharebot Snowhite²\label{Sharebot_Snowhite²}}
+
+        The SLS machine used for this case study is the \textit{Sharebot Snowhite²}, which is an open hardware and 
+        open source desktop SLS machine, designed by the italian company \textit{Sharebot} \autocites{Sharebot}. \\ 
+
+
 
         \clearpage
         \subsection{Printed samples\label{Printed_samples}}
