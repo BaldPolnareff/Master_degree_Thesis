@@ -11,6 +11,7 @@
 \usepackage{fancyref}
 \usepackage{fancyhdr}
 \usepackage{lipsum}
+%\usepackage[inkscapeformat=svg]{svg}
 \addbibresource{/home/giorgio/Bibliography/bibliography.bib}
 \hypersetup{
     colorlinks=true,
@@ -1555,8 +1556,37 @@
 
         \subsection{Sharebot Snowhite²\label{Sharebot_Snowhite²}}
 
-        The SLS machine used for this case study is the \textit{Sharebot Snowhite²}, which is an open hardware and 
+        The SLS machine used for this case study is the \textit{Sharebot Snowwhite²}, which is an open hardware and 
         open source desktop SLS machine, designed by the italian company \textit{Sharebot} \autocites{Sharebot}. \\ 
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.5\textwidth]{Pictures/sharebot_snowhite2.eps}
+            \caption{Sharebot Snowhite²}
+            \label{fig:Sharebot_Snowhite2}
+        \end{figure}
+
+        The system is very modular and it features a standard powder distributor with a working area of 
+        100x100x100 mm, but a reduced distributor with a 20x40x60 mm area has been used, given the available 
+        quantity of PHBH powder.  \\ 
+
+        The printer utilizes a CO2 laser with a 14 W maximum power output and a 10.6 µm wavelength. Power is controlled as 
+        a percentage of its maximum output.  
+
+        A value of 25 \% has been generally set for solid pieces, whereas a 30-35 \% range is preferred for pieces with extremely thin walls and intricate structures.  
+        The power for the border has been set to a 5 \% increment with respect to the inner layers. \\ 
+
+        The printer features a user friendly touch screen GUI, but all its features and logs can be accessed remotely for further control from any terminal.  
+
+        The printer is equipped with a 3D camera, which allows to monitor the printing process in real time, 
+        and to take pictures of the printed parts at every layer. \\
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=\textwidth]{Pictures/sharebot_GUI.eps}
+            \caption{Sharebot Snowhite² UI}
+            \label{fig:Sharebot_UI}
+        \end{figure}
 
 
 
