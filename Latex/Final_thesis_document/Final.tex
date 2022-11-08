@@ -1588,6 +1588,45 @@
             \label{fig:Sharebot_UI}
         \end{figure}
 
+        The polymer powder is distributed by a blade recoater, but a roller option is also available. 
+        Air has been used for the printing process, but nitrogen or argon can be fed through the chamber, 
+        should a modified atmosphere be needed.  \\
+
+        The printer is also equipped with a powder recovery system, which allows to recover the powder 
+        after the printing process, and to reuse it for further prints. \\ 
+
+        The environment temperature has been set in a range of 85-95 $^oC$, with variable rates of success, 
+        whereas values outside this threshold showcased critical issues, i.e. high porosity, sheeting and 
+        delamination at low temperatures or adhesion to the recoater and consequent destruction of the printed specimen. \\ 
+
+        Another configurable variable is laser hatching speed, which is measured relative to machine resolution, in dots/s, 
+        which corresponds to 0.06 mm/s in metric units. 
+
+        This has generally been kept at default values (40000 dots/s for the inner layers and 64000 dots/s for the border).  \\ 
+
+        A maximum of three warming layers has been used for these prints, i.e. the powder is raised and warmed 
+        up for three layers, without any laser hatching, to allow the powder to settle and to avoid 
+        powder sheeting. \\ 
+        A higher number of warming layers might be needed for larger prints, but it has not been tested 
+        (\ref{3D_model_creation}). \\
+
+        Once the environment temperature has been set in the desired range (ideally within the theoretical 
+        sintering window), the printer ramps it up in gradual steps, until the target is reached.  
+        An additional waiting time of 120-300 s has been set after reaching the desired temperature, in order to let heat 
+        uniformly distribute through the powder bed. \\
+
+        The tank offset has been set prior to printing, depending on the desired print height or 
+        layer number, which is calculated with the following formula: \\
+        
+        \begin{equation}
+            Z =  \frac{1}{2} \cdot (0.3 \  N) \ \ \ \ \  [mm]
+            \label{eq:layer_height}
+        \end{equation}
+        
+        
+        where 0.3 is the fixed layer height (which is machine dependant), N is the number of layers
+        and everything is divided by a factor of two, given that there are two 
+        side tanks next to the central printing area. 
 
 
         \clearpage
