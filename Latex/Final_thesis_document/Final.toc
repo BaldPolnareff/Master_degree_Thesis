@@ -46,4 +46,4 @@
 \contentsline {subsubsection}{\numberline {14.1.2}Slicing}{54}{subsubsection.14.1.2}%
 \contentsline {subsection}{\numberline {14.2}Sharebot Snowhite²}{56}{subsection.14.2}%
 \contentsline {subsection}{\numberline {14.3}Printed samples}{59}{subsection.14.3}%
-\contentsline {section}{\numberline {15}Future development and research}{60}{section.15}%
+\contentsline {section}{\numberline {15}Future development and research}{64}{section.15}%

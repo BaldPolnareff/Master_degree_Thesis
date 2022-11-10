@@ -11,6 +11,8 @@
 \usepackage{fancyref}
 \usepackage{fancyhdr}
 \usepackage{lipsum}
+\usepackage{caption}
+\usepackage{subcaption}
 %\usepackage[inkscapeformat=svg]{svg}
 \addbibresource{/home/giorgio/Bibliography/bibliography.bib}
 \hypersetup{
@@ -1624,35 +1626,202 @@
         \end{equation}
         
         
-        where 0.3 is the fixed layer height (which is machine dependant), N is the number of layers
-        and everything is divided by a factor of two, given that there are two 
-        side tanks next to the central printing area. 
+        where:
+        \begin{itemize}
+            \item $Z$ is the tank offset, in mm
+            \item $N$ is the number of layers to be printed 
+            \item $0.3$ is the layer height, in mm, which is the default value for the \textit{Sharebot Snowhite²}
+            \item $\frac{1}{2}$ is a correction factor, which is needed to account for the fact that the printing area is fed powder 
+            from two side tanks.
+        \end{itemize}
+        
+
 
 
         \clearpage
         \subsection{Printed samples\label{Printed_samples}}
+
+        Given the experimental nature of this work, several samples have been printed, with gradual 
+        increases in complexity, in order to test the limits of the SLS workflow for the novel material. \\ 
+
+        As earlier mentioned (\ref{Sharebot_Snowhite²}), the printer is modular and despite being equipped 
+        with a default 100x100x100 mm working area, a reduced distributor with a 20x40x60 mm area has been used, 
+        given the available quantity of PHBH powder. \\ 
+
+        This setup is ideal for small scale prints, but as it will be shown later, the current results 
+        are not exhaustively representative of the potential of the SLS workflow for PHBH. \\
+
+        There are in fact intrinsic limitations to extremely small objects with intricate and fine details,
+        especially at low z-height, which are related to both the material itself (as it is fragile and prone to 
+        breaking) and the printing resolution of the SLS machine, which 
+        did not seem to be able to print extremely small features with high fidelity to the original models. \\
+
+        These limitations become less and less relevant with increasing z-height, as the part becomes 
+        more robust, as well as with increasing overall size, where the printing resolution 
+        is able to catch finer details with better accuracy. \\
+
+        Nonetheless, the current results are still very promising, and they showcase the potential of the SLS workflow
+        for PHBH, which can be further explored with larger prints, where the complexity of the models 
+        can be pushed even further, as expected with SLS technology. \\  
+
+        The first samples are simple geometries, which have been printed to test the feasibility of the SLS workflow 
+        for PHBH. Square and rectangular prisms have been printed, with different z-heights, starting from single 
+        layers, up to 15 layers, as a baseline for the following tests. \\ 
+
+        The initial goal was in fact to find adequate printing parameters for the material, which required a lot 
+        of trial and error, as the material is very sensitive to the printing conditions. \\
+
+        The first prints have been made with a 25 \%  laser power setting, which has been found to be 
+        a reasonable value for solid pieces, by visual inspection of single layers (which showcased 
+        decent densification) and later confirmed by 
+        mechanical testing on multilayer samples. 
+        
+        \clearpage
+
+        Some of the initial samples are showcased in the following figure: 
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.2\textwidth]{Pictures/Printed_parts/benchmark_samples.eps}
+            \caption{First printing attempts. Porosity and defects are more visible in the single layer samples.
+            The rectangular prisms were the first to showcase a good level of densification and lack of deformation and 
+            have been used as a baseline for the following tests.}
+            \label{fig:printed_benchmarks}
+        \end{figure}
+
+        As previously mentioned, the material is very sensitive to the printing conditions, and other than laser power,
+        the environment temperature has been found to be the most critical parameter. \\ 
+
+        After a long series of tests, the optimal temperature range has been found to be $85 \ ^oC$ - $95 \ ^oC$, which has been
+        used for the following tests. \\ 
+
+        It is important to note that the environment temperature is measured by a thermocouple, whereas the 
+        powder bed temperature (which is a few degrees higher) is measured by an infrared sensor, which  
+        is less accurate. 
+
+        Therefore, these values might vary slightly for different machines, depending on how the different 
+        temperatures are measured. \\ 
+
+        The next step was to test the material with more complex geometries, which have been printed with the same 
+        temperature range, but with a 30-35 \% laser power setting, which has been found to be optimal for the 
+        emptier geometries, where heat is dissipated more easily, given the lower thermal mass. \\ 
+
+        When dealing with thin, hollow and complex geometries, the most prominent issue is the tendency of the 
+        blade recoater to stick to the printed piece and wipe the part out, which is a common 
+        issue with SLS technology, and which 
+        can be caused by different factors, such as the powder bed temperature, the laser power, the 
+        environment temperature, the powder type and the powder distribution, among the many. \\ 
+
+        Given the multifactorial and complex nature of the aforementioned issue, it is not possible to 
+        pinpoint the exact cause of the problem, but it is possible to find a compromise between the 
+        different parameters, which allows for a successful print. \\
+        
+        The introduction of other settings such as warming layers, pre-print 
+        and between-layers waiting time, has been found to be useful in order to avoid 
+        the blade recoater from wiping the part out. \\
+
+        Using a roller recoater might also be a solution, but it has not been tested. \\ 
+
+        The following printed specimens have been modeled as mentioned in (\ref{3D_model_creation}) and 
+        have been catalogued with the following criteria: 
+
+        \begin{equation}
+            Inserire qui la formula
+        \end{equation}
+
+        where: 
+
+        \begin{itemize}
+            \item $L$ is the length of the part, in mm
+            \item $W$ is the width of the part, in mm
+            \item $H$ is the height of the part, in mm
+            \item $V$ is the volume of the part, in mm$^3$
+            \item $A$ is the surface area of the part, in mm$^2$
+            \item $N$ is the number of layers of the part
+            \item $D$ is the density of the part, in g/cm$^3$
+            \item $M$ is the mass of the part, in g
+        \end{itemize}
+
+        %these are random! 
+
+        %%%%%%%Metti qui la tabella con i dati dei pezzi stampati%%%%%% 
+
+        The selected specimens are showcased in the following figures: 
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.7\textwidth]{Pictures/Printed_parts/samples.eps}
+            \caption{Printed specimens.}
+            \label{fig:printed_specimens}
+            % Indica quali nella caption, in base alla tabella
+        \end{figure}
+
+        \begin{figure}[h!]
+            \centering
+            \begin{subfigure}[a]{0.55\textwidth}
+                \includegraphics[width=0.5\textwidth]{Pictures/Printed_parts/sample1-DMA-IMG_3178.eps}
+                \subcaption{Specimen blablabla, used for DMA testing.}
+                % Indica quale nella caption, in base alla tabella
+            \end{subfigure}
+                \vfill
+            
+            \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{Pictures/Printed_parts/sample3-DMA-IMG_3178.eps}
+                \subcaption{Specimen blablabla, used for DMA testing.}
+                % Indica quale nella caption, in base alla tabella
+                \end{subfigure}
+            \caption{Printed specimens used for DMA testing.}
+            \label{fig:printed_specimens_DMA}
+        \end{figure}
+
+        \begin{figure}[h!]
+            \centering 
+            \begin{subfigure}[a]{0.41\textwidth}
+                \includegraphics[width=\textwidth]{Pictures/Printed_parts/sample2-organicpattern.eps}
+                \subcaption{Specimen blablabla, showcasing an organic pattern.}
+                % Indica quale nella caption, in base alla tabella
+            \end{subfigure}
+                \vfill
+            \begin{subfigure}[b]{0.5\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{Pictures/Printed_parts/sample4-octagon-holes-IMG_3181.eps}
+                \subcaption{Specimen blablabla, showcasing an octagon with a circular array of octagon holes.}
+                % Indica quale nella caption, in base alla tabella
+            \end{subfigure}
+            \caption{Printed specimens with complex internal patterns.}
+            \label{fig:printed_specimens_complex}
+        \end{figure}
+
+
 
         \clearpage
 
     \clearpage
     \section{Future development and research\label{Future_development_and_research}}
 
-    
+    The entire project has been carried out with an experimental approach and, despite poor direct support 
+    from the currently available literature, a better understanding of 
+    the material and its behavior has emerged, but the need for further research and development is still 
+    present. \\ 
 
-    
+    Starting from the powder production pipeline, the results have already been excellent (\ref{recipe_improvement}, \ref{Initial_recipe}, 
+    \ref{consistent_reproducibility}) with the available notions and tools, bringing the pellet to powder yield to 
+    a very significant increase. \\ 
 
-    
-    
-    
+    However, the process is still in its infancy, and the entire premise of the project is to develop a sustainable 
+    and cost-effective production pipeline, which is not only able to produce a high-quality powder, but also 
+    to do so in a way that is environmentally friendly. Therefore, the next step is to find a way to reproduce and 
+    even improve the results obtained with the current recipe, but in a more sustainable way, by further 
+    investigating the use of alternative solvents. \\ 
 
+    Another possibility is to find a way to retrieve the evaporated chloroform, assuming an effective solvent recovery 
+    system is available and cost-effective. \\ 
 
-
-
-
-
-
-
-
+    The next step is to further investigate the use of the powder in the SLS process, by further optimizing the 
+    printing parameters, the powder granulometry and morphology and experimenting with different additives or material blends that 
+    could improve the mechanical properties of the material, as well as investigating the possibility of enhancing the printed parts 
+    with post-processing techniques. \\ 
 
 
     \clearpage
