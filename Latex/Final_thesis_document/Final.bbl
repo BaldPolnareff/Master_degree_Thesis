@@ -457,6 +457,36 @@
       \field{title}{A Review on Cryogenic Grinding}
       \field{year}{2017}
     \endentry
+    \entry{GruppoMaip}{company}{}
+      \name{author}{1}{}{%
+        {{hash=6cfe3083f8289c0249efb2250f9a61b7}{%
+           family={Maip},
+           familyi={M\bibinitperiod},
+           given={Gruppo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {10036 Settimo Torinese (TO), Italy}%
+      }
+      \strng{namehash}{6cfe3083f8289c0249efb2250f9a61b7}
+      \strng{fullhash}{6cfe3083f8289c0249efb2250f9a61b7}
+      \strng{bibnamehash}{6cfe3083f8289c0249efb2250f9a61b7}
+      \strng{authorbibnamehash}{6cfe3083f8289c0249efb2250f9a61b7}
+      \strng{authornamehash}{6cfe3083f8289c0249efb2250f9a61b7}
+      \strng{authorfullhash}{6cfe3083f8289c0249efb2250f9a61b7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gruppo Maip}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb www.maipsrl.com
+      \endverb
+      \verb{url}
+      \verb www.maipsrl.com
+      \endverb
+    \endentry
     \entry{cryogenic_grinding_video}{misc}{}
       \name{author}{2}{}{%
         {{hash=862e283eac9f07b456340170203fec1c}{%
@@ -481,6 +511,33 @@
       \field{howpublished}{\url{https://www.youtube.com/watch?v=3KUGXICL3Is}}
       \field{title}{Cryogenic Grinding with the Variable Speed Rotor Mill PULVERISETTE 14 premium line}
       \field{year}{2021}
+    \endentry
+    \entry{Ultrapyc5000}{product}{}
+      \name{author}{1}{}{%
+        {{hash=90e0fc72dd1cc9306fc9d610b1ae553d}{%
+           family={Paar},
+           familyi={P\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{90e0fc72dd1cc9306fc9d610b1ae553d}
+      \strng{fullhash}{90e0fc72dd1cc9306fc9d610b1ae553d}
+      \strng{bibnamehash}{90e0fc72dd1cc9306fc9d610b1ae553d}
+      \strng{authorbibnamehash}{90e0fc72dd1cc9306fc9d610b1ae553d}
+      \strng{authornamehash}{90e0fc72dd1cc9306fc9d610b1ae553d}
+      \strng{authorfullhash}{90e0fc72dd1cc9306fc9d610b1ae553d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ultrapyc 5000 Gaspycnometer}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.anton-paar.com/corp-en/products/details/ultrapyc/
+      \endverb
+      \verb{url}
+      \verb https://www.anton-paar.com/corp-en/products/details/ultrapyc/
+      \endverb
     \endentry
     \entry{GIMP}{misc}{}
       \name{author}{2}{}{%
