@@ -1423,37 +1423,108 @@
             The TGA analysis was performed on a \textit{Mettler-Toledo TGA/SDTA 851e} \autocites{Mettler_Toledo} instrument, 
             in air atmosphere, with a heating rate of $10 \ ^{\circ}C/min$ and a temperature range of $25 \ ^{\circ}C$ to $900 \ ^{\circ}C$. \\
 
-            The data has been exported with \textit{Mettler-Toledo}'s included software \autocites{Mettler_Toledo} (\ref{DSC_analysis}), after normalizing the data to the initial weight of the sample,
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.7\textwidth]{Pictures/TGA_mettlertoledo.eps}
+                \caption{Mettler-Toledo TGA/SDTA 851e \autocites{Mettler_Toledo}}
+                \label{fig:TGA_mettlertoledo}
+            \end{figure}
+
+            The specimens that have undergone a TGA analysis have been assigned an ID with the following criteria:
+
+                \begin{equation}
+                    ID = x-TGA_{NN}
+                    \label{eq:TGA_ID}
+                \end{equation}
+
+            where $x$ is the specimen type (pellet, powder or sintered), $TGA$ is the analysis type and $NN$ is the sample number. \\
+
+            The specimens have been catalogued in the following table:
+
+                    \begin{table}[h!]
+                        \centering
+                        \resizebox{0.5\textwidth}{!}{%
+                        \begin{tabular}{@{}ccc@{}}
+                        \toprule
+                        \textbf{ID}  & Type     & Weight {[}mg{]} \\ \midrule
+                        $P-TGA_{01}$ & pellet   & 29.0641         \\
+                        $p-TGA_{02}$ & powder   & 15.4821         \\
+                        $p-TGA_{03}$ & powder   & 38.2253         \\
+                        $s-TGA_{04}$ & sintered & 10.5330         \\ \bottomrule
+                        \end{tabular}%
+                        }
+                        \caption{TGA specimens}
+                        \label{tab:TGA_specimens}
+                    \end{table}
+
+
+            The analysis data has been exported with \textit{Mettler-Toledo}'s included software \autocites{Mettler_Toledo} (\ref{DSC_analysis}), after normalizing the data to the initial weight of the sample,
             then imported, elaborated and plotted with \textit{Labplot} \autocites{Labplot}. \\
 
+            The following figures show the results of the TGA analysis on the pellet, powder and sintered samples. \\ 
+
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/P-TGA01.eps}
+                \caption{TGA analysis of pellet sample $P-TGA_{01}$ (\ref{tab:TGA_specimens})}
+                \label{fig:TGA_01}
+            \end{figure}
+
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/p-TGA02.eps}
+                \caption{TGA analysis of powder sample $p-TGA_{02}$ (\ref{tab:TGA_specimens})}
+                \label{fig:TGA_02}
+            \end{figure}
+
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/p-TGA03.eps}
+                \caption{TGA analysis of powder sample $p-TGA_{03}$ (\ref{tab:TGA_specimens})}
+                \label{fig:TGA_03}
+            \end{figure}
+
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/s-TGA04.eps}
+                \caption{TGA analysis of sintered sample $s-TGA_{04}$ (\ref{tab:TGA_specimens})}
+                \label{fig:TGA_04}
+            \end{figure}
+
+            \clearpage
+
+            The results of the TGA analysis showcase the expected thermal behaviour of the powder and sintered samples,
+            which are consistent with the pellet sample. \\ 
+
+            The TGA curves show an exponentially incresing weight loss, with very similar slopes, and the additional 
+            first derivative showcases a consistent behaviour among all samples, with clear degradation peaks at approximately 
+            the same temperature values. \\ 
+            
 
 
-            %    \begin{table}[h!]
-            %        \centering
-            %        \resizebox{\textwidth}{!}{%
-            %        \begin{tabular}{@{}ccccc@{}}
-            %        \toprule
-            %        \textbf{PHBH} & Atmosphere & Temperature range {[}$^{\circ}C${]} & Temperature increase step {[}$^{\circ}C/min${]} & Weight {[}mg{]} \\ \midrule
-            %        Pellet        & air        & 25-900                    & 10                                    & 8.7688          \\
-            %        Powder        & air        & 25-900                    & 10                                    & 29.0641         \\ \bottomrule
-            %        \end{tabular}%
-            %        }
-            %        \label{tab:TGA_instrument_parameters}
-            %        \end{table}
-%
-        
 
-            %    \begin{figure}[h!]
-            %        \centering 
-            %        \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/TGA.eps}
-            %        \caption{TGA of PHBH pellets and powder samples, showing an almost identical trend. Values of percentage 
-            %        weight above $100 \ \%$ are expected instabilities of the high precision scale}
-            %        \label{fig:TGA_plot}
-            %    \end{figure}
 
     \clearpage
 
     \section{Flowability analysis\label{flowability_analysis}}
+
+    The flowability of a powder is a key factor in the success of the SLS process, as it impacts the way the powder is deposited
+    on the build platform. Some powders are more prone to clumping, which can lead to the formation of bridges between the powder 
+    particles, which can cause the build platform to become clogged and the build to fail. \\ 
+
+    A powder with a good flowability will be able to flow freely and evenly, without clumping, and will be able to fill the 
+    build platform evenly, without leaving any gaps. \\ 
+
+    Powders with poor flowability can be improved by adding a flowability agent, which can be a lubricant, a binder or a 
+    combination of both. \\ 
+
+    The flowability of a powder can be tested by performing a flowability analysis, which can be performed in a number of ways, 
+    depending on the standard that is being followed. \\
+
+    The analysis has been performed on the powder samples, using the \textit{tap density} method, which is the most common 
+    approximation test, as described by ASTM D7481 \autocites{ASTM_D7481-18}. \\
+
+    
 
     \clearpage
 

@@ -99,6 +99,36 @@
       \verb https://labs.openai.com/e/8rNkMtCHXwQmVW0GZ00sc20q/ZCXOrjp8yxNf2UvDrupbdSuW
       \endverb
     \endentry
+    \entry{ASTM_D7481-18}{report}{}
+      \name{author}{1}{}{%
+        {{hash=bc09365a5b595844b2fb72fc97cb7ae7}{%
+           family={ASTM},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{fullhash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{bibnamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{authorbibnamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{authornamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{authorfullhash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{ASTM D7481 18}
+      \field{title}{Standard Test Methods for Determining Loose and Tapped Bulk Densities of Powders using a Graduated Cylinder}
+      \field{type}{Standard}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://compass.astm.org/document/?contentCode=ASTM%7CD7481-18%7Cen-US
+      \endverb
+      \verb{url}
+      \verb https://compass.astm.org/document/?contentCode=ASTM%7CD7481-18%7Cen-US
+      \endverb
+    \endentry
     \entry{Padovano_SLS_Review}{article}{}
       \name{author}{1}{}{%
         {{hash=082dd4eecb157591e416f836aefc4a82}{%

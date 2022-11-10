@@ -38,12 +38,12 @@
 \contentsline {subsubsection}{\numberline {11.1.1}Results}{45}{subsubsection.11.1.1}%
 \contentsline {subsection}{\numberline {11.2}TGA (Thermal Gravimetric Analysis)}{48}{subsection.11.2}%
 \contentsline {subsubsection}{\numberline {11.2.1}Results}{48}{subsubsection.11.2.1}%
-\contentsline {section}{\numberline {12}Flowability analysis}{50}{section.12}%
-\contentsline {section}{\numberline {13}Granulometry analysis}{51}{section.13}%
-\contentsline {section}{\numberline {14}SLS printing}{52}{section.14}%
-\contentsline {subsection}{\numberline {14.1}Print files preparation}{52}{subsection.14.1}%
-\contentsline {subsubsection}{\numberline {14.1.1}3D model creation}{53}{subsubsection.14.1.1}%
-\contentsline {subsubsection}{\numberline {14.1.2}Slicing}{54}{subsubsection.14.1.2}%
-\contentsline {subsection}{\numberline {14.2}Sharebot Snowhite²}{56}{subsection.14.2}%
-\contentsline {subsection}{\numberline {14.3}Printed samples}{59}{subsection.14.3}%
-\contentsline {section}{\numberline {15}Future development and research}{64}{section.15}%
+\contentsline {section}{\numberline {12}Flowability analysis}{55}{section.12}%
+\contentsline {section}{\numberline {13}Granulometry analysis}{56}{section.13}%
+\contentsline {section}{\numberline {14}SLS printing}{57}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Print files preparation}{57}{subsection.14.1}%
+\contentsline {subsubsection}{\numberline {14.1.1}3D model creation}{58}{subsubsection.14.1.1}%
+\contentsline {subsubsection}{\numberline {14.1.2}Slicing}{59}{subsubsection.14.1.2}%
+\contentsline {subsection}{\numberline {14.2}Sharebot Snowhite²}{61}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Printed samples}{64}{subsection.14.3}%
+\contentsline {section}{\numberline {15}Future development and research}{69}{section.15}%
