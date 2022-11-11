@@ -1515,11 +1515,14 @@
     $1.20 \ kg/m^3$ in its datasheet \autocites{GruppoMaip}. \\ 
     
     The density of the powder has been measured with a \textit{Ultrapyc 5000 gas
-    pycnometer} \autocites{Ultrapyc5000}, 
+    pycnometer} \autocites{Ultrapyc5000}. \\ 
 
-    
+    A 0.626 g sample of the powder has been weighed and placed in the sample cell, then the pycnometer has been filled with 
+    helium gas and the measurements have been performed at $20 \ ^{\circ}C$, using the \textit{pulse} preparation and the 
+    \textit{fine powder} flow rate presets available in the device settings. \\ 
 
-
+    The test has been iterated with a total of 15 steps, with a $0.01 \%$ precision and three measurements per pass, giving an averaged 
+    density value of $1.213602 \ kg/m^3$, consistent with the expected theoretical value. \\ 
 
     \clearpage
 
@@ -1562,6 +1565,56 @@
     \clearpage
 
     \section{Granulometry analysis\label{granulometry_analysis}}
+
+    The granulometry analysis has been performed on an oven dried powder sample, 
+    using a \textit{Malvern Morphologi 4} \autocites{Malvern_Morphologi4}. \\
+
+    The sample has been measured in terms of volume, with a $5 \ mm^3$ specimen being spread on a glass plate in the 
+    most homogeneous way possible, by using a 4 bar dispersion pressure and a 10 ms injection time. \\ 
+
+    An homogenous powder distribution is crucial in order to avoid particle overlap and to obtain a more accurate 
+    representation of the powder granulometry. \\ 
+
+    The instrument has taken several images of the powder specimen, using a 10X magnification, and by z-stacking 
+    images with different focal lenghts, in order to achieve better results. \\
+
+    All particles below 20 $\mu m$ have been excluded from the analysis, which has been performed by using an automated 
+    static imaging algorithm, performed by the instrument's software. \\ 
+
+    The output results have been analyzed and the most meaningful features have been plotted using \textit{Labplot} \autocites{Labplot}. \\ 
+
+    \begin{figure}[h!]
+        \centering
+        \begin{subfigure}[a]{0.5\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{Pictures/Granulometry_plots/Histogram_CE-DIAM.eps}
+            \caption{Particle Size Distribution}
+            \label{fig:particle_size_distribution}
+        \end{subfigure}
+        \vfill 
+        \begin{subfigure}[b]{0.5\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{Pictures/Granulometry_plots/Histogram_Circularity.eps}
+            \caption{Particle Circularity Distribution}
+            \label{fig:circularity_distribution}
+        \end{subfigure}
+        \caption{Granulometry analysis of the powder sample}
+        \label{fig:granulometry_analysis}
+    \end{figure}
+
+    \clearpage
+
+    The results of the granulometry analysis showcase particle sizes compatible with SLS powder requirements (\ref{Powder_requirements}), 
+    as well as a great particle circularity distribution, which is consistent with the findings of the 
+    SEM analysis (\ref{SEM_analysis_results}). \\
+
+    The average particle diameter is 64.4222 $\mu m$, with a count of 144 over a total of more 
+    than 3000 analyzed particles (\ref{fig:particle_size_distribution}). \\ 
+
+    The average circularity is extremely close to a perfectly spherical shape, with a 
+    mean value of roughly 0.98 (\ref{fig:circularity_distribution}). \\ 
+
+
 
     \clearpage
     \section{SLS printing\label{SLS_printing_experimental}}

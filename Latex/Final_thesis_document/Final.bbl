@@ -565,6 +565,36 @@
       \field{howpublished}{\url{https://www.gimp.org/}}
       \field{title}{GNU Image Manipulation Program}
     \endentry
+    \entry{Malvern_Morphologi4}{product}{}
+      \name{author}{1}{}{%
+        {{hash=e2b3a19e7efbfb078796e69682765aff}{%
+           family={Panalytical},
+           familyi={P\bibinitperiod},
+           given={Malvern},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Malvern Panalytical, Malvern, Worcestershire, UK}%
+      }
+      \strng{namehash}{e2b3a19e7efbfb078796e69682765aff}
+      \strng{fullhash}{e2b3a19e7efbfb078796e69682765aff}
+      \strng{bibnamehash}{e2b3a19e7efbfb078796e69682765aff}
+      \strng{authorbibnamehash}{e2b3a19e7efbfb078796e69682765aff}
+      \strng{authornamehash}{e2b3a19e7efbfb078796e69682765aff}
+      \strng{authorfullhash}{e2b3a19e7efbfb078796e69682765aff}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Malvern Morphologi 4}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.malvernpanalytical.com/en/products/product-range/morphologi-range/morphologi-4
+      \endverb
+      \verb{url}
+      \verb https://www.malvernpanalytical.com/en/products/product-range/morphologi-range/morphologi-4
+      \endverb
+    \endentry
     \entry{Inkscape}{software}{}
       \name{author}{1}{}{%
         {{hash=b6376cab05e82f18f4779e535e95f621}{%
