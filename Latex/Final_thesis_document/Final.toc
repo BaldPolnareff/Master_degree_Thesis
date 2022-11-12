@@ -1,50 +1,52 @@
-\contentsline {section}{\numberline {1}Introduction}{8}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Polymers in Additive Manufacturing}{8}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Common AM techniques for polymers}{9}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}FDM (Fused Deposition Modeling) }{10}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}SLS (Selective Laser Sintering) }{11}{subsubsection.1.2.2}%
-\contentsline {section}{\numberline {2}PHAs (Polyhydroxyalkanoates) }{13}{section.2}%
-\contentsline {subsection}{\numberline {2.1}PHA and Additive Manufacturing }{14}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}PHBH }{14}{subsubsection.2.1.1}%
-\contentsline {section}{\numberline {3}PBS (Polybutylene Succinate) }{15}{section.3}%
-\contentsline {section}{\numberline {4}PBAT (Polybutylene Adipate Terephtalate) }{16}{section.4}%
-\contentsline {section}{\numberline {5}Powder production for SLS }{17}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Powder requirements for SLS }{17}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Mechanical milling }{18}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Chemical precipitation }{19}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Polymer-Solvent System }{19}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}Cloud point diagram }{20}{subsubsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.3}Production in a controlled environment }{20}{subsubsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.4}Environmental impact }{20}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Laboratory environmental conditions and available equipment}{22}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Tape Casting lab}{22}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Choice of material and production process}{23}{section.7}%
-\contentsline {section}{\numberline {8}Initial chemical precipitation recipe for PHBH}{24}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Components}{24}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Equipment}{25}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Detailed step-by-step reaction}{25}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Initial results and failures}{29}{subsection.8.4}%
-\contentsline {section}{\numberline {9}Recipe tweaking and improvements}{31}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Key variables}{31}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Adaptation to faulty or unsuitable equipment}{33}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Current results}{34}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Consistent reproducibility and scalability}{34}{subsection.9.4}%
-\contentsline {section}{\numberline {10}Powder granulometry and morphology}{35}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Sieving process}{35}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}SEM (Scanning Electron Microscope) analysis}{36}{subsection.10.2}%
-\contentsline {subsubsection}{\numberline {10.2.1}Results}{38}{subsubsection.10.2.1}%
-\contentsline {section}{\numberline {11}Thermal analysis}{46}{section.11}%
-\contentsline {subsection}{\numberline {11.1}DSC (Differential Scanning Calorimetry)}{46}{subsection.11.1}%
-\contentsline {subsubsection}{\numberline {11.1.1}Results}{46}{subsubsection.11.1.1}%
-\contentsline {subsection}{\numberline {11.2}TGA (Thermal Gravimetric Analysis)}{49}{subsection.11.2}%
-\contentsline {subsubsection}{\numberline {11.2.1}Results}{49}{subsubsection.11.2.1}%
-\contentsline {section}{\numberline {12}Density measurement}{56}{section.12}%
-\contentsline {section}{\numberline {13}Flowability analysis}{57}{section.13}%
-\contentsline {section}{\numberline {14}Granulometry analysis}{58}{section.14}%
-\contentsline {section}{\numberline {15}SLS printing}{61}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Print files preparation}{61}{subsection.15.1}%
-\contentsline {subsubsection}{\numberline {15.1.1}3D model creation}{62}{subsubsection.15.1.1}%
-\contentsline {subsubsection}{\numberline {15.1.2}Slicing}{63}{subsubsection.15.1.2}%
-\contentsline {subsection}{\numberline {15.2}Sharebot Snowhite²}{65}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Printed samples}{68}{subsection.15.3}%
-\contentsline {section}{\numberline {16}Future development and research}{73}{section.16}%
+\contentsline {section}{\numberline {1}Thesis Goal}{8}{section.1}%
+\contentsline {section}{\numberline {2}Introduction}{9}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Polymers in Additive Manufacturing}{9}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Common AM techniques for polymers}{10}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}FDM (Fused Deposition Modeling) }{11}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}SLS (Selective Laser Sintering) }{12}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}PHAs (Polyhydroxyalkanoates) }{14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}PHA and Additive Manufacturing }{15}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}PHBH }{15}{subsubsection.3.1.1}%
+\contentsline {section}{\numberline {4}PBS (Polybutylene Succinate) }{16}{section.4}%
+\contentsline {section}{\numberline {5}PBAT (Polybutylene Adipate Terephtalate) }{17}{section.5}%
+\contentsline {section}{\numberline {6}Powder production for SLS }{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Powder requirements for SLS }{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Mechanical milling }{19}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Chemical precipitation }{20}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Polymer-Solvent System }{20}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Cloud point diagram }{21}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Production in a controlled environment }{21}{subsubsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.4}Environmental impact }{21}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Laboratory environmental conditions and available equipment}{23}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Tape Casting lab}{23}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Choice of material and production process}{24}{section.8}%
+\contentsline {section}{\numberline {9}Initial chemical precipitation recipe for PHBH}{25}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Components}{25}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Equipment}{26}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Detailed step-by-step reaction}{26}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Initial results and failures}{30}{subsection.9.4}%
+\contentsline {section}{\numberline {10}Recipe tweaking and improvements}{32}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Key variables}{32}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Adaptation to faulty or unsuitable equipment}{34}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Current results}{35}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Consistent reproducibility and scalability}{35}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Powder granulometry and morphology}{36}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Sieving process}{36}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}SEM (Scanning Electron Microscope) analysis}{37}{subsection.11.2}%
+\contentsline {subsubsection}{\numberline {11.2.1}Results}{39}{subsubsection.11.2.1}%
+\contentsline {section}{\numberline {12}Thermal analysis}{47}{section.12}%
+\contentsline {subsection}{\numberline {12.1}DSC (Differential Scanning Calorimetry)}{47}{subsection.12.1}%
+\contentsline {subsubsection}{\numberline {12.1.1}Results}{47}{subsubsection.12.1.1}%
+\contentsline {subsection}{\numberline {12.2}TGA (Thermal Gravimetric Analysis)}{50}{subsection.12.2}%
+\contentsline {subsubsection}{\numberline {12.2.1}Results}{50}{subsubsection.12.2.1}%
+\contentsline {section}{\numberline {13}Density measurement}{57}{section.13}%
+\contentsline {section}{\numberline {14}Flowability analysis}{58}{section.14}%
+\contentsline {section}{\numberline {15}Granulometry analysis}{59}{section.15}%
+\contentsline {section}{\numberline {16}SLS printing}{62}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Print files preparation}{62}{subsection.16.1}%
+\contentsline {subsubsection}{\numberline {16.1.1}3D model creation}{63}{subsubsection.16.1.1}%
+\contentsline {subsubsection}{\numberline {16.1.2}Slicing}{64}{subsubsection.16.1.2}%
+\contentsline {subsection}{\numberline {16.2}Sharebot Snowhite²}{66}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Printed samples}{69}{subsection.16.3}%
+\contentsline {section}{\numberline {17}Dynamic Mechanical Analysis}{74}{section.17}%
+\contentsline {section}{\numberline {18}Future development and research}{75}{section.18}%
