@@ -23,15 +23,15 @@
 #TYPE OF CRUCIBLE:Concavus Pan Al, pierced lid
 #SAMPLE CRUCIBLE MASS /mg:0
 #REFERENCE CRUCIBLE MASS /mg:0
-#M.RANGE /‘V:5000
+#M.RANGE /ï¿½V:5000
 #TAU-R:applied
 #CORR. CODE:050
 #EXO:+1
-#RANGE:25›C/10,0(K/min)/180›C
+#RANGE:25ï¿½C/10,0(K/min)/180ï¿½C
 #SEGMENT:S1/5
-#SEG. 1:25›C/10,0(K/min)/180›C
+#SEG. 1:25ï¿½C/10,0(K/min)/180ï¿½C
 
-##Temp./›C;Time/min;DSC/(mW/mg);Sensit./(uV/mW)
+#Temp./C;Time/min;DSC/(mW/mg);Sensit./(uV/mW)
  25.15105; 0.00000;-2.704494e-002;3.46667
  25.65105; 0.13033;      -0.31996;3.46700
  26.15105; 0.18320;      -0.32840;3.46732

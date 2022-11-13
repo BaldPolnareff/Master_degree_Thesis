@@ -339,6 +339,65 @@
       \verb https://www.mdpi.com/2306-5354/8/2/29
       \endverb
     \endentry
+    \entry{PHBH_Crystallinity}{article}{}
+      \name{author}{6}{}{%
+        {{hash=734ca4028ce800bd35b63f9a004f9a3e}{%
+           family={Ivorra-Martinez},
+           familyi={I\bibinithyphendelim M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f87ddc42c90a115a7c5e0df3b0121ec9}{%
+           family={Manuel-Mañogil},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b8d3dffa58f8e6d84e67e622b5cd7649}{%
+           family={Boronat},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c9c1ff8815b6defe1e3b71b38c5b6634}{%
+           family={Sanchez-Nacher},
+           familyi={S\bibinithyphendelim N\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=87764bd03ec4b140caccca068666c3d7}{%
+           family={Balart},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=276e542de91ee2b177051a9ad52a71ab}{%
+           family={Quiles-Carrillo},
+           familyi={Q\bibinithyphendelim C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{4555a84badf76e4475044d518af7d92d}
+      \strng{fullhash}{9d1e549fecd5c7c5aad25fd9036c1b33}
+      \strng{bibnamehash}{4555a84badf76e4475044d518af7d92d}
+      \strng{authorbibnamehash}{4555a84badf76e4475044d518af7d92d}
+      \strng{authornamehash}{4555a84badf76e4475044d518af7d92d}
+      \strng{authorfullhash}{9d1e549fecd5c7c5aad25fd9036c1b33}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polymers}
+      \field{note}{Cited By :12}
+      \field{number}{5}
+      \field{title}{Development and characterization of sustainable composites from bacterial polyester poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) and almond shell flour by reactive extrusion with oligomers of lactic acid}
+      \field{volume}{12}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb www.scopus.com
+      \endverb
+      \verb{url}
+      \verb www.scopus.com
+      \endverb
+    \endentry
     \entry{Jian_PBAT_overview}{article}{}
       \name{author}{3}{}{%
         {{hash=a9707159c9db8c6fbd8db1e764f4abc4}{%

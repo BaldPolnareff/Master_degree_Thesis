@@ -1335,8 +1335,8 @@
                 a wide range of applications. \\ 
 
                 It is equipped with a \textit{Gas Controller GC100}, in the temperature range from $-50 \ ^{\circ} C$ 
-                to $250 \ ^{\circ} C$ with 
-                a heating rate of $10 \ (or \ 5) \ °C/min$, and from $250°$ to $-50 \ °C$ with a cooling rate of $10 \ (or \ 5) \ ^{\circ}C/min$, 
+                to $180 \ ^{\circ} C$ with 
+                a heating rate of $10 \ (or \ 5) \ °C/min$, and from $180°$ to $-50 \ °C$ with a cooling rate of $10  \ ^{\circ}C/min$, 
                 under nitrogen flow $(50 \ mL/min)$. \\ 
 
                 The included \textit{Mettler-Toledo STARe software} (V12.10) allows for the analysis of the 
@@ -1355,29 +1355,49 @@
                     \label{eq:DSC_ID}
                 \end{equation}
 
-                where x is either \textit{p} for powder or \textit{s} for specimens derived from sintered samples, n is the temperature range, and NN is the sample's absolute 
+                where x is either \textit{P} for pellet or \textit{p} for powder, n is the temperature range, and NN is the sample's absolute 
                 ascending time number. \\
 
                 The specimens have been catalogued as follows: %p09, p AG 10, p AG 5, 10 layer
 
-                    \begin{table}[h!]
-                        \resizebox{\textwidth}{!}{%
-                            \begin{tabular}{@{}cccccc@{}}
-                            \toprule
-                            \textbf{ID}                 & \textit{Weight {[}mg{]}} & \textit{Temperature ramp {[}°C/min{]}} & Type     & \textit{Date {[}dd/mm//yyyy{]}} & \textit{Time {[}hh:mm{]}} \\ \midrule
-                            $ID = pDSC_{(10 \ ^{\circ}C/min)}-01$ & 8.5000                   & 10                                     & powder   & 20/09/2022                      & 09:21                     \\
-                            $ID = pDSC_{(10 \ ^{\circ}C/min)}-02$ & 15.7000                  & 10                                     & powder   & 21/09/2022                      & 12:03                     \\
-                            $ID = pDSC_{(5 \ ^{\circ}C/min)}-03$  & 10.7000                  & 5                                      & powder   & 21/09/2022                      & 12:04                     \\
-                            $ID = sDSC_{(10 \ ^{\circ}C/min)}-04$ & 13.6000                  & 10                                     & sintered & 21/09/2022                      & 12:05                     \\ \bottomrule
-                            \end{tabular}%
-                        }
-                        \caption{All catalogued DSC samples}
-                    \label{tab:DSC_ID}
-                    \end{table}
+                %    \begin{table}[h!]
+                %        \resizebox{\textwidth}{!}{%
+                %            \begin{tabular}{@{}cccccc@{}}
+                %            \toprule
+                %            \textbf{ID}                 & \textit{Weight {[}mg{]}} & \textit{Temperature ramp {[}°C/min{]}} & Type     & \textit{Date {[}dd/mm//yyyy{]}} & \textit{Time {[}hh:mm{]}} \\ \midrule
+                %            $ID = pDSC_{(10 \ ^{\circ}C/min)}-01$ & 8.5000                   & 10                                     & powder   & 20/09/2022                      & 09:21                     \\
+                %            $ID = pDSC_{(10 \ ^{\circ}C/min)}-02$ & 15.7000                  & 10                                     & powder   & 21/09/2022                      & 12:03                     \\
+                %            $ID = pDSC_{(5 \ ^{\circ}C/min)}-03$  & 10.7000                  & 5                                      & powder   & 21/09/2022                      & 12:04                     \\
+                %            $ID = sDSC_{(10 \ ^{\circ}C/min)}-04$ & 13.6000                  & 10                                     & sintered & 21/09/2022                      & 12:05                     \\ \bottomrule
+                %            \end{tabular}%
+                %        }
+                %        \caption{DSC specimens}
+                %    \label{tab:DSC_ID}
+                %    \end{table}
 
+                \begin{table}[h!]
+                       \resizebox{\textwidth}{!}{%
+                       \begin{tabular}{@{}cccccc@{}}
+                       \toprule
+                       \textbf{ID}                 & \textit{Weight {[}mg{]}} & \textit{Temperature ramp {[}°C/min{]}} & Type                \\ \midrule
+                       $ID = PDSC_{(10 \ ^{\circ}C/min)}-01$ & 8.5000                   & 10                           & pellet               \\
+                       $ID = pDSC_{(10 \ ^{\circ}C/min)}-02$ & 8.0000                   & 10                           & powder                \\
+                       \bottomrule
+                       \end{tabular}% 
+                       }
+                 \caption{DSC specimens}
+                 \label{tab:DSC_ID}
+                 \end{table}
 
-                The DSC analysis of the powder and sintered samples have been conducted in the temperature range of $-50 \ ^{\circ}C$ to $250 \ ^{\circ}C$, 
-                the data set has been imported and plotted with \textit{Labplot} \autocites{Labplot} and the results are presented in the following figures. \\
+                The analysis results have been analyzed and plotted using \textit{Labplot} \autocites{Labplot} 
+                and \textit{Inkscape} \autocites{Inkscape},
+                using the \textit{exo-up} convention, with the raw pellet curves used as a baseline for the powder curves. \\
+
+                    \begin{figure}[h!]
+                        \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DSC_alberto.eps}
+                        \caption{DSC analysis of PHBH at $10 \ ^{\circ}C/min$}
+                        \label{fig:DSC_10Cmin}
+                    \end{figure}
 
                     %\begin{figure}[h!]
                     %    \centering
@@ -1406,6 +1426,70 @@
                     %    \caption{DSC analysis of sintered sample $sDSC_{(10 \ ^{\circ}C/min)}-04$ \autocites{Mettler_Toledo}}
                     %    \label{fig:DSC_04}
                     %\end{figure}
+
+        \clearpage
+        The plot highlights a consistent behaviour  and only 
+        minor differences between the powder and pellet samples, with the powder specimen showing a slightly wider 
+        sintering window, which is a very desirable trait for SLS, as explained in 
+        previous chapters (\ref{Powder_requirements}, \ref{PHBH}) and in accordance with 
+        the available literature \autocites{Eraslan_PHBH_review,doi:10.1063/1.4918516,DechetMaximilianA2020OtDo}. \\    
+        
+        As evident from the heating phase (\ref{fig:DSC_10Cmin}), the powder sample shows a main peak melting point of $T_{m} =  127.164 \ ^{\circ}C$, with 
+        a secondary melting point of $T_{m} =  108.164 \ ^{\circ}C$, as well as a crystallization point at $T_{c} =  50.1643 \ ^{\circ}C$. 
+
+        The cooling phase highlights a main peak crystallization point of $T_{c} =  48.254 \ ^{\circ}C$ as well, indicating 
+        that the main crystallization activity occurs around that temperature range in both phases. \\ 
+
+        A minor peak activity is also observed at around $2 \ ^{\circ}C$ in both the heating and cooling phases
+        (with a more prominent peak during heating), and this can be attributed to the
+        glass transition temperature of the polymer, which can be further investigated using a DMA (\ref{DMA}). \\
+
+        The powder sample data has been used to calculate the enthalpy values around the two main crystallization peaks and the main 
+        melting peak, with the following approach: \\
+
+        \begin{itemize}
+            \item The heat flux data points are normalized by the specimen weight, which does not have a data set of its own from the DSC test, 
+            but can be assumed to be constant within the temperature range, which is a resonable 
+            assumption based on the TGA results (\ref{TGA_Analysis}) 
+            \item The normalized heat flow is then plotted against time for both the heating and cooling phases and 
+            a line is hand drawn around the peaks
+            \item The area between the peaks and the base line represents an estimate of the enthalpy value  
+        \end{itemize}
+
+        The enthalpy values are then calculated using the following equation, which is solved numerically: \\ 
+
+        \begin{equation}
+            \Delta H = \int_{t_0}^{t_1} \phi (t) \,dt \ \ \ \ [J/g]
+            \label{eq:enthalpy}
+        \end{equation}
+
+        where $\phi (t)$ is the normalized heat flow and $t_0$ and $t_1$ are the time values at which the line is drawn. 
+
+        \clearpage
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DSC_peaks_areas.eps}
+            \caption{Enthalpy values for the DSC analysis of PHBH at $10 \ ^{\circ}C/min$}
+            \label{fig:DSC_enthalpy}
+        \end{figure}
+
+        The obtained enthalpy values can be used to derive the estimated percentage of crystallinity of the material, using the following equation: \\
+
+        \begin{equation}
+            X_c = \frac{\Delta H_{m} - \Delta H_{cc}}{\Delta H_{m}^{0} \cdot m} \ \ \ \ [\%]
+            \label{eq:crystallinity}
+        \end{equation}
+
+        where $\Delta H_{m}$ is the enthalpy value of the melting peak, $\Delta H_{cc}$ is the enthalpy value of the cold crystallization peak, 
+        m is the mass of the specimen and $\Delta H_{m}^{0}$ is the enthalpy value of the melting peak of a pure crystalline material, 
+        which is $146 \ J/g$ for PHBH \autocites{PHBH_Crystallinity}. \\
+
+        All the highlighted temperatures and other relevant quantities are summarized in the following table: 
+
+        
+
+
 
         \clearpage
         \subsection{TGA (Thermal Gravimetric Analysis)\label{TGA_Analysis}}

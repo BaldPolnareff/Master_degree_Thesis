@@ -37,16 +37,16 @@
 \contentsline {section}{\numberline {12}Thermal analysis}{47}{section.12}%
 \contentsline {subsection}{\numberline {12.1}DSC (Differential Scanning Calorimetry)}{47}{subsection.12.1}%
 \contentsline {subsubsection}{\numberline {12.1.1}Results}{47}{subsubsection.12.1.1}%
-\contentsline {subsection}{\numberline {12.2}TGA (Thermal Gravimetric Analysis)}{50}{subsection.12.2}%
-\contentsline {subsubsection}{\numberline {12.2.1}Results}{50}{subsubsection.12.2.1}%
-\contentsline {section}{\numberline {13}Density measurement}{57}{section.13}%
-\contentsline {section}{\numberline {14}Flowability analysis}{58}{section.14}%
-\contentsline {section}{\numberline {15}Granulometry analysis}{59}{section.15}%
-\contentsline {section}{\numberline {16}SLS printing}{62}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Print files preparation}{62}{subsection.16.1}%
-\contentsline {subsubsection}{\numberline {16.1.1}3D model creation}{63}{subsubsection.16.1.1}%
-\contentsline {subsubsection}{\numberline {16.1.2}Slicing}{64}{subsubsection.16.1.2}%
-\contentsline {subsection}{\numberline {16.2}Sharebot Snowhite²}{66}{subsection.16.2}%
-\contentsline {subsection}{\numberline {16.3}Printed samples}{69}{subsection.16.3}%
-\contentsline {section}{\numberline {17}Dynamic Mechanical Analysis}{74}{section.17}%
-\contentsline {section}{\numberline {18}Future development and research}{75}{section.18}%
+\contentsline {subsection}{\numberline {12.2}TGA (Thermal Gravimetric Analysis)}{53}{subsection.12.2}%
+\contentsline {subsubsection}{\numberline {12.2.1}Results}{53}{subsubsection.12.2.1}%
+\contentsline {section}{\numberline {13}Density measurement}{60}{section.13}%
+\contentsline {section}{\numberline {14}Flowability analysis}{61}{section.14}%
+\contentsline {section}{\numberline {15}Granulometry analysis}{62}{section.15}%
+\contentsline {section}{\numberline {16}SLS printing}{65}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Print files preparation}{65}{subsection.16.1}%
+\contentsline {subsubsection}{\numberline {16.1.1}3D model creation}{66}{subsubsection.16.1.1}%
+\contentsline {subsubsection}{\numberline {16.1.2}Slicing}{67}{subsubsection.16.1.2}%
+\contentsline {subsection}{\numberline {16.2}Sharebot Snowhite²}{69}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Printed samples}{72}{subsection.16.3}%
+\contentsline {section}{\numberline {17}Dynamic Mechanical Analysis}{77}{section.17}%
+\contentsline {section}{\numberline {18}Future development and research}{78}{section.18}%
