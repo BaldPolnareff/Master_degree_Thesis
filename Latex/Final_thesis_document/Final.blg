@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'Final.blg'
-[51] biber:340> INFO - === Sun Nov 13, 2022, 04:13:04
+[52] biber:340> INFO - === Sun Nov 13, 2022, 19:06:53
 [61] Biber.pm:418> INFO - Reading 'Final.bcf'
 [127] Biber.pm:972> INFO - Found 28 citekeys in bib section 0
-[138] Biber.pm:4383> INFO - Processing section 0
+[137] Biber.pm:4383> INFO - Processing section 0
 [145] Biber.pm:4574> INFO - Looking for bibtex file '/home/giorgio/Bibliography/bibliography.bib' for section 0
-[147] bibtex.pm:1713> INFO - LaTeX decoding ...
-[190] bibtex.pm:1518> INFO - Found BibTeX data source '/home/giorgio/Bibliography/bibliography.bib'
-[323] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[324] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[324] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[324] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[346] bbl.pm:654> INFO - Writing 'Final.bbl' with encoding 'UTF-8'
-[356] bbl.pm:757> INFO - Output to Final.bbl
+[146] bibtex.pm:1713> INFO - LaTeX decoding ...
+[189] bibtex.pm:1518> INFO - Found BibTeX data source '/home/giorgio/Bibliography/bibliography.bib'
+[322] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[322] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[322] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[322] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[344] bbl.pm:654> INFO - Writing 'Final.bbl' with encoding 'UTF-8'
+[354] bbl.pm:757> INFO - Output to Final.bbl
