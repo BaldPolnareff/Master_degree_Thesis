@@ -22,12 +22,12 @@
 \contentsline {section}{\numberline {9}Initial chemical precipitation recipe for PHBH}{25}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Components}{25}{subsection.9.1}%
 \contentsline {subsection}{\numberline {9.2}Equipment}{26}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Detailed step-by-step reaction}{28}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.3}Detailed step-by-step reaction}{27}{subsection.9.3}%
 \contentsline {subsection}{\numberline {9.4}Initial results and failures}{31}{subsection.9.4}%
-\contentsline {section}{\numberline {10}Recipe tweaking and improvements}{33}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Key variables}{33}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Adaptation to faulty or unsuitable equipment}{35}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Current results}{36}{subsection.10.3}%
+\contentsline {section}{\numberline {10}Recipe tweaking and improvements}{32}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Key variables}{32}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Adaptations and progressively refined equipment choice}{34}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Current results}{35}{subsection.10.3}%
 \contentsline {subsection}{\numberline {10.4}Consistent reproducibility and scalability}{36}{subsection.10.4}%
 \contentsline {section}{\numberline {11}Powder granulometry and morphology}{37}{section.11}%
 \contentsline {subsection}{\numberline {11.1}Sieving process}{37}{subsection.11.1}%
@@ -48,4 +48,4 @@
 \contentsline {subsection}{\numberline {16.2}Sharebot Snowhite²}{70}{subsection.16.2}%
 \contentsline {subsection}{\numberline {16.3}Printed samples}{73}{subsection.16.3}%
 \contentsline {section}{\numberline {17}Dynamic Mechanical Analysis}{78}{section.17}%
-\contentsline {section}{\numberline {18}Future development and research}{79}{section.18}%
+\contentsline {section}{\numberline {18}Future development and research}{81}{section.18}%

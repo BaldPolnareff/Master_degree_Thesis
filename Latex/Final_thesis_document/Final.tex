@@ -13,6 +13,7 @@
 \usepackage{lipsum}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage[acronym]{glossaries}
 %\usepackage[inkscapeformat=svg]{svg}
 \addbibresource{/home/giorgio/Bibliography/bibliography.bib}
 \hypersetup{
@@ -25,8 +26,30 @@
     bookmarks=true,
 }
 
+%\makeglossaries
+%
+%\newglossaryentry{Additive Manufacturing}
+%{
+%        name=Additive Manufacturing,
+%        description={A manufacturing process in which a three-dimensional object is created by laying down successive layers of material.}
+%}
+%
+%\newglossaryentry{Biopolymer}
+%{
+%        name=Biopolymer,
+%        description={A polymer produced by living organisms, such as plants, animals or microorganisms. Biopolymers are often used as a substitute for petroleum-based polymers, due to their lower environmental impact.}
+%        
+%}
+%
+%
+%\newacronym{pha}{PHA}{Poly Hydroxy Alcanoate}
+%
+%\newacronym{phbh}{PHBH}{Poly Hydroxy Butyrate Hydroxyvalerate}
+
 \author{Giorgio De Trane, s275514}
 \title{\textbf{Preparation of bio-based powder for 3D printing applications by Selective Laser Sintering}}
+
+
 
 \begin{document}
     \setlength{\parindent}{0pt}
@@ -54,12 +77,6 @@
     \end{center}
 
 
-    %\maketitle
-    %\begin{center}
-    %    \includegraphics[width=0.8\textwidth]{Pictures/polito_logo.eps}\linebreak\newline
-    %    
-    %    \textit{Year 2021/2022}
-    %\end{center}
 
     \newpage
     \begin{center}
@@ -104,15 +121,7 @@
         The powder has been printed on an SLS 3D printer, with single layer and multilayer objects achieving a print quality comparable to that of standard SLS polymers such as PA12.
 
         Complex geometries and intricate details have been successfully printed as a proof of concept, as well as prismatic samples. 
-
-       
-
-       
-
-       
-
-
-
+                     
 
 
     \end{abstract}
@@ -122,7 +131,8 @@
     \listoffigures
     \listoftables
     \newpage
-    %make glossaries if you have time
+
+
     \newpage
 
     \section{Thesis Goal\label{Thesis_Goal}}
@@ -382,7 +392,16 @@
     Despite having gained attention in the PHA family for SLS, especially in academic environments, the general interest for this copolymer
     is still relatively lower than other 
     petrochemical polymers, due to its early-stage synthesis process, its cost and the strict confidentiality 
-    of polymer manufacturers \autocite{Eraslan_PHBH_review}.  \clearpage
+    of polymer manufacturers \autocite{Eraslan_PHBH_review}.  
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.8\textwidth]{Pictures/PHBH_chain.eps}
+        \caption{Schematic representation of the PHBH polymer structure \autocites{PHBH,Inkscape}.}
+        \label{PHBH_structure}
+    \end{figure}
+    
+    \clearpage
 
     \section{PBS (Polybutylene Succinate) \label{PBS_in_general}}
 
@@ -546,7 +565,6 @@
 
     \begin{equation}
         \textit{f} (\delta_x) = 100 \cdot \frac{\delta_x}{\delta_d + \delta_p + \delta_h}
-        \phantomsection
         \label{eq:hansen_parameters}
     \end{equation}
 
@@ -712,14 +730,6 @@
                 \item 400 ml of $0.25 \ \% $ (by weight) of PVA solution 
             \end{itemize} 
         
-        \clearpage
-
-            \begin{figure}[h!]
-                \centering
-                \includegraphics[width=0.5\textwidth]{Pictures/pva_preparation.eps}
-                \caption{A bulk preparation of PVA solution.}
-                \label{fig:PVA}
-            \end{figure}
 
         Despite its apparent simplicity, the reaction is highly influenced by the environmental conditions, as well as
         equipment's correct use and proper operability. \\ 
@@ -825,6 +835,14 @@
         that can be further diluted and utilized when needed. \\
 
         Batches of 1 kg PVA solution ($1 \ \%$ by weight) were prepared and stored in a refrigerator. 
+
+
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=0.5\textwidth]{Pictures/pva_preparation.eps}
+                    \caption{A bulk preparation of PVA solution.}
+                    \label{fig:PVA}
+                \end{figure}
 
         The initial approach was utilizing mass units only, however PVA can be hard to dissolve in water at room temperature. 
         
@@ -1027,7 +1045,7 @@
         Higher RPM values produced almost no waste during the sieving phase. 
 
 
-        \subsection{Adaptation to faulty or unsuitable equipment\label{faulty_equipment}}
+        \subsection{Adaptations and progressively refined equipment choice\label{faulty_equipment}}
 
         Some of the available equipment was not perfectly suited for the necessary tasks or, sometimes, even broken or malfunctioning. \\ 
 
@@ -1035,22 +1053,22 @@
         and hard to regulate. \\ 
 
         The fritted filters initially used had already been utilized for other production pipelines, transferring some impurities
-        to the first samples, which are visible in the SEM images (\ref{SEM_analysis}). This required a new filter to be bought 
-        and used solely for producing PHBH powders. \\ 
+        to the first samples. This issue was addressed by utilizing a new batch of filters, solely dedicated to the PHBH pipeline. 
 
-        A major issue was the malfunctioning of one of the magnetic stirrers, which used to stop stirring unexpectedly, for hours at times, 
-        while the reaction was not meant to be supervised. This caused a few batches to be lost, since the prolonged absence of 
+        A major issue was the malfunctioning of one of the magnetic stirrers. This caused a few batches to be lost, since the prolonged absence of 
         a stirring motion did not allow for the precipitation process to occur. 
 
-        The defective stirrer was replaced. However, despite both the available stirrers being functional, a huge discrepancy 
+        The defective stirrer was replaced, however, a huge discrepancy 
         in stirring speeds was noticeable, as briefly mentioned in the previous chapter (\ref{key_variables}). 
 
         In spite of the fact that both solutions were prepared identically and the beakers and stirring rods used 
         were exactly the same, one of the stirrers would visibly show a much lower speed at the same RPM value. 
 
-        As a workaround, a satisfying speed (based on previous results in terms of final yield) was set on the slower stirrer, 
+        As an initial workaround, a satisfying speed (based on previous results in terms of final yield) was set on the slower stirrer, 
         then the much faster stirrer was set at a "lower" RPM value, that would visually match the same angular 
         velocity as the reference. \\ 
+
+        This issue was addressed by utilizing two identical stirrers from the same manufacturer, which were set at the same RPM value. \\ 
 
         Adaptations were needed for storing the sieved powders. With average particle sizes under $ \ 100 \ \mu m$, 
         electrostatic interaction and powder volatility proved to be challenging when handling the final product. 
@@ -1076,6 +1094,15 @@
         The current yield ranges between $62.5 \ \%$ and $75 \ \%$, which is a relative improvement of $2 \div 2.5$ times that 
         achieved in the previous research that this work is based on, and over an order of magnitude increase compared to the 
         initial experiments. \\ 
+%
+%        \begin{figure}[h]
+%            \centering
+%            \includegraphics[width=0.5\textwidth]{Pictures/PHBH_dried_powder.eps}
+%            \caption{Dried powder batch obtained from the current production pipeline.}
+%            \label{fig:dried_powder}
+%        \end{figure}
+%
+        \clearpage
 
         \subsection{Consistent reproducibility and scalability\label{consistent_reproducibility}}
 
@@ -1089,7 +1116,10 @@
         which is necessary (but not sufficient) for large scale production and adoption at industrial scale. \\ 
 
         The latest results have been reproduced consistently in the lab and might be scaled to higher production rates after 
-        further optimization studies. 
+        further optimization. \\ 
+
+
+
 
     \clearpage
     \section{Powder granulometry and morphology\label{powder_granulometry_morphology}} 
@@ -1098,9 +1128,11 @@
     pointless if the criteria discussed at the beginning of this research (\ref{Powder_requirements}) were not met. \\ 
 
     The powders produced would not be suitable for SLS additive manufacturing, if granulometry (average grain size distribution)
-    were not under a certain size threshold and if the morphology of those powders was not close to a non hollow spherical geometry. \\ 
+    were not under a certain size threshold and if the morphology of those powders were not close to a non hollow spherical geometry 
+    \autocites{Padovano_SLS_Review}. \\
 
-    While proper granulometry is guaranteed by sieving the powders (\ref{sieving}), adequate morphology can only be 
+    While proper granulometry is guaranteed by sieving the powders (\ref{sieving}),
+    as later confirmed by particle size distribution investigations (\ref{granulometry_analysis}), adequate morphology can only be 
     determined by thoroughly inspecting SEM images (\ref{SEM_analysis}). 
         \subsection{Sieving process\label{sieving}}
 
@@ -2109,7 +2141,48 @@
     More specifically, the transition point can be revealed by a prominent peak in the tan$\delta$ curve, indicating a 
     sudden change in the moduli ratio of the material. \\ 
     
+    The analysis has been performed with a Triton Technology DMA instrument \autocites{Triton_Technology_Ltd}, on the SLS sample 
+    $10-DMA01_{filled}$ that has been printed specifically for the purpose of the DMA analysis 
+    (\ref{SLS_printing_experimental}, \ref{tab:SLS_samples}, \ref{fig:printed_specimens_DMA}). \\ 
+
+    The test has been run with an oscillating uniaxial stress amplitude of 1 N, at a frequency of 1 Hz, with an initial 
+    chamber temperature of $- 77.7 \ ^{\circ}C$ (achieved by cooling the environment with liquid nitrogen), and has been stopped 
+    once the sample reached the rubbery plateau, i.e. a temperature region below the melting point, in which the material 
+    exhibits an almost constant modulus behaviour \autocites{JD_Ferry_viscoelasticpolymers}. \\
+
+    The results of the DMA analysis are shown in the following figure, where the tan$\delta$ curve has been upscaled significantly 
+    in order to match a relative scale with the other curves. \\ 
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DMA.eps}
+        \caption{DMA analysis of the SLS sample $10-DMA01_{filled}$ (\ref{tab:SLS_samples}).}
+        \label{fig:DMA_plot}
+    \end{figure}
+
+    \clearpage 
+
+    The tan$\delta$ curve (\ref{fig:DMA_plot}) shows a clear peak at $14.1 \ ^{\circ}C$, which is the glass transition temperature of the material, 
+    in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (\ref{fig:DSC_10Cmin}). \\ 
+
+    As expected for a polymer of the PHA family, both the storage modulus $E'$ and the loss modulus $E''$ are very low, in line with the 
+    typical viscoelastic behavior of all biopolymers \autocites{Kovalcik_PHA_Review}, which are not suited for structural applications and 
+    are instead used for packaging and other non-structural applications, such as biomedical implants and scaffolds \autocites{Messori_Bondioli_PHAs}. \\
+
+    Unsurprisingly, the mechanical properties of the material fall behind those of typical SLS polymers, which can 
+    occasionally reach storage moduli a whole order of magnitude higher than that of PHBH, according to this DMA. \\ 
     
+    That in itself is not a major issue, as SLS parts are not limited to structural applications or mechanical pieces:
+    other properties, such as biodegradability, biocompatibility and low toxicity can be very desirable traits in a wide range of 
+    applications. \\ 
+
+    Moreover, the mechanical and thermal properties of the material can be improved by adding fillers, creating blends with other 
+    biopolymers or creating composites with other materials. \\ 
+
+    Given the successful SLS printability, with unaltered thermal properties among the raw material, the powder and the 
+    printed parts (as highlighted by the TGA and DSC analysis results (\ref{TGA_Analysis}, \ref{DSC_analysis})), as well as 
+    mechanical properties that meet the expected behavior of a bioplastic, PHBH is a very promising polymer 
+    that can further enrich the catalogue of sustainable materials available for additive manufacturing. \\ 
     
 
     \clearpage

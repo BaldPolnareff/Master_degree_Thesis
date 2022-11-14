@@ -151,6 +151,33 @@
       \field{title}{Process Phenomena and Material Properties in Selective Laser Sintering of Polymers: A Review}
       \field{year}{2021}
     \endentry
+    \entry{PHBH}{material}{}
+      \name{author}{1}{}{%
+        {{hash=8ce29808d71dc9b7b0db7c83c04e22fb}{%
+           family={Biopolymers},
+           familyi={B\bibinitperiod},
+           given={Kaneka},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \strng{fullhash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \strng{bibnamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \strng{authorbibnamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \strng{authornamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \strng{authorfullhash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PHBH}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://kanekabiopolymers.com/phbh-applications/
+      \endverb
+      \verb{url}
+      \verb https://kanekabiopolymers.com/phbh-applications/
+      \endverb
+    \endentry
     \entry{DechetMaximilianA2020OtDo}{article}{}
       \name{author}{2}{}{%
         {{hash=8b18ddd92993dbc85eda5e4a7525c146}{%
@@ -256,6 +283,34 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0014305722000489
       \endverb
       \keyw{Poly (3-hydroxybutyrate-co-3-hydroxyhexanoate),PHBH,PHBHHx,Review}
+    \endentry
+    \entry{JD_Ferry_viscoelasticpolymers}{book}{}
+      \name{author}{1}{}{%
+        {{hash=35e8424b71073b4a704c874cd7e61ffc}{%
+           family={Ferry},
+           familyi={F\bibinitperiod},
+           given={J.D.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{35e8424b71073b4a704c874cd7e61ffc}
+      \strng{fullhash}{35e8424b71073b4a704c874cd7e61ffc}
+      \strng{bibnamehash}{35e8424b71073b4a704c874cd7e61ffc}
+      \strng{authorbibnamehash}{35e8424b71073b4a704c874cd7e61ffc}
+      \strng{authornamehash}{35e8424b71073b4a704c874cd7e61ffc}
+      \strng{authorfullhash}{35e8424b71073b4a704c874cd7e61ffc}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{Viscoelastic Properties of Polymers}
+      \field{year}{1980}
     \endentry
     \entry{Blender}{software}{}
       \name{author}{1}{}{%
@@ -493,6 +548,33 @@
       \field{title}{Recent Advances in 3D Printing of Polyhydroxyalkanoates: A Review}
       \field{volume}{5}
       \field{year}{2021}
+    \endentry
+    \entry{Triton_Technology_Ltd}{company}{}
+      \name{author}{1}{}{%
+        {{hash=180226bf203c54f8c12c92906ed51c45}{%
+           family={Ltd},
+           familyi={L\bibinitperiod},
+           given={Triton\bibnamedelima Technology},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{180226bf203c54f8c12c92906ed51c45}
+      \strng{fullhash}{180226bf203c54f8c12c92906ed51c45}
+      \strng{bibnamehash}{180226bf203c54f8c12c92906ed51c45}
+      \strng{authorbibnamehash}{180226bf203c54f8c12c92906ed51c45}
+      \strng{authornamehash}{180226bf203c54f8c12c92906ed51c45}
+      \strng{authorfullhash}{180226bf203c54f8c12c92906ed51c45}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Triton-Lacerta Technology}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.lacerta-technology.com
+      \endverb
+      \verb{url}
+      \verb https://www.lacerta-technology.com
+      \endverb
     \endentry
     \entry{Junghare_cryogenic_grinding_review}{article}{}
       \name{author}{1}{}{%

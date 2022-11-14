@@ -1,0 +1,60 @@
+\ifglsentryexists{pha}{}%
+{%
+\gls@defglossaryentry{pha}%
+{%
+name={PHA},%
+sort={PHA},%
+type={acronym},%
+first={Poly Hydroxy Alcanoate\glsspace (PHA)},%
+firstplural={Poly Hydroxy Alcanoates\glsspace (PHAs)},%
+text={PHA},%
+plural={PHAs},%
+description={Poly Hydroxy Alcanoate},%
+descriptionplural={Poly Hydroxy Alcanoate\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Poly Hydroxy Alcanoate},%
+longplural={Poly Hydroxy Alcanoates},%
+short={PHA},%
+shortplural={PHAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{phbh}{}%
+{%
+\gls@defglossaryentry{phbh}%
+{%
+name={PHBH},%
+sort={PHBH},%
+type={acronym},%
+first={Poly Hydroxy Butyrate Hydroxyvalerate\glsspace (PHBH)},%
+firstplural={Poly Hydroxy Butyrate Hydroxyvalerates\glsspace (PHBHs)},%
+text={PHBH},%
+plural={PHBHs},%
+description={Poly Hydroxy Butyrate Hydroxyvalerate},%
+descriptionplural={Poly Hydroxy Butyrate Hydroxyvalerate\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Poly Hydroxy Butyrate Hydroxyvalerate},%
+longplural={Poly Hydroxy Butyrate Hydroxyvalerates},%
+short={PHBH},%
+shortplural={PHBHs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
