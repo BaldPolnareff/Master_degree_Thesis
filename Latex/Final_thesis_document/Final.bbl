@@ -18,166 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{Dechet_Schmidt_thermal_rounding}{article}{}
-      \name{author}{1}{}{%
-        {{hash=7a9a713c078a523c7ec61e0b871d7071}{%
-           family={A},
-           familyi={A\bibinitperiod},
-           given={Gomez\bibnamedelimb Bonilla;\bibnamedelimb Dechet\bibnamedelimb M.A.;\bibnamedelimb Schmidt\bibnamedelimb J.;\bibnamedelimb Peukert\bibnamedelimb W.;\bibnamedelima Buck},
-           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{7a9a713c078a523c7ec61e0b871d7071}
-      \strng{fullhash}{7a9a713c078a523c7ec61e0b871d7071}
-      \strng{bibnamehash}{7a9a713c078a523c7ec61e0b871d7071}
-      \strng{authorbibnamehash}{7a9a713c078a523c7ec61e0b871d7071}
-      \strng{authornamehash}{7a9a713c078a523c7ec61e0b871d7071}
-      \strng{authorfullhash}{7a9a713c078a523c7ec61e0b871d7071}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Rapid Prototyping Journal}
-      \field{number}{9}
-      \field{title}{Thermal rounding of micron-sized polymer particles in a downer reactor: direct vs indirect heating}
-      \field{volume}{26}
-      \field{year}{2020}
-    \endentry
-    \entry{DALLE2}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=ef44b8a7fa9f85a025cf3121ee213386}{%
-           family={AI},
-           familyi={A\bibinitperiod},
-           given={Open},
-           giveni={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \strng{fullhash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \strng{bibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \strng{authorbibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \strng{authornamehash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \strng{authorfullhash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \field{extraname}{1}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{DALL-E 2}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://labs.openai.com
-      \endverb
-      \verb{url}
-      \verb https://labs.openai.com
-      \endverb
-    \endentry
-    \entry{DALLE2_roundparticles}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=ef44b8a7fa9f85a025cf3121ee213386}{%
-           family={AI},
-           familyi={A\bibinitperiod},
-           given={Open},
-           giveni={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \strng{fullhash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \strng{bibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \strng{authorbibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \strng{authornamehash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \strng{authorfullhash}{ef44b8a7fa9f85a025cf3121ee213386}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Round particles seen through a SEM microscope}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://labs.openai.com/e/8rNkMtCHXwQmVW0GZ00sc20q/ZCXOrjp8yxNf2UvDrupbdSuW
-      \endverb
-      \verb{url}
-      \verb https://labs.openai.com/e/8rNkMtCHXwQmVW0GZ00sc20q/ZCXOrjp8yxNf2UvDrupbdSuW
-      \endverb
-    \endentry
-    \entry{ASTM_D7481-18}{report}{}
-      \name{author}{1}{}{%
-        {{hash=bc09365a5b595844b2fb72fc97cb7ae7}{%
-           family={ASTM},
-           familyi={A\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{bc09365a5b595844b2fb72fc97cb7ae7}
-      \strng{fullhash}{bc09365a5b595844b2fb72fc97cb7ae7}
-      \strng{bibnamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
-      \strng{authorbibnamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
-      \strng{authornamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
-      \strng{authorfullhash}{bc09365a5b595844b2fb72fc97cb7ae7}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{ASTM D7481 18}
-      \field{title}{Standard Test Methods for Determining Loose and Tapped Bulk Densities of Powders using a Graduated Cylinder}
-      \field{type}{Standard}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://compass.astm.org/document/?contentCode=ASTM%7CD7481-18%7Cen-US
-      \endverb
-      \verb{url}
-      \verb https://compass.astm.org/document/?contentCode=ASTM%7CD7481-18%7Cen-US
-      \endverb
-    \endentry
-    \entry{Padovano_SLS_Review}{article}{}
-      \name{author}{1}{}{%
-        {{hash=082dd4eecb157591e416f836aefc4a82}{%
-           family={Badini},
-           familyi={B\bibinitperiod},
-           given={Federico\bibnamedelimb Lupone;\bibnamedelimb Elisa\bibnamedelimb Padovano;\bibnamedelimb Francesco\bibnamedelimb Casamento;\bibnamedelima Claudio},
-           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \strng{namehash}{082dd4eecb157591e416f836aefc4a82}
-      \strng{fullhash}{082dd4eecb157591e416f836aefc4a82}
-      \strng{bibnamehash}{082dd4eecb157591e416f836aefc4a82}
-      \strng{authorbibnamehash}{082dd4eecb157591e416f836aefc4a82}
-      \strng{authornamehash}{082dd4eecb157591e416f836aefc4a82}
-      \strng{authorfullhash}{082dd4eecb157591e416f836aefc4a82}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Materials}
-      \field{title}{Process Phenomena and Material Properties in Selective Laser Sintering of Polymers: A Review}
-      \field{year}{2021}
-    \endentry
-    \entry{PHBH}{material}{}
-      \name{author}{1}{}{%
-        {{hash=8ce29808d71dc9b7b0db7c83c04e22fb}{%
-           family={Biopolymers},
-           familyi={B\bibinitperiod},
-           given={Kaneka},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
-      \strng{fullhash}{8ce29808d71dc9b7b0db7c83c04e22fb}
-      \strng{bibnamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
-      \strng{authorbibnamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
-      \strng{authornamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
-      \strng{authorfullhash}{8ce29808d71dc9b7b0db7c83c04e22fb}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{PHBH}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://kanekabiopolymers.com/phbh-applications/
-      \endverb
-      \verb{url}
-      \verb https://kanekabiopolymers.com/phbh-applications/
-      \endverb
-    \endentry
+  \datalist[entry]{none/global//global/global}
     \entry{DechetMaximilianA2020OtDo}{article}{}
       \name{author}{2}{}{%
         {{hash=8b18ddd92993dbc85eda5e4a7525c146}{%
@@ -203,8 +44,8 @@
       \strng{authorbibnamehash}{72f3babcc0f6b63717533647620478a7}
       \strng{authornamehash}{72f3babcc0f6b63717533647620478a7}
       \strng{authorfullhash}{72f3babcc0f6b63717533647620478a7}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this contribution, some aspects of the development of powder bed fusion (PBF) feedstock powders via the solution-dissolution process, also known as precipitation, are exemplary addressed based on the authors' own work. The development is based on the selection of an appropriate polymer-solvent system, followed by the investigation of the cloud point diagram. After identification of a polymer-solvent system for precipitation, process-product relations, i.e. the influence of stirring, concentration and thermal regime on particle size distribution and shape, can be assessed. Via thorough product characterization concerning, amongst others, flowability and thermal properties, not only applicable PBF process parameters, but also necessary in-situ additive-enhancement with thermal stabilizers or post-processing with flow aids can be derived.}
@@ -216,6 +57,319 @@
       \field{pages}{95\bibrangedash 99}
       \range{pages}{5}
       \keyw{Additive Manufacturing ; Feedstock ; Particles ; Polymers ; Powder bed fusion ; Precipitation}
+    \endentry
+    \entry{Recent_progress_polymers_AM}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8fbe073c0bb159b81763c877d46300c8}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Lisa\bibnamedelimb Jiaying\bibnamedelimb Tan;\bibnamedelimb Wei\bibnamedelimb Zhu;\bibnamedelima Kun},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fbe073c0bb159b81763c877d46300c8}
+      \strng{fullhash}{8fbe073c0bb159b81763c877d46300c8}
+      \strng{bibnamehash}{8fbe073c0bb159b81763c877d46300c8}
+      \strng{authorbibnamehash}{8fbe073c0bb159b81763c877d46300c8}
+      \strng{authornamehash}{8fbe073c0bb159b81763c877d46300c8}
+      \strng{authorfullhash}{8fbe073c0bb159b81763c877d46300c8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Functional Materials}
+      \field{title}{Recent Progress on Polymer Materials for Additive Manufacturing}
+      \field{year}{2020}
+    \endentry
+    \entry{Latvian_additive}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6075482280405c6b60fdf2fe536cc7c9}{%
+           family={Ozolins},
+           familyi={O\bibinitperiod},
+           given={A.\bibnamedelimi Vevers;\bibnamedelimb A.\bibnamedelimi Kromanis;\bibnamedelimb E.\bibnamedelimi Gerins;\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6075482280405c6b60fdf2fe536cc7c9}
+      \strng{fullhash}{6075482280405c6b60fdf2fe536cc7c9}
+      \strng{bibnamehash}{6075482280405c6b60fdf2fe536cc7c9}
+      \strng{authorbibnamehash}{6075482280405c6b60fdf2fe536cc7c9}
+      \strng{authornamehash}{6075482280405c6b60fdf2fe536cc7c9}
+      \strng{authorfullhash}{6075482280405c6b60fdf2fe536cc7c9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{LATVIAN JOURNAL OF PHYSICS AND TECHNICAL SCIENCES}
+      \field{title}{ADDITIVE MANUFACTURING AND CASTING TECHNOLOGY COMPARISON: MECHANICAL PROPERTIES, PRODUCTIVITY AND COST BENCHMARK}
+      \field{year}{2018}
+    \endentry
+    \entry{Materials_add_man_718}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d1a515d422610b0f9700da28e52b4ea8}{%
+           family={Satyapal},
+           familyi={S\bibinitperiod},
+           given={Balachandramurthi\bibnamedelimb Arun\bibnamedelimb Ramanathan;\bibnamedelimb Moverare\bibnamedelimb Johan;\bibnamedelima Mahade},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1a515d422610b0f9700da28e52b4ea8}
+      \strng{fullhash}{d1a515d422610b0f9700da28e52b4ea8}
+      \strng{bibnamehash}{d1a515d422610b0f9700da28e52b4ea8}
+      \strng{authorbibnamehash}{d1a515d422610b0f9700da28e52b4ea8}
+      \strng{authornamehash}{d1a515d422610b0f9700da28e52b4ea8}
+      \strng{authorfullhash}{d1a515d422610b0f9700da28e52b4ea8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials}
+      \field{title}{Additive Manufacturing of Alloy 718 via EBM: Effect of post-treatment on the microstructure and the mechanical properties}
+      \field{year}{2019}
+    \endentry
+    \entry{Messori_Bondioli_PHAs}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d284d0c24a1e7d5da8b2082876199166}{%
+           family={Giubilini},
+           familyi={G\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9b34388e22c92e437614f5b33716d7e8}{%
+           family={Bondioli},
+           familyi={B\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=dddc74c273b151ee218a38a5103a707f}{%
+           family={Messori},
+           familyi={M\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2955225dad661d6fa8886d1552d85b1a}{%
+           family={Nyström},
+           familyi={N\bibinitperiod},
+           given={Gustav},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9e80da04365e2fbe23ff3c74b4f69d11}{%
+           family={Siqueira},
+           familyi={S\bibinitperiod},
+           given={Gilberto},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{fullhash}{f00d36acffa8362e004ff394790319ad}
+      \strng{bibnamehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{authorbibnamehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{authornamehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{authorfullhash}{f00d36acffa8362e004ff394790319ad}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In recent years, biopolymers have been attracting the attention of researchers and specialists from different fields, including biotechnology, material science, engineering, and medicine. The reason is the possibility of combining sustainability with scientific and technological progress. This is an extremely broad research topic, and a distinction has to be made among different classes and types of biopolymers. Polyhydroxyalkanoate (PHA) is a particular family of polyesters, synthetized by microorganisms under unbalanced growth conditions, making them both bio-based and biodegradable polymers with a thermoplastic behavior. Recently, PHAs were used more intensively in biomedical applications because of their tunable mechanical properties, cytocompatibility, adhesion for cells, and controllable biodegradability. Similarly, the 3D-printing technologies show increasing potential in this particular field of application, due to their advantages in tailor-made design, rapid prototyping, and manufacturing of complex structures. In this review, first, the synthesis and the production of PHAs are described, and different production techniques of medical implants are compared. Then, an overview is given on the most recent and relevant medical applications of PHA for drug delivery, vessel stenting, and tissue engineering. A special focus is reserved for the innovations brought by the introduction of additive manufacturing in this field, as compared to the traditional techniques. All of these advances are expected to have important scientific and commercial applications in the near future.}
+      \field{issn}{2306-5354}
+      \field{journaltitle}{Bioengineering}
+      \field{number}{2}
+      \field{title}{Advantages of Additive Manufacturing for Biomedical Applications of Polyhydroxyalkanoates}
+      \field{volume}{8}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.3390/bioengineering8020029
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2306-5354/8/2/29
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2306-5354/8/2/29
+      \endverb
+    \endentry
+    \entry{doi:10.1063/1.4918516}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2bdd013f1939d4ddc923b2c4b36e2762}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78ca6c0dafe7a08305d08e85320421e0}{%
+           family={Amado},
+           familyi={A\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eaaabc6348988f0a3fb8d71aca611102}{%
+           family={Wegener},
+           familyi={W\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \strng{fullhash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \strng{bibnamehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \strng{authorbibnamehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \strng{authornamehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \strng{authorfullhash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AIP Conference Proceedings}
+      \field{number}{1}
+      \field{title}{Polymer powders for selective laser sintering (SLS)}
+      \field{volume}{1664}
+      \field{year}{2015}
+      \field{pages}{160009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4918516
+      \endverb
+      \verb{eprint}
+      \verb https://aip.scitation.org/doi/pdf/10.1063/1.4918516
+      \endverb
+      \verb{urlraw}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.4918516
+      \endverb
+      \verb{url}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.4918516
+      \endverb
+    \endentry
+    \entry{SLS_3dprinting_biomedical_polymers}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1eca5b1be9dfb82bc563124caf786b9d}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a61a62b555518f9d45d1262ecfa04fc4}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c2490bbe7619d4f6ab356db1243d0ede}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=846f5daf861748af3cff8500355fae0d}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Chinese}%
+      }
+      \strng{namehash}{f6a0804d7ce72d2a3b5497ff48d535b4}
+      \strng{fullhash}{17f696780bee057cbfbf5c4949632055}
+      \strng{bibnamehash}{f6a0804d7ce72d2a3b5497ff48d535b4}
+      \strng{authorbibnamehash}{f6a0804d7ce72d2a3b5497ff48d535b4}
+      \strng{authornamehash}{f6a0804d7ce72d2a3b5497ff48d535b4}
+      \strng{authorfullhash}{17f696780bee057cbfbf5c4949632055}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gaofenzi Cailiao Kexue Yu Gongcheng/Polymeric Materials Science and Engineering}
+      \field{note}{Cited By :6}
+      \field{number}{3}
+      \field{title}{Selective laser sintering 3D printing of biomedical polymer materials}
+      \field{volume}{32}
+      \field{year}{2016}
+      \field{pages}{178\bibrangedash 183}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb www.scopus.com
+      \endverb
+      \verb{url}
+      \verb www.scopus.com
+      \endverb
+    \endentry
+    \entry{Kovalcik_PHA_Review}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a89a0622925a29f7ae7b3741335b9c88}{%
+           family={Kovalcik},
+           familyi={K\bibinitperiod},
+           given={Adriana},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a89a0622925a29f7ae7b3741335b9c88}
+      \strng{fullhash}{a89a0622925a29f7ae7b3741335b9c88}
+      \strng{bibnamehash}{a89a0622925a29f7ae7b3741335b9c88}
+      \strng{authorbibnamehash}{a89a0622925a29f7ae7b3741335b9c88}
+      \strng{authornamehash}{a89a0622925a29f7ae7b3741335b9c88}
+      \strng{authorfullhash}{a89a0622925a29f7ae7b3741335b9c88}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The EuroBiotech Journal}
+      \field{title}{Recent Advances in 3D Printing of Polyhydroxyalkanoates: A Review}
+      \field{volume}{5}
+      \field{year}{2021}
+    \endentry
+    \entry{Padovano_SLS_Review}{article}{}
+      \name{author}{1}{}{%
+        {{hash=082dd4eecb157591e416f836aefc4a82}{%
+           family={Badini},
+           familyi={B\bibinitperiod},
+           given={Federico\bibnamedelimb Lupone;\bibnamedelimb Elisa\bibnamedelimb Padovano;\bibnamedelimb Francesco\bibnamedelimb Casamento;\bibnamedelima Claudio},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{fullhash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{bibnamehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{authorbibnamehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{authornamehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{authorfullhash}{082dd4eecb157591e416f836aefc4a82}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials}
+      \field{title}{Process Phenomena and Material Properties in Selective Laser Sintering of Polymers: A Review}
+      \field{year}{2021}
+    \endentry
+    \entry{Inkscape}{software}{}
+      \name{author}{1}{}{%
+        {{hash=b6376cab05e82f18f4779e535e95f621}{%
+           family={Project},
+           familyi={P\bibinitperiod},
+           given={The\bibnamedelima Inkscape},
+           giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{fullhash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{bibnamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authorbibnamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authornamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authorfullhash}{b6376cab05e82f18f4779e535e95f621}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://inkscape.org/}}
+      \field{title}{Inkscape}
+    \endentry
+    \entry{PHBH}{material}{}
+      \name{author}{1}{}{%
+        {{hash=8ce29808d71dc9b7b0db7c83c04e22fb}{%
+           family={Biopolymers},
+           familyi={B\bibinitperiod},
+           given={Kaneka},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \strng{fullhash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \strng{bibnamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \strng{authorbibnamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \strng{authornamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \strng{authorfullhash}{8ce29808d71dc9b7b0db7c83c04e22fb}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PHBH}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://kanekabiopolymers.com/phbh-applications/
+      \endverb
+      \verb{url}
+      \verb https://kanekabiopolymers.com/phbh-applications/
+      \endverb
     \endentry
     \entry{Eraslan_PHBH_review}{article}{}
       \name{author}{7}{}{%
@@ -261,8 +415,8 @@
       \strng{authorbibnamehash}{52cbf79d979c37a38d24d2184edd075f}
       \strng{authornamehash}{52cbf79d979c37a38d24d2184edd075f}
       \strng{authorfullhash}{712b5db8ecee1d931390e7b762293fd6}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The development of biobased and environmental-friendly polymeric materials to replace petroleum-based plastics is one of the main global challenges nowadays. Among biopolymers, polyhydroxyalkanoates (PHAs) have gained increasing attention due to their compostability under environmental conditions. Copolymers of poly(3-hydroxybutyrate) (PHB) with comonomers belonging to PHA types have been developed to tackle better processability, higher ductility, and better impact properties. These common copolymers could be listed as poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV) and poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH). Compared to PHB and PHBV, PHBH has revealed a wider processing window with better thermal stability and more promising mechanical performance due to its tailorable composition of both highly crystalline (3HB) and elastomeric (3HH) units. The increase in 3HH unit content decreases the crystallinity and the melting temperature, which broadens the processing window with minimized thermal degradation. Therefore, PHBH could be employed in applications where both flexibility and room temperature compostability are required. However, PHBH has received minimal attention due to its low availability in the market, high cost, strict confidentiality of the polymer manufacturers, and continuous evolution in the synthesis stage. This article reviews the achievements in PHBH synthesis and the dependency of PHBH thermal, mechanical, and physical properties on the 3HH content. It also explores PHBH compostability and degradation behavior and the attempts made to develop PHBH based blends and composites. It further discusses the challenges and future perspectives for the usage of PHBH in various industrial applications.}
@@ -284,114 +438,261 @@
       \endverb
       \keyw{Poly (3-hydroxybutyrate-co-3-hydroxyhexanoate),PHBH,PHBHHx,Review}
     \endentry
-    \entry{JD_Ferry_viscoelasticpolymers}{book}{}
+    \entry{Dechet_Schmidt_thermal_rounding}{article}{}
       \name{author}{1}{}{%
-        {{hash=35e8424b71073b4a704c874cd7e61ffc}{%
-           family={Ferry},
-           familyi={F\bibinitperiod},
-           given={J.D.},
-           giveni={J\bibinitperiod}}}%
+        {{hash=7a9a713c078a523c7ec61e0b871d7071}{%
+           family={A},
+           familyi={A\bibinitperiod},
+           given={Gomez\bibnamedelimb Bonilla;\bibnamedelimb Dechet\bibnamedelimb M.A.;\bibnamedelimb Schmidt\bibnamedelimb J.;\bibnamedelimb Peukert\bibnamedelimb W.;\bibnamedelima Buck},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {John Wiley \& Sons}%
-      }
-      \strng{namehash}{35e8424b71073b4a704c874cd7e61ffc}
-      \strng{fullhash}{35e8424b71073b4a704c874cd7e61ffc}
-      \strng{bibnamehash}{35e8424b71073b4a704c874cd7e61ffc}
-      \strng{authorbibnamehash}{35e8424b71073b4a704c874cd7e61ffc}
-      \strng{authornamehash}{35e8424b71073b4a704c874cd7e61ffc}
-      \strng{authorfullhash}{35e8424b71073b4a704c874cd7e61ffc}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \strng{namehash}{7a9a713c078a523c7ec61e0b871d7071}
+      \strng{fullhash}{7a9a713c078a523c7ec61e0b871d7071}
+      \strng{bibnamehash}{7a9a713c078a523c7ec61e0b871d7071}
+      \strng{authorbibnamehash}{7a9a713c078a523c7ec61e0b871d7071}
+      \strng{authornamehash}{7a9a713c078a523c7ec61e0b871d7071}
+      \strng{authorfullhash}{7a9a713c078a523c7ec61e0b871d7071}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{3rd}
-      \field{title}{Viscoelastic Properties of Polymers}
-      \field{year}{1980}
+      \field{journaltitle}{Rapid Prototyping Journal}
+      \field{number}{9}
+      \field{title}{Thermal rounding of micron-sized polymer particles in a downer reactor: direct vs indirect heating}
+      \field{volume}{26}
+      \field{year}{2020}
     \endentry
-    \entry{Blender}{software}{}
-      \name{author}{1}{}{%
-        {{hash=44275c392a37e9fa9de37082ab548a59}{%
-           family={Foundation},
-           familyi={F\bibinitperiod},
-           given={Blender},
-           giveni={B\bibinitperiod}}}%
+    \entry{cryogenic_grinding_video}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=862e283eac9f07b456340170203fec1c}{%
+           family={Milling},
+           familyi={M\bibinitperiod},
+           given={FRITSCH},
+           giveni={F\bibinitperiod}}}%
+        {{hash=92672a7a2b909945fbfa9f44f057c7a1}{%
+           family={Sizing},
+           familyi={S\bibinitperiod}}}%
       }
-      \strng{namehash}{44275c392a37e9fa9de37082ab548a59}
-      \strng{fullhash}{44275c392a37e9fa9de37082ab548a59}
-      \strng{bibnamehash}{44275c392a37e9fa9de37082ab548a59}
-      \strng{authorbibnamehash}{44275c392a37e9fa9de37082ab548a59}
-      \strng{authornamehash}{44275c392a37e9fa9de37082ab548a59}
-      \strng{authorfullhash}{44275c392a37e9fa9de37082ab548a59}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \strng{namehash}{2ed78540a8a700257171156a532600d4}
+      \strng{fullhash}{2ed78540a8a700257171156a532600d4}
+      \strng{bibnamehash}{2ed78540a8a700257171156a532600d4}
+      \strng{authorbibnamehash}{2ed78540a8a700257171156a532600d4}
+      \strng{authornamehash}{2ed78540a8a700257171156a532600d4}
+      \strng{authorfullhash}{2ed78540a8a700257171156a532600d4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Blender}
+      \field{howpublished}{\url{https://www.youtube.com/watch?v=3KUGXICL3Is}}
+      \field{title}{Cryogenic Grinding with the Variable Speed Rotor Mill PULVERISETTE 14 premium line}
+      \field{year}{2021}
+    \endentry
+    \entry{Junghare_cryogenic_grinding_review}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cf4916856217e5d2fdb24aabadef0899}{%
+           family={M.Lele},
+           familyi={M\bibinitperiod},
+           given={Hemantkumar\bibnamedelimb Junghare*;\bibnamedelimb Mayur\bibnamedelimb Hamjade;\bibnamedelimb C.K.Patil;\bibnamedelimb S.B.Girase;\bibnamedelima Mandar},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{cf4916856217e5d2fdb24aabadef0899}
+      \strng{fullhash}{cf4916856217e5d2fdb24aabadef0899}
+      \strng{bibnamehash}{cf4916856217e5d2fdb24aabadef0899}
+      \strng{authorbibnamehash}{cf4916856217e5d2fdb24aabadef0899}
+      \strng{authornamehash}{cf4916856217e5d2fdb24aabadef0899}
+      \strng{authorfullhash}{cf4916856217e5d2fdb24aabadef0899}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Current Engineering and Technology}
+      \field{title}{A Review on Cryogenic Grinding}
+      \field{year}{2017}
+    \endentry
+    \entry{DALLE2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ef44b8a7fa9f85a025cf3121ee213386}{%
+           family={AI},
+           familyi={A\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{fullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{bibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorbibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authornamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorfullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DALL-E 2}
       \field{year}{2022}
       \verb{urlraw}
-      \verb https://www.blender.org
+      \verb https://labs.openai.com
       \endverb
       \verb{url}
-      \verb https://www.blender.org
+      \verb https://labs.openai.com
       \endverb
     \endentry
-    \entry{Messori_Bondioli_PHAs}{article}{}
-      \name{author}{5}{}{%
-        {{hash=d284d0c24a1e7d5da8b2082876199166}{%
-           family={Giubilini},
-           familyi={G\bibinitperiod},
-           given={Alberto},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9b34388e22c92e437614f5b33716d7e8}{%
-           family={Bondioli},
-           familyi={B\bibinitperiod},
-           given={Federica},
-           giveni={F\bibinitperiod}}}%
-        {{hash=dddc74c273b151ee218a38a5103a707f}{%
-           family={Messori},
-           familyi={M\bibinitperiod},
-           given={Massimo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=2955225dad661d6fa8886d1552d85b1a}{%
-           family={Nyström},
-           familyi={N\bibinitperiod},
-           given={Gustav},
-           giveni={G\bibinitperiod}}}%
-        {{hash=9e80da04365e2fbe23ff3c74b4f69d11}{%
-           family={Siqueira},
-           familyi={S\bibinitperiod},
-           given={Gilberto},
-           giveni={G\bibinitperiod}}}%
+    \entry{DALLE2_roundparticles}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ef44b8a7fa9f85a025cf3121ee213386}{%
+           family={AI},
+           familyi={A\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod}}}%
       }
-      \strng{namehash}{ce1f55ef6d07760fc4ade645661e4000}
-      \strng{fullhash}{f00d36acffa8362e004ff394790319ad}
-      \strng{bibnamehash}{ce1f55ef6d07760fc4ade645661e4000}
-      \strng{authorbibnamehash}{ce1f55ef6d07760fc4ade645661e4000}
-      \strng{authornamehash}{ce1f55ef6d07760fc4ade645661e4000}
-      \strng{authorfullhash}{f00d36acffa8362e004ff394790319ad}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \strng{namehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{fullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{bibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorbibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authornamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorfullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In recent years, biopolymers have been attracting the attention of researchers and specialists from different fields, including biotechnology, material science, engineering, and medicine. The reason is the possibility of combining sustainability with scientific and technological progress. This is an extremely broad research topic, and a distinction has to be made among different classes and types of biopolymers. Polyhydroxyalkanoate (PHA) is a particular family of polyesters, synthetized by microorganisms under unbalanced growth conditions, making them both bio-based and biodegradable polymers with a thermoplastic behavior. Recently, PHAs were used more intensively in biomedical applications because of their tunable mechanical properties, cytocompatibility, adhesion for cells, and controllable biodegradability. Similarly, the 3D-printing technologies show increasing potential in this particular field of application, due to their advantages in tailor-made design, rapid prototyping, and manufacturing of complex structures. In this review, first, the synthesis and the production of PHAs are described, and different production techniques of medical implants are compared. Then, an overview is given on the most recent and relevant medical applications of PHA for drug delivery, vessel stenting, and tissue engineering. A special focus is reserved for the innovations brought by the introduction of additive manufacturing in this field, as compared to the traditional techniques. All of these advances are expected to have important scientific and commercial applications in the near future.}
-      \field{issn}{2306-5354}
-      \field{journaltitle}{Bioengineering}
-      \field{number}{2}
-      \field{title}{Advantages of Additive Manufacturing for Biomedical Applications of Polyhydroxyalkanoates}
-      \field{volume}{8}
-      \field{year}{2021}
-      \verb{doi}
-      \verb 10.3390/bioengineering8020029
-      \endverb
+      \field{title}{Round particles seen through a SEM microscope}
+      \field{year}{2022}
       \verb{urlraw}
-      \verb https://www.mdpi.com/2306-5354/8/2/29
+      \verb https://labs.openai.com/e/8rNkMtCHXwQmVW0GZ00sc20q/ZCXOrjp8yxNf2UvDrupbdSuW
       \endverb
       \verb{url}
-      \verb https://www.mdpi.com/2306-5354/8/2/29
+      \verb https://labs.openai.com/e/8rNkMtCHXwQmVW0GZ00sc20q/ZCXOrjp8yxNf2UvDrupbdSuW
+      \endverb
+    \endentry
+    \entry{FIB-SEM_TESCAN_S9000G}{howpublished}{}
+      \name{author}{1}{}{%
+        {{hash=65f366fa94039b5f8583fff879d94fbe}{%
+           family={Tescan},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{65f366fa94039b5f8583fff879d94fbe}
+      \strng{fullhash}{65f366fa94039b5f8583fff879d94fbe}
+      \strng{bibnamehash}{65f366fa94039b5f8583fff879d94fbe}
+      \strng{authorbibnamehash}{65f366fa94039b5f8583fff879d94fbe}
+      \strng{authornamehash}{65f366fa94039b5f8583fff879d94fbe}
+      \strng{authorfullhash}{65f366fa94039b5f8583fff879d94fbe}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FIB-SEM, TESCAN S9000G, Tescan}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.tescan.com/fib-sem-tomography-of-biological-specimens-with-the-new-tescan-s9000g/#file-lead?filename=Advanced-Focused-Ion-Beam-Scanning-Electron-Microscopy-for-3D-ultrastructural-analysis-of-mitochondria-ER-in
+      \endverb
+      \verb{url}
+      \verb https://www.tescan.com/fib-sem-tomography-of-biological-specimens-with-the-new-tescan-s9000g/#file-lead?filename=Advanced-Focused-Ion-Beam-Scanning-Electron-Microscopy-for-3D-ultrastructural-analysis-of-mitochondria-ER-in
+      \endverb
+    \endentry
+    \entry{Pixelmator_Pro}{software}{}
+      \name{author}{1}{}{%
+        {{hash=1fffbae67d95c0bb17c4daa12d32b376}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={Pixelmator},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{fullhash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{bibnamehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{authorbibnamehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{authornamehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{authorfullhash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pixelmator Pro}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.pixelmator.com/pro/
+      \endverb
+      \verb{url}
+      \verb https://www.pixelmator.com/pro/
+      \endverb
+    \endentry
+    \entry{GIMP}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=684ecd1d1aa57cdc1536ecb2ac81b303}{%
+           family={Pagès},
+           familyi={P\bibinitperiod},
+           given={Øyvind\bibnamedelimb Kolås;\bibnamedelima Jehan},
+           giveni={Ø\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8b880490ac1f48e94c717ffc3f30d4da}{%
+           family={others},
+           familyi={o\bibinitperiod},
+           prefix={many},
+           prefixi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{fullhash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{bibnamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authorbibnamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authornamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authorfullhash}{9f4993078c173c4e0a27397eb664a84c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gimp.org/}}
+      \field{title}{GNU Image Manipulation Program}
+    \endentry
+    \entry{Mettler_Toledo}{website}{}
+      \name{author}{1}{}{%
+        {{hash=81d74fdfb3d6ed2c6b7266b601a3dd5a}{%
+           family={Toledo},
+           familyi={T\bibinitperiod},
+           given={Mettler},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{fullhash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{bibnamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authorbibnamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authornamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authorfullhash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mettler Toledo}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.mt.com
+      \endverb
+      \verb{url}
+      \verb https://www.mt.com
+      \endverb
+    \endentry
+    \entry{Labplot}{software}{}
+      \name{author}{1}{}{%
+        {{hash=c627cea4b070d10b855f85184f36b0c0}{%
+           family={KDE},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{fullhash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{bibnamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authorbibnamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authornamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authorfullhash}{c627cea4b070d10b855f85184f36b0c0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Labplot}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://labplot.kde.org
+      \endverb
+      \verb{url}
+      \verb https://labplot.kde.org
       \endverb
     \endentry
     \entry{PHBH_Crystallinity}{article}{}
@@ -436,8 +737,8 @@
       \strng{authorbibnamehash}{4555a84badf76e4475044d518af7d92d}
       \strng{authornamehash}{4555a84badf76e4475044d518af7d92d}
       \strng{authorfullhash}{9d1e549fecd5c7c5aad25fd9036c1b33}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polymers}
@@ -452,151 +753,6 @@
       \verb{url}
       \verb www.scopus.com
       \endverb
-    \endentry
-    \entry{Jian_PBAT_overview}{article}{}
-      \name{author}{3}{}{%
-        {{hash=a9707159c9db8c6fbd8db1e764f4abc4}{%
-           family={Jian},
-           familyi={J\bibinitperiod},
-           given={Jiao},
-           giveni={J\bibinitperiod}}}%
-        {{hash=6dc72757f19927b520ef66224b8dbf3d}{%
-           family={Xiangbin},
-           familyi={X\bibinitperiod},
-           given={Zeng},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=8c949c6081871ca68a71089c5e60da0b}{%
-           family={Xianbo},
-           familyi={X\bibinitperiod},
-           given={Huang},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{2261c31e1905f1518b77a56920179074}
-      \strng{fullhash}{2261c31e1905f1518b77a56920179074}
-      \strng{bibnamehash}{2261c31e1905f1518b77a56920179074}
-      \strng{authorbibnamehash}{2261c31e1905f1518b77a56920179074}
-      \strng{authornamehash}{2261c31e1905f1518b77a56920179074}
-      \strng{authorfullhash}{2261c31e1905f1518b77a56920179074}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A significantly growing interest is to design new biodegradable polymers in order to solve fossil resources and environmental pollution problems associated with conventional plastics. A kind of new biodegradable polymers, aliphatic-aromatic co-polyesters have been researched widely and developed rapidly in recent years, since that can combine excellent biodegradability provided from aliphatic polyesters and good properties from aromatic polyesters. Out of which, poly (butylene-adipate-co-terephthalate) (PBAT) shows the most importance. PBAT has been commercialized by polycondensation reaction of butanediol (BDO), adipic acid (AA) and terephthalic acid (PTA) using general polyester manufacturing technology. And it has been considered to have desirable properties and competitive costs to be applied in many fields. Therefore, this review aims to present an overview on the synthesis, properties and applications of PBAT.}
-      \field{issn}{2542-5048}
-      \field{journaltitle}{Advanced Industrial and Engineering Polymer Research}
-      \field{number}{1}
-      \field{title}{An overview on synthesis, properties and applications of poly(butylene-adipate-co-terephthalate)-PBAT}
-      \field{volume}{3}
-      \field{year}{2020}
-      \field{pages}{19\bibrangedash 26}
-      \range{pages}{8}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.aiepr.2020.01.001
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S2542504820300014
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S2542504820300014
-      \endverb
-      \keyw{Biodegradation,Polyester,PBAT,Synthesis,Property,Application}
-    \endentry
-    \entry{Labplot}{software}{}
-      \name{author}{1}{}{%
-        {{hash=c627cea4b070d10b855f85184f36b0c0}{%
-           family={KDE},
-           familyi={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{c627cea4b070d10b855f85184f36b0c0}
-      \strng{fullhash}{c627cea4b070d10b855f85184f36b0c0}
-      \strng{bibnamehash}{c627cea4b070d10b855f85184f36b0c0}
-      \strng{authorbibnamehash}{c627cea4b070d10b855f85184f36b0c0}
-      \strng{authornamehash}{c627cea4b070d10b855f85184f36b0c0}
-      \strng{authorfullhash}{c627cea4b070d10b855f85184f36b0c0}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Labplot}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://labplot.kde.org
-      \endverb
-      \verb{url}
-      \verb https://labplot.kde.org
-      \endverb
-    \endentry
-    \entry{Kovalcik_PHA_Review}{article}{}
-      \name{author}{1}{}{%
-        {{hash=a89a0622925a29f7ae7b3741335b9c88}{%
-           family={Kovalcik},
-           familyi={K\bibinitperiod},
-           given={Adriana},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{a89a0622925a29f7ae7b3741335b9c88}
-      \strng{fullhash}{a89a0622925a29f7ae7b3741335b9c88}
-      \strng{bibnamehash}{a89a0622925a29f7ae7b3741335b9c88}
-      \strng{authorbibnamehash}{a89a0622925a29f7ae7b3741335b9c88}
-      \strng{authornamehash}{a89a0622925a29f7ae7b3741335b9c88}
-      \strng{authorfullhash}{a89a0622925a29f7ae7b3741335b9c88}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The EuroBiotech Journal}
-      \field{title}{Recent Advances in 3D Printing of Polyhydroxyalkanoates: A Review}
-      \field{volume}{5}
-      \field{year}{2021}
-    \endentry
-    \entry{Triton_Technology_Ltd}{company}{}
-      \name{author}{1}{}{%
-        {{hash=180226bf203c54f8c12c92906ed51c45}{%
-           family={Ltd},
-           familyi={L\bibinitperiod},
-           given={Triton\bibnamedelima Technology},
-           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \strng{namehash}{180226bf203c54f8c12c92906ed51c45}
-      \strng{fullhash}{180226bf203c54f8c12c92906ed51c45}
-      \strng{bibnamehash}{180226bf203c54f8c12c92906ed51c45}
-      \strng{authorbibnamehash}{180226bf203c54f8c12c92906ed51c45}
-      \strng{authornamehash}{180226bf203c54f8c12c92906ed51c45}
-      \strng{authorfullhash}{180226bf203c54f8c12c92906ed51c45}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Triton-Lacerta Technology}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.lacerta-technology.com
-      \endverb
-      \verb{url}
-      \verb https://www.lacerta-technology.com
-      \endverb
-    \endentry
-    \entry{Junghare_cryogenic_grinding_review}{article}{}
-      \name{author}{1}{}{%
-        {{hash=cf4916856217e5d2fdb24aabadef0899}{%
-           family={M.Lele},
-           familyi={M\bibinitperiod},
-           given={Hemantkumar\bibnamedelimb Junghare*;\bibnamedelimb Mayur\bibnamedelimb Hamjade;\bibnamedelimb C.K.Patil;\bibnamedelimb S.B.Girase;\bibnamedelima Mandar},
-           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{cf4916856217e5d2fdb24aabadef0899}
-      \strng{fullhash}{cf4916856217e5d2fdb24aabadef0899}
-      \strng{bibnamehash}{cf4916856217e5d2fdb24aabadef0899}
-      \strng{authorbibnamehash}{cf4916856217e5d2fdb24aabadef0899}
-      \strng{authornamehash}{cf4916856217e5d2fdb24aabadef0899}
-      \strng{authorfullhash}{cf4916856217e5d2fdb24aabadef0899}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Current Engineering and Technology}
-      \field{title}{A Review on Cryogenic Grinding}
-      \field{year}{2017}
     \endentry
     \entry{GruppoMaip}{company}{}
       \name{author}{1}{}{%
@@ -615,8 +771,8 @@
       \strng{authorbibnamehash}{6cfe3083f8289c0249efb2250f9a61b7}
       \strng{authornamehash}{6cfe3083f8289c0249efb2250f9a61b7}
       \strng{authorfullhash}{6cfe3083f8289c0249efb2250f9a61b7}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Gruppo Maip}
@@ -627,31 +783,6 @@
       \verb{url}
       \verb www.maipsrl.com
       \endverb
-    \endentry
-    \entry{cryogenic_grinding_video}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=862e283eac9f07b456340170203fec1c}{%
-           family={Milling},
-           familyi={M\bibinitperiod},
-           given={FRITSCH},
-           giveni={F\bibinitperiod}}}%
-        {{hash=92672a7a2b909945fbfa9f44f057c7a1}{%
-           family={Sizing},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{2ed78540a8a700257171156a532600d4}
-      \strng{fullhash}{2ed78540a8a700257171156a532600d4}
-      \strng{bibnamehash}{2ed78540a8a700257171156a532600d4}
-      \strng{authorbibnamehash}{2ed78540a8a700257171156a532600d4}
-      \strng{authornamehash}{2ed78540a8a700257171156a532600d4}
-      \strng{authorfullhash}{2ed78540a8a700257171156a532600d4}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.youtube.com/watch?v=3KUGXICL3Is}}
-      \field{title}{Cryogenic Grinding with the Variable Speed Rotor Mill PULVERISETTE 14 premium line}
-      \field{year}{2021}
     \endentry
     \entry{Ultrapyc5000}{product}{}
       \name{author}{1}{}{%
@@ -667,8 +798,8 @@
       \strng{authorbibnamehash}{90e0fc72dd1cc9306fc9d610b1ae553d}
       \strng{authornamehash}{90e0fc72dd1cc9306fc9d610b1ae553d}
       \strng{authorfullhash}{90e0fc72dd1cc9306fc9d610b1ae553d}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ultrapyc 5000 Gaspycnometer}
@@ -680,31 +811,35 @@
       \verb https://www.anton-paar.com/corp-en/products/details/ultrapyc/
       \endverb
     \endentry
-    \entry{GIMP}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=684ecd1d1aa57cdc1536ecb2ac81b303}{%
-           family={Pagès},
-           familyi={P\bibinitperiod},
-           given={Øyvind\bibnamedelimb Kolås;\bibnamedelima Jehan},
-           giveni={Ø\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=8b880490ac1f48e94c717ffc3f30d4da}{%
-           family={others},
-           familyi={o\bibinitperiod},
-           prefix={many},
-           prefixi={m\bibinitperiod}}}%
+    \entry{ASTM_D7481-18}{report}{}
+      \name{author}{1}{}{%
+        {{hash=bc09365a5b595844b2fb72fc97cb7ae7}{%
+           family={ASTM},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{9f4993078c173c4e0a27397eb664a84c}
-      \strng{fullhash}{9f4993078c173c4e0a27397eb664a84c}
-      \strng{bibnamehash}{9f4993078c173c4e0a27397eb664a84c}
-      \strng{authorbibnamehash}{9f4993078c173c4e0a27397eb664a84c}
-      \strng{authornamehash}{9f4993078c173c4e0a27397eb664a84c}
-      \strng{authorfullhash}{9f4993078c173c4e0a27397eb664a84c}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{fullhash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{bibnamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{authorbibnamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{authornamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{authorfullhash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.gimp.org/}}
-      \field{title}{GNU Image Manipulation Program}
+      \field{number}{ASTM D7481 18}
+      \field{title}{Standard Test Methods for Determining Loose and Tapped Bulk Densities of Powders using a Graduated Cylinder}
+      \field{type}{Standard}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://compass.astm.org/document/?contentCode=ASTM%7CD7481-18%7Cen-US
+      \endverb
+      \verb{url}
+      \verb https://compass.astm.org/document/?contentCode=ASTM%7CD7481-18%7Cen-US
+      \endverb
     \endentry
     \entry{Malvern_Morphologi4}{product}{}
       \name{author}{1}{}{%
@@ -723,8 +858,8 @@
       \strng{authorbibnamehash}{e2b3a19e7efbfb078796e69682765aff}
       \strng{authornamehash}{e2b3a19e7efbfb078796e69682765aff}
       \strng{authorfullhash}{e2b3a19e7efbfb078796e69682765aff}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Malvern Morphologi 4}
@@ -736,95 +871,31 @@
       \verb https://www.malvernpanalytical.com/en/products/product-range/morphologi-range/morphologi-4
       \endverb
     \endentry
-    \entry{Inkscape}{software}{}
+    \entry{Blender}{software}{}
       \name{author}{1}{}{%
-        {{hash=b6376cab05e82f18f4779e535e95f621}{%
-           family={Project},
-           familyi={P\bibinitperiod},
-           given={The\bibnamedelima Inkscape},
-           giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=44275c392a37e9fa9de37082ab548a59}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Blender},
+           giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{b6376cab05e82f18f4779e535e95f621}
-      \strng{fullhash}{b6376cab05e82f18f4779e535e95f621}
-      \strng{bibnamehash}{b6376cab05e82f18f4779e535e95f621}
-      \strng{authorbibnamehash}{b6376cab05e82f18f4779e535e95f621}
-      \strng{authornamehash}{b6376cab05e82f18f4779e535e95f621}
-      \strng{authorfullhash}{b6376cab05e82f18f4779e535e95f621}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \strng{namehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{fullhash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{bibnamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authorbibnamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authornamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authorfullhash}{44275c392a37e9fa9de37082ab548a59}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://inkscape.org/}}
-      \field{title}{Inkscape}
-    \endentry
-    \entry{Rafiqah_Khalina_PBS_review}{article}{}
-      \name{author}{8}{}{%
-        {{hash=63dced6ee778c62a9246c6db6b70f694}{%
-           family={Rafiqah},
-           familyi={R\bibinitperiod},
-           given={S.\bibnamedelimi Ayu},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=4230cfaf156a2c851e800bd916ee789c}{%
-           family={Khalina},
-           familyi={K\bibinitperiod},
-           given={Abdan},
-           giveni={A\bibinitperiod}}}%
-        {{hash=971451d78a5ba6f11a1bbac742e2aef7}{%
-           family={Harmaen},
-           familyi={H\bibinitperiod},
-           given={Ahmad\bibnamedelima Saffian},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=f51db996ff2a8bc4996ca5585f2c3a76}{%
-           family={Tawakkal},
-           familyi={T\bibinitperiod},
-           given={Intan\bibnamedelima Amin},
-           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=15714e513e8e8b0f6a0985a9c1ea6d1c}{%
-           family={Zaman},
-           familyi={Z\bibinitperiod},
-           given={Khairul},
-           giveni={K\bibinitperiod}}}%
-        {{hash=af1adc73fb7162a9b7f60f052a8dd3b0}{%
-           family={Asim},
-           familyi={A\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=9a6e04c8a26aa832bf1355ab88a05238}{%
-           family={Nurrazi},
-           familyi={N\bibinitperiod},
-           given={M.N.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=4a2c787c4b26799d7a1da36cd0a5057d}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Ching\bibnamedelima Hao},
-           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \strng{namehash}{1c28f15e4bb5360f5736b2901d249984}
-      \strng{fullhash}{a5b8cec95528f245a95ece2a5d125b20}
-      \strng{bibnamehash}{1c28f15e4bb5360f5736b2901d249984}
-      \strng{authorbibnamehash}{1c28f15e4bb5360f5736b2901d249984}
-      \strng{authornamehash}{1c28f15e4bb5360f5736b2901d249984}
-      \strng{authorfullhash}{a5b8cec95528f245a95ece2a5d125b20}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Researchers and companies have increasingly been drawn to biodegradable polymers and composites because of their environmental resilience, eco-friendliness, and suitability for a range of applications. For various uses, biodegradable fabrics use biodegradable polymers or natural fibers as reinforcement. Many approaches have been taken to achieve better compatibility for tailored and improved material properties. In this article, PBS (polybutylene succinate) was chosen as the main topic due to its excellent properties and intensive interest among industrial and researchers. PBS is an environmentally safe biopolymer that has some special properties, such as good clarity and processability, a shiny look, and flexibility, but it also has some drawbacks, such as brittleness. PBS-based natural fiber composites are completely biodegradable and have strong physical properties. Several research studies on PBS-based composites have been published, including physical, mechanical, and thermal assessments of the properties and its ability to replace petroleum-based materials, but no systematic analysis of up-to-date research evidence is currently available in the literature. The aim of this analysis is to highlight recent developments in PBS research and production, as well as its natural fiber composites. The current research efforts focus on the synthesis, copolymers and biodegradability for its properties, trends, challenges and prospects in the field of PBS and its composites also reviewed in this paper.}
-      \field{issn}{2073-4360}
-      \field{journaltitle}{Polymers}
-      \field{number}{9}
-      \field{title}{A Review on Properties and Application of Bio-Based Poly(Butylene Succinate)}
-      \field{volume}{13}
-      \field{year}{2021}
-      \verb{doi}
-      \verb 10.3390/polym13091436
-      \endverb
+      \field{title}{Blender}
+      \field{year}{2022}
       \verb{urlraw}
-      \verb https://www.mdpi.com/2073-4360/13/9/1436
+      \verb https://www.blender.org
       \endverb
       \verb{url}
-      \verb https://www.mdpi.com/2073-4360/13/9/1436
+      \verb https://www.blender.org
       \endverb
     \endentry
     \entry{PrusaSlicer}{software}{}
@@ -841,8 +912,8 @@
       \strng{authorbibnamehash}{120b6d22998b726590376085d087a297}
       \strng{authornamehash}{120b6d22998b726590376085d087a297}
       \strng{authorfullhash}{120b6d22998b726590376085d087a297}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PrusaSlicer}
@@ -868,8 +939,8 @@
       \strng{authorbibnamehash}{47ec906ca4b65f8809d774e2839caf83}
       \strng{authornamehash}{47ec906ca4b65f8809d774e2839caf83}
       \strng{authorfullhash}{47ec906ca4b65f8809d774e2839caf83}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Sharebot}
@@ -881,154 +952,60 @@
       \verb https://www.sharebot.it/en/
       \endverb
     \endentry
-    \entry{doi:10.1063/1.4918516}{article}{}
-      \name{author}{3}{}{%
-        {{hash=2bdd013f1939d4ddc923b2c4b36e2762}{%
-           family={Schmid},
-           familyi={S\bibinitperiod},
-           given={Manfred},
-           giveni={M\bibinitperiod}}}%
-        {{hash=78ca6c0dafe7a08305d08e85320421e0}{%
-           family={Amado},
-           familyi={A\bibinitperiod},
-           given={Antonio},
-           giveni={A\bibinitperiod}}}%
-        {{hash=eaaabc6348988f0a3fb8d71aca611102}{%
-           family={Wegener},
-           familyi={W\bibinitperiod},
-           given={Konrad},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
-      \strng{fullhash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
-      \strng{bibnamehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
-      \strng{authorbibnamehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
-      \strng{authornamehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
-      \strng{authorfullhash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{AIP Conference Proceedings}
-      \field{number}{1}
-      \field{title}{Polymer powders for selective laser sintering (SLS)}
-      \field{volume}{1664}
-      \field{year}{2015}
-      \field{pages}{160009}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1063/1.4918516
-      \endverb
-      \verb{eprint}
-      \verb https://aip.scitation.org/doi/pdf/10.1063/1.4918516
-      \endverb
-      \verb{urlraw}
-      \verb https://aip.scitation.org/doi/abs/10.1063/1.4918516
-      \endverb
-      \verb{url}
-      \verb https://aip.scitation.org/doi/abs/10.1063/1.4918516
-      \endverb
-    \endentry
-    \entry{Pixelmator_Pro}{software}{}
+    \entry{Triton_Technology_Ltd}{company}{}
       \name{author}{1}{}{%
-        {{hash=1fffbae67d95c0bb17c4daa12d32b376}{%
-           family={Team},
-           familyi={T\bibinitperiod},
-           given={Pixelmator},
-           giveni={P\bibinitperiod}}}%
+        {{hash=180226bf203c54f8c12c92906ed51c45}{%
+           family={Ltd},
+           familyi={L\bibinitperiod},
+           given={Triton\bibnamedelima Technology},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
-      \strng{namehash}{1fffbae67d95c0bb17c4daa12d32b376}
-      \strng{fullhash}{1fffbae67d95c0bb17c4daa12d32b376}
-      \strng{bibnamehash}{1fffbae67d95c0bb17c4daa12d32b376}
-      \strng{authorbibnamehash}{1fffbae67d95c0bb17c4daa12d32b376}
-      \strng{authornamehash}{1fffbae67d95c0bb17c4daa12d32b376}
-      \strng{authorfullhash}{1fffbae67d95c0bb17c4daa12d32b376}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \strng{namehash}{180226bf203c54f8c12c92906ed51c45}
+      \strng{fullhash}{180226bf203c54f8c12c92906ed51c45}
+      \strng{bibnamehash}{180226bf203c54f8c12c92906ed51c45}
+      \strng{authorbibnamehash}{180226bf203c54f8c12c92906ed51c45}
+      \strng{authornamehash}{180226bf203c54f8c12c92906ed51c45}
+      \strng{authorfullhash}{180226bf203c54f8c12c92906ed51c45}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Pixelmator Pro}
+      \field{title}{Triton-Lacerta Technology}
       \field{year}{2022}
       \verb{urlraw}
-      \verb https://www.pixelmator.com/pro/
+      \verb https://www.lacerta-technology.com
       \endverb
       \verb{url}
-      \verb https://www.pixelmator.com/pro/
+      \verb https://www.lacerta-technology.com
       \endverb
     \endentry
-    \entry{FIB-SEM_TESCAN_S9000G}{howpublished}{}
+    \entry{JD_Ferry_viscoelasticpolymers}{book}{}
       \name{author}{1}{}{%
-        {{hash=65f366fa94039b5f8583fff879d94fbe}{%
-           family={Tescan},
-           familyi={T\bibinitperiod}}}%
+        {{hash=35e8424b71073b4a704c874cd7e61ffc}{%
+           family={Ferry},
+           familyi={F\bibinitperiod},
+           given={J.D.},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{65f366fa94039b5f8583fff879d94fbe}
-      \strng{fullhash}{65f366fa94039b5f8583fff879d94fbe}
-      \strng{bibnamehash}{65f366fa94039b5f8583fff879d94fbe}
-      \strng{authorbibnamehash}{65f366fa94039b5f8583fff879d94fbe}
-      \strng{authornamehash}{65f366fa94039b5f8583fff879d94fbe}
-      \strng{authorfullhash}{65f366fa94039b5f8583fff879d94fbe}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{35e8424b71073b4a704c874cd7e61ffc}
+      \strng{fullhash}{35e8424b71073b4a704c874cd7e61ffc}
+      \strng{bibnamehash}{35e8424b71073b4a704c874cd7e61ffc}
+      \strng{authorbibnamehash}{35e8424b71073b4a704c874cd7e61ffc}
+      \strng{authornamehash}{35e8424b71073b4a704c874cd7e61ffc}
+      \strng{authorfullhash}{35e8424b71073b4a704c874cd7e61ffc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{FIB-SEM, TESCAN S9000G, Tescan}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://www.tescan.com/fib-sem-tomography-of-biological-specimens-with-the-new-tescan-s9000g/#file-lead?filename=Advanced-Focused-Ion-Beam-Scanning-Electron-Microscopy-for-3D-ultrastructural-analysis-of-mitochondria-ER-in
-      \endverb
-      \verb{url}
-      \verb https://www.tescan.com/fib-sem-tomography-of-biological-specimens-with-the-new-tescan-s9000g/#file-lead?filename=Advanced-Focused-Ion-Beam-Scanning-Electron-Microscopy-for-3D-ultrastructural-analysis-of-mitochondria-ER-in
-      \endverb
-    \endentry
-    \entry{Mettler_Toledo}{website}{}
-      \name{author}{1}{}{%
-        {{hash=81d74fdfb3d6ed2c6b7266b601a3dd5a}{%
-           family={Toledo},
-           familyi={T\bibinitperiod},
-           given={Mettler},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
-      \strng{fullhash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
-      \strng{bibnamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
-      \strng{authorbibnamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
-      \strng{authornamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
-      \strng{authorfullhash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Mettler Toledo}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.mt.com
-      \endverb
-      \verb{url}
-      \verb https://www.mt.com
-      \endverb
-    \endentry
-    \entry{Recent_progress_polymers_AM}{article}{}
-      \name{author}{1}{}{%
-        {{hash=8fbe073c0bb159b81763c877d46300c8}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Lisa\bibnamedelimb Jiaying\bibnamedelimb Tan;\bibnamedelimb Wei\bibnamedelimb Zhu;\bibnamedelima Kun},
-           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \strng{namehash}{8fbe073c0bb159b81763c877d46300c8}
-      \strng{fullhash}{8fbe073c0bb159b81763c877d46300c8}
-      \strng{bibnamehash}{8fbe073c0bb159b81763c877d46300c8}
-      \strng{authorbibnamehash}{8fbe073c0bb159b81763c877d46300c8}
-      \strng{authornamehash}{8fbe073c0bb159b81763c877d46300c8}
-      \strng{authorfullhash}{8fbe073c0bb159b81763c877d46300c8}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Advanced Functional Materials}
-      \field{title}{Recent Progress on Polymer Materials for Additive Manufacturing}
-      \field{year}{2020}
+      \field{edition}{3rd}
+      \field{title}{Viscoelastic Properties of Polymers}
+      \field{year}{1980}
     \endentry
   \enddatalist
 \endrefsection

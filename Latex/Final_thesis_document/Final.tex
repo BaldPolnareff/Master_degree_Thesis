@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage{textcomp}
 \usepackage{gensymb}
-\usepackage[backend=biber]{biblatex}
+\usepackage[backend=biber, sorting=none]{biblatex}
 \usepackage{graphicx}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{booktabs}
@@ -37,7 +37,7 @@
 %\newglossaryentry{Biopolymer}
 %{
 %        name=Biopolymer,
-%        description={A polymer produced by living organisms, such as plants, animals or microorganisms. Biopolymers are often used as a substitute for petroleum-based polymers, due to their lower environmental impact.}
+%        description={A polymer produced by living organisms, such as plants, animals or microorganisms. bio-based polymers are often used as a substitute for petroleum-based polymers, due to their lower environmental impact.}
 %        
 %}
 %
@@ -87,17 +87,17 @@
     \begin{abstract}
 
         The goal of this case study is to optimize the production of SLS suitable
-        fine powders of sustainable biopolymers and directly assess their printability.
+        fine powders of sustainable bio-based polymers and directly assess their printability.
 
 
-        Among the biopolymers, PLA is the most widely used in the \textit{Fused Deposition Modeling} (FDM) hobbyist and enthusiast markets, whereas more invasive polymers such as PA12 are commonly used in
-        \textit{Selective Laser Sintering} (SLS), the most common 3D printing technology for the production of functional parts.
+        Among the bio-based polymers, PLA is the most widely used in the FDM (\textit{Fused Deposition Modeling}) hobbyist and enthusiast markets, whereas more invasive polymers such as PA12 are commonly used in
+        SLS (\textit{Selective Laser Sintering}), the most common 3D printing technology for the production of functional parts.
 
-        A higher demand for biopolymers in the SLS industry is expected in the near future - following the general sustainability goals of all industries - as the technology allows for the production of more complex geometries and intricate details, as well as ad-hoc parts for the medical industry, where the use of biopolymers is already widespread.
+        A higher demand for bio-based polymers in the SLS industry is expected in the near future - following the general sustainability goals of all industries - as the technology allows for the production of more complex geometries and intricate details, as well as ad-hoc parts for the medical industry, where the use of bio-based polymers is already widespread.
 
-        The catalogue of biopolymers available for SLS is currently expanding, but still limited, and the production of fine powders is a critical step in the process of producing functional parts.
+        The catalogue of bio-based polymers available for SLS is currently expanding, but still limited, and the production of fine powders is a critical step in the process of producing functional parts.
 
-        This study focused on PHBH, a copolymer of the \textit{Polyhydroxyalcanoate} family, with a wider sintering window and thus a higher potential for SLS applications, compared to other polymers of the same group.
+        This study focused on PHBH (\textit{polyhydroxybutyratehexanoate}), a copolymer of the PHA (\textit{polyhydroxyalcanoate}) family, with a wider sintering window and thus a higher potential for SLS applications, compared to other polymers of the same group.
 
 
         An extensive research on current \textit{state-of-the-art} production methods, most notably cryogenic mechanical milling and chemical precipitation, led to choosing the latter, since the former does not produce spherical particles, unless further heat treatments are applied, with unpredictable rates of success and potentially high power consumption.
@@ -113,7 +113,7 @@
         The resulting powder is then cleaned, dried overnight and sieved, to obtain a final product with a particle size distribution suitable for SLS applications ($ < 100 \ \mu m $).
 
 
-        Specimens of the obtained powder have been collected and characterized by means of a series of tests, including various thermal analysis methods, such as TGA and DSC, as well as a flowability test and density measurments via a gas pycnometer.
+        Specimens of the obtained powder have been collected and characterized by means of a series of tests, including various thermal analysis methods, such as TGA and DSC, as well as a flowability test and density measurements via a gas pycnometer.
 
         The SLS suitability of the powder has been further assessed in terms of morphology by \textit{Scanning Electron Microscopy} (SEM), which revealed a close to ideal distribution of predominantly spherical, non-hollow particles, 
         as also confirmed by granulometry investigations. 
@@ -138,36 +138,36 @@
     \section{Thesis Goal\label{Thesis_Goal}}
 
     The ever increasing demand for sustainable materials in all manufacturing industries has led to a growing interest in the 
-    production of biopolymers for various applications. 
+    production of bio-based polymers for various applications. 
 
-    In particular, the interest for biopolymers in the Additive Manufacturing industry has skyrocketed in the last few years, 
-    along with the general interest in sustainable materials, and the use of biopolymers in 3D printing is expected to grow in the near future, 
+    In particular, the interest for bio-based polymers in the AM (Additive Manufacturing) industry has skyrocketed in the last few years, 
+    along with the general interest in sustainable materials, and the use of bio-based polymers in 3D printing is expected to grow in the near future, 
     with more research and resources being invested in the field, and costs decreasing as the market share increases. \\  
 
-    Among the various AM techniques, \textit{Selective Laser Sintering} (SLS) is increasing in popularity and 
-    maturing as a technology. This includes its applications with biopolymers themselves, which are already used in the medical industry, 
+    Among the various AM techniques, SLS (\textit{Selective Laser Sintering}) is increasing in popularity and 
+    maturing as a technology. This includes its applications with bio-based polymers themselves, which are already used in the medical industry, 
     but are still limited in terms of the number of available polymers and the production of fine powders for SLS applications. \\ 
 
     The current literature on the subject is still scarce and the available systematic reviews highlight the need for further research in the field, 
-    in order to expand the catalogue of biopolymers available for 3D printing and to optimize the production of fine powders
+    in order to expand the catalogue of bio-based polymers available for 3D printing and to optimize the production of fine powders
     for SLS specifically. \\
 
     The goal of this case study is to further explore the production of biopolymer fine powders for SLS applications, with a focus on 
     PHBH and chemical precipitation, by optimizing the production pipeline, characterizing and directly assessing 
-    the printability of the resulting powder. \\  
+    the printability of the resulting polymeric powder. \\  
 
     \clearpage
     \section{Introduction\label{Intro}}
 
-    \textit{Additive manufacturing} (AM) is a broad term that encompasses several manufacturing techniques, characterized by their additive nature, as the name suggests, 
+    AM is a broad term that encompasses several manufacturing techniques, characterized by their additive nature, as the name suggests, 
     in contrast with more traditional subtractive processes.
     
-    AM techniques are applied to a vast range of materials, including ceramics, polymers and metal alloys, some of which are specifically developed or optimized to 
+    AM techniques are applied to a wide range of materials, including ceramics, polymers and metal alloys, some of which are specifically developed or optimized to 
     these kinds of applications. \\ 
     
     The main advantage of AM is the ability to produce complex shapes in a relatively short time. 
     These geometries are either too hard or even impossible to reproduce with subtractive manufacturing techniques, which often require multiple steps, using different 
-    pieces of equipment, trained personnel, etc. \\
+    pieces of equipment, trained personnel, etc \autocites{DechetMaximilianA2020OtDo}. \\
 
     Given the same material, the complex shapes allowed by AM can replace components made of multiple assembled parts with a unique solid piece of comparable or even better mechanical properties. 
     
@@ -180,7 +180,7 @@
     \subsection{Polymers in Additive Manufacturing\label{Polymers_in_AM}}
 
     Polymers and their composite materials have been used in all sorts of fields, ranging from arts and crafts all the way to advanced biomedical and aerospace applications, thanks 
-    to their unique and varied extended range of properties. \\  
+    to their unique and varied extended range of properties \autocites{Latvian_additive,Materials_add_man_718,Messori_Bondioli_PHAs,doi:10.1063/1.4918516,SLS_3dprinting_biomedical_polymers,Kovalcik_PHA_Review,Recent_progress_polymers_AM}. \\  
     
     The rapid advancement of AM, where polymers have been extensively used for prototyping, in the form of resins, filaments, powders and viscous inks, 
     has increased the demand for high-performance polymers, in order to take advantage of their quicker printing times (compared to metals) as well as their lower cost, while still
@@ -192,10 +192,10 @@
     A consequence of the concerns about climate change and its potentially catastrophic outcomes is the research in the field of eco-friendly materials, including polymers 
     that could be used in AM. 
     
-    A great example is \textit{PLA} (PolyLactic Acid), a polymer widely used in 3D printing, whose monomer is obtained by fermenting starches, such as corn starch. \\ 
+    An example is PLA (\textit{polylactic acid}), a polymer widely used in 3D printing, whose monomer is obtained by fermenting starches, such as corn starch. \\ 
 
-    Many new eco-friendly polymers have been and are currently being studied for AM techniques, but this case study will focus mostly on materials that can be potentially turned 
-    into powders for \textit{PBF} (Powder Bed Fusion) techniques or filaments for \textit{ME} (Material Extrusion). 
+    Many new eco-friendly polymers have been and are currently being studied for AM techniques, but this thesis work will focus mostly on materials that can be potentially turned 
+    into powders for PBF (\textit{Powder Bed Fusion}) techniques or filaments for FFF (\textit{Fused Filament Fabrication}). 
     
     \subsection{Common AM techniques for polymers\label{AM_techniques_summary}}
     
@@ -204,7 +204,7 @@
     \begin{itemize}
         \item \textbf{VP} (Vat Photopolymerization), which makes use of UV lights (or other radiations) to solidify photosensitive resins. This class of AM processes can produce 
                         parts with the highest resolution among all AM methods \autocites*{Recent_progress_polymers_AM}{Kovalcik_PHA_Review};
-        \item \textbf{MJ} (Material Jetting), which consist of a deposition of viscous fluids (either in droplets or in a continuous fashion), solidified by different agents 
+        \item \textbf{MJ} (Material Jetting), which consists of a deposition of viscous fluids (either in droplets or in a continuous fashion), solidified by different agents 
                             (time interacting chemicals, heating, cooling, drying, photopolymerization, etc.). These processes include several patented methods, characterized by 
                             high speed printing \autocite*{Recent_progress_polymers_AM};
         \item \textbf{PBF} (Powder Bed Fusion), where the object is printed by locally fusing a powder bed (with a pulsing energy source -such as lasers- or with a local deposition of chemicals),
@@ -218,34 +218,34 @@
                         is not entirely additive, since subtractive processes are used to cut and refine the final part, creating substantial material waste \autocite*{Recent_progress_polymers_AM}.
     \end{itemize} \clearpage
 
-    \subsubsection{FDM (Fused Deposition Modeling) \label{FDM_general}}
-
-    FDM is a \textit{ME} technique and the most well known AM process, commonly named 3D printing in popular media. \\
-    
-    The process consists of a direct layer-by-layer deposition of a thermoplastic filament, heated up to its melting point (or enough to soften it until it reaches an 
-    optimal flow) and extruded through a nozzle \autocites*{Recent_progress_polymers_AM}{Kovalcik_PHA_Review}. 
-
-    The nozzle is generally moved in the x-y plane until a layer is completed with the desired infill, then either the extruder head or the growth plate are moved along the z axis, 
-    initiating the printing of the subsequent layer.
-
-    The planar infill and the resolution on the z axis will determine the quality of the final print for a given material and geometry, in terms of density and visual appeal.
-    
-    For a given planar infill, the z axis resolution greatly influences the final look of the part, as well as printing times:
-    modern slicing software can analyze the geometry and generate an adaptive resolution, reducing the number of layers where the local  
-    curvature of the object is within a certain threshold and increasing it when necessary. 
-    
-    This approach can produce good quality parts, 
-    while reducing printing times. \\ 
-    
-    FDM has gained a lot of popularity in the last few years, given its general ease of use, relatively low cost of both materials and equipment and its growing 
-    community of enthusiasts. \\
-
-    A wide variety of materials can be used with this technique, including (but not limited to) 
-    \textit{PLA}, \textit{ABS}, \textit{PET}, \textit{PETG}, \textit{HIPS}, \textit{TPU}, \textit{nylon}. \clearpage
+    %\subsubsection{FDM (Fused Deposition Modeling) \label{FDM_general}}
+%
+    %FDM is a \textit{ME} technique and the most well known AM process, commonly named 3D printing in popular media. \\
+    %
+    %The process consists of a direct layer-by-layer deposition of a thermoplastic filament, heated up to its melting point (or enough to soften it until it reaches an 
+    %optimal flow) and extruded through a nozzle \autocites*{Recent_progress_polymers_AM}{Kovalcik_PHA_Review}. 
+%
+    %The nozzle is generally moved in the x-y plane until a layer is completed with the desired infill, then either the extruder head or the growth plate are moved along the z axis, 
+    %initiating the printing of the subsequent layer.
+%
+    %The planar infill and the resolution on the z axis will determine the quality of the final print for a given material and geometry, in terms of density and visual appeal.
+    %
+    %For a given planar infill, the z axis resolution greatly influences the final look of the part, as well as printing times:
+    %modern slicing software can analyze the geometry and generate an adaptive resolution, reducing the number of layers where the local  
+    %curvature of the object is within a certain threshold and increasing it when necessary. 
+    %
+    %This approach can produce good quality parts, 
+    %while reducing printing times. \\ 
+    %
+    %FDM has gained a lot of popularity in the last few years, given its general ease of use, relatively low cost of both materials and equipment and its growing 
+    %community of enthusiasts. \\
+%
+    %A wide variety of materials can be used with this technique, including (but not limited to) 
+    %\textit{PLA}, \textit{ABS}, \textit{PET}, \textit{PETG}, \textit{HIPS}, \textit{TPU}, \textit{nylon}. \clearpage
 
     \subsubsection{SLS (Selective Laser Sintering) \label{SLS_general}}
 
-    \textit{SLS} is a manufacturing process in the PBF family. 
+    SLS is a manufacturing process in the PBF family. 
 
     A powder bed is layed out onto a platform and a focused heat source (a laser) locally sinters the powder, 
     until a single layer is completed \autocites*{Recent_progress_polymers_AM}{Kovalcik_PHA_Review}. 
@@ -253,19 +253,19 @@
     A mechanism wipes out the remaining powder, which is recollected and automatically redistributed by a recoating 
     system, for each subsequent layer \autocite*{Padovano_SLS_Review}. 
 
-    This process is similar to \textit{SLM} (Selective Laser Melting), typically used with metal alloys: in \textit{SLS} the energy input is not high enough 
+    This process is similar to SLM (\textit{Selective Laser Melting}), typically used with metal alloys: in SLS the energy input is not high enough 
     to bring the powders to their melting point, but sufficient for sintering of the powders. 
 
-    Despite the slight difference, many sources use the terms interchangeably, often effectively referring to SLM in metal manufacturing. 
+    Despite the slight difference, many sources use both terms interchangeably, often effectively referring to SLM in metal manufacturing. 
     
     When it comes to thermoplastic materials, the required laser power to sinter each layer is substantially lower than that needed for metals. \\ 
 
-    \textit{SLS} printers can be considerably more expensive than \textit{FDM} machines of similar printing volume, but the advantages they offer, 
+    SLS printers can be considerably more expensive than \textit{FDM} machines of similar printing volume, but the advantages they offer, 
     in terms of customizability, superior consistency in print quality and accuracy, higher production rate, less need for support structures, 
     makes them a more cost effective solution for larger scale industrial production, whereas \textit{FDM} printers are still more established 
     in the hobbyists and enthusiasts market \autocite*{Padovano_SLS_Review}. \\ 
 
-    Generally speaking, \textit{SLS} is a three stage process, consisting of: 
+    Generally speaking, SLS is a three stage process \autocites{Padovano_SLS_Review}, consisting of: 
     
     \begin{itemize}
         \item warm up (A)
@@ -276,11 +276,11 @@
     \begin{figure}[h!]
         \centering
         \includegraphics[width=0.63\textwidth]{Pictures/SLS_temp_over_time.eps}\\
-        \caption{Phases of an \textit{SLS} process \autocites{Inkscape}{Padovano_SLS_Review}} 
+        \caption{Phases of an SLS process} 
         \label{fig:SLS_temp_over_time}
     \end{figure}
 
-    As seen in figure (\ref{fig:SLS_temp_over_time}), the first phase is the time required to reach a specific powder bed temperature $(T_b)$, based on the material of choice. 
+    As seen in figure \ref{fig:SLS_temp_over_time} \autocites{Inkscape}, the first phase is the time required to reach a specific powder bed temperature $(T_b)$, based on the material of choice. 
 
     Ideally this temperature should be maintained constant inside the printing
     chamber, during the entire building phase, through infrared or electric heaters. 
@@ -293,14 +293,14 @@
     Once the final piece is printed, the entire chamber is cooled down homogeneously and gradually, until the equilibrium is reached at room 
     temperature $(T_e)$ \autocite*{Padovano_SLS_Review}. \\ 
 
-    Quality standards for \textit{SLS} printed parts have increased dramatically over the last few years, to the point where 
+    Quality standards for SLS printed parts have increased dramatically over the last few years, to the point where 
     the manufactured components are not exclusively used for prototyping or as sacrificial items for investment casting, but they are 
     used as finalized industrial grade parts. 
 
     However, there is still room for substantial improvements in the consistency of print accuracy, overall quality, reliability 
     and scalability of the entire process, compared to more traditional manufacturing techniques. \\ 
 
-    The variety of physical phenomena involved in SLS, the fact that they can be interdepent and their different temporal regimes are the main 
+    The variety of interdepent physical phenomena involved in SLS and their different temporal regimes are the main 
     source of complexity that makes the process inconsistent and very hard to study. 
 
     The most predominant phenomena are the following \autocite*{Padovano_SLS_Review}: 
@@ -308,7 +308,7 @@
     \begin{itemize}
         \item Laser motion and irradiation
         \item Thermal diffusion
-        \item Polymer viscous flow and particle coalescence 
+        \item Polymer viscous flow and particles coalescence 
         \item Powder spreading
         \item Solidification/crystallization 
     \end{itemize} 
@@ -317,11 +317,11 @@
     higher than most consolidated manufacturing techniques), usually defective in terms of porosity or 
     thermal distortion or warping \autocite*{Padovano_SLS_Review}. \\ 
 
-    The next chapters will focus on potential SLS materials for this case study and their powder production specifically. \clearpage
+    The next chapters will focus on potential SLS materials for this study and their powder production specifically. \clearpage
 
     \section{PHAs (Polyhydroxyalkanoates)  \label{PHA_in_general}}
 
-    \textit{PHA}s are a family of thermoplastic polyesters, obtained by hydroxyalkanoic acids via bacterial fermentation, under 
+    PHAs are a family of thermoplastic polyesters, obtained by hydroxyalkanoic acids via bacterial fermentation, under 
     nutrient depletion and carbon excess conditions \autocites{Kovalcik_PHA_Review}{Messori_Bondioli_PHAs}. 
 
     They are a sustainable alternative to petrochemical polymers commonly utilized in 
@@ -350,7 +350,7 @@
     
     The market for bioderived PHA has gradually increased over the years and the growth is estimated to keep its pace, given that not only are they more sustainable
     than competing petrochemical polymers, but they offer additional valuable properties, such as piezolectricity 
-    and protection against gases and UV lights \autocite{Kovalcik_PHA_Review}.
+    and protection against gases and UV light \autocite{Kovalcik_PHA_Review}.
 
     Their bio-origin, non-toxicity, renewability, biodegradability and biocompatibility make PHAs a very compelling product in the 
     ever growing market of sustainable materials. 
@@ -364,17 +364,17 @@
     
     \subsection{PHA and Additive Manufacturing \label{PHA_in_Additive}}
 
-    PHAs can be used in different AM techniques, including Stereolitography, which is part of VP processes (\ref{AM_techniques_summary}), 
-    Fused Deposition Modeling (\ref{FDM_general}), where the filaments are made of a mixture of PHA and PLA, 
+    PHAs can be used in different AM techniques, including Stereolitography, which is part of VP processes \ref{AM_techniques_summary}, 
+    FFF (commercially known as FDM), where the filaments are made of a mixture of PHA and PLA, 
     (which increases thermal stability and cuts down cost), and 
-    Selective Laser Sintering (\ref{SLS_general}) \autocite{Kovalcik_PHA_Review}. \\ 
+    SLS \ref{SLS_general} \autocite{Kovalcik_PHA_Review}. \\ 
 
-    This case study will focus on its usage in SLS. \\ 
+    This thesis work focused on its usage in SLS. \\ 
 
-    PHAs have been successfully printed via SLS and utilized in the medical field as scaffolds for tissues engineering applications. 
+    PHAs have been successfully printed via SLS and utilized in the medical field as scaffolds for tissues engineering applications \autocites{Messori_Bondioli_PHAs}. 
 
     These scaffolds can be printed with a porous structure (controlled by the laser energy density), 
-    which could aid in carrying biomolecules and slowly release drugs, for instance.
+    which could aid in carrying biomolecules and slowly release drugs, for instance \autocites{Messori_Bondioli_PHAs}.
     
     Unlike with FDM applications, where PHA can not be used as a standalone filament, but needs PLA addition in order to stabilize its melting 
     phase, PHA powders for SLS tend to maintain a better stability and their chemical composition does not get altered as easily. 
@@ -385,70 +385,71 @@
         
     \subsubsection{PHBH \label{PHBH}}
 
-    Poly(3-hydroxybutirate-\textit{co}-3-hydroxyhexanoate) is a copolymer of the PHA family, which gained 
-    interest in the AM field and specifically in SLS applications, since it has a wider sintering window (\ref{Powder_requirements}) than other polyhydroxyalkanoates
+    Poly(3-hydroxybutirate-\textit{co}-3-hydroxyhexanoate) is a copolymer of the PHA family (molecular structure in figure \ref{fig:PHBH_structure}), which gained 
+    interest in the AM field and specifically in SLS applications, since it has a wider sintering window \ref{Powder_requirements} than other polyhydroxyalkanoates
     such as PHB and PHBV \autocites{DechetMaximilianA2020OtDo}{doi:10.1063/1.4918516}. \\ 
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.8\textwidth]{Pictures/PHBH_chain.eps}
+        \caption{Schematic representation of the PHBH polymer structure \autocites{PHBH,Inkscape}.}
+        \label{fig:PHBH_structure}
+    \end{figure}
     
     Despite having gained attention in the PHA family for SLS, especially in academic environments, the general interest for this copolymer
     is still relatively lower than other 
     petrochemical polymers, due to its early-stage synthesis process, its cost and the strict confidentiality 
     of polymer manufacturers \autocite{Eraslan_PHBH_review}.  
 
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=0.8\textwidth]{Pictures/PHBH_chain.eps}
-        \caption{Schematic representation of the PHBH polymer structure \autocites{PHBH,Inkscape}.}
-        \label{PHBH_structure}
-    \end{figure}
     
     \clearpage
 
-    \section{PBS (Polybutylene Succinate) \label{PBS_in_general}}
-
-    PBS is an eco-friendly biopolymer, which rose interest among 
-    industrial and academic environments. It possesses excellent properties and major benefits over comparable materials, as well as some minor drawbacks, 
-    which currently hold back its full potential. \\ 
-    
-    While generally brittle, relatively expensive and still challenging to manufacture in SLS-ready powders without compromises on its environmenal 
-    impact (see \ref{Environmental_impact}), this polymer has very desirable features, such as high processability 
-    (with traditional methods, at least), flexibility, as well as visual clarity and specularity. 
-
-    It is also thermally stable and its melting point is around $115 \ \celsius $, which can make its processing, generally speaking, 
-    less energy wasting, especially when mass production is taken into account. 
-
-    PBS is also easy to blend with other materials; for instance, 
-    its mechanical and thermal properties can be drastically improved when used in composite materials, where long or short fibers (or 
-    even particles) can be either randomly distributed, or woven into the polymer matrix.
-    
-    Not only are fibers used for producing high tech composite materials with improved properties, but cheap natural fibers, such as 
-    palm fibers, or even blends with starches, can be utilized as an effective way to cut down cost in 
-    conventional applications, i.e. food packaging \autocite{Rafiqah_Khalina_PBS_review}.
-    
-    
-
-
-    \clearpage
-
-    \section{PBAT (Polybutylene Adipate Terephtalate) \label{PBAT_in_general}}
-
-    PBAT is one of the most promising biopolymers in the sustainable plastics market, since it is very eco-friendly and, at the same time, 
-    more performant than comparable alternatives such as PHAs, which exhibit poor mechanical and thermal properties, whereas PBAT is closer to 
-    higher performance petrochemical polymers such as polyethylene terephtalate (PET) and polybutylene terephtalate (PBT) 
-    \autocites*{Jian_PBAT_overview}. \\
-
-    Currently used mainly in food packaging and agriculture, similarly to PBS \ref{PBS_in_general}, PBAT can be blended with other materials, either 
-    for technical enhancing or cost reduction.  
-
-    The considerations made for PHAs and SLS \ref{PHA_in_Additive} should be applicable to both PBS and PBAT, but further experiments need to 
-    be conducted and more reliable data needs to be acquired, although different studies are already showing promising results.  
-
-    \clearpage
+    %\section{PBS (Polybutylene Succinate) \label{PBS_in_general}}
+%
+    %PBS is an eco-friendly biopolymer, which rose interest among 
+    %industrial and academic environments. It possesses excellent properties and major benefits over comparable materials, as well as some minor drawbacks, 
+    %which currently hold back its full potential. \\ 
+    %
+    %While generally brittle, relatively expensive and still challenging to manufacture in SLS-ready powders without compromises on its environmenal 
+    %impact (see \ref{Environmental_impact}), this polymer has very desirable features, such as high processability 
+    %(with traditional methods, at least), flexibility, as well as visual clarity and specularity. 
+%
+    %It is also thermally stable and its melting point is around $115 \ \celsius $, which can make its processing, generally speaking, 
+    %less energy wasting, especially when mass production is taken into account. 
+%
+    %PBS is also easy to blend with other materials; for instance, 
+    %its mechanical and thermal properties can be drastically improved when used in composite materials, where long or short fibers (or 
+    %even particles) can be either randomly distributed, or woven into the polymer matrix.
+    %
+    %Not only are fibers used for producing high tech composite materials with improved properties, but cheap natural fibers, such as 
+    %palm fibers, or even blends with starches, can be utilized as an effective way to cut down cost in 
+    %conventional applications, i.e. food packaging \autocite{Rafiqah_Khalina_PBS_review}.
+    %
+    %
+%
+%
+    %\clearpage
+%
+    %\section{PBAT (Polybutylene Adipate Terephtalate) \label{PBAT_in_general}}
+%
+    %PBAT is one of the most promising bio-based polymers in the sustainable plastics market, since it is very eco-friendly and, at the same time, 
+    %more performant than comparable alternatives such as PHAs, which exhibit poor mechanical and thermal properties, whereas PBAT is closer to 
+    %higher performance petrochemical polymers such as polyethylene terephtalate (PET) and polybutylene terephtalate (PBT) 
+    %\autocites*{Jian_PBAT_overview}. \\
+%
+    %Currently used mainly in food packaging and agriculture, similarly to PBS \ref{PBS_in_general}, PBAT can be blended with other materials, either 
+    %for technical enhancing or cost reduction.  
+%
+    %The considerations made for PHAs and SLS \ref{PHA_in_Additive} should be applicable to both PBS and PBAT, but further experiments need to 
+    %be conducted and more reliable data needs to be acquired, although different studies are already showing promising results.  
+%
+    %\clearpage
 
     \section{Powder production for SLS \label{Powder_production}}
 
-    Manufacturing raw materials for FDM is a relatively easy process, since the plastics need to be mass produced into filaments or pellets \ref{FDM_general}.
+    Manufacturing raw materials for FDM is a relatively easy process, since the plastics need to be mass produced into filaments or pellets.
 
-    Producing powders from plastics is a much harder process. \\ 
+    However, producing powders from plastics is a much more convoluted process \autocites{doi:10.1063/1.4918516,Dechet_Schmidt_thermal_rounding,Recent_progress_polymers_AM}. \\ 
 
     Two radically different approaches are possible, each with its own critical issues: 
 
@@ -468,25 +469,24 @@
 
     The average particle size directly influences the layer thickness in the SLS process.  
     
-    Particle morphology is crucial in the sintering mechanism, where regular, smooth and non-hollow spherical 
-    geometries are preferrable \autocite*{doi:10.1063/1.4918516}.  
+    Powder morphology is crucial in the sintering mechanism, where regular, smooth and non-hollow spherical 
+    particles are preferrable in order to effectively obtain sintering necks, as illustrated by figure \ref{fig:SLS_sintering_neck} \autocite*{doi:10.1063/1.4918516}.  
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.5\textwidth]{Pictures/sintering_neck.eps}\\
+        \includegraphics[width=0.45\textwidth]{Pictures/sintering_neck.eps}\\
         \caption{Two spherical powder particles forming a sintering neck \autocite{Inkscape}} 
         \label{fig:SLS_sintering_neck}
     \end{figure}
 
     The powder's density is another parameter that should be considered, as it directly correlates with the final part's 
-    global density and it allows calculation of the Hausner ratio $H_r$, which is a direct predictor of powder flowability. 
+    global density and it allows calculation of the Hausner ratio $H_r$ (as seen in equation \ref{eq:Hausner_ratio}), which is a direct predictor of powder flowability. 
     
     Ideally, this coefficient should be lower than 1.4, otherwise the powder could result in issues with fluidization \autocite*{doi:10.1063/1.4918516}. 
 
     \begin{equation}
-        \phantomsection
-        \label{eq:Hausner_ratio}
         H_r = \frac{\rho_{tap}}{\rho_{bulk}}
+        \label{eq:Hausner_ratio}
     \end{equation} 
 
     where $\rho_{tap}$ is the tap density and $\rho_{bulk}$ is the bulk density of the powder. 
@@ -511,7 +511,7 @@
     laser wavelength) can waste most of the energy input, instead of absorbing a significant amount of radiation needed to 
     effectively melt the powder \autocite{doi:10.1063/1.4918516}.  
 
-    This issue is prevalent in metal SLM \ref{SLS_general}, especially with aluminum. 
+    This issue is prevalent in metal SLM \ref{SLS_general} \autocites{Latvian_additive}. 
     
     However, when it comes to SLS and plastics powders, the required energy is substantially lower than that needed to melt metal alloys, 
     meaning that any potential problem with poor radiation absorbtion can be compensated by increasing the 
@@ -571,7 +571,7 @@
     which quantifies the interaction between the polymer and the solvent, in correlation with the dispersion $(\delta_d)$, 
     the polar interactions $(\delta_p)$ and the hydrogen bond interactions $(\delta_h)$ \autocite*{DechetMaximilianA2020OtDo}. 
 
-    Once the polymer-solvent system is tested, the experimental data can be effectively represented in the TEAS plot, which 
+    Once the polymer-solvent system is tested, the experimental data can be effectively represented in the TEAS plot (as shown in figure \ref{fig:TEAS_plot}), which 
     helps visualizing the equation (\ref{eq:hansen_parameters}). 
 
     \begin{figure}[h!]
@@ -582,10 +582,8 @@
     \end{figure}
 
 
-    This approach has been successfully used to determine solubility of polypropylene (PP), polyethylene terephtalate (PET), 
-    polycarbonate (PC), etc, and could be effectively utilized with the target biopolymers, polybutylene succinate (PBS)
-    (\ref{PBS_in_general}), 
-    polybutilene adipate terephtalate (PBAT) (\ref{PBAT_in_general}) and with polyhydroxyalkanoates (PHA) such as PHBH (\ref{PHA_in_general}).
+    This approach has been successfully used to determine solubility of PP (\textit{polypropylene}), PET (\textit{polyethylene terephthalate}), 
+    PC (\textit{polycarbonate}), etc, and could be effectively utilized with bio-based polymers such as PHBH \ref{PHA_in_general}.
     
     
 
@@ -604,12 +602,12 @@
     Temperature profile, initial polymer concentration and, most importantly, stirring conditions can greatly influence the final 
     particle size distribution. 
     
-    Stirring is the most impactful of these factors, producing smaller particles as the intensity increases. 
+    Stirring is the most impactful of these factors, producing smaller particles as the intensity increases \autocites{DechetMaximilianA2020OtDo}, as reported in figure \ref{fig:stirring_rpm}. 
 
     \begin{figure}[h!]
         \centering
         \includegraphics[width=0.5\textwidth]{Pictures/particle_size_stirring.eps}
-        \caption{Particle size decreases as stirring RPM increase \autocites{DechetMaximilianA2020OtDo}{Inkscape}}
+        \caption{Particle size decreases as stirring RPM increase \autocites{Inkscape}}
         \label{fig:stirring_rpm}
     \end{figure}
 
@@ -624,7 +622,7 @@
     controllable powder feedstock, it is worth noting that organic solvents are intrinsically environmentally impactful and that should be taken 
     into account, especially for large scale production of these powders. 
 
-    The entire purpose of utilizing sustainable biopolymers in the first place might be rendered pointless, if their powder production 
+    The entire purpose of utilizing sustainable bio-based polymers in the first place might be rendered pointless, if their powder production 
     utilizes compounds or processes that are not environmentally friendly. \\ 
 
     Better innovative solutions (or mitigations of the mentioned issues in the current pipelines) need to be implemented in the near future. \\ 
@@ -640,63 +638,62 @@
 
     \clearpage
 
-    \section{Laboratory environmental conditions and available equipment\label{Lab_condition_equipment}}
-
-    The experimental phase of this case study has been conducted in various laboratories at \textit{DISAT@PoliTo}. \\ 
-
-    The main production process (\ref{Choice_material_process}) has been studied and optimized in 
-    a dedicated lab, then the residual moisture of each - cleaned and 
-    unsieved - batch of powder has been removed by oven drying (\ref{Choice_material_process}).
-
-    Several powder samples, collected at different phases of the optimization process, have been analyzed 
-    with a \textit{SEM} (Scanning Electron Microscope) at a third party 
-    facility (\ref{SEM_analysis}), and subjected to 
-    a \textit{TGA} (\ref{TGA_Analysis}) and a \textit{DSC} (\ref{DSC_analysis}) 
-    at the \textit{Thermal Analysis} lab of the same department. \\ 
-    
-    The laboratories are equipped with a large workbench and are stocked with all sorts of useful tools and equipment, especially flasks,
-    beakers and glassware 
-    in general, as well as a chemical hood, which is essential for a safe use of chloroform 
-    (\ref{Initial_recipe}, \ref{detailed_reaction}). \\ 
-
-    The extremely high summer temperatures and humidity were environment conditions that had to be taken into account, 
-    especially when working with chloroform, which is a highly volatile compound. \\
-
-    These potential issues have been addressed as later explained in detail, with adaptations and better choices among the available pieces of
-    equipment (\ref{recipe_improvement}, \ref{faulty_equipment}), as well as tweaking of the precipitation 
-    reaction, which in turn increased the pellet-to-powder yield by over ten-fold, compared to the initial 
-    results (\ref{initial_failures}).
+    %\section{Laboratory environmental conditions and available equipment\label{Lab_condition_equipment}}
+%
+    %The experimental phase of this case study has been conducted in various laboratories at \textit{DISAT@PoliTo}. \\ 
+%
+    %The main production process (\ref{Choice_material_process}) has been studied and optimized in 
+    %a dedicated lab, then the residual moisture of each - cleaned and 
+    %unsieved - batch of powder has been removed by oven drying (\ref{Choice_material_process}).
+%
+    %Several powder samples, collected at different phases of the optimization process, have been analyzed 
+    %with a \textit{SEM} (Scanning Electron Microscope) at a third party 
+    %facility (\ref{SEM_analysis}), and subjected to 
+    %a \textit{TGA} (\ref{TGA_Analysis}) and a \textit{DSC} (\ref{DSC_analysis}) 
+    %at the \textit{Thermal Analysis} lab of the same department. \\ 
+    %
+    %The laboratories are equipped with a large workbench and are stocked with all sorts of useful tools and equipment, especially flasks,
+    %beakers and glassware 
+    %in general, as well as a chemical hood, which is essential for a safe use of chloroform 
+    %(\ref{Initial_recipe}, \ref{detailed_reaction}). \\ 
+%
+    %The extremely high summer temperatures and humidity were environment conditions that had to be taken into account, 
+    %especially when working with chloroform, which is a highly volatile compound. \\
+%
+    %These potential issues have been addressed as later explained in detail, with adaptations and better choices among the available pieces of
+    %equipment (\ref{recipe_improvement}, \ref{faulty_equipment}), as well as tweaking of the precipitation 
+    %reaction, which in turn increased the pellet-to-powder yield by over ten-fold, compared to the initial 
+    %results (\ref{initial_failures}).
 
 
 
     \clearpage
     \section{Choice of material and production process\label{Choice_material_process}}
 
-    As seen in previous chapters, samples of PHBH (\ref{PHBH}), PBAT (\ref{PBAT_in_general}) and 
-    PBS (\ref{PBS_in_general}) were available for this experimental phase. \\ 
+    As seen in previous chapters \ref{PHBH}, \ref{Powder_production}, this thesis work focused on PHBH, mainly for its wider sintering window, among all PHAs. \\ 
 
-    An early stage precipitation reaction had already been developed for PHBH, by other researchers at \textit{Disat@PoliTo}. 
-    This initial recipe (\ref{Initial_recipe}) has been tested out with the other biopolymers as well, but PHBH held the most promising 
+    An early stage precipitation reaction had already been developed for PHBH, by other teams involved in the research. 
+    This initial recipe has been tested out with the other bio-based polymers as well, but PHBH held the most promising 
     results even in its early stages. \\ 
 
-    Other approaches such as cryogenic milling (\ref{Mechanical_milling}) have been briefly tried, but quickly 
+    Other approaches such as cryogenic milling \ref{Mechanical_milling} have been taken into consideration, but quickly 
     discarded, due to the lack of equipment suitable for thermal rounding treatments. 
 
-    The grinding procedure, aided by liquid nitrogen, proved to be successful at producing fine powders. 
+    The grinding procedure, aided by liquid nitrogen, proved to be successful at producing fine powders, according to the literature \autocites{Dechet_Schmidt_thermal_rounding}. 
 
     However, unless a thermal rounding treatment is applied, the powder 
     morphology is too irregular and far from the ideal spherical geometry, thus making the 
     obtained batches unsuitable for 3D printing. \\  
 
-    All of the mentioned points led to choosing PHBH for this case study, focusing on the optimization of 
+    All of the mentioned points led to definitely choosing PHBH for this thesis work, focusing on the optimization of 
     the available blueprint for a suitable chemical 
-    precipitation process (\ref{Initial_recipe}, \ref{detailed_reaction}, \ref{recipe_improvement}). 
+    precipitation process, as explained in the following chapters \ref{Initial_recipe}, \ref{detailed_reaction}, \ref{recipe_improvement}. 
 
     \clearpage
     \section{Initial chemical precipitation recipe for PHBH\label{Initial_recipe}}
     
-    Researchers at \textit{DISAT@PoliTo} started developing a prototype for a chemical precipitation reaction, 
-    derived from experiments on solute-solvent compatibility (\ref{fig:TEAS_plot}), 
+    As mentioned earlier, a prototype for a chemical precipitation reaction had already been developed, 
+    derived from experiments on solute-solvent compatibility \ref{fig:TEAS_plot}, 
     which highlighted a good affinity between PHBH and chloroform. \\ 
 
     Starting from a 4 g batch of PHBH pellets, the highest amount of sieved powder ($ < \ 100 \ \mu m$ )
@@ -713,14 +710,14 @@
     As earlier mentioned, the extremely high summer temperatures dramatically increased the evaporation rate of 
     chloroform, leaving a high viscosity solution that was harder to control during precipitation. \\
 
-    This led to failures and practically insignificant yields (\ref{initial_failures}) if 
+    This led to failures and practically insignificant yields \ref{initial_failures} if 
     the reaction succeeded, when testing the recipe in these conditions.  
 
     After thoroughly studying the process in all its phases and isolating different variables that could have caused the issues, 
     the recipe has been tweaked and adapted to the external conditions, which is later discussed 
-    in detail (\ref{recipe_improvement}, \ref{key_variables}). 
+    in detail \ref{recipe_improvement}, \ref{key_variables}. 
 
-        \subsection{Components\label{Components}}
+        \subsection{Materials\label{Components}}
 
         The ingredients and quantities of the prototype reaction were the following: 
 
@@ -741,39 +738,40 @@
 
         Several failed attempts, changes in equipment and tools, as well as quantities were required in order 
         to understand the most relevant parameters of the entire process. 
-        \subsection{Equipment\label{Equipment}}
-
-        All the essential pieces of equipment and tools for the reaction are listed here: 
-
-            \begin{itemize}
-                \item Clean flasks and glassware for volumetric measurements, waste containment and disposal, etc
-                \item A high precision weight scale 
-                \item A magnetic stirrer and heater 
-                \item Appropriately sized stir bars \footnotemark 
-                    \footnotetext{An inadequate stir bar size, in comparison to the stirring container, can 
-                    be unstable and stop stirring or create undesired foams and splashes}
-                \item Appropriately sized beakers for the PHBH-chloroform and the PVA solution \footnotemark 
-                    \footnotetext{An adequately sized and shaped container is required for the same reason}
-                \item A flow controllable dripper 
-                \item A chemical hood \footnotemark
-                    \footnotetext{A chemical hood is generally required to safely operate with chemicals that produce 
-                    vapours or fumes. Chloroform evaporates extremely quickly and is mildly toxic. Suddenly inhaling 
-                    a large amount can cause a human to lose consciousness}
-                \item Distilled water for powder and tool cleaning 
-                \item A vacuum ejector 
-                \item A fritted glass filter or a paper filter \footnotemark
-                    \footnotetext{A porous filter combined with a vacuum ejector is preferred, as it 
-                    exponentially decreases powder filtering and cleaning time} 
-                \item An oven or dehydrator
-                \item A sieve \footnotemark
-                    \footnotetext{A ($ < \ 100 \ \mu m$ ) sieve was available, but smaller 
-                    sizes ($20\div 80 \ \mu m$) could be required}
-                \item Sealed test tubes or any other container suitable for fine powders storage \footnotemark
-                    \footnotetext{Electrostatic attraction to different materials can cause significant powder losses over time}
-            \end{itemize}
-
-
         \clearpage
+        %\subsection{Equipment\label{Equipment}}
+%
+        %All the essential pieces of equipment and tools for the reaction are listed here: 
+%
+        %    \begin{itemize}
+        %        \item Clean flasks and glassware for volumetric measurements, waste containment and disposal, etc
+        %        \item A high precision weight scale 
+        %        \item A magnetic stirrer and heater 
+        %        \item Appropriately sized stir bars \footnotemark 
+        %            \footnotetext{An inadequate stir bar size, in comparison to the stirring container, can 
+        %            be unstable and stop stirring or create undesired foams and splashes}
+        %        \item Appropriately sized beakers for the PHBH-chloroform and the PVA solution \footnotemark 
+        %            \footnotetext{An adequately sized and shaped container is required for the same reason}
+        %        \item A flow controllable dripper 
+        %        \item A chemical hood \footnotemark
+        %            \footnotetext{A chemical hood is generally required to safely operate with chemicals that produce 
+        %            vapours or fumes. Chloroform evaporates extremely quickly and is mildly toxic. Suddenly inhaling 
+        %            a large amount can cause a human to lose consciousness}
+        %        \item Distilled water for powder and tool cleaning 
+        %        \item A vacuum ejector 
+        %        \item A fritted glass filter or a paper filter \footnotemark
+        %            \footnotetext{A porous filter combined with a vacuum ejector is preferred, as it 
+        %            exponentially decreases powder filtering and cleaning time} 
+        %        \item An oven or dehydrator
+        %        \item A sieve \footnotemark
+        %            \footnotetext{A ($ < \ 100 \ \mu m$ ) sieve was available, but smaller 
+        %            sizes ($20\div 80 \ \mu m$) could be required}
+        %        \item Sealed test tubes or any other container suitable for fine powders storage \footnotemark
+        %            \footnotetext{Electrostatic attraction to different materials can cause significant powder losses over time}
+        %    \end{itemize}
+%
+%
+        %\clearpage
 
 
 
@@ -784,20 +782,20 @@
             \begin{figure}[h!]
                 \centering
                 \includegraphics[width=\textwidth]{Pictures/process_diagram.eps}
-                \caption{Process diagram \autocite{Inkscape}}
+                \caption{Process diagram describing the entire powder production pipeline \autocite{Inkscape}}
                 \label{fig:process_diagram}
             \end{figure}
 
         \clearpage
 
-        PHBH pellets (4 g) need to be dissolved into 55 ml of chloroform, in order to create a viscous liquid that will later be slowly dripped into a 
-        $0.25 \ \%$ PVA solution, where the precipitation occurs for a duration of 7.5 hours, at 700 rpms. \\ 
+        PHBH pellets (4 g) were dissolved into 55 ml of chloroform, in order to create a viscous liquid that has later been slowly dripped into a 
+        $0.25 \ \%$ PVA solution, where the precipitation phenomenon occurred for a duration of 7.5 hours, at 700 rpms. \\ 
 
-        Depending on the recipient used to contain the viscous solution, the stir bar should be appropriately sized and 
-        the stirring speed should be adjusted accordingly, in order to minimize evaporation and avoid the formation of foams and 
-        splashes of chloroform. \\ 
+        %Depending on the recipient used to contain the viscous solution, the stir bar should be appropriately sized and 
+        %the stirring speed should be adjusted accordingly, in order to minimize evaporation and avoid the formation of foams and 
+        %splashes of chloroform. \\ 
         
-        Way too low speeds will in fact result in a long stirring time and excessive evaporation of chloroform, which leads to 
+        It is important to highlight that way too low speeds can result in a long stirring time and excessive evaporation of chloroform, which leads to 
         higher viscosity and issues with the formation of fine powders during precipitation, as previously discussed. \\ 
 
         On the other hand, splashes and foaming can occur at excessively high stirring speeds, causing loss of liquid, or
@@ -812,29 +810,29 @@
         It is best practice to slowly drop PHBH pellets into cloroform while already being stirred, instead of pouring 
         the solvent onto the granules, in order to avoid the aforementioned issues. \\ 
 
-        Once the solution is ready, it can be poured into the flow controlled dripper. 
+        %Once the solution is ready, it can be poured into the flow controlled dripper. 
+%
+        %The flow rate can be controlled through a manual valve and should be adjusted periodically, as the column of fluid diminishes 
+        %in height with time, reducing the total weight that pushes more fluid down the thin channel. 
+%
+        %The solution can dry and create a plastic film all around the dripper's walls, reducing the cross section of the last thin 
+        %trait over time. Flow rate should be manually adjusted to compensate this issue as well. \\ 
+%
+        %Ideally, the chloroform solution should flow in a fast paced but drop-by-drop fashion. 
+%
+        %The flux valve can be extremely sensitive and hard to control manually, so occasional large bursts of fluid can suddenly 
+        %end up in the PVA solution. 
+%
+        %However, as long as this phenomenon does not occur too frequently and is dealt with in a timely manner by closing the valve and slowly 
+        %readjusting the flow, it does not seem to affect the precipitation process in a significant way (\ref{key_variables}). \\ 
+%
+        %The 400 ml of $0.25 \ \%$ PVA solution should be ready in advance and already set at the proper stirring speed, before 
+        %the dripping process begins. \\ 
+%
+        %The percentage of PVA is extremely low and it is best practice to prepare a higher concentration solution, in large batches,  
+        %that can be further diluted and utilized when needed. \\
 
-        The flow rate can be controlled through a manual valve and should be adjusted periodically, as the column of fluid diminishes 
-        in height with time, reducing the total weight that pushes more fluid down the thin channel. 
-
-        The solution can dry and create a plastic film all around the dripper's walls, reducing the cross section of the last thin 
-        trait over time. Flow rate should be manually adjusted to compensate this issue as well. \\ 
-
-        Ideally, the chloroform solution should flow in a fast paced but drop-by-drop fashion. 
-
-        The flux valve can be extremely sensitive and hard to control manually, so occasional large bursts of fluid can suddenly 
-        end up in the PVA solution. 
-
-        However, as long as this phenomenon does not occur too frequently and is dealt with in a timely manner by closing the valve and slowly 
-        readjusting the flow, it does not seem to affect the precipitation process in a significant way (\ref{key_variables}). \\ 
-
-        The 400 ml of $0.25 \ \%$ PVA solution should be ready in advance and already set at the proper stirring speed, before 
-        the dripping process begins. \\ 
-
-        The percentage of PVA is extremely low and it is best practice to prepare a higher concentration solution, in large batches,  
-        that can be further diluted and utilized when needed. \\
-
-        Batches of 1 kg PVA solution ($1 \ \%$ by weight) were prepared and stored in a refrigerator. 
+        %Batches of PVA solution ($1 \ \%$ by weight) were prepared and stored in a refrigerator. 
 
 
                 \begin{figure}[h!]
@@ -909,39 +907,38 @@
 
 
 
-        \subsection{Initial results and failures\label{initial_failures}}
+        \subsection{Initial results and potential issues\label{initial_failures}}
 
         As mentioned in previous chapters, many failed attempts led to a deeper understanding of the entire process 
         and the proper choice of equipment, tools and tweaking of the initial recipe. \\ 
 
-        The most prominent issue were the environmental variables. With temperatures constantly exceeding 
-        $30 \ ^{\circ}C$, the 55 ml of chloroform, initially used by previous researchers during winter, evaporated too 
+        The most prominent issue was figuring out the importance of the environmental variables. With higher temperatures, the initially planned amount of chloroform evaporated too 
         quickly while PHBH pellets were being dissolved. 
 
         The obtained liquid was extremely viscous and hard to drip effectively into the PVA solution. Drippers were constantly clogged
-        and flow control via manual valves was unpredictable, to say the least. 
+        and, as a result, flow control was unpredictable. 
         
         A thick plastic film covered the internal walls of the drippers and the beakers where PHBH had been dissolved, which 
         introduced the very first significant material waste point in the pipeline. 
 
-        Moreover, despite being impossible to avoid in general, the excessive thickness of this film that formed in the first batches 
-        severely hindered the cleaning and maintenance of the utilized glassware, which occasionally needed to be cleaned with chloroform 
-        or other solvents. \\ 
+        %Moreover, despite being impossible to avoid in general, the excessive thickness of this film that formed in the first batches 
+        %severely hindered the cleaning and maintenance of the utilized glassware, which occasionally needed to be cleaned with chloroform 
+        %or other solvents. \\ 
 
-        Despite being able to save most initial batches, the final yield was insignificant, going as low as 0.1 g of powder 
+        Despite being able to save most initial batches, the final yield was initially insignificant, going as low as 0.1 g of powder 
         per 4 g of raw material. \\ 
         
-        Another factor that severely reduced production rate was the frequent clogging of fritted glass filters. 
-        
-        The undissolved PVA flakes in the first defective batches (\ref{detailed_reaction}) created a dense foam, which either obstructed 
-        the pores of the filter or slowed the filtration time by orders of magnitude. 
+        %Another factor that severely reduced production rate was the frequent clogging of fritted glass filters. 
+        %
+        %The undissolved PVA flakes in the first defective batches \ref{detailed_reaction} created a dense foam, which either obstructed 
+        %the pores of the filter or slowed the filtration time by orders of magnitude. 
+%
+        %The clogged filters required to be regenerated with chloroform and rinsed with isopropyl alcohol, in order to regain full 
+        %functionality. 
 
-        The clogged filters required to be regenerated with chloroform and rinsed with isopropyl alcohol, in order to regain full 
-        functionality. 
-
-        In addition to this, some of the filters initially used had already been exploited by other research teams, operating 
-        with metal fines and other materials, which might have contributed to some of the impurities and alien particles detected 
-        by SEM analysis in the earliest samples (\ref{SEM_analysis}). \\ 
+        %In addition to this, some of the filters initially used had already been exploited by other research teams, operating 
+        %with metal fines and other materials, which might have contributed to some of the impurities and alien particles detected 
+        %by SEM analysis in the earliest samples (\ref{SEM_analysis}). \\ 
 
 
 
@@ -950,9 +947,8 @@
 
     \section{Recipe tweaking and improvements\label{recipe_improvement}}
 
-    All of the aforementioned failed attempts (\ref{initial_failures}) led to an optimization process that originally aimed at 
-    matching the $30 \ \%$ yield (\ref{Initial_recipe}) obtained by previous researchers (who provided 
-    the prototype recipe but worked in different environmental conditions), but later far exceeded the 
+    All of the aforementioned attempts (as seen in section \ref{initial_failures}) led to an optimization process that originally aimed at 
+    matching the $30 \ \%$ yield obtained by previous researchers, but later far exceeded the 
     initial expectations, improving upon the available blueprint procedure by a wide margin. 
 
 
@@ -972,7 +968,7 @@
         It has been pointed out several times that the external temperature is one of the most 
         (if not the absolute most) influential parameter of the entire process, given the fast evaporation pace of chloroform, 
         or organic solvents in general, should the reaction be re-engineered with a less impactful solvent, like the moderate 
-        solvents often mentioned in the scientific literature (\ref{Chemical precipitation}).  
+        solvents often mentioned in the scientific literature (as mentioned in chapter \ref{Chemical precipitation}) \autocites{Padovano_SLS_Review}.  
 
         For all the issues discussed in previous chapters, an increase in external temperature correlates with an increase in 
         chloroform use. Starting from the initial 55 ml per 4 g of PHBH pellets, extra chloroform has been added 
@@ -981,16 +977,16 @@
  
         The maximum useful amount of chloroform (per 4 g of PHBH pellets) would be around $65 \div 70 \ ml$. 
 
-        This range consistently produced the highest yield (\ref{promising_results}) and not only did further chloroform use stall the 
+        This range consistently produced the highest yield (as discussed in \ref{promising_results}) and not only did further chloroform use stall the 
         results, but it proved to be detrimental over a certain threshold ($ > \ 75 \ ml$), as insufficient 
         viscosity would prevent an accurate flow control during the dripping phase. \\ 
 
-        All these adjustments in chloroform quantity are only a consequence of uncontrolled operational temperatures. A 10 ml 
+        All these adjustments in chloroform quantity are directly correlated with operational temperatures. A 10 ml 
         increase in chloroform use might seem insignificant at a lab scale, but this would translate to significant waste, 
-        should the process be scaled to an industrial level (\ref{consistent_reproducibility}). 
+        should the process be scaled to an industrial level, assuming that no solvent retrieval system is available. 
 
-        This consideration ties with the environmental sustainability issue (\ref{Environmental_impact}), since organic solvents are 
-        inherently impactful and unnecessary waste should not be promoted, especially when sustainable biopolymers such as PHBH are involved. 
+        %This consideration ties with the environmental sustainability issue \ref{Environmental_impact}, since organic solvents are 
+        %inherently impactful and unnecessary waste should not be promoted, especially when sustainable bio-based polymers such as PHBH are involved. 
 
         Overall, the key parameter that actually matters is viscosity: very low temperatures can minimize chloroform evaporation, 
         but directly increase density and thus viscosity; on the other hand, liquids at higher temperatures should be inherently 
@@ -1000,25 +996,24 @@
         The process should be tailored to obtain a PHBH-chlofororm solution with the ideal viscosity, that allows a perfect dripping 
         phase, while producing the highest pellet-to-powder yield. 
 
-        However, future experiments should focus on achieving this goal with the lowest amount of chloroform possible, which requires 
-        being able to control operational temperature. \\ 
+        %However, future experiments should focus on achieving this goal with the lowest amount of chloroform possible, which requires 
+        %being able to control operational temperature. \\ 
 
         By contrast, other variables like dripping flow (as previously discussed a drop by drop fashion is ideal but occasional 
-        flow distruptions do not seem to have a great influence (\ref{detailed_reaction})), or a very precise measure in 
+        flow distruptions do not seem to have a great influence \ref{detailed_reaction}), or a very precise measure in 
         PVA concentration are not as important for the success of the precipitation process. 
 
         With a PVA concentration as low as $0.25 \ \%$ and successful reactions even with defective
         solution batches, it is plausible that the precipitation process could be accomplished by 
         substituting PVA with other alcohols such as isopropanol or ethanol or even by simply using distilled water \footnotemark.
         
-            \footnotetext{These substitutions would immensely simplify the production of the precipitation solution for the previously 
-            discussed issues of dissolving PVA (\ref{detailed_reaction}), but no experiments have been conducted yet} 
+            \footnotetext{These substitutions could potentially simplify the pipeline, but no experiments have been conducted yet} 
 
         Assuming the adjustment of viscosity and the optimization of the dripping phase have been dealt with, 
-        another relevant parameter is the stirring speed of the PVA solution (\ref{detailed_reaction}). 
+        another relevant parameter is the stirring speed of the PVA solution \ref{detailed_reaction}. 
 
         The experiments conducted during this case study confirm what has been found in the scientific literature: 
-        an increase in stirring speed directly correlates to a decrease in average powder particle size (\ref{fig:stirring_rpm}). 
+        an increase in stirring speed directly correlates to a decrease in average powder particle size, as reminded by figure \ref{fig:stirring_rpm}. 
 
         However, this correlation is generally measured in terms of RPM, which is an active control of any magnetic stirrer and 
         a good indication of the average rotational speed of the stirred fluid, assuming that the device is properly functioning
@@ -1036,7 +1031,7 @@
         Despite perfectly measuring all the quantities and mirroring equipment use for both batches, the magnetic stirrers'
         reported RPM did not match the uneven velocities (even though the utilized models were exactly the same). 
 
-        This aspect is later discussed in further detail (\ref{faulty_equipment}). \\ 
+        This aspect is later discussed in further detail \ref{faulty_equipment}. \\ 
 
         Once this issue has been partially solved with some workarounds, increasing RPM has proven to be an effective 
         strategy to increase final yield: powders were effectively produced at the initially planned 700 RPM, however 
@@ -1059,7 +1054,7 @@
         a stirring motion did not allow for the precipitation process to occur. 
 
         The defective stirrer was replaced, however, a huge discrepancy 
-        in stirring speeds was noticeable, as briefly mentioned in the previous chapter (\ref{key_variables}). 
+        in stirring speeds was noticeable, as briefly mentioned in chapter \ref{key_variables}. 
 
         In spite of the fact that both solutions were prepared identically and the beakers and stirring rods used 
         were exactly the same, one of the stirrers would visibly show a much lower speed at the same RPM value. 
@@ -1080,7 +1075,7 @@
         be capable of producing even greater yields, once it is scaled for industrial production, where each step is standardized 
         and custom equipment tailored to specific tasks. 
 
-        \subsection{Current results\label{promising_results}}
+        \subsection{Current results in the powder production pipeline \label{promising_results}}
 
         Compared to the earliest batches, even the experiments conducted by previous researchers held substantially better 
         results, with maximum yields of $30 \ \%$. \\ 
@@ -1102,12 +1097,11 @@
 %            \label{fig:dried_powder}
 %        \end{figure}
 %
-        \clearpage
 
-        \subsection{Consistent reproducibility and scalability\label{consistent_reproducibility}}
+        \subsubsection{Consistent reproducibility and scalability\label{consistent_reproducibility}}
 
         Not only has the total yield been improved, but the process has been stabilized and better understood in all of its 
-        peculiarities (\ref{key_variables}). 
+        peculiarities, as already explained in chapter \ref{key_variables}. 
 
         Until all the optimization work had been accomplished, the process held inconsistent results, with powder quantities drastically 
         varying from insignificant to mediocre yields. \\ 
@@ -1125,36 +1119,37 @@
     \section{Powder granulometry and morphology\label{powder_granulometry_morphology}} 
 
     While obtaining some form of powder with the precipitation process was somewhat expected, all the work would be 
-    pointless if the criteria discussed at the beginning of this research (\ref{Powder_requirements}) were not met. \\ 
+    pointless if the criteria discussed at the beginning of this research were not met, as highlighted in \ref{Powder_requirements}. \\ 
 
     The powders produced would not be suitable for SLS additive manufacturing, if granulometry (average grain size distribution)
     were not under a certain size threshold and if the morphology of those powders were not close to a non hollow spherical geometry 
     \autocites{Padovano_SLS_Review}. \\
 
-    While proper granulometry is guaranteed by sieving the powders (\ref{sieving}),
-    as later confirmed by particle size distribution investigations (\ref{granulometry_analysis}), adequate morphology can only be 
-    determined by thoroughly inspecting SEM images (\ref{SEM_analysis}). 
-        \subsection{Sieving process\label{sieving}}
+    While an adequate maximum size threshold is guaranteed by sieving the powders,
+    investigations in terms of particle size distribution (as showcased in detail in chapter \ref{granulometry_analysis})
+    are needed in order to evaluate the overall granulometry. 
+    
+    In addition to this, adequate morphology can only be 
+    determined by visual inspection of SEM (\textit{Scanning Electron Microscopy}) images, as explained in chapter \ref{SEM_analysis}. \\
 
-        Sieving is an essential step when selecting SLS suitable powders. \\ 
+    Sieving is an essential step when selecting SLS suitable powders. \\ 
+    A general guideline on SLS powders granulometry is that particles should be smaller than $100 \ \mu m$, with many 
+    sources in the literature reporting an ideal range of $20 \div 80 \ \mu m$ \autocites{Padovano_SLS_Review}. \\ 
 
-        A general guideline on SLS powders granulometry is that particles should be smaller than $100 \ \mu m$, with many 
-        sources in the literature reporting an ideal range of $20 \div 80 \ \mu m$ (\ref{powder_granulometry_morphology}). 
+    The powders obtained during the very first experiments produced a lot of waste during the sieving phase, which was due to their excessive size. 
 
-        The powders obtained during the first experiments produced a lot of waste during the sieving phase, where a 
-        $100 \ \mu m$ sieve has been used to collect suitable samples. 
-
-        With the current optimized process, the powder batches are almost entirely sieved, producing little to no waste during this phase. 
+    However, with the currently optimized process, the powder batches produced little to no waste during sieving, which has been achieved 
+    with a $100 \ \mu m$ sieve. \\
 
     \clearpage
-        \subsection{SEM (Scanning Electron Microscope) analysis\label{SEM_analysis}}
+        \subsection{SEM (Scanning Electron Microscopy) analysis\label{SEM_analysis}}
 
-        \textit{Scanning Electron Microscopes} are widely used detection instruments, which unlike traditional microscopes 
+        Scanning Electron Microscopes are widely used detection instruments, which unlike traditional microscopes 
         do not utilize optical lenses, but reconstruct images generated by the interaction between an electron beam and the targeted 
         sample. \\ 
 
         There are several inspection techniques that could be exploited using different SEMs, however the most suitable for inspecting 
-        fine powder morphology is the image reconstruction through SE (Secondary Electrons) emission. 
+        fine powder morphology is the image reconstruction through SE (\textit{Secondary Electrons}) emission. 
 
         When invested by a high energy electron beam, the inelastic interaction with secondary low energy electrons ($< 50 \ eV$) triggers their emission from the valence bands of the specimen atoms and scatters them. 
 
@@ -1162,14 +1157,15 @@
         for highlighting particle overall shape and surface displacement, to a high degree of detail and precision. \\
 
         SEM images have been produced with multiple specimens, on samples collected during the entire duration of the experimental 
-        activities, which is later discussed in detail (\ref{SEM_analysis_results}). 
+        activities, which is later discussed in detail in section \ref{SEM_analysis_results}. 
 
-        The expected particle morphology should ideally approach that of perfect non hollow sphere, as pictured below. 
+        The expected particle morphology should ideally approach that of perfect non hollow sphere, as pictured in figure \ref{fig:SEM_DALLE2}, generated by \textit{Dall-E 2}'s 
+        text prompt-to-image artificial intelligence algorithm \autocites{DALLE2}{DALLE2_roundparticles}. 
 
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width=\textwidth]{Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png}
-                \caption{"Round particles seen through a SEM microscope" as imagined by Dall-E 2's artificial intelligence algohorithm \autocites{DALLE2}{DALLE2_roundparticles}}
+                \includegraphics[width=0.7\textwidth]{Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png}
+                \caption{Prompt: \textit{"Round particles seen through a SEM microscope"}}
                 \label{fig:SEM_DALLE2}
             \end{figure}
 
@@ -1178,7 +1174,7 @@
 
             As mentioned, samples have been collected throughout the entirety of the experimental activity, which has been characterized by a lot of trial and error, 
             before the entire production pipeline got optimized and 
-            under perfect control (\ref{recipe_improvement}). \\ 
+            under perfect control. \\ 
 
             The experiment has been conducted using a \textit{FIB-SEM, TESCAN S9000G, Tescan} instrument, which is a high resolution 
             scanning electron microscope, equipped with a focused ion beam (FIB) for sample preparation and 
@@ -1653,7 +1649,7 @@
 
     \clearpage
 
-    \section{Density measurement\label{density_measurement}}
+    \section{Density analysis\label{density_measurement}}
 
     The true density of the powder is an important parameter to determine its flowability, which is a key factor in the
     SLS printing process, as better described in (\ref{flowability_analysis}). \\
@@ -1778,7 +1774,7 @@
 
 
     \clearpage
-    \section{SLS printing\label{SLS_printing_experimental}}
+    \section{3D printing\label{SLS_printing_experimental}}
 
     After the powder has been characterized, the next step is to print it with the SLS machine. \\
 
@@ -2166,7 +2162,7 @@
     in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (\ref{fig:DSC_10Cmin}). \\ 
 
     As expected for a polymer of the PHA family, both the storage modulus $E'$ and the loss modulus $E''$ are very low, in line with the 
-    typical viscoelastic behavior of all biopolymers \autocites{Kovalcik_PHA_Review}, which are not suited for structural applications and 
+    typical viscoelastic behavior of all bio-based polymers \autocites{Kovalcik_PHA_Review}, which are not suited for structural applications and 
     are instead used for packaging and other non-structural applications, such as biomedical implants and scaffolds \autocites{Messori_Bondioli_PHAs}. \\
 
     Unsurprisingly, the mechanical properties of the material fall behind those of typical SLS polymers, which can 
@@ -2177,7 +2173,7 @@
     applications. \\ 
 
     Moreover, the mechanical and thermal properties of the material can be improved by adding fillers, creating blends with other 
-    biopolymers or creating composites with other materials. \\ 
+    bio-based polymers or creating composites with other materials. \\ 
 
     Given the successful SLS printability, with unaltered thermal properties among the raw material, the powder and the 
     printed parts (as highlighted by the TGA and DSC analysis results (\ref{TGA_Analysis}, \ref{DSC_analysis})), as well as 
