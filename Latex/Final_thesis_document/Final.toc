@@ -25,21 +25,25 @@
 \contentsline {subsection}{\numberline {7.3}Current results in the powder production pipeline }{29}{subsection.7.3}%
 \contentsline {subsubsection}{\numberline {7.3.1}Consistent reproducibility and scalability}{30}{subsubsection.7.3.1}%
 \contentsline {section}{\numberline {8}Powder granulometry and morphology}{31}{section.8}%
-\contentsline {subsection}{\numberline {8.1}SEM (Scanning Electron Microscopy) analysis}{32}{subsection.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1}Results}{33}{subsubsection.8.1.1}%
-\contentsline {section}{\numberline {9}Thermal analysis}{41}{section.9}%
-\contentsline {subsection}{\numberline {9.1}DSC (Differential Scanning Calorimetry)}{41}{subsection.9.1}%
-\contentsline {subsubsection}{\numberline {9.1.1}Results}{41}{subsubsection.9.1.1}%
-\contentsline {subsection}{\numberline {9.2}TGA (Thermal Gravimetric Analysis)}{47}{subsection.9.2}%
-\contentsline {subsubsection}{\numberline {9.2.1}Results}{47}{subsubsection.9.2.1}%
-\contentsline {section}{\numberline {10}Density analysis}{54}{section.10}%
-\contentsline {section}{\numberline {11}Flowability analysis}{55}{section.11}%
-\contentsline {section}{\numberline {12}Granulometry analysis}{56}{section.12}%
-\contentsline {section}{\numberline {13}3D printing}{59}{section.13}%
-\contentsline {subsection}{\numberline {13.1}Print files preparation}{59}{subsection.13.1}%
-\contentsline {subsubsection}{\numberline {13.1.1}3D model creation}{60}{subsubsection.13.1.1}%
-\contentsline {subsubsection}{\numberline {13.1.2}Slicing}{61}{subsubsection.13.1.2}%
-\contentsline {subsection}{\numberline {13.2}Sharebot Snowhite²}{63}{subsection.13.2}%
-\contentsline {subsection}{\numberline {13.3}Printed samples}{66}{subsection.13.3}%
-\contentsline {section}{\numberline {14}Dynamic Mechanical Analysis}{71}{section.14}%
-\contentsline {section}{\numberline {15}Future development and research}{74}{section.15}%
+\contentsline {section}{\numberline {9}Powder and 3D printed parts characterization}{32}{section.9}%
+\contentsline {subsection}{\numberline {9.1}SEM (Scanning Electron Microscopy) analysis}{33}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Thermal analysis}{36}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}DSC (Differential Scanning Calorimetry)}{36}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}TGA (Thermal Gravimetric Analysis)}{39}{subsubsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.3}Density analysis}{41}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Flowability analysis}{42}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Granulometry analysis}{43}{subsection.9.5}%
+\contentsline {section}{\numberline {10}Particle analyses and thermal analyses results}{44}{section.10}%
+\contentsline {subsection}{\numberline {10.1}SEM Results}{44}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Granulometry Results}{51}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}DSC Results}{54}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}TGA Results}{57}{subsection.10.4}%
+\contentsline {section}{\numberline {11}3D printing}{62}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Print files preparation}{62}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}3D model creation}{63}{subsubsection.11.1.1}%
+\contentsline {subsubsection}{\numberline {11.1.2}Slicing}{64}{subsubsection.11.1.2}%
+\contentsline {subsection}{\numberline {11.2}Sharebot Snowhite²}{66}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Printed samples}{69}{subsection.11.3}%
+\contentsline {section}{\numberline {12}Dynamic Mechanical Analysis}{74}{section.12}%
+\contentsline {section}{\numberline {13}Conclusions}{76}{section.13}%
+\contentsline {section}{\numberline {14}Future development}{77}{section.14}%

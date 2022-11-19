@@ -617,32 +617,6 @@
       \verb https://www.pixelmator.com/pro/
       \endverb
     \endentry
-    \entry{GIMP}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=684ecd1d1aa57cdc1536ecb2ac81b303}{%
-           family={Pagès},
-           familyi={P\bibinitperiod},
-           given={Øyvind\bibnamedelimb Kolås;\bibnamedelima Jehan},
-           giveni={Ø\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=8b880490ac1f48e94c717ffc3f30d4da}{%
-           family={others},
-           familyi={o\bibinitperiod},
-           prefix={many},
-           prefixi={m\bibinitperiod}}}%
-      }
-      \strng{namehash}{9f4993078c173c4e0a27397eb664a84c}
-      \strng{fullhash}{9f4993078c173c4e0a27397eb664a84c}
-      \strng{bibnamehash}{9f4993078c173c4e0a27397eb664a84c}
-      \strng{authorbibnamehash}{9f4993078c173c4e0a27397eb664a84c}
-      \strng{authornamehash}{9f4993078c173c4e0a27397eb664a84c}
-      \strng{authorfullhash}{9f4993078c173c4e0a27397eb664a84c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.gimp.org/}}
-      \field{title}{GNU Image Manipulation Program}
-    \endentry
     \entry{Mettler_Toledo}{website}{}
       \name{author}{1}{}{%
         {{hash=81d74fdfb3d6ed2c6b7266b601a3dd5a}{%
@@ -668,90 +642,6 @@
       \endverb
       \verb{url}
       \verb https://www.mt.com
-      \endverb
-    \endentry
-    \entry{Labplot}{software}{}
-      \name{author}{1}{}{%
-        {{hash=c627cea4b070d10b855f85184f36b0c0}{%
-           family={KDE},
-           familyi={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{c627cea4b070d10b855f85184f36b0c0}
-      \strng{fullhash}{c627cea4b070d10b855f85184f36b0c0}
-      \strng{bibnamehash}{c627cea4b070d10b855f85184f36b0c0}
-      \strng{authorbibnamehash}{c627cea4b070d10b855f85184f36b0c0}
-      \strng{authornamehash}{c627cea4b070d10b855f85184f36b0c0}
-      \strng{authorfullhash}{c627cea4b070d10b855f85184f36b0c0}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Labplot}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://labplot.kde.org
-      \endverb
-      \verb{url}
-      \verb https://labplot.kde.org
-      \endverb
-    \endentry
-    \entry{PHBH_Crystallinity}{article}{}
-      \name{author}{6}{}{%
-        {{hash=734ca4028ce800bd35b63f9a004f9a3e}{%
-           family={Ivorra-Martinez},
-           familyi={I\bibinithyphendelim M\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f87ddc42c90a115a7c5e0df3b0121ec9}{%
-           family={Manuel-Mañogil},
-           familyi={M\bibinithyphendelim M\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=b8d3dffa58f8e6d84e67e622b5cd7649}{%
-           family={Boronat},
-           familyi={B\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=c9c1ff8815b6defe1e3b71b38c5b6634}{%
-           family={Sanchez-Nacher},
-           familyi={S\bibinithyphendelim N\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=87764bd03ec4b140caccca068666c3d7}{%
-           family={Balart},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=276e542de91ee2b177051a9ad52a71ab}{%
-           family={Quiles-Carrillo},
-           familyi={Q\bibinithyphendelim C\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \strng{namehash}{4555a84badf76e4475044d518af7d92d}
-      \strng{fullhash}{9d1e549fecd5c7c5aad25fd9036c1b33}
-      \strng{bibnamehash}{4555a84badf76e4475044d518af7d92d}
-      \strng{authorbibnamehash}{4555a84badf76e4475044d518af7d92d}
-      \strng{authornamehash}{4555a84badf76e4475044d518af7d92d}
-      \strng{authorfullhash}{9d1e549fecd5c7c5aad25fd9036c1b33}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Polymers}
-      \field{note}{Cited By :12}
-      \field{number}{5}
-      \field{title}{Development and characterization of sustainable composites from bacterial polyester poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) and almond shell flour by reactive extrusion with oligomers of lactic acid}
-      \field{volume}{12}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb www.scopus.com
-      \endverb
-      \verb{url}
-      \verb www.scopus.com
       \endverb
     \endentry
     \entry{GruppoMaip}{company}{}
@@ -869,6 +759,143 @@
       \endverb
       \verb{url}
       \verb https://www.malvernpanalytical.com/en/products/product-range/morphologi-range/morphologi-4
+      \endverb
+    \endentry
+    \entry{Octave}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=a789af59278b89f0b2c01d3480e87176}{%
+           family={Eaton},
+           familyi={E\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=8b880490ac1f48e94c717ffc3f30d4da}{%
+           family={others},
+           familyi={o\bibinitperiod},
+           prefix={many},
+           prefixi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{fullhash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{bibnamehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{authorbibnamehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{authornamehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{authorfullhash}{7359b980dbea6a33ece72a88d0f716d2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gnu.org/software/octave/index}}
+      \field{title}{GNU Octave}
+      \field{year}{2020}
+    \endentry
+    \entry{Labplot}{software}{}
+      \name{author}{1}{}{%
+        {{hash=c627cea4b070d10b855f85184f36b0c0}{%
+           family={KDE},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{fullhash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{bibnamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authorbibnamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authornamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authorfullhash}{c627cea4b070d10b855f85184f36b0c0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Labplot}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://labplot.kde.org
+      \endverb
+      \verb{url}
+      \verb https://labplot.kde.org
+      \endverb
+    \endentry
+    \entry{GIMP}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=684ecd1d1aa57cdc1536ecb2ac81b303}{%
+           family={Pagès},
+           familyi={P\bibinitperiod},
+           given={Øyvind\bibnamedelimb Kolås;\bibnamedelima Jehan},
+           giveni={Ø\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8b880490ac1f48e94c717ffc3f30d4da}{%
+           family={others},
+           familyi={o\bibinitperiod},
+           prefix={many},
+           prefixi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{fullhash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{bibnamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authorbibnamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authornamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authorfullhash}{9f4993078c173c4e0a27397eb664a84c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gimp.org/}}
+      \field{title}{GNU Image Manipulation Program}
+    \endentry
+    \entry{PHBH_Crystallinity}{article}{}
+      \name{author}{6}{}{%
+        {{hash=734ca4028ce800bd35b63f9a004f9a3e}{%
+           family={Ivorra-Martinez},
+           familyi={I\bibinithyphendelim M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f87ddc42c90a115a7c5e0df3b0121ec9}{%
+           family={Manuel-Mañogil},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b8d3dffa58f8e6d84e67e622b5cd7649}{%
+           family={Boronat},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c9c1ff8815b6defe1e3b71b38c5b6634}{%
+           family={Sanchez-Nacher},
+           familyi={S\bibinithyphendelim N\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=87764bd03ec4b140caccca068666c3d7}{%
+           family={Balart},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=276e542de91ee2b177051a9ad52a71ab}{%
+           family={Quiles-Carrillo},
+           familyi={Q\bibinithyphendelim C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{4555a84badf76e4475044d518af7d92d}
+      \strng{fullhash}{9d1e549fecd5c7c5aad25fd9036c1b33}
+      \strng{bibnamehash}{4555a84badf76e4475044d518af7d92d}
+      \strng{authorbibnamehash}{4555a84badf76e4475044d518af7d92d}
+      \strng{authornamehash}{4555a84badf76e4475044d518af7d92d}
+      \strng{authorfullhash}{9d1e549fecd5c7c5aad25fd9036c1b33}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polymers}
+      \field{note}{Cited By :12}
+      \field{number}{5}
+      \field{title}{Development and characterization of sustainable composites from bacterial polyester poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) and almond shell flour by reactive extrusion with oligomers of lactic acid}
+      \field{volume}{12}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb www.scopus.com
+      \endverb
+      \verb{url}
+      \verb www.scopus.com
       \endverb
     \endentry
     \entry{Blender}{software}{}

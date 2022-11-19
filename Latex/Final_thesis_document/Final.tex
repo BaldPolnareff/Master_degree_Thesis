@@ -820,7 +820,7 @@
 %
         %Ideally, the chloroform solution should flow in a fast paced but drop-by-drop fashion. 
 %
-        %The flux valve can be extremely sensitive and hard to control manually, so occasional large bursts of fluid can suddenly 
+        %The flow valve can be extremely sensitive and hard to control manually, so occasional large bursts of fluid can suddenly 
         %end up in the PVA solution. 
 %
         %However, as long as this phenomenon does not occur too frequently and is dealt with in a timely manner by closing the valve and slowly 
@@ -1044,7 +1044,7 @@
 
         Some of the available equipment was not perfectly suited for the necessary tasks or, sometimes, even broken or malfunctioning. \\ 
 
-        For instance, the drippers used for the precipitation reaction had a manual flux valve, which made flow control unpredictable 
+        For instance, the drippers used for the precipitation reaction had a manual flow valve, which made flow control unpredictable 
         and hard to regulate. \\ 
 
         The fritted filters initially used had already been utilized for other production pipelines, transferring some impurities
@@ -1142,6 +1142,30 @@
     with a $100 \ \mu m$ sieve. \\
 
     \clearpage
+
+    \section{Powder and 3D printed parts characterization\label{powder_characterization}}
+
+    The powder produced by the precipitation process has been characterized in terms of granulometry, morphology, gas pycnometry and flowability, 
+    as well as thermal properties, as later discussed in detail in chapters  . \\
+
+    As all the mentioned analyses highlighted excellent results, well within the desired SLS requirements seen in section \ref{Powder_requirements}, the powder has been successfully used to produce 3D printed parts
+    (showcased in chapter \ref{SLS_printing_experimental}), which have been characterized in terms of mechanical properties, as well as thermal properties, that have been 
+    compared to those of the powder and the original raw material. \\
+
+    Overall, all of the analyses have shown that the PHBH powder produced by the precipitation process is suitable for SLS additive manufacturing, which is in itself a huge achievement for a 
+    novel and experimental process, given the fact that the powder is produced from a bio-based polymer that is not commonly used in the additive manufacturing industry, and that 
+    the available literature on the subject has highlighted the difficulty of obtaining SLS suitable powders from biopolymers \autocites{Padovano_SLS_Review}. \\ 
+
+    Moreover, in addition to producing an SLS suitable powder, with an excellent yield, the 3D printing process has been successful as well, with 
+    a lot more potential to be explored in the future. \\ 
+
+    As a final note, one of the main goal of the carried out analyses was to address the potential change in thermal properties of the biopolymer, during the entire pipeline. 
+    
+    As shown in detail in the following chapters, both the powder and the printed parts have shown no significant thermal properties changes, compared to the 
+    original raw material, which is an extremely important aspect, given how bio-based materials are tipycally more sensitive to thermal degradation. \\ 
+
+
+    \clearpage
         \subsection{SEM (Scanning Electron Microscopy) analysis\label{SEM_analysis}}
 
         Scanning Electron Microscopes are widely used detection instruments, which unlike traditional microscopes 
@@ -1170,7 +1194,6 @@
             \end{figure}
 
             \clearpage
-            \subsubsection{Results\label{SEM_analysis_results}}
 
             As mentioned, samples have been collected throughout the entirety of the experimental activity, which has been characterized by a lot of trial and error, 
             before the entire production pipeline got optimized and 
@@ -1190,6 +1213,7 @@
 
             where $SEM_{NN}$ is the sample's absolute ascending time number, $nnnX$ is the magnification factor and $(SignalA)$ is the signal type 
             used by the instrument to generate the image. \\ 
+
 
 
             All the selected samples have been catalogued as follows:
@@ -1236,129 +1260,43 @@
                     \caption{Example of a SEM image before and after enhancing \autocites{Inkscape}{Pixelmator_Pro}}
                     \label{fig:SEM_edited_vs_unedited}
                 \end{figure}
-                
-            The FIB-SEM instrument has produced a total of 12 different images, which are shown below: \\
 
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_01.eps}
-                    \caption{Enhanced SEM image, $SEM_{01}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_01}
-                \end{figure}
+            \clearpage
 
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_02.eps}
-                    \caption{Enhanced SEM image, $SEM_{02}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_02}
-                \end{figure}
-
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_03.eps}
-                    \caption{Enhanced SEM image, $SEM_{03}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_03}
-                \end{figure}
-
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/05_03.eps}
-                    \caption{Enhanced SEM image, $SEM_{04}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_04}
-                \end{figure}
-            
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_01.eps}
-                    \caption{Enhanced SEM image, $SEM_{05}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_05}
-                \end{figure}
-            
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_03.eps}
-                    \caption{Enhanced SEM image, $SEM_{06}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_06}
-                \end{figure}
-            
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_01.eps}
-                    \caption{Enhanced SEM image, $SEM_{07}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_07}
-                \end{figure}
-            
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_02.eps}
-                    \caption{Enhanced SEM image, $SEM_{08}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_08}
-                \end{figure}
-            
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_03.eps}
-                    \caption{Enhanced SEM image, $SEM_{09}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_09}
-                \end{figure}
-
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_04.eps}
-                    \caption{Enhanced SEM image, $SEM_{10}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_10}
-                \end{figure}
-
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_05.eps}
-                    \caption{Enhanced SEM image, $SEM_{11}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_11}
-                \end{figure}
-
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_06.eps}
-                    \caption{Enhanced SEM image, $SEM_{12}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
-                    \label{fig:SEM_12}
-                \end{figure}
-    \clearpage
-    \section{Thermal analysis\label{Thermal_analysis}}
+            \subsection{Thermal analysis\label{Thermal_analysis}}
     
-    Thermal analysis tools have been utilized in this case study, as many critical properties of the studied material 
-    can be deducted with different measurments at various temperature ranges. 
+            Various thermal analysis tools have been utilized in this thesis work, as many critical properties of the studied material 
+            can be deducted with different measurments at various temperature ranges. 
 
-    This is especially true with materials suited for SLS, where knowledge of thermal properties is 
-    essential in determining a polymer's feasibility for this AM method. 
-    The thermal analysis tools used in this case study are the Differential Scanning Calorimetry (DSC) and the Thermogravimetric Analysis (TGA).
+            This is especially true with materials suited for SLS, where knowledge of thermal properties is 
+            essential in determining a polymer's feasibility for this AM method. 
+            The thermal analysis tools used in this case study are the DSC (\textit{Differential Scanning Calorimetry}) and the TGA
+            (\textit{Thermogravimetric Analysis}). \\
 
-
-        \subsection{DSC (Differential Scanning Calorimetry)\label{DSC_analysis}}
+            \subsubsection{DSC (Differential Scanning Calorimetry)\label{DSC_analysis}}
         
-        \textit{Differential Scanning Calorimetry} is a thermoanalytical technique that can be implemented with different types of machines, 
-        but its general purpose is the analysis of the change in heat flux as a function of temperature, which is generally increased in 
-        a linear fashion. 
+            \textit{Differential Scanning Calorimetry} is a thermoanalytical technique that can be implemented with different types of machines, 
+            but its general purpose is the analysis of the change in heat flow as a function of temperature, which is generally increased in 
+            a linear fashion. 
+        
+            
+            The term differential in DSC indicates that each test sample is analyzed in parallel to a reference sample, whose heat capacity and 
+            thermal properties are well known and used to calibrate the machine. \\
+            
+            A typical use of DSC is the detection of phase transitions, which is crucial for applications such as SLS, where each material 
+            needs to be locally fused within an optimal sintering window \ref{Powder_requirements}, \ref{PHBH}. 
     
-        
-        The term differential in DSC indicates that each test sample is analyzed in parallel to a reference sample, whose heat capacity and 
-        thermal properties are well known and used to calibrate the machine. \\
-        
-        A typical use of DSC is the detection of phase transitions, which is crucial for applications such as SLS, where each material 
-        needs to be locally fused within an optimal sintering window (\ref{Powder_requirements}, \ref{PHBH}). 
+            One of the greatest advantage of PHBH over comparable materials is its wider sintering window, which makes it ideal 
+            for SLS \ref{PHBH}. \\ 
+    
+            This sintering window can be measured by analyzing a DSC plot of heat flow over temperature, given that this test measures 
+            phase transitions but is also capable of detecting more subtle physical changes, such as glass transition. 
+    
+            Since the sintering window is defined as the temperature range comprised between cold crystallization offset and 
+            melting point onset \ref{Powder_requirements}, both detected by a DSC analysis \ref{fig:DSC_10Cmin}, then calculating it is trivial, 
+            based on the available data.
 
-        One of the greatest advantage of PHBH over comparable materials is its wider sintering window, which makes it ideal 
-        for SLS (\ref{PHBH}). \\ 
-
-        This sintering window can be measured by analyzing a DSC plot of heat flux over temperature, given that this test measures 
-        phase transitions but is also capable of detecting more subtle physical changes, such as glass transition. 
-
-        Since the sintering window is defined as the temperature range comprised between cold crystallization offset and 
-        melting point onset (\ref{Powder_requirements}), both detected by a DSC analysis (\ref{fig:DSC_10Cmin}), then calculating it is trivial, 
-        based on the available data. 
-
-            \subsubsection{Results}
-
-                The DSC machine used in this case study is the \textit{Mettler-Toledo DSC-1 STARe System}, which is a benchtop instrument that can be used for 
+                The DSC machine used in this thesis work is the \textit{Mettler-Toledo DSC-1 STARe System}, which is a benchtop instrument that can be used for 
                 a wide range of applications. \\ 
 
                 It is equipped with a \textit{Gas Controller GC100}, in the temperature range from $-50 \ ^{\circ} C$ 
@@ -1385,46 +1323,345 @@
                 where x is either \textit{P} for pellet or \textit{p} for powder, n is the temperature range, and NN is the sample's absolute 
                 ascending time number. \\
 
-                The specimens have been catalogued as follows: %p09, p AG 10, p AG 5, 10 layer
-
-                %    \begin{table}[h!]
-                %        \resizebox{\textwidth}{!}{%
-                %            \begin{tabular}{@{}cccccc@{}}
-                %            \toprule
-                %            \textbf{ID}                 & \textit{Weight {[}mg{]}} & \textit{Temperature ramp {[}°C/min{]}} & Type     & \textit{Date {[}dd/mm//yyyy{]}} & \textit{Time {[}hh:mm{]}} \\ \midrule
-                %            $ID = pDSC_{(10 \ ^{\circ}C/min)}-01$ & 8.5000                   & 10                                     & powder   & 20/09/2022                      & 09:21                     \\
-                %            $ID = pDSC_{(10 \ ^{\circ}C/min)}-02$ & 15.7000                  & 10                                     & powder   & 21/09/2022                      & 12:03                     \\
-                %            $ID = pDSC_{(5 \ ^{\circ}C/min)}-03$  & 10.7000                  & 5                                      & powder   & 21/09/2022                      & 12:04                     \\
-                %            $ID = sDSC_{(10 \ ^{\circ}C/min)}-04$ & 13.6000                  & 10                                     & sintered & 21/09/2022                      & 12:05                     \\ \bottomrule
-                %            \end{tabular}%
-                %        }
-                %        \caption{DSC specimens}
-                %    \label{tab:DSC_ID}
-                %    \end{table}
+                The specimens have been catalogued as follows: 
 
                 \begin{table}[h!]
-                       \resizebox{\textwidth}{!}{%
-                       \begin{tabular}{@{}cccccc@{}}
-                       \toprule
-                       \textbf{ID}                 & \textit{Weight {[}mg{]}} & \textit{Temperature ramp {[}°C/min{]}} & Type                \\ \midrule
-                       $PDSC_{(10 \ ^{\circ}C/min)}-01$ & 8.5000                   & 10                           & pellet               \\
-                       $pDSC_{(10 \ ^{\circ}C/min)}-02$ & 8.0000                   & 10                           & powder                \\
-                       \bottomrule
-                       \end{tabular}% 
-                       }
-                 \caption{DSC specimens}
-                 \label{tab:DSC_ID}
-                 \end{table}
+                    \resizebox{\textwidth}{!}{%
+                    \begin{tabular}{@{}cccccc@{}}
+                    \toprule
+                    \textbf{ID}                 & \textit{Weight {[}mg{]}} & \textit{Temperature ramp {[}°C/min{]}} & Type                \\ \midrule
+                    $PDSC_{(10 \ ^{\circ}C/min)}-01$ & 8.5000                   & 10                           & pellet               \\
+                    $pDSC_{(10 \ ^{\circ}C/min)}-02$ & 8.0000                   & 10                           & powder                \\
+                    \bottomrule
+                    \end{tabular}% 
+                    }
+              \caption{DSC specimens}
+              \label{tab:DSC_ID}
+              \end{table} 
 
-                The analysis results have been analyzed and plotted using \textit{Labplot} \autocites{Labplot} 
-                and \textit{Inkscape} \autocites{Inkscape},
-                using the \textit{exo-up} convention, with the raw pellet curves used as a baseline for the powder curves. \\
+              \clearpage
 
-                    \begin{figure}[h!]
-                        \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DSC_alberto.eps}
-                        \caption{DSC analysis of PHBH at $10 \ ^{\circ}C/min$}
-                        \label{fig:DSC_10Cmin}
-                    \end{figure}
+        \subsubsection{TGA (Thermal Gravimetric Analysis)\label{TGA_Analysis}}
+        
+        \textit{Thermal Gravimetric Analysis} is a technique that constantly measures the mass of an object subjected to a deliberate 
+        change in temperature for a certain period of time, through a precision scale. 
+
+        Time, temperature and mass are the involved variables and while mass is a direct measure, whose sudden changes (visible peaks
+        in the weight vs temperature plot) can indicate relevant transition points, time and temperature are directly controlled 
+        as machine parameters. \\ 
+
+        Generally speaking, TGA instruments can be set up for different workflows: 
+
+                \begin{itemize}
+                    \item static or isothermal analysis, where weight changes are registered over a specified time frame, 
+                    at a fixed temperature of interest
+                    \item quasi-static analysis, where temperature is changed in discrete steps, with isothermal intervals in between 
+                    \item dynamic analysis, where temperature is changed in a continuous linear fashion
+                \end{itemize}
+
+            The analysis can be set up to end after a certain time, temperature or residual weight and be performed 
+            in vacuum, air or inert gas such as argon. \\
+
+        This analysis technique can be used to reveal many important temperature values where physical transformations or chemical 
+        reactions occur, pinpoint the presence of certain materials with known transition points, in samples of unknown composition, 
+        (e.g residual moisture can be detected by checking any sudden weight changes around $100 \ ^{\circ}C $, water's boiling point), 
+        determine the complete degradation cycle of a sample, testing the thermal stability of a material at its operational temperature, etc. \\ 
+
+        The analysis has been firstly performed on the raw pellet material, as a benchmark test
+        that consistently returned the expected degradation behaviour, over multiple analysis. 
+
+            The test has then been conducted on powder samples and SLS printed samples, focusing on finding relevant 
+            discrepancies with the reference behaviour, which could potentially highlight the presence of impurities
+            that might have been undetected during SEM analysis (\ref{SEM_analysis}). \\ 
+
+            The TGA analysis was performed on a \textit{Mettler-Toledo TGA/SDTA 851e} \autocites{Mettler_Toledo} instrument, 
+            in air atmosphere, with a heating rate of $10 \ ^{\circ}C/min$ and a temperature range of $25 \ ^{\circ}C$ to $900 \ ^{\circ}C$. \\
+
+            \begin{figure}[h!]
+                \centering
+                \includegraphics[width=0.7\textwidth]{Pictures/TGA_mettlertoledo.eps}
+                \caption{Mettler-Toledo TGA/SDTA 851e \autocites{Mettler_Toledo}}
+                \label{fig:TGA_mettlertoledo}
+            \end{figure}
+
+            The specimens that have undergone a TGA analysis have been assigned an ID with the following criteria:
+
+                \begin{equation}
+                    ID = x-TGA_{NN}
+                    \label{eq:TGA_ID}
+                \end{equation}
+
+            where $x$ is the specimen type (pellet, powder or sintered), $TGA$ is the analysis type and $NN$ is the sample number. \\
+
+            The specimens have been catalogued in the following table:
+
+                    \begin{table}[h!]
+                        \centering
+                        \resizebox{0.5\textwidth}{!}{%
+                        \begin{tabular}{@{}ccc@{}}
+                        \toprule
+                        \textbf{ID}  & Type     & Weight {[}mg{]} \\ \midrule
+                        $P-TGA_{01}$ & pellet   & 29.0641         \\
+                        $p-TGA_{02}$ & powder   & 15.4821         \\
+                        $p-TGA_{03}$ & powder   & 38.2253         \\
+                        $s-TGA_{04}$ & sintered & 10.5330         \\ \bottomrule
+                        \end{tabular}%
+                        }
+                        \caption{TGA specimens}
+                        \label{tab:TGA_specimens}
+                    \end{table}
+
+        \clearpage
+
+        \subsection{Density analysis\label{density_measurement}}
+        The true density of the powder is an important parameter to determine its flowability, which is a key factor in the
+        SLS printing process, as better described in (\ref{flowability_analysis}). \\
+        
+        Its value should be ideally identical to the theoretical density of the material, which is stated to be 
+        $1.20 \ kg/m^3$ in its datasheet \autocites{GruppoMaip}. \\ 
+        
+        The density of the powder has been measured with a \textit{Ultrapyc 5000 gas
+        pycnometer} \autocites{Ultrapyc5000}. \\ 
+    
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.7\textwidth]{Pictures/pycnometer.eps}
+            \caption{Ultrapyc 5000 gas pycnometer \autocites{Ultrapyc5000}}
+            \label{fig:ultrapyc5000}
+        \end{figure}
+    
+        A 0.626 g sample of the powder has been weighed and placed in the sample cell, then the pycnometer has been filled with 
+        helium gas and the measurements have been performed at $20 \ ^{\circ}C$, using the \textit{pulse} preparation and the 
+        \textit{fine powder} flow rate presets available in the device settings. \\ 
+    
+        The test has been iterated with a total of 15 steps, with a $0.01 \%$ precision and three measurements per pass, giving an average 
+        density value of $1.213602 \ kg/m^3$, consistent with the expected theoretical value. \\ 
+    
+        \clearpage
+
+        \subsection{Flowability analysis\label{flowability_analysis}}
+
+        The flowability of a powder is a key factor in the success of the SLS process, as it impacts the way the powder is deposited
+        on the build platform. Some powders are more prone to clumping, which can lead to the formation of bridges between the powder 
+        particles, which can cause the build platform to become clogged and the build to fail. \\ 
+
+        A powder with a good flowability will be able to flow freely and evenly, without clumping, and will be able to fill the 
+        build platform evenly, without leaving any gaps. \\ 
+
+        Powders with poor flowability can be improved by adding a flowability agent, which can be a lubricant, a binder or a 
+        combination of both. \\ 
+
+        The flowability of a powder can be tested by performing a flowability analysis, which can be performed in a number of ways, 
+        depending on the standard that is being followed. \\
+
+        The analysis has been performed on the powder samples, using the \textit{tap density} method, which is the most common 
+        approximation test, as described by ASTM D7481 \autocites{ASTM_D7481-18}. \\
+
+        The standard describes how to evaluate the packing factor and the Hausner Ratio of a powder sample (that needs to be 
+        dried, before being tested, as residual moisture negatively impacts the flowability), 
+        using a 100 mL graduated cylinder, following the steps described for procedure \textit{b}. \\
+
+        The Hausner Ratio is evaluated with the equation described in previous chapters (\ref{eq:Hausner_ratio}, \ref{Powder_requirements}), 
+        and the packing factor is evaluated with the following equation: 
+
+            \begin{equation}
+                \varphi  = \frac{\rho_{bulk}}{\rho}
+                \label{eq:packing_factor}
+            \end{equation}
+
+        where $\rho_{bulk}$ is the bulk density and $\rho$ is the true material density. \\
+
+        As previously mentioned in (\ref{Powder_requirements}) and according to the available literature, the Hausner Ratio of the powder should 
+        be ideally below 1.4 \autocites{doi:10.1063/1.4918516}, which is consistent with the experimental findings. \\  
+
+        \clearpage
+
+        \subsection{Granulometry analysis\label{granulometry_analysis}}
+
+        The granulometry analysis has been performed on an oven dried powder sample, 
+        using a \textit{Malvern Morphologi 4} \autocites{Malvern_Morphologi4}. \\ 
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.7\textwidth]{Pictures/malvern.eps}
+            \caption{Malvern Morphologi 4 \autocites{Malvern_Morphologi4}}
+            \label{fig:morphologi4}
+        \end{figure}
+
+        The sample has been measured in terms of volume, with a $5 \ mm^3$ specimen being spread on a glass plate in the 
+        most homogeneous way possible, by using a 4 bar dispersion pressure and a 10 ms injection time. \\ 
+
+        An homogenous powder distribution is crucial in order to avoid particle overlap and to obtain a more accurate 
+        representation of the powder granulometry. \\ 
+
+        The instrument has taken several images of the powder specimen, using a 10X magnification, and by z-stacking 
+        images with different focal lenghts, in order to achieve better results. \\
+
+        All particles below 20 $\mu m$ have been excluded from the analysis, which has been performed by using an automated 
+        static imaging algorithm, performed by the instrument's software. \\ 
+
+      \clearpage
+
+      \section{Particle analyses and thermal analyses results\label{analyses_results_general}}
+
+      Given the wide variety of instruments and their vastly different release date, the various included software suites and operating systems involved,
+      all the different output files have been analyzed and uniformed as tab separated values UTF-8 text, using standard unix cli tools. \\ 
+      
+      The uniforming of datasets later favoured the data analysis workflow, which has been performed by using \textit{GNU Octave} \autocites{Octave} and \textit{Labplot} \autocites{Labplot}. \\
+
+      \subsection{SEM Results\label{SEM_analysis_results}}
+
+                
+      The FIB-SEM instrument has produced a total of 12 different images, which are shown below: \\
+
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_01.eps}
+              \caption{Enhanced SEM image, $SEM_{01}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_01}
+          \end{figure}
+
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_02.eps}
+              \caption{Enhanced SEM image, $SEM_{02}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_02}
+          \end{figure}
+
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_03.eps}
+              \caption{Enhanced SEM image, $SEM_{03}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_03}
+          \end{figure}
+
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/05_03.eps}
+              \caption{Enhanced SEM image, $SEM_{04}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_04}
+          \end{figure}
+      
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_01.eps}
+              \caption{Enhanced SEM image, $SEM_{05}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_05}
+          \end{figure}
+      
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_03.eps}
+              \caption{Enhanced SEM image, $SEM_{06}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_06}
+          \end{figure}
+      
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_01.eps}
+              \caption{Enhanced SEM image, $SEM_{07}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_07}
+          \end{figure}
+      
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_02.eps}
+              \caption{Enhanced SEM image, $SEM_{08}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_08}
+          \end{figure}
+      
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_03.eps}
+              \caption{Enhanced SEM image, $SEM_{09}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_09}
+          \end{figure}
+
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_04.eps}
+              \caption{Enhanced SEM image, $SEM_{10}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_10}
+          \end{figure}
+
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_05.eps}
+              \caption{Enhanced SEM image, $SEM_{11}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_11}
+          \end{figure}
+
+          \begin{figure}[h!]
+              \centering 
+              \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_06.eps}
+              \caption{Enhanced SEM image, $SEM_{12}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \label{fig:SEM_12}
+          \end{figure}
+
+    \clearpage
+
+    \subsection{Granulometry Results\label{Granulometry_results}}
+      
+      The output data has been analyzed and the most meaningful features have been plotted as vector images using \textit{Labplot} \autocites{Labplot} and 
+      postprocessed with \textit{Inkscape} \autocites{Inkscape}. \\ 
+  
+      %\begin{figure}[h!]
+      %    \centering
+      %    \begin{subfigure}[a]{\textwidth}
+      %        \centering
+      %        \includegraphics[width=\textwidth]{Pictures/Granulometry_plots/Histogram_CE-DIAM.eps}
+      %        \caption{Particle Size Distribution}
+      %        \label{fig:particle_size_distribution}
+      %    \end{subfigure}
+      %    \vfill
+      %    \begin{subfigure}[b]{\textwidth}
+      %        \centering
+      %        \includegraphics[width=\textwidth]{Pictures/Granulometry_plots/Histogram_Circularity.eps}
+      %        \caption{Particle Circularity Distribution}
+      %        \label{fig:circularity_distribution}
+      %    \end{subfigure}
+      %    \caption{Granulometry analysis of the powder sample}
+      %    \label{fig:granulometry_analysis}
+      %\end{figure}
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.9\textwidth]{Pictures/Granulometry_plots/Histogram_CE-DIAM.eps}
+            \caption{Particle Size Distribution of a powder sample}
+            \label{fig:particle_size_distribution}
+        \end{figure}
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=\textwidth]{Pictures/Granulometry_plots/Histogram_Circularity.eps}
+            \caption{Particle Circularity Distribution of a powder sample}
+            \label{fig:circularity_distribution}
+        \end{figure}
+  
+      \clearpage
+  
+      The results of the granulometry analysis showcase particle sizes compatible with SLS powder requirements (\ref{Powder_requirements}), 
+      as well as a great particle circularity distribution, which is consistent with the findings of the 
+      SEM analysis \ref{SEM_analysis_results}. \\
+  
+      The average particle diameter is 64.4222 $\mu m$, with a count of 144 over a total of more 
+      than 3000 analyzed particles \ref{fig:particle_size_distribution}. \\ 
+  
+      The average circularity is extremely close to a perfectly spherical shape, with a 
+      mean value of roughly 0.98 \ref{fig:circularity_distribution}. \\ 
+
+      \clearpage
+
+    \subsection{DSC Results\label{DSC_results}}
+
+    The analysis results have been analyzed and plotted using \textit{Labplot} \autocites{Labplot} 
+    and \textit{Inkscape} \autocites{Inkscape},
+    using the \textit{exo-up} convention, with the raw pellet curves used as a baseline for the powder curves. \\
+        \begin{figure}[h!]
+            \includegraphics[width=0.9\textwidth]{Pictures/Thermal_analysis_plots/DSC_alberto.eps}
+            \caption{DSC analysis of PHBH at $10 \ ^{\circ}C/min$, exo-up convention}
+            \label{fig:DSC_10Cmin}
+        \end{figure}
 
                     %\begin{figure}[h!]
                     %    \centering
@@ -1455,13 +1692,14 @@
                     %\end{figure}
 
         \clearpage
+
         The plot highlights a consistent behaviour  and only 
         minor differences between the powder and pellet samples, with the powder specimen showing a slightly wider 
         sintering window, which is a very desirable trait for SLS, as explained in 
-        previous chapters (\ref{Powder_requirements}, \ref{PHBH}) and in accordance with 
+        previous chapters \ref{Powder_requirements}, \ref{PHBH} and in accordance with 
         the available literature \autocites{Eraslan_PHBH_review,doi:10.1063/1.4918516,DechetMaximilianA2020OtDo}. \\    
         
-        As evident from the heating phase (\ref{fig:DSC_10Cmin}), the powder sample shows a main peak melting point of $T_{m} =  127.164 \ ^{\circ}C$, with 
+        As evident from the heating phase \ref{fig:DSC_10Cmin}, the powder sample shows a main peak melting point of $T_{m} =  127.164 \ ^{\circ}C$, with 
         a secondary melting point of $T_{m} =  108.164 \ ^{\circ}C$, as well as a crystallization point at $T_{c} =  50.1643 \ ^{\circ}C$. 
 
         The cooling phase highlights a main peak crystallization point of $T_{c} =  48.254 \ ^{\circ}C$ as well, indicating 
@@ -1469,15 +1707,15 @@
 
         A minor peak activity is also observed at around $2 \ ^{\circ}C$ in both the heating and cooling phases
         (with a more prominent peak during heating), and this can be attributed to the
-        glass transition temperature of the polymer, which can be further investigated using a DMA (\ref{DMA}). \\
+        glass transition temperature of the polymer, which can be further investigated using a DMA \ref{DMA}. \\
 
         The powder sample data has been used to calculate the enthalpy values around the two main crystallization peaks and the main 
         melting peak, with the following approach: \\
 
         \begin{itemize}
-            \item The heat flux data points are normalized by the specimen weight, which does not have a data set of its own from the DSC test, 
+            \item The heat flow data points are normalized by the specimen weight, which does not have a data set of its own from the DSC test, 
             but can be assumed to be constant within the temperature range, which is a resonable 
-            assumption based on the TGA results (\ref{TGA_Analysis}) 
+            assumption based on the TGA results \ref{TGA_results}.
             \item The normalized heat flow is then plotted against time for both the heating and cooling phases and 
             a line is hand drawn around the peaks
             \item The area between the peaks and the base line represents an estimate of the enthalpy value  
@@ -1528,104 +1766,28 @@
                 \end{table}
 
         \clearpage
-        \subsection{TGA (Thermal Gravimetric Analysis)\label{TGA_Analysis}}
-        
-        \textit{Thermal Gravimetric Analysis} is a technique that constantly measures the mass of an object subjected to a deliberate 
-        change in temperature for a certain period of time, through a precision scale. 
-
-        Time, temperature and mass are the involved variables and while mass is a direct measure, whose sudden changes (visible peaks
-        in the weight vs temperature plot) can indicate relevant transition points, time and temperature are directly controlled 
-        as machine parameters. \\ 
-
-        Generally speaking, TGA instruments can be set up for different workflows: 
-
-                \begin{itemize}
-                    \item static or isothermal analysis, where weight changes are registered over a specified time frame, 
-                    at a fixed temperature of interest
-                    \item quasi-static analysis, where temperature is changed in discrete steps, with isothermal intervals in between 
-                    \item dynamic analysis, where temperature is changed in a continuous linear fashion
-                \end{itemize}
-
-            The analysis can be set up to end after a certain time, temperature or residual weight and be performed 
-            in vacuum, air or inert gas such as argon. \\
-
-        This analysis technique can be used to reveal many important temperature values where physical transformations or chemical 
-        reactions occur, pinpoint the presence of certain materials with known transition points, in samples of unknown composition, 
-        (e.g residual moisture can be detected by checking any sudden weight changes around $100 \ ^{\circ}C $, water's boiling point), 
-        determine the complete degradation cycle of a sample, testing the thermal stability of a material at its operational temperature, etc. \\ 
-        
-            \subsubsection{Results}
-
-            The analysis has been firstly performed on the raw pellet material, as a benchmark test
-            that consistently returned the expected degradation behaviour, over multiple analysis. 
-
-            The test has then been conducted on powder samples and SLS printed samples, focusing on finding relevant 
-            discrepancies with the reference behaviour, which could potentially highlight the presence of impurities
-            that might have been undetected during SEM analysis (\ref{SEM_analysis}). \\ 
-
-            The TGA analysis was performed on a \textit{Mettler-Toledo TGA/SDTA 851e} \autocites{Mettler_Toledo} instrument, 
-            in air atmosphere, with a heating rate of $10 \ ^{\circ}C/min$ and a temperature range of $25 \ ^{\circ}C$ to $900 \ ^{\circ}C$. \\
-
-            \begin{figure}[h!]
-                \centering
-                \includegraphics[width=0.7\textwidth]{Pictures/TGA_mettlertoledo.eps}
-                \caption{Mettler-Toledo TGA/SDTA 851e \autocites{Mettler_Toledo}}
-                \label{fig:TGA_mettlertoledo}
-            \end{figure}
-
-            The specimens that have undergone a TGA analysis have been assigned an ID with the following criteria:
-
-                \begin{equation}
-                    ID = x-TGA_{NN}
-                    \label{eq:TGA_ID}
-                \end{equation}
-
-            where $x$ is the specimen type (pellet, powder or sintered), $TGA$ is the analysis type and $NN$ is the sample number. \\
-
-            The specimens have been catalogued in the following table:
-
-                    \begin{table}[h!]
-                        \centering
-                        \resizebox{0.5\textwidth}{!}{%
-                        \begin{tabular}{@{}ccc@{}}
-                        \toprule
-                        \textbf{ID}  & Type     & Weight {[}mg{]} \\ \midrule
-                        $P-TGA_{01}$ & pellet   & 29.0641         \\
-                        $p-TGA_{02}$ & powder   & 15.4821         \\
-                        $p-TGA_{03}$ & powder   & 38.2253         \\
-                        $s-TGA_{04}$ & sintered & 10.5330         \\ \bottomrule
-                        \end{tabular}%
-                        }
-                        \caption{TGA specimens}
-                        \label{tab:TGA_specimens}
-                    \end{table}
-
-
-            The analysis data has been exported with \textit{Mettler-Toledo}'s included software \autocites{Mettler_Toledo} (\ref{DSC_analysis}), after normalizing the data to the initial weight of the sample,
-            then imported, elaborated and plotted with \textit{Labplot} \autocites{Labplot}. \\
-
-            The following figures show the results of the TGA analysis on the pellet, powder and sintered samples. \\ 
-
-            \begin{figure}[h!]
-                \centering
-                \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/P-TGA01.eps}
-                \caption{TGA analysis of pellet sample $P-TGA_{01}$ (\ref{tab:TGA_specimens})}
-                \label{fig:TGA_01}
-            \end{figure}
-
-            \begin{figure}[h!]
-                \centering
-                \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/p-TGA02.eps}
-                \caption{TGA analysis of powder sample $p-TGA_{02}$ (\ref{tab:TGA_specimens})}
-                \label{fig:TGA_02}
-            \end{figure}
-
-            \begin{figure}[h!]
-                \centering
-                \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/p-TGA03.eps}
-                \caption{TGA analysis of powder sample $p-TGA_{03}$ (\ref{tab:TGA_specimens})}
-                \label{fig:TGA_03}
-            \end{figure}
+        \subsection{TGA Results\label{TGA_Results}}
+        The analysis data has been exported with \textit{Mettler-Toledo}'s included software \autocites{Mettler_Toledo}, after normalizing the data to the initial weight of the sample,
+        then imported, elaborated and plotted with \textit{Labplot} \autocites{Labplot}. \\
+        The following figures show the results of the TGA analysis on the pellet, powder and sintered samples. \\ 
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/P-TGA01.eps}
+            \caption{TGA analysis of pellet sample $P-TGA_{01}$ (\ref{tab:TGA_specimens})}
+            \label{fig:TGA_01}
+        \end{figure}
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/p-TGA02.eps}
+            \caption{TGA analysis of powder sample $p-TGA_{02}$ (\ref{tab:TGA_specimens})}
+            \label{fig:TGA_02}
+        \end{figure}
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/p-TGA03.eps}
+            \caption{TGA analysis of powder sample $p-TGA_{03}$ (\ref{tab:TGA_specimens})}
+            \label{fig:TGA_03}
+        \end{figure}
 
             \begin{figure}[h!]
                 \centering
@@ -1645,131 +1807,6 @@
             
 
 
-
-
-    \clearpage
-
-    \section{Density analysis\label{density_measurement}}
-
-    The true density of the powder is an important parameter to determine its flowability, which is a key factor in the
-    SLS printing process, as better described in (\ref{flowability_analysis}). \\
-    
-    Its value should be ideally identical to the theoretical density of the material, which is stated to be 
-    $1.20 \ kg/m^3$ in its datasheet \autocites{GruppoMaip}. \\ 
-    
-    The density of the powder has been measured with a \textit{Ultrapyc 5000 gas
-    pycnometer} \autocites{Ultrapyc5000}. \\ 
-
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=0.7\textwidth]{Pictures/pycnometer.eps}
-        \caption{Ultrapyc 5000 gas pycnometer \autocites{Ultrapyc5000}}
-        \label{fig:ultrapyc5000}
-    \end{figure}
-
-    A 0.626 g sample of the powder has been weighed and placed in the sample cell, then the pycnometer has been filled with 
-    helium gas and the measurements have been performed at $20 \ ^{\circ}C$, using the \textit{pulse} preparation and the 
-    \textit{fine powder} flow rate presets available in the device settings. \\ 
-
-    The test has been iterated with a total of 15 steps, with a $0.01 \%$ precision and three measurements per pass, giving an average 
-    density value of $1.213602 \ kg/m^3$, consistent with the expected theoretical value. \\ 
-
-    \clearpage
-
-    \section{Flowability analysis\label{flowability_analysis}}
-
-    The flowability of a powder is a key factor in the success of the SLS process, as it impacts the way the powder is deposited
-    on the build platform. Some powders are more prone to clumping, which can lead to the formation of bridges between the powder 
-    particles, which can cause the build platform to become clogged and the build to fail. \\ 
-
-    A powder with a good flowability will be able to flow freely and evenly, without clumping, and will be able to fill the 
-    build platform evenly, without leaving any gaps. \\ 
-
-    Powders with poor flowability can be improved by adding a flowability agent, which can be a lubricant, a binder or a 
-    combination of both. \\ 
-
-    The flowability of a powder can be tested by performing a flowability analysis, which can be performed in a number of ways, 
-    depending on the standard that is being followed. \\
-
-    The analysis has been performed on the powder samples, using the \textit{tap density} method, which is the most common 
-    approximation test, as described by ASTM D7481 \autocites{ASTM_D7481-18}. \\
-
-    The standard describes how to evaluate the packing factor and the Hausner Ratio of a powder sample (that needs to be 
-    dried, before being tested, as residual moisture negatively impacts the flowability), 
-    using a 100 mL graduated cylinder, following the steps described for procedure \textit{b}. \\
-
-    The Hausner Ratio is evaluated with the equation described in previous chapters (\ref{eq:Hausner_ratio}, \ref{Powder_requirements}), 
-    and the packing factor is evaluated with the following equation: 
-
-        \begin{equation}
-            \varphi  = \frac{\rho_{bulk}}{\rho}
-            \label{eq:packing_factor}
-        \end{equation}
-
-    where $\rho_{bulk}$ is the bulk density and $\rho$ is the true material density. \\
-
-    As previously mentioned in (\ref{Powder_requirements}) and according to the available literature, the Hausner Ratio of the powder should 
-    be ideally below 1.4 \autocites{doi:10.1063/1.4918516}, which is consistent with the experimental findings. \\  
-
-
-    \clearpage
-
-    \section{Granulometry analysis\label{granulometry_analysis}}
-
-    The granulometry analysis has been performed on an oven dried powder sample, 
-    using a \textit{Malvern Morphologi 4} \autocites{Malvern_Morphologi4}. \\ 
-
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=0.7\textwidth]{Pictures/malvern.eps}
-        \caption{Malvern Morphologi 4 \autocites{Malvern_Morphologi4}}
-        \label{fig:morphologi4}
-    \end{figure}
-
-    The sample has been measured in terms of volume, with a $5 \ mm^3$ specimen being spread on a glass plate in the 
-    most homogeneous way possible, by using a 4 bar dispersion pressure and a 10 ms injection time. \\ 
-
-    An homogenous powder distribution is crucial in order to avoid particle overlap and to obtain a more accurate 
-    representation of the powder granulometry. \\ 
-
-    The instrument has taken several images of the powder specimen, using a 10X magnification, and by z-stacking 
-    images with different focal lenghts, in order to achieve better results. \\
-
-    All particles below 20 $\mu m$ have been excluded from the analysis, which has been performed by using an automated 
-    static imaging algorithm, performed by the instrument's software. \\ 
-
-    The output results have been analyzed and the most meaningful features have been plotted using \textit{Labplot} \autocites{Labplot}. \\ 
-
-    \begin{figure}[h!]
-        \centering
-        \begin{subfigure}[a]{0.5\textwidth}
-            \centering
-            \includegraphics[width=\textwidth]{Pictures/Granulometry_plots/Histogram_CE-DIAM.eps}
-            \caption{Particle Size Distribution}
-            \label{fig:particle_size_distribution}
-        \end{subfigure}
-        \vfill 
-        \begin{subfigure}[b]{0.5\textwidth}
-            \centering
-            \includegraphics[width=\textwidth]{Pictures/Granulometry_plots/Histogram_Circularity.eps}
-            \caption{Particle Circularity Distribution}
-            \label{fig:circularity_distribution}
-        \end{subfigure}
-        \caption{Granulometry analysis of the powder sample}
-        \label{fig:granulometry_analysis}
-    \end{figure}
-
-    \clearpage
-
-    The results of the granulometry analysis showcase particle sizes compatible with SLS powder requirements (\ref{Powder_requirements}), 
-    as well as a great particle circularity distribution, which is consistent with the findings of the 
-    SEM analysis (\ref{SEM_analysis_results}). \\
-
-    The average particle diameter is 64.4222 $\mu m$, with a count of 144 over a total of more 
-    than 3000 analyzed particles (\ref{fig:particle_size_distribution}). \\ 
-
-    The average circularity is extremely close to a perfectly spherical shape, with a 
-    mean value of roughly 0.98 (\ref{fig:circularity_distribution}). \\ 
 
 
 
@@ -1958,7 +1995,7 @@
         Given the experimental nature of this work, several samples have been printed, with gradual 
         increases in complexity, in order to test the limits of the SLS workflow for the novel material. \\ 
 
-        As earlier mentioned (\ref{Sharebot_Snowhite²}), the printer is modular and despite being equipped 
+        As earlier mentioned in \ref{Sharebot_Snowhite²}, the printer is modular and despite being equipped 
         with a default 100x100x100 mm working area, a reduced distributor with a 20x40x60 mm area has been used, 
         given the available quantity of PHBH powder. \\ 
 
@@ -2036,7 +2073,7 @@
 
         Using a roller recoater might also be a solution, but it has not been tested. \\ 
 
-        The following printed specimens have been modeled as mentioned in (\ref{3D_model_creation}) and 
+        The following printed specimens have been modeled as mentioned in \ref{3D_model_creation} and 
         have been catalogued with the following criteria: 
 
         \begin{equation}
@@ -2124,8 +2161,8 @@
     A non-destructive DMA has been used to determine some of the mechanical properties of SLS printed PHBH. The analysis 
     allows for the determination of the storage modulus $E'$, the loss modulus $E''$ as well as the tan$\delta$, 
     which is the ratio between the loss modulus and the storage modulus. \\ 
-    As mentioned in (\ref{DSC_analysis}), the DMA can also be used to better determine the glass transition temperature $T_g$, which 
-    has been initially estimated to be around $2 \ ^{\circ}C$ by the DSC analysis of a PHBH powder sample (\ref{fig:DSC_10Cmin}). 
+    As mentioned in \ref{DSC_analysis}, the DMA can also be used to better determine the glass transition temperature $T_g$, which 
+    has been initially estimated to be around $2 \ ^{\circ}C$ by the DSC analysis of a PHBH powder sample, as visible in figure \ref{fig:DSC_10Cmin}. 
     However, the revealed 
     peak activity in that temperature range can not be attributed to the glass transition in a definitive way, by means of a DSC analysis 
     alone. \\ 
@@ -2139,7 +2176,7 @@
     
     The analysis has been performed with a Triton Technology DMA instrument \autocites{Triton_Technology_Ltd}, on the SLS sample 
     $10-DMA01_{filled}$ that has been printed specifically for the purpose of the DMA analysis 
-    (\ref{SLS_printing_experimental}, \ref{tab:SLS_samples}, \ref{fig:printed_specimens_DMA}). \\ 
+    (as said in sections\ref{SLS_printing_experimental}, \ref{tab:SLS_samples}, \ref{fig:printed_specimens_DMA}). \\ 
 
     The test has been run with an oscillating uniaxial stress amplitude of 1 N, at a frequency of 1 Hz, with an initial 
     chamber temperature of $- 77.7 \ ^{\circ}C$ (achieved by cooling the environment with liquid nitrogen), and has been stopped 
@@ -2176,20 +2213,31 @@
     bio-based polymers or creating composites with other materials. \\ 
 
     Given the successful SLS printability, with unaltered thermal properties among the raw material, the powder and the 
-    printed parts (as highlighted by the TGA and DSC analysis results (\ref{TGA_Analysis}, \ref{DSC_analysis})), as well as 
+    printed parts (as highlighted by the TGA and DSC analysis results \ref{TGA_Analysis}, \ref{DSC_analysis}), as well as 
     mechanical properties that meet the expected behavior of a bioplastic, PHBH is a very promising polymer 
     that can further enrich the catalogue of sustainable materials available for additive manufacturing. \\ 
+
+    \section{Conclusions\label{conclusions}}
+
+    As stated in the \textit{Thesis Goal} \ref{Thesis_Goal}, the aim of this work was to investigate the feasibility of PHBH as a 
+    material for additive manufacturing, with a particular focus on the SLS process. \\ 
+
+    The entire work has been very experimental and innovative in nature, as it is the first time that a novel bio-based polymer such as PHBH has been investigated 
+    for the aforementioned use and brought to the point of being printable with SLS. \\
+    
+    The approach has been exploratory and yet successful in all of its phases, starting from the powder production and characterization, all the way to the successful 
+    SLS printing of the material, which leaves even more room for further research and development. 
     
 
     \clearpage
-    \section{Future development and research\label{Future_development_and_research}}
+    \section{Future development\label{Future_development_and_research}}
 
     The entire project has been carried out with an experimental approach and, despite poor direct support 
     from the currently available literature, a better understanding of 
     the material and its behavior has emerged, but the need for further research and development is still 
     present. \\ 
 
-    Starting from the powder production pipeline, the results have already been excellent (\ref{recipe_improvement}, \ref{Initial_recipe}, 
+    Starting from the powder production pipeline, the results have already been excellent (as showcased in chapters \ref{recipe_improvement}, \ref{Initial_recipe}, 
     \ref{consistent_reproducibility}) with the available notions and tools, bringing the pellet to powder yield to 
     a very significant increase. \\ 
 
