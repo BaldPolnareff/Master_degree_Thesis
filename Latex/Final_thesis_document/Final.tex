@@ -1297,21 +1297,22 @@
             melting point onset \ref{Powder_requirements}, both detected by a DSC analysis \ref{fig:DSC_10Cmin}, then calculating it is trivial, 
             based on the available data.
 
-                The DSC machine used in this thesis work is the \textit{Mettler-Toledo DSC-1 STARe System}, which is a benchtop instrument that can be used for 
-                a wide range of applications. \\ 
+                The DSC machine used in this thesis work is the \textit{DSC 214 Polyma Equipment} \autocites{Netzsch}, which is a benchtop instrument that can be used for 
+                a wide range of applications, shown in figure \ref{fig:DSC_polyma}. \\ 
 
-                It is equipped with a \textit{Gas Controller GC100}, in the temperature range from $-50 \ ^{\circ} C$ 
+                It is equipped with a gas controller and has been used in the temperature range from $-50 \ ^{\circ} C$ 
                 to $180 \ ^{\circ} C$ with 
                 a heating rate of $10 \ (or \ 5) \ °C/min$, and from $180°$ to $-50 \ °C$ with a cooling rate of $10  \ ^{\circ}C/min$, 
                 under nitrogen flow $(50 \ mL/min)$. \\ 
 
-                The included \textit{Mettler-Toledo STARe software} (V12.10) allows for the analysis of the 
+                The included software allows for the analysis of the 
                 DSC data, as well as the creation of a report with the results. \\ 
 
                     \begin{figure}[h!]
-                        \includegraphics[width=\textwidth]{Pictures/mettler_toledo_DSC1.eps}
-                        \caption{Mettler-Toledo DSC-1 STARe System \autocites{Mettler_Toledo}}
-                        \label{fig:mettler_toledo_DSC1}
+                        \centering
+                        \includegraphics[width=0.7\textwidth]{Pictures/DSC_Polyma.eps}
+                        \caption{DSC 214 Polyma Equipment by Netzsch Group}
+                        \label{fig:DSC_polyma}
                     \end{figure}
 
                 Multiple DSC analysis have been conducted and specimens have been catalogued with the following ID: 
@@ -1376,7 +1377,7 @@
             discrepancies with the reference behaviour, which could potentially highlight the presence of impurities
             that might have been undetected during SEM analysis (\ref{SEM_analysis}). \\ 
 
-            The TGA analysis was performed on a \textit{Mettler-Toledo TGA/SDTA 851e} \autocites{Mettler_Toledo} instrument, 
+            The TGA analysis was performed on a \textit{Mettler-Toledo TGA/SDTA 851e} \autocites{Mettler_Toledo} instrument (seen in figure \ref{fig:TGA_mettlertoledo}), 
             in air atmosphere, with a heating rate of $10 \ ^{\circ}C/min$ and a temperature range of $25 \ ^{\circ}C$ to $900 \ ^{\circ}C$. \\
 
             \begin{figure}[h!]
@@ -1946,7 +1947,7 @@
 
         \begin{figure}[h!]
             \centering
-            \includegraphics[width=\textwidth]{Pictures/sharebot_GUI.eps}
+            \includegraphics[width=\textwidth]{Pictures/Sharebot_GUI.pdf}
             \caption{Sharebot Snowhite² UI}
             \label{fig:Sharebot_UI}
         \end{figure}
@@ -2039,16 +2040,16 @@
         
         \clearpage
 
-        Some of the initial samples are showcased in the following figure: 
-
-        \begin{figure}[h!]
-            \centering
-            \includegraphics[width=0.2\textwidth]{Pictures/Printed_parts/benchmark_samples.eps}
-            \caption{First printing attempts. Porosity and defects are more visible in the single layer samples.
-            The rectangular prisms were the first to showcase a good level of densification and lack of deformation and 
-            have been used as a baseline for the following tests.}
-            \label{fig:printed_benchmarks}
-        \end{figure}
+        %Some of the initial samples are showcased in the following figure: 
+%
+        %\begin{figure}[h!]
+        %    \centering
+        %    \includegraphics[width=0.2\textwidth]{Pictures/Printed_parts/benchmark_samples.eps}
+        %    \caption{First printing attempts. Porosity and defects are more visible in the single layer samples.
+        %    The rectangular prisms were the first to showcase a good level of densification and lack of deformation and 
+        %    have been used as a baseline for the following tests.}
+        %    \label{fig:printed_benchmarks}
+        %\end{figure}
 
         As previously mentioned, the material is very sensitive to the printing conditions, and other than laser power,
         the environment temperature has been found to be the most critical parameter. \\ 
@@ -2115,55 +2116,94 @@
     \label{tab:SLS_samples}
     \end{table}
 
-        The selected specimens are showcased in the following figures: 
+        The printed parts showcase an excellent level of detail, which could potentially increase when printing larger objects. 
+        Other than some superficial roughness and bumps, which are expected
+        in most AM before surface treatments, the specimens are in a very good condition, with no visible cracks or other defects.
+        The most significant specimens have been cut out from their photos and put against a pitch black background
+        using \textit{Pixelmator Pro} \autocites{Pixelmator_Pro}, then assigned a size marker using \textit{Inkscape}
+        \autocites{Inkscape}, as showcased in the following figures: 
+
+        %\begin{figure}[h!]
+        %    \centering
+        %    \includegraphics[width=0.7\textwidth]{Pictures/Printed_parts/samples.eps}
+        %    \caption{From top to bottom, clockwise: $15-dragonlogo_{filled}$, $15-hexagon_{filled}$, $55-octagonholes_{thin}$, 
+        %    $50-boat_{thin}$, $10-DMA01_{filled}$, $01-square_{filled}$ (\ref{tab:SLS_samples}).}
+        %    \label{fig:printed_specimens}
+        %    % Indica quali nella caption, in base alla tabella
+        %\end{figure}
+
+        %\begin{figure}[h!]
+        %    \centering
+        %    \begin{subfigure}[a]{0.55\textwidth}
+        %        \includegraphics[width=0.5\textwidth]{Pictures/Printed_parts/sample1-DMA-IMG_3178.eps}
+        %        \subcaption{$10-DMA01_{filled}$ (\ref{tab:SLS_samples})}
+        %        % Indica quale nella caption, in base alla tabella
+        %    \end{subfigure}
+        %        \vfill
+        %    
+        %    \begin{subfigure}[b]{0.5\textwidth}
+        %        \centering
+        %        \includegraphics[width=\textwidth]{Pictures/Printed_parts/sample3-DMA-IMG_3178.eps}
+        %        \subcaption{$15-DMA02_{filled}$ (\ref{tab:SLS_samples})}
+        %        % Indica quale nella caption, in base alla tabella
+        %        \end{subfigure}
+        %    \caption{Printed specimens used for DMA testing.}
+        %    \label{fig:printed_specimens_DMA}
+        %\end{figure}
+%
+        %\begin{figure}[h!]
+        %    \centering 
+        %    \begin{subfigure}[a]{0.41\textwidth}
+        %        \includegraphics[width=\textwidth]{Pictures/Printed_parts/sample2-organicpattern.eps}
+        %        \subcaption{$15-organicpattern_{thin}$, showcasing an intricate organic pattern (\ref{tab:SLS_samples}).}
+        %        % Indica quale nella caption, in base alla tabella
+        %    \end{subfigure}
+        %        \vfill
+        %    \begin{subfigure}[b]{0.5\textwidth}
+        %        \centering
+        %        \includegraphics[width=\textwidth]{Pictures/Printed_parts/sample4-octagon-holes-IMG_3181.eps}
+        %        \subcaption{$55-octagonholes_{thin}$, showcasing an octagon with a circular array of octagon holes (\ref{tab:SLS_samples}).}
+        %        % Indica quale nella caption, in base alla tabella
+        %    \end{subfigure}
+        %    \caption{Printed specimens with complex internal patterns.}
+        %    \label{fig:printed_specimens_complex}
+        %\end{figure}
 
         \begin{figure}[h!]
             \centering
-            \includegraphics[width=0.7\textwidth]{Pictures/Printed_parts/samples.eps}
-            \caption{From top to bottom, clockwise: $15-dragonlogo_{filled}$, $15-hexagon_{filled}$, $55-octagonholes_{thin}$, 
-            $50-boat_{thin}$, $10-DMA01_{filled}$, $01-square_{filled}$ (\ref{tab:SLS_samples}).}
-            \label{fig:printed_specimens}
-            % Indica quali nella caption, in base alla tabella
-        \end{figure}
-
-        \begin{figure}[h!]
-            \centering
-            \begin{subfigure}[a]{0.55\textwidth}
-                \includegraphics[width=0.5\textwidth]{Pictures/Printed_parts/sample1-DMA-IMG_3178.eps}
-                \subcaption{$10-DMA01_{filled}$ (\ref{tab:SLS_samples})}
-                % Indica quale nella caption, in base alla tabella
-            \end{subfigure}
-                \vfill
-            
-            \begin{subfigure}[b]{0.5\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{Pictures/Printed_parts/sample3-DMA-IMG_3178.eps}
-                \subcaption{$15-DMA02_{filled}$ (\ref{tab:SLS_samples})}
-                % Indica quale nella caption, in base alla tabella
-                \end{subfigure}
-            \caption{Printed specimens used for DMA testing.}
+            \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/DMA_samples.eps}
+            \caption{DMA ready prismatic specimens $10-SLS_{06}$ (bottom) and $15-SLS_{07}$ (top).}
             \label{fig:printed_specimens_DMA}
         \end{figure}
 
         \begin{figure}[h!]
-            \centering 
-            \begin{subfigure}[a]{0.41\textwidth}
-                \includegraphics[width=\textwidth]{Pictures/Printed_parts/sample2-organicpattern.eps}
-                \subcaption{$15-organicpattern_{thin}$, showcasing an intricate organic pattern (\ref{tab:SLS_samples}).}
-                % Indica quale nella caption, in base alla tabella
-            \end{subfigure}
-                \vfill
-            \begin{subfigure}[b]{0.5\textwidth}
-                \centering
-                \includegraphics[width=\textwidth]{Pictures/Printed_parts/sample4-octagon-holes-IMG_3181.eps}
-                \subcaption{$55-octagonholes_{thin}$, showcasing an octagon with a circular array of octagon holes (\ref{tab:SLS_samples}).}
-                % Indica quale nella caption, in base alla tabella
-            \end{subfigure}
-            \caption{Printed specimens with complex internal patterns.}
-            \label{fig:printed_specimens_complex}
+            \centering
+            \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/filled_hexagon.eps}
+            \caption{Specimen $15-SLS_{02}$, a filled hexagon.}
+            \label{fig:printed_specimens_filledhexagon}
         \end{figure}
 
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/boat.eps}
+            \caption{Specimen $50-SLS_{05}$, representing a boat model with curvature.}
+            \label{fig:printed_specimens_boat}
+        \end{figure}
 
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/organic_pattern_hexagon.eps}
+            \caption{Specimen $15-SLS_{08}$, showcasing a complex internal pattern.}
+            \label{fig:printed_specimens_organicpattern}
+        \end{figure}
+
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/octagon_holes.eps}
+            \caption{Specimen $55-SLS_{03}$, an octagon with a circular array of octagonal holes and a thin wall rim, with a total height of 55 layers.}
+            \label{fig:printed_specimens_octagonholes}
+        \end{figure}
+        
 
         \clearpage
 

@@ -358,8 +358,8 @@
       \strng{authorbibnamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
       \strng{authornamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
       \strng{authorfullhash}{8ce29808d71dc9b7b0db7c83c04e22fb}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PHBH}
@@ -524,8 +524,8 @@
       \strng{authornamehash}{ef44b8a7fa9f85a025cf3121ee213386}
       \strng{authorfullhash}{ef44b8a7fa9f85a025cf3121ee213386}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{DALL-E 2}
@@ -615,6 +615,36 @@
       \endverb
       \verb{url}
       \verb https://www.pixelmator.com/pro/
+      \endverb
+    \endentry
+    \entry{Netzsch}{company}{}
+      \name{author}{1}{}{%
+        {{hash=4da0ecdfd06b997ff1c760a5b794f15b}{%
+           family={Group},
+           familyi={G\bibinitperiod},
+           given={Netzsch},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Selb, Germany}%
+      }
+      \strng{namehash}{4da0ecdfd06b997ff1c760a5b794f15b}
+      \strng{fullhash}{4da0ecdfd06b997ff1c760a5b794f15b}
+      \strng{bibnamehash}{4da0ecdfd06b997ff1c760a5b794f15b}
+      \strng{authorbibnamehash}{4da0ecdfd06b997ff1c760a5b794f15b}
+      \strng{authornamehash}{4da0ecdfd06b997ff1c760a5b794f15b}
+      \strng{authorfullhash}{4da0ecdfd06b997ff1c760a5b794f15b}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DSC 214 Polyma}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://analyzing-testing.netzsch.com/en/products/differential-scanning-calorimeter-dsc-differential-thermal-analyzer-dta/dsc-214-polyma
+      \endverb
+      \verb{url}
+      \verb https://analyzing-testing.netzsch.com/en/products/differential-scanning-calorimeter-dsc-differential-thermal-analyzer-dta/dsc-214-polyma
       \endverb
     \endentry
     \entry{Mettler_Toledo}{website}{}
