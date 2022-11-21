@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{textcomp}
 \usepackage{gensymb}
+\usepackage[utf8]{inputenc}
 \usepackage[backend=biber, sorting=none]{biblatex}
 \usepackage{graphicx}
 \usepackage[colorlinks=true]{hyperref}
@@ -26,25 +27,24 @@
     bookmarks=true,
 }
 
-%\makeglossaries
-%
-%\newglossaryentry{Additive Manufacturing}
-%{
-%        name=Additive Manufacturing,
-%        description={A manufacturing process in which a three-dimensional object is created by laying down successive layers of material.}
-%}
-%
-%\newglossaryentry{Biopolymer}
-%{
-%        name=Biopolymer,
-%        description={A polymer produced by living organisms, such as plants, animals or microorganisms. bio-based polymers are often used as a substitute for petroleum-based polymers, due to their lower environmental impact.}
-%        
-%}
-%
-%
-%\newacronym{pha}{PHA}{Poly Hydroxy Alcanoate}
-%
-%\newacronym{phbh}{PHBH}{Poly Hydroxy Butyrate Hydroxyvalerate}
+\makeglossaries
+
+\newglossaryentry{Additive Manufacturing}
+{
+        name=Additive Manufacturing,
+        description={A manufacturing process in which a three-dimensional object is created by laying down successive layers of material.}
+}
+
+\newglossaryentry{Biopolymer}
+{
+        name=Biopolymer,
+        description={A polymer produced by living organisms, such as plants, animals or microorganisms. bio-based polymers are often used as a substitute for petroleum-based polymers, due to their lower environmental impact.}        
+}
+
+
+\newacronym{pha}{PHA}{Poly Hydroxy Alcanoate}
+
+\newacronym{phbh}{PHBH}{Poly Hydroxy Butyrate Hydroxyvalerate}
 
 \author{Giorgio De Trane, s275514}
 \title{\textbf{Preparation of bio-based powder for 3D printing applications by Selective Laser Sintering}}
@@ -131,7 +131,7 @@
     \listoffigures
     \listoftables
     \newpage
-
+    \printglossaries
 
     \newpage
 
@@ -693,7 +693,7 @@
     \section{Initial chemical precipitation recipe for PHBH\label{Initial_recipe}}
     
     As mentioned earlier, a prototype for a chemical precipitation reaction had already been developed, 
-    derived from experiments on solute-solvent compatibility \ref{fig:TEAS_plot}, 
+    derived from experiments on solute-solvent compatibility (see figure \ref{fig:TEAS_plot}), 
     which highlighted a good affinity between PHBH and chloroform. \\ 
 
     Starting from a 4 g batch of PHBH pellets, the highest amount of sieved powder ($ < \ 100 \ \mu m$ )
@@ -710,12 +710,12 @@
     As earlier mentioned, the extremely high summer temperatures dramatically increased the evaporation rate of 
     chloroform, leaving a high viscosity solution that was harder to control during precipitation. \\
 
-    This led to failures and practically insignificant yields \ref{initial_failures} if 
+    This led to failures and practically insignificant yields (as explained in section \ref{initial_failures}) if 
     the reaction succeeded, when testing the recipe in these conditions.  
 
     After thoroughly studying the process in all its phases and isolating different variables that could have caused the issues, 
     the recipe has been tweaked and adapted to the external conditions, which is later discussed 
-    in detail \ref{recipe_improvement}, \ref{key_variables}. 
+    in \ref{recipe_improvement}, \ref{key_variables}. 
 
         \subsection{Materials\label{Components}}
 
@@ -886,7 +886,7 @@
         At this point, the powder should be completely dry and ready to be sieved. \\ 
 
         A $100 \ \mu m$ sieve has been used, however, smaller size sieves could be used, as many reviews recommend a particle 
-        size of $20 \div 80 \ \mu m$ for SLS \ref{SLS_general}. 
+        size of $20 \div 80 \ \mu m$ for SLS (as pointed out in section \ref{SLS_general}) \autocites{Padovano_SLS_Review}. 
         
         Powders should be gently pushed against the mesh, alternating with circular motion and shaking of the sieve, should 
         an automated sieving system be unavailable. 
@@ -1010,7 +1010,7 @@
             \footnotetext{These substitutions could potentially simplify the pipeline, but no experiments have been conducted yet} 
 
         Assuming the adjustment of viscosity and the optimization of the dripping phase have been dealt with, 
-        another relevant parameter is the stirring speed of the PVA solution \ref{detailed_reaction}. 
+        another relevant parameter is the stirring speed of the PVA solution (see figure \ref{fig:process_diagram} for reference). 
 
         The experiments conducted during this case study confirm what has been found in the scientific literature: 
         an increase in stirring speed directly correlates to a decrease in average powder particle size, as reminded by figure \ref{fig:stirring_rpm}. 
@@ -1037,7 +1037,7 @@
         strategy to increase final yield: powders were effectively produced at the initially planned 700 RPM, however 
         most of the powder batch could not be sieved under $100 \ \mu m$. 
 
-        Higher RPM values produced almost no waste during the sieving phase. 
+        Higher RPM values (900 $\div $ 1000 RPM) consistently produced almost no waste during the sieving phase. 
 
 
         \subsection{Adaptations and progressively refined equipment choice\label{faulty_equipment}}
@@ -1074,6 +1074,8 @@
         All the workarounds and adaptations can normally be part of a very experimental lab workflow, but the process should ideally 
         be capable of producing even greater yields, once it is scaled for industrial production, where each step is standardized 
         and custom equipment tailored to specific tasks. 
+
+        \clearpage
 
         \subsection{Current results in the powder production pipeline \label{promising_results}}
 
@@ -1146,7 +1148,8 @@
     \section{Powder and 3D printed parts characterization\label{powder_characterization}}
 
     The powder produced by the precipitation process has been characterized in terms of granulometry, morphology, gas pycnometry and flowability, 
-    as well as thermal properties, as later discussed in detail in chapters  . \\
+    as well as thermal properties, as later discussed in detail in chapters \ref{Thermal_analysis}, \ref{density_measurement}, 
+    \ref{flowability_analysis}, \ref{granulometry_analysis} . \\
 
     As all the mentioned analyses highlighted excellent results, well within the desired SLS requirements seen in section \ref{Powder_requirements}, the powder has been successfully used to produce 3D printed parts
     (showcased in chapter \ref{SLS_printing_experimental}), which have been characterized in terms of mechanical properties, as well as thermal properties, that have been 
@@ -1206,35 +1209,33 @@
             The collected specimens have been selected, categorized and then assigned an ID:
 
             \begin{equation}
-                ID = SEM_{NN}-nnnX_{(SignalA)}
-                \phantomsection
+                ID = SEM_{NN}
                 \label{eq:SEM_ID}
             \end{equation}
 
-            where $SEM_{NN}$ is the sample's absolute ascending time number, $nnnX$ is the magnification factor and $(SignalA)$ is the signal type 
-            used by the instrument to generate the image. \\ 
-
+            where $SEM_{NN}$ is the sample's absolute ascending time number. \\ 
 
 
             All the selected samples have been catalogued as follows:
 
             \begin{table}[h!]
-                \resizebox{\textwidth}{!}{%
+                \centering
+                \resizebox{0.4\textwidth}{!}{%
                     \begin{tabular}{@{}ccccccc@{}}
                         \toprule
-                        \textbf{ID}                          & \textit{EHT {[}kV{]}} & \textit{WD {[}mm{]}} & Magnification & Signal A & \textit{Date {[}dd/mm/yyyy{]}} & \textit{Time {[}hh:mm:ss{]}} \\ \midrule
-                        \textbf{$SEM_{01}-461X_{(SE1)}$}     & 10.00                 & 8.65                 & 461 X         & SE1      & 12/07/2022                     & 15:21:07                     \\
-                        \textbf{$SEM_{02}-461X_{(SE1}$}      & 10.00                 & 8.60                 & 461 X         & SE1      & 12/07/2022                     & 15:22:19                     \\
-                        \textbf{$SEM_{03}-461X_{(SE1)}$}     & 10.00                 & 8.60                 & 461 X         & SE1      & 12/07/2022                     & 15:22:41                     \\
-                        \textbf{$SEM_{04}-461X_{(SE1)}$}     & 10.00                 & 8.60                 & 461 X         & SE1      & 12/07/2022                     & 15:24:52                     \\
-                        \textbf{$SEM_{05}-461X_{(SE1)}$}     & 10.00                 & 8.60                 & 461 X         & SE1      & 12/07/2022                     & 15:25:31                     \\
-                        \textbf{$SEM_{06}-461X_{(SE1)}$}      & 10.00                 & 8.60                 & 461 X         & SE1      & 12/07/2022                     & 15:27:17                     \\
-                        \textbf{$SEM_{07}-800X_{(VPSE \ G4)}$} & 20.00                 & 8.64                 & 800 X         & VPSE G4  & 03/10/2022                     & 18:46:15                     \\
-                        \textbf{$SEM_{08}-800X_{(VPSE \ G4)}$}  & 20.00                 & 8.64                 & 800 X         & VPSE G4  & 03/10/2022                     & 18:49:02                     \\
-                        \textbf{$SEM_{09}-800X_{(VPSE \ G4)}$}  & 20.00                 & 8.76                 & 800 X         & VPSE G4  & 03/10/2022                     & 18:51:15                     \\
-                        \textbf{$SEM_{10}-400X_{(VPSE \ G4)}$} & 20.00                 & 8.76                 & 400 X         & VPSE G4  & 03/10/2022                     & 18:54:00                     \\
-                        \textbf{$SEM_{11}-400X_{(VPSE \ G4)}$} & 20.00                 & 8.76                 & 400 X         & VPSE G4  & 03/10/2022                     & 18:55:21                     \\
-                        \textbf{$SEM_{12}-400X_{(VPSE \ G4)}$} & 20.00                 & 8.76                 & 400 X         & VPSE G4  & 03/10/2022                     & 18:56:40                     \\ \bottomrule
+                        \textbf{ID}               & Magnification  \\ \midrule
+                        \textbf{$SEM_{01}$}       & 461 X          \\
+                        \textbf{$SEM_{02}$}       & 461 X          \\
+                        \textbf{$SEM_{03}$}       & 461 X          \\
+                        \textbf{$SEM_{04}$}       & 461 X          \\
+                        \textbf{$SEM_{05}$}       & 461 X          \\
+                        \textbf{$SEM_{06}$}       & 461 X          \\
+                        \textbf{$SEM_{07}$}       & 800 X          \\
+                        \textbf{$SEM_{08}$}       & 800 X          \\
+                        \textbf{$SEM_{09}$}       & 800 X          \\
+                        \textbf{$SEM_{10}$}       & 400 X          \\
+                        \textbf{$SEM_{11}$}       & 400 X          \\
+                        \textbf{$SEM_{12}$}       & 400 X          \\ \bottomrule
                     \end{tabular}%
                 }
                 \caption{All catalogued SEM samples}
@@ -1316,26 +1317,27 @@
                 Multiple DSC analysis have been conducted and specimens have been catalogued with the following ID: 
 
                 \begin{equation}
-                    ID = xDSC_{(n ^{\circ}C/min)}-NN
+                    ID = xDSC_{NN}
                     \label{eq:DSC_ID}
                 \end{equation}
 
-                where x is either \textit{P} for pellet or \textit{p} for powder, n is the temperature range, and NN is the sample's absolute 
+                where x is either \textit{g} for granule or \textit{p} for powder, and NN is the sample's absolute 
                 ascending time number. \\
 
                 The specimens have been catalogued as follows: 
 
                 \begin{table}[h!]
-                    \resizebox{\textwidth}{!}{%
+                    \centering
+                    \resizebox{0.8\textwidth}{!}{%
                     \begin{tabular}{@{}cccccc@{}}
                     \toprule
-                    \textbf{ID}                 & \textit{Weight {[}mg{]}} & \textit{Temperature ramp {[}°C/min{]}} & Type                \\ \midrule
-                    $PDSC_{(10 \ ^{\circ}C/min)}-01$ & 8.5000                   & 10                           & pellet               \\
-                    $pDSC_{(10 \ ^{\circ}C/min)}-02$ & 8.0000                   & 10                           & powder                \\
+                    \textbf{ID}                 & \textit{Weight {[}mg{]}} & \textit{Temperature ramp {[}°C/min{]}}  \\ \midrule
+                    $gDSC_{01}$                 & 8.5000                   & 10.0000                                       \\
+                    $pDSC_{02}$                 & 8.0000                   & 10.0000                                        \\
                     \bottomrule
                     \end{tabular}% 
                     }
-              \caption{DSC specimens}
+              \caption{Selected DSC specimens representing a granule and a powder sample}
               \label{tab:DSC_ID}
               \end{table} 
 
@@ -1387,11 +1389,11 @@
             The specimens that have undergone a TGA analysis have been assigned an ID with the following criteria:
 
                 \begin{equation}
-                    ID = x-TGA_{NN}
+                    ID = xTGA_{NN}
                     \label{eq:TGA_ID}
                 \end{equation}
 
-            where $x$ is the specimen type (pellet, powder or sintered), $TGA$ is the analysis type and $NN$ is the sample number. \\
+            where $x$ is the specimen type (granule, powder or sintered), and $NN$ is the sample number. \\
 
             The specimens have been catalogued in the following table:
 
@@ -1401,10 +1403,10 @@
                         \begin{tabular}{@{}ccc@{}}
                         \toprule
                         \textbf{ID}  & Type     & Weight {[}mg{]} \\ \midrule
-                        $P-TGA_{01}$ & pellet   & 29.0641         \\
-                        $p-TGA_{02}$ & powder   & 15.4821         \\
-                        $p-TGA_{03}$ & powder   & 38.2253         \\
-                        $s-TGA_{04}$ & sintered & 10.5330         \\ \bottomrule
+                        $gTGA_{01}$ & pellet    & 29.0641         \\
+                        $pTGA_{02}$ & powder    & 15.4821         \\
+                        $pTGA_{03}$ & powder    & 38.2253         \\
+                        $sTGA_{04}$ & sintered  & 10.5330         \\ \bottomrule
                         \end{tabular}%
                         }
                         \caption{TGA specimens}
@@ -1461,7 +1463,7 @@
         dried, before being tested, as residual moisture negatively impacts the flowability), 
         using a 100 mL graduated cylinder, following the steps described for procedure \textit{b}. \\
 
-        The Hausner Ratio is evaluated with the equation described in previous chapters (\ref{eq:Hausner_ratio}, \ref{Powder_requirements}), 
+        The Hausner Ratio is evaluated with the equation described in previous chapters \ref{eq:Hausner_ratio}, \ref{Powder_requirements}, 
         and the packing factor is evaluated with the following equation: 
 
             \begin{equation}
@@ -1471,7 +1473,7 @@
 
         where $\rho_{bulk}$ is the bulk density and $\rho$ is the true material density. \\
 
-        As previously mentioned in (\ref{Powder_requirements}) and according to the available literature, the Hausner Ratio of the powder should 
+        As previously mentioned in \ref{Powder_requirements} and according to the available literature, the Hausner Ratio of the powder should 
         be ideally below 1.4 \autocites{doi:10.1063/1.4918516}, which is consistent with the experimental findings. \\  
 
         \clearpage
@@ -1512,89 +1514,89 @@
       \subsection{SEM Results\label{SEM_analysis_results}}
 
                 
-      The FIB-SEM instrument has produced a total of 12 different images, which are shown below: \\
+      The FIB-SEM instrument has produced a total of 12 different images \autocites{Pixelmator_Pro}{GIMP}, which are shown below: \\
 
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_01.eps}
-              \caption{Enhanced SEM image, $SEM_{01}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{01}$ with a 461X magnification factor}
               \label{fig:SEM_01}
           \end{figure}
 
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_02.eps}
-              \caption{Enhanced SEM image, $SEM_{02}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{02}$ with a 461X magnification factor}
               \label{fig:SEM_02}
           \end{figure}
 
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_03.eps}
-              \caption{Enhanced SEM image, $SEM_{03}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{03}$ with a 461X magnification factor}
               \label{fig:SEM_03}
           \end{figure}
 
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/05_03.eps}
-              \caption{Enhanced SEM image, $SEM_{04}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{04}$ with a 461X magnification factor}
               \label{fig:SEM_04}
           \end{figure}
       
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_01.eps}
-              \caption{Enhanced SEM image, $SEM_{05}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{05}$ with a 461X magnification factor}
               \label{fig:SEM_05}
           \end{figure}
       
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_03.eps}
-              \caption{Enhanced SEM image, $SEM_{06}-461X_{(SE1)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{06}$ with a 461X magnification factor}
               \label{fig:SEM_06}
           \end{figure}
       
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_01.eps}
-              \caption{Enhanced SEM image, $SEM_{07}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{07}$ with an 800X magnification factor}
               \label{fig:SEM_07}
           \end{figure}
       
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_02.eps}
-              \caption{Enhanced SEM image, $SEM_{08}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{08}$ with an 800X magnification factor}
               \label{fig:SEM_08}
           \end{figure}
       
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_03.eps}
-              \caption{Enhanced SEM image, $SEM_{09}-800X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{09}$ with an 800X magnification factor}
               \label{fig:SEM_09}
           \end{figure}
 
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_04.eps}
-              \caption{Enhanced SEM image, $SEM_{10}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{10}$ with a 400X magnification factor}
               \label{fig:SEM_10}
           \end{figure}
 
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_05.eps}
-              \caption{Enhanced SEM image, $SEM_{11}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{11}$ with a 400X magnification factor}
               \label{fig:SEM_11}
           \end{figure}
 
           \begin{figure}[h!]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_06.eps}
-              \caption{Enhanced SEM image, $SEM_{12}-400X_{(VPSE \ G4)}$ \autocites{Pixelmator_Pro}{GIMP}}
+              \caption{Enhanced SEM image, $SEM_{12}$ with a 400X magnification factor}
               \label{fig:SEM_12}
           \end{figure}
 
@@ -1640,15 +1642,15 @@
   
       \clearpage
   
-      The results of the granulometry analysis showcase particle sizes compatible with SLS powder requirements (\ref{Powder_requirements}), 
+      The results of the granulometry analysis showcase particle sizes compatible with SLS powder requirements explained in chapter \ref{Powder_requirements}, 
       as well as a great particle circularity distribution, which is consistent with the findings of the 
-      SEM analysis \ref{SEM_analysis_results}. \\
+      SEM analysis reported in section \ref{SEM_analysis_results}. \\
   
       The average particle diameter is 64.4222 $\mu m$, with a count of 144 over a total of more 
-      than 3000 analyzed particles \ref{fig:particle_size_distribution}. \\ 
+      than 3000 analyzed particles, as shown in figure \ref{fig:particle_size_distribution}. \\ 
   
       The average circularity is extremely close to a perfectly spherical shape, with a 
-      mean value of roughly 0.98 \ref{fig:circularity_distribution}. \\ 
+      mean value of roughly 0.98, as clearly visible in figure \ref{fig:circularity_distribution}. \\ 
 
       \clearpage
 
@@ -1757,8 +1759,8 @@
                         \begin{tabular}{@{}cccccccccccc@{}}
                         \toprule
                         \textit{\textbf{ID}} & \textit{$\Delta H_c \ [J/g]$} & \textit{$T_{c}^{peak} \ [^{\circ}C]$} & \textit{$T_g \ [^{\circ}C]$} & \textit{$T_{cc}^{peak} \ [^{\circ}C]$} & \textit{$\Delta H_{cc} \ [J/g]$} & \textit{$\Delta H_m \ [J/g]$} & \textit{$T_{m1}^{onset} \ [^{\circ}C]$} & \textit{$T_{m1}^{peak} \ [^{\circ}C]$} & \textit{$T_{m2}^{onset} \ [^{\circ}C]$} & \textit{$T_{m2}^{peak} \ [^{\circ}C]$} & \textit{$X_c \ [\%]$} \\ \midrule
-                        PDSC                 & 10.633                        & 48.687                                & 2.087                        & 49.117                                 & 34.847                           & 48.753                        & 103.022                                 & 107.990                                & 110.579                                 & 128.554                                & 11.281                \\
-                        pDSC                 & 12.788                        & 48.254                                & 1.939                        & 50.164                                 & 26.476                           & 43.124                        & 100.164                                 & 108.164                                & 113.164                                 & 127.164                                & 14.555                \\ \bottomrule
+                        gDSC                 & 11                            & 49                                    & 2                            & 49                                     & 36                               & 49                            & 103                                     & 108                                & 111                                         & 129                                    & 11                    \\
+                        pDSC                 & 13                            & 48                                    & 2                            & 50                                     & 27                               & 43                            & 100                                     & 108                                & 113                                         & 127                                    & 15                    \\ \bottomrule
                         \end{tabular}%
                     }
                     \caption{Results of the DSC analysis showcasing phase transition points, enthalpies and crystallinity of the material}
@@ -1773,26 +1775,26 @@
         \begin{figure}[h!]
             \centering
             \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/P-TGA01.eps}
-            \caption{TGA analysis of pellet sample $P-TGA_{01}$ (\ref{tab:TGA_specimens})}
+            \caption{TGA analysis of pellet sample $gTGA_{01}$ (\ref{tab:TGA_specimens})}
             \label{fig:TGA_01}
         \end{figure}
         \begin{figure}[h!]
             \centering
             \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/p-TGA02.eps}
-            \caption{TGA analysis of powder sample $p-TGA_{02}$ (\ref{tab:TGA_specimens})}
+            \caption{TGA analysis of powder sample $pTGA_{02}$ (\ref{tab:TGA_specimens})}
             \label{fig:TGA_02}
         \end{figure}
         \begin{figure}[h!]
             \centering
             \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/p-TGA03.eps}
-            \caption{TGA analysis of powder sample $p-TGA_{03}$ (\ref{tab:TGA_specimens})}
+            \caption{TGA analysis of powder sample $pTGA_{03}$ (\ref{tab:TGA_specimens})}
             \label{fig:TGA_03}
         \end{figure}
 
             \begin{figure}[h!]
                 \centering
                 \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/s-TGA04.eps}
-                \caption{TGA analysis of sintered sample $s-TGA_{04}$ (\ref{tab:TGA_specimens})}
+                \caption{TGA analysis of sintered sample $sTGA_{04}$ (\ref{tab:TGA_specimens})}
                 \label{fig:TGA_04}
             \end{figure}
 
@@ -1804,9 +1806,17 @@
             The TGA curves show an exponentially incresing weight loss, with very similar slopes, and the additional 
             first derivative showcases a consistent behaviour among all samples, with clear degradation peaks at approximately 
             the same temperature values. \\ 
-            
 
+            As a further testimony of the consistent thermal behaviour of the biopolymer along the entire pipeline, the overlap of the
+            TGA curves of the pellet, powder and sintered samples is shown in the following figure:
 
+            %\begin{figure}[h!]
+            %    \centering
+            %    \includegraphics[width=0.5\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/TGA_overlapped.eps}
+            %    \caption{Consistent results of the TGA analysis of the pellet, powder and sintered samples}
+            %    \label{fig:TGA_overlapped}
+            %\end{figure}
+            %crea il nuovo plot con le 3 tga e mettile qui 
 
 
 
@@ -1824,7 +1834,7 @@
 
                 \begin{figure}[h!]
                     \centering
-                    \includegraphics[width=0.5\textwidth]{Pictures/PHBH_collected_powder.eps}
+                    \includegraphics[width=0.5\textwidth]{Pictures/PHBH_dried_powder.eps}
                     \caption{SLS ready powder batch}
                     \label{fig:PHBH_collected_powder}
                     
@@ -1858,7 +1868,7 @@
         they are handled as bezier curves. \\
 
         This approach is particularly useful for this case study, where planar complex geometries better suit the SLS printing process
-        with low powder availability and low printing volumes. As seen in (\ref{Printed_samples}), the SLS printed parts 
+        with low powder availability and low printing volumes. As seen in \ref{Printed_samples}, the SLS printed parts 
         are extremely small, with heights in the order of millimeters. \\
         
         Working with planar geometries also allows to easily create very intricate 3D models, by simply extruding the 2D SVG file, 
@@ -1961,7 +1971,7 @@
         up for three layers, without any laser hatching, to allow the powder to settle and to avoid 
         powder sheeting. \\ 
         A higher number of warming layers might be needed for larger prints, but it has not been tested 
-        (\ref{3D_model_creation}). \\
+        \ref{3D_model_creation}. \\
 
         Once the environment temperature has been set in the desired range (ideally within the theoretical 
         sintering window), the printer ramps it up in gradual steps, until the target is reached.  
@@ -2257,6 +2267,7 @@
 
 
     \clearpage
+
 
     \printbibliography
 \end{document}
