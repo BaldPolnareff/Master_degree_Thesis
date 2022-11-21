@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber Final"] 1668990390 "Final.bcf" "Final.bbl" "Final" 1669051891
-  "/home/giorgio/Bibliography/bibliography.bib" 1668385992 31583 2d9012507dc97af6132bd3c5822eacd6 ""
+["biber Final"] 1669065785 "Final.bcf" "Final.bbl" "Final" 1669065785
+  "/home/giorgio/Bibliography/bibliography.bib" 1669065784 31908 054552de2c6553943c7dd73af33d0737 ""
   "Final.bcf" 1669051891 116097 988733a7281b5868753c0554b76e54bf "pdflatex"
   (generated)
   "Final.bbl"
   "Final.blg"
-["pdflatex"] 1669051886 "/home/giorgio/Master_degree_Thesis/Latex/Final_thesis_document/Final.tex" "Final.pdf" "Final" 1669051891
+["pdflatex"] 1669051886 "/home/giorgio/Master_degree_Thesis/Latex/Final_thesis_document/Final.tex" "Final.pdf" "Final" 1669065785
   "/home/giorgio/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1666715532 1343369 79b4fa7aaef8742bbc57cfc8de7128cd ""
   "/home/giorgio/Master_degree_Thesis/Latex/Final_thesis_document/Final.tex" 1669051884 137778 95ee64829fb80f3c37997f4476b4de76 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -204,7 +204,7 @@
   "/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1666721076 5128886 bee8a469c671f29d2f051530537fbbf8 ""
   "Final.acr" 0 -1 0 ""
   "Final.aux" 1669051891 40829 1af71c31e27a9f5d278a7d2c7a49346e "pdflatex"
-  "Final.bbl" 1668990391 47621 c2f4b3a612a41f8ec4ceaf44df2e7d23 "biber Final"
+  "Final.bbl" 1669065785 47621 c2f4b3a612a41f8ec4ceaf44df2e7d23 "biber Final"
   "Final.gls" 0 -1 0 ""
   "Final.glsdefs" 1668388416 1280 976918a2171b620b4bf297eccb29d11e ""
   "Final.lof" 1669051891 6707 53b5c101e8fd2b9c0576cb60e7e117b4 "pdflatex"

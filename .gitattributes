@@ -1,1 +1,2 @@
 Latex/Final_thesis_document/Final.pdf filter=lfs diff=lfs merge=lfs -text
+Latex/Final_thesis_document/Pictures/Printed_parts/Fixed/allsamples.svg filter=lfs diff=lfs merge=lfs -text
