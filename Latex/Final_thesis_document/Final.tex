@@ -2087,28 +2087,29 @@
         have been catalogued with the following criteria: 
 
         \begin{equation}
-            NN-filename_{type}
+            NN-SLS_{MM}
             \label{eq:SLS_specimen_notation}
         \end{equation}
 
         where: 
 
-        NN is the number of layers and the type is either \textit{filled} or \textit{thin} for densely filled and hollow geometries, respectively. \\ 
+        NN is the number of layers and MM is the sequential number of the sample, respectively. \\ 
 
     \begin{table}[h!]
+        \centering
         \resizebox{\textwidth}{!}{%
         \begin{tabular}{@{}cccccc@{}}
             \toprule
-            \textbf{ID}               & \textit{Type} & \textit{Layers} & \textit{Bounding box size {[}mm{]}} & \textit{Laser power {[}$[\%]${]}} & \textit{Environment temperature {[}$[ ^{\circ}C]${]}} \\ \midrule
-            $15-dragonlogo_{filled}   $ & Filled        & 15              & 22x15.69x2                          & 25                            & 90                                       \\
-            $15-hexagon_{filled}      $ & Filled        & 15              & 30x30x2                             & 25                            & 95                                       \\
-            $55-octagonholes_{thin}   $ & Thin walls    & 55              & 30x30x8                             & 35                            & 95                                       \\
-            $01-square_{filled}       $ & Filled        & 01              & 20x20x0.15                          & 25                            & 85                                       \\
-            $50-boat_{thin}           $ & Thin walls    & 50              & 40x15x7                             & 30                            & 90                                       \\
-            $10-DMA01_{filled}        $ & Filled        & 10              & 30x10x1                             & 25                            & 90                                       \\
-            $15-DMA02_{filled}        $ & Filled        & 15              & 50x10x1                             & 25                            & 90                                       \\
-            $15-organicpattern_{thin} $ & Thin walls    & 15              & 30x30x2                             & 35                            & 87                                       \\ \bottomrule
-        \end{tabular}%
+            \textbf{ID}        & \textit{Layers}  & \textit{Laser power {[}$\%${]}} & \textit{Environment temperature {[}$ ^{\circ}C${]}} \\ \midrule
+            $15-SLS_{01}$      & 15               & 25                              & 90                                                  \\
+            $15-SLS_{02}$      & 15               & 25                              & 95                                                  \\
+            $55-SLS_{03}$      & 55               & 35                              & 95                                                  \\
+            $01-SLS_{04}$      & 01               & 25                              & 85                                                  \\
+            $50-SLS_{05}$      & 50               & 30                              & 90                                                  \\
+            $10-SLS_{06}$      & 10               & 25                              & 90                                                  \\
+            $15-SLS_{07}$      & 15               & 25                              & 90                                                  \\
+            $15-SLS_{08}$      & 15               & 35                              & 87                                                  \\ \bottomrule
+        \end{tabular}%           
         }
     \caption{A list of the most relevant 3D printed specimens}
     \label{tab:SLS_samples}
