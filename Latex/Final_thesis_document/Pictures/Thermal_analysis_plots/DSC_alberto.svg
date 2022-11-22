@@ -26,9 +26,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.4227187"
-     inkscape:cx="443.86848"
-     inkscape:cy="424.18785"
+     inkscape:zoom="1.006014"
+     inkscape:cx="280.31418"
+     inkscape:cy="360.33294"
      inkscape:window-width="3824"
      inkscape:window-height="2067"
      inkscape:window-x="26"
@@ -178,6 +178,24 @@
        width="166.99568"
        height="47.216042"
        id="rect194480" />
+    <rect
+       x="960.72217"
+       y="199.7984"
+       width="166.99568"
+       height="47.216042"
+       id="rect121055" />
+    <rect
+       x="960.72217"
+       y="199.7984"
+       width="166.99568"
+       height="47.216042"
+       id="rect121686" />
+    <rect
+       x="960.72217"
+       y="199.7984"
+       width="166.99568"
+       height="47.216042"
+       id="rect122017" />
   </defs>
   <g
      fill="none"
@@ -584,50 +602,6 @@
      style="fill-rule:evenodd" />
   <g
      fill="none"
-     stroke="#a2a39c"
-     stroke-opacity="1"
-     stroke-width="1.76389"
-     stroke-linecap="square"
-     stroke-linejoin="bevel"
-     transform="matrix(0.358095,0,0,0.358095,247.08555,358.095)"
-     font-family="Cantarell"
-     font-size="11px"
-     font-weight="400"
-     font-style="normal"
-     opacity="0.5"
-     id="g128444"
-     style="fill-rule:evenodd">
-    <path
-       vector-effect="none"
-       fill-rule="evenodd"
-       d="M -321.555,850 V -850 m 214.37,1700 V -850 M 107.185,850 V -850 M 321.555,850 V -850"
-       id="path128442" />
-  </g>
-  <g
-     fill="none"
-     stroke="#a0a0a0"
-     stroke-opacity="1"
-     stroke-dasharray="1.76389, 3.52778"
-     stroke-dashoffset="0"
-     stroke-width="1.76389"
-     stroke-linecap="square"
-     stroke-linejoin="bevel"
-     transform="matrix(0.358095,0,0,0.358095,247.08555,358.095)"
-     font-family="Cantarell"
-     font-size="11px"
-     font-weight="400"
-     font-style="normal"
-     opacity="0.5"
-     id="g128448"
-     style="fill-rule:evenodd">
-    <path
-       vector-effect="none"
-       fill-rule="evenodd"
-       d="M -428.74,850 V -850 M -214.37,850 V -850 M 0,850 V -850 M 214.37,850 V -850 M 428.74,850 V -850"
-       id="path128446" />
-  </g>
-  <g
-     fill="none"
      stroke="#000000"
      stroke-opacity="1"
      stroke-width="1"
@@ -682,50 +656,6 @@
      font-style="normal"
      id="g128456"
      style="fill-rule:evenodd" />
-  <g
-     fill="none"
-     stroke="#a2a39c"
-     stroke-opacity="1"
-     stroke-width="1.76389"
-     stroke-linecap="square"
-     stroke-linejoin="bevel"
-     transform="matrix(0.358095,0,0,0.358095,247.08555,358.095)"
-     font-family="Cantarell"
-     font-size="11px"
-     font-weight="400"
-     font-style="normal"
-     opacity="0.5"
-     id="g128460"
-     style="fill-rule:evenodd">
-    <path
-       vector-effect="none"
-       fill-rule="evenodd"
-       d="M -535.925,283.333 H 535.925 M -535.925,-283.333 H 535.925"
-       id="path128458" />
-  </g>
-  <g
-     fill="none"
-     stroke="#a0a0a0"
-     stroke-opacity="1"
-     stroke-dasharray="1.76389, 3.52778"
-     stroke-dashoffset="0"
-     stroke-width="1.76389"
-     stroke-linecap="square"
-     stroke-linejoin="bevel"
-     transform="matrix(0.358095,0,0,0.358095,247.08555,358.095)"
-     font-family="Cantarell"
-     font-size="11px"
-     font-weight="400"
-     font-style="normal"
-     opacity="0.5"
-     id="g128464"
-     style="fill-rule:evenodd">
-    <path
-       vector-effect="none"
-       fill-rule="evenodd"
-       d="M -535.925,566.667 H 535.925 M -535.925,0 h 1071.85 m -1071.85,-566.667 h 1071.85"
-       id="path128462" />
-  </g>
   <g
      fill="none"
      stroke="#000000"
@@ -796,13 +726,13 @@
      font-style="normal"
      opacity="0.4"
      id="g128476"
-     style="fill:url(#linearGradient134641);fill-rule:evenodd">
+     style="fill:url(#linearGradient134641);fill-rule:evenodd;stroke:none">
     <path
        vector-effect="none"
        fill-rule="evenodd"
        d="m -448.582,-55.9038 4.287,-1.1106 4.288,-0.714 4.287,-0.3797 4.287,-0.3853 4.288,-0.2777 4.287,-0.3003 4.288,-0.459 4.287,-0.425 4.287,-0.4534 4.288,-0.4193 4.287,-0.4873 4.288,-0.5327 4.287,-0.4477 4.287,-0.527 4.288,-0.7026 4.287,-0.8387 4.288,-0.901 4.287,-1.207 4.287,-1.1843 4.288,-1.496 4.287,-1.6264 4.288,-1.5186 4.287,-2.1024 4.287,-2.839 4.288,-2.7993 4.287,-3.111 4.288,-3.383 4.287,-4.097 4.287,-3.315 4.288,-3.2413 4.287,-2.8726 4.288,-2.539 4.287,-2 4.287,-1.423 4.288,-1.02 4.287,-0.85 4.288,-0.85 4.287,-0.991 4.287,-0.85 4.288,-0.624 4.287,-0.51 4.288,-0.606 4.287,-0.731 4.287,-0.635 4.288,-0.572 4.287,-0.714 4.288,-0.901 4.287,-0.907 4.287,-0.952 4.288,-1.099 4.287,-1.094 4.288,-1.059 4.287,-1.326 4.287,-1.763 4.288,-2.21 4.287,-1.955 4.288,-2.085 4.287,-2.38 4.287,-2.89 4.288,-3.111 4.287,-3.598 4.288,-3.338 4.287,-3.661 4.287,-4.17 4.288,-4.313 4.287,-4.442 4.288,-4.828 4.287,-4.63 4.287,-4.012 4.288,-4.199 4.287,-3.508 4.288,-2.453 4.287,-2.358 4.287,-1.717 4.288,-0.685 4.287,1.048 4.288,2.624 4.287,3.377 4.287,4.267 4.288,5.366 4.287,5.933 4.2876,5.548 4.2874,5.259 4.2874,4.896 4.2874,3.218 4.2874,2.335 4.2874,1.434 4.2874,0.402 4.2874,0.17 4.2874,0.295 4.2874,0.283 4.2874,1.02 4.2874,1.961 4.2874,1.722 4.2874,1.185 4.2874,0.362 4.2874,0.017 4.2874,-0.113 4.2874,-0.34 4.2874,-0.385 4.2874,-0.148 4.2874,-0.039 4.28735,-0.21 4.2874,-0.448 4.2874,-0.425 4.2874,-0.232 4.28745,-0.221 4.2874,-0.295 4.2874,-0.232 4.2874,-0.204 4.2874,-0.238 4.2874,-0.425 4.2874,-0.601 4.2874,-0.419 4.2874,-0.21 4.2874,-0.272 4.2874,-0.317 4.2874,-0.351 4.2874,-0.403 4.2874,-0.408 4.2874,-0.357 4.2874,-0.266 4.2874,-0.198 4.2874,-0.233 4.2874,-0.436 4.2874,-0.391 4.2874,-0.17 4.2874,-0.091 4.287,-0.368 4.288,-0.567 4.287,-0.396 4.288,-0.318 4.287,-0.232 4.287,-0.13 4.288,-0.159 4.287,-0.414 4.288,-0.515 4.287,-0.397 4.287,-0.363 4.288,-0.3 4.287,-0.204 4.288,-0.238 4.287,-0.3 4.287,-0.318 4.288,-0.192 4.287,-0.097 4.288,-0.328 4.287,-0.629 4.287,-0.578 4.288,-0.295 4.287,-0.193 4.288,-0.158 4.287,-0.114 4.287,-0.272 4.288,-0.464 4.287,-0.488 4.288,-0.549 4.287,-0.561 4.287,-0.261 4.288,0.368 4.287,0.352 4.288,-0.023 4.287,-0.487 4.287,-0.935 4.288,-0.93 4.287,-1.031 4.288,-0.402 4.287,1.082 4.287,1.519 4.288,0.26 4.287,-0.98 4.288,-1.326 4.287,-1.207 4.287,-0.895 4.288,-0.425 4.287,0.124 4.288,0.442 4.287,0.51 4.287,-0.011 4.288,-0.929 4.287,-1.151 4.288,-0.408 4.287,-0.119 4.287,-0.005 4.288,-0.244 4.287,-0.578 4.288,-0.153 4.287,0.215 4.287,-0.096 4.288,-0.436 4.287,-0.743 4.288,-1.042 4.287,-0.425 4.287,0.6 4.288,0.816 4.287,1.1 4.288,-0.488 4.287,-4.437 4.287,-7.706 4.288,-1.309 4.287,4.267 4.288,19.674 4.287,18.672 4.287,-12.586 4.288,-54.921 4.287,-55.958 4.288,-23.732 4.287,27.506 4.287,105.201 V 850 H -448.582 V -55.9038"
        id="path128474"
-       style="fill:url(#linearGradient134639)" />
+       style="fill:url(#linearGradient134639);stroke:none" />
   </g>
   <g
      fill="none"
@@ -866,13 +796,13 @@
      font-style="normal"
      opacity="0.4"
      id="g128488"
-     style="fill:url(#linearGradient134645);fill-rule:evenodd">
+     style="fill:url(#linearGradient134645);fill-rule:evenodd;stroke:none">
     <path
        vector-effect="none"
        fill-rule="evenodd"
        d="m -447.616,49.4652 4.288,126.0638 4.287,-2.936 4.288,-5.202 4.287,-4.924 4.287,-3.457 4.288,-6.165 4.287,0.295 4.288,5.417 4.287,3.723 4.287,0.68 4.288,-1.258 4.287,-1.303 4.288,-0.391 4.287,0.702 4.287,1.145 4.288,0.623 4.287,0.148 4.288,-0.006 4.287,0.408 4.287,0.878 4.288,0.743 4.287,0.589 4.288,0.856 4.287,1.53 4.287,2.295 4.288,2.708 4.287,3.043 4.288,3.599 4.287,8.925 4.287,10.466 4.288,14.093 4.287,7.616 4.288,-3.984 4.287,-4.873 4.287,-1.043 4.288,-0.714 4.287,-0.923 4.288,-0.522 4.287,0.346 4.287,0.663 4.288,-0.028 4.287,-0.25 4.288,-0.255 4.287,0.04 4.287,0.436 4.288,0.187 4.287,-0.317 4.288,-0.544 4.287,-0.176 4.287,0.187 4.288,-0.073 4.287,-0.788 4.288,-1.286 4.287,-1.122 4.287,-0.629 4.288,-0.629 4.287,-1.496 4.288,-2.001 4.287,-1.915 4.287,-1.405 4.288,-1.247 4.287,-2.114 4.288,-3.156 4.287,-3.315 4.287,-3.372 4.288,-3.179 4.287,-3.57 4.288,-5.468 4.287,-6.658 4.287,-7.786 4.288,-8.483 4.287,-7.747 4.288,-10.596 4.287,-12.733 4.287,-14.858 4.288,-16.3859 4.287,-14.9309 4.288,-11.8315 4.287,-8.3638 4.287,0.2795 4.288,10.8551 4.2871,20.9653 4.2874,25.2372 4.2874,24.469 4.2874,20.558 4.2874,15.317 4.2874,10.212 4.2874,8.505 4.2874,5.854 4.2874,2.822 4.2874,1.825 4.2874,2.181 4.2874,2.635 4.2874,1.972 4.2874,1.298 4.2874,1.014 4.2874,1.173 4.2874,1.899 4.2874,2.085 4.2874,1.241 4.2874,0.737 4.2874,0.946 4.2874,1.774 4.2874,2.521 4.2874,2.114 4.2874,1.252 4.2874,0.935 4.2874,1.479 4.2874,2.579 4.2874,2.714 4.2874,1.881 4.2874,1.423 4.2874,1.643 4.2874,2.25 4.2874,3.003 4.2874,2.816 4.2874,1.95 4.2874,1.309 4.2874,1.275 4.2874,1.96 4.2874,2.312 4.2874,1.763 4.2874,1.416 4.2874,1.468 4.2874,1.859 4.2874,3.077 4.2874,3.723 4.2879,3.173 4.287,2.771 4.287,2.692 4.288,3.043 4.287,5.315 4.288,7.605 4.287,7.587 4.287,7.14 4.288,7.123 4.287,5.282 4.288,0.793 4.287,-7.015 4.287,-15.89 4.288,-14.631 4.287,-8.2 4.288,-1.207 4.287,7.248 4.287,11.747 4.288,10.506 4.287,10.523 4.288,12.574 4.287,13.34 4.287,16.535 4.288,14.807 4.287,9.684 4.288,6.857 4.287,7.854 4.287,6.828 4.288,7.067 4.287,3.49 4.288,-4.68 4.287,-10.104 4.287,-13.736 4.288,-17.822 4.287,-16.705 4.288,-18.796 4.287,-22.316 4.287,-21.522 4.288,-16.711 4.287,-11.435 4.288,-5.616 4.287,-5.009 4.287,-3.933 4.288,-2.567 4.287,-1.178 4.288,1.076 4.287,1.44 4.287,-0.323 4.288,-1.122 4.287,-0.918 4.288,0.164 4.287,1.609 4.287,1.134 4.288,-0.267 4.287,-0.753 4.288,-0.437 4.287,0.148 4.287,1.11 4.288,0.918 4.287,-0.068 4.288,-0.459 4.287,-0.453 4.287,0.096 4.288,1.281 4.287,1.167 4.288,-0.045 4.287,-0.703 4.287,-0.782 4.288,-0.413 4.287,1.156 4.288,1.405 4.287,0.278 4.287,0.209 4.288,-0.572 4.287,-1.411 4.288,0.317 4.287,1.802 4.287,1.009 4.288,-0.51 4.287,-1.048 4.288,-0.601 4.287,0.516 V 850 H -447.616 V 49.4652"
        id="path128486"
-       style="fill:url(#linearGradient134643)" />
+       style="fill:url(#linearGradient134643);stroke:none" />
   </g>
   <g
      fill="none"
@@ -1321,7 +1251,7 @@
      style="fill-rule:evenodd" />
   <g
      id="g152368"
-     transform="matrix(0.62235106,0,0,0.62235106,139.32146,172.69415)"
+     transform="matrix(0.62235106,0,0,0.62235106,113.75423,197.68454)"
      style="stroke-width:1.60681">
     <rect
        style="opacity:1;fill:#272822;fill-opacity:1;stroke:#a2a39c;stroke-width:1.48485;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stop-color:#000000"
@@ -1332,13 +1262,13 @@
        y="366.58331" />
     <g
        id="g152356"
-       transform="translate(-5.2210424,-2.3603685)"
-       style="stroke-width:1.60681">
+       transform="matrix(1.3599278,0,0,1.3599278,-134.96267,-138.14719)"
+       style="stroke-width:1.18154">
       <g
          fill="none"
          stroke="#a2a39c"
          stroke-opacity="1"
-         stroke-width="1.60681"
+         stroke-width="1.18154"
          stroke-linecap="square"
          stroke-linejoin="bevel"
          transform="matrix(1.26328,0,0,1.26328,333.737,365.514)"
@@ -1353,70 +1283,16 @@
            fill-opacity="1"
            stroke="none"
            xml:space="preserve"
-           x="4"
-           y="12"
+           x="13.212499"
+           y="11.4254"
            font-family="Cantarell"
            font-size="6px"
            font-weight="400"
            font-style="normal"
            id="text128588"
-           style="stroke-width:2.58184">113.164 </text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1.60681"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,333.737,365.514)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128598"
-         style="fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="31.8281"
-           y="8.5"
-           font-family="Cantarell"
-           font-size="4px"
-           font-weight="400"
-           font-style="normal"
-           id="text128596"
-           style="stroke-width:2.58184">o</text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1.60681"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,333.737,365.514)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128606"
-         style="fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="34.6563"
-           y="12"
-           font-family="Cantarell"
-           font-size="6px"
-           font-weight="400"
-           font-style="normal"
-           id="text128604"
-           style="stroke-width:2.58184">C</text>
+           style="stroke-width:1.89851">113 <tspan
+   style="font-size:65%;baseline-shift:super;stroke-width:1.89851"
+   id="tspan108262">o</tspan>C </text>
       </g>
     </g>
   </g>
@@ -1518,6 +1394,10 @@
      font-style="normal"
      id="g128620"
      style="fill-rule:evenodd" />
+  <path
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#a2a39c;fill-opacity:1;stroke:#a2a39c;stroke-width:0.726226;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     d="m 306.34418,455.36004 28.49692,-19.1791"
+     id="path118114" />
   <g
      fill="#e66100"
      fill-opacity="1"
@@ -1702,9 +1582,10 @@
      style="fill-rule:evenodd" />
   <g
      id="g144208"
-     transform="translate(-34.252443,-20.959691)">
+     transform="matrix(1.118167,0,0,1.1208891,-79.285259,-93.546756)"
+     style="stroke-width:0.893234">
     <rect
-       style="fill:#281919;fill-opacity:1;stroke:#ff0000;stroke-width:0.924097;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stop-color:#000000"
+       style="fill:#281919;fill-opacity:1;stroke:#ff0000;stroke-width:0.825435;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stop-color:#000000"
        id="rect144153"
        width="81.336967"
        height="26.662603"
@@ -1712,13 +1593,13 @@
        y="587.11218" />
     <g
        id="g144161"
-       transform="translate(17.784763,2.9013616)"
-       style="fill:#ff0000;fill-opacity:1">
+       transform="matrix(1.1297374,0,0,1.1297374,-29.350138,-74.622231)"
+       style="fill:#ff0000;fill-opacity:1;stroke-width:0.790657">
       <g
          fill="none"
          stroke="#a2a39c"
          stroke-opacity="1"
-         stroke-width="1"
+         stroke-width="0.790657"
          stroke-linecap="square"
          stroke-linejoin="bevel"
          transform="matrix(1.26328,0,0,1.26328,322.427,581.026)"
@@ -1733,70 +1614,18 @@
            fill-opacity="1"
            stroke="none"
            xml:space="preserve"
-           x="4"
-           y="17"
+           x="6.2592621"
+           y="15.673"
            font-family="Cantarell"
            font-size="10px"
            font-weight="400"
            font-style="normal"
            id="text128654"
-           style="fill:#ff0000;fill-opacity:1">127.164 </text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,322.427,581.026)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128664"
-         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="50.0938"
-           y="12"
-           font-family="Cantarell"
-           font-size="6px"
-           font-weight="400"
-           font-style="normal"
-           id="text128662"
-           style="fill:#ff0000;fill-opacity:1">o</text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,322.427,581.026)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128672"
-         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="54.625"
-           y="17"
-           font-family="Cantarell"
-           font-size="10px"
-           font-weight="400"
-           font-style="normal"
-           id="text128670"
-           style="fill:#ff0000;fill-opacity:1">C</text>
+           style="fill:#ff0000;fill-opacity:1;stroke-width:0.675651">T<tspan
+   style="font-size:65%;baseline-shift:sub;stroke-width:0.790657"
+   id="tspan108768">m2</tspan> = 127 <tspan
+   style="font-size:65%;baseline-shift:super;stroke-width:0.790657"
+   id="tspan108766">o</tspan>C </text>
       </g>
     </g>
   </g>
@@ -2072,12 +1901,13 @@
        y="565.39679" />
     <g
        id="g151420"
-       transform="translate(-1.4197071,1.7008979)">
+       transform="matrix(1.1647332,0,0,1.1647332,-25.926519,-92.528735)"
+       style="stroke-width:0.858566">
       <g
          fill="none"
          stroke="#a2a39c"
          stroke-opacity="1"
-         stroke-width="1"
+         stroke-width="0.858566"
          stroke-linecap="square"
          stroke-linejoin="bevel"
          transform="matrix(1.26328,0,0,1.26328,120.982,560.27)"
@@ -2092,67 +1922,18 @@
            fill-opacity="1"
            stroke="none"
            xml:space="preserve"
-           x="4"
-           y="12"
+           x="6.1018543"
+           y="10.84565"
            font-family="Cantarell"
            font-size="6px"
            font-weight="400"
            font-style="normal"
-           id="text128720">108.164 </text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,120.982,560.27)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128730"
-         style="fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="33.5"
-           y="8.5"
-           font-family="Cantarell"
-           font-size="4px"
-           font-weight="400"
-           font-style="normal"
-           id="text128728">o</text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,120.982,560.27)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128738"
-         style="fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="36.328098"
-           y="12"
-           font-family="Cantarell"
-           font-size="6px"
-           font-weight="400"
-           font-style="normal"
-           id="text128736">C</text>
+           id="text128720"
+           style="stroke-width:0.737135">T<tspan
+   style="font-size:65%;baseline-shift:sub;stroke-width:0.858566"
+   id="tspan107731">m1</tspan> = 108 <tspan
+   style="font-size:65%;baseline-shift:super;stroke-width:0.858566"
+   id="tspan107729">o</tspan>C </text>
       </g>
     </g>
   </g>
@@ -2632,100 +2413,50 @@
      font-style="normal"
      id="g128846"
      style="fill-rule:evenodd" />
-  <rect
-     style="fill:#272822;fill-opacity:1;stroke:#f9f06b;stroke-width:0.924094;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stop-color:#000000"
-     id="rect146958"
-     width="35.80608"
-     height="11.579844"
-     x="229.18251"
-     y="401.42957" />
   <g
-     id="g146966"
-     transform="matrix(0.63753413,0,0,0.62897707,30.518743,240.41838)"
-     style="fill:#f9f06b;fill-opacity:1;stroke-width:1.57918">
+     id="g118157"
+     transform="translate(-68.530728,60.505418)">
+    <rect
+       style="fill:#272822;fill-opacity:1;stroke:#f9f06b;stroke-width:0.924094;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stop-color:#000000"
+       id="rect146958"
+       width="35.80608"
+       height="11.579844"
+       x="229.18251"
+       y="401.42957" />
     <g
-       fill="none"
-       stroke="#a2a39c"
-       stroke-opacity="1"
-       stroke-width="1.57918"
-       stroke-linecap="square"
-       stroke-linejoin="bevel"
-       transform="matrix(1.26328,0,0,1.26328,311.393,253.447)"
-       font-family="Cantarell"
-       font-size="11px"
-       font-weight="400"
-       font-style="normal"
-       id="g128854"
-       style="fill:#f9f06b;fill-opacity:1;fill-rule:evenodd">
-      <text
-         fill="#a2a39c"
-         fill-opacity="1"
-         stroke="none"
-         xml:space="preserve"
-         x="4"
-         y="12"
+       id="g146966"
+       transform="matrix(0.92299607,0,0,0.91060751,-66.451095,165.7316)"
+       style="fill:#f9f06b;fill-opacity:1;stroke-width:1.09078">
+      <g
+         fill="none"
+         stroke="#a2a39c"
+         stroke-opacity="1"
+         stroke-width="1.09078"
+         stroke-linecap="square"
+         stroke-linejoin="bevel"
+         transform="matrix(1.26328,0,0,1.26328,311.393,253.447)"
          font-family="Cantarell"
-         font-size="6px"
+         font-size="11px"
          font-weight="400"
          font-style="normal"
-         id="text128852"
-         style="fill:#f9f06b;fill-opacity:1;stroke-width:1.83677">58.1643 </text>
-    </g>
-    <g
-       fill="none"
-       stroke="#a2a39c"
-       stroke-opacity="1"
-       stroke-width="1.57918"
-       stroke-linecap="square"
-       stroke-linejoin="bevel"
-       transform="matrix(1.26328,0,0,1.26328,311.393,253.447)"
-       font-family="Cantarell"
-       font-size="11px"
-       font-weight="400"
-       font-style="normal"
-       id="g128862"
-       style="fill:#f9f06b;fill-opacity:1;fill-rule:evenodd">
-      <text
-         fill="#a2a39c"
-         fill-opacity="1"
-         stroke="none"
-         xml:space="preserve"
-         x="34.078098"
-         y="8.5"
-         font-family="Cantarell"
-         font-size="4px"
-         font-weight="400"
-         font-style="normal"
-         id="text128860"
-         style="fill:#f9f06b;fill-opacity:1;stroke-width:1.83677">o</text>
-    </g>
-    <g
-       fill="none"
-       stroke="#a2a39c"
-       stroke-opacity="1"
-       stroke-width="1.57918"
-       stroke-linecap="square"
-       stroke-linejoin="bevel"
-       transform="matrix(1.26328,0,0,1.26328,311.393,253.447)"
-       font-family="Cantarell"
-       font-size="11px"
-       font-weight="400"
-       font-style="normal"
-       id="g128870"
-       style="fill:#f9f06b;fill-opacity:1;fill-rule:evenodd">
-      <text
-         fill="#a2a39c"
-         fill-opacity="1"
-         stroke="none"
-         xml:space="preserve"
-         x="36.9063"
-         y="12"
-         font-family="Cantarell"
-         font-size="6px"
-         font-weight="400"
-         font-style="normal"
-         id="text128868"
-         style="fill:#f9f06b;fill-opacity:1;stroke-width:1.83677">C</text>
+         id="g128854"
+         style="fill:#f9f06b;fill-opacity:1;fill-rule:evenodd">
+        <text
+           fill="#a2a39c"
+           fill-opacity="1"
+           stroke="none"
+           xml:space="preserve"
+           x="15.177502"
+           y="11.428414"
+           font-family="Cantarell"
+           font-size="6px"
+           font-weight="400"
+           font-style="normal"
+           id="text128852"
+           style="fill:#f9f06b;fill-opacity:1;stroke-width:1.2687">58 <tspan
+   style="font-size:65%;baseline-shift:super;stroke-width:1.2687"
+   id="tspan106690">o</tspan>C </text>
+      </g>
     </g>
   </g>
   <g
@@ -3045,102 +2776,6 @@
      id="g128928"
      style="fill-rule:evenodd" />
   <g
-     id="g146985"
-     transform="translate(-17.90445,-17.905)">
-    <rect
-       style="fill:#272822;fill-opacity:1;stroke:#a2a39c;stroke-width:0.924097;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stop-color:#000000"
-       id="rect135155"
-       width="48.286827"
-       height="15.828627"
-       x="123.41328"
-       y="291.92694" />
-    <g
-       id="g135101"
-       transform="translate(-0.16764218,0.09301351)">
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,122.407,288.001)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128936"
-         style="fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="4"
-           y="12"
-           font-family="Cantarell"
-           font-size="6px"
-           font-weight="400"
-           font-style="normal"
-           id="text128934">1.9389 </text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,122.407,288.001)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128944"
-         style="fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="29.5938"
-           y="8.5"
-           font-family="Cantarell"
-           font-size="4px"
-           font-weight="400"
-           font-style="normal"
-           id="text128942">o</text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,122.407,288.001)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128952"
-         style="fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="32.421902"
-           y="12"
-           font-family="Cantarell"
-           font-size="6px"
-           font-weight="400"
-           font-style="normal"
-           id="text128950">C</text>
-      </g>
-    </g>
-  </g>
-  <g
      fill="none"
      stroke="#000000"
      stroke-opacity="1"
@@ -3318,24 +2953,53 @@
        style="stroke:#b5e6ef;stroke-width:1.15572;stroke-dasharray:4.62289, 2.31144;stroke-dashoffset:0.809005;stroke-opacity:1" />
   </g>
   <g
-     fill="none"
-     stroke="#a2a39c"
-     stroke-opacity="1"
-     stroke-width="3.52778"
-     stroke-linecap="square"
-     stroke-linejoin="bevel"
-     transform="matrix(0.358095,0,0,0.358095,247.08555,358.095)"
-     font-family="Cantarell"
-     font-size="11px"
-     font-weight="400"
-     font-style="normal"
-     id="g128912"
-     style="fill-rule:evenodd">
-    <polyline
-       fill="none"
-       vector-effect="none"
-       points="-323.068,-188.591 -311.385,-102.597 "
-       id="polyline128910" />
+     id="g146985"
+     transform="matrix(0.85798502,0,0,0.85251648,-10.391755,32.588936)"
+     style="stroke-width:1.16925">
+    <rect
+       style="fill:#272822;fill-opacity:1;stroke:#a2a39c;stroke-width:1.0805;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stop-color:#000000"
+       id="rect135155"
+       width="48.286827"
+       height="15.828627"
+       x="123.41328"
+       y="291.92694" />
+    <g
+       id="g135101"
+       transform="matrix(1.4508576,0,0,1.4508576,-66.770279,-135.05076)"
+       style="stroke-width:0.805905">
+      <g
+         fill="none"
+         stroke="#a2a39c"
+         stroke-opacity="1"
+         stroke-width="0.805905"
+         stroke-linecap="square"
+         stroke-linejoin="bevel"
+         transform="matrix(1.26328,0,0,1.26328,122.407,288.001)"
+         font-family="Cantarell"
+         font-size="11px"
+         font-weight="400"
+         font-style="normal"
+         id="g128936"
+         style="fill-rule:evenodd">
+        <text
+           fill="#a2a39c"
+           fill-opacity="1"
+           stroke="none"
+           xml:space="preserve"
+           x="8.8568096"
+           y="10.415753"
+           font-family="Cantarell"
+           font-size="6px"
+           font-weight="400"
+           font-style="normal"
+           id="text128934"
+           style="stroke-width:0.512513">T<tspan
+   style="font-size:65%;baseline-shift:sub;stroke-width:0.512513"
+   id="tspan108770">g</tspan> = 2 <tspan
+   style="font-size:65%;baseline-shift:super;stroke-width:0.805905"
+   id="tspan105651">o</tspan>C </text>
+      </g>
+    </g>
   </g>
   <g
      fill="none"
@@ -3388,6 +3052,10 @@
        id="path128992"
        style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#e08286;stroke-width:1.15572;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:4.62289, 2.31144;stroke-dashoffset:0.809005;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
   </g>
+  <path
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#a2a39c;fill-opacity:1;stroke:#f9f06b;stroke-width:0.726226;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     d="m 221.90355,425.36753 -43.34873,36.56745"
+     id="path118183" />
   <g
      fill="none"
      stroke="#99c1f1"
@@ -3401,14 +3069,7 @@
      font-weight="400"
      font-style="normal"
      id="g128500"
-     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#a2a39c;stroke-width:2.09442px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1">
-    <polyline
-       fill="none"
-       vector-effect="none"
-       points="-180.5,34.8595 -104.624,51.7404 "
-       id="polyline128498"
-       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#a2a39c;stroke-width:2.09442px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
-  </g>
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#a2a39c;stroke-width:2.09442px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
   <g
      fill="none"
      stroke="#000000"
@@ -3437,13 +3098,6 @@
      font-style="normal"
      id="g128998"
      style="fill-rule:evenodd" />
-  <path
-     style="fill:none;fill-rule:evenodd;stroke:#f9f06b;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 285.64645,455.42938 269.18536,432.60921"
-     id="path154668"
-     inkscape:connector-type="polyline"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
   <rect
      style="font-variation-settings:normal;opacity:1;fill:url(#linearGradient149029);fill-opacity:1;stroke:none;stroke-width:0.566929;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:0.566929, 1.13386;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
      id="rect148969"
@@ -3451,107 +3105,6 @@
      height="247.15883"
      x="221.90355"
      y="415.74509" />
-  <g
-     id="g149532"
-     transform="matrix(0.69625205,0,0,0.6850372,166.19487,91.5875)"
-     style="stroke-width:1.44797">
-    <rect
-       style="opacity:1;fill:#272822;fill-opacity:1;stroke:#f9f06b;stroke-width:1.33806;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stop-color:#000000"
-       id="rect149510"
-       width="51.435905"
-       height="16.635118"
-       x="122.82486"
-       y="481.24435" />
-    <g
-       id="g149508"
-       transform="translate(3.6954875,4.0544721)"
-       style="fill:#f9f06b;fill-opacity:1;stroke-width:1.44797">
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1.44797"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,116.885,473.764)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128788"
-         style="fill:#f9f06b;fill-opacity:1;fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="4"
-           y="12"
-           font-family="Cantarell"
-           font-size="6px"
-           font-weight="400"
-           font-style="normal"
-           id="text128786"
-           style="fill:#f9f06b;fill-opacity:1;stroke-width:2.09662">100.164 </text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1.44797"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,116.885,473.764)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128796"
-         style="fill:#f9f06b;fill-opacity:1;fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="33.7813"
-           y="8.5"
-           font-family="Cantarell"
-           font-size="4px"
-           font-weight="400"
-           font-style="normal"
-           id="text128794"
-           style="fill:#f9f06b;fill-opacity:1;stroke-width:2.09662">o</text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1.44797"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,116.885,473.764)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128804"
-         style="fill:#f9f06b;fill-opacity:1;fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="36.609402"
-           y="12"
-           font-family="Cantarell"
-           font-size="6px"
-           font-weight="400"
-           font-style="normal"
-           id="text128802"
-           style="fill:#f9f06b;fill-opacity:1;stroke-width:2.09662">C</text>
-      </g>
-    </g>
-  </g>
   <g
      fill="#e66100"
      fill-opacity="1"
@@ -3639,8 +3192,9 @@
     <path
        vector-effect="none"
        fill-rule="evenodd"
-       d="M -428.74,839.417 V 850 m 214.37,-10.583 V 850 M 0,839.417 V 850 M 214.37,839.417 V 850 M 428.74,839.417 V 850"
-       id="path129006" />
+       d="m -428.74,850 v 0 m 214.37,0 v 0 M 0,850 h 0 m 214.37,0 v 0 m 214.37,0 v 0"
+       id="path129006"
+       sodipodi:nodetypes="cccccccccc" />
   </g>
   <g
      fill="none"
@@ -4091,13 +3645,13 @@
      stroke-width="1"
      stroke-linecap="square"
      stroke-linejoin="bevel"
-     transform="matrix(1.26328,0,0,1.26328,168.30855,679.516)"
+     transform="matrix(1.9057964,0,0,1.9057964,210.50496,668.44072)"
      font-family="Cantarell"
      font-size="11px"
      font-weight="400"
      font-style="normal"
      id="g129080"
-     style="fill-rule:evenodd">
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#a2a39c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.381061;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1">
     <text
        fill="#a2a39c"
        fill-opacity="1"
@@ -4109,65 +3663,10 @@
        font-size="12px"
        font-weight="400"
        font-style="normal"
-       id="text129078">Temperature [</text>
-  </g>
-  <g
-     id="g154213"
-     transform="translate(-46.946429,-17.905)">
-    <g
-       fill="none"
-       stroke="#a2a39c"
-       stroke-opacity="1"
-       stroke-width="1"
-       stroke-linecap="square"
-       stroke-linejoin="bevel"
-       transform="matrix(1.26328,0,0,1.26328,186.213,697.421)"
-       font-family="Cantarell"
-       font-size="11px"
-       font-weight="400"
-       font-style="normal"
-       id="g129088"
-       style="fill-rule:evenodd">
-      <text
-         fill="#a2a39c"
-         fill-opacity="1"
-         stroke="none"
-         xml:space="preserve"
-         x="102.625"
-         y="12.5"
-         font-family="Arial"
-         font-size="8px"
-         font-weight="400"
-         font-style="normal"
-         id="text129086">o</text>
-    </g>
-    <g
-       fill="none"
-       stroke="#a2a39c"
-       stroke-opacity="1"
-       stroke-width="1"
-       stroke-linecap="square"
-       stroke-linejoin="bevel"
-       transform="matrix(1.26328,0,0,1.26328,186.213,697.421)"
-       font-family="Cantarell"
-       font-size="11px"
-       font-weight="400"
-       font-style="normal"
-       id="g129096"
-       style="fill-rule:evenodd">
-      <text
-         fill="#a2a39c"
-         fill-opacity="1"
-         stroke="none"
-         xml:space="preserve"
-         x="108.734"
-         y="19"
-         font-family="Arial"
-         font-size="12px"
-         font-weight="400"
-         font-style="normal"
-         id="text129094">C]</text>
-    </g>
+       id="text129078"
+       style="font-variation-settings:normal;vector-effect:none;fill:#a2a39c;fill-opacity:1;stroke:none;stroke-width:0.381061;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1">T [<tspan
+   style="font-size:65%;font-variation-settings:normal;baseline-shift:super;vector-effect:none;fill:#a2a39c;fill-opacity:1;stroke:none;stroke-width:0.381061;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+   id="tspan110339">o</tspan>C] </text>
   </g>
   <g
      fill="none"
@@ -4287,31 +3786,6 @@
        fill-rule="evenodd"
        d="M -535.925,-850 H 535.925"
        id="path129112" />
-  </g>
-  <g
-     fill="none"
-     stroke="#a2a39c"
-     stroke-opacity="1"
-     stroke-width="3.52778"
-     stroke-linecap="square"
-     stroke-linejoin="bevel"
-     transform="matrix(0.358095,0,0,0.358095,247.08555,358.095)"
-     font-family="Cantarell"
-     font-size="11px"
-     font-weight="400"
-     font-style="normal"
-     id="g129120"
-     style="fill-rule:evenodd">
-    <path
-       vector-effect="none"
-       fill-rule="evenodd"
-       d="m -535.925,-850 v 21.167 M -321.555,-850 v 21.167 M -107.185,-850 v 21.167 M 107.185,-850 v 21.167 M 321.555,-850 v 21.167 M 535.925,-850 v 21.167"
-       id="path129116" />
-    <path
-       vector-effect="none"
-       fill-rule="evenodd"
-       d="m -428.74,-850 v 10.583 M -214.37,-850 v 10.583 M 0,-850 v 10.583 M 214.37,-850 v 10.583 M 428.74,-850 v 10.583"
-       id="path129118" />
   </g>
   <g
      fill="none"
@@ -4552,8 +4026,9 @@
     <path
        vector-effect="none"
        fill-rule="evenodd"
-       d="m -525.342,566.667 h -10.583 M -525.342,0 h -10.583 m 10.583,-566.667 h -10.583"
-       id="path129156" />
+       d="m -535.925,566.667 0,0 m 0,-566.667 v 0 m 0,-566.667 v 0"
+       id="path129156"
+       sodipodi:nodetypes="cccccc" />
   </g>
   <g
      fill="none"
@@ -4909,10 +4384,10 @@
      fill="none"
      stroke="#a2a39c"
      stroke-opacity="1"
-     stroke-width="1"
+     stroke-width="0.693269"
      stroke-linecap="square"
      stroke-linejoin="bevel"
-     transform="matrix(0,-1.26328,1.26328,0,-3.49505,430.191)"
+     transform="matrix(0,-1.8222064,1.8222064,0,-6.9135903,462.0892)"
      font-family="Cantarell"
      font-size="11px"
      font-weight="400"
@@ -4924,13 +4399,14 @@
        fill-opacity="1"
        stroke="none"
        xml:space="preserve"
-       x="4"
+       x="14.329272"
        y="19"
        font-family="Arial"
        font-size="12px"
        font-weight="400"
        font-style="normal"
-       id="text129212">Heat Flux [W/g]</text>
+       id="text129212"
+       style="stroke-width:0.398542">Heat Flow [W/g]</text>
   </g>
   <g
      fill="none"
@@ -5073,8 +4549,9 @@
     <path
        vector-effect="none"
        fill-rule="evenodd"
-       d="M 535.925,566.667 H 525.342 M 535.925,0 h -10.583 m 10.583,-566.667 h -10.583"
-       id="path129236" />
+       d="m 535.925,566.667 v 0 M 535.925,0 v 0 m 0,-566.667 v 0"
+       id="path129236"
+       sodipodi:nodetypes="cccccc" />
   </g>
   <g
      fill="none"
@@ -5345,29 +4822,20 @@
      x="-115.12688"
      y="500.17667" />
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#f9f06b;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 221.90355,425.36753 25.182,-12.35813"
-     id="path152830"
-     inkscape:connector-type="polyline"
-     inkscape:connector-curvature="0" />
-  <path
      style="fill:none;fill-rule:evenodd;stroke:#a2a39c;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 298.66755,390.37577 0,79.55577"
+     d="m 298.66755,390.37577 v 79.55577"
      id="path153291"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
      inkscape:connection-end="#g128756" />
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#a2a39c;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 307.32288,454.56072 53.08545,-43.37017"
-     id="path154670"
-     inkscape:connector-type="polyline"
-     inkscape:connector-curvature="0"
-     inkscape:connection-start="#g128624" />
-  <path
      style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#24fa5c;stroke-width:0.283464;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:0.283464, 1.70079;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
      d="m 135.58014,321.35553 0.34592,115.65251"
      id="path155181" />
+  <path
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#a2a39c;fill-opacity:1;stroke:#a2a39c;stroke-width:0.726226;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     d="M 135.58014,321.35553 116.20968,294.95562"
+     id="path118076" />
   <g
      fill="#1a5fb4"
      fill-opacity="1"
@@ -5414,7 +4882,7 @@
   </g>
   <g
      id="g144198"
-     transform="matrix(0.64807606,0,0,0.64807606,69.663867,127.02157)"
+     transform="matrix(0.64807606,0,0,0.64807606,69.663867,103.50791)"
      style="stroke-width:1.54303">
     <rect
        style="fill:#272822;fill-opacity:1;stroke:#a2a39c;stroke-width:1.42591;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stop-color:#000000"
@@ -5425,13 +4893,13 @@
        y="363.84637" />
     <g
        id="g136756"
-       transform="translate(-9.0835403,-12.668763)"
-       style="fill:#a2a39c;fill-opacity:1;stroke-width:1.54303">
+       transform="matrix(1.1828195,0,0,1.1828195,-38.134518,-83.940298)"
+       style="fill:#a2a39c;fill-opacity:1;stroke-width:1.30454">
       <g
          fill="none"
          stroke="#a2a39c"
          stroke-opacity="1"
-         stroke-width="1.54303"
+         stroke-width="1.30454"
          stroke-linecap="square"
          stroke-linejoin="bevel"
          transform="matrix(1.26328,0,0,1.26328,115.707,373.324)"
@@ -5446,70 +4914,18 @@
            fill-opacity="1"
            stroke="none"
            xml:space="preserve"
-           x="4"
-           y="17"
+           x="11.202062"
+           y="15.6455"
            font-family="Cantarell"
            font-size="10px"
            font-weight="400"
            font-style="normal"
            id="text128522"
-           style="fill:#a2a39c;fill-opacity:1;stroke-width:2.38094">50.1643 </text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1.54303"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,115.707,373.324)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128532"
-         style="fill:#a2a39c;fill-opacity:1;fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="53.359402"
-           y="12"
-           font-family="Cantarell"
-           font-size="6px"
-           font-weight="400"
-           font-style="normal"
-           id="text128530"
-           style="fill:#a2a39c;fill-opacity:1;stroke-width:2.38094">o</text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1.54303"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,115.707,373.324)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g128540"
-         style="fill:#a2a39c;fill-opacity:1;fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="57.890598"
-           y="17"
-           font-family="Cantarell"
-           font-size="10px"
-           font-weight="400"
-           font-style="normal"
-           id="text128538"
-           style="fill:#a2a39c;fill-opacity:1;stroke-width:2.38094">C</text>
+           style="fill:#a2a39c;fill-opacity:1;stroke-width:2.01294">T<tspan
+   style="font-size:65%;baseline-shift:sub;stroke-width:2.01294"
+   id="tspan106688">cc</tspan> = 50 <tspan
+   style="font-size:65%;baseline-shift:super;stroke-width:2.01294"
+   id="tspan106686">o</tspan>C </text>
       </g>
     </g>
   </g>
@@ -5535,6 +4951,10 @@
    id="tspan173481">s</tspan> = 42 <tspan
    style="font-size:6.28326px;baseline-shift:super;stroke-width:0.283464"
    id="tspan173479">o</tspan>C</tspan></text>
+  <path
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#a2a39c;fill-opacity:1;stroke:#a2a39c;stroke-width:0.726226;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     d="M 208.85264,376.57293 166.75972,356.58742"
+     id="path110938" />
   <circle
      style="font-variation-settings:normal;opacity:1;fill:#e01b24;fill-opacity:1;stroke:none;stroke-width:0.283465;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
      id="path174455"
@@ -5602,13 +5022,13 @@
        y="363.84637" />
     <g
        id="g184125"
-       transform="translate(-9.0835403,-12.668763)"
-       style="fill:#1a5fb4;fill-opacity:1">
+       transform="matrix(1.3083716,0,0,1.3083716,-58.085409,-132.88635)"
+       style="fill:#1a5fb4;fill-opacity:1;stroke-width:0.764309">
       <g
          fill="none"
          stroke="#a2a39c"
          stroke-opacity="1"
-         stroke-width="1"
+         stroke-width="0.764309"
          stroke-linecap="square"
          stroke-linejoin="bevel"
          transform="matrix(1.26328,0,0,1.26328,115.707,373.324)"
@@ -5623,70 +5043,18 @@
            fill-opacity="1"
            stroke="none"
            xml:space="preserve"
-           x="4"
-           y="17"
+           x="12.644814"
+           y="15.645501"
            font-family="Cantarell"
            font-size="10px"
            font-weight="400"
            font-style="normal"
            id="text184113"
-           style="fill:#1a5fb4;fill-opacity:1">48.254 </text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,115.707,373.324)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g184119"
-         style="fill:#1a5fb4;fill-opacity:1;fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="53.359402"
-           y="12"
-           font-family="Cantarell"
-           font-size="6px"
-           font-weight="400"
-           font-style="normal"
-           id="text184117"
-           style="fill:#1a5fb4;fill-opacity:1">o</text>
-      </g>
-      <g
-         fill="none"
-         stroke="#a2a39c"
-         stroke-opacity="1"
-         stroke-width="1"
-         stroke-linecap="square"
-         stroke-linejoin="bevel"
-         transform="matrix(1.26328,0,0,1.26328,115.707,373.324)"
-         font-family="Cantarell"
-         font-size="11px"
-         font-weight="400"
-         font-style="normal"
-         id="g184123"
-         style="fill:#1a5fb4;fill-opacity:1;fill-rule:evenodd">
-        <text
-           fill="#a2a39c"
-           fill-opacity="1"
-           stroke="none"
-           xml:space="preserve"
-           x="57.890598"
-           y="17"
-           font-family="Cantarell"
-           font-size="10px"
-           font-weight="400"
-           font-style="normal"
-           id="text184121"
-           style="fill:#1a5fb4;fill-opacity:1">C</text>
+           style="fill:#1a5fb4;fill-opacity:1;stroke-width:0.491156">T<tspan
+   style="font-size:65%;baseline-shift:sub;stroke-width:0.491156"
+   id="tspan106169">c</tspan> = 48 <tspan
+   style="font-size:65%;baseline-shift:super;stroke-width:0.764309"
+   id="tspan105653">o</tspan>C </text>
       </g>
     </g>
   </g>
@@ -5715,7 +5083,7 @@
      id="g191813"
      transform="matrix(0.55831825,0,0,0.55831825,190.21612,275.23947)">
     <rect
-       style="font-variation-settings:normal;opacity:1;fill:#272822;fill-opacity:1;stroke:#a2a39c;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:#a2a39c;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
        id="rect188704"
        width="82.218155"
        height="81.012779"
@@ -5725,172 +5093,268 @@
     <g
        id="g190454"
        transform="matrix(0.51256629,0,0,-0.5104835,26.278301,898.90759)"
-       style="stroke:#91928b;stroke-width:1.95495;stroke-opacity:1">
+       style="stroke:#a2a39c;stroke-width:1.95495;stroke-opacity:1">
       <path
-         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#91928b;stroke-width:1.95493;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#a2a39c;stroke-width:1.95493;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
          d="m -341.32779,638.24725 c -6.7e-4,-20.7228 -31.80857,-31.00539 -31.86711,-51.72811 -0.0334,-11.8291 5.07312,-17.22858 14.12211,-24.26691"
          id="path190108"
          sodipodi:nodetypes="csc" />
       <path
-         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#91928b;stroke-width:1.95493;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#a2a39c;stroke-width:1.95493;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
          d="m -364.4665,638.24725 c -6.7e-4,-20.7228 -31.80857,-31.00539 -31.86711,-51.72811 -0.0334,-11.8291 5.07312,-17.22858 14.12211,-24.26691"
          id="path190397"
          sodipodi:nodetypes="csc" />
       <path
-         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#91928b;stroke-width:1.95493;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#a2a39c;stroke-width:1.95493;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
          d="m -387.6052,638.24725 c -6.7e-4,-20.7228 -31.80857,-31.00539 -31.86711,-51.72811 -0.0334,-11.8291 5.07312,-17.22858 14.12211,-24.26691"
          id="path190377"
          sodipodi:nodetypes="csc" />
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.79655px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;opacity:1;fill:#91928b;fill-opacity:1;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.79655px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;opacity:1;fill:#a2a39c;fill-opacity:1;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
        x="-182.37761"
        y="630.53406"
        id="text191253"><tspan
          sodipodi:role="line"
          id="tspan191251"
-         style="fill:#91928b;fill-opacity:1;stroke:none;stroke-width:1"
+         style="fill:#a2a39c;fill-opacity:1;stroke:none;stroke-width:1"
          x="-182.37761"
          y="630.53406">Exo up</tspan></text>
   </g>
   <g
      id="g195112"
-     transform="translate(-443.93013,-113.84802)">
-    <rect
-       style="fill:#1a1a1a;fill-opacity:1;stroke:#bdbdb0;stroke-width:0.368032;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-       id="rect17645"
-       width="189.94617"
-       height="93.723915"
-       x="599.05261"
-       y="207.42651"
-       ry="3.1472025" />
+     transform="translate(-56.995097,-113.84802)">
     <g
-       id="g195072"
-       transform="translate(-3.1493221)">
+       id="g123047"
+       transform="matrix(1.3944234,0,0,1.394998,-664.39935,-100.44345)"
+       style="stroke-width:0.716995">
+      <rect
+         style="fill:#1a1a1a;fill-opacity:1;stroke:#bdbdb0;stroke-width:0.263877;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="rect17645"
+         width="149.22179"
+         height="93.723915"
+         x="619.92706"
+         y="207.42651"
+         ry="3.1472025" />
       <g
-         id="g183641"
-         transform="translate(-44.966277,-8.1528194)">
+         id="g123013"
+         transform="translate(30.417431,0.13769206)"
+         style="stroke-width:0.716995">
         <g
-           id="g183604"
-           transform="translate(101.10063,11.413656)">
-          <path
-             style="fill:#1a1a1a;fill-opacity:1;stroke:#66d9ef;stroke-width:1.31527;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-             d="m 559.95265,219.80359 h 25.98174"
-             id="path21452" />
-          <text
-             xml:space="preserve"
-             style="font-weight:bold;font-size:8.22192px;line-height:normal;font-family:sans-serif;text-align:center;text-decoration-color:#000000;white-space:pre;fill:#66d9ef;fill-opacity:1;stroke:none;stroke-width:0.90117;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-             x="596.15869"
-             y="222.51263"
-             id="text25211"><tspan
-               sodipodi:role="line"
-               id="tspan25209"
-               style="fill:#66d9ef;fill-opacity:1;stroke:none;stroke-width:0.90117"
+           id="g183641"
+           transform="translate(-48.115599,-8.1528194)"
+           style="stroke-width:0.716995">
+          <g
+             id="g183604"
+             transform="translate(101.10063,11.413656)"
+             style="stroke-width:0.716995">
+            <path
+               style="fill:#1a1a1a;fill-opacity:1;stroke:#66d9ef;stroke-width:0.943041;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+               d="m 559.95265,219.80359 h 25.98174"
+               id="path21452" />
+            <text
+               xml:space="preserve"
+               style="font-weight:bold;font-size:8.22192px;line-height:normal;font-family:sans-serif;text-align:center;text-decoration-color:#000000;white-space:pre;fill:#66d9ef;fill-opacity:1;stroke:none;stroke-width:0.646134;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
                x="596.15869"
-               y="222.51263">Cooling</tspan></text>
-        </g>
-        <g
-           id="g183599"
-           transform="translate(100.30001,7.6834141)">
-          <path
-             style="fill:none;fill-opacity:1;stroke:#e01b24;stroke-width:1.31527;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-             d="m 559.95265,244.65177 h 25.98174"
-             id="path24181" />
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.22192px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;opacity:1;fill:#e01b24;fill-opacity:1;stroke:none;stroke-width:0.90117;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-             x="596.00043"
-             y="246.67801"
-             id="text26169"><tspan
-               sodipodi:role="line"
-               id="tspan26167"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.22192px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;fill:#e01b24;fill-opacity:1;stroke:none;stroke-width:0.90117;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+               y="222.51263"
+               id="text25211"><tspan
+                 sodipodi:role="line"
+                 id="tspan25209"
+                 style="fill:#66d9ef;fill-opacity:1;stroke:none;stroke-width:0.646134"
+                 x="596.15869"
+                 y="222.51263">Cooling</tspan></text>
+          </g>
+          <g
+             id="g183599"
+             transform="translate(100.30001,7.6834141)"
+             style="stroke-width:0.716995">
+            <path
+               style="fill:none;fill-opacity:1;stroke:#e01b24;stroke-width:0.943041;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+               d="m 559.95265,244.65177 h 25.98174"
+               id="path24181" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.22192px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;opacity:1;fill:#e01b24;fill-opacity:1;stroke:none;stroke-width:0.646134;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
                x="596.00043"
-               y="246.67801">Heating</tspan></text>
-        </g>
-        <g
-           id="g183594"
-           transform="translate(100.87528,3.7302416)">
-          <path
-             style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#b5e6ef;stroke-width:0.413858;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.65543, 0.827715;stroke-dashoffset:0.289701;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-             d="m 559.95265,268.35726 h 25.98174"
-             id="path182988" />
-          <text
-             xml:space="preserve"
-             style="font-weight:bold;font-size:8.22192px;line-height:normal;font-family:sans-serif;text-align:center;text-decoration-color:#000000;white-space:pre;fill:#b5e6ef;fill-opacity:1;stroke:none;stroke-width:0.90117;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-             x="596.15869"
-             y="271.06631"
-             id="text182992"><tspan
-               sodipodi:role="line"
-               id="tspan182990"
-               style="fill:#b5e6ef;fill-opacity:1;stroke:none;stroke-width:0.90117"
+               y="246.67801"
+               id="text26169"><tspan
+                 sodipodi:role="line"
+                 id="tspan26167"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.22192px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;fill:#e01b24;fill-opacity:1;stroke:none;stroke-width:0.646134;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+                 x="596.00043"
+                 y="246.67801">Heating</tspan></text>
+          </g>
+          <g
+             id="g183594"
+             transform="translate(100.87528,3.7302416)"
+             style="stroke-width:0.716995">
+            <path
+               style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#b5e6ef;stroke-width:0.296734;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.18693, 0.593467;stroke-dashoffset:0.207714;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+               d="m 559.95265,268.35726 h 25.98174"
+               id="path182988" />
+            <text
+               xml:space="preserve"
+               style="font-weight:bold;font-size:8.22192px;line-height:normal;font-family:sans-serif;text-align:center;text-decoration-color:#000000;white-space:pre;fill:#b5e6ef;fill-opacity:1;stroke:none;stroke-width:0.646134;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
                x="596.15869"
-               y="271.06631">Cooling</tspan></text>
+               y="271.06631"
+               id="text182992"><tspan
+                 sodipodi:role="line"
+                 id="tspan182990"
+                 style="fill:#b5e6ef;fill-opacity:1;stroke:none;stroke-width:0.646134"
+                 x="596.15869"
+                 y="271.06631">Cooling</tspan></text>
+          </g>
+          <g
+             id="g183589"
+             transform="translate(100.07466)"
+             style="stroke-width:0.716995">
+            <path
+               style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#e08286;stroke-width:0.296734;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.18693, 0.593467;stroke-dashoffset:0.207714;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+               d="m 559.95265,293.20544 h 25.98174"
+               id="path182994" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.22192px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;opacity:1;fill:#e69b9e;fill-opacity:1;stroke:none;stroke-width:0.646134;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+               x="596.00043"
+               y="295.23169"
+               id="text182998"><tspan
+                 sodipodi:role="line"
+                 id="tspan182996"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.22192px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;fill:#e69b9e;fill-opacity:1;stroke:none;stroke-width:0.646134;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+                 x="596.00043"
+                 y="295.23169">Heating</tspan></text>
+          </g>
         </g>
         <g
-           id="g183589"
-           transform="translate(100.07466)">
-          <path
-             style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#e08286;stroke-width:0.413858;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.65543, 0.827715;stroke-dashoffset:0.289701;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-             d="m 559.95265,293.20544 h 25.98174"
-             id="path182994" />
+           id="g122885"
+           transform="translate(0,0.14797867)"
+           style="stroke-width:0.716995">
           <text
              xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.22192px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;opacity:1;fill:#e69b9e;fill-opacity:1;stroke:none;stroke-width:0.90117;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-             x="596.00043"
-             y="295.23169"
-             id="text182998"><tspan
-               sodipodi:role="line"
-               id="tspan182996"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.22192px;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;fill:#e69b9e;fill-opacity:1;stroke:none;stroke-width:0.90117;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-               x="596.00043"
-               y="295.23169">Heating</tspan></text>
+             transform="matrix(0.7499996,0,0,0.7499996,-79.812241,67.724152)"
+             id="text194356"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.9626px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect194358);display:inline;fill:#66d9ef;fill-opacity:1;stroke:none;stroke-width:0.95599;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"><tspan
+               x="1026.1072"
+               y="209.77343"
+               id="tspan124529">pDSC<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan124527">02</tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             transform="matrix(0.7499996,0,0,0.7499996,-79.812241,88.73063)"
+             id="text121053"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.9626px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect121055);display:inline;fill:#e01b24;fill-opacity:1;stroke:none;stroke-width:0.95599;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"><tspan
+               x="1026.1072"
+               y="209.77343"
+               id="tspan124533">pDSC<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan124531">02</tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             transform="matrix(0.7499996,0,0,0.7499996,-79.812241,108.38748)"
+             id="text121684"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.9626px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect121686);display:inline;fill:#b5e6ef;fill-opacity:1;stroke:none;stroke-width:0.95599;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"><tspan
+               x="1026.1072"
+               y="209.77343"
+               id="tspan124537">gDSC<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan124535">01</tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             transform="matrix(0.7499996,0,0,0.7499996,-79.812241,129.6009)"
+             id="text122015"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.9626px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect122017);display:inline;fill:#e69b9e;fill-opacity:1;stroke:none;stroke-width:0.95599;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"><tspan
+               x="1026.1072"
+               y="209.77343"
+               id="tspan124541">gDSC<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan124539">01</tspan></tspan></text>
         </g>
-      </g>
-      <g
-         id="g195028">
-        <text
-           xml:space="preserve"
-           transform="matrix(0.7499996,0,0,0.7499996,-46.483041,109.32528)"
-           id="text193349"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.9626px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect193351);display:inline;opacity:1;fill:#b5e6ef;fill-opacity:1;stroke:none;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"><tspan
-             x="986.50068"
-             y="209.77343"
-             id="tspan197743">PDSC(10  <tspan
-   style="font-size:65%;baseline-shift:super"
-   id="tspan197741">o</tspan>C/min) − 01</tspan></text>
-        <text
-           xml:space="preserve"
-           transform="matrix(0.7499996,0,0,0.7499996,-46.483041,129.76041)"
-           id="text193615"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.9626px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect193617);display:inline;opacity:1;fill:#e69b9e;fill-opacity:1;stroke:none;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"><tspan
-             x="986.50068"
-             y="209.77343"
-             id="tspan197747">PDSC(10  <tspan
-   style="font-size:65%;baseline-shift:super"
-   id="tspan197745">o</tspan>C/min) − 01</tspan></text>
-        <text
-           xml:space="preserve"
-           transform="matrix(0.7499996,0,0,0.7499996,-46.483041,68.455015)"
-           id="text194356"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.9626px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect194358);display:inline;opacity:1;fill:#66d9ef;fill-opacity:1;stroke:none;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"><tspan
-             x="986.47327"
-             y="209.77343"
-             id="tspan197751">pDSC(10  <tspan
-   style="font-size:65%;baseline-shift:super"
-   id="tspan197749">o</tspan>C/min) − 02</tspan></text>
-        <text
-           xml:space="preserve"
-           transform="matrix(0.7499996,0,0,0.7499996,-46.483041,88.21595)"
-           id="text194478"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.9626px;line-height:normal;font-family:sans-serif;-inkscape-font-specification:'Cantarell, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect194480);display:inline;opacity:1;fill:#e01b24;fill-opacity:1;stroke:none;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"><tspan
-             x="986.47327"
-             y="209.77343"
-             id="tspan197755">pDSC(10  <tspan
-   style="font-size:65%;baseline-shift:super"
-   id="tspan197753">o</tspan>C/min) − 02</tspan></text>
       </g>
     </g>
+  </g>
+  <g
+     id="g119261"
+     transform="translate(-15.502553,48.458542)">
+    <g
+       id="g149532"
+       transform="matrix(0.69625205,0,0,0.6850372,166.19487,91.5875)"
+       style="stroke-width:1.44797">
+      <rect
+         style="opacity:1;fill:#272822;fill-opacity:1;stroke:#f9f06b;stroke-width:1.33806;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stop-color:#000000"
+         id="rect149510"
+         width="51.435905"
+         height="16.635118"
+         x="122.82486"
+         y="481.24435" />
+    </g>
+    <g
+       id="g107208"
+       transform="matrix(0.92299607,0,0,0.91060751,-44.655417,185.46774)"
+       style="fill:#f9f06b;fill-opacity:1;stroke-width:1.09078">
+      <g
+         fill="none"
+         stroke="#a2a39c"
+         stroke-opacity="1"
+         stroke-width="1.09078"
+         stroke-linecap="square"
+         stroke-linejoin="bevel"
+         transform="matrix(1.26328,0,0,1.26328,311.393,253.447)"
+         font-family="Cantarell"
+         font-size="11px"
+         font-weight="400"
+         font-style="normal"
+         id="g107206"
+         style="fill:#f9f06b;fill-opacity:1;fill-rule:evenodd">
+        <text
+           fill="#a2a39c"
+           fill-opacity="1"
+           stroke="none"
+           xml:space="preserve"
+           x="14.360471"
+           y="11.428413"
+           font-family="Cantarell"
+           font-size="6px"
+           font-weight="400"
+           font-style="normal"
+           id="text107204"
+           style="fill:#f9f06b;fill-opacity:1;stroke-width:1.2687">100 <tspan
+   style="font-size:65%;baseline-shift:super;stroke-width:1.2687"
+   id="tspan107202">o</tspan>C </text>
+      </g>
+    </g>
+  </g>
+  <path
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#a2a39c;fill-opacity:1;stroke:#f9f06b;stroke-width:0.726226;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     d="m 286.38504,456.45402 -32.26949,13.26231"
+     id="path119393" />
+  <g
+     fill="none"
+     stroke="#a2a39c"
+     stroke-opacity="1"
+     stroke-width="1"
+     stroke-linecap="square"
+     stroke-linejoin="bevel"
+     transform="matrix(1.9057964,0,0,1.9057964,210.50496,2.1433746)"
+     font-family="Cantarell"
+     font-size="11px"
+     font-weight="400"
+     font-style="normal"
+     id="g119903"
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#a2a39c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.381061;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1">
+    <text
+       fill="#a2a39c"
+       fill-opacity="1"
+       stroke="none"
+       xml:space="preserve"
+       x="-77.968086"
+       y="18.330601"
+       font-family="Arial"
+       font-size="9.4109px"
+       font-weight="400"
+       font-style="normal"
+       id="text119901"
+       style="font-variation-settings:normal;vector-effect:none;fill:#a2a39c;fill-opacity:1;stroke:none;stroke-width:0.381061;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1">DSC analysis of a powder and granule sample </text>
   </g>
 </svg>
