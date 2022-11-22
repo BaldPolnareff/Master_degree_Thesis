@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {10.2}Granulometry Results}{49}{subsection.10.2}%
 \contentsline {subsection}{\numberline {10.3}DSC Results}{52}{subsection.10.3}%
 \contentsline {subsection}{\numberline {10.4}TGA Results}{55}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}DMA Results}{59}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.5}DMA Results}{60}{subsection.10.5}%
 \contentsline {section}{\numberline {11}3D printing}{62}{section.11}%
 \contentsline {subsection}{\numberline {11.1}Print files preparation}{62}{subsection.11.1}%
 \contentsline {subsubsection}{\numberline {11.1.1}3D model creation}{63}{subsubsection.11.1.1}%
