@@ -33,17 +33,18 @@
 \contentsline {subsection}{\numberline {9.3}Density analysis}{41}{subsection.9.3}%
 \contentsline {subsection}{\numberline {9.4}Flowability analysis}{42}{subsection.9.4}%
 \contentsline {subsection}{\numberline {9.5}Granulometry analysis}{43}{subsection.9.5}%
-\contentsline {section}{\numberline {10}Particle analyses and thermal analyses results}{44}{section.10}%
+\contentsline {subsection}{\numberline {9.6}Dynamic Mechanical Analysis}{44}{subsection.9.6}%
+\contentsline {section}{\numberline {10}Analyses results}{44}{section.10}%
 \contentsline {subsection}{\numberline {10.1}SEM Results}{44}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Granulometry Results}{48}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}DSC Results}{51}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}TGA Results}{54}{subsection.10.4}%
-\contentsline {section}{\numberline {11}3D printing}{59}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Print files preparation}{59}{subsection.11.1}%
-\contentsline {subsubsection}{\numberline {11.1.1}3D model creation}{60}{subsubsection.11.1.1}%
-\contentsline {subsubsection}{\numberline {11.1.2}Slicing}{61}{subsubsection.11.1.2}%
-\contentsline {subsection}{\numberline {11.2}Sharebot Snowhite²}{62}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Printed samples}{65}{subsection.11.3}%
-\contentsline {section}{\numberline {12}Dynamic Mechanical Analysis}{72}{section.12}%
-\contentsline {section}{\numberline {13}Conclusions}{74}{section.13}%
-\contentsline {section}{\numberline {14}Future development}{75}{section.14}%
+\contentsline {subsection}{\numberline {10.2}Granulometry Results}{49}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}DSC Results}{52}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}TGA Results}{55}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}DMA Results}{59}{subsection.10.5}%
+\contentsline {section}{\numberline {11}3D printing}{62}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Print files preparation}{62}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}3D model creation}{63}{subsubsection.11.1.1}%
+\contentsline {subsubsection}{\numberline {11.1.2}Slicing}{64}{subsubsection.11.1.2}%
+\contentsline {subsection}{\numberline {11.2}Sharebot Snowhite²}{65}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Printed samples}{68}{subsection.11.3}%
+\contentsline {section}{\numberline {12}Conclusions}{75}{section.12}%
+\contentsline {section}{\numberline {13}Future development}{76}{section.13}%

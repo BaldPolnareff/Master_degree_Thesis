@@ -1505,7 +1505,35 @@
 
       \clearpage
 
-      \section{Particle analyses and thermal analyses results\label{analyses_results_general}}
+      \subsection{Dynamic Mechanical Analysis\label{DMA}}
+ 
+        A non-destructive DMA has been used to determine some of the mechanical properties of SLS printed PHBH. The analysis 
+        allows for the determination of the storage modulus $E'$, the loss modulus $E''$ as well as the tan$\delta$, 
+        which is the ratio between the loss modulus and the storage modulus. \\ 
+        As mentioned in \ref{DSC_analysis}, the DMA can also be used to better determine the glass transition temperature $T_g$, which 
+        has been initially estimated to be around $2 \ ^{\circ}C$ by the DSC analysis of a PHBH powder sample, as visible in figure \ref{fig:DSC_10Cmin}. 
+        However, the revealed 
+        peak activity in that temperature range can not be attributed to the glass transition in a definitive way, by means of a DSC analysis 
+        alone. \\ 
+
+        The glass transition temperature, which is defined as the temperature at which the material changes from a glassy to a rubbery state, 
+        (i.e. the temperature at which the material changes its stress-strain behavior from brittle to plastic), can be determined with 
+        better precision by a DMA. \\ 
+
+        More specifically, the transition point can be revealed by a prominent peak in the tan$\delta$ curve, indicating a 
+        sudden change in the moduli ratio of the material. \\ 
+        
+        The analysis has been performed with a Triton Technology DMA instrument \autocites{Triton_Technology_Ltd}, on the SLS sample 
+        $10-DMA01_{filled}$ that has been printed specifically for the purpose of the DMA analysis 
+        (as said in sections\ref{SLS_printing_experimental}, \ref{tab:SLS_samples}, \ref{fig:printed_specimens_DMA}). \\ 
+
+        The test has been run with an oscillating uniaxial stress amplitude of 1 N, at a frequency of 1 Hz, with an initial 
+        chamber temperature of $- 77.7 \ ^{\circ}C$ (achieved by cooling the environment with liquid nitrogen), and has been stopped 
+        once the sample reached the rubbery plateau, i.e. a temperature region below the melting point, in which the material 
+        exhibits an almost constant modulus behaviour \autocites{JD_Ferry_viscoelasticpolymers}. \\
+
+
+      \section{Analyses results\label{analyses_results_general}}
 
       Given the wide variety of instruments and their vastly different release date, the various included software suites and operating systems involved,
       all the different output files have been analyzed and uniformed as tab separated values UTF-8 text, using standard unix cli tools. \\ 
@@ -1515,7 +1543,8 @@
       \subsection{SEM Results\label{SEM_analysis_results}}
 
                 
-      The FIB-SEM instrument has produced a total of 12 different images \autocites{Pixelmator_Pro}{GIMP}, the most relevant are shown below: \\
+      The FIB-SEM instrument has produced a total of 12 different images, the most relevant have been edited using 
+      \textit{Pixelmator Pro} and \textit{GIMP} \autocites{Pixelmator_Pro}{GIMP} and are shown below: \\
 
           %\begin{figure}[h!]
           %    \centering 
@@ -1769,6 +1798,7 @@
                 \end{table}
 
         \clearpage
+
         \subsection{TGA Results\label{TGA_Results}}
         The analysis data has been exported with \textit{Mettler-Toledo}'s included software \autocites{Mettler_Toledo}, after normalizing the data to the initial weight of the sample,
         then imported, elaborated and plotted with \textit{Labplot} \autocites{Labplot}. \\
@@ -1811,13 +1841,48 @@
             As a further testimony of the consistent thermal behaviour of the biopolymer along the entire pipeline, the overlap of the
             TGA curves of the pellet, powder and sintered samples is shown in the following figure:
 
+                \begin{figure}[h!]
+                    \centering
+                    \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf}
+                    \caption{Consistent results of the TGA analysis of the pellet, powder and sintered samples}
+                    \label{fig:TGA_overlapped}
+                \end{figure}
+
+        \subsection{DMA Results\label{DMA_Results}}
+
+        The results of the DMA analysis are shown in the following figure, where the tan$\delta$ curve has been upscaled significantly 
+        in order to match a relative scale with the other curves. \\ 
+
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf}
-                \caption{Consistent results of the TGA analysis of the pellet, powder and sintered samples}
-                \label{fig:TGA_overlapped}
+                \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DMA.eps}
+                \caption{DMA analysis of the SLS sample $10-DMA01_{filled}$ (\ref{tab:SLS_samples}).}
+                \label{fig:DMA_plot}
             \end{figure}
 
+        \clearpage 
+
+        The tan$\delta$ curve (\ref{fig:DMA_plot}) shows a clear peak at $14.1 \ ^{\circ}C$, which is the glass transition temperature of the material, 
+        in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (\ref{fig:DSC_10Cmin}). \\ 
+
+        As expected for a polymer of the PHA family, both the storage modulus $E'$ and the loss modulus $E''$ are very low, in line with the 
+        typical viscoelastic behavior of all bio-based polymers \autocites{Kovalcik_PHA_Review}, which are not suited for structural applications and 
+        are instead used for packaging and other non-structural applications, such as biomedical implants and scaffolds \autocites{Messori_Bondioli_PHAs}. \\
+
+        Unsurprisingly, the mechanical properties of the material fall behind those of typical SLS polymers, which can 
+        occasionally reach storage moduli a whole order of magnitude higher than that of PHBH, according to this DMA. \\ 
+
+        That in itself is not a major issue, as SLS parts are not limited to structural applications or mechanical pieces:
+        other properties, such as biodegradability, biocompatibility and low toxicity can be very desirable traits in a wide range of 
+        applications. \\ 
+
+        Moreover, the mechanical and thermal properties of the material can be improved by adding fillers, creating blends with other 
+        bio-based polymers or creating composites with other materials. \\ 
+
+        Given the successful SLS printability, with unaltered thermal properties among the raw material, the powder and the 
+        printed parts (as highlighted by the TGA and DSC analysis results \ref{TGA_Analysis}, \ref{DSC_analysis}), as well as 
+        mechanical properties that meet the expected behavior of a bioplastic, PHBH is a very promising polymer 
+        that can further enrich the catalogue of sustainable materials available for additive manufacturing. \\ 
 
 
 
@@ -2207,67 +2272,7 @@
 
         \clearpage
 
-    \section{Dynamic Mechanical Analysis\label{DMA}}
- 
-    A non-destructive DMA has been used to determine some of the mechanical properties of SLS printed PHBH. The analysis 
-    allows for the determination of the storage modulus $E'$, the loss modulus $E''$ as well as the tan$\delta$, 
-    which is the ratio between the loss modulus and the storage modulus. \\ 
-    As mentioned in \ref{DSC_analysis}, the DMA can also be used to better determine the glass transition temperature $T_g$, which 
-    has been initially estimated to be around $2 \ ^{\circ}C$ by the DSC analysis of a PHBH powder sample, as visible in figure \ref{fig:DSC_10Cmin}. 
-    However, the revealed 
-    peak activity in that temperature range can not be attributed to the glass transition in a definitive way, by means of a DSC analysis 
-    alone. \\ 
-
-    The glass transition temperature, which is defined as the temperature at which the material changes from a glassy to a rubbery state, 
-    (i.e. the temperature at which the material changes its stress-strain behavior from brittle to plastic), can be determined with 
-    better precision by a DMA. \\ 
-
-    More specifically, the transition point can be revealed by a prominent peak in the tan$\delta$ curve, indicating a 
-    sudden change in the moduli ratio of the material. \\ 
     
-    The analysis has been performed with a Triton Technology DMA instrument \autocites{Triton_Technology_Ltd}, on the SLS sample 
-    $10-DMA01_{filled}$ that has been printed specifically for the purpose of the DMA analysis 
-    (as said in sections\ref{SLS_printing_experimental}, \ref{tab:SLS_samples}, \ref{fig:printed_specimens_DMA}). \\ 
-
-    The test has been run with an oscillating uniaxial stress amplitude of 1 N, at a frequency of 1 Hz, with an initial 
-    chamber temperature of $- 77.7 \ ^{\circ}C$ (achieved by cooling the environment with liquid nitrogen), and has been stopped 
-    once the sample reached the rubbery plateau, i.e. a temperature region below the melting point, in which the material 
-    exhibits an almost constant modulus behaviour \autocites{JD_Ferry_viscoelasticpolymers}. \\
-
-    The results of the DMA analysis are shown in the following figure, where the tan$\delta$ curve has been upscaled significantly 
-    in order to match a relative scale with the other curves. \\ 
-
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DMA.eps}
-        \caption{DMA analysis of the SLS sample $10-DMA01_{filled}$ (\ref{tab:SLS_samples}).}
-        \label{fig:DMA_plot}
-    \end{figure}
-
-    \clearpage 
-
-    The tan$\delta$ curve (\ref{fig:DMA_plot}) shows a clear peak at $14.1 \ ^{\circ}C$, which is the glass transition temperature of the material, 
-    in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (\ref{fig:DSC_10Cmin}). \\ 
-
-    As expected for a polymer of the PHA family, both the storage modulus $E'$ and the loss modulus $E''$ are very low, in line with the 
-    typical viscoelastic behavior of all bio-based polymers \autocites{Kovalcik_PHA_Review}, which are not suited for structural applications and 
-    are instead used for packaging and other non-structural applications, such as biomedical implants and scaffolds \autocites{Messori_Bondioli_PHAs}. \\
-
-    Unsurprisingly, the mechanical properties of the material fall behind those of typical SLS polymers, which can 
-    occasionally reach storage moduli a whole order of magnitude higher than that of PHBH, according to this DMA. \\ 
-    
-    That in itself is not a major issue, as SLS parts are not limited to structural applications or mechanical pieces:
-    other properties, such as biodegradability, biocompatibility and low toxicity can be very desirable traits in a wide range of 
-    applications. \\ 
-
-    Moreover, the mechanical and thermal properties of the material can be improved by adding fillers, creating blends with other 
-    bio-based polymers or creating composites with other materials. \\ 
-
-    Given the successful SLS printability, with unaltered thermal properties among the raw material, the powder and the 
-    printed parts (as highlighted by the TGA and DSC analysis results \ref{TGA_Analysis}, \ref{DSC_analysis}), as well as 
-    mechanical properties that meet the expected behavior of a bioplastic, PHBH is a very promising polymer 
-    that can further enrich the catalogue of sustainable materials available for additive manufacturing. \\ 
-
     \section{Conclusions\label{conclusions}}
 
     As stated in the \textit{Thesis Goal} \ref{Thesis_Goal}, the aim of this work was to investigate the feasibility of PHBH as a 
