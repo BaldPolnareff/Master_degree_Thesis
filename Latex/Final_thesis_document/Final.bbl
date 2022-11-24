@@ -337,8 +337,8 @@
       \strng{authorbibnamehash}{b6376cab05e82f18f4779e535e95f621}
       \strng{authornamehash}{b6376cab05e82f18f4779e535e95f621}
       \strng{authorfullhash}{b6376cab05e82f18f4779e535e95f621}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://inkscape.org/}}
@@ -358,8 +358,8 @@
       \strng{authorbibnamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
       \strng{authornamehash}{8ce29808d71dc9b7b0db7c83c04e22fb}
       \strng{authorfullhash}{8ce29808d71dc9b7b0db7c83c04e22fb}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PHBH}
@@ -791,6 +791,87 @@
       \verb https://www.malvernpanalytical.com/en/products/product-range/morphologi-range/morphologi-4
       \endverb
     \endentry
+    \entry{Blender}{software}{}
+      \name{author}{1}{}{%
+        {{hash=44275c392a37e9fa9de37082ab548a59}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Blender},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{fullhash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{bibnamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authorbibnamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authornamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authorfullhash}{44275c392a37e9fa9de37082ab548a59}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Blender}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.blender.org
+      \endverb
+      \verb{url}
+      \verb https://www.blender.org
+      \endverb
+    \endentry
+    \entry{PrusaSlicer}{software}{}
+      \name{author}{1}{}{%
+        {{hash=120b6d22998b726590376085d087a297}{%
+           family={Research},
+           familyi={R\bibinitperiod},
+           given={Prusa},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{120b6d22998b726590376085d087a297}
+      \strng{fullhash}{120b6d22998b726590376085d087a297}
+      \strng{bibnamehash}{120b6d22998b726590376085d087a297}
+      \strng{authorbibnamehash}{120b6d22998b726590376085d087a297}
+      \strng{authornamehash}{120b6d22998b726590376085d087a297}
+      \strng{authorfullhash}{120b6d22998b726590376085d087a297}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PrusaSlicer}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.prusa3d.com
+      \endverb
+      \verb{url}
+      \verb https://www.prusa3d.com
+      \endverb
+    \endentry
+    \entry{Sharebot}{company}{}
+      \name{author}{1}{}{%
+        {{hash=47ec906ca4b65f8809d774e2839caf83}{%
+           family={S.r.l.},
+           familyi={S\bibinitperiod},
+           given={Sharebot},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{47ec906ca4b65f8809d774e2839caf83}
+      \strng{fullhash}{47ec906ca4b65f8809d774e2839caf83}
+      \strng{bibnamehash}{47ec906ca4b65f8809d774e2839caf83}
+      \strng{authorbibnamehash}{47ec906ca4b65f8809d774e2839caf83}
+      \strng{authornamehash}{47ec906ca4b65f8809d774e2839caf83}
+      \strng{authorfullhash}{47ec906ca4b65f8809d774e2839caf83}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sharebot}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.sharebot.it/en/
+      \endverb
+      \verb{url}
+      \verb https://www.sharebot.it/en/
+      \endverb
+    \endentry
     \entry{Triton_Technology_Ltd}{company}{}
       \name{author}{1}{}{%
         {{hash=180226bf203c54f8c12c92906ed51c45}{%
@@ -981,87 +1062,6 @@
       \endverb
       \verb{url}
       \verb www.scopus.com
-      \endverb
-    \endentry
-    \entry{Blender}{software}{}
-      \name{author}{1}{}{%
-        {{hash=44275c392a37e9fa9de37082ab548a59}{%
-           family={Foundation},
-           familyi={F\bibinitperiod},
-           given={Blender},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{44275c392a37e9fa9de37082ab548a59}
-      \strng{fullhash}{44275c392a37e9fa9de37082ab548a59}
-      \strng{bibnamehash}{44275c392a37e9fa9de37082ab548a59}
-      \strng{authorbibnamehash}{44275c392a37e9fa9de37082ab548a59}
-      \strng{authornamehash}{44275c392a37e9fa9de37082ab548a59}
-      \strng{authorfullhash}{44275c392a37e9fa9de37082ab548a59}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Blender}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.blender.org
-      \endverb
-      \verb{url}
-      \verb https://www.blender.org
-      \endverb
-    \endentry
-    \entry{PrusaSlicer}{software}{}
-      \name{author}{1}{}{%
-        {{hash=120b6d22998b726590376085d087a297}{%
-           family={Research},
-           familyi={R\bibinitperiod},
-           given={Prusa},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{120b6d22998b726590376085d087a297}
-      \strng{fullhash}{120b6d22998b726590376085d087a297}
-      \strng{bibnamehash}{120b6d22998b726590376085d087a297}
-      \strng{authorbibnamehash}{120b6d22998b726590376085d087a297}
-      \strng{authornamehash}{120b6d22998b726590376085d087a297}
-      \strng{authorfullhash}{120b6d22998b726590376085d087a297}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{PrusaSlicer}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.prusa3d.com
-      \endverb
-      \verb{url}
-      \verb https://www.prusa3d.com
-      \endverb
-    \endentry
-    \entry{Sharebot}{company}{}
-      \name{author}{1}{}{%
-        {{hash=47ec906ca4b65f8809d774e2839caf83}{%
-           family={S.r.l.},
-           familyi={S\bibinitperiod},
-           given={Sharebot},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{47ec906ca4b65f8809d774e2839caf83}
-      \strng{fullhash}{47ec906ca4b65f8809d774e2839caf83}
-      \strng{bibnamehash}{47ec906ca4b65f8809d774e2839caf83}
-      \strng{authorbibnamehash}{47ec906ca4b65f8809d774e2839caf83}
-      \strng{authornamehash}{47ec906ca4b65f8809d774e2839caf83}
-      \strng{authorfullhash}{47ec906ca4b65f8809d774e2839caf83}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Sharebot}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.sharebot.it/en/
-      \endverb
-      \verb{url}
-      \verb https://www.sharebot.it/en/
       \endverb
     \endentry
   \enddatalist

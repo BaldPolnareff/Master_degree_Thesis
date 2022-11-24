@@ -27,25 +27,25 @@
     bookmarks=true,
 }
 
-\makeglossaries
-
-\newglossaryentry{Additive Manufacturing}
-{
-        name=Additive Manufacturing,
-        description={A manufacturing process in which a three-dimensional object is created by laying down successive layers of material.}
-}
-
-\newglossaryentry{Biopolymer}
-{
-        name=Biopolymer,
-        description={A polymer produced by living organisms, such as plants, animals or microorganisms. bio-based polymers are often used as a substitute for petroleum-based polymers, due to their lower environmental impact.}        
-}
-
-
-\newacronym{pha}{PHA}{Poly Hydroxy Alcanoate}
-
-\newacronym{phbh}{PHBH}{Poly Hydroxy Butyrate Hydroxyvalerate}
-
+%\makeglossaries
+%
+%\newglossaryentry{Additive Manufacturing}
+%{
+%        name=Additive Manufacturing,
+%        description={A manufacturing process in which a three-dimensional object is created by laying down successive layers of material.}
+%}
+%
+%\newglossaryentry{Biopolymer}
+%{
+%        name=Biopolymer,
+%        description={A polymer produced by living organisms, such as plants, animals or microorganisms. bio-based polymers are often used as a substitute for petroleum-based polymers, due to their lower environmental impact.}        
+%}
+%
+%
+%\newacronym{pha}{PHA}{Poly Hydroxy Alcanoate}
+%
+%\newacronym{phbh}{PHBH}{Poly Hydroxy Butyrate Hydroxyvalerate}
+%
 \author{Giorgio De Trane, s275514}
 \title{\textbf{Preparation of bio-based powder for 3D printing applications by Selective Laser Sintering}}
 
@@ -130,8 +130,8 @@
     \newpage 
     \listoffigures
     \listoftables
-    \newpage
-    \printglossaries
+    %\newpage
+    %\printglossaries
 
     \newpage
 
@@ -919,7 +919,7 @@
         As mentioned in previous chapters, many failed attempts led to a deeper understanding of the entire process 
         and the proper choice of equipment, tools and tweaking of the initial recipe. \\ 
 
-        The most prominent issue was figuring out the importance of the environmental variables. With higher temperatures, the initially planned amount of chloroform evaporated too 
+        The most prominent issue was figuring out the importance of the operational variables. With higher temperatures, the initially planned amount of chloroform evaporated too 
         quickly while PHBH pellets were being dissolved. 
 
         The obtained liquid was extremely viscous and hard to drip effectively into the PVA solution. Drippers were constantly clogged
@@ -1021,8 +1021,9 @@
         Assuming the adjustment of viscosity and the optimization of the dripping phase have been dealt with, 
         another relevant parameter is the stirring speed of the PVA solution (see figure \ref{fig:process_diagram} for reference). 
 
-        The experiments conducted during this thesis confirmed what has been found in the scientific literature: 
-        an increase in stirring speed directly correlates to a decrease in average powder particle size, as reminded by figure \ref{fig:stirring_rpm}. 
+        The experiments conducted during this thesis confirmed what had already been found in the scientific literature: 
+        an increase in stirring speed directly correlates to a decrease in average powder particle size, as reminded by figure \ref{fig:stirring_rpm}
+        \autocites{DechetMaximilianA2020OtDo}. 
 
         This correlation is generally measured in terms of RPM, which is an active control of any magnetic stirrer and 
         a good indication of the average rotational speed of the stirred fluid, assuming that the device is properly functioning
@@ -1040,7 +1041,7 @@
         %Despite perfectly measuring all the quantities and mirroring equipment use for both batches, the magnetic stirrers'
         %reported RPM did not match the uneven velocities (even though the utilized models were exactly the same). 
 %
-        This aspect is later discussed in further detail in section\ref{faulty_equipment}. \\ 
+        This aspect is later discussed in further detail in section \ref{faulty_equipment}. \\ 
 
         Increasing RPM has proven to be an effective 
         strategy to increase final yield: powders have been effectively produced at the initially planned 700 RPM, however 
@@ -1163,7 +1164,7 @@
     \ref{flowability_analysis}, \ref{granulometry_analysis} . \\
 
     As all the mentioned analyses highlighted excellent results, well within the desired SLS requirements seen in section \ref{Powder_requirements}, the powder has been successfully used to produce 3D printed parts
-    (showcased in chapter \ref{SLS_printing_experimental}), which have been characterized in terms of mechanical properties, as well as thermal properties, that have been 
+    (showcased in chapter \ref{Printed_samples}), which have been characterized in terms of mechanical properties, as well as thermal properties, that have been 
     compared to those of the powder and the original raw material. \\
 
     Overall, all of the analyses have shown that the PHBH powder produced by the precipitation process is suitable for SLS additive manufacturing, which is in itself a huge achievement for a 
@@ -1198,7 +1199,7 @@
         activities, which is later discussed in detail in section \ref{SEM_analysis_results}. 
 
         The expected particle morphology should ideally approach that of perfect non hollow sphere, as pictured in figure \ref{fig:SEM_DALLE2}, generated by \textit{Dall-E 2}'s 
-        text prompt-to-image artificial intelligence algorithm \autocites{DALLE2}{DALLE2_roundparticles}. 
+        prompt-to-image artificial intelligence algorithm \autocites{DALLE2}{DALLE2_roundparticles}. 
 
             \begin{figure}[h!]
                 \centering
@@ -1261,10 +1262,10 @@
             The electron beam energy has been set to 10 kV for the first 6 samples, using the secondary electrons signal at constant pressure (SE)
             and then to 20 kV for the remaining 6 samples, using the variable pressure secondary electrons signal (VPSE G4). \\
 
-            Different magnifications factors have been used, ranging from 400 to 800 X, to showcase different particle sizes and to better understand 
+            Different magnification factors have been used, ranging from 400 to 800 X, to showcase different particle sizes and to better understand 
             the particle morphology. \\
 
-            All SEM images have been AI upscaled and enhanced with basic raster image editing workflows. \\ 
+            All SEM images have been AI upscaled and enhanced with basic raster image editing workflows, as shown in figure \ref{fig:SEM_edited_vs_unedited}. \\ 
 
                 \begin{figure}[h!]
                     \centering
@@ -1272,6 +1273,8 @@
                     \caption{Example of a SEM image before and after enhancing \autocites{Inkscape}{Pixelmator_Pro}}
                     \label{fig:SEM_edited_vs_unedited}
                 \end{figure}
+
+            The most relevant pictures are showcased in chapter \ref{SEM_analysis_results}. \\
 
             \clearpage
 
@@ -1296,17 +1299,17 @@
             thermal properties are well known and used to calibrate the machine. \\
             
             A typical use of DSC is the detection of phase transitions, which is crucial for applications such as SLS, where each material 
-            needs to be locally fused within an optimal sintering window \ref{Powder_requirements}, \ref{PHBH}. 
+            needs to be locally fused within an optimal sintering window \autocites{Padovano_SLS_Review,SLS_3dprinting_biomedical_polymers}. 
     
             One of the greatest advantage of PHBH over comparable materials is its wider sintering window, which makes it ideal 
-            for SLS \ref{PHBH}. \\ 
+            for SLS \autocites{Kovalcik_PHA_Review,Eraslan_PHBH_review}. \\ 
     
             This sintering window can be measured by analyzing a DSC plot of heat flow over temperature, given that this test measures 
-            phase transitions but is also capable of detecting more subtle physical changes, such as glass transition. 
+            phase transitions (including crystallyzation) but is also capable of detecting more subtle physical changes, such as glass transition. 
     
             Since the sintering window is defined as the temperature range comprised between cold crystallization offset and 
-            melting point onset \ref{Powder_requirements}, both detected by a DSC analysis \ref{fig:DSC_10Cmin}, then calculating it is trivial, 
-            based on the available data.
+            melting point onset (as explained in \ref{Powder_requirements}), then calculating it is trivial, 
+            based on the available results, which are highlighted in section \ref{DSC_results}.
 
                 The DSC machine used in this thesis work is the \textit{DSC 214 Polyma Equipment} \autocites{Netzsch}, which is a benchtop instrument that can be used for 
                 a wide range of applications, shown in figure \ref{fig:DSC_polyma}. \\ 
@@ -1387,7 +1390,7 @@
 
             The test has then been conducted on powder samples and SLS printed samples, focusing on finding relevant 
             discrepancies with the reference behaviour, which could potentially highlight the presence of impurities
-            that might have been undetected during SEM analysis (\ref{SEM_analysis}). \\ 
+            that might be undetectable by visual inspection of SEM images (showcased in section \ref{SEM_analysis_results}). \\ 
 
             The TGA analysis was performed on a \textit{Mettler-Toledo TGA/SDTA 851e} \autocites{Mettler_Toledo} instrument (seen in figure \ref{fig:TGA_mettlertoledo}), 
             in air atmosphere, with a heating rate of $10 \ ^{\circ}C/min$ and a temperature range of $25 \ ^{\circ}C$ to $900 \ ^{\circ}C$. \\
@@ -1399,7 +1402,7 @@
                 \label{fig:TGA_mettlertoledo}
             \end{figure}
 
-            The specimens that have undergone a TGA analysis have been assigned an ID with the following criteria:
+            The specimens that have undergone a TGA analysis have been assigned an ID with the following criterion:
 
                 \begin{equation}
                     ID = xTGA_{NN}
@@ -1408,7 +1411,7 @@
 
             where $x$ is the specimen type (granule, powder or sintered), and $NN$ is the sample number. \\
 
-            The specimens have been catalogued in the following table:
+            The specimens have been catalogued in table \ref{tab:TGA_specimens}:
 
                     \begin{table}[h!]
                         \centering
@@ -1430,19 +1433,20 @@
         \clearpage
 
         \subsection{Density analysis\label{density_measurement}}
+
         The true density of the powder is an important parameter to determine its flowability, which is a key factor in the
-        SLS printing process, as better described in (\ref{flowability_analysis}). \\
+        SLS printing process, as better described in chapter \ref{flowability_analysis}. \\
         
         Its value should be ideally identical to the theoretical density of the material, which is stated to be 
         $1.20 \ kg/m^3$ in its datasheet \autocites{GruppoMaip}. \\ 
         
         The density of the powder has been measured with a \textit{Ultrapyc 5000 gas
-        pycnometer} \autocites{Ultrapyc5000}. \\ 
+        pycnometer} \autocites{Ultrapyc5000}, as reported by figure \ref{fig:ultrapyc5000}. \\ 
     
         \begin{figure}[h!]
             \centering
             \includegraphics[width=0.7\textwidth]{Pictures/pycnometer.eps}
-            \caption{Ultrapyc 5000 gas pycnometer \autocites{Ultrapyc5000}}
+            \caption{Ultrapyc 5000 gas pycnometer}
             \label{fig:ultrapyc5000}
         \end{figure}
     
@@ -1518,6 +1522,284 @@
 
       \clearpage
 
+      \section{3D printing\label{SLS_printing_experimental}}
+
+      After the successful powder production (a typical batch is showcased in figure \ref{fig:PHBH_collected_powder}), the next step was to print it with the SLS machine. \\
+  
+      Before being printed, the powder could have been mixed with a small quantity of a binder, to improve its flowability. 
+      However, given the excellent flowability of the fine powder (highlighted in section \ref{flowability_analysis}), this step has been skipped. \\
+  
+      The next preparation step was to oven dry the powder again, in order to remove any residual moisture
+      that could have accumulated during the storage period, and to homogenize the powder distribution 
+      by shaking the container for a few minutes. \\
+  
+                  \begin{figure}[h!]
+                      \centering
+                      \includegraphics[width=0.5\textwidth]{Pictures/PHBH_dried_powder.eps}
+                      \caption{SLS ready powder batch}
+                      \label{fig:PHBH_collected_powder}
+                      
+                  \end{figure}
+  
+          \subsection{Print files preparation\label{Print_files_preparation}}
+  
+          The following step was to prepare the print files, which are the files that have been sent to the SLS machine, 
+          to instruct it on how to print the parts. \\
+  
+          The approach can vary depending on the software used to prepare the files, but the general idea is to 
+          create a 3D model of the part, then slice it into layers, and finally export the files to the SLS machine. \\
+  
+          The pipeline started with the creation of a 3D model of the part and ended with a g-code file, and can 
+          be summarized as shown in figure \ref{fig:3dprint_file_pipeline_scheme}: 
+          
+                  \begin{figure}[h!]
+                      \centering 
+                      \includegraphics[width=\textwidth]{Pictures/3dprint_file_pipeline_scheme.eps}
+                      \caption{3D printing file pipeline}
+                      \label{fig:3dprint_file_pipeline_scheme}
+                  \end{figure}
+  
+          \subsubsection{3D model creation\label{3D_model_creation}}
+  
+          The first step was to create a 3D model of the part, which can be done in many ways, 
+          depending on the software used. \\
+  
+          The models have been created from scratch, either by directly modeling them in \textit{Blender} 3.3.1 \autocites{Blender},
+          or by creating SVG files in \textit{Inkscape} 1.2 \autocites{Inkscape} and then extruding them in \textit{Blender}, where
+          they are handled as bezier curves. \\
+  
+          This approach was particularly useful for this thesis work, where planar complex geometries better suit the SLS printing process
+          with low powder availability and low printing volumes. As seen in section \ref{Printed_samples}, the SLS printed parts 
+          are extremely small, with heights in the order of millimeters. \\
+          
+          Working with planar geometries also allowed to easily create very intricate 3D models, by simply extruding the 2D SVG files, 
+          which as earlier mentioned are handled by Blender as a collection of bezier curves and thus the model inherits their properties, such as resolution 
+          dependant smoothness, non destructive extrusion and custom profile beveling. \\
+  
+          The extruded bezier curves have then been converted to meshes, remeshed when necessary, and finally 
+          exported as STL files (which is the most common file format for 3D printing), using 
+          Blender's internal 3D Printing Toolbox addon, which also offers useful mesh stats and 
+          automatic mesh fixing tools. \\
+          
+          \subsubsection{Slicing\label{Slicing}}
+          
+          The next step was to slice the 3D model into layers, which is handled by a general purpose slicing software. \\
+  
+          The slicing software takes the STL file as input (or other formats such as OBJ, which are
+          automatically triangulated during the import), and outputs a g-code file, which is the file that will be sent to the SLS machine. \\
+  
+          There are some caveats with slicing software, which are worth mentioning. \\
+  
+          The first one is that the software is not able to handle meshes with non manifold edges, so 
+          the STL file must be checked for non manifold edges before being imported. \\ 
+  
+          More importantly, all slicing software is designed to work with an FDM workflow, whereas 
+          many industrial SLS machines tend to have a dedicated CNC software. 
+  
+          This means that the slicing software is not able to handle the SLS workflow without workarounds. 
+  
+          The most common workaround is to load a custom configuration file for the slicing software, 
+          which will instruct it on how to handle the SLS workflow for a specific printer. 
+          The slicing software is not aware of the SLS workflow, so it will slice the model 
+          based on a FDM workflow, and the custom configuration file, which bundles a set of 
+          parameters for the printing area and a fictitious filament. \\ 
+  
+          While clearly there is no filament extrusion in SLS, once the software has sliced the model by simulating 
+          an FDM workflow, the output g-code file will be compatible with the SLS machine and provide 
+          accurate movement instruction. \\
+  
+          The slicing software used for this thesis is \textit{PrusaSlicer} \autocites{PrusaSlicer}, 
+          which is a free and open source slicing software, forked from the \textit{Slic3r} project. \\
+  
+          The SLS machine used for this case study does not have a dedicated CNC software, but the 
+          manufacturer provided a custom \textit{.ini} bundle configuration file for \textit{PrusaSlicer}, which is
+          a universal file format, and can be used by any other slicing software as well. \\
+          
+          
+          \clearpage
+  
+          \subsection{Sharebot Snowhite²\label{Sharebot_Snowhite²}}
+  
+          The SLS machine used for this thesis is the \textit{Sharebot Snowwhite²} (showcased in figure \ref{fig:Sharebot_Snowhite2}), which is an open hardware and 
+          open source desktop SLS machine, designed by the italian company \textit{Sharebot} \autocites{Sharebot}. \\ 
+  
+          \begin{figure}[h!]
+              \centering
+              \includegraphics[width=0.5\textwidth]{Pictures/sharebot_snowhite2.eps}
+              \caption{Sharebot Snowhite²}
+              \label{fig:Sharebot_Snowhite2}
+          \end{figure}
+  
+          The system is very modular and it features a standard powder distributor with a working area of 
+          100x100x100 mm, but a reduced distributor with a 20x40x60 mm area has been used, given the available 
+          quantity of PHBH powder.  \\ 
+  
+          The printer utilizes a CO2 laser with a 14 W maximum power output and a 10.6 µm wavelength. Power is controlled as 
+          a percentage of its maximum output.  
+  
+          A value of 25 \% has been generally set for solid pieces, whereas a 30-35 \% range was preferred for pieces with extremely thin walls and intricate structures.  
+          The power for the border has been set to a 5 \%  relative increment, with respect to that used for the inner layers. \\ 
+  
+          The printer features a user friendly touch screen GUI, but all its features and logs can be accessed remotely for further control from any terminal.  
+  
+          The device is equipped with a 3D camera, which allows to monitor the printing process in real time, 
+          and to take pictures of the printed parts at every layer. \\
+  
+          \begin{figure}[h!]
+              \centering
+              \includegraphics[width=\textwidth]{Pictures/Sharebot_GUI.pdf}
+              \caption{Sharebot Snowhite² UI}
+              \label{fig:Sharebot_UI}
+          \end{figure}
+  
+          The polymer powder is generally distributed by the default blade recoater, but a roller option is also available. 
+          Air has been used for the printing process, but nitrogen or argon could be fed through the chamber, 
+          should a modified atmosphere be needed.  \\
+  
+          The printer is also equipped with a powder recovery system, which allows to recover the powder 
+          after the printing process, and to reuse it for further prints. \\ 
+  
+          The environment temperature has been set in a range of 85-95 $^oC$, with variable rates of success, 
+          whereas values outside this threshold showcased critical issues, i.e. high porosity, sheeting and 
+          delamination at low temperatures or adhesion to the recoater and consequent destruction of the printed specimen. \\ 
+  
+          Another configurable variable is laser hatching speed, which is measured relative to machine resolution, in dots/s, 
+          which corresponds to 0.06 mm/s in metric units. 
+  
+          This has generally been kept at default values (40000 dots/s for the inner layers and 64000 dots/s for the border).  \\ 
+  
+          A maximum of three warming layers has been used for these prints, i.e. the powder is raised and warmed 
+          up for three layers, without any laser hatching, to allow the powder to settle and to avoid 
+          powder sheeting. \\ 
+          A higher number of warming layers might be needed for larger prints, but it has not been tested. \\
+  
+          Once the environment temperature has been set in the desired range (ideally within the theoretical 
+          sintering window), the printer ramps it up in gradual steps, until the target is reached.  
+          An additional waiting time of 120-300 s has been set after reaching the desired temperature, in order to let heat 
+          uniformly distribute through the powder bed. \\
+  
+          The tank offset has been set prior to printing, depending on the desired print height or 
+          layer number, which is calculated with the following formula: \\
+          
+          \begin{equation}
+              Z =  \frac{1}{2} \cdot (0.3 \  N) \ \ \ \ \  [mm]
+              \label{eq:layer_height}
+          \end{equation}
+          
+          
+          where:
+          \begin{itemize}
+              \item $Z$ is the tank offset, in mm
+              \item $N$ is the number of layers to be printed 
+              \item $0.3$ is the layer height, in mm, which is the default value for the \textit{Sharebot Snowhite²}
+              \item $\frac{1}{2}$ is a correction factor, which is needed to account for the fact that the printing area is fed powder 
+              from two side tanks.
+          \end{itemize}
+
+          As earlier mentioned, the printer is modular and despite being equipped 
+          with a default 100x100x100 mm working area, a reduced distributor with a 20x40x60 mm area has been used, 
+          given the available quantity of PHBH powder. \\ 
+  
+          This setup is ideal for small scale prints, but as shown later, the current results 
+          are not exhaustively representative of the potential of the SLS workflow for PHBH. \\
+  
+          There are in fact intrinsic limitations to extremely small objects with intricate and fine details,
+          especially at low z-height, which are related to both the material itself (as it is fragile and prone to 
+          breaking) and the printing resolution of the SLS machine, which 
+          did not seem to be able to print extremely small features with high fidelity to the original models. \\
+  
+          These limitations become less and less relevant with increasing z-height, as the part becomes 
+          more robust, as well as with increasing overall size, where the printing resolution 
+          is able to catch finer details with better accuracy. \\
+  
+          Nonetheless, the current results are still very promising, and they showcase the potential of the SLS workflow
+          for PHBH, which can be further explored with larger prints, where the complexity of the models 
+          can be pushed even further, as expected with SLS technology. \\  
+  
+          The first samples were simple geometries, which have been printed to test the feasibility of the SLS workflow 
+          for PHBH. Square and rectangular prisms have been printed, with different z-heights, starting from single 
+          layers, up to 15 layers, as a baseline for the following tests. \\ 
+  
+          The initial goal was in fact to find adequate printing parameters for the material, which required a lot 
+          of trial and error, as the material is very sensitive to the printing conditions. \\
+  
+          The first prints have been made with a 25 \%  laser power setting, which has been found to be 
+          a reasonable value for solid pieces, by visual inspection of single layers (which showcased 
+          decent densification) and later confirmed by 
+          mechanical testing on multilayer samples. 
+          
+          \clearpage
+  
+  
+          As previously mentioned, the material is very sensitive to the printing conditions, and other than laser power,
+          the environment temperature has been found to be the most critical parameter. \\ 
+  
+          After a long series of tests, the optimal temperature range has been found to be $85 \ ^oC$ - $95 \ ^oC$, which has been
+          used for the following tests. \\ 
+  
+          It is important to note that the environment temperature is measured by a thermocouple, whereas the 
+          powder bed temperature (which is a few degrees higher) is measured by an infrared sensor, which  
+          is less accurate. 
+  
+          Therefore, these values might vary slightly for different machines, depending on how the different 
+          temperatures are measured. \\ 
+  
+          The next step was to test the material with more complex geometries, which have been printed with the same 
+          temperature range, but with a 30-35 \% laser power setting, which has been found to be optimal for the 
+          emptier geometries, where heat is dissipated more easily, given the lower thermal mass. \\ 
+  
+          When dealing with thin, hollow and complex geometries, the most prominent issue is the tendency of the 
+          blade recoater to stick to the printed piece and wipe the part out, which is a common 
+          issue with SLS technology, and which 
+          can be caused by different factors, such as the powder bed temperature, the laser power, the 
+          environment temperature, the powder type and the powder distribution, among the many. \\ 
+  
+          Given the multifactorial and complex nature of the aforementioned issue, it is not possible to 
+          pinpoint the exact cause of the problem, but finding a compromise between the 
+          different parameters proved to be a viable and practical option, which allowed for successful prints. \\
+          
+          The introduction of other settings such as warming layers, pre-print 
+          and between-layers waiting time, has been found to be useful in order to avoid 
+          the blade recoater from wiping the part out. \\
+  
+          Using a roller recoater might also be a viable solution, but it has not been tested. \\ 
+  
+          The following printed specimens have been modeled as mentioned in section \ref{3D_model_creation} and 
+          have been catalogued in table \ref{tab:SLS_samples} with the following criterion: 
+  
+          \begin{equation}
+              NN-SLS_{MM}
+              \label{eq:SLS_specimen_notation}
+          \end{equation}
+  
+          where: 
+  
+          NN is the number of layers and MM is the sequential number of the sample, respectively. \\ 
+  
+      \begin{table}[h!]
+          \centering
+          \caption{A list of the most relevant 3D printed specimens}
+          \resizebox{\textwidth}{!}{%
+          \begin{tabular}{@{}cccccc@{}}
+              \toprule
+              \textbf{ID}        & \textit{Layers}  & \textit{Laser power {[}$\%${]}} & \textit{Environment temperature {[}$ ^{\circ}C${]}} \\ \midrule
+              $15-SLS_{01}$      & 15               & 25                              & 90                                                  \\
+              $15-SLS_{02}$      & 15               & 25                              & 95                                                  \\
+              $55-SLS_{03}$      & 55               & 35                              & 95                                                  \\
+              $01-SLS_{04}$      & 01               & 25                              & 85                                                  \\
+              $50-SLS_{05}$      & 50               & 30                              & 90                                                  \\
+              $10-SLS_{06}$      & 10               & 25                              & 90                                                  \\
+              $15-SLS_{07}$      & 15               & 25                              & 90                                                  \\
+              $15-SLS_{08}$      & 15               & 35                              & 87                                                  \\ \bottomrule
+          \end{tabular}%           
+          }
+      \label{tab:SLS_samples}
+      \end{table}
+  
+          
+  
+        \clearpage
+
       \subsection{Dynamic Mechanical Analysis\label{DMA}}
  
         A non-destructive DMA has been used to determine some of the mechanical properties of SLS printed PHBH. The analysis 
@@ -1537,13 +1819,15 @@
         sudden change in the moduli ratio of the material. \\ 
         
         The analysis has been performed with a Triton Technology DMA instrument \autocites{Triton_Technology_Ltd}, on the SLS sample 
-        $10-DMA01_{filled}$ that has been printed specifically for the purpose of the DMA analysis 
-        (as said in sections\ref{SLS_printing_experimental}, \ref{tab:SLS_samples}, \ref{fig:printed_specimens_DMA}). \\ 
+        $10-SLS_{06}$ that has been printed specifically for the purpose of the DMA analysis 
+        (as said in sections \ref{SLS_printing_experimental}, \ref{Printed_samples}). \\ 
 
         The test has been run with an oscillating uniaxial stress amplitude of 1 N, at a frequency of 1 Hz, with an initial 
         chamber temperature of $- 77.7 \ ^{\circ}C$ (achieved by cooling the environment with liquid nitrogen), and has been stopped 
         once the sample reached the rubbery plateau, i.e. a temperature region below the melting point, in which the material 
         exhibits an almost constant modulus behaviour \autocites{JD_Ferry_viscoelasticpolymers}. \\
+
+        \clearpage
 
 
       \section{Analyses results\label{analyses_results_general}}
@@ -1699,7 +1983,7 @@
 
     \subsection{DSC Results\label{DSC_results}}
 
-    The analysis results have been analyzed and plotted using \textit{Labplot} \autocites{Labplot} 
+    The analysis results have been plotted using \textit{Labplot} \autocites{Labplot} 
     and \textit{Inkscape} \autocites{Inkscape},
     using the \textit{exo-up} convention, with the raw pellet curves used as a baseline for the powder curves. \\
         \begin{figure}[h!]
@@ -1766,7 +2050,7 @@
             \item The area between the peaks and the base line represents an estimate of the enthalpy value  
         \end{itemize}
 
-        The enthalpy values are then calculated using the following equation, which is solved numerically: \\ 
+        The enthalpy values are then calculated using the following integral equation, which is solved numerically: \\ 
 
         \begin{equation}
             \Delta H = \int_{t_0}^{t_1} \phi (t) \,dt \ \ \ \ [J/g]
@@ -1795,7 +2079,7 @@
         m is the mass of the specimen and $\Delta H_{m}^{0}$ is the enthalpy value of the melting peak of a pure crystalline material, 
         which is $146 \ J/g$ for PHBH \autocites{PHBH_Crystallinity}. \\
 
-        All the highlighted temperatures and other relevant quantities are summarized in the following table: 
+        All the highlighted temperatures and other relevant quantities are summarized in table \ref{tab:DSC_Results}: 
 
                 \begin{table}[h!]
                     \centering 
@@ -1815,7 +2099,7 @@
 
         \subsection{TGA Results\label{TGA_Results}}
         The analysis data has been exported with \textit{Mettler-Toledo}'s included software \autocites{Mettler_Toledo}, after normalizing the data to the initial weight of the sample,
-        then imported, elaborated and plotted with \textit{Labplot} \autocites{Labplot}. \\
+        then uniformed to the rest of the datasets and imported, elaborated and plotted with \textit{Labplot} \autocites{Labplot}. \\
         The following figures show the results of the TGA analysis on the pellet, powder and sintered samples. \\ 
         \begin{figure}[h!]
             \centering
@@ -1853,7 +2137,7 @@
             the same temperature values. \\ 
 
             As a further testimony of the consistent thermal behaviour of the biopolymer along the entire pipeline, the overlap of the
-            TGA curves of the pellet, powder and sintered samples is shown in the following figure:
+            TGA curves of the pellet, powder and sintered samples is shown in figure \ref{fig:TGA_overlapped}:
 
                 \begin{figure}[h!]
                     \centering
@@ -1866,7 +2150,7 @@
 
         \subsection{DMA Results\label{DMA_Results}}
 
-        The results of the DMA analysis are shown in the following figure, where the tan$\delta$ curve has been upscaled significantly 
+        The results of the DMA analysis are shown in figure \ref{fig:DMA_plot}, where the tan$\delta$ curve has been upscaled significantly 
         in order to match a relative scale with the other curves. \\ 
 
             \begin{figure}[h!]
@@ -1879,324 +2163,215 @@
         \clearpage 
 
         The tan$\delta$ curve visible in figure \ref{fig:DMA_plot} shows a clear peak at $14.1 \ ^{\circ}C$, which is the glass transition temperature of the material, 
-        in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (\ref{fig:DSC_10Cmin}). \\ 
+        in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (as seen in figure \ref{fig:DSC_10Cmin}). \\ 
 
         As expected for a polymer of the PHA family, both the storage modulus $E'$ and the loss modulus $E''$ are very low, in line with the 
         typical viscoelastic behavior of all bio-based polymers \autocites{Kovalcik_PHA_Review}, which are not suited for structural applications and 
         are instead used for packaging and other non-structural applications, such as biomedical implants and scaffolds \autocites{Messori_Bondioli_PHAs}. \\
 
-        Unsurprisingly, the mechanical properties of the material fall behind those of typical SLS polymers, which can 
+        Unsurprisingly, the mechanical properties of the material fall behind those of typical SLS polymers \autocites{Padovano_SLS_Review}, which can 
         occasionally reach storage moduli a whole order of magnitude higher than that of PHBH, according to this DMA. \\ 
 
         That in itself is not a major issue, as SLS parts are not limited to structural applications or mechanical pieces:
         other properties, such as biodegradability, biocompatibility and low toxicity can be very desirable traits in a wide range of 
-        applications. \\ 
+        applications \autocites{SLS_3dprinting_biomedical_polymers, Kovalcik_PHA_Review}. \\ 
 
         Moreover, the mechanical and thermal properties of the material can be improved by adding fillers, creating blends with other 
-        bio-based polymers or creating composites with other materials. \\ 
+        bio-based polymers or creating composites with other materials \autocites{Recent_progress_polymers_AM,Eraslan_PHBH_review,PHBH_Crystallinity}. \\ 
 
         Given the successful SLS printability, with unaltered thermal properties among the raw material, the powder and the 
-        printed parts (as highlighted by the TGA and DSC analysis results \ref{TGA_Analysis}, \ref{DSC_analysis}), as well as 
-        mechanical properties that meet the expected behavior of a bioplastic, PHBH is a very promising polymer 
+        printed parts (as highlighted by the TGA and DSC analysis results  in sections \ref{TGA_Analysis}, \ref{DSC_analysis}), as well as 
+        mechanical properties that meet the expected behavior of a bioplastic, PHBH is a very promising bio-based polymer 
         that can further enrich the catalogue of sustainable materials available for additive manufacturing. \\ 
 
 
 
     \clearpage
-    \section{3D printing\label{SLS_printing_experimental}}
-
-    After the powder has been characterized, the next step is to print it with the SLS machine. \\
-
-    Before being printed, the powder can be mixed with a small quantity of a binder, to improve the flowability of the powder. 
-    However, given the excellent flowability of the PHBH powder (highlighted in section \ref{flowability_analysis}), this step has been skipped. \\
-
-    The next preparation step is to further dry the powder, in order to remove any residual moisture
-    that could have accumulated during the storage period, and to homogenize the powder distribution 
-    by shaking the container for a few minutes. \\
-
-                \begin{figure}[h!]
-                    \centering
-                    \includegraphics[width=0.5\textwidth]{Pictures/PHBH_dried_powder.eps}
-                    \caption{SLS ready powder batch}
-                    \label{fig:PHBH_collected_powder}
-                    
-                \end{figure}
-
-        \subsection{Print files preparation\label{Print_files_preparation}}
-
-        The next step is to prepare the print files, which are the files that will be sent to the SLS machine, 
-        to instruct it on how to print the part. \\
-
-        The approach can vary depending on the software used to prepare the files, but the general idea is to 
-        create a 3D model of the part, then slice it into layers, and finally export the files to the SLS machine. \\
-
-        The pipeline starts with the creation of a 3D model of the part and ends with a g-code file, and can 
-        be summarized as follows: 
-        
-                \begin{figure}[h!]
-                    \centering 
-                    \includegraphics[width=\textwidth]{Pictures/3dprint_file_pipeline_scheme.eps}
-                    \caption{3D printing file pipeline}
-                    \label{fig:3dprint_file_pipeline_scheme}
-                \end{figure}
-
-        \subsubsection{3D model creation\label{3D_model_creation}}
-
-        The first step is to create a 3D model of the part, which can be done in many ways, 
-        depending on the software used. \\
-
-        The models have been created from scratch, either by directly modeling them in \textit{Blender} 3.3.1 \autocites{Blender},
-        or by creating SVG files in \textit{Inkscape} 1.2 \autocites{Inkscape} and then extruding them in \textit{Blender}, where
-        they are handled as bezier curves. \\
-
-        This approach is particularly useful for this case study, where planar complex geometries better suit the SLS printing process
-        with low powder availability and low printing volumes. As seen in \ref{Printed_samples}, the SLS printed parts 
-        are extremely small, with heights in the order of millimeters. \\
-        
-        Working with planar geometries also allows to easily create very intricate 3D models, by simply extruding the 2D SVG file, 
-        which as earlier mentioned is handled as bezier curves and inherits their properties, such as resolution 
-        dependant smoothness, non destructive extrusion and custom profile beveling. \\
-
-        The extruded bezier curves have then been converted to meshes, remeshed when necessary, and finally 
-        exported as STL files (which is the most common file format for 3D printing), using 
-        Blender's internal 3D Printing Toolbox addon, which also offers useful mesh stats and 
-        automatic mesh fixing tools. \\
-        
-        \subsubsection{Slicing\label{Slicing}}
-        
-        The next step is to slice the 3D model into layers, which is done by the slicing software. \\
-
-        The slicing software takes the STL file as input (or other formats such as OBJ, which are
-        automatically triangulated during the import), and outputs a g-code file, which is the file that will be sent to the SLS machine. \\
-
-        There are some caveats with slicing software, which are worth mentioning. \\
-
-        The first one is that the software is not able to handle meshes with non manifold edges, so 
-        the STL file must be checked for non manifold edges before being imported. \\ 
-
-        More importantly, all slicing software is designed to work with an FDM workflow, whereas 
-        many industrial SLS machines tend to have a dedicated CNC software. 
-
-        This means that the slicing software is not able to handle the SLS workflow without workarounds. 
-
-        The most common workaround is to load a custom configuration file for the slicing software, 
-        which will instruct it on how to handle the SLS workflow for a specific printer. 
-        The slicing software is not aware of the SLS workflow, so it will slice the model 
-        based on a FDM workflow, and the custom configuration file, which bundles a set of 
-        parameters for the printing area and a fictitious filament. \\ 
-
-        While clearly there is no filament extrusion in SLS, once the software has sliced the model by simulating 
-        an FDM workflow, the output g-code file will be compatible with the SLS machine and provide 
-        accurate movement instruction. \\
-
-        The slicing software used for this case study is \textit{PrusaSlicer} \autocites{PrusaSlicer}, 
-        which is a free and open source slicing software, forked from the \textit{Slic3r} project. \\
-
-        The SLS machine used for this case study does not have a dedicated CNC software, but the 
-        manufacturer provides a custom \textit{.ini} bundle configuration file for \textit{PrusaSlicer}, which is
-        a universal file format, and can be used by any slicing software. \\
-        
-        
+    %\section{3D printing\label{SLS_printing_experimental}}
+%
+    %After the powder has been characterized, the next step is to print it with the SLS machine. \\
+%
+    %Before being printed, the powder can be mixed with a small quantity of a binder, to improve the flowability of the powder. 
+    %However, given the excellent flowability of the PHBH powder (highlighted in section \ref{flowability_analysis}), this step has been skipped. \\
+%
+    %The next preparation step is to further dry the powder, in order to remove any residual moisture
+    %that could have accumulated during the storage period, and to homogenize the powder distribution 
+    %by shaking the container for a few minutes. \\
+%
+    %            \begin{figure}[h!]
+    %                \centering
+    %                \includegraphics[width=0.5\textwidth]{Pictures/PHBH_dried_powder.eps}
+    %                \caption{SLS ready powder batch}
+    %                \label{fig:PHBH_collected_powder}
+    %                
+    %            \end{figure}
+%
+    %    \subsection{Print files preparation\label{Print_files_preparation}}
+%
+    %    The next step is to prepare the print files, which are the files that will be sent to the SLS machine, 
+    %    to instruct it on how to print the part. \\
+%
+    %    The approach can vary depending on the software used to prepare the files, but the general idea is to 
+    %    create a 3D model of the part, then slice it into layers, and finally export the files to the SLS machine. \\
+%
+    %    The pipeline starts with the creation of a 3D model of the part and ends with a g-code file, and can 
+    %    be summarized as follows: 
+    %    
+    %            \begin{figure}[h!]
+    %                \centering 
+    %                \includegraphics[width=\textwidth]{Pictures/3dprint_file_pipeline_scheme.eps}
+    %                \caption{3D printing file pipeline}
+    %                \label{fig:3dprint_file_pipeline_scheme}
+    %            \end{figure}
+%
+    %    \subsubsection{3D model creation\label{3D_model_creation}}
+%
+    %    The first step is to create a 3D model of the part, which can be done in many ways, 
+    %    depending on the software used. \\
+%
+    %    The models have been created from scratch, either by directly modeling them in \textit{Blender} 3.3.1 \autocites{Blender},
+    %    or by creating SVG files in \textit{Inkscape} 1.2 \autocites{Inkscape} and then extruding them in \textit{Blender}, where
+    %    they are handled as bezier curves. \\
+%
+    %    This approach is particularly useful for this case study, where planar complex geometries better suit the SLS printing process
+    %    with low powder availability and low printing volumes. As seen in \ref{Printed_samples}, the SLS printed parts 
+    %    are extremely small, with heights in the order of millimeters. \\
+    %    
+    %    Working with planar geometries also allows to easily create very intricate 3D models, by simply extruding the 2D SVG file, 
+    %    which as earlier mentioned is handled as bezier curves and inherits their properties, such as resolution 
+    %    dependant smoothness, non destructive extrusion and custom profile beveling. \\
+%
+    %    The extruded bezier curves have then been converted to meshes, remeshed when necessary, and finally 
+    %    exported as STL files (which is the most common file format for 3D printing), using 
+    %    Blender's internal 3D Printing Toolbox addon, which also offers useful mesh stats and 
+    %    automatic mesh fixing tools. \\
+    %    
+    %    \subsubsection{Slicing\label{Slicing}}
+    %    
+    %    The next step is to slice the 3D model into layers, which is done by the slicing software. \\
+%
+    %    The slicing software takes the STL file as input (or other formats such as OBJ, which are
+    %    automatically triangulated during the import), and outputs a g-code file, which is the file that will be sent to the SLS machine. \\
+%
+    %    There are some caveats with slicing software, which are worth mentioning. \\
+%
+    %    The first one is that the software is not able to handle meshes with non manifold edges, so 
+    %    the STL file must be checked for non manifold edges before being imported. \\ 
+%
+    %    More importantly, all slicing software is designed to work with an FDM workflow, whereas 
+    %    many industrial SLS machines tend to have a dedicated CNC software. 
+%
+    %    This means that the slicing software is not able to handle the SLS workflow without workarounds. 
+%
+    %    The most common workaround is to load a custom configuration file for the slicing software, 
+    %    which will instruct it on how to handle the SLS workflow for a specific printer. 
+    %    The slicing software is not aware of the SLS workflow, so it will slice the model 
+    %    based on a FDM workflow, and the custom configuration file, which bundles a set of 
+    %    parameters for the printing area and a fictitious filament. \\ 
+%
+    %    While clearly there is no filament extrusion in SLS, once the software has sliced the model by simulating 
+    %    an FDM workflow, the output g-code file will be compatible with the SLS machine and provide 
+    %    accurate movement instruction. \\
+%
+    %    The slicing software used for this case study is \textit{PrusaSlicer} \autocites{PrusaSlicer}, 
+    %    which is a free and open source slicing software, forked from the \textit{Slic3r} project. \\
+%
+    %    The SLS machine used for this case study does not have a dedicated CNC software, but the 
+    %    manufacturer provides a custom \textit{.ini} bundle configuration file for \textit{PrusaSlicer}, which is
+    %    a universal file format, and can be used by any slicing software. \\
+    %    
+    %    
+    %    \clearpage
+%
+    %    \subsection{Sharebot Snowhite²\label{Sharebot_Snowhite²}}
+%
+    %    The SLS machine used for this case study is the \textit{Sharebot Snowwhite²}, which is an open hardware and 
+    %    open source desktop SLS machine, designed by the italian company \textit{Sharebot} \autocites{Sharebot}. \\ 
+%
+    %    \begin{figure}[h!]
+    %        \centering
+    %        \includegraphics[width=0.5\textwidth]{Pictures/sharebot_snowhite2.eps}
+    %        \caption{Sharebot Snowhite²}
+    %        \label{fig:Sharebot_Snowhite2}
+    %    \end{figure}
+%
+    %    The system is very modular and it features a standard powder distributor with a working area of 
+    %    100x100x100 mm, but a reduced distributor with a 20x40x60 mm area has been used, given the available 
+    %    quantity of PHBH powder.  \\ 
+%
+    %    The printer utilizes a CO2 laser with a 14 W maximum power output and a 10.6 µm wavelength. Power is controlled as 
+    %    a percentage of its maximum output.  
+%
+    %    A value of 25 \% has been generally set for solid pieces, whereas a 30-35 \% range is preferred for pieces with extremely thin walls and intricate structures.  
+    %    The power for the border has been set to a 5 \% increment with respect to the inner layers. \\ 
+%
+    %    The printer features a user friendly touch screen GUI, but all its features and logs can be accessed remotely for further control from any terminal.  
+%
+    %    The printer is equipped with a 3D camera, which allows to monitor the printing process in real time, 
+    %    and to take pictures of the printed parts at every layer. \\
+%
+    %    \begin{figure}[h!]
+    %        \centering
+    %        \includegraphics[width=\textwidth]{Pictures/Sharebot_GUI.pdf}
+    %        \caption{Sharebot Snowhite² UI}
+    %        \label{fig:Sharebot_UI}
+    %    \end{figure}
+%
+    %    The polymer powder is distributed by a blade recoater, but a roller option is also available. 
+    %    Air has been used for the printing process, but nitrogen or argon can be fed through the chamber, 
+    %    should a modified atmosphere be needed.  \\
+%
+    %    The printer is also equipped with a powder recovery system, which allows to recover the powder 
+    %    after the printing process, and to reuse it for further prints. \\ 
+%
+    %    The environment temperature has been set in a range of 85-95 $^oC$, with variable rates of success, 
+    %    whereas values outside this threshold showcased critical issues, i.e. high porosity, sheeting and 
+    %    delamination at low temperatures or adhesion to the recoater and consequent destruction of the printed specimen. \\ 
+%
+    %    Another configurable variable is laser hatching speed, which is measured relative to machine resolution, in dots/s, 
+    %    which corresponds to 0.06 mm/s in metric units. 
+%
+    %    This has generally been kept at default values (40000 dots/s for the inner layers and 64000 dots/s for the border).  \\ 
+%
+    %    A maximum of three warming layers has been used for these prints, i.e. the powder is raised and warmed 
+    %    up for three layers, without any laser hatching, to allow the powder to settle and to avoid 
+    %    powder sheeting. \\ 
+    %    A higher number of warming layers might be needed for larger prints, but it has not been tested 
+    %    \ref{3D_model_creation}. \\
+%
+    %    Once the environment temperature has been set in the desired range (ideally within the theoretical 
+    %    sintering window), the printer ramps it up in gradual steps, until the target is reached.  
+    %    An additional waiting time of 120-300 s has been set after reaching the desired temperature, in order to let heat 
+    %    uniformly distribute through the powder bed. \\
+%
+    %    The tank offset has been set prior to printing, depending on the desired print height or 
+    %    layer number, which is calculated with the following formula: \\
+    %    
+    %    \begin{equation}
+    %        Z =  \frac{1}{2} \cdot (0.3 \  N) \ \ \ \ \  [mm]
+    %        \label{eq:layer_height}
+    %    \end{equation}
+    %    
+    %    
+    %    where:
+    %    \begin{itemize}
+    %        \item $Z$ is the tank offset, in mm
+    %        \item $N$ is the number of layers to be printed 
+    %        \item $0.3$ is the layer height, in mm, which is the default value for the \textit{Sharebot Snowhite²}
+    %        \item $\frac{1}{2}$ is a correction factor, which is needed to account for the fact that the printing area is fed powder 
+    %        from two side tanks.
+    %    \end{itemize}
+    %    
+%
+%
+%
         \clearpage
-
-        \subsection{Sharebot Snowhite²\label{Sharebot_Snowhite²}}
-
-        The SLS machine used for this case study is the \textit{Sharebot Snowwhite²}, which is an open hardware and 
-        open source desktop SLS machine, designed by the italian company \textit{Sharebot} \autocites{Sharebot}. \\ 
-
-        \begin{figure}[h!]
-            \centering
-            \includegraphics[width=0.5\textwidth]{Pictures/sharebot_snowhite2.eps}
-            \caption{Sharebot Snowhite²}
-            \label{fig:Sharebot_Snowhite2}
-        \end{figure}
-
-        The system is very modular and it features a standard powder distributor with a working area of 
-        100x100x100 mm, but a reduced distributor with a 20x40x60 mm area has been used, given the available 
-        quantity of PHBH powder.  \\ 
-
-        The printer utilizes a CO2 laser with a 14 W maximum power output and a 10.6 µm wavelength. Power is controlled as 
-        a percentage of its maximum output.  
-
-        A value of 25 \% has been generally set for solid pieces, whereas a 30-35 \% range is preferred for pieces with extremely thin walls and intricate structures.  
-        The power for the border has been set to a 5 \% increment with respect to the inner layers. \\ 
-
-        The printer features a user friendly touch screen GUI, but all its features and logs can be accessed remotely for further control from any terminal.  
-
-        The printer is equipped with a 3D camera, which allows to monitor the printing process in real time, 
-        and to take pictures of the printed parts at every layer. \\
-
-        \begin{figure}[h!]
-            \centering
-            \includegraphics[width=\textwidth]{Pictures/Sharebot_GUI.pdf}
-            \caption{Sharebot Snowhite² UI}
-            \label{fig:Sharebot_UI}
-        \end{figure}
-
-        The polymer powder is distributed by a blade recoater, but a roller option is also available. 
-        Air has been used for the printing process, but nitrogen or argon can be fed through the chamber, 
-        should a modified atmosphere be needed.  \\
-
-        The printer is also equipped with a powder recovery system, which allows to recover the powder 
-        after the printing process, and to reuse it for further prints. \\ 
-
-        The environment temperature has been set in a range of 85-95 $^oC$, with variable rates of success, 
-        whereas values outside this threshold showcased critical issues, i.e. high porosity, sheeting and 
-        delamination at low temperatures or adhesion to the recoater and consequent destruction of the printed specimen. \\ 
-
-        Another configurable variable is laser hatching speed, which is measured relative to machine resolution, in dots/s, 
-        which corresponds to 0.06 mm/s in metric units. 
-
-        This has generally been kept at default values (40000 dots/s for the inner layers and 64000 dots/s for the border).  \\ 
-
-        A maximum of three warming layers has been used for these prints, i.e. the powder is raised and warmed 
-        up for three layers, without any laser hatching, to allow the powder to settle and to avoid 
-        powder sheeting. \\ 
-        A higher number of warming layers might be needed for larger prints, but it has not been tested 
-        \ref{3D_model_creation}. \\
-
-        Once the environment temperature has been set in the desired range (ideally within the theoretical 
-        sintering window), the printer ramps it up in gradual steps, until the target is reached.  
-        An additional waiting time of 120-300 s has been set after reaching the desired temperature, in order to let heat 
-        uniformly distribute through the powder bed. \\
-
-        The tank offset has been set prior to printing, depending on the desired print height or 
-        layer number, which is calculated with the following formula: \\
-        
-        \begin{equation}
-            Z =  \frac{1}{2} \cdot (0.3 \  N) \ \ \ \ \  [mm]
-            \label{eq:layer_height}
-        \end{equation}
-        
-        
-        where:
-        \begin{itemize}
-            \item $Z$ is the tank offset, in mm
-            \item $N$ is the number of layers to be printed 
-            \item $0.3$ is the layer height, in mm, which is the default value for the \textit{Sharebot Snowhite²}
-            \item $\frac{1}{2}$ is a correction factor, which is needed to account for the fact that the printing area is fed powder 
-            from two side tanks.
-        \end{itemize}
-        
-
-
-
-        \clearpage
-        \subsection{Printed samples\label{Printed_samples}}
+        \subsection{3D Printing Results\label{Printed_samples}}
 
         Given the experimental nature of this work, several samples have been printed, with gradual 
         increases in complexity, in order to test the limits of the SLS workflow for the novel material. \\ 
 
-        As earlier mentioned in \ref{Sharebot_Snowhite²}, the printer is modular and despite being equipped 
-        with a default 100x100x100 mm working area, a reduced distributor with a 20x40x60 mm area has been used, 
-        given the available quantity of PHBH powder. \\ 
-
-        This setup is ideal for small scale prints, but as it will be shown later, the current results 
-        are not exhaustively representative of the potential of the SLS workflow for PHBH. \\
-
-        There are in fact intrinsic limitations to extremely small objects with intricate and fine details,
-        especially at low z-height, which are related to both the material itself (as it is fragile and prone to 
-        breaking) and the printing resolution of the SLS machine, which 
-        did not seem to be able to print extremely small features with high fidelity to the original models. \\
-
-        These limitations become less and less relevant with increasing z-height, as the part becomes 
-        more robust, as well as with increasing overall size, where the printing resolution 
-        is able to catch finer details with better accuracy. \\
-
-        Nonetheless, the current results are still very promising, and they showcase the potential of the SLS workflow
-        for PHBH, which can be further explored with larger prints, where the complexity of the models 
-        can be pushed even further, as expected with SLS technology. \\  
-
-        The first samples are simple geometries, which have been printed to test the feasibility of the SLS workflow 
-        for PHBH. Square and rectangular prisms have been printed, with different z-heights, starting from single 
-        layers, up to 15 layers, as a baseline for the following tests. \\ 
-
-        The initial goal was in fact to find adequate printing parameters for the material, which required a lot 
-        of trial and error, as the material is very sensitive to the printing conditions. \\
-
-        The first prints have been made with a 25 \%  laser power setting, which has been found to be 
-        a reasonable value for solid pieces, by visual inspection of single layers (which showcased 
-        decent densification) and later confirmed by 
-        mechanical testing on multilayer samples. 
         
-        \clearpage
-
-        %Some of the initial samples are showcased in the following figure: 
-%
-        %\begin{figure}[h!]
-        %    \centering
-        %    \includegraphics[width=0.2\textwidth]{Pictures/Printed_parts/benchmark_samples.eps}
-        %    \caption{First printing attempts. Porosity and defects are more visible in the single layer samples.
-        %    The rectangular prisms were the first to showcase a good level of densification and lack of deformation and 
-        %    have been used as a baseline for the following tests.}
-        %    \label{fig:printed_benchmarks}
-        %\end{figure}
-
-        As previously mentioned, the material is very sensitive to the printing conditions, and other than laser power,
-        the environment temperature has been found to be the most critical parameter. \\ 
-
-        After a long series of tests, the optimal temperature range has been found to be $85 \ ^oC$ - $95 \ ^oC$, which has been
-        used for the following tests. \\ 
-
-        It is important to note that the environment temperature is measured by a thermocouple, whereas the 
-        powder bed temperature (which is a few degrees higher) is measured by an infrared sensor, which  
-        is less accurate. 
-
-        Therefore, these values might vary slightly for different machines, depending on how the different 
-        temperatures are measured. \\ 
-
-        The next step was to test the material with more complex geometries, which have been printed with the same 
-        temperature range, but with a 30-35 \% laser power setting, which has been found to be optimal for the 
-        emptier geometries, where heat is dissipated more easily, given the lower thermal mass. \\ 
-
-        When dealing with thin, hollow and complex geometries, the most prominent issue is the tendency of the 
-        blade recoater to stick to the printed piece and wipe the part out, which is a common 
-        issue with SLS technology, and which 
-        can be caused by different factors, such as the powder bed temperature, the laser power, the 
-        environment temperature, the powder type and the powder distribution, among the many. \\ 
-
-        Given the multifactorial and complex nature of the aforementioned issue, it is not possible to 
-        pinpoint the exact cause of the problem, but it is possible to find a compromise between the 
-        different parameters, which allows for a successful print. \\
-        
-        The introduction of other settings such as warming layers, pre-print 
-        and between-layers waiting time, has been found to be useful in order to avoid 
-        the blade recoater from wiping the part out. \\
-
-        Using a roller recoater might also be a solution, but it has not been tested. \\ 
-
-        The following printed specimens have been modeled as mentioned in \ref{3D_model_creation} and 
-        have been catalogued with the following criteria: 
-
-        \begin{equation}
-            NN-SLS_{MM}
-            \label{eq:SLS_specimen_notation}
-        \end{equation}
-
-        where: 
-
-        NN is the number of layers and MM is the sequential number of the sample, respectively. \\ 
-
-    \begin{table}[h!]
-        \centering
-        \caption{A list of the most relevant 3D printed specimens}
-        \resizebox{\textwidth}{!}{%
-        \begin{tabular}{@{}cccccc@{}}
-            \toprule
-            \textbf{ID}        & \textit{Layers}  & \textit{Laser power {[}$\%${]}} & \textit{Environment temperature {[}$ ^{\circ}C${]}} \\ \midrule
-            $15-SLS_{01}$      & 15               & 25                              & 90                                                  \\
-            $15-SLS_{02}$      & 15               & 25                              & 95                                                  \\
-            $55-SLS_{03}$      & 55               & 35                              & 95                                                  \\
-            $01-SLS_{04}$      & 01               & 25                              & 85                                                  \\
-            $50-SLS_{05}$      & 50               & 30                              & 90                                                  \\
-            $10-SLS_{06}$      & 10               & 25                              & 90                                                  \\
-            $15-SLS_{07}$      & 15               & 25                              & 90                                                  \\
-            $15-SLS_{08}$      & 15               & 35                              & 87                                                  \\ \bottomrule
-        \end{tabular}%           
-        }
-    \label{tab:SLS_samples}
-    \end{table}
-
         The printed parts showcase an excellent level of detail, which could potentially increase when printing larger objects. 
         Other than some superficial roughness and bumps, which are expected
         in most AM before surface treatments, the specimens are in a very good condition, with no visible cracks or other defects.
@@ -2291,7 +2466,7 @@
     
     \section{Conclusions\label{conclusions}}
 
-    As stated in the \textit{Thesis Goal} \ref{Thesis_Goal}, the aim of this work was to investigate the feasibility of PHBH as a 
+    As stated in the \textit{Thesis Goal}, chapter \ref{Thesis_Goal}, the aim of this work was to investigate the feasibility of PHBH as a 
     material for additive manufacturing, with a particular focus on the SLS process. \\ 
 
     The entire work has been very experimental and innovative in nature, as it is the first time that a novel bio-based polymer such as PHBH has been investigated 

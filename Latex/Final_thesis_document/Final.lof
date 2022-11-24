@@ -1,36 +1,36 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Phases of an SLS process\relax }}{14}{figure.caption.5}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Schematic representation of the PHBH polymer structure \blx@tocontentsinit {0}\autocites {PHBH,Inkscape}.\relax }}{16}{figure.caption.6}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Two spherical powder particles forming a sintering neck \blx@tocontentsinit {0}\autocite {Inkscape}\relax }}{17}{figure.caption.7}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Generic TEAS plot for any given polymer \blx@tocontentsinit {0}\autocites {DechetMaximilianA2020OtDo}{Inkscape}\relax }}{19}{figure.caption.8}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Particle size decreases as stirring RPM increase \blx@tocontentsinit {0}\autocites {Inkscape}\relax }}{20}{figure.caption.9}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Process diagram describing the entire powder production pipeline \blx@tocontentsinit {0}\autocite {Inkscape}\relax }}{24}{figure.caption.10}%
-\contentsline {figure}{\numberline {7}{\ignorespaces A bulk preparation of PVA solution.\relax }}{26}{figure.caption.11}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Prompt: \textit {"Round particles seen through a SEM microscope"}\relax }}{34}{figure.caption.12}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Example of a SEM image before and after enhancing \blx@tocontentsinit {0}\autocites {Inkscape}{Pixelmator_Pro}\relax }}{36}{figure.caption.14}%
-\contentsline {figure}{\numberline {10}{\ignorespaces DSC 214 Polyma Equipment by Netzsch Group\relax }}{38}{figure.caption.15}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Mettler-Toledo TGA/SDTA 851e \blx@tocontentsinit {0}\autocites {Mettler_Toledo}\relax }}{40}{figure.caption.17}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Ultrapyc 5000 gas pycnometer \blx@tocontentsinit {0}\autocites {Ultrapyc5000}\relax }}{41}{figure.caption.19}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Malvern Morphologi 4 \blx@tocontentsinit {0}\autocites {Malvern_Morphologi4}\relax }}{43}{figure.caption.20}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Enhanced SEM image, $SEM_{02}$ with a 461X magnification factor\relax }}{45}{figure.caption.21}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Enhanced SEM image, $SEM_{03}$ with a 461X magnification factor\relax }}{46}{figure.caption.22}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Enhanced SEM image, $SEM_{05}$ with a 461X magnification factor\relax }}{46}{figure.caption.23}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Enhanced SEM image, $SEM_{08}$ with an 800X magnification factor\relax }}{47}{figure.caption.24}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Enhanced SEM image, $SEM_{09}$ with an 800X magnification factor\relax }}{47}{figure.caption.25}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Enhanced SEM image, $SEM_{12}$ with a 400X magnification factor\relax }}{48}{figure.caption.26}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Particle Size Distribution of a powder sample\relax }}{49}{figure.caption.27}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Particle Circularity Distribution of a powder sample\relax }}{50}{figure.caption.28}%
-\contentsline {figure}{\numberline {22}{\ignorespaces DSC analysis of PHBH at $10 \ ^{\circ }C/min$, exo-up convention\relax }}{52}{figure.caption.29}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Enthalpy values for the DSC analysis of PHBH at $10 \ ^{\circ }C/min$\relax }}{54}{figure.caption.30}%
-\contentsline {figure}{\numberline {24}{\ignorespaces TGA analysis of pellet sample $gTGA_{01}$ (as in table \ref {tab:TGA_specimens})\relax }}{55}{figure.caption.32}%
-\contentsline {figure}{\numberline {25}{\ignorespaces TGA analysis of powder sample $pTGA_{02}$ (as in table \ref {tab:TGA_specimens})\relax }}{56}{figure.caption.33}%
-\contentsline {figure}{\numberline {26}{\ignorespaces TGA analysis of powder sample $pTGA_{03}$ (as in table \ref {tab:TGA_specimens})\relax }}{57}{figure.caption.34}%
-\contentsline {figure}{\numberline {27}{\ignorespaces TGA analysis of sintered sample $sTGA_{04}$ (as in table \ref {tab:TGA_specimens})\relax }}{58}{figure.caption.35}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Consistent results of the TGA analysis of the pellet, powder and sintered samples\relax }}{59}{figure.caption.36}%
-\contentsline {figure}{\numberline {29}{\ignorespaces DMA analysis of sample $10-SLS_{06}$ (as reported in table \ref {tab:SLS_samples}).\relax }}{60}{figure.caption.37}%
-\contentsline {figure}{\numberline {30}{\ignorespaces SLS ready powder batch\relax }}{62}{figure.caption.38}%
-\contentsline {figure}{\numberline {31}{\ignorespaces 3D printing file pipeline\relax }}{63}{figure.caption.39}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Sharebot Snowhite²\relax }}{65}{figure.caption.40}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Sharebot Snowhite² UI\relax }}{66}{figure.caption.41}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Phases of an SLS process\relax }}{13}{figure.caption.5}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Schematic representation of the PHBH polymer structure \blx@tocontentsinit {0}\autocites {PHBH,Inkscape}.\relax }}{15}{figure.caption.6}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Two spherical powder particles forming a sintering neck \blx@tocontentsinit {0}\autocite {Inkscape}\relax }}{16}{figure.caption.7}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Generic TEAS plot for any given polymer \blx@tocontentsinit {0}\autocites {DechetMaximilianA2020OtDo}{Inkscape}\relax }}{18}{figure.caption.8}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Particle size decreases as stirring RPM increase \blx@tocontentsinit {0}\autocites {Inkscape}\relax }}{19}{figure.caption.9}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Process diagram describing the entire powder production pipeline \blx@tocontentsinit {0}\autocite {Inkscape}\relax }}{23}{figure.caption.10}%
+\contentsline {figure}{\numberline {7}{\ignorespaces A bulk preparation of PVA solution.\relax }}{25}{figure.caption.11}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Prompt: \textit {"Round particles seen through a SEM microscope"}\relax }}{33}{figure.caption.12}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Example of a SEM image before and after enhancing \blx@tocontentsinit {0}\autocites {Inkscape}{Pixelmator_Pro}\relax }}{35}{figure.caption.14}%
+\contentsline {figure}{\numberline {10}{\ignorespaces DSC 214 Polyma Equipment by Netzsch Group\relax }}{37}{figure.caption.15}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Mettler-Toledo TGA/SDTA 851e \blx@tocontentsinit {0}\autocites {Mettler_Toledo}\relax }}{39}{figure.caption.17}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Ultrapyc 5000 gas pycnometer\relax }}{40}{figure.caption.19}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Malvern Morphologi 4 \blx@tocontentsinit {0}\autocites {Malvern_Morphologi4}\relax }}{42}{figure.caption.20}%
+\contentsline {figure}{\numberline {14}{\ignorespaces SLS ready powder batch\relax }}{43}{figure.caption.21}%
+\contentsline {figure}{\numberline {15}{\ignorespaces 3D printing file pipeline\relax }}{44}{figure.caption.22}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Sharebot Snowhite²\relax }}{46}{figure.caption.23}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Sharebot Snowhite² UI\relax }}{47}{figure.caption.24}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Enhanced SEM image, $SEM_{02}$ with a 461X magnification factor\relax }}{53}{figure.caption.26}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Enhanced SEM image, $SEM_{03}$ with a 461X magnification factor\relax }}{54}{figure.caption.27}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Enhanced SEM image, $SEM_{05}$ with a 461X magnification factor\relax }}{54}{figure.caption.28}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Enhanced SEM image, $SEM_{08}$ with an 800X magnification factor\relax }}{55}{figure.caption.29}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Enhanced SEM image, $SEM_{09}$ with an 800X magnification factor\relax }}{55}{figure.caption.30}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Enhanced SEM image, $SEM_{12}$ with a 400X magnification factor\relax }}{56}{figure.caption.31}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Particle Size Distribution of a powder sample\relax }}{57}{figure.caption.32}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Particle Circularity Distribution of a powder sample\relax }}{58}{figure.caption.33}%
+\contentsline {figure}{\numberline {26}{\ignorespaces DSC analysis of PHBH at $10 \ ^{\circ }C/min$, exo-up convention\relax }}{60}{figure.caption.34}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Enthalpy values for the DSC analysis of PHBH at $10 \ ^{\circ }C/min$\relax }}{62}{figure.caption.35}%
+\contentsline {figure}{\numberline {28}{\ignorespaces TGA analysis of pellet sample $gTGA_{01}$ (as in table \ref {tab:TGA_specimens})\relax }}{63}{figure.caption.37}%
+\contentsline {figure}{\numberline {29}{\ignorespaces TGA analysis of powder sample $pTGA_{02}$ (as in table \ref {tab:TGA_specimens})\relax }}{64}{figure.caption.38}%
+\contentsline {figure}{\numberline {30}{\ignorespaces TGA analysis of powder sample $pTGA_{03}$ (as in table \ref {tab:TGA_specimens})\relax }}{65}{figure.caption.39}%
+\contentsline {figure}{\numberline {31}{\ignorespaces TGA analysis of sintered sample $sTGA_{04}$ (as in table \ref {tab:TGA_specimens})\relax }}{66}{figure.caption.40}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Consistent results of the TGA analysis of the pellet, powder and sintered samples\relax }}{67}{figure.caption.41}%
+\contentsline {figure}{\numberline {33}{\ignorespaces DMA analysis of sample $10-SLS_{06}$ (as reported in table \ref {tab:SLS_samples}).\relax }}{68}{figure.caption.42}%
 \contentsline {figure}{\numberline {34}{\ignorespaces DMA ready prismatic specimens $10-SLS_{06}$ (bottom) and $15-SLS_{07}$ (top).\relax }}{70}{figure.caption.43}%
 \contentsline {figure}{\numberline {35}{\ignorespaces Specimen $15-SLS_{02}$, a filled hexagon.\relax }}{71}{figure.caption.44}%
 \contentsline {figure}{\numberline {36}{\ignorespaces Specimen $50-SLS_{05}$, representing a boat model with curvature.\relax }}{72}{figure.caption.45}%
