@@ -414,31 +414,6 @@
       \field{volume}{26}
       \field{year}{2020}
     \endentry
-    \entry{cryogenic_grinding_video}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=862e283eac9f07b456340170203fec1c}{%
-           family={Milling},
-           familyi={M\bibinitperiod},
-           given={FRITSCH},
-           giveni={F\bibinitperiod}}}%
-        {{hash=92672a7a2b909945fbfa9f44f057c7a1}{%
-           family={Sizing},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{2ed78540a8a700257171156a532600d4}
-      \strng{fullhash}{2ed78540a8a700257171156a532600d4}
-      \strng{bibnamehash}{2ed78540a8a700257171156a532600d4}
-      \strng{authorbibnamehash}{2ed78540a8a700257171156a532600d4}
-      \strng{authornamehash}{2ed78540a8a700257171156a532600d4}
-      \strng{authorfullhash}{2ed78540a8a700257171156a532600d4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.youtube.com/watch?v=3KUGXICL3Is}}
-      \field{title}{Cryogenic Grinding with the Variable Speed Rotor Mill PULVERISETTE 14 premium line}
-      \field{year}{2021}
-    \endentry
     \entry{Junghare_cryogenic_grinding_review}{article}{}
       \name{author}{1}{}{%
         {{hash=cf4916856217e5d2fdb24aabadef0899}{%
@@ -460,31 +435,6 @@
       \field{journaltitle}{International Journal of Current Engineering and Technology}
       \field{title}{A Review on Cryogenic Grinding}
       \field{year}{2017}
-    \endentry
-    \entry{FIB-SEM_TESCAN_S9000G}{howpublished}{}
-      \name{author}{1}{}{%
-        {{hash=65f366fa94039b5f8583fff879d94fbe}{%
-           family={Tescan},
-           familyi={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{65f366fa94039b5f8583fff879d94fbe}
-      \strng{fullhash}{65f366fa94039b5f8583fff879d94fbe}
-      \strng{bibnamehash}{65f366fa94039b5f8583fff879d94fbe}
-      \strng{authorbibnamehash}{65f366fa94039b5f8583fff879d94fbe}
-      \strng{authornamehash}{65f366fa94039b5f8583fff879d94fbe}
-      \strng{authorfullhash}{65f366fa94039b5f8583fff879d94fbe}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{FIB-SEM, TESCAN S9000G, Tescan}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://www.tescan.com/fib-sem-tomography-of-biological-specimens-with-the-new-tescan-s9000g/#file-lead?filename=Advanced-Focused-Ion-Beam-Scanning-Electron-Microscopy-for-3D-ultrastructural-analysis-of-mitochondria-ER-in
-      \endverb
-      \verb{url}
-      \verb https://www.tescan.com/fib-sem-tomography-of-biological-specimens-with-the-new-tescan-s9000g/#file-lead?filename=Advanced-Focused-Ion-Beam-Scanning-Electron-Microscopy-for-3D-ultrastructural-analysis-of-mitochondria-ER-in
-      \endverb
     \endentry
     \entry{ASTM_D7481-18}{report}{}
       \name{author}{1}{}{%
