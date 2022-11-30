@@ -2,7 +2,7 @@
 \usepackage{textcomp}
 \usepackage{gensymb}
 \usepackage[utf8]{inputenc}
-\usepackage[backend=biber, sorting=none]{biblatex}
+\usepackage[backend=biber, sorting=none, style=numeric-comp]{biblatex}
 \usepackage{graphicx}
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{booktabs}
@@ -60,7 +60,7 @@
         \textit{Department of Mechanical and Aerospace Engineering} \\
     \end{center}
 
-    \begin{figure}[h!]
+    \begin{figure}[ht]
         \centering
         \includegraphics[width=0.8\textwidth]{Pictures/polito_logo.eps}  
         \label{fig:polito_logo}      
@@ -90,14 +90,14 @@
         fine powders of sustainable bio-based polymers and directly assess their printability.
 
 
-        Among the bio-based polymers, PLA is the most widely used in the FDM (\textit{Fused Deposition Modeling}) hobbyist and enthusiast markets, whereas more invasive polymers such as PA12 are commonly used in
-        SLS (\textit{Selective Laser Sintering}), the most common 3D printing technology for the production of functional parts.
+        Among the bio-based polymers, PLA is the most widely used in the \textit{Fused Deposition Modeling} (FDM) hobbyist and enthusiast markets, whereas more invasive polymers such as PA12 are commonly used in
+        \textit{Selective Laser Sintering} (SLS), the most common 3D printing technology for the production of functional parts.
 
         A higher demand for bio-based polymers in the SLS industry is expected in the near future - following the general sustainability goals of all industries - as the technology allows for the production of more complex geometries and intricate details, as well as ad-hoc parts for the medical industry, where the use of bio-based polymers is already widespread.
 
         The catalogue of bio-based polymers available for SLS is currently expanding, but still limited, and the production of fine powders is a critical step in the process of producing functional parts.
 
-        This study focused on PHBH (\textit{polyhydroxybutyratehexanoate}), a copolymer of the PHA (\textit{polyhydroxyalcanoate}) family, with a wider sintering window and thus a higher potential for SLS applications, compared to other polymers of the same group.
+        This study focused on \textit{polyhydroxybutyratehexanoate} (PHBH), a copolymer of the \textit{polyhydroxyalcanoate} (PHA) family, with a wider sintering window and thus a higher potential for SLS applications, compared to other polymers of the same group.
 
 
         An extensive research on current \textit{state-of-the-art} production methods, most notably cryogenic mechanical milling and chemical precipitation, led to choosing the latter, since the former does not produce spherical particles, unless further heat treatments are applied, with unpredictable rates of success and potentially high power consumption.
@@ -140,11 +140,11 @@
     The ever increasing demand for sustainable materials in all manufacturing industries has led to a growing interest in the 
     production of bio-based polymers for various applications. 
 
-    In particular, the interest for bio-based polymers in the AM (\textit{Additive Manufacturing}) industry has skyrocketed in the last few years, 
+    In particular, the interest for bio-based polymers in the \textit{Additive Manufacturing} (AM) industry has skyrocketed in the last few years, 
     along with the general interest in sustainable materials, and the use of bio-based polymers in 3D printing is expected to grow in the near future, 
     with more research and resources being invested in the field, and costs decreasing as the market share increases. \\  
 
-    Among the various AM techniques, SLS (\textit{Selective Laser Sintering}) is increasing in popularity and 
+    Among the various AM techniques, \textit{Selective Laser Sintering} (SLS) is increasing in popularity and 
     maturing as a technology. This includes its applications with bio-based polymers themselves, which are already used in the medical industry, 
     but are still limited in terms of the number of available polymers and the production of fine powders for SLS applications. \\ 
 
@@ -180,7 +180,7 @@
     \subsection{Polymers in Additive Manufacturing\label{Polymers_in_AM}}
 
     Polymers and their composite materials have been used in all sorts of fields, ranging from arts and crafts all the way to advanced biomedical and aerospace applications, thanks 
-    to their unique and varied extended range of properties \autocites{Latvian_additive,Materials_add_man_718,Messori_Bondioli_PHAs,doi:10.1063/1.4918516,SLS_3dprinting_biomedical_polymers,Kovalcik_PHA_Review,Recent_progress_polymers_AM}. \\  
+    to their unique and varied extended range of properties \autocites{Recent_progress_polymers_AM,Latvian_additive,Materials_add_man_718,Messori_Bondioli_PHAs,doi:10.1063/1.4918516,SLS_3dprinting_biomedical_polymers,Kovalcik_PHA_Review}. \\  
     
     The rapid advancement of AM, where polymers have been extensively used for prototyping, in the form of resins, filaments, powders and viscous inks, 
     has increased the demand for high-performance polymers, in order to take advantage of their quicker printing times (compared to metals) as well as their lower cost, while still
@@ -276,14 +276,14 @@
         \item cooling (C)
     \end{itemize}
 
-    \begin{figure}[h!]
+    \begin{figure}[ht]
         \centering
         \includegraphics[width=0.63\textwidth]{Pictures/SLS_temp_over_time.eps}\\
         \caption{Phases of an SLS process} 
         \label{fig:SLS_temp_over_time}
     \end{figure}
 
-    As seen in figure \ref{fig:SLS_temp_over_time} \autocites{Inkscape}, the first phase is the time required to reach a specific powder bed temperature $(T_b)$, based on the material of choice. 
+    As seen in Figure \ref{fig:SLS_temp_over_time}, the first phase is the time required to reach a specific powder bed temperature $(T_b)$, based on the material of choice. 
 
     Ideally this temperature should be maintained constant inside the printing
     chamber, during the entire building phase, through infrared or electric heaters. 
@@ -392,14 +392,14 @@
         
     \subsubsection{PHBH \label{PHBH}}
 
-    Poly(3-hydroxybutirate-\textit{co}-3-hydroxyhexanoate) is a copolymer of the PHA family (molecular structure in figure \ref{fig:PHBH_structure}), which gained 
+    Poly(3-hydroxybutirate-\textit{co}-3-hydroxyhexanoate) is a copolymer of the PHA family (molecular structure in Figure \ref{fig:PHBH_structure}), which gained 
     interest in the AM field and specifically in SLS applications, since it has a wider sintering window than other polyhydroxyalkanoates
     such as PHB and PHBV \autocites{DechetMaximilianA2020OtDo}{doi:10.1063/1.4918516}. \\ 
 
-    \begin{figure}[h!]
+    \begin{figure}[ht]
         \centering
         \includegraphics[width=0.8\textwidth]{Pictures/PHBH_chain.eps}
-        \caption{Schematic representation of the PHBH polymer structure \autocites{PHBH,Inkscape}.}
+        \caption{Schematic representation of the PHBH polymer structure \autocites{PHBH}.}
         \label{fig:PHBH_structure}
     \end{figure}
     
@@ -477,12 +477,12 @@
     The average particle size directly influences the layer thickness in the SLS process.  
     
     Powder morphology is crucial in the sintering mechanism, where regular, smooth and non-hollow spherical 
-    particles are preferable in order to effectively obtain sintering necks, as illustrated by figure \ref{fig:SLS_sintering_neck} \autocite*{doi:10.1063/1.4918516}.  
+    particles are preferable in order to effectively obtain sintering necks, as illustrated by Figure \ref{fig:SLS_sintering_neck} \autocite*{doi:10.1063/1.4918516}.  
 
-    \begin{figure}[h!]
+    \begin{figure}[ht]
         \centering
         \includegraphics[width=0.45\textwidth]{Pictures/sintering_neck.eps}\\
-        \caption{Two spherical powder particles forming a sintering neck \autocite{Inkscape}} 
+        \caption{Two spherical powder particles forming a sintering neck} 
         \label{fig:SLS_sintering_neck}
     \end{figure}
 
@@ -578,10 +578,10 @@
     which quantifies the interaction between the polymer and the solvent, in correlation with the dispersion $(\delta_d)$, 
     the polar interactions $(\delta_p)$ and the hydrogen bond interactions $(\delta_h)$ \autocite*{DechetMaximilianA2020OtDo}. 
 
-    Once the polymer-solvent system is tested, the experimental data can be effectively represented in the TEAS plot (as shown in figure \ref{fig:TEAS_plot}), which 
+    Once the polymer-solvent system is tested, the experimental data can be effectively represented in the TEAS plot (as shown in Figure \ref{fig:TEAS_plot}), which 
     helps visualizing the equation (\ref{eq:hansen_parameters}). 
 
-    \begin{figure}[h!]
+    \begin{figure}[ht]
         \centering
         \includegraphics[width=0.4\textwidth]{Pictures/TEAS_plot.eps}
         \caption{Generic TEAS plot for any given polymer \autocites{DechetMaximilianA2020OtDo}{Inkscape}}
@@ -609,12 +609,12 @@
     Temperature profile, initial polymer concentration and, most importantly, stirring conditions can greatly influence the final 
     particle size distribution. 
     
-    Stirring is the most impactful of these factors, producing smaller particles as the intensity increases \autocites{DechetMaximilianA2020OtDo}, as reported in figure \ref{fig:stirring_rpm}. 
+    Stirring is the most impactful of these factors, producing smaller particles as the intensity increases \autocites{DechetMaximilianA2020OtDo}, as reported in Figure \ref{fig:stirring_rpm}. 
 
-    \begin{figure}[h!]
+    \begin{figure}[ht]
         \centering
         \includegraphics[width=0.5\textwidth]{Pictures/particle_size_stirring.eps}
-        \caption{Particle size decreases as stirring RPM increase \autocites{Inkscape}}
+        \caption{Particle size decreases as stirring RPM increase}
         \label{fig:stirring_rpm}
     \end{figure}
 
@@ -700,7 +700,7 @@
     \section{Initial chemical precipitation recipe for PHBH\label{Initial_recipe}}
     
     As mentioned earlier, a prototype for a chemical precipitation reaction had already been developed, 
-    derived from experiments on solute-solvent compatibility (see figure \ref{fig:TEAS_plot}), 
+    derived from experiments on solute-solvent compatibility (see Figure \ref{fig:TEAS_plot}), 
     which highlighted a good affinity between PHBH and chloroform. \\ 
 
     Starting from a 4 g batch of PHBH pellets, the highest amount of sieved powder ($ < \ 100 \ \mu m$ )
@@ -787,10 +787,10 @@
 
         The reaction is shortly described by the following diagram: 
 
-            \begin{figure}[h!]
+            \begin{figure}[ht]
                 \centering
                 \includegraphics[width=\textwidth]{Pictures/process_diagram.eps}
-                \caption{Process diagram describing the entire powder production pipeline \autocite{Inkscape}}
+                \caption{Process diagram describing the entire powder production pipeline}
                 \label{fig:process_diagram}
             \end{figure}
 
@@ -843,7 +843,7 @@
         %Batches of PVA solution ($1 \ \%$ by weight) were prepared and stored in a refrigerator. 
 
 
-                \begin{figure}[h!]
+                \begin{figure}[ht]
                     \centering
                     \includegraphics[width=0.5\textwidth]{Pictures/pva_preparation.eps}
                     \caption{A bulk preparation of PVA solution.}
@@ -1019,10 +1019,10 @@
             \footnotetext{These substitutions could potentially simplify the pipeline, but no experiments have been conducted yet} 
 
         Assuming the adjustment of viscosity and the optimization of the dripping phase have been dealt with, 
-        another relevant parameter is the stirring speed of the PVA solution (see figure \ref{fig:process_diagram} for reference). 
+        another relevant parameter is the stirring speed of the PVA solution (see Figure \ref{fig:process_diagram} for reference). 
 
         The experiments conducted during this thesis confirmed what had already been found in the scientific literature: 
-        an increase in stirring speed directly correlates to a decrease in average powder particle size, as reminded by figure \ref{fig:stirring_rpm}
+        an increase in stirring speed directly correlates to a decrease in average powder particle size, as reminded by Figure \ref{fig:stirring_rpm}
         \autocites{DechetMaximilianA2020OtDo}. 
 
         This correlation is generally measured in terms of RPM, which is an active control of any magnetic stirrer and 
@@ -1198,10 +1198,10 @@
         SEM images have been produced with multiple specimens, on samples collected during the entire duration of the experimental 
         activities, which is later discussed in detail in section \ref{SEM_analysis_results}. 
 
-        The expected particle morphology should ideally approach that of perfect non hollow sphere, as pictured in figure \ref{fig:SEM_DALLE2}, generated by \textit{Dall-E 2}'s 
-        prompt-to-image artificial intelligence algorithm \autocites{DALLE2}{DALLE2_roundparticles}. 
+        The expected particle morphology should ideally approach that of perfect non hollow sphere, as pictured in Figure \ref{fig:SEM_DALLE2}, generated by \textit{Dall-E 2}'s 
+        prompt-to-image artificial intelligence algorithm. 
 
-            \begin{figure}[h!]
+            \begin{figure}[ht]
                 \centering
                 \includegraphics[width=0.7\textwidth]{Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png}
                 \caption{Prompt: \textit{"Round particles seen through a SEM microscope"}}
@@ -1230,7 +1230,7 @@
 
             All the selected samples have been catalogued as follows:
 
-            \begin{table}[h!]
+            \begin{table}[ht]
                 \centering
                 \caption{All catalogued SEM samples}
                 \resizebox{0.4\textwidth}{!}{%
@@ -1265,12 +1265,12 @@
             Different magnification factors have been used, ranging from 400 to 800 X, to showcase different particle sizes and to better understand 
             the particle morphology. \\
 
-            All SEM images have been AI upscaled and enhanced with basic raster image editing workflows, as shown in figure \ref{fig:SEM_edited_vs_unedited}. \\ 
+            All SEM images have been AI upscaled and enhanced with basic raster image editing workflows, as shown in Figure \ref{fig:SEM_edited_vs_unedited}. \\ 
 
-                \begin{figure}[h!]
+                \begin{figure}[ht]
                     \centering
                     \includegraphics[width=\textwidth]{Pictures/SEM/Edited/pre-post_process.pdf}
-                    \caption{Example of a SEM image before and after enhancing \autocites{Inkscape}{Pixelmator_Pro}}
+                    \caption{Example of a SEM image before and after enhancing}
                     \label{fig:SEM_edited_vs_unedited}
                 \end{figure}
 
@@ -1312,7 +1312,7 @@
             based on the available results, which are highlighted in section \ref{DSC_results}.
 
                 The DSC machine used in this thesis work is the \textit{DSC 214 Polyma Equipment} \autocites{Netzsch}, which is a benchtop instrument that can be used for 
-                a wide range of applications, shown in figure \ref{fig:DSC_polyma}. \\ 
+                a wide range of applications, shown in Figure \ref{fig:DSC_polyma}. \\ 
 
                 It is equipped with a gas controller and has been used in the temperature range from $-50 \ ^{\circ} C$ 
                 to $180 \ ^{\circ} C$ with 
@@ -1322,7 +1322,7 @@
                 The included software allows for the analysis of the 
                 DSC data, as well as the creation of a report with the results. \\ 
 
-                    \begin{figure}[h!]
+                    \begin{figure}[ht]
                         \centering
                         \includegraphics[width=0.7\textwidth]{Pictures/DSC_Polyma.eps}
                         \caption{DSC 214 Polyma Equipment by Netzsch Group}
@@ -1341,7 +1341,7 @@
 
                 The specimens have been catalogued as follows: 
 
-                \begin{table}[h!]
+                \begin{table}[ht]
                     \centering
                     \caption{Selected DSC specimens representing a granule and a powder sample}
                     \resizebox{0.8\textwidth}{!}{%
@@ -1392,10 +1392,10 @@
             discrepancies with the reference behaviour, which could potentially highlight the presence of impurities
             that might be undetectable by visual inspection of SEM images (showcased in section \ref{SEM_analysis_results}). \\ 
 
-            The TGA analysis was performed on a \textit{Mettler-Toledo TGA/SDTA 851e} \autocites{Mettler_Toledo} instrument (seen in figure \ref{fig:TGA_mettlertoledo}), 
+            The TGA analysis was performed on a \textit{Mettler-Toledo TGA/SDTA 851e} \autocites{Mettler_Toledo} instrument (seen in Figure \ref{fig:TGA_mettlertoledo}), 
             in air atmosphere, with a heating rate of $10 \ ^{\circ}C/min$ and a temperature range of $25 \ ^{\circ}C$ to $900 \ ^{\circ}C$. \\
 
-            \begin{figure}[h!]
+            \begin{figure}[ht]
                 \centering
                 \includegraphics[width=0.7\textwidth]{Pictures/TGA_mettlertoledo.eps}
                 \caption{Mettler-Toledo TGA/SDTA 851e \autocites{Mettler_Toledo}}
@@ -1413,7 +1413,7 @@
 
             The specimens have been catalogued in table \ref{tab:TGA_specimens}:
 
-                    \begin{table}[h!]
+                    \begin{table}[ht]
                         \centering
                         \caption{TGA specimens}
                         \resizebox{0.5\textwidth}{!}{%
@@ -1441,9 +1441,9 @@
         $1.20 \ kg/m^3$ in its datasheet \autocites{GruppoMaip}. \\ 
         
         The density of the powder has been measured with a \textit{Ultrapyc 5000 gas
-        pycnometer} \autocites{Ultrapyc5000}, as reported by figure \ref{fig:ultrapyc5000}. \\ 
+        pycnometer} \autocites{Ultrapyc5000}, as reported by Figure \ref{fig:ultrapyc5000}. \\ 
     
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=0.7\textwidth]{Pictures/pycnometer.eps}
             \caption{Ultrapyc 5000 gas pycnometer}
@@ -1501,7 +1501,7 @@
         The granulometry analysis has been performed on an oven dried powder sample, 
         using a \textit{Malvern Morphologi 4} \autocites{Malvern_Morphologi4}. \\ 
 
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=0.7\textwidth]{Pictures/malvern.eps}
             \caption{Malvern Morphologi 4 \autocites{Malvern_Morphologi4}}
@@ -1524,7 +1524,7 @@
 
       \section{3D printing\label{SLS_printing_experimental}}
 
-      After the successful powder production (a typical batch is showcased in figure \ref{fig:PHBH_collected_powder}), the next step was to print it with the SLS machine. \\
+      After the successful powder production (a typical batch is showcased in Figure \ref{fig:PHBH_collected_powder}), the next step was to print it with the SLS machine. \\
   
       Before being printed, the powder could have been mixed with a small quantity of a binder, to improve its flowability. 
       However, given the excellent flowability of the fine powder (highlighted in section \ref{flowability_analysis}), this step has been skipped. \\
@@ -1533,7 +1533,7 @@
       that could have accumulated during the storage period, and to homogenize the powder distribution 
       by shaking the container for a few minutes. \\
   
-                  \begin{figure}[h!]
+                  \begin{figure}[ht]
                       \centering
                       \includegraphics[width=0.5\textwidth]{Pictures/PHBH_dried_powder.eps}
                       \caption{SLS ready powder batch}
@@ -1550,9 +1550,9 @@
           create a 3D model of the part, then slice it into layers, and finally export the files to the SLS machine. \\
   
           The pipeline started with the creation of a 3D model of the part and ended with a g-code file, and can 
-          be summarized as shown in figure \ref{fig:3dprint_file_pipeline_scheme}: 
+          be summarized as shown in Figure \ref{fig:3dprint_file_pipeline_scheme}: 
           
-                  \begin{figure}[h!]
+                  \begin{figure}[ht]
                       \centering 
                       \includegraphics[width=\textwidth]{Pictures/3dprint_file_pipeline_scheme.eps}
                       \caption{3D printing file pipeline}
@@ -1564,8 +1564,8 @@
           The first step was to create a 3D model of the part, which can be done in many ways, 
           depending on the software used. \\
   
-          The models have been created from scratch, either by directly modeling them in \textit{Blender} 3.3.1 \autocites{Blender},
-          or by creating SVG files in \textit{Inkscape} 1.2 \autocites{Inkscape} and then extruding them in \textit{Blender}, where
+          The models have been created from scratch, either by directly modeling them in \textit{Blender} 3.3.1,
+          or by creating SVG files in \textit{Inkscape} 1.2 and then extruding them in \textit{Blender}, where
           they are handled as bezier curves. \\
   
           This approach was particularly useful for this thesis work, where planar complex geometries better suit the SLS printing process
@@ -1608,7 +1608,7 @@
           an FDM workflow, the output g-code file will be compatible with the SLS machine and provide 
           accurate movement instruction. \\
   
-          The slicing software used for this thesis is \textit{PrusaSlicer} \autocites{PrusaSlicer}, 
+          The slicing software used for this thesis is \textit{PrusaSlicer}, 
           which is a free and open source slicing software, forked from the \textit{Slic3r} project. \\
   
           The SLS machine used for this case study does not have a dedicated CNC software, but the 
@@ -1620,10 +1620,10 @@
   
           \subsection{Sharebot Snowhite²\label{Sharebot_Snowhite²}}
   
-          The SLS machine used for this thesis is the \textit{Sharebot Snowwhite²} (showcased in figure \ref{fig:Sharebot_Snowhite2}), which is an open hardware and 
+          The SLS machine used for this thesis is the \textit{Sharebot Snowwhite²} (showcased in Figure \ref{fig:Sharebot_Snowhite2}), which is an open hardware and 
           open source desktop SLS machine, designed by the italian company \textit{Sharebot} \autocites{Sharebot}. \\ 
   
-          \begin{figure}[h!]
+          \begin{figure}[ht]
               \centering
               \includegraphics[width=0.5\textwidth]{Pictures/sharebot_snowhite2.eps}
               \caption{Sharebot Snowhite²}
@@ -1645,7 +1645,7 @@
           The device is equipped with a 3D camera, which allows to monitor the printing process in real time, 
           and to take pictures of the printed parts at every layer. \\
   
-          \begin{figure}[h!]
+          \begin{figure}[ht]
               \centering
               \includegraphics[width=\textwidth]{Pictures/Sharebot_GUI.pdf}
               \caption{Sharebot Snowhite² UI}
@@ -1776,7 +1776,7 @@
   
           NN is the number of layers and MM is the sequential number of the sample, respectively. \\ 
   
-      \begin{table}[h!]
+      \begin{table}[ht]
           \centering
           \caption{A list of the most relevant 3D printed specimens}
           \resizebox{\textwidth}{!}{%
@@ -1806,7 +1806,7 @@
         allows for the determination of the storage modulus $E'$, the loss modulus $E''$ as well as the tan$\delta$, 
         which is the ratio between the loss modulus and the storage modulus. \\ 
         As mentioned in \ref{DSC_analysis}, the DMA can also be used to better determine the glass transition temperature $T_g$, which 
-        has been initially estimated to be around $2 \ ^{\circ}C$ by the DSC analysis of a PHBH powder sample, as visible in figure \ref{fig:DSC_10Cmin}. 
+        has been initially estimated to be around $2 \ ^{\circ}C$ by the DSC analysis of a PHBH powder sample, as visible in Figure \ref{fig:DSC_10Cmin}. 
         However, the revealed 
         peak activity in that temperature range can not be attributed to the glass transition in a definitive way, by means of a DSC analysis 
         alone. \\ 
@@ -1835,92 +1835,92 @@
       Given the wide variety of instruments and their vastly different release date, the various included software suites and operating systems involved,
       all the different output files have been analyzed and uniformed as tab separated values UTF-8 text, using standard unix cli tools. \\ 
       
-      The uniforming of datasets later favoured the data analysis workflow, which has been performed by using \textit{GNU Octave} \autocites{Octave} and \textit{Labplot} \autocites{Labplot}. \\
+      The uniforming of datasets later favoured the data analysis workflow, which has been performed by using \textit{GNU Octave} \autocites{Octave} and \textit{Labplot}. \\
 
       \subsection{SEM Results\label{SEM_analysis_results}}
 
                 
       The FIB-SEM instrument has produced a total of 12 different images, the most relevant have been edited using 
-      \textit{Pixelmator Pro} and \textit{GIMP} \autocites{Pixelmator_Pro}{GIMP} and are shown below: \\
+      \textit{Pixelmator Pro} and \textit{GIMP} and are shown below: \\
 
-          %\begin{figure}[h!]
+          %\begin{figure}[ht]
           %    \centering 
           %    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_01.eps}
           %    \caption{Enhanced SEM image, $SEM_{01}$ with a 461X magnification factor}
           %    \label{fig:SEM_01}
           %\end{figure}
 
-          \begin{figure}[h!]
+          \begin{figure}[ht]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_02.eps}
               \caption{Enhanced SEM image, $SEM_{02}$ with a 461X magnification factor}
               \label{fig:SEM_02}
           \end{figure}
 
-          \begin{figure}[h!]
+          \begin{figure}[ht]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/04_03.eps}
               \caption{Enhanced SEM image, $SEM_{03}$ with a 461X magnification factor}
               \label{fig:SEM_03}
           \end{figure}
 
-          %\begin{figure}[h!]
+          %\begin{figure}[ht]
           %    \centering 
           %    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/05_03.eps}
           %    \caption{Enhanced SEM image, $SEM_{04}$ with a 461X magnification factor}
           %    \label{fig:SEM_04}
           %\end{figure}
       
-          \begin{figure}[h!]
+          \begin{figure}[ht]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_01.eps}
               \caption{Enhanced SEM image, $SEM_{05}$ with a 461X magnification factor}
               \label{fig:SEM_05}
           \end{figure}
       
-          %\begin{figure}[h!]
+          %\begin{figure}[ht]
           %    \centering 
           %    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/06_03.eps}
           %    \caption{Enhanced SEM image, $SEM_{06}$ with a 461X magnification factor}
           %    \label{fig:SEM_06}
           %\end{figure}
       
-          %\begin{figure}[h!]
+          %\begin{figure}[ht]
           %    \centering 
           %    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_01.eps}
           %    \caption{Enhanced SEM image, $SEM_{07}$ with an 800X magnification factor}
           %    \label{fig:SEM_07}
           %\end{figure}
       
-          \begin{figure}[h!]
+          \begin{figure}[ht]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_02.eps}
               \caption{Enhanced SEM image, $SEM_{08}$ with an 800X magnification factor}
               \label{fig:SEM_08}
           \end{figure}
       
-          \begin{figure}[h!]
+          \begin{figure}[ht]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_03.eps}
               \caption{Enhanced SEM image, $SEM_{09}$ with an 800X magnification factor}
               \label{fig:SEM_09}
           \end{figure}
 
-          %\begin{figure}[h!]
+          %\begin{figure}[ht]
           %    \centering 
           %    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_04.eps}
           %    \caption{Enhanced SEM image, $SEM_{10}$ with a 400X magnification factor}
           %    \label{fig:SEM_10}
           %\end{figure}
 %
-          %\begin{figure}[h!]
+          %\begin{figure}[ht]
           %    \centering 
           %    \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_05.eps}
           %    \caption{Enhanced SEM image, $SEM_{11}$ with a 400X magnification factor}
           %    \label{fig:SEM_11}
           %\end{figure}
 
-          \begin{figure}[h!]
+          \begin{figure}[ht]
               \centering 
               \includegraphics[width=\textwidth]{Pictures/SEM/Edited/sample_06.eps}
               \caption{Enhanced SEM image, $SEM_{12}$ with a 400X magnification factor}
@@ -1931,10 +1931,10 @@
 
     \subsection{Granulometry Results\label{Granulometry_results}}
       
-      The output data has been analyzed and the most meaningful features have been plotted as vector images using \textit{Labplot} \autocites{Labplot} and 
-      postprocessed with \textit{Inkscape} \autocites{Inkscape}. \\ 
+      The output data has been analyzed and the most meaningful features have been plotted as vector images using \textit{Labplot} and 
+      postprocessed with \textit{Inkscape}. \\ 
   
-      %\begin{figure}[h!]
+      %\begin{figure}[ht]
       %    \centering
       %    \begin{subfigure}[a]{\textwidth}
       %        \centering
@@ -1953,14 +1953,14 @@
       %    \label{fig:granulometry_analysis}
       %\end{figure}
 
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=0.9\textwidth]{Pictures/Granulometry_plots/Histogram_CE-DIAM.eps}
             \caption{Particle Size Distribution of a powder sample}
             \label{fig:particle_size_distribution}
         \end{figure}
 
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=\textwidth]{Pictures/Granulometry_plots/Histogram_Circularity.eps}
             \caption{Particle Circularity Distribution of a powder sample}
@@ -1974,46 +1974,46 @@
       SEM analysis reported in section \ref{SEM_analysis_results}. \\
   
       The average particle diameter is 64.4222 $\mu m$, with a count of 144 over a total of more 
-      than 3000 analyzed particles, as shown in figure \ref{fig:particle_size_distribution}. \\ 
+      than 3000 analyzed particles, as shown in Figure \ref{fig:particle_size_distribution}. \\ 
   
       The average circularity is extremely close to a perfectly spherical shape, with a 
-      mean value of roughly 0.98, as clearly visible in figure \ref{fig:circularity_distribution}. \\ 
+      mean value of roughly 0.98, as clearly visible in Figure \ref{fig:circularity_distribution}. \\ 
 
       \clearpage
 
     \subsection{DSC Results\label{DSC_results}}
 
-    The analysis results have been plotted using \textit{Labplot} \autocites{Labplot} 
-    and \textit{Inkscape} \autocites{Inkscape},
+    The analysis results have been plotted using \textit{Labplot} 
+    and \textit{Inkscape},
     using the \textit{exo-up} convention, with the raw pellet curves used as a baseline for the powder curves. \\
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \includegraphics[width=0.9\textwidth]{Pictures/Thermal_analysis_plots/DSC_alberto.pdf}
             \caption{DSC analysis of PHBH at $10 \ ^{\circ}C/min$, exo-up convention}
             \label{fig:DSC_10Cmin}
         \end{figure}
 
-                    %\begin{figure}[h!]
+                    %\begin{figure}[ht]
                     %    \centering
                     %    \includegraphics[width=\textwidth]{Pictures/DSC/DSC_01.eps}
                     %    \caption{DSC analysis of powder sample $pDSC_{(10 \ ^{\circ}C/min)}-01$ \autocites{Mettler_Toledo}}
                     %    \label{fig:DSC_01}
                     %\end{figure}
 %
-                    %\begin{figure}[h!]
+                    %\begin{figure}[ht]
                     %    \centering
                     %    \includegraphics[width=\textwidth]{Pictures/DSC/DSC_02.eps}
                     %    \caption{DSC analysis of powder sample $pDSC_{(10 \ ^{\circ}C/min)}-02$ \autocites{Mettler_Toledo}}
                     %    \label{fig:DSC_02}
                     %\end{figure}
 %
-                    %\begin{figure}[h!]
+                    %\begin{figure}[ht]
                     %    \centering
                     %    \includegraphics[width=\textwidth]{Pictures/DSC/DSC_03.eps}
                     %    \caption{DSC analysis of powder sample $pDSC_{(5 \ ^{\circ}C/min)}-03$ \autocites{Mettler_Toledo}}
                     %    \label{fig:DSC_03}
                     %\end{figure}
 %
-                    %\begin{figure}[h!]
+                    %\begin{figure}[ht]
                     %    \centering
                     %    \includegraphics[width=\textwidth]{Pictures/DSC/DSC_04.eps}
                     %    \caption{DSC analysis of sintered sample $sDSC_{(10 \ ^{\circ}C/min)}-04$ \autocites{Mettler_Toledo}}
@@ -2028,7 +2028,7 @@
         previous chapters \ref{Powder_requirements}, \ref{PHBH} and in accordance with 
         the available literature \autocites{Eraslan_PHBH_review,doi:10.1063/1.4918516,DechetMaximilianA2020OtDo}. \\    
         
-        As evident from the heating phase (visible in figure \ref{fig:DSC_10Cmin}), the powder sample shows a main peak melting point of $T_{m} =  127.164 \ ^{\circ}C$, with 
+        As evident from the heating phase (visible in Figure \ref{fig:DSC_10Cmin}), the powder sample shows a main peak melting point of $T_{m} =  127.164 \ ^{\circ}C$, with 
         a secondary melting point of $T_{m} =  108.164 \ ^{\circ}C$, as well as a crystallization point at $T_{c} =  50.1643 \ ^{\circ}C$. 
 
         The cooling phase highlights a main peak crystallization point of $T_{c} =  48.254 \ ^{\circ}C$ as well, indicating 
@@ -2061,7 +2061,7 @@
 
         \clearpage
 
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DSC_peaks_areas.pdf}
             \caption{Enthalpy values for the DSC analysis of PHBH at $10 \ ^{\circ}C/min$}
@@ -2081,7 +2081,7 @@
 
         All the highlighted temperatures and other relevant quantities are summarized in table \ref{tab:DSC_Results}: 
 
-                \begin{table}[h!]
+                \begin{table}[ht]
                     \centering 
                     \caption{Results of the DSC analysis showcasing phase transition points, enthalpies and crystallinity of the material}
                     \resizebox{\textwidth}{!}{%
@@ -2099,28 +2099,28 @@
 
         \subsection{TGA Results\label{TGA_Results}}
         The analysis data has been exported with \textit{Mettler-Toledo}'s included software \autocites{Mettler_Toledo}, after normalizing the data to the initial weight of the sample,
-        then uniformed to the rest of the datasets and imported, elaborated and plotted with \textit{Labplot} \autocites{Labplot}. \\
+        then uniformed to the rest of the datasets and imported, elaborated and plotted with \textit{Labplot}. \\
         The following figures show the results of the TGA analysis on the pellet, powder and sintered samples. \\ 
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/g-TGA01.pdf}
             \caption{TGA analysis of pellet sample $gTGA_{01}$ (as in table \ref{tab:TGA_specimens})}
             \label{fig:TGA_01}
         \end{figure}
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/p-TGA02.pdf}
             \caption{TGA analysis of powder sample $pTGA_{02}$ (as in table \ref{tab:TGA_specimens})}
             \label{fig:TGA_02}
         \end{figure}
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/p-TGA03.pdf}
             \caption{TGA analysis of powder sample $pTGA_{03}$ (as in table \ref{tab:TGA_specimens})}
             \label{fig:TGA_03}
         \end{figure}
 
-            \begin{figure}[h!]
+            \begin{figure}[ht]
                 \centering
                 \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/s-TGA04.pdf}
                 \caption{TGA analysis of sintered sample $sTGA_{04}$ (as in table \ref{tab:TGA_specimens})}
@@ -2137,9 +2137,9 @@
             the same temperature values. \\ 
 
             As a further testimony of the consistent thermal behaviour of the biopolymer along the entire pipeline, the overlap of the
-            TGA curves of the pellet, powder and sintered samples is shown in figure \ref{fig:TGA_overlapped}:
+            TGA curves of the pellet, powder and sintered samples is shown in Figure \ref{fig:TGA_overlapped}:
 
-                \begin{figure}[h!]
+                \begin{figure}[ht]
                     \centering
                     \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf}
                     \caption{Consistent results of the TGA analysis of the pellet, powder and sintered samples}
@@ -2150,10 +2150,10 @@
 
         \subsection{DMA Results\label{DMA_Results}}
 
-        The results of the DMA analysis are shown in figure \ref{fig:DMA_plot}, where the tan$\delta$ curve has been upscaled significantly 
+        The results of the DMA analysis are shown in Figure \ref{fig:DMA_plot}, where the tan$\delta$ curve has been upscaled significantly 
         in order to match a relative scale with the other curves. \\ 
 
-            \begin{figure}[h!]
+            \begin{figure}[ht]
                 \centering
                 \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DMA.pdf}
                 \caption{DMA analysis of sample $10-SLS_{06}$ (as reported in table \ref{tab:SLS_samples}).}
@@ -2162,8 +2162,8 @@
 
         \clearpage 
 
-        The tan$\delta$ curve visible in figure \ref{fig:DMA_plot} shows a clear peak at $14.1 \ ^{\circ}C$, which is the glass transition temperature of the material, 
-        in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (as seen in figure \ref{fig:DSC_10Cmin}). \\ 
+        The tan$\delta$ curve visible in Figure \ref{fig:DMA_plot} shows a clear peak at $14.1 \ ^{\circ}C$, which is the glass transition temperature of the material, 
+        in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (as seen in Figure \ref{fig:DSC_10Cmin}). \\ 
 
         As expected for a polymer of the PHA family, both the storage modulus $E'$ and the loss modulus $E''$ are very low, in line with the 
         typical viscoelastic behavior of all bio-based polymers \autocites{Kovalcik_PHA_Review}, which are not suited for structural applications and 
@@ -2198,7 +2198,7 @@
     %that could have accumulated during the storage period, and to homogenize the powder distribution 
     %by shaking the container for a few minutes. \\
 %
-    %            \begin{figure}[h!]
+    %            \begin{figure}[ht]
     %                \centering
     %                \includegraphics[width=0.5\textwidth]{Pictures/PHBH_dried_powder.eps}
     %                \caption{SLS ready powder batch}
@@ -2217,7 +2217,7 @@
     %    The pipeline starts with the creation of a 3D model of the part and ends with a g-code file, and can 
     %    be summarized as follows: 
     %    
-    %            \begin{figure}[h!]
+    %            \begin{figure}[ht]
     %                \centering 
     %                \includegraphics[width=\textwidth]{Pictures/3dprint_file_pipeline_scheme.eps}
     %                \caption{3D printing file pipeline}
@@ -2230,7 +2230,7 @@
     %    depending on the software used. \\
 %
     %    The models have been created from scratch, either by directly modeling them in \textit{Blender} 3.3.1 \autocites{Blender},
-    %    or by creating SVG files in \textit{Inkscape} 1.2 \autocites{Inkscape} and then extruding them in \textit{Blender}, where
+    %    or by creating SVG files in \textit{Inkscape} 1.2 and then extruding them in \textit{Blender}, where
     %    they are handled as bezier curves. \\
 %
     %    This approach is particularly useful for this case study, where planar complex geometries better suit the SLS printing process
@@ -2273,7 +2273,7 @@
     %    an FDM workflow, the output g-code file will be compatible with the SLS machine and provide 
     %    accurate movement instruction. \\
 %
-    %    The slicing software used for this case study is \textit{PrusaSlicer} \autocites{PrusaSlicer}, 
+    %    The slicing software used for this case study is \textit{PrusaSlicer}, 
     %    which is a free and open source slicing software, forked from the \textit{Slic3r} project. \\
 %
     %    The SLS machine used for this case study does not have a dedicated CNC software, but the 
@@ -2288,7 +2288,7 @@
     %    The SLS machine used for this case study is the \textit{Sharebot Snowwhite²}, which is an open hardware and 
     %    open source desktop SLS machine, designed by the italian company \textit{Sharebot} \autocites{Sharebot}. \\ 
 %
-    %    \begin{figure}[h!]
+    %    \begin{figure}[ht]
     %        \centering
     %        \includegraphics[width=0.5\textwidth]{Pictures/sharebot_snowhite2.eps}
     %        \caption{Sharebot Snowhite²}
@@ -2310,7 +2310,7 @@
     %    The printer is equipped with a 3D camera, which allows to monitor the printing process in real time, 
     %    and to take pictures of the printed parts at every layer. \\
 %
-    %    \begin{figure}[h!]
+    %    \begin{figure}[ht]
     %        \centering
     %        \includegraphics[width=\textwidth]{Pictures/Sharebot_GUI.pdf}
     %        \caption{Sharebot Snowhite² UI}
@@ -2376,10 +2376,10 @@
         Other than some superficial roughness and bumps, which are expected
         in most AM before surface treatments, the specimens are in a very good condition, with no visible cracks or other defects.
         The most significant specimens have been cut out from their photos and put against a pitch black background
-        using \textit{Pixelmator Pro} \autocites{Pixelmator_Pro}, then assigned a size marker using \textit{Inkscape}
-        \autocites{Inkscape}, as showcased in the following figures: 
+        using \textit{Pixelmator Pro}, then assigned a size marker using \textit{Inkscape}
+       , as showcased in the following figures: 
 
-        %\begin{figure}[h!]
+        %\begin{figure}[ht]
         %    \centering
         %    \includegraphics[width=0.7\textwidth]{Pictures/Printed_parts/samples.eps}
         %    \caption{From top to bottom, clockwise: $15-dragonlogo_{filled}$, $15-hexagon_{filled}$, $55-octagonholes_{thin}$, 
@@ -2388,7 +2388,7 @@
         %    % Indica quali nella caption, in base alla tabella
         %\end{figure}
 
-        %\begin{figure}[h!]
+        %\begin{figure}[ht]
         %    \centering
         %    \begin{subfigure}[a]{0.55\textwidth}
         %        \includegraphics[width=0.5\textwidth]{Pictures/Printed_parts/sample1-DMA-IMG_3178.eps}
@@ -2407,7 +2407,7 @@
         %    \label{fig:printed_specimens_DMA}
         %\end{figure}
 %
-        %\begin{figure}[h!]
+        %\begin{figure}[ht]
         %    \centering 
         %    \begin{subfigure}[a]{0.41\textwidth}
         %        \includegraphics[width=\textwidth]{Pictures/Printed_parts/sample2-organicpattern.eps}
@@ -2425,35 +2425,35 @@
         %    \label{fig:printed_specimens_complex}
         %\end{figure}
 
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/DMA_samples.eps}
             \caption{DMA ready prismatic specimens $10-SLS_{06}$ (bottom) and $15-SLS_{07}$ (top).}
             \label{fig:printed_specimens_DMA}
         \end{figure}
 
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/filled_hexagon.eps}
             \caption{Specimen $15-SLS_{02}$, a filled hexagon.}
             \label{fig:printed_specimens_filledhexagon}
         \end{figure}
 
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/boat.eps}
             \caption{Specimen $50-SLS_{05}$, representing a boat model with curvature.}
             \label{fig:printed_specimens_boat}
         \end{figure}
 
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/organic_pattern_hexagon.eps}
             \caption{Specimen $15-SLS_{08}$, showcasing a complex internal pattern.}
             \label{fig:printed_specimens_organicpattern}
         \end{figure}
 
-        \begin{figure}[h!]
+        \begin{figure}[ht]
             \centering
             \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/octagon_holes.eps}
             \caption{Specimen $55-SLS_{03}$, an octagon with a circular array of octagonal holes and a thin wall rim, with a total height of 55 layers.}

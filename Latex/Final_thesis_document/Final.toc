@@ -42,9 +42,9 @@
 \contentsline {section}{\numberline {11}Analyses results}{53}{section.11}%
 \contentsline {subsection}{\numberline {11.1}SEM Results}{53}{subsection.11.1}%
 \contentsline {subsection}{\numberline {11.2}Granulometry Results}{57}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}DSC Results}{60}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}TGA Results}{63}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}DMA Results}{68}{subsection.11.5}%
-\contentsline {subsection}{\numberline {11.6}3D Printing Results}{70}{subsection.11.6}%
-\contentsline {section}{\numberline {12}Conclusions}{75}{section.12}%
-\contentsline {section}{\numberline {13}Future development}{76}{section.13}%
+\contentsline {subsection}{\numberline {11.3}DSC Results}{61}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}TGA Results}{65}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}DMA Results}{70}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}3D Printing Results}{72}{subsection.11.6}%
+\contentsline {section}{\numberline {12}Conclusions}{77}{section.12}%
+\contentsline {section}{\numberline {13}Future development}{78}{section.13}%
