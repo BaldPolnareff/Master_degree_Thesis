@@ -174,10 +174,11 @@
     Given the same material, the complex shapes allowed by AM can replace components made of multiple assembled parts with a unique solid piece of comparable or even better mechanical properties. 
     
     The inherent flexibility of AM often allows product designers to simplify or even entirely bypass the very strict CAD workflow (which is inherently tied to 
-    traditional manufacturing processes) and make use of organic and/or generative modeling. 
+    traditional manufacturing processes) and make use of organic and/or generative modeling, aided by advanced machine learning algorithms \autocites{PBF_MachineLearning_FEM}. 
 
     As a consequence of better design choices and minimal need of post-processing of AM objects, far less raw material is wasted, compared to subtractive manufacturing techniques, leading to 
-    long term lowering of costs, faster design-to-market pipelines and, last but not least, lower emissions and environmental impact \autocite*{Recent_progress_polymers_AM}. 
+    long term lowering of costs, faster design-to-market pipelines and, last but not least, lower emissions and environmental 
+    impact \autocites{Recent_progress_polymers_AM,AM_design_review}. 
 
     \subsection{Polymers in Additive Manufacturing\label{Polymers_in_AM}}
 
@@ -369,13 +370,13 @@
     
     The market for bioderived PHA has gradually increased over the years and the growth is estimated to keep its pace, considering that not only are they more sustainable
     than competing petrochemical polymers, but they offer additional valuable properties, such as piezolectricity 
-    and protection against gases and UV light \autocite{Kovalcik_PHA_Review}.
+    and protection against gases and UV light \autocite{Kovalcik_PHA_Review,KBV_Research_AM_market}.
 
     Their bio-origin, non-toxicity, renewability, biodegradability and biocompatibility make PHAs a very compelling product in the 
     ever growing market of sustainable materials. 
 
     However, these desirable qualities contribute to their higher price, which is still not competetive against more established 
-    polymers of similar properties \autocite{Kovalcik_PHA_Review}. 
+    polymers of similar properties \autocites{Kovalcik_PHA_Review,Markets_machines_materials}. 
 
     The increasing demand and the improvements on their biosynthesis are expected to make the price more accessible in the future, for all sorts of 
     applications, including AM, where PHAs can be printed successfully either with FDM or SLS techniques \autocites{Kovalcik_PHA_Review}. 
@@ -394,7 +395,7 @@
     PHAs have been successfully printed via SLS and utilized in the medical field as scaffolds for tissues engineering applications \autocites{Messori_Bondioli_PHAs}. 
 
     These scaffolds can be printed with a porous structure (controlled by the laser energy density), 
-    which could aid in carrying biomolecules and slowly release drugs, for instance \autocites{Messori_Bondioli_PHAs}.
+    which could aid in carrying biomolecules and slowly release drugs, for instance \autocites{Messori_Bondioli_PHAs,PHBV_SLS_scaffolds}.
     
     Unlike with FDM applications, where PHA can not be used as a standalone filament, but needs PLA addition in order to stabilize its melting 
     phase, PHA powders for SLS tend to maintain a better stability and their chemical composition does not get altered as easily. 
@@ -611,7 +612,7 @@
 
     After choosing a suitable moderate solvent, the process needs to be studied and quantified 
     with a cloud point diagram of temperature, as a function of polymer weight concentration, allowing the identification of a dissolution 
-    temperature and the temperature where \textit{liquid-liquid phase separation} (LLPS) occurs \autocites{DechetMaximilianA2020OtDo}. 
+    temperature and the temperature where \textit{liquid-liquid phase separation} (LLPS) occurs \autocites{DechetMaximilianA2020OtDo,Dechet_Schmidt_PA11_precipitation_LLPS}. 
     
     These measures allow better scalability of the process in larger controlled environments such as a reactor or autoclave system \autocite{DechetMaximilianA2020OtDo}.
     
@@ -646,7 +647,7 @@
     into account, especially for large scale production of these powders. 
 
     The entire purpose of utilizing sustainable bio-based polymers in the first place might be rendered pointless, if their powder production 
-    utilizes compounds or processes that are not environmentally friendly. \\ 
+    utilizes compounds or processes that are not environmentally friendly \autocites{Solutions_plastic_pollution}. \\ 
 
     Better innovative solutions (or mitigations of the mentioned issues in the current pipelines) need to be implemented in the near future. \\ 
 
@@ -2190,8 +2191,8 @@
         in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (as seen in Figure \ref{fig:DSC_10Cmin}). \\ 
 
         As expected for a polymer of the PHA family, both the storage modulus $E'$ and the loss modulus $E''$ are very low, in line with the 
-        typical viscoelastic behavior of all bio-based polymers \autocites{Kovalcik_PHA_Review}, which are not suited for structural applications and 
-        are instead used for packaging and other non-structural applications, such as biomedical implants and scaffolds \autocites{Messori_Bondioli_PHAs}. \\
+        typical viscoelastic behavior of all bio-based polymers \autocites{Kovalcik_PHA_Review,ZHANG_fatigue_biopolymers}, which are not suited for structural applications and 
+        are instead used for packaging \autocites{Biobased_foodpackaging} and other non-structural applications, such as biomedical implants and scaffolds \autocites{Messori_Bondioli_PHAs,PHA_scaffolds_FDM}. \\
 
         Unsurprisingly, the mechanical properties of the material fall behind those of typical SLS polymers \autocites{Padovano_SLS_Review}, which can 
         occasionally reach storage moduli a whole order of magnitude higher than that of PHBH \autocites{GVSalmoria_PA12_mechanical_properties}. \\ 
@@ -2201,7 +2202,7 @@
         applications \autocites{SLS_3dprinting_biomedical_polymers, Kovalcik_PHA_Review}. \\ 
 
         Moreover, the mechanical and thermal properties of the material can be improved by adding fillers, creating blends with other 
-        bio-based polymers or creating composites with other materials \autocites{Recent_progress_polymers_AM,Eraslan_PHBH_review,PHBH_Crystallinity,Polymers_composite_overview,Advances_3D_printing_polymer_composites}. \\ 
+        bio-based polymers or creating composites with other materials \autocites{Recent_progress_polymers_AM,Eraslan_PHBH_review,PHBH_Crystallinity,Polymers_composite_overview,Advances_3D_printing_polymer_composites,Novel_PHBH_biocomposite_nanocrystals}. \\ 
 
         Given the successful SLS printability, with unaltered thermal properties among the raw material, the powder and the 
         printed parts (as highlighted by the TGA and DSC analysis results), as well as 
@@ -2509,7 +2510,7 @@
     The highlight of the work is the successful SLS printing of the material, which has been achieved with no previous 
     experience of the process with PHBH or any other bio-based polymers of similar characteristics. 
     The printing process was very challenging and required a lot of manual tweaking and adjustments, based solely on the data 
-    obtained from the powder characterization and the experience with SLS printing of other materials. \\ 
+    obtained from the powder characterization and the experience with SLS printing of other materials \autocites{Powder_characteristics_PBF_effects}. \\ 
 
     The printing process was gradually explored: progressively more complex prints have been achieved by building upon the knowledge 
     acquired from the previous iterations, starting with mono-layer prints of simple square 

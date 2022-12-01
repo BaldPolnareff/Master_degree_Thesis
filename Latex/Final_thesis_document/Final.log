@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.25)  1 DEC 2022 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.25)  1 DEC 2022 17:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -949,29 +949,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--173
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--190
+Underfull \hbox (badness 10000) in paragraph at lines 188--191
 
  []
 
 [9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--269
+Underfull \hbox (badness 10000) in paragraph at lines 266--270
 
  []
 
@@ -982,69 +982,69 @@ Package epstopdf Info: Source file: <Pictures/SLS_temp_over_time.eps>
 (epstopdf)                    date: 2022-10-22 20:24:00
 (epstopdf)                    size: 19386 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SLS_temp_over_time-eps-converted-to.pdf Pictures/SLS_temp_over_time.eps>
-(epstopdf)             \includegraphics on input line 283.
+(epstopdf)             \includegraphics on input line 284.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/SLS_temp_over_time-eps-converted-to.pdf, id=429, 1291.82625pt x 984.67876pt>
+<Pictures/SLS_temp_over_time-eps-converted-to.pdf, id=435, 1291.82625pt x 984.67876pt>
 File: Pictures/SLS_temp_over_time-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/SLS_temp_over_time-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/SLS_temp_over_time-eps-converted-to.pdf  used on input line 283.
+Package pdftex.def Info: Pictures/SLS_temp_over_time-eps-converted-to.pdf  used on input line 284.
 (pdftex.def)             Requested size: 217.35168pt x 165.6653pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--297
+Underfull \hbox (badness 10000) in paragraph at lines 294--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--300
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
 
  []
 
 [11
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 305--307
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--324
+Underfull \hbox (badness 10000) in paragraph at lines 322--325
 
  []
 
 [12 <./Pictures/SLS_temp_over_time-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 331--333
+Underfull \hbox (badness 10000) in paragraph at lines 332--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--351
+Underfull \hbox (badness 10000) in paragraph at lines 350--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--369
+Underfull \hbox (badness 10000) in paragraph at lines 367--370
 
  []
 
 [13
 
 ] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 388--391
+Underfull \hbox (badness 10000) in paragraph at lines 389--392
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--405
+Underfull \hbox (badness 10000) in paragraph at lines 403--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--411
+Underfull \hbox (badness 10000) in paragraph at lines 409--412
 
  []
 
@@ -1055,22 +1055,22 @@ Package epstopdf Info: Source file: <Pictures/PHBH_chain.eps>
 (epstopdf)                    date: 2022-11-14 01:33:14
 (epstopdf)                    size: 6916 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/PHBH_chain-eps-converted-to.pdf Pictures/PHBH_chain.eps>
-(epstopdf)             \includegraphics on input line 414.
+(epstopdf)             \includegraphics on input line 415.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/PHBH_chain-eps-converted-to.pdf, id=485, 1002.74625pt x 325.215pt>
+<Pictures/PHBH_chain-eps-converted-to.pdf, id=496, 1002.74625pt x 325.215pt>
 File: Pictures/PHBH_chain-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/PHBH_chain-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/PHBH_chain-eps-converted-to.pdf  used on input line 414.
+Package pdftex.def Info: Pictures/PHBH_chain-eps-converted-to.pdf  used on input line 415.
 (pdftex.def)             Requested size: 276.00105pt x 89.5113pt.
 [15
 
  <./Pictures/PHBH_chain-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 472--473
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 
  []
 
@@ -1081,44 +1081,44 @@ Package epstopdf Info: Source file: <Pictures/sintering_neck.eps>
 (epstopdf)                    date: 2022-10-22 20:24:01
 (epstopdf)                    size: 3339469 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/sintering_neck-eps-converted-to.pdf Pictures/sintering_neck.eps>
-(epstopdf)             \includegraphics on input line 497.
+(epstopdf)             \includegraphics on input line 498.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/sintering_neck-eps-converted-to.pdf, id=505, 1483.5425pt x 825.0825pt>
+<Pictures/sintering_neck-eps-converted-to.pdf, id=517, 1483.5425pt x 825.0825pt>
 File: Pictures/sintering_neck-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/sintering_neck-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/sintering_neck-eps-converted-to.pdf  used on input line 497.
+Package pdftex.def Info: Pictures/sintering_neck-eps-converted-to.pdf  used on input line 498.
 (pdftex.def)             Requested size: 155.24895pt x 86.34036pt.
 [16
 
  <./Pictures/sintering_neck-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 527--529
+Underfull \hbox (badness 10000) in paragraph at lines 528--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--539
+Underfull \hbox (badness 10000) in paragraph at lines 537--540
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
 
-Overfull \hbox (9.34912pt too wide) in paragraph at lines 564--566
+Overfull \hbox (9.34912pt too wide) in paragraph at lines 565--567
 \OT1/cmr/m/n/10 There is lit-tle va-ri-ety in the mar-ket of SLS ready poly-mer pow-ders, with \OT1/cmr/m/it/10 polyamide-
  []
 
 [17
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 575--577
+Underfull \hbox (badness 10000) in paragraph at lines 576--578
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--583
+Underfull \hbox (badness 10000) in paragraph at lines 581--584
 
  []
 
@@ -1129,12 +1129,12 @@ Package epstopdf Info: Source file: <Pictures/TEAS_plot.eps>
 (epstopdf)                    date: 2022-10-22 20:24:00
 (epstopdf)                    size: 12876 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/TEAS_plot-eps-converted-to.pdf Pictures/TEAS_plot.eps>
-(epstopdf)             \includegraphics on input line 599.
+(epstopdf)             \includegraphics on input line 600.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/TEAS_plot-eps-converted-to.pdf, id=546, 1840.8775pt x 1314.9125pt>
+<Pictures/TEAS_plot-eps-converted-to.pdf, id=557, 1840.8775pt x 1314.9125pt>
 File: Pictures/TEAS_plot-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/TEAS_plot-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/TEAS_plot-eps-converted-to.pdf  used on input line 599.
+Package pdftex.def Info: Pictures/TEAS_plot-eps-converted-to.pdf  used on input line 600.
 (pdftex.def)             Requested size: 137.9979pt x 98.55399pt.
 [18 <./Pictures/TEAS_plot-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/particle_size_stirring.eps>
@@ -1144,42 +1144,42 @@ Package epstopdf Info: Source file: <Pictures/particle_size_stirring.eps>
 (epstopdf)                    date: 2022-10-22 20:24:00
 (epstopdf)                    size: 136147 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/particle_size_stirring-eps-converted-to.pdf Pictures/particle_size_stirring.eps>
-(epstopdf)             \includegraphics on input line 629.
+(epstopdf)             \includegraphics on input line 630.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/particle_size_stirring-eps-converted-to.pdf, id=564, 2275.50125pt x 2031.59pt>
+<Pictures/particle_size_stirring-eps-converted-to.pdf, id=576, 2275.50125pt x 2031.59pt>
 File: Pictures/particle_size_stirring-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/particle_size_stirring-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/particle_size_stirring-eps-converted-to.pdf  used on input line 629.
+Package pdftex.def Info: Pictures/particle_size_stirring-eps-converted-to.pdf  used on input line 630.
 (pdftex.def)             Requested size: 172.5pt x 154.00565pt.
  [19 <./Pictures/particle_size_stirring-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 638--642
+Underfull \hbox (badness 10000) in paragraph at lines 639--643
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 648--650
+Underfull \hbox (badness 10000) in paragraph at lines 649--651
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 651--652
+Underfull \hbox (badness 10000) in paragraph at lines 652--653
 
  []
 
 [20
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 696--697
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--701
+Underfull \hbox (badness 10000) in paragraph at lines 699--702
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 707--710
+Underfull \hbox (badness 10000) in paragraph at lines 708--711
 
  []
 
@@ -1187,27 +1187,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 707--710
 
 
 ]
-Overfull \hbox (1.1413pt too wide) in paragraph at lines 716--716
+Overfull \hbox (1.1413pt too wide) in paragraph at lines 717--717
 []\OT1/cmr/bx/n/14.4 Initial chem-i-cal pre-cip-i-ta-tion recipe for PHBH[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 718--721
+Underfull \hbox (badness 10000) in paragraph at lines 719--722
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--724
+Underfull \hbox (badness 10000) in paragraph at lines 723--725
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 753--755
+Underfull \hbox (badness 10000) in paragraph at lines 754--756
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 756--760
+Underfull \hbox (badness 10000) in paragraph at lines 757--761
 
  []
 
@@ -1221,293 +1221,293 @@ Package epstopdf Info: Source file: <Pictures/process_diagram.eps>
 (epstopdf)                    date: 2022-10-22 20:24:00
 (epstopdf)                    size: 55333 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/process_diagram-eps-converted-to.pdf Pictures/process_diagram.eps>
-(epstopdf)             \includegraphics on input line 807.
+(epstopdf)             \includegraphics on input line 808.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/process_diagram-eps-converted-to.pdf, id=594, 744.7825pt x 835.12pt>
+<Pictures/process_diagram-eps-converted-to.pdf, id=610, 744.7825pt x 835.12pt>
 File: Pictures/process_diagram-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/process_diagram-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/process_diagram-eps-converted-to.pdf  used on input line 807.
+Package pdftex.def Info: Pictures/process_diagram-eps-converted-to.pdf  used on input line 808.
 (pdftex.def)             Requested size: 345.0pt x 386.86134pt.
  [23
 
  <./Pictures/process_diagram-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 814--816
+Underfull \hbox (badness 10000) in paragraph at lines 815--817
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 821--823
+Underfull \hbox (badness 10000) in paragraph at lines 822--824
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--835
+Underfull \hbox (badness 10000) in paragraph at lines 834--836
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--891
+Underfull \hbox (badness 10000) in paragraph at lines 890--892
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 895--897
+Underfull \hbox (badness 10000) in paragraph at lines 896--898
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--908
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 909--910
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
 
  []
 
 [24
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 982--986
+Underfull \hbox (badness 10000) in paragraph at lines 983--987
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--992
+Underfull \hbox (badness 10000) in paragraph at lines 991--993
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 993--995
+Underfull \hbox (badness 10000) in paragraph at lines 994--996
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1007
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1008
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1016--1021
+Underfull \hbox (badness 10000) in paragraph at lines 1017--1022
 
  []
 
 [25
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1061
+Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
 
  []
 
 
-Overfull \hbox (8.76668pt too wide) in paragraph at lines 1066--1066
+Overfull \hbox (8.76668pt too wide) in paragraph at lines 1067--1067
 []\OT1/cmr/bx/n/12 Adaptations and pro-gres-sively re-fined equip-ment choice[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1070
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1071
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1073
+Underfull \hbox (badness 10000) in paragraph at lines 1072--1074
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1096--1097
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1098
 
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1107--1109
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1113
+Underfull \hbox (badness 10000) in paragraph at lines 1111--1114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1116--1119
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1120--1123
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1126
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1142--1144
+Underfull \hbox (badness 10000) in paragraph at lines 1143--1145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1145--1147
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1151
+Underfull \hbox (badness 10000) in paragraph at lines 1149--1152
 
  []
 
 [27
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1158--1160
+Underfull \hbox (badness 10000) in paragraph at lines 1159--1161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1161--1164
+Underfull \hbox (badness 10000) in paragraph at lines 1162--1165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1168--1170
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1171--1174
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1177--1179
+Underfull \hbox (badness 10000) in paragraph at lines 1178--1180
 
  []
 
 [28
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1184--1186
+Underfull \hbox (badness 10000) in paragraph at lines 1185--1187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1187--1190
+Underfull \hbox (badness 10000) in paragraph at lines 1188--1191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1191--1194
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1195--1197
+Underfull \hbox (badness 10000) in paragraph at lines 1196--1198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1200--1202
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1203
 
  []
 
 [29
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1207--1210
+Underfull \hbox (badness 10000) in paragraph at lines 1208--1211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1216--1218
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1219
 
  []
 
-<Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png, id=653, 1027.84pt x 1027.84pt>
+<Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png, id=668, 1027.84pt x 1027.84pt>
 File: Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png Graphic file (type png)
 <use Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png>
-Package pdftex.def Info: Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png  used on input line 1227.
+Package pdftex.def Info: Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png  used on input line 1228.
 (pdftex.def)             Requested size: 241.49895pt x 241.49538pt.
 [30
 
  <./Pictures/SEM/Edited/DALL·E 2022-08-18 16.33.26 - Round particles seen through a SEM microscope.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1234--1237
+Underfull \hbox (badness 10000) in paragraph at lines 1235--1238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1241
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1249--1250
+Underfull \hbox (badness 10000) in paragraph at lines 1250--1251
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1278--1279
+Underfull \hbox (badness 10000) in paragraph at lines 1279--1280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1281--1285
+Underfull \hbox (badness 10000) in paragraph at lines 1282--1286
 
  []
 
 [31
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1291--1292
+Underfull \hbox (badness 10000) in paragraph at lines 1292--1293
 
  []
 
-<Pictures/SEM/Edited/pre-post_process.pdf, id=665, 2312.64pt x 1571.11969pt>
+<Pictures/SEM/Edited/pre-post_process.pdf, id=680, 2312.64pt x 1571.11969pt>
 File: Pictures/SEM/Edited/pre-post_process.pdf Graphic file (type pdf)
 <use Pictures/SEM/Edited/pre-post_process.pdf>
-Package pdftex.def Info: Pictures/SEM/Edited/pre-post_process.pdf  used on input line 1295.
+Package pdftex.def Info: Pictures/SEM/Edited/pre-post_process.pdf  used on input line 1296.
 (pdftex.def)             Requested size: 345.0pt x 234.36322pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1300--1301
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1302
 
  []
 
 [32
 
  <./Pictures/SEM/Edited/pre-post_process.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1309--1313
+Underfull \hbox (badness 10000) in paragraph at lines 1310--1314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1321--1323
+Underfull \hbox (badness 10000) in paragraph at lines 1322--1324
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1327--1329
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1333--1335
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1336--1338
+Underfull \hbox (badness 10000) in paragraph at lines 1337--1339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1339--1343
+Underfull \hbox (badness 10000) in paragraph at lines 1340--1344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1344--1346
+Underfull \hbox (badness 10000) in paragraph at lines 1345--1347
 
  []
 
@@ -1518,42 +1518,42 @@ Package epstopdf Info: Source file: <Pictures/DSC_Polyma.eps>
 (epstopdf)                    date: 2022-11-22 00:04:59
 (epstopdf)                    size: 1076786 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/DSC_Polyma-eps-converted-to.pdf Pictures/DSC_Polyma.eps>
-(epstopdf)             \includegraphics on input line 1349.
+(epstopdf)             \includegraphics on input line 1350.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/DSC_Polyma-eps-converted-to.pdf, id=688, 2890.8pt x 2890.8pt>
+<Pictures/DSC_Polyma-eps-converted-to.pdf, id=703, 2890.8pt x 2890.8pt>
 File: Pictures/DSC_Polyma-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/DSC_Polyma-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/DSC_Polyma-eps-converted-to.pdf  used on input line 1349.
+Package pdftex.def Info: Pictures/DSC_Polyma-eps-converted-to.pdf  used on input line 1350.
 (pdftex.def)             Requested size: 241.49895pt x 241.45813pt.
 [33
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1361--1363
+Underfull \hbox (badness 10000) in paragraph at lines 1362--1364
 
  []
 
 [34 <./Pictures/DSC_Polyma-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1389--1392
+Underfull \hbox (badness 10000) in paragraph at lines 1390--1393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1404
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1405--1409
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1410
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1413--1416
+Underfull \hbox (badness 10000) in paragraph at lines 1414--1417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1417--1419
+Underfull \hbox (badness 10000) in paragraph at lines 1418--1420
 
  []
 
@@ -1564,32 +1564,32 @@ Package epstopdf Info: Source file: <Pictures/TGA_mettlertoledo.eps>
 (epstopdf)                    date: 2022-11-10 19:03:16
 (epstopdf)                    size: 7939823 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/TGA_mettlertoledo-eps-converted-to.pdf Pictures/TGA_mettlertoledo.eps>
-(epstopdf)             \includegraphics on input line 1422.
+(epstopdf)             \includegraphics on input line 1423.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/TGA_mettlertoledo-eps-converted-to.pdf, id=703, 6829.515pt x 7034.28pt>
+<Pictures/TGA_mettlertoledo-eps-converted-to.pdf, id=718, 6829.515pt x 7034.28pt>
 File: Pictures/TGA_mettlertoledo-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/TGA_mettlertoledo-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/TGA_mettlertoledo-eps-converted-to.pdf  used on input line 1422.
+Package pdftex.def Info: Pictures/TGA_mettlertoledo-eps-converted-to.pdf  used on input line 1423.
 (pdftex.def)             Requested size: 241.49895pt x 248.69365pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1434--1435
+Underfull \hbox (badness 10000) in paragraph at lines 1435--1436
 
  []
 
 [35
 
 ] [36 <./Pictures/TGA_mettlertoledo-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1459--1461
+Underfull \hbox (badness 10000) in paragraph at lines 1460--1462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1462--1464
+Underfull \hbox (badness 10000) in paragraph at lines 1463--1465
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1465--1467
+Underfull \hbox (badness 10000) in paragraph at lines 1466--1468
 
  []
 
@@ -1600,69 +1600,69 @@ Package epstopdf Info: Source file: <Pictures/pycnometer.eps>
 (epstopdf)                    date: 2022-11-12 17:22:15
 (epstopdf)                    size: 2946909 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/pycnometer-eps-converted-to.pdf Pictures/pycnometer.eps>
-(epstopdf)             \includegraphics on input line 1470.
+(epstopdf)             \includegraphics on input line 1471.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/pycnometer-eps-converted-to.pdf, id=719, 2795.44376pt x 2415.0225pt>
+<Pictures/pycnometer-eps-converted-to.pdf, id=734, 2795.44376pt x 2415.0225pt>
 File: Pictures/pycnometer-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/pycnometer-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/pycnometer-eps-converted-to.pdf  used on input line 1470.
+Package pdftex.def Info: Pictures/pycnometer-eps-converted-to.pdf  used on input line 1471.
 (pdftex.def)             Requested size: 241.49895pt x 208.60915pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1475--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1476--1479
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1479--1481
+Underfull \hbox (badness 10000) in paragraph at lines 1480--1482
 
  []
 
 [37
 
  <./Pictures/pycnometer-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1486--1489
+Underfull \hbox (badness 10000) in paragraph at lines 1487--1490
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1490--1492
+Underfull \hbox (badness 10000) in paragraph at lines 1491--1493
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1493--1495
+Underfull \hbox (badness 10000) in paragraph at lines 1494--1496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1496--1498
+Underfull \hbox (badness 10000) in paragraph at lines 1497--1499
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1499--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1500--1502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1502--1505
+Underfull \hbox (badness 10000) in paragraph at lines 1503--1506
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1515
+Underfull \hbox (badness 10000) in paragraph at lines 1515--1516
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1516--1518
+Underfull \hbox (badness 10000) in paragraph at lines 1517--1519
 
  []
 
 [38
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1523--1525
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1526
 
  []
 
@@ -1673,47 +1673,47 @@ Package epstopdf Info: Source file: <Pictures/malvern.eps>
 (epstopdf)                    date: 2022-11-12 17:24:34
 (epstopdf)                    size: 5617516 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/malvern-eps-converted-to.pdf Pictures/malvern.eps>
-(epstopdf)             \includegraphics on input line 1528.
+(epstopdf)             \includegraphics on input line 1529.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/malvern-eps-converted-to.pdf, id=737, 3009.2425pt x 2437.105pt>
+<Pictures/malvern-eps-converted-to.pdf, id=752, 3009.2425pt x 2437.105pt>
 File: Pictures/malvern-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/malvern-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/malvern-eps-converted-to.pdf  used on input line 1528.
+Package pdftex.def Info: Pictures/malvern-eps-converted-to.pdf  used on input line 1529.
 (pdftex.def)             Requested size: 241.49895pt x 195.56738pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1533--1535
+Underfull \hbox (badness 10000) in paragraph at lines 1534--1536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1538
+Underfull \hbox (badness 10000) in paragraph at lines 1537--1539
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1539--1541
+Underfull \hbox (badness 10000) in paragraph at lines 1540--1542
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1542--1544
+Underfull \hbox (badness 10000) in paragraph at lines 1543--1545
 
  []
 
 [39
 
  <./Pictures/malvern-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1549--1550
+Underfull \hbox (badness 10000) in paragraph at lines 1550--1551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1551--1553
+Underfull \hbox (badness 10000) in paragraph at lines 1552--1554
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1554--1557
+Underfull \hbox (badness 10000) in paragraph at lines 1555--1558
 
  []
 
@@ -1724,20 +1724,20 @@ Package epstopdf Info: Source file: <Pictures/PHBH_dried_powder.eps>
 (epstopdf)                    date: 2022-11-22 17:50:44
 (epstopdf)                    size: 2528785 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/PHBH_dried_powder-eps-converted-to.pdf Pictures/PHBH_dried_powder.eps>
-(epstopdf)             \includegraphics on input line 1560.
+(epstopdf)             \includegraphics on input line 1561.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/PHBH_dried_powder-eps-converted-to.pdf, id=745, 3474.9825pt x 3475.98625pt>
+<Pictures/PHBH_dried_powder-eps-converted-to.pdf, id=760, 3474.9825pt x 3475.98625pt>
 File: Pictures/PHBH_dried_powder-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/PHBH_dried_powder-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/PHBH_dried_powder-eps-converted-to.pdf  used on input line 1560.
+Package pdftex.def Info: Pictures/PHBH_dried_powder-eps-converted-to.pdf  used on input line 1561.
 (pdftex.def)             Requested size: 172.5pt x 172.53654pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1568--1570
+Underfull \hbox (badness 10000) in paragraph at lines 1569--1571
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1571--1573
+Underfull \hbox (badness 10000) in paragraph at lines 1572--1574
 
  []
 
@@ -1748,82 +1748,82 @@ Package epstopdf Info: Source file: <Pictures/3dprint_file_pipeline_scheme.eps>
 (epstopdf)                    date: 2022-11-07 01:57:43
 (epstopdf)                    size: 743853 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf Pictures/3dprint_file_pipeline_scheme.eps>
-(epstopdf)             \includegraphics on input line 1579.
+(epstopdf)             \includegraphics on input line 1580.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf, id=747, 839.135pt x 707.64375pt>
+<Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf, id=762, 839.135pt x 707.64375pt>
 File: Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf  used on input line 1579.
+Package pdftex.def Info: Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf  used on input line 1580.
 (pdftex.def)             Requested size: 345.0pt x 290.93484pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1586--1588
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1589
 
  []
 
 [40
 
  <./Pictures/PHBH_dried_powder-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1589--1592
+Underfull \hbox (badness 10000) in paragraph at lines 1590--1593
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1593--1596
+Underfull \hbox (badness 10000) in paragraph at lines 1594--1597
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1597--1600
+Underfull \hbox (badness 10000) in paragraph at lines 1598--1601
 
  []
 
 [41 <./Pictures/3dprint_file_pipeline_scheme-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1601--1605
+Underfull \hbox (badness 10000) in paragraph at lines 1602--1606
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1608--1609
+Underfull \hbox (badness 10000) in paragraph at lines 1609--1610
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1610--1612
+Underfull \hbox (badness 10000) in paragraph at lines 1611--1613
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1613--1614
+Underfull \hbox (badness 10000) in paragraph at lines 1614--1615
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1615--1617
+Underfull \hbox (badness 10000) in paragraph at lines 1616--1618
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1623--1628
+Underfull \hbox (badness 10000) in paragraph at lines 1624--1629
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1629--1632
+Underfull \hbox (badness 10000) in paragraph at lines 1630--1633
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1633--1635
+Underfull \hbox (badness 10000) in paragraph at lines 1634--1636
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1636--1639
+Underfull \hbox (badness 10000) in paragraph at lines 1637--1640
 
  []
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 1645--1647
+Underfull \hbox (badness 10000) in paragraph at lines 1646--1648
 
  []
 
@@ -1834,204 +1834,204 @@ Package epstopdf Info: Source file: <Pictures/sharebot_snowhite2.eps>
 (epstopdf)                    date: 2022-11-08 21:31:37
 (epstopdf)                    size: 1430526 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/sharebot_snowhite2-eps-converted-to.pdf Pictures/sharebot_snowhite2.eps>
-(epstopdf)             \includegraphics on input line 1650.
+(epstopdf)             \includegraphics on input line 1651.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/sharebot_snowhite2-eps-converted-to.pdf, id=782, 2595.6975pt x 4423.52625pt>
+<Pictures/sharebot_snowhite2-eps-converted-to.pdf, id=797, 2595.6975pt x 4423.52625pt>
 File: Pictures/sharebot_snowhite2-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/sharebot_snowhite2-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/sharebot_snowhite2-eps-converted-to.pdf  used on input line 1650.
+Package pdftex.def Info: Pictures/sharebot_snowhite2-eps-converted-to.pdf  used on input line 1651.
 (pdftex.def)             Requested size: 172.5pt x 293.95157pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1655--1658
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1662--1664
+Underfull \hbox (badness 10000) in paragraph at lines 1663--1665
 
  []
 
 [43
 
  <./Pictures/sharebot_snowhite2-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1667--1669
+Underfull \hbox (badness 10000) in paragraph at lines 1668--1670
 
  []
 
 
 
 pdfTeX warning: pdflatex (file ./Pictures/Sharebot_GUI.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/Sharebot_GUI.pdf, id=792, 1240.635pt x 696.6025pt>
+<Pictures/Sharebot_GUI.pdf, id=807, 1240.635pt x 696.6025pt>
 File: Pictures/Sharebot_GUI.pdf Graphic file (type pdf)
 <use Pictures/Sharebot_GUI.pdf>
-Package pdftex.def Info: Pictures/Sharebot_GUI.pdf  used on input line 1672.
+Package pdftex.def Info: Pictures/Sharebot_GUI.pdf  used on input line 1673.
 (pdftex.def)             Requested size: 345.0pt x 193.70807pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1677--1680
+Underfull \hbox (badness 10000) in paragraph at lines 1678--1681
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1681--1683
+Underfull \hbox (badness 10000) in paragraph at lines 1682--1684
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1684--1687
+Underfull \hbox (badness 10000) in paragraph at lines 1685--1688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1691--1692
+Underfull \hbox (badness 10000) in paragraph at lines 1692--1693
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1693--1697
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1698
 
  []
 
 [44 <./Pictures/Sharebot_GUI.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1698--1702
+Underfull \hbox (badness 10000) in paragraph at lines 1699--1703
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1703--1705
+Underfull \hbox (badness 10000) in paragraph at lines 1704--1706
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1721--1724
+Underfull \hbox (badness 10000) in paragraph at lines 1722--1725
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1725--1727
+Underfull \hbox (badness 10000) in paragraph at lines 1726--1728
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1728--1732
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1733
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1733--1736
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1737
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1737--1740
+Underfull \hbox (badness 10000) in paragraph at lines 1738--1741
 
  []
 
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 1741--1744
+Underfull \hbox (badness 10000) in paragraph at lines 1742--1745
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1745--1747
+Underfull \hbox (badness 10000) in paragraph at lines 1746--1748
 
  []
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 1756--1758
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1759
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1759--1761
+Underfull \hbox (badness 10000) in paragraph at lines 1760--1762
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1766--1768
+Underfull \hbox (badness 10000) in paragraph at lines 1767--1769
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1769--1772
+Underfull \hbox (badness 10000) in paragraph at lines 1770--1773
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1773--1778
+Underfull \hbox (badness 10000) in paragraph at lines 1774--1779
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1779--1782
+Underfull \hbox (badness 10000) in paragraph at lines 1780--1783
 
  []
 
 
-Overfull \hbox (1.7783pt too wide) in paragraph at lines 1783--1786
+Overfull \hbox (1.7783pt too wide) in paragraph at lines 1784--1787
 []\OT1/cmr/m/n/10 The in-tro-duc-tion of other set-tings such as warm-ing lay-ers, pre-print and between-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1783--1786
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1787
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1787--1788
+Underfull \hbox (badness 10000) in paragraph at lines 1788--1789
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1799--1800
+Underfull \hbox (badness 10000) in paragraph at lines 1800--1801
 
  []
 
 [47
 
 ] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 1827--1830
+Underfull \hbox (badness 10000) in paragraph at lines 1828--1831
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1831--1837
+Underfull \hbox (badness 10000) in paragraph at lines 1832--1838
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1838--1841
+Underfull \hbox (badness 10000) in paragraph at lines 1839--1842
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1842--1844
+Underfull \hbox (badness 10000) in paragraph at lines 1843--1845
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1845--1847
+Underfull \hbox (badness 10000) in paragraph at lines 1846--1848
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1848--1852
+Underfull \hbox (badness 10000) in paragraph at lines 1849--1853
 
  []
 
 [49
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1860
+Underfull \hbox (badness 10000) in paragraph at lines 1859--1861
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1861--1862
+Underfull \hbox (badness 10000) in paragraph at lines 1862--1863
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1866--1868
+Underfull \hbox (badness 10000) in paragraph at lines 1867--1869
 
  []
 
@@ -2042,12 +2042,12 @@ Package epstopdf Info: Source file: <Pictures/SEM/Edited/04_02.eps>
 (epstopdf)                    date: 2022-11-01 20:34:41
 (epstopdf)                    size: 915008 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/04_02-eps-converted-to.pdf Pictures/SEM/Edited/04_02.eps>
-(epstopdf)             \includegraphics on input line 1878.
+(epstopdf)             \includegraphics on input line 1879.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/SEM/Edited/04_02-eps-converted-to.pdf, id=856, 2312.64pt x 1571.8725pt>
+<Pictures/SEM/Edited/04_02-eps-converted-to.pdf, id=871, 2312.64pt x 1571.8725pt>
 File: Pictures/SEM/Edited/04_02-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/SEM/Edited/04_02-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/SEM/Edited/04_02-eps-converted-to.pdf  used on input line 1878.
+Package pdftex.def Info: Pictures/SEM/Edited/04_02-eps-converted-to.pdf  used on input line 1879.
 (pdftex.def)             Requested size: 345.0pt x 234.47552pt.
 Package epstopdf Info: Source file: <Pictures/SEM/Edited/04_03.eps>
 (epstopdf)                    date: 2022-10-22 20:24:00
@@ -2056,12 +2056,12 @@ Package epstopdf Info: Source file: <Pictures/SEM/Edited/04_03.eps>
 (epstopdf)                    date: 2022-11-01 20:34:42
 (epstopdf)                    size: 891961 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/04_03-eps-converted-to.pdf Pictures/SEM/Edited/04_03.eps>
-(epstopdf)             \includegraphics on input line 1885.
+(epstopdf)             \includegraphics on input line 1886.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/SEM/Edited/04_03-eps-converted-to.pdf, id=857, 2312.64pt x 1571.8725pt>
+<Pictures/SEM/Edited/04_03-eps-converted-to.pdf, id=872, 2312.64pt x 1571.8725pt>
 File: Pictures/SEM/Edited/04_03-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/SEM/Edited/04_03-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/SEM/Edited/04_03-eps-converted-to.pdf  used on input line 1885.
+Package pdftex.def Info: Pictures/SEM/Edited/04_03-eps-converted-to.pdf  used on input line 1886.
 (pdftex.def)             Requested size: 345.0pt x 234.47552pt.
 Package epstopdf Info: Source file: <Pictures/SEM/Edited/06_01.eps>
 (epstopdf)                    date: 2022-10-22 20:24:00
@@ -2070,12 +2070,12 @@ Package epstopdf Info: Source file: <Pictures/SEM/Edited/06_01.eps>
 (epstopdf)                    date: 2022-11-01 20:34:47
 (epstopdf)                    size: 815213 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/06_01-eps-converted-to.pdf Pictures/SEM/Edited/06_01.eps>
-(epstopdf)             \includegraphics on input line 1899.
+(epstopdf)             \includegraphics on input line 1900.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/SEM/Edited/06_01-eps-converted-to.pdf, id=858, 2312.64pt x 1571.8725pt>
+<Pictures/SEM/Edited/06_01-eps-converted-to.pdf, id=873, 2312.64pt x 1571.8725pt>
 File: Pictures/SEM/Edited/06_01-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/SEM/Edited/06_01-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/SEM/Edited/06_01-eps-converted-to.pdf  used on input line 1899.
+Package pdftex.def Info: Pictures/SEM/Edited/06_01-eps-converted-to.pdf  used on input line 1900.
 (pdftex.def)             Requested size: 345.0pt x 234.47552pt.
 Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_02.eps>
 (epstopdf)                    date: 2022-10-22 20:24:00
@@ -2084,12 +2084,12 @@ Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_02.eps>
 (epstopdf)                    date: 2022-11-01 20:34:57
 (epstopdf)                    size: 1354699 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/sample_02-eps-converted-to.pdf Pictures/SEM/Edited/sample_02.eps>
-(epstopdf)             \includegraphics on input line 1920.
+(epstopdf)             \includegraphics on input line 1921.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/SEM/Edited/sample_02-eps-converted-to.pdf, id=859, 2312.64pt x 1571.8725pt>
+<Pictures/SEM/Edited/sample_02-eps-converted-to.pdf, id=874, 2312.64pt x 1571.8725pt>
 File: Pictures/SEM/Edited/sample_02-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/SEM/Edited/sample_02-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/SEM/Edited/sample_02-eps-converted-to.pdf  used on input line 1920.
+Package pdftex.def Info: Pictures/SEM/Edited/sample_02-eps-converted-to.pdf  used on input line 1921.
 (pdftex.def)             Requested size: 345.0pt x 234.47552pt.
 Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_03.eps>
 (epstopdf)                    date: 2022-10-22 20:24:00
@@ -2098,12 +2098,12 @@ Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_03.eps>
 (epstopdf)                    date: 2022-11-01 20:35:01
 (epstopdf)                    size: 1071228 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/sample_03-eps-converted-to.pdf Pictures/SEM/Edited/sample_03.eps>
-(epstopdf)             \includegraphics on input line 1927.
+(epstopdf)             \includegraphics on input line 1928.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/SEM/Edited/sample_03-eps-converted-to.pdf, id=860, 2312.64pt x 1571.8725pt>
+<Pictures/SEM/Edited/sample_03-eps-converted-to.pdf, id=875, 2312.64pt x 1571.8725pt>
 File: Pictures/SEM/Edited/sample_03-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/SEM/Edited/sample_03-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/SEM/Edited/sample_03-eps-converted-to.pdf  used on input line 1927.
+Package pdftex.def Info: Pictures/SEM/Edited/sample_03-eps-converted-to.pdf  used on input line 1928.
 (pdftex.def)             Requested size: 345.0pt x 234.47552pt.
 Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_06.eps>
 (epstopdf)                    date: 2022-10-22 20:24:00
@@ -2112,17 +2112,17 @@ Package epstopdf Info: Source file: <Pictures/SEM/Edited/sample_06.eps>
 (epstopdf)                    date: 2022-11-01 20:35:15
 (epstopdf)                    size: 1438800 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/SEM/Edited/sample_06-eps-converted-to.pdf Pictures/SEM/Edited/sample_06.eps>
-(epstopdf)             \includegraphics on input line 1948.
+(epstopdf)             \includegraphics on input line 1949.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/SEM/Edited/sample_06-eps-converted-to.pdf, id=861, 2312.64pt x 1571.8725pt>
+<Pictures/SEM/Edited/sample_06-eps-converted-to.pdf, id=876, 2312.64pt x 1571.8725pt>
 File: Pictures/SEM/Edited/sample_06-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/SEM/Edited/sample_06-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/SEM/Edited/sample_06-eps-converted-to.pdf  used on input line 1948.
+Package pdftex.def Info: Pictures/SEM/Edited/sample_06-eps-converted-to.pdf  used on input line 1949.
 (pdftex.def)             Requested size: 345.0pt x 234.47552pt.
 [50
 
  <./Pictures/SEM/Edited/04_02-eps-converted-to.pdf>] [51 <./Pictures/SEM/Edited/04_03-eps-converted-to.pdf> <./Pictures/SEM/Edited/06_01-eps-converted-to.pdf>] [52 <./Pictures/SEM/Edited/sample_02-eps-converted-to.pdf> <./Pictures/SEM/Edited/sample_03-eps-converted-to.pdf>] [53 <./Pictures/SEM/Edited/sample_06-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1957--1959
+Underfull \hbox (badness 10000) in paragraph at lines 1958--1960
 
  []
 
@@ -2133,12 +2133,12 @@ Package epstopdf Info: Source file: <Pictures/Granulometry_plots/Histogram_CE-DI
 (epstopdf)                    date: 2022-11-12 00:31:20
 (epstopdf)                    size: 739357 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Granulometry_plots/Histogram_CE-DIAM-eps-converted-to.pdf Pictures/Granulometry_plots/Histogram_CE-DIAM.eps>
-(epstopdf)             \includegraphics on input line 1981.
+(epstopdf)             \includegraphics on input line 1982.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Granulometry_plots/Histogram_CE-DIAM-eps-converted-to.pdf, id=914, 539.01375pt x 755.82375pt>
+<Pictures/Granulometry_plots/Histogram_CE-DIAM-eps-converted-to.pdf, id=929, 539.01375pt x 755.82375pt>
 File: Pictures/Granulometry_plots/Histogram_CE-DIAM-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Granulometry_plots/Histogram_CE-DIAM-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Granulometry_plots/Histogram_CE-DIAM-eps-converted-to.pdf  used on input line 1981.
+Package pdftex.def Info: Pictures/Granulometry_plots/Histogram_CE-DIAM-eps-converted-to.pdf  used on input line 1982.
 (pdftex.def)             Requested size: 310.4979pt x 435.39105pt.
 Package epstopdf Info: Source file: <Pictures/Granulometry_plots/Histogram_Circularity.eps>
 (epstopdf)                    date: 2022-11-11 23:44:24
@@ -2147,171 +2147,171 @@ Package epstopdf Info: Source file: <Pictures/Granulometry_plots/Histogram_Circu
 (epstopdf)                    date: 2022-11-12 00:31:20
 (epstopdf)                    size: 372774 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Granulometry_plots/Histogram_Circularity-eps-converted-to.pdf Pictures/Granulometry_plots/Histogram_Circularity.eps>
-(epstopdf)             \includegraphics on input line 1988.
+(epstopdf)             \includegraphics on input line 1989.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Granulometry_plots/Histogram_Circularity-eps-converted-to.pdf, id=915, 539.01375pt x 755.82375pt>
+<Pictures/Granulometry_plots/Histogram_Circularity-eps-converted-to.pdf, id=930, 539.01375pt x 755.82375pt>
 File: Pictures/Granulometry_plots/Histogram_Circularity-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Granulometry_plots/Histogram_Circularity-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Granulometry_plots/Histogram_Circularity-eps-converted-to.pdf  used on input line 1988.
+Package pdftex.def Info: Pictures/Granulometry_plots/Histogram_Circularity-eps-converted-to.pdf  used on input line 1989.
 (pdftex.def)             Requested size: 345.0pt x 483.77168pt.
 [54
 
  <./Pictures/Granulometry_plots/Histogram_CE-DIAM-eps-converted-to.pdf>] [55 <./Pictures/Granulometry_plots/Histogram_Circularity-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1995--1998
+Underfull \hbox (badness 10000) in paragraph at lines 1996--1999
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1999--2001
+Underfull \hbox (badness 10000) in paragraph at lines 2000--2002
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2002--2004
+Underfull \hbox (badness 10000) in paragraph at lines 2003--2005
 
  []
 
 [56
 
 ]
-<Pictures/Thermal_analysis_plots/DSC_alberto.pdf, id=936, 496.0245pt x 718.87608pt>
+<Pictures/Thermal_analysis_plots/DSC_alberto.pdf, id=951, 496.0245pt x 718.87608pt>
 File: Pictures/Thermal_analysis_plots/DSC_alberto.pdf Graphic file (type pdf)
 <use Pictures/Thermal_analysis_plots/DSC_alberto.pdf>
-Package pdftex.def Info: Pictures/Thermal_analysis_plots/DSC_alberto.pdf  used on input line 2014.
+Package pdftex.def Info: Pictures/Thermal_analysis_plots/DSC_alberto.pdf  used on input line 2015.
 (pdftex.def)             Requested size: 310.4979pt x 450.00945pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2009--2017
+Underfull \hbox (badness 10000) in paragraph at lines 2010--2018
 
  []
 
 [57
 
  <./Pictures/Thermal_analysis_plots/DSC_alberto.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 2049--2054
+Underfull \hbox (badness 10000) in paragraph at lines 2050--2055
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2058--2060
+Underfull \hbox (badness 10000) in paragraph at lines 2059--2061
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2061--2064
+Underfull \hbox (badness 10000) in paragraph at lines 2062--2065
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2065--2067
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2068
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2077--2078
+Underfull \hbox (badness 10000) in paragraph at lines 2078--2079
 
  []
 
 [58
 
 ]
-<Pictures/Thermal_analysis_plots/DSC_peaks_areas.pdf, id=1007, 770.85182pt x 531.88776pt>
+<Pictures/Thermal_analysis_plots/DSC_peaks_areas.pdf, id=1022, 770.85182pt x 531.88776pt>
 File: Pictures/Thermal_analysis_plots/DSC_peaks_areas.pdf Graphic file (type pdf)
 <use Pictures/Thermal_analysis_plots/DSC_peaks_areas.pdf>
-Package pdftex.def Info: Pictures/Thermal_analysis_plots/DSC_peaks_areas.pdf  used on input line 2090.
+Package pdftex.def Info: Pictures/Thermal_analysis_plots/DSC_peaks_areas.pdf  used on input line 2091.
 (pdftex.def)             Requested size: 345.0pt x 238.04872pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2095--2096
+Underfull \hbox (badness 10000) in paragraph at lines 2096--2097
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2105
+Underfull \hbox (badness 10000) in paragraph at lines 2103--2106
 
  []
 
 [59
 
  <./Pictures/Thermal_analysis_plots/DSC_peaks_areas.pdf>]
-<Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/g-TGA01.pdf, id=1067, 496.0245pt x 561.41684pt>
+<Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/g-TGA01.pdf, id=1082, 496.0245pt x 561.41684pt>
 File: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/g-TGA01.pdf Graphic file (type pdf)
 <use Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/g-TGA01.pdf>
-Package pdftex.def Info: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/g-TGA01.pdf  used on input line 2130.
+Package pdftex.def Info: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/g-TGA01.pdf  used on input line 2131.
 (pdftex.def)             Requested size: 276.00105pt x 312.39528pt.
-<Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/p-TGA03.pdf, id=1070, 496.0245pt x 561.41684pt>
+<Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/p-TGA03.pdf, id=1085, 496.0245pt x 561.41684pt>
 File: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/p-TGA03.pdf Graphic file (type pdf)
 <use Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/p-TGA03.pdf>
-Package pdftex.def Info: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/p-TGA03.pdf  used on input line 2142.
+Package pdftex.def Info: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/p-TGA03.pdf  used on input line 2143.
 (pdftex.def)             Requested size: 276.00105pt x 312.39528pt.
-<Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/s-TGA04.pdf, id=1073, 496.0245pt x 561.41684pt>
+<Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/s-TGA04.pdf, id=1088, 496.0245pt x 561.41684pt>
 File: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/s-TGA04.pdf Graphic file (type pdf)
 <use Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/s-TGA04.pdf>
-Package pdftex.def Info: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/s-TGA04.pdf  used on input line 2149.
+Package pdftex.def Info: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/s-TGA04.pdf  used on input line 2150.
 (pdftex.def)             Requested size: 276.00105pt x 312.39528pt.
  [60
 
  <./Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/g-TGA01.pdf>] [61 <./Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/p-TGA03.pdf>] [62 <./Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/s-TGA04.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 2156--2158
+Underfull \hbox (badness 10000) in paragraph at lines 2157--2159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2159--2162
+Underfull \hbox (badness 10000) in paragraph at lines 2160--2163
 
  []
 
-<Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf, id=1208, 496.0245pt x 403.95758pt>
+<Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf, id=1223, 496.0245pt x 403.95758pt>
 File: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf Graphic file (type pdf)
 <use Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf>
-Package pdftex.def Info: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf  used on input line 2168.
+Package pdftex.def Info: Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf  used on input line 2169.
 (pdftex.def)             Requested size: 345.0pt x 280.97469pt.
 [63
 
  <./Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 2177--2179
+Underfull \hbox (badness 10000) in paragraph at lines 2178--2180
 
  []
 
-<Pictures/Thermal_analysis_plots/DMA.pdf, id=1234, 718.90126pt x 496.04187pt>
+<Pictures/Thermal_analysis_plots/DMA.pdf, id=1249, 718.90126pt x 496.04187pt>
 File: Pictures/Thermal_analysis_plots/DMA.pdf Graphic file (type pdf)
 <use Pictures/Thermal_analysis_plots/DMA.pdf>
-Package pdftex.def Info: Pictures/Thermal_analysis_plots/DMA.pdf  used on input line 2182.
+Package pdftex.def Info: Pictures/Thermal_analysis_plots/DMA.pdf  used on input line 2183.
 (pdftex.def)             Requested size: 345.0pt x 238.05197pt.
 [64
 
  <./Pictures/Thermal_analysis_plots/DMA.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 2189--2191
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2192--2195
+Underfull \hbox (badness 10000) in paragraph at lines 2193--2196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2196--2198
+Underfull \hbox (badness 10000) in paragraph at lines 2197--2199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2199--2202
+Underfull \hbox (badness 10000) in paragraph at lines 2200--2203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2203--2205
+Underfull \hbox (badness 10000) in paragraph at lines 2204--2206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2206--2210
+Underfull \hbox (badness 10000) in paragraph at lines 2207--2211
 
  []
 
 [65
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2395--2397
+Underfull \hbox (badness 10000) in paragraph at lines 2396--2398
 
  []
 
@@ -2322,12 +2322,12 @@ Package epstopdf Info: Source file: <Pictures/Printed_parts/Fixed/DMA_samples.ep
 (epstopdf)                    date: 2022-11-21 22:40:06
 (epstopdf)                    size: 488070 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Printed_parts/Fixed/DMA_samples-eps-converted-to.pdf Pictures/Printed_parts/Fixed/DMA_samples.eps>
-(epstopdf)             \includegraphics on input line 2454.
+(epstopdf)             \includegraphics on input line 2455.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Printed_parts/Fixed/DMA_samples-eps-converted-to.pdf, id=1304, 527.9725pt x 341.275pt>
+<Pictures/Printed_parts/Fixed/DMA_samples-eps-converted-to.pdf, id=1325, 527.9725pt x 341.275pt>
 File: Pictures/Printed_parts/Fixed/DMA_samples-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Printed_parts/Fixed/DMA_samples-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Printed_parts/Fixed/DMA_samples-eps-converted-to.pdf  used on input line 2454.
+Package pdftex.def Info: Pictures/Printed_parts/Fixed/DMA_samples-eps-converted-to.pdf  used on input line 2455.
 (pdftex.def)             Requested size: 345.0pt x 223.00299pt.
 Package epstopdf Info: Source file: <Pictures/Printed_parts/Fixed/filled_hexagon.eps>
 (epstopdf)                    date: 2022-11-21 21:56:04
@@ -2336,12 +2336,12 @@ Package epstopdf Info: Source file: <Pictures/Printed_parts/Fixed/filled_hexagon
 (epstopdf)                    date: 2022-11-21 22:48:59
 (epstopdf)                    size: 883175 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Printed_parts/Fixed/filled_hexagon-eps-converted-to.pdf Pictures/Printed_parts/Fixed/filled_hexagon.eps>
-(epstopdf)             \includegraphics on input line 2461.
+(epstopdf)             \includegraphics on input line 2462.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Printed_parts/Fixed/filled_hexagon-eps-converted-to.pdf, id=1305, 485.815pt x 506.89375pt>
+<Pictures/Printed_parts/Fixed/filled_hexagon-eps-converted-to.pdf, id=1326, 485.815pt x 506.89375pt>
 File: Pictures/Printed_parts/Fixed/filled_hexagon-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Printed_parts/Fixed/filled_hexagon-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Printed_parts/Fixed/filled_hexagon-eps-converted-to.pdf  used on input line 2461.
+Package pdftex.def Info: Pictures/Printed_parts/Fixed/filled_hexagon-eps-converted-to.pdf  used on input line 2462.
 (pdftex.def)             Requested size: 345.0pt x 359.96669pt.
 Package epstopdf Info: Source file: <Pictures/Printed_parts/Fixed/boat.eps>
 (epstopdf)                    date: 2022-11-21 21:53:55
@@ -2350,12 +2350,12 @@ Package epstopdf Info: Source file: <Pictures/Printed_parts/Fixed/boat.eps>
 (epstopdf)                    date: 2022-11-21 22:49:02
 (epstopdf)                    size: 880508 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Printed_parts/Fixed/boat-eps-converted-to.pdf Pictures/Printed_parts/Fixed/boat.eps>
-(epstopdf)             \includegraphics on input line 2468.
+(epstopdf)             \includegraphics on input line 2469.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Printed_parts/Fixed/boat-eps-converted-to.pdf, id=1306, 796.9775pt x 483.8075pt>
+<Pictures/Printed_parts/Fixed/boat-eps-converted-to.pdf, id=1327, 796.9775pt x 483.8075pt>
 File: Pictures/Printed_parts/Fixed/boat-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Printed_parts/Fixed/boat-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Printed_parts/Fixed/boat-eps-converted-to.pdf  used on input line 2468.
+Package pdftex.def Info: Pictures/Printed_parts/Fixed/boat-eps-converted-to.pdf  used on input line 2469.
 (pdftex.def)             Requested size: 345.0pt x 209.42842pt.
 Package epstopdf Info: Source file: <Pictures/Printed_parts/Fixed/organic_pattern_hexagon.eps>
 (epstopdf)                    date: 2022-11-21 21:56:23
@@ -2364,12 +2364,12 @@ Package epstopdf Info: Source file: <Pictures/Printed_parts/Fixed/organic_patter
 (epstopdf)                    date: 2022-11-21 23:45:52
 (epstopdf)                    size: 491261 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Printed_parts/Fixed/organic_pattern_hexagon-eps-converted-to.pdf Pictures/Printed_parts/Fixed/organic_pattern_hexagon.eps>
-(epstopdf)             \includegraphics on input line 2475.
+(epstopdf)             \includegraphics on input line 2476.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Printed_parts/Fixed/organic_pattern_hexagon-eps-converted-to.pdf, id=1307, 485.815pt x 506.89375pt>
+<Pictures/Printed_parts/Fixed/organic_pattern_hexagon-eps-converted-to.pdf, id=1328, 485.815pt x 506.89375pt>
 File: Pictures/Printed_parts/Fixed/organic_pattern_hexagon-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Printed_parts/Fixed/organic_pattern_hexagon-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Printed_parts/Fixed/organic_pattern_hexagon-eps-converted-to.pdf  used on input line 2475.
+Package pdftex.def Info: Pictures/Printed_parts/Fixed/organic_pattern_hexagon-eps-converted-to.pdf  used on input line 2476.
 (pdftex.def)             Requested size: 345.0pt x 359.96669pt.
 Package epstopdf Info: Source file: <Pictures/Printed_parts/Fixed/octagon_holes.eps>
 (epstopdf)                    date: 2022-11-21 21:56:42
@@ -2378,123 +2378,123 @@ Package epstopdf Info: Source file: <Pictures/Printed_parts/Fixed/octagon_holes.
 (epstopdf)                    date: 2022-11-21 23:48:05
 (epstopdf)                    size: 360558 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Printed_parts/Fixed/octagon_holes-eps-converted-to.pdf Pictures/Printed_parts/Fixed/octagon_holes.eps>
-(epstopdf)             \includegraphics on input line 2482.
+(epstopdf)             \includegraphics on input line 2483.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Printed_parts/Fixed/octagon_holes-eps-converted-to.pdf, id=1308, 511.9125pt x 511.9125pt>
+<Pictures/Printed_parts/Fixed/octagon_holes-eps-converted-to.pdf, id=1329, 511.9125pt x 511.9125pt>
 File: Pictures/Printed_parts/Fixed/octagon_holes-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Printed_parts/Fixed/octagon_holes-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Printed_parts/Fixed/octagon_holes-eps-converted-to.pdf  used on input line 2482.
+Package pdftex.def Info: Pictures/Printed_parts/Fixed/octagon_holes-eps-converted-to.pdf  used on input line 2483.
 (pdftex.def)             Requested size: 345.0pt x 345.00269pt.
 [66
 
 
  <./Pictures/Printed_parts/Fixed/DMA_samples-eps-converted-to.pdf>] [67 <./Pictures/Printed_parts/Fixed/filled_hexagon-eps-converted-to.pdf>] [68 <./Pictures/Printed_parts/Fixed/boat-eps-converted-to.pdf>] [69 <./Pictures/Printed_parts/Fixed/organic_pattern_hexagon-eps-converted-to.pdf>] [70 <./Pictures/Printed_parts/Fixed/octagon_holes-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 2493--2495
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2496--2498
+Underfull \hbox (badness 10000) in paragraph at lines 2497--2499
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2499--2501
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2502--2508
+Underfull \hbox (badness 10000) in paragraph at lines 2503--2509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2509--2513
+Underfull \hbox (badness 10000) in paragraph at lines 2510--2514
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2514--2517
+Underfull \hbox (badness 10000) in paragraph at lines 2515--2518
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2518--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2519--2523
 
  []
 
 [71
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2527--2531
+Underfull \hbox (badness 10000) in paragraph at lines 2528--2532
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2532--2534
+Underfull \hbox (badness 10000) in paragraph at lines 2533--2535
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2535--2540
+Underfull \hbox (badness 10000) in paragraph at lines 2536--2541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2541--2543
+Underfull \hbox (badness 10000) in paragraph at lines 2542--2544
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2544--2548
+Underfull \hbox (badness 10000) in paragraph at lines 2545--2549
 
  []
 
 [72
 
 ]
-Overfull \hbox (9.15182pt too wide) in paragraph at lines 2554--2554
+Overfull \hbox (9.15182pt too wide) in paragraph at lines 2555--2555
 \OT1/cmr/m/n/10 pal. ``Ad-di-tive Man-u-fac-tur-ing of Al-loy 718 via EBM: Ef-fect of post-treatment
  []
 
 
-Overfull \hbox (2.95549pt too wide) in paragraph at lines 2554--2554
+Overfull \hbox (2.95549pt too wide) in paragraph at lines 2555--2555
 \OT1/cmr/m/n/10 on the mi-crostruc-ture and the me-chan-i-cal prop-er-ties''. In: \OT1/cmr/m/it/10 Ma-te-ri-als \OT1/cmr/m/n/10 (2019). 
  []
 
 
-Overfull \hbox (4.79904pt too wide) in paragraph at lines 2554--2554
+Overfull \hbox (4.79904pt too wide) in paragraph at lines 2555--2555
 []\OT1/cmr/m/n/10 Alberto Giu-bilini et al. ``Ad-van-tages of Ad-di-tive Man-u-fac-tur-ing for Biomed-
  []
 
 
-Overfull \hbox (2.25262pt too wide) in paragraph at lines 2554--2554
+Overfull \hbox (2.25262pt too wide) in paragraph at lines 2555--2555
 \OT1/cmr/m/n/10 i-cal Ap-pli-ca-tions of Poly-hy-drox-yalka-noates''. In: \OT1/cmr/m/it/10 Bio-engi-neer-ing \OT1/cmr/m/n/10 8.2 (2021).
- []
-
-
-Overfull \hbox (27.42413pt too wide) in paragraph at lines 2554--2554
-[]\OT1/cmr/m/n/10 Kerim Eraslan et al. ``Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH):
  []
 
 [73
 
 ]
-Overfull \hbox (19.47235pt too wide) in paragraph at lines 2554--2554
+Overfull \hbox (49.51193pt too wide) in paragraph at lines 2555--2555
+[]\OT1/cmr/m/n/10 D. Mon-ti-cone R. Pa-tel et al. ``Hy-drolytic degra-da-tion of porous poly(hydroxybutyrate-
+ []
+
+
+Overfull \hbox (27.42413pt too wide) in paragraph at lines 2555--2555
+[]\OT1/cmr/m/n/10 Kerim Eraslan et al. ``Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH):
+ []
+
+
+Overfull \hbox (19.47235pt too wide) in paragraph at lines 2555--2555
 \OT1/cmr/m/n/10 D7481 18. 2018. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : [][]$\OT1/cmtt/m/n/10 https : / / compass . astm . org / document / ?contentCode =
  []
 
 
-Overfull \hbox (45.88976pt too wide) in paragraph at lines 2554--2554
+Overfull \hbox (45.88976pt too wide) in paragraph at lines 2555--2555
 \OT1/cmr/m/n/10 com-pos-ites from bac-te-rial polyester poly(3-hydroxybutyrate-co-3-hydroxyhexanoate)
  []
 
-
-Overfull \hbox (5.46727pt too wide) in paragraph at lines 2554--2554
-\OT1/cmr/m/n/10 Poly-mers and As-so-ci-ated Com-pos-ites''. In: \OT1/cmr/m/it/10 Poly-mers \OT1/cmr/m/n/10 12 (2020). \OT1/cmr/m/sc/10 doi\OT1/cmr/m/n/10 : [][]$\OT1/cmtt/m/n/10 https :
- []
-
-[74] (./Final.aux)
+[74] [75] (./Final.aux)
 Package rerunfilecheck Info: File `Final.out' has not changed.
 (rerunfilecheck)             Checksum: F76760C091359BB95394C9C6F46E8572;9435.
 Package logreq Info: Writing requests to 'Final.run.xml'.
@@ -2502,18 +2502,18 @@ Package logreq Info: Writing requests to 'Final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28334 strings out of 480852
- 538724 string characters out of 5906872
- 1361238 words of memory out of 6000000
- 45011 multiletter control sequences out of 15000+600000
+ 28389 strings out of 480852
+ 541326 string characters out of 5906872
+ 1362206 words of memory out of 6000000
+ 45053 multiletter control sequences out of 15000+600000
  418990 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  91i,11n,91p,1929b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Final.pdf (74 pages, 62023015 bytes).
+Output written on Final.pdf (75 pages, 62027298 bytes).
 PDF statistics:
- 1529 PDF objects out of 1728 (max. 8388607)
- 1223 compressed objects within 13 object streams
- 199 named destinations out of 1000 (max. 500000)
+ 1563 PDF objects out of 1728 (max. 8388607)
+ 1256 compressed objects within 13 object streams
+ 212 named destinations out of 1000 (max. 500000)
  578 words of extra memory for PDF output out of 10000 (max. 10000000)
 
