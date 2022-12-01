@@ -2359,6 +2359,7 @@
     <bcf:citekey order="7">doi:10.1063/1.4918516</bcf:citekey>
     <bcf:citekey order="7">SLS_3dprinting_biomedical_polymers</bcf:citekey>
     <bcf:citekey order="7">Kovalcik_PHA_Review</bcf:citekey>
+    <bcf:citekey order="7">Mouritz</bcf:citekey>
     <bcf:citekey order="8">Recent_progress_polymers_AM</bcf:citekey>
     <bcf:citekey order="9">Recent_progress_polymers_AM</bcf:citekey>
     <bcf:citekey order="10">Kovalcik_PHA_Review</bcf:citekey>
@@ -2470,38 +2471,59 @@
     <bcf:citekey order="95">Advances_3D_printing_polymer_composites</bcf:citekey>
     <bcf:citekey order="95">Novel_PHBH_biocomposite_nanocrystals</bcf:citekey>
     <bcf:citekey order="96">Powder_characteristics_PBF_effects</bcf:citekey>
-    <bcf:citekey order="97">ASTM_E3166-20</bcf:citekey>
-    <bcf:citekey order="98">DechetMaximilianA2020OtDo</bcf:citekey>
-    <bcf:citekey order="99">PBF_MachineLearning_FEM</bcf:citekey>
-    <bcf:citekey order="100">Recent_progress_polymers_AM</bcf:citekey>
-    <bcf:citekey order="101">AM_design_review</bcf:citekey>
-    <bcf:citekey order="102">Latvian_additive</bcf:citekey>
-    <bcf:citekey order="103">Materials_add_man_718</bcf:citekey>
-    <bcf:citekey order="104">Messori_Bondioli_PHAs</bcf:citekey>
-    <bcf:citekey order="105">doi:10.1063/1.4918516</bcf:citekey>
-    <bcf:citekey order="106">SLS_3dprinting_biomedical_polymers</bcf:citekey>
-    <bcf:citekey order="107">Kovalcik_PHA_Review</bcf:citekey>
-    <bcf:citekey order="108">Padovano_SLS_Review</bcf:citekey>
-    <bcf:citekey order="109">KBV_Research_AM_market</bcf:citekey>
-    <bcf:citekey order="110">Markets_machines_materials</bcf:citekey>
-    <bcf:citekey order="111">PHBV_SLS_scaffolds</bcf:citekey>
-    <bcf:citekey order="112">Eraslan_PHBH_review</bcf:citekey>
-    <bcf:citekey order="113">Dechet_Schmidt_thermal_rounding</bcf:citekey>
-    <bcf:citekey order="114">Junghare_cryogenic_grinding_review</bcf:citekey>
-    <bcf:citekey order="115">Dechet_Schmidt_PA11_precipitation_LLPS</bcf:citekey>
-    <bcf:citekey order="116">Solutions_plastic_pollution</bcf:citekey>
-    <bcf:citekey order="117">ASTM_D7481-18</bcf:citekey>
-    <bcf:citekey order="118">Glass_transition_DMA</bcf:citekey>
-    <bcf:citekey order="119">JD_Ferry_viscoelasticpolymers</bcf:citekey>
-    <bcf:citekey order="120">PHBH_Crystallinity</bcf:citekey>
-    <bcf:citekey order="121">ZHANG_fatigue_biopolymers</bcf:citekey>
-    <bcf:citekey order="122">Biobased_foodpackaging</bcf:citekey>
-    <bcf:citekey order="123">PHA_scaffolds_FDM</bcf:citekey>
-    <bcf:citekey order="124">GVSalmoria_PA12_mechanical_properties</bcf:citekey>
-    <bcf:citekey order="125">Polymers_composite_overview</bcf:citekey>
-    <bcf:citekey order="126">Advances_3D_printing_polymer_composites</bcf:citekey>
-    <bcf:citekey order="127">Novel_PHBH_biocomposite_nanocrystals</bcf:citekey>
-    <bcf:citekey order="128">Powder_characteristics_PBF_effects</bcf:citekey>
+    <bcf:citekey order="97" nocite="1">Blender</bcf:citekey>
+    <bcf:citekey order="98" nocite="1">PrusaSlicer</bcf:citekey>
+    <bcf:citekey order="99" nocite="1">GIMP</bcf:citekey>
+    <bcf:citekey order="100" nocite="1">Inkscape</bcf:citekey>
+    <bcf:citekey order="101" nocite="1">Pixelmator_Pro</bcf:citekey>
+    <bcf:citekey order="102" nocite="1">Labplot</bcf:citekey>
+    <bcf:citekey order="103" nocite="1">Octave</bcf:citekey>
+    <bcf:citekey order="104" nocite="1">DALLE2</bcf:citekey>
+    <bcf:citekey order="105" nocite="1">git</bcf:citekey>
+    <bcf:citekey order="106" nocite="1">latex</bcf:citekey>
+    <bcf:citekey order="107">ASTM_E3166-20</bcf:citekey>
+    <bcf:citekey order="108">DechetMaximilianA2020OtDo</bcf:citekey>
+    <bcf:citekey order="109">PBF_MachineLearning_FEM</bcf:citekey>
+    <bcf:citekey order="110">Recent_progress_polymers_AM</bcf:citekey>
+    <bcf:citekey order="111">AM_design_review</bcf:citekey>
+    <bcf:citekey order="112">Latvian_additive</bcf:citekey>
+    <bcf:citekey order="113">Materials_add_man_718</bcf:citekey>
+    <bcf:citekey order="114">Messori_Bondioli_PHAs</bcf:citekey>
+    <bcf:citekey order="115">doi:10.1063/1.4918516</bcf:citekey>
+    <bcf:citekey order="116">SLS_3dprinting_biomedical_polymers</bcf:citekey>
+    <bcf:citekey order="117">Kovalcik_PHA_Review</bcf:citekey>
+    <bcf:citekey order="118">Mouritz</bcf:citekey>
+    <bcf:citekey order="119">Padovano_SLS_Review</bcf:citekey>
+    <bcf:citekey order="120">KBV_Research_AM_market</bcf:citekey>
+    <bcf:citekey order="121">Markets_machines_materials</bcf:citekey>
+    <bcf:citekey order="122">PHBV_SLS_scaffolds</bcf:citekey>
+    <bcf:citekey order="123">Eraslan_PHBH_review</bcf:citekey>
+    <bcf:citekey order="124">Dechet_Schmidt_thermal_rounding</bcf:citekey>
+    <bcf:citekey order="125">Junghare_cryogenic_grinding_review</bcf:citekey>
+    <bcf:citekey order="126">Dechet_Schmidt_PA11_precipitation_LLPS</bcf:citekey>
+    <bcf:citekey order="127">Solutions_plastic_pollution</bcf:citekey>
+    <bcf:citekey order="128">ASTM_D7481-18</bcf:citekey>
+    <bcf:citekey order="129">Glass_transition_DMA</bcf:citekey>
+    <bcf:citekey order="130">JD_Ferry_viscoelasticpolymers</bcf:citekey>
+    <bcf:citekey order="131">PHBH_Crystallinity</bcf:citekey>
+    <bcf:citekey order="132">ZHANG_fatigue_biopolymers</bcf:citekey>
+    <bcf:citekey order="133">Biobased_foodpackaging</bcf:citekey>
+    <bcf:citekey order="134">PHA_scaffolds_FDM</bcf:citekey>
+    <bcf:citekey order="135">GVSalmoria_PA12_mechanical_properties</bcf:citekey>
+    <bcf:citekey order="136">Polymers_composite_overview</bcf:citekey>
+    <bcf:citekey order="137">Advances_3D_printing_polymer_composites</bcf:citekey>
+    <bcf:citekey order="138">Novel_PHBH_biocomposite_nanocrystals</bcf:citekey>
+    <bcf:citekey order="139">Powder_characteristics_PBF_effects</bcf:citekey>
+    <bcf:citekey order="140">Blender</bcf:citekey>
+    <bcf:citekey order="141">PrusaSlicer</bcf:citekey>
+    <bcf:citekey order="142">GIMP</bcf:citekey>
+    <bcf:citekey order="143">Inkscape</bcf:citekey>
+    <bcf:citekey order="144">Pixelmator_Pro</bcf:citekey>
+    <bcf:citekey order="145">Labplot</bcf:citekey>
+    <bcf:citekey order="146">Octave</bcf:citekey>
+    <bcf:citekey order="147">DALLE2</bcf:citekey>
+    <bcf:citekey order="148">git</bcf:citekey>
+    <bcf:citekey order="149">latex</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -183,7 +183,7 @@
     \subsection{Polymers in Additive Manufacturing\label{Polymers_in_AM}}
 
     Polymers and their composite materials have been used in all sorts of fields, ranging from arts and crafts all the way to advanced biomedical and aerospace applications, thanks 
-    to their unique and varied extended range of properties \autocites{Recent_progress_polymers_AM,Latvian_additive,Materials_add_man_718,Messori_Bondioli_PHAs,doi:10.1063/1.4918516,SLS_3dprinting_biomedical_polymers,Kovalcik_PHA_Review}. \\  
+    to their unique and varied extended range of properties \autocites{Recent_progress_polymers_AM,Latvian_additive,Materials_add_man_718,Messori_Bondioli_PHAs,doi:10.1063/1.4918516,SLS_3dprinting_biomedical_polymers,Kovalcik_PHA_Review,Mouritz}. \\  
     
     The rapid advancement of AM, where polymers have been extensively used for prototyping, in the form of resins, filaments, powders and viscous inks, 
     has increased the demand for high-performance polymers, in order to take advantage of their quicker printing times (compared to metals) as well as their lower cost, while still
@@ -2547,9 +2547,15 @@
     could improve the mechanical properties of the material, as well as investigating the possibility of enhancing the printed parts 
     with post-processing techniques. \\ 
 
+    \nocite{Blender,PrusaSlicer,GIMP,Inkscape,Pixelmator_Pro,Labplot,Octave,DALLE2,git,latex}
+
 
     \clearpage
 
-
-    \printbibliography
+    \printbibheading[heading=bibliography, title=Bibliography]
+    \printbibliography[type=article,heading=subbibliography,title={Articles}]
+    \printbibliography[type=book,heading=subbibliography,title={Books}]
+    %\printbibliography[type=techreport,heading=subbibliography,title={Tech reports}]
+    \printbibheading[heading=bibliography, title=Other references]
+    \printbibliography[type=software,heading=subbibliography,title={Software used}]
 \end{document}

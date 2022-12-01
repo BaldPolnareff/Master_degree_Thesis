@@ -376,6 +376,30 @@
       \field{volume}{5}
       \field{year}{2021}
     \endentry
+    \entry{Mouritz}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f822690a6e7812dc348090666cf14b7f}{%
+           family={Mouritz},
+           familyi={M\bibinitperiod},
+           given={Adrian\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Woodhead Publishing in Materials}%
+      }
+      \strng{namehash}{f822690a6e7812dc348090666cf14b7f}
+      \strng{fullhash}{f822690a6e7812dc348090666cf14b7f}
+      \strng{bibnamehash}{f822690a6e7812dc348090666cf14b7f}
+      \strng{authorbibnamehash}{f822690a6e7812dc348090666cf14b7f}
+      \strng{authornamehash}{f822690a6e7812dc348090666cf14b7f}
+      \strng{authorfullhash}{f822690a6e7812dc348090666cf14b7f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Aerospace Materials}
+      \field{year}{2012}
+    \endentry
     \entry{Padovano_SLS_Review}{article}{}
       \name{author}{1}{}{%
         {{hash=082dd4eecb157591e416f836aefc4a82}{%
@@ -412,6 +436,7 @@
       \strng{authorbibnamehash}{cc15ac248dbda908dd35db6cec0ce505}
       \strng{authornamehash}{cc15ac248dbda908dd35db6cec0ce505}
       \strng{authorfullhash}{cc15ac248dbda908dd35db6cec0ce505}
+      \field{extraname}{1}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -684,7 +709,7 @@
       \verb 10.1007/s11356-021-18038-5
       \endverb
     \endentry
-    \entry{ASTM_D7481-18}{report}{}
+    \entry{ASTM_D7481-18}{article}{}
       \name{author}{1}{}{%
         {{hash=bc09365a5b595844b2fb72fc97cb7ae7}{%
            family={ASTM},
@@ -1173,6 +1198,283 @@
       \field{year}{2017}
       \verb{doi}
       \verb 10.1080/17452759.2016.1250605
+      \endverb
+    \endentry
+    \entry{Blender}{software}{}
+      \name{author}{1}{}{%
+        {{hash=44275c392a37e9fa9de37082ab548a59}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Blender},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{fullhash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{bibnamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authorbibnamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authornamehash}{44275c392a37e9fa9de37082ab548a59}
+      \strng{authorfullhash}{44275c392a37e9fa9de37082ab548a59}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Blender}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.blender.org
+      \endverb
+      \verb{url}
+      \verb https://www.blender.org
+      \endverb
+    \endentry
+    \entry{PrusaSlicer}{software}{}
+      \name{author}{1}{}{%
+        {{hash=120b6d22998b726590376085d087a297}{%
+           family={Research},
+           familyi={R\bibinitperiod},
+           given={Prusa},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{120b6d22998b726590376085d087a297}
+      \strng{fullhash}{120b6d22998b726590376085d087a297}
+      \strng{bibnamehash}{120b6d22998b726590376085d087a297}
+      \strng{authorbibnamehash}{120b6d22998b726590376085d087a297}
+      \strng{authornamehash}{120b6d22998b726590376085d087a297}
+      \strng{authorfullhash}{120b6d22998b726590376085d087a297}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PrusaSlicer}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.prusa3d.com
+      \endverb
+      \verb{url}
+      \verb https://www.prusa3d.com
+      \endverb
+    \endentry
+    \entry{GIMP}{software}{}
+      \name{author}{2}{}{%
+        {{hash=684ecd1d1aa57cdc1536ecb2ac81b303}{%
+           family={Pagès},
+           familyi={P\bibinitperiod},
+           given={Øyvind\bibnamedelimb Kolås;\bibnamedelima Jehan},
+           giveni={Ø\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8b880490ac1f48e94c717ffc3f30d4da}{%
+           family={others},
+           familyi={o\bibinitperiod},
+           prefix={many},
+           prefixi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{fullhash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{bibnamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authorbibnamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authornamehash}{9f4993078c173c4e0a27397eb664a84c}
+      \strng{authorfullhash}{9f4993078c173c4e0a27397eb664a84c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GNU Image Manipulation Program}
+      \verb{urlraw}
+      \verb https://www.gimp.org/
+      \endverb
+      \verb{url}
+      \verb https://www.gimp.org/
+      \endverb
+    \endentry
+    \entry{Inkscape}{software}{}
+      \name{author}{1}{}{%
+        {{hash=b6376cab05e82f18f4779e535e95f621}{%
+           family={Project},
+           familyi={P\bibinitperiod},
+           given={The\bibnamedelima Inkscape},
+           giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{fullhash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{bibnamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authorbibnamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authornamehash}{b6376cab05e82f18f4779e535e95f621}
+      \strng{authorfullhash}{b6376cab05e82f18f4779e535e95f621}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inkscape}
+      \verb{urlraw}
+      \verb https://inkscape.org/
+      \endverb
+      \verb{url}
+      \verb https://inkscape.org/
+      \endverb
+    \endentry
+    \entry{Pixelmator_Pro}{software}{}
+      \name{author}{1}{}{%
+        {{hash=1fffbae67d95c0bb17c4daa12d32b376}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={Pixelmator},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{fullhash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{bibnamehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{authorbibnamehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{authornamehash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \strng{authorfullhash}{1fffbae67d95c0bb17c4daa12d32b376}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pixelmator Pro}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.pixelmator.com/pro/
+      \endverb
+      \verb{url}
+      \verb https://www.pixelmator.com/pro/
+      \endverb
+    \endentry
+    \entry{Labplot}{software}{}
+      \name{author}{1}{}{%
+        {{hash=c627cea4b070d10b855f85184f36b0c0}{%
+           family={KDE},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{fullhash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{bibnamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authorbibnamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authornamehash}{c627cea4b070d10b855f85184f36b0c0}
+      \strng{authorfullhash}{c627cea4b070d10b855f85184f36b0c0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Labplot}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://labplot.kde.org
+      \endverb
+      \verb{url}
+      \verb https://labplot.kde.org
+      \endverb
+    \endentry
+    \entry{Octave}{software}{}
+      \name{author}{2}{}{%
+        {{hash=a789af59278b89f0b2c01d3480e87176}{%
+           family={Eaton},
+           familyi={E\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=8b880490ac1f48e94c717ffc3f30d4da}{%
+           family={others},
+           familyi={o\bibinitperiod},
+           prefix={many},
+           prefixi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{fullhash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{bibnamehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{authorbibnamehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{authornamehash}{7359b980dbea6a33ece72a88d0f716d2}
+      \strng{authorfullhash}{7359b980dbea6a33ece72a88d0f716d2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GNU Octave}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.gnu.org/software/octave/index
+      \endverb
+      \verb{url}
+      \verb https://www.gnu.org/software/octave/index
+      \endverb
+    \endentry
+    \entry{DALLE2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ef44b8a7fa9f85a025cf3121ee213386}{%
+           family={AI},
+           familyi={A\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{fullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{bibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorbibnamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authornamehash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \strng{authorfullhash}{ef44b8a7fa9f85a025cf3121ee213386}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DALL-E 2}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://labs.openai.com
+      \endverb
+      \verb{url}
+      \verb https://labs.openai.com
+      \endverb
+    \endentry
+    \entry{git}{software}{}
+      \name{author}{1}{}{%
+        {{hash=d17810e1c711d76f64612b80b3ba67e9}{%
+           family={Torvalds},
+           familyi={T\bibinitperiod},
+           given={Linus},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d17810e1c711d76f64612b80b3ba67e9}
+      \strng{fullhash}{d17810e1c711d76f64612b80b3ba67e9}
+      \strng{bibnamehash}{d17810e1c711d76f64612b80b3ba67e9}
+      \strng{authorbibnamehash}{d17810e1c711d76f64612b80b3ba67e9}
+      \strng{authornamehash}{d17810e1c711d76f64612b80b3ba67e9}
+      \strng{authorfullhash}{d17810e1c711d76f64612b80b3ba67e9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{git}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://git-scm.com/
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com/
+      \endverb
+    \endentry
+    \entry{latex}{software}{}
+      \name{author}{1}{}{%
+        {{hash=5d77435450d10a850a5b58577b9a456b}{%
+           family={Lamport},
+           familyi={L\bibinitperiod},
+           given={Leslie},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{fullhash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{bibnamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authorbibnamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authornamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authorfullhash}{5d77435450d10a850a5b58577b9a456b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LaTeX}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.latex-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.latex-project.org/
       \endverb
     \endentry
   \enddatalist
