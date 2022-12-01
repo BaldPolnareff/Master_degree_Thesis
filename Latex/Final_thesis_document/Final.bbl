@@ -256,12 +256,6 @@
       \verb{doi}
       \verb 10.3390/bioengineering8020029
       \endverb
-      \verb{urlraw}
-      \verb https://www.mdpi.com/2306-5354/8/2/29
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/2306-5354/8/2/29
-      \endverb
     \endentry
     \entry{doi:10.1063/1.4918516}{article}{}
       \name{author}{3}{}{%
@@ -339,19 +333,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Gaofenzi Cailiao Kexue Yu Gongcheng/Polymeric Materials Science and Engineering}
-      \field{note}{Cited By :6}
       \field{number}{3}
       \field{title}{Selective laser sintering 3D printing of biomedical polymer materials}
       \field{volume}{32}
       \field{year}{2016}
       \field{pages}{178\bibrangedash 183}
       \range{pages}{6}
-      \verb{urlraw}
-      \verb www.scopus.com
-      \endverb
-      \verb{url}
-      \verb www.scopus.com
-      \endverb
     \endentry
     \entry{Kovalcik_PHA_Review}{article}{}
       \name{author}{1}{}{%
@@ -733,12 +720,6 @@
       \field{title}{Standard Test Methods for Determining Loose and Tapped Bulk Densities of Powders using a Graduated Cylinder}
       \field{type}{Standard}
       \field{year}{2018}
-      \verb{urlraw}
-      \verb https://compass.astm.org/document/?contentCode=ASTM%7CD7481-18%7Cen-US
-      \endverb
-      \verb{url}
-      \verb https://compass.astm.org/document/?contentCode=ASTM%7CD7481-18%7Cen-US
-      \endverb
     \endentry
     \entry{Glass_transition_DMA}{article}{}
       \name{author}{6}{}{%
@@ -866,7 +847,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polymers}
-      \field{note}{Cited By :12}
       \field{number}{5}
       \field{title}{Development and characterization of sustainable composites from bacterial polyester poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) and almond shell flour by reactive extrusion with oligomers of lactic acid}
       \field{volume}{12}
