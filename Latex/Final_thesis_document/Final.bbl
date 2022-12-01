@@ -19,6 +19,26 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{ASTM_E3166-20}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bc09365a5b595844b2fb72fc97cb7ae7}{%
+           family={ASTM},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{fullhash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{bibnamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{authorbibnamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{authornamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \strng{authorfullhash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Standard Guide for Nondestructive Examination of Metal Additively Manufactured Aerospace Parts After Build}
+      \field{year}{2020}
+    \endentry
     \entry{DechetMaximilianA2020OtDo}{article}{}
       \name{author}{2}{}{%
         {{hash=8b18ddd92993dbc85eda5e4a7525c146}{%
@@ -44,8 +64,8 @@
       \strng{authorbibnamehash}{72f3babcc0f6b63717533647620478a7}
       \strng{authornamehash}{72f3babcc0f6b63717533647620478a7}
       \strng{authorfullhash}{72f3babcc0f6b63717533647620478a7}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this contribution, some aspects of the development of powder bed fusion (PBF) feedstock powders via the solution-dissolution process, also known as precipitation, are exemplary addressed based on the authors' own work. The development is based on the selection of an appropriate polymer-solvent system, followed by the investigation of the cloud point diagram. After identification of a polymer-solvent system for precipitation, process-product relations, i.e. the influence of stirring, concentration and thermal regime on particle size distribution and shape, can be assessed. Via thorough product characterization concerning, amongst others, flowability and thermal properties, not only applicable PBF process parameters, but also necessary in-situ additive-enhancement with thermal stabilizers or post-processing with flow aids can be derived.}
@@ -72,8 +92,8 @@
       \strng{authorbibnamehash}{8fbe073c0bb159b81763c877d46300c8}
       \strng{authornamehash}{8fbe073c0bb159b81763c877d46300c8}
       \strng{authorfullhash}{8fbe073c0bb159b81763c877d46300c8}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Advanced Functional Materials}
@@ -94,12 +114,12 @@
       \strng{authorbibnamehash}{6075482280405c6b60fdf2fe536cc7c9}
       \strng{authornamehash}{6075482280405c6b60fdf2fe536cc7c9}
       \strng{authorfullhash}{6075482280405c6b60fdf2fe536cc7c9}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{LATVIAN JOURNAL OF PHYSICS AND TECHNICAL SCIENCES}
-      \field{title}{ADDITIVE MANUFACTURING AND CASTING TECHNOLOGY COMPARISON: MECHANICAL PROPERTIES, PRODUCTIVITY AND COST BENCHMARK}
+      \field{journaltitle}{Latvian Journal of Physics and Technical Sciences}
+      \field{title}{Additive Manufacturing and Casting Technology comparison: mechanical properties, productivity and cost benchmark}
       \field{year}{2018}
     \endentry
     \entry{Materials_add_man_718}{article}{}
@@ -116,8 +136,8 @@
       \strng{authorbibnamehash}{d1a515d422610b0f9700da28e52b4ea8}
       \strng{authornamehash}{d1a515d422610b0f9700da28e52b4ea8}
       \strng{authorfullhash}{d1a515d422610b0f9700da28e52b4ea8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Materials}
@@ -158,8 +178,8 @@
       \strng{authorbibnamehash}{ce1f55ef6d07760fc4ade645661e4000}
       \strng{authornamehash}{ce1f55ef6d07760fc4ade645661e4000}
       \strng{authorfullhash}{f00d36acffa8362e004ff394790319ad}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In recent years, biopolymers have been attracting the attention of researchers and specialists from different fields, including biotechnology, material science, engineering, and medicine. The reason is the possibility of combining sustainability with scientific and technological progress. This is an extremely broad research topic, and a distinction has to be made among different classes and types of biopolymers. Polyhydroxyalkanoate (PHA) is a particular family of polyesters, synthetized by microorganisms under unbalanced growth conditions, making them both bio-based and biodegradable polymers with a thermoplastic behavior. Recently, PHAs were used more intensively in biomedical applications because of their tunable mechanical properties, cytocompatibility, adhesion for cells, and controllable biodegradability. Similarly, the 3D-printing technologies show increasing potential in this particular field of application, due to their advantages in tailor-made design, rapid prototyping, and manufacturing of complex structures. In this review, first, the synthesis and the production of PHAs are described, and different production techniques of medical implants are compared. Then, an overview is given on the most recent and relevant medical applications of PHA for drug delivery, vessel stenting, and tissue engineering. A special focus is reserved for the innovations brought by the introduction of additive manufacturing in this field, as compared to the traditional techniques. All of these advances are expected to have important scientific and commercial applications in the near future.}
@@ -203,8 +223,8 @@
       \strng{authorbibnamehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
       \strng{authornamehash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
       \strng{authorfullhash}{8db5ddcd3b32a3029e7df9fc53b3f9c2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{AIP Conference Proceedings}
@@ -259,8 +279,8 @@
       \strng{authorbibnamehash}{f6a0804d7ce72d2a3b5497ff48d535b4}
       \strng{authornamehash}{f6a0804d7ce72d2a3b5497ff48d535b4}
       \strng{authorfullhash}{17f696780bee057cbfbf5c4949632055}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Gaofenzi Cailiao Kexue Yu Gongcheng/Polymeric Materials Science and Engineering}
@@ -292,8 +312,8 @@
       \strng{authorbibnamehash}{a89a0622925a29f7ae7b3741335b9c88}
       \strng{authornamehash}{a89a0622925a29f7ae7b3741335b9c88}
       \strng{authorfullhash}{a89a0622925a29f7ae7b3741335b9c88}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The EuroBiotech Journal}
@@ -451,6 +471,7 @@
       \strng{authorbibnamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
       \strng{authornamehash}{bc09365a5b595844b2fb72fc97cb7ae7}
       \strng{authorfullhash}{bc09365a5b595844b2fb72fc97cb7ae7}
+      \field{extraname}{2}
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
@@ -464,6 +485,57 @@
       \endverb
       \verb{url}
       \verb https://compass.astm.org/document/?contentCode=ASTM%7CD7481-18%7Cen-US
+      \endverb
+    \endentry
+    \entry{Glass_transition_DMA}{article}{}
+      \name{author}{6}{}{%
+        {{hash=83f0ca49ec232a6caa094da8d75a4532}{%
+           family={Gracia-Fernández},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={C.A.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3a232cbb0a8505ba374ff7b1849f6009}{%
+           family={Gómez-Barreiro},
+           familyi={G\bibinithyphendelim B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6db166d6e789430e5fb549d509a7d817}{%
+           family={López-Beceiro},
+           familyi={L\bibinithyphendelim B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c34010f64c956733df605604ac949e9a}{%
+           family={Saavedra},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi Tarrío},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=dba62a8f08fae4394d26ba48c007d5e5}{%
+           family={Naya},
+           familyi={N\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=35243a53cc3a75a3eba2d8e408025b9d}{%
+           family={Artiaga},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ab54e89cbfbc0bcd2c1cfa8dccfe8f5}
+      \strng{fullhash}{b9cd761f792f6593f31b17f921352e18}
+      \strng{bibnamehash}{8ab54e89cbfbc0bcd2c1cfa8dccfe8f5}
+      \strng{authorbibnamehash}{8ab54e89cbfbc0bcd2c1cfa8dccfe8f5}
+      \strng{authornamehash}{8ab54e89cbfbc0bcd2c1cfa8dccfe8f5}
+      \strng{authorfullhash}{b9cd761f792f6593f31b17f921352e18}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polym Test}
+      \field{title}{Comparative study of the dynamic glass transition temperature by DMA and TMDSC}
+      \field{volume}{29}
+      \field{year}{2010}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.polymertesting.2010.09.005
       \endverb
     \endentry
     \entry{JD_Ferry_viscoelasticpolymers}{book}{}
@@ -551,6 +623,136 @@
       \endverb
       \verb{url}
       \verb www.scopus.com
+      \endverb
+    \endentry
+    \entry{GVSalmoria_PA12_mechanical_properties}{article}{}
+      \name{author}{5}{}{%
+        {{hash=63aae76baf958463aec6d986b2cab924}{%
+           family={Salmoria},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           prefix={v},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=94a5ab3329d30fae013864f3c1cc86b8}{%
+           family={Leite},
+           familyi={L\bibinitperiod},
+           given={J.L.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a821817e621e8d4d003d08e8a1a3ea93}{%
+           family={Vieira},
+           familyi={V\bibinitperiod},
+           given={L.F.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a1148992e2bc99c4273696b32249251e}{%
+           family={Pires},
+           familyi={P\bibinitperiod},
+           given={A.T.N.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=67b3eb21e506e725d3f24a3a8cb63e48}{%
+           family={Roesler},
+           familyi={R\bibinitperiod},
+           given={C.R.M.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e30f44f82ecb33d4f1267dadc42e848}
+      \strng{fullhash}{c842d2f8a58bcc05b5350cbaf1965c67}
+      \strng{bibnamehash}{6e30f44f82ecb33d4f1267dadc42e848}
+      \strng{authorbibnamehash}{6e30f44f82ecb33d4f1267dadc42e848}
+      \strng{authornamehash}{6e30f44f82ecb33d4f1267dadc42e848}
+      \strng{authorfullhash}{c842d2f8a58bcc05b5350cbaf1965c67}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polym Test}
+      \field{title}{Mechanical properties of PA6/PA12 blend specimens prepared by selective laser sintering}
+      \field{volume}{31}
+      \field{year}{2012}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.polymertesting.2011.12.006
+      \endverb
+    \endentry
+    \entry{Polymers_composite_overview}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1b1173d089aafc5967d0d9bffaa6594b}{%
+           family={Nath},
+           familyi={N\bibinitperiod},
+           given={S.D.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3605a4f4f642558af1bfcff5bcedd09b}{%
+           family={Nilufar},
+           familyi={N\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8362bb8b1fc373975cba05e72438d3ab}
+      \strng{fullhash}{8362bb8b1fc373975cba05e72438d3ab}
+      \strng{bibnamehash}{8362bb8b1fc373975cba05e72438d3ab}
+      \strng{authorbibnamehash}{8362bb8b1fc373975cba05e72438d3ab}
+      \strng{authornamehash}{8362bb8b1fc373975cba05e72438d3ab}
+      \strng{authorfullhash}{8362bb8b1fc373975cba05e72438d3ab}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polymers}
+      \field{title}{An Overview of Additive Manufacturing of Polymers and Associated Composites}
+      \field{volume}{12}
+      \field{year}{2020}
+      \verb{doi}
+      \verb https://doi.org/10.3390/polym12112719
+      \endverb
+    \endentry
+    \entry{Advances_3D_printing_polymer_composites}{article}{}
+      \name{author}{6}{}{%
+        {{hash=bd6d9ef9dd6bf7f4c2fbd52d7049dad1}{%
+           family={Valino},
+           familyi={V\bibinitperiod},
+           given={A.D.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bfa86dbebe884ea996f811be957c3b50}{%
+           family={Dizon},
+           familyi={D\bibinitperiod},
+           given={J.R.C.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ab3473a432c56bf3b6d31b44adf12e5d}{%
+           family={Espera},
+           familyi={E\bibinitperiod},
+           given={A.H.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6dbedad2342e7fdc31f6a6905f472c6d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=7b5de475e81b043986ed13773781a8ee}{%
+           family={Messman},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2adccce981bd09c214230878fbb6cf5d}{%
+           family={Advincula},
+           familyi={A\bibinitperiod},
+           given={R.C.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1de101e622e7495a404e618453e029ef}
+      \strng{fullhash}{0059ac1c7528dd368c437876c30b8ee1}
+      \strng{bibnamehash}{1de101e622e7495a404e618453e029ef}
+      \strng{authorbibnamehash}{1de101e622e7495a404e618453e029ef}
+      \strng{authornamehash}{1de101e622e7495a404e618453e029ef}
+      \strng{authorfullhash}{0059ac1c7528dd368c437876c30b8ee1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Prog Polym Sci}
+      \field{title}{Advances in 3D printing of thermoplastic polymer composites and nanocomposites}
+      \field{volume}{98}
+      \field{year}{2019}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.progpolymsci.2019.101162
       \endverb
     \endentry
   \enddatalist
