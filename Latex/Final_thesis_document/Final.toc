@@ -37,13 +37,13 @@
 \contentsline {subsubsection}{\numberline {10.1.1}3D model creation}{41}{subsubsection.10.1.1}%
 \contentsline {subsubsection}{\numberline {10.1.2}Slicing}{42}{subsubsection.10.1.2}%
 \contentsline {subsection}{\numberline {10.2}Sharebot Snowhite²}{43}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Dynamic Mechanical Analysis (DMA)}{49}{subsection.10.3}%
-\contentsline {section}{\numberline {11}Analyses results}{50}{section.11}%
-\contentsline {subsection}{\numberline {11.1}SEM Results}{50}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Granulometry Results}{54}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}DSC Results}{57}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}TGA Results}{60}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}DMA Results}{64}{subsection.11.5}%
-\contentsline {subsection}{\numberline {11.6}3D Printing Results}{66}{subsection.11.6}%
-\contentsline {section}{\numberline {12}Conclusions}{71}{section.12}%
-\contentsline {section}{\numberline {13}Future development}{72}{section.13}%
+\contentsline {subsection}{\numberline {10.3}Dynamic Mechanical Analysis (DMA)}{48}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Analyses results}{49}{section.11}%
+\contentsline {subsection}{\numberline {11.1}SEM Results}{49}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Granulometry Results}{53}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}DSC Results}{56}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}TGA Results}{59}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}DMA Results}{62}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}3D Printing Results}{64}{subsection.11.6}%
+\contentsline {section}{\numberline {12}Conclusions}{69}{section.12}%
+\contentsline {section}{\numberline {13}Future development}{71}{section.13}%

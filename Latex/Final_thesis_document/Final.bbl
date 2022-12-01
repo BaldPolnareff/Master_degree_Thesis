@@ -409,6 +409,70 @@
       \field{title}{Process Phenomena and Material Properties in Selective Laser Sintering of Polymers: A Review}
       \field{year}{2021}
     \endentry
+    \entry{Biobased_foodpackaging}{article}{}
+      \name{author}{1}{}{%
+        {{hash=aaa5d0687474979a9cbc20c2cd64ddaa}{%
+           family={M.Y.\bibnamedelimi Khalid},
+           familyi={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Z.U.\bibnamedelimi Arif},
+           giveni={Z\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{aaa5d0687474979a9cbc20c2cd64ddaa}
+      \strng{fullhash}{aaa5d0687474979a9cbc20c2cd64ddaa}
+      \strng{bibnamehash}{aaa5d0687474979a9cbc20c2cd64ddaa}
+      \strng{authorbibnamehash}{aaa5d0687474979a9cbc20c2cd64ddaa}
+      \strng{authornamehash}{aaa5d0687474979a9cbc20c2cd64ddaa}
+      \strng{authorfullhash}{aaa5d0687474979a9cbc20c2cd64ddaa}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Food Packaging and Shelf Life}
+      \field{title}{Novel biopolymer-based sustainable composites for food packaging applications: A narrative review}
+      \field{volume}{33}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1016/j.fpsl.2022.100892
+      \endverb
+    \endentry
+    \entry{PHBV_SLS_scaffolds}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ab3f0aa00f7ae6ab11c5448604f51bbc}{%
+           family={R.\bibnamedelimi Patel},
+           familyi={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={D.\bibnamedelimi Monticone},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=09350a64d11eed7221112e3b26f7974d}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ef3a7066917c41cf73f56f230b7628d0}{%
+           family={Grøndahl},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0e6aa57c3b1a8bafb72bc185160451b2}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca24c1377398f9c9f74d3ead268f4475}
+      \strng{fullhash}{25a1745c45b0b0745715e2bc8f709aef}
+      \strng{bibnamehash}{ca24c1377398f9c9f74d3ead268f4475}
+      \strng{authorbibnamehash}{ca24c1377398f9c9f74d3ead268f4475}
+      \strng{authornamehash}{ca24c1377398f9c9f74d3ead268f4475}
+      \strng{authorfullhash}{25a1745c45b0b0745715e2bc8f709aef}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polym Degrad Stab}
+      \field{title}{Hydrolytic degradation of porous poly(hydroxybutyrate-co-hydroxyvalerate) scaffolds manufactured using selective laser sintering}
+      \field{volume}{187}
+      \field{year}{2021}
+    \endentry
     \entry{KBV_Research_AM_market}{article}{}
       \name{author}{1}{}{%
         {{hash=cc15ac248dbda908dd35db6cec0ce505}{%
@@ -458,44 +522,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Market, machines and materials – The new playground for large chemical companies}
       \field{year}{2020}
-    \endentry
-    \entry{PHBV_SLS_scaffolds}{article}{}
-      \name{author}{4}{}{%
-        {{hash=ab3f0aa00f7ae6ab11c5448604f51bbc}{%
-           family={R.\bibnamedelimi Patel},
-           familyi={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-           given={D.\bibnamedelimi Monticone},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=09350a64d11eed7221112e3b26f7974d}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ef3a7066917c41cf73f56f230b7628d0}{%
-           family={Grøndahl},
-           familyi={G\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=0e6aa57c3b1a8bafb72bc185160451b2}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{ca24c1377398f9c9f74d3ead268f4475}
-      \strng{fullhash}{25a1745c45b0b0745715e2bc8f709aef}
-      \strng{bibnamehash}{ca24c1377398f9c9f74d3ead268f4475}
-      \strng{authorbibnamehash}{ca24c1377398f9c9f74d3ead268f4475}
-      \strng{authornamehash}{ca24c1377398f9c9f74d3ead268f4475}
-      \strng{authorfullhash}{25a1745c45b0b0745715e2bc8f709aef}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Polym Degrad Stab}
-      \field{title}{Hydrolytic degradation of porous poly(hydroxybutyrate-co-hydroxyvalerate) scaffolds manufactured using selective laser sintering}
-      \field{volume}{187}
-      \field{year}{2021}
     \endentry
     \entry{Eraslan_PHBH_review}{article}{}
       \name{author}{7}{}{%
@@ -876,8 +902,8 @@
       \strng{authorbibnamehash}{88647a3f9d5aa4d2db0e1ed0e03a08fc}
       \strng{authornamehash}{88647a3f9d5aa4d2db0e1ed0e03a08fc}
       \strng{authorfullhash}{88647a3f9d5aa4d2db0e1ed0e03a08fc}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The fatigue behavior of three biodegradable polymers, PLA (polylactic acid), PBS (polybutylene succinate) and PBAT (polybutylene adipate terephthalate) was determined under cyclic tension/tension loading in strain-controlled measurements. Stress response and surface temperature were recorded and analyzed to compare their behavior and evolution with on-going fatigue. The stress was decomposed into linear and nonlinear contributions by Fourier transform (FT) analysis and higher harmonics were correlated with fatigue. The surface temperature variation is analyzed as a function of the strain amplitude and compared for these materials during fatigue. The relative even (I2/1) and odd (I3/1) higher harmonics (ratio between the nth harmonic to the fundamental one (In/1)) in the stress response were found to be good criteria for fatigue characterization. The cumulative nonlinearity parameter (nQf), defined as the (cycle number) integral of the relative higher harmonic, normalized to the strain amplitude with an exponent of n-1, was found to be the best criterion to quantify mechanical fatigue and predict fatigue lifetime.}
@@ -892,32 +918,6 @@
       \verb 10.1016/j.ijfatigue.2022.106798
       \endverb
       \keyw{Fatigue,PLA,PBS,PBAT,Fourier transform,Non-linear analysis}
-    \endentry
-    \entry{Biobased_foodpackaging}{article}{}
-      \name{author}{1}{}{%
-        {{hash=aaa5d0687474979a9cbc20c2cd64ddaa}{%
-           family={M.Y.\bibnamedelimi Khalid},
-           familyi={M\bibinitperiod\bibinitdelim K\bibinitperiod},
-           given={Z.U.\bibnamedelimi Arif},
-           giveni={Z\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{aaa5d0687474979a9cbc20c2cd64ddaa}
-      \strng{fullhash}{aaa5d0687474979a9cbc20c2cd64ddaa}
-      \strng{bibnamehash}{aaa5d0687474979a9cbc20c2cd64ddaa}
-      \strng{authorbibnamehash}{aaa5d0687474979a9cbc20c2cd64ddaa}
-      \strng{authornamehash}{aaa5d0687474979a9cbc20c2cd64ddaa}
-      \strng{authorfullhash}{aaa5d0687474979a9cbc20c2cd64ddaa}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Food Packaging and Shelf Life}
-      \field{title}{Novel biopolymer-based sustainable composites for food packaging applications: A narrative review}
-      \field{volume}{33}
-      \field{year}{2022}
-      \verb{doi}
-      \verb 10.1016/j.fpsl.2022.100892
-      \endverb
     \endentry
     \entry{PHA_scaffolds_FDM}{article}{}
       \name{author}{8}{}{%
@@ -1254,8 +1254,8 @@
       \strng{authorbibnamehash}{9f4993078c173c4e0a27397eb664a84c}
       \strng{authornamehash}{9f4993078c173c4e0a27397eb664a84c}
       \strng{authorfullhash}{9f4993078c173c4e0a27397eb664a84c}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{GNU Image Manipulation Program}

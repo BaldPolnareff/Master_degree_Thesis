@@ -17,6 +17,7 @@
 \usepackage[acronym]{glossaries}
 \usepackage{float}
 \usepackage[export]{adjustbox}
+\usepackage{cleveref}
 %\usepackage[inkscapeformat=svg]{svg}
 \addbibresource{/home/giorgio/Bibliography/bibliography.bib}
 \hypersetup{
@@ -165,7 +166,7 @@
     in contrast with more traditional subtractive processes.
     
     AM techniques are applied to a wide range of materials, including ceramics, polymers and metal alloys, some of which are specifically developed or optimized for 
-    these kinds of applications, to the point that entire normatives have been introduced for their regulation \autocites{ASTM_E3166-20}. 
+    various kinds of applications, to the point that entire normatives have been introduced for their regulation \autocites{ASTM_E3166-20}. 
     
     The main advantage of AM is the ability to produce complex shapes in a relatively short time. 
     These geometries are either too hard or even impossible to reproduce with subtractive manufacturing techniques, which often require multiple steps, using different 
@@ -279,9 +280,9 @@
         \item cooling (C)
     \end{itemize}
 
-    \begin{figure}[ht]
+    \begin{figure}[H]
         \centering
-        \includegraphics[width=0.63\textwidth]{Pictures/SLS_temp_over_time.eps}\\
+        \includegraphics[width=0.5\textwidth]{Pictures/SLS_temp_over_time.eps}\\
         \caption{Phases of an SLS process, adapted from \autocites{Padovano_SLS_Review}} 
         \label{fig:SLS_temp_over_time}
     \end{figure}
@@ -330,7 +331,8 @@
     \section{Polyhydroxyalkanoates (PHA)\label{PHA_in_general}}
 
     Bio-based polymers are a promising alternative to traditional petroleum-based materials, due to their lower environmental impact and 
-    their potential to be produced locally, in a sustainable way. \\ 
+    their potential to be produced locally, in a 
+    sustainable way \autocites{Biobased_foodpackaging,Kovalcik_PHA_Review,Messori_Bondioli_PHAs,PHBV_SLS_scaffolds}. \\ 
 
     These materials are typically produced by microorganisms, through a process called \textit{bioplasticization}, 
     which is a form of \textit{biomass conversion} \autocite*{Kovalcik_PHA_Review}. 
@@ -1335,7 +1337,14 @@
             melting point onset, then calculating it is trivial, based on the available results, which are highlighted in section \ref{DSC_results}. \\ 
 
                 The DSC machine used in this thesis work is the \textit{DSC 214 Polyma Equipment} by Netzsch Group, which is a benchtop instrument that can be used for 
-                a wide range of applications, shown in Figure \ref{fig:DSC_polyma}. \\ 
+                a wide range of applications, shown in Figure \ref{fig:DSC_polyma}. \\  
+
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.7\textwidth]{Pictures/DSC_Polyma.eps}
+                        \caption{DSC 214 Polyma Equipment by Netzsch Group}
+                        \label{fig:DSC_polyma}
+                    \end{figure}
 
                 It is equipped with a gas controller and has been used in the temperature range from $-50 \ ^{\circ} C$ 
                 to $180 \ ^{\circ} C$ with 
@@ -1343,15 +1352,7 @@
                 under nitrogen flow $(50 \ mL/min)$. \\ 
 
                 The included software allows for the analysis of the 
-                DSC data, as well as the creation of a report with the results. \\ 
-
-                    \begin{figure}[ht]
-                        \centering
-                        \includegraphics[width=0.7\textwidth]{Pictures/DSC_Polyma.eps}
-                        \caption{DSC 214 Polyma Equipment by Netzsch Group}
-                        \label{fig:DSC_polyma}
-                    \end{figure}
-
+                DSC data, as well as the creation of a report with the results. \\
                 Multiple DSC analysis have been conducted and specimens have been catalogued with the following ID: 
 
                 \begin{equation}
@@ -1418,7 +1419,7 @@
             The TGA analysis was performed on a \textit{Mettler-Toledo TGA/SDTA 851e} instrument (seen in Figure \ref{fig:TGA_mettlertoledo}), 
             in air atmosphere, with a heating rate of $10 \ ^{\circ}C/min$ and a temperature range of $25 \ ^{\circ}C$ to $900 \ ^{\circ}C$. \\
 
-            \begin{figure}[ht]
+            \begin{figure}[H]
                 \centering
                 \includegraphics[width=0.7\textwidth]{Pictures/TGA_mettlertoledo.eps}
                 \caption{Mettler-Toledo TGA/SDTA 851e}
@@ -1749,11 +1750,8 @@
           The first prints have been made with a 25 \%  laser power setting, which has been found to be 
           a reasonable value for solid pieces, by visual inspection of single layers (which showcased 
           decent densification) and later confirmed by 
-          mechanical testing on multilayer samples. 
+          mechanical testing on multilayer samples. \\ 
           
-          \clearpage
-  
-  
           As previously mentioned, the material is very sensitive to the printing conditions, and other than laser power,
           the environment temperature has been found to be the most critical parameter. \\ 
   
@@ -2125,8 +2123,9 @@
         \subsection{TGA Results\label{TGA_Results}}
         The analysis data has been exported with \textit{Mettler-Toledo}'s included software, after normalizing the data to the initial weight of the sample,
         then uniformed to the rest of the datasets and imported, elaborated and plotted with \textit{Labplot}. \\
-        The following figures show the results of the TGA analysis on the pellet, powder and sintered samples. \\ 
-        \begin{figure}[ht]
+
+        The following Figures \ref{fig:TGA_01}, \ref{fig:TGA_03} show the results of the TGA analysis on the pellet and powder sample, respectively. \\ 
+        \begin{figure}[H]
             \centering
             \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/g-TGA01.pdf}
             \caption{TGA analysis of pellet sample $gTGA_{01}$ (as in table \ref{tab:TGA_specimens})}
@@ -2138,21 +2137,19 @@
         %    \caption{TGA analysis of powder sample $pTGA_{02}$ (as in table \ref{tab:TGA_specimens})}
         %    \label{fig:TGA_02}
         %\end{figure}
-        \begin{figure}[ht]
+        \begin{figure}[H]
             \centering
             \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/p-TGA03.pdf}
             \caption{TGA analysis of powder sample $pTGA_{03}$ (as in table \ref{tab:TGA_specimens})}
             \label{fig:TGA_03}
         \end{figure}
 
-            \begin{figure}[ht]
-                \centering
-                \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/s-TGA04.pdf}
-                \caption{TGA analysis of sintered sample $sTGA_{04}$ (as in table \ref{tab:TGA_specimens})}
-                \label{fig:TGA_04}
-            \end{figure}
-
-            \clearpage
+        %\begin{figure}[ht]
+        %    \centering
+        %    \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/s-TGA04.pdf}
+        %    \caption{TGA analysis of sintered sample $sTGA_{04}$ (as in table \ref{tab:TGA_specimens})}
+        %    \label{fig:TGA_04}
+        %\end{figure}
 
             The results of the TGA analysis showcase the expected thermal behaviour of the powder and sintered samples,
             which are consistent with the pellet sample. \\ 
@@ -2161,15 +2158,22 @@
             first derivative showcases a consistent behaviour among all samples, with clear degradation peaks at approximately 
             the same temperature values. \\ 
 
-            As a further testimony of the consistent thermal behaviour of the biopolymer along the entire pipeline, the overlap of the
-            TGA curves of the pellet, powder and sintered samples is shown in Figure \ref{fig:TGA_overlapped}:
+            \clearpage
 
-                \begin{figure}[ht]
-                    \centering
-                    \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf}
-                    \caption{Consistent results of the TGA analysis of the pellet, powder and sintered samples}
-                    \label{fig:TGA_overlapped}
-                \end{figure}
+            The consistent behaviour between the raw material and the obtained powder is also showcased in Figure \ref{fig:TGA_overlapped_powderpellet}, where the overlap 
+            of the curves is abundantly clear. \\
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.8\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped_powderpellet.pdf}
+                \caption{TGA curves of both the raw material and the obtained powder overlapped}
+                \label{fig:TGA_overlapped_powderpellet}
+            \end{figure}
+
+
+
+            The results are already very promising, as no significant sign of degradation is observed at the temperatures of interest, 
+            which is the range comprised by the sintering window, previously identified in the DSC analysis. \\
 
         \clearpage
 
@@ -2178,14 +2182,13 @@
         The results of the DMA analysis are shown in Figure \ref{fig:DMA_plot}, where the tan$\delta$ curve has been upscaled significantly 
         in order to match a relative scale with the other curves. \\ 
 
-            \begin{figure}[ht]
+            \begin{figure}[H]
                 \centering
                 \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DMA.pdf}
                 \caption{DMA analysis of sample $10-SLS_{06}$ (as reported in table \ref{tab:SLS_samples}).}
                 \label{fig:DMA_plot}
             \end{figure}
 
-        \clearpage 
 
         The tan$\delta$ curve visible in Figure \ref{fig:DMA_plot} shows a clear peak at $14.1 \ ^{\circ}C$, which is the glass transition temperature of the material, 
         in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (as seen in Figure \ref{fig:DSC_10Cmin}). \\ 
@@ -2402,7 +2405,7 @@
         in most AM before surface treatments, the specimens are in a very good condition, with no visible cracks or other defects.
         The most significant specimens have been cut out from their photos and put against a pitch black background
         using \textit{Pixelmator Pro}, then assigned a size marker using \textit{Inkscape}, 
-        as showcased in the following figures: 
+        as showcased in Figures \labelcref{fig:printed_specimens_DMA,fig:printed_specimens_filledhexagon,fig:printed_specimens_boat,fig:printed_specimens_organicpattern,fig:printed_specimens_octagonholes}: 
 
         %\begin{figure}[ht]
         %    \centering
@@ -2516,10 +2519,21 @@
     acquired from the previous iterations, starting with mono-layer prints of simple square 
     sheets, then multi-layer filled pieces and finally ending with more intricate parts, up to a total height of 55 layers. \\ 
 
+    \clearpage
+
     As a final step and further proof of the feasibility of the material for SLS printing, the PHBH printed parts have been 
     analyzed with a DMA, which has shown that the material's mechanical properties are in line with those expected for bio-based polymers 
     and, most importantly, that the thermal stability of the material is stable throughout the entire process, from the raw material all the way to the 
-    printed part, as assessed by an additional TGA. \\ 
+    printed part, as assessed by an additional TGA, showcased in Figure \ref{fig:TGA_overlapped}. \\ 
+
+    %As a further testimony of the consistent thermal behaviour of the biopolymer along the entire pipeline, the overlap of the
+    %TGA curves of the pellet, powder and sintered samples is shown in Figure \ref{fig:TGA_overlapped}:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf}
+        \caption{Consistent results of the TGA analysis of the pellet, powder and sintered samples}
+        \label{fig:TGA_overlapped}
+    \end{figure}
     
 
     \clearpage

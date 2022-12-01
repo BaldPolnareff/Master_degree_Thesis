@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'Final.blg'
-[49] biber:340> INFO - === Thu Dec  1, 2022, 20:07:48
-[58] Biber.pm:418> INFO - Reading 'Final.bcf'
-[121] Biber.pm:972> INFO - Found 43 citekeys in bib section 0
-[131] Biber.pm:4383> INFO - Processing section 0
-[137] Biber.pm:4574> INFO - Looking for bibtex file '/home/giorgio/Bibliography/bibliography.bib' for section 0
-[140] bibtex.pm:1713> INFO - LaTeX decoding ...
-[193] bibtex.pm:1518> INFO - Found BibTeX data source '/home/giorgio/Bibliography/bibliography.bib'
-[392] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[392] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[392] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[392] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[410] bbl.pm:654> INFO - Writing 'Final.bbl' with encoding 'UTF-8'
-[425] bbl.pm:757> INFO - Output to Final.bbl
+[50] biber:340> INFO - === Thu Dec  1, 2022, 20:19:51
+[59] Biber.pm:418> INFO - Reading 'Final.bcf'
+[124] Biber.pm:972> INFO - Found 43 citekeys in bib section 0
+[134] Biber.pm:4383> INFO - Processing section 0
+[141] Biber.pm:4574> INFO - Looking for bibtex file '/home/giorgio/Bibliography/bibliography.bib' for section 0
+[143] bibtex.pm:1713> INFO - LaTeX decoding ...
+[198] bibtex.pm:1518> INFO - Found BibTeX data source '/home/giorgio/Bibliography/bibliography.bib'
+[397] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[397] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[397] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[397] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[416] bbl.pm:654> INFO - Writing 'Final.bbl' with encoding 'UTF-8'
+[431] bbl.pm:757> INFO - Output to Final.bbl
