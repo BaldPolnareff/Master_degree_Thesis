@@ -2177,44 +2177,9 @@
 
         \clearpage
 
-        \subsection{DMA Results\label{DMA_Results}}
-
-        The results of the DMA analysis are shown in Figure \ref{fig:DMA_plot}, where the tan$\delta$ curve has been upscaled significantly 
-        in order to match a relative scale with the other curves. \\ 
-
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DMA.pdf}
-                \caption{DMA analysis of sample $10-SLS_{06}$ (as reported in table \ref{tab:SLS_samples}).}
-                \label{fig:DMA_plot}
-            \end{figure}
+        
 
 
-        The tan$\delta$ curve visible in Figure \ref{fig:DMA_plot} shows a clear peak at $14.1 \ ^{\circ}C$, which is the glass transition temperature of the material, 
-        in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (as seen in Figure \ref{fig:DSC_10Cmin}). \\ 
-
-        As expected for a polymer of the PHA family, both the storage modulus $E'$ and the loss modulus $E''$ are very low, in line with the 
-        typical viscoelastic behavior of all bio-based polymers \autocites{Kovalcik_PHA_Review,ZHANG_fatigue_biopolymers}, which are not suited for structural applications and 
-        are instead used for packaging \autocites{Biobased_foodpackaging} and other non-structural applications, such as biomedical implants and scaffolds \autocites{Messori_Bondioli_PHAs,PHA_scaffolds_FDM}. \\
-
-        Unsurprisingly, the mechanical properties of the material fall behind those of typical SLS polymers \autocites{Padovano_SLS_Review}, which can 
-        occasionally reach storage moduli a whole order of magnitude higher than that of PHBH \autocites{GVSalmoria_PA12_mechanical_properties}. \\ 
-
-        That in itself is not a major issue, as SLS parts are not limited to structural applications or mechanical pieces:
-        other properties, such as biodegradability, biocompatibility and low toxicity can be very desirable traits in a wide range of 
-        applications \autocites{SLS_3dprinting_biomedical_polymers, Kovalcik_PHA_Review}. \\ 
-
-        Moreover, the mechanical and thermal properties of the material can be improved by adding fillers, creating blends with other 
-        bio-based polymers or creating composites with other materials \autocites{Recent_progress_polymers_AM,Eraslan_PHBH_review,PHBH_Crystallinity,Polymers_composite_overview,Advances_3D_printing_polymer_composites,Novel_PHBH_biocomposite_nanocrystals}. \\ 
-
-        Given the successful SLS printability, with unaltered thermal properties among the raw material, the powder and the 
-        printed parts (as highlighted by the TGA and DSC analysis results), as well as 
-        mechanical properties that meet the expected behavior of a bioplastic, PHBH is a very promising bio-based polymer 
-        that can further enrich the catalogue of sustainable materials available for additive manufacturing. \\ 
-
-
-
-    \clearpage
     %\section{3D printing\label{SLS_printing_experimental}}
 %
     %After the powder has been characterized, the next step is to print it with the SLS machine. \\
@@ -2403,7 +2368,7 @@
         The printed parts showcase an excellent level of detail, which could potentially increase when printing larger objects. 
         Other than some superficial roughness and bumps, which are expected
         in most AM before surface treatments, the specimens are in a very good condition, with no visible cracks or other defects. \\ 
-        
+
         The most significant specimens have been cut out from their photos and put against a pitch black background
         using \textit{Pixelmator Pro}, then assigned a size marker using \textit{Inkscape}, 
         as showcased in Figures \labelcref{fig:printed_specimens_DMA,fig:printed_specimens_filledhexagon,fig:printed_specimens_boat,fig:printed_specimens_organicpattern,fig:printed_specimens_octagonholes}: 
@@ -2456,39 +2421,117 @@
 
         \begin{figure}[H]
             \centering
-            \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/Fixed_New/DMA_samples.pdf}
+            \includegraphics[width=0.8\textwidth]{Pictures/Printed_parts/Fixed/Fixed_New/DMA_samples.pdf}
             \caption{DMA ready prismatic specimens $10-SLS_{06}$ (bottom) and $15-SLS_{07}$ (top).}
             \label{fig:printed_specimens_DMA}
         \end{figure}
 
+        Figure \labelcref{fig:printed_specimens_DMA} shows the two prismatic specimens intended to be used for DMA testing. As a result of multiple 
+        printing attempts, using filled geometries with an increasing number of layers, both the 10 and 15 layers specimens have been successfully printed with a 25 \% laser power 
+        at a 90 $^{\circ}C$ environment temperature. 
+
         \begin{figure}[H]
             \centering
-            \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/Fixed_New/hexagon.pdf}
+            \includegraphics[width=0.8\textwidth]{Pictures/Printed_parts/Fixed/Fixed_New/hexagon.pdf}
             \caption{Specimen $15-SLS_{02}$, a filled hexagon.}
             \label{fig:printed_specimens_filledhexagon}
         \end{figure}
 
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/Fixed_New/boat.pdf}
-            \caption{Specimen $50-SLS_{05}$, representing a boat model with curvatures.}
-            \label{fig:printed_specimens_boat}
-        \end{figure}
+        The shape in Figure \labelcref{fig:printed_specimens_filledhexagon} is a 15 layer filled hexagon, which has been printed with a 25 \% laser 
+        power at a 95 $^{\circ}C$ environment temperature. 
+
+        The specimen was printed to test a more complex shape than a prism, with the same number of layers, as well as to test the effect of a higher 
+        environment temperature on the printing process, which remained stable in the range of 90-95 $^{\circ}C$, for filled geometries and a 25 
+        \% laser power. \\ 
+
+        The stabilization of the printing process for filled parts of simple shapes, launched the idea of printing more complex shapes, 
+        with internal patterns, curvatures and holes. \\  
 
         \begin{figure}[H]
             \centering
-            \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/Fixed_New/organic_pattern.pdf}
+            \includegraphics[width=0.8\textwidth]{Pictures/Printed_parts/Fixed/Fixed_New/organic_pattern.pdf}
             \caption{Specimen $15-SLS_{08}$, showcasing a complex internal pattern.}
             \label{fig:printed_specimens_organicpattern}
         \end{figure}
 
+        The organic pattern showcased in the 15 layers specimen in Figure \labelcref{fig:printed_specimens_organicpattern} has been printed with a 35 \% laser
+        power, at a slightly lower 87 $^{\circ}C$ environment temperature, which has resulted in a rougher surface. However, the higher 
+        laser power has allowed for a more intricate pattern to be printed, since attempts with a 25 \% value resulted in a very poor quality print, 
+        in configurations with thin walls. 
+
         \begin{figure}[H]
             \centering
-            \includegraphics[width=\textwidth]{Pictures/Printed_parts/Fixed/Fixed_New/octagon_holes.pdf}
+            \includegraphics[width=0.8\textwidth]{Pictures/Printed_parts/Fixed/Fixed_New/boat.pdf}
+            \caption{Specimen $50-SLS_{05}$, representing a boat model with curvatures.}
+            \label{fig:printed_specimens_boat}
+        \end{figure}
+
+        The boat in Figure \labelcref{fig:printed_specimens_boat} has been printed with a slightly lower 30 \% laser power, at a 90 $^{\circ}C$ 
+        environment temperature. This was the first specimen to reach a 50 layer thickness, after several attempts. Despite being filled, 
+        the specimen has a curved thin wall, which was more challenging to print. \\ 
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Pictures/Printed_parts/Fixed/Fixed_New/octagon_holes.pdf}
             \caption{Specimen $55-SLS_{03}$, an octagon with a circular array of octagonal holes and a thin wall rim, with a total height of 55 layers.}
             \label{fig:printed_specimens_octagonholes}
         \end{figure}
+
+        Last but not least, the octagonal specimen in Figure \labelcref{fig:printed_specimens_octagonholes} was the first to reach a 55 layer thickness, as well 
+        as the first to showcase a thin wall rim, an internal array of octagonal holes and extremely small indentations at the same time. 
+        This specimen has been printed with a 35 \% laser power at a 95 $^{\circ}C$ environment temperature. The higher power was 
+        necessary to print the thin wall rim, while the higher temperature was necessary since the rest of the specimen is mostly filled on the inside. 
         
+
+        \clearpage
+
+        \subsubsection{Thermal stability\label{thermal_stability}}
+
+        As a further testimony of the consistent thermal behaviour of the biopolymer along the entire pipeline, the overlap of the
+        TGA curves of the pellet, powder and sintered samples is shown in Figure \ref{fig:TGA_overlapped}:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf}
+            \caption{Consistent results of the TGA analysis of the pellet, powder and sintered samples}
+            \label{fig:TGA_overlapped}
+        \end{figure}
+
+        \clearpage
+
+        \subsubsection{DMA Results\label{DMA_Results}}
+
+        The results of the DMA analysis are shown in Figure \ref{fig:DMA_plot}, where the tan$\delta$ curve has been upscaled significantly 
+        in order to match a relative scale with the other curves. \\ 
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/DMA.pdf}
+                \caption{DMA analysis of sample $10-SLS_{06}$ (as reported in table \ref{tab:SLS_samples}).}
+                \label{fig:DMA_plot}
+            \end{figure}
+
+
+        The tan$\delta$ curve visible in Figure \ref{fig:DMA_plot} shows a clear peak at $14.1 \ ^{\circ}C$, which is the glass transition temperature of the material, 
+        in disaccordance with the initial estimation of $2 \ ^{\circ}C$ (as seen in Figure \ref{fig:DSC_10Cmin}). \\ 
+
+        As expected for a polymer of the PHA family, both the storage modulus $E'$ and the loss modulus $E''$ are very low, in line with the 
+        typical viscoelastic behavior of all bio-based polymers \autocites{Kovalcik_PHA_Review,ZHANG_fatigue_biopolymers}, which are not suited for structural applications and 
+        are instead used for packaging \autocites{Biobased_foodpackaging} and other non-structural applications, such as biomedical implants and scaffolds \autocites{Messori_Bondioli_PHAs,PHA_scaffolds_FDM}. \\
+
+        Unsurprisingly, the mechanical properties of the material fall behind those of typical SLS polymers \autocites{Padovano_SLS_Review}, which can 
+        occasionally reach storage moduli a whole order of magnitude higher than that of PHBH \autocites{GVSalmoria_PA12_mechanical_properties}. \\ 
+
+        That in itself is not a major issue, as SLS parts are not limited to structural applications or mechanical pieces:
+        other properties, such as biodegradability, biocompatibility and low toxicity can be very desirable traits in a wide range of 
+        applications \autocites{SLS_3dprinting_biomedical_polymers, Kovalcik_PHA_Review}. \\ 
+
+        Moreover, the mechanical and thermal properties of the material can be improved by adding fillers, creating blends with other 
+        bio-based polymers or creating composites with other materials \autocites{Recent_progress_polymers_AM,Eraslan_PHBH_review,PHBH_Crystallinity,Polymers_composite_overview,Advances_3D_printing_polymer_composites,Novel_PHBH_biocomposite_nanocrystals}. \\ 
+
+        Given the successful SLS printability, with unaltered thermal properties among the raw material, the powder and the 
+        printed parts (as highlighted by the TGA and DSC analysis results), as well as 
+        mechanical properties that meet the expected behavior of a bioplastic, PHBH is a very promising bio-based polymer 
+        that can further enrich the catalogue of sustainable materials available for additive manufacturing. \\ 
 
         \clearpage
 
@@ -2520,21 +2563,11 @@
     acquired from the previous iterations, starting with mono-layer prints of simple square 
     sheets, then multi-layer filled pieces and finally ending with more intricate parts, up to a total height of 55 layers. \\ 
 
-    \clearpage
-
     As a final step and further proof of the feasibility of the material for SLS printing, the PHBH printed parts have been 
     analyzed with a DMA, which has shown that the material's mechanical properties are in line with those expected for bio-based polymers 
     and, most importantly, that the thermal stability of the material is stable throughout the entire process, from the raw material all the way to the 
-    printed part, as assessed by an additional TGA, showcased in Figure \ref{fig:TGA_overlapped}. \\ 
+    printed part, as assessed by the additional TGA in Figure \ref{fig:TGA_overlapped}. \\ 
 
-    %As a further testimony of the consistent thermal behaviour of the biopolymer along the entire pipeline, the overlap of the
-    %TGA curves of the pellet, powder and sintered samples is shown in Figure \ref{fig:TGA_overlapped}:
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Pictures/Thermal_analysis_plots/TGA_catalogued/Fixed/TGA_overlapped.pdf}
-        \caption{Consistent results of the TGA analysis of the pellet, powder and sintered samples}
-        \label{fig:TGA_overlapped}
-    \end{figure}
     
 
     \clearpage
