@@ -1,19 +1,38 @@
-\documentclass[10pt, aspectratio=169]{beamer}
+\documentclass[15pt, aspectratio=169]{beamer}
 
 \usetheme[progressbar=frametitle]{metropolis}
 \usepackage{appendixnumberbeamer}
 
 \usepackage{booktabs}
-\usepackage[scale=2]{ccicons}
+\usepackage[scale=3]{ccicons}
+
+\usepackage{graphicx}
+
+\usepackage{amsmath}
+
+\usepackage{tikz}
 
 \usepackage{pgfplots}
 \usepgfplotslibrary{dateplot}
+
+
+
 
 \usepackage{xspace}
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 \usepackage[utf8]{inputenc}
 
 %\setbeamercovered{transparent}
+%\setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{caption}{}
+\setbeamertemplate{frame footer}[frame number]
+
+\makeatletter
+\setlength{\metropolis@titleseparator@linewidth}{2pt}
+\setlength{\metropolis@progressonsectionpage@linewidth}{2pt}
+\setlength{\metropolis@progressinheadfoot@linewidth}{2pt}
+\makeatother
+
 
 \title{Preparazione di polvere di biopolimeri}
 \subtitle{Stampa 3D tramite Selective Laser Sintering}
@@ -37,17 +56,26 @@
   \subsection{Obiettivo}
 
   \begin{frame}{Obiettivo}
+
+    \onslide+<1-4>{Qual è lo scopo di questa tesi?}
+
     
     \begin{itemize}
-      \item <1->\textbf{Preparazione} di polvere di biopolimeri
-      \item <2>\textbf{Stampa 3D} di biopolimeri
+      \item <2->\textbf{Preparazione} di polvere di biopolimeri
+      \item <3->\textbf{Stampa 3D} di biopolimeri
     \end{itemize}
+
+  %  \onslide<4->{
+  %    \begin{center}
+  %      La stampa 3D è un processo con molteplici applicazioni
+  %    \end{center}
+  %  }
   \end{frame}
 
   \begin{frame}
     \frametitle{Biopolimeri}
     \begin{center}
-        Perchè \textbf{biopolimeri}?
+        Perchè utilizzare i \textbf{biopolimeri}?
     \end{center}
     \begin{figure}[h]
       \centering
@@ -63,10 +91,46 @@
       \item <1->\textbf{Biodegradabili}
       \item <2->\textbf{Biocompatibili}
       \item <3->\textbf{Riciclabili}
-      \item <4> \textbf{Sostenibili}
+      \item <4->\textbf{Sostenibili}
     \end{itemize}
 
+    \only<1>{Possono essere smaltiti e degradati attraverso processi enzimatici, esattamente come sono stati prodotti}
+    \only<2>{Sono compatibili con i tessuti umani e ampiamente utilizzati in campo biomedico}
+    \only<3>{Possono essere rilavorati e riutilizzati per altri scopi}
+    \only<4>{Dalla produzione allo smaltimento, in linea con le guidelines dell'UE per la sostenibilità}
+    
 
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Stampa 3D}
+
+    
+    \begin{center}
+      Perchè utilizzare la \textbf{stampa 3D}?
+    \end{center}
+    \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.3\textwidth]{Pictures/Vector/PDF/3d_printing.pdf}
+
+    \end{figure}
+
+
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Perchè stampa 3D?}
+    \begin{itemize}
+      \item <1->\textbf{Libertà e flessibilità di design}
+      \item <2->\textbf{Geometrie complesse}
+      \item <3->\textbf{Minimo spreco di materiale}
+      %\item <4->\textbf{Sostenibili}
+    \end{itemize}
+    \only<1>{Ci si può svincolare dai workflow restrittivi del CAD e della produzione tradizionale}
+    \only<2>{Si possono realizzare geometrie complesse e irraggiungibili con altri metodi di produzione}
+    \only<3>{Si minimizza l'utilizzo di materiale, riducendo potenzialmente i costi e l'impatto ambientale}
+    %\only<4>{Dalla produzione allo smaltimento, in linea con le guidelines dell'UE per la sostenibilità}
+    
   \end{frame}
     
   
@@ -74,22 +138,41 @@
   \subsection{Ricerca}
 
   \begin{frame}{Ricerca}
+    \onslide<1>{
+      \begin{center}
+        \alert{Cosa dice la letteratura?}
+      \end{center}
+    }
     \begin{itemize}
-      \item <1-> Stato dell'arte dei \textbf{polimeri} nella \textbf{stampa 3D}
-      \item <2->  \textbf{Biopolimeri} nella \textbf{stampa 3D}
-      \item <3->  Produzione di \textbf{polvere} per \textbf{Selective Laser Sintering}
+      \item <2-> Stato dell'arte dei \textbf{polimeri} nella \textbf{stampa 3D}
+      \item <3->  \textbf{Biopolimeri} nella \textbf{stampa 3D}
+      \item <4->  Produzione di \textbf{polvere} per \textbf{Selective Laser Sintering}
     \end{itemize}
 
-    \onslide<4>{\alert<4>{Pochissimi} risultati in letteratura!}
+    \only<2>{Ampiamente utilizzati, ma principalmente polimeri di origine petrolchimica}
+    \only<3>{Utilizzo in crescita, ma principalmente in Fused Deposition Modeling}
+    \only<4>{Precipitazione chimica o macinatura meccanica criogenica}
+
+    \onslide<5>{\alert<5>{Pochissimi} risultati in letteratura!}
 
   \end{frame}
 
   \begin{frame}
     \frametitle{Selective Laser Sintering}
+
+    \onslide*<1>{\alert<1>{Cosa è il Selective Laser Sintering?}}
   
-    \onslide*<1>{La Sinterizzazione Selettiva con laser o \textbf{SLS} 
-    è una tecnologia di produzione additiva che impiega un raggio laser per sinterizzare delle particelle 
-    di polvere che può essere a base polimerica o composita}
+    \onslide*<2->{L'\textbf{SLS} 
+    è una tecnologia di produzione additiva che impiega un laser per \alert<3>{sinterizzare} delle particelle 
+    di polvere polimerica o composita}
+
+    \onslide*<3->{
+      \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.7\textwidth]{Pictures/Vector/PDF/sintering_necks.pdf}
+        
+      \end{figure}
+    }
 
     %\onslide*<2>{
     %\begin{figure}[h]
@@ -101,27 +184,35 @@
   \end{frame}
   \subsection{Scelta del biopolimero}
   \begin{frame}{Scelta del biopolimero}
-    \onslide*<1>{
+    \onslide<1>{
+      \begin{center}
+        \alert<1>{Quale biopolimero scegliere?}
+      \end{center}
+    }
+    \onslide*<2>{
       \begin{center}
         Finestra di \textbf{sinterizzazione}
       \end{center}
     }
-    \onslide*<2>{Finestra di sinterizzazione}
+    %\onslide*<2>{Finestra di sinterizzazione}
 
-    \onslide*<2>{
+    \onslide*<3>{
       \begin{center}
+        Finestra di \alert{sinterizzazione} \\ 
+        \vspace{1 cm}
         Range di temperatura tra la \textbf{cristallizzazione} e la \textbf{fusione} del polimero
       \end{center}
     }
 
-    \onslide*<3>{
+    \onslide*<4->{
       \begin{center}
-        \textbf{PHBH} \\ 
-        Polyhydroxybutyratehexanoate
+        \textbf{\alert<4>{PHBH}} \\ 
+        \vspace{1 cm}
+        (poly)-hydroxy-3-butyrate-3-hexanoate
       \end{center}
     }
 
-    \only<3>{
+    \onslide*<5>{
       \begin{figure}[h]
         \centering
         \includegraphics[width=0.5\textwidth]{Pictures/Vector/PDF/phbh_molecule.pdf}
@@ -130,6 +221,124 @@
     }
   \end{frame}
 \section{Produzione della polvere}
+
+    \begin{frame}{Produzione della polvere}
+        \onslide<1>{
+          \begin{center}
+            \alert<1>{Come si ottiene la polvere?}
+          \end{center}
+        }
+        \onslide<2-3>{
+          \begin{center}
+            \textbf{Precipitazione chimica}
+          \end{center}
+        }
+
+        \onslide*<3>{
+          
+          \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.3\textwidth]{Pictures/Vector/PDF/flask.pdf}
+          \end{figure}
+          
+        }
+
+        \begin{itemize}
+          \item <4-6> Rendimenti più alti rispetto alla macinatura criogenica
+          \item <5-6> Polveri con una distribuzione di dimensioni più uniforme
+          \item <6> Polveri con morfologia adeguata per l'SLS
+        \end{itemize}
+        
+      \end{frame}
+
+      \begin{frame}
+        \frametitle{Precipitazione chimica}
+      
+        
+        
+        \onslide*<1>{
+          \begin{figure}[h]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Pictures/Vector/PDF/process_diagram_readapted.pdf}
+
+          \end{figure}
+        }
+        \onslide*<2>{
+          \begin{figure}[h]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Pictures/Vector/PDF/process_diagram_readapted-step1.pdf}
+
+          \end{figure}
+        }        
+        \onslide*<3>{
+          \begin{figure}[h]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Pictures/Vector/PDF/process_diagram_readapted-step2.pdf}
+
+          \end{figure}
+        }
+        \onslide*<4>{
+          \begin{figure}[h]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Pictures/Vector/PDF/process_diagram_readapted-step3.pdf}
+
+          \end{figure}
+        }
+        \onslide*<5>{
+          \begin{figure}[h]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Pictures/Vector/PDF/process_diagram_readapted-step4.pdf}
+
+          \end{figure}
+        }
+        \onslide*<6>{
+          \begin{figure}[h]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Pictures/Vector/PDF/process_diagram_readapted-step5.pdf}
+
+          \end{figure}
+        }
+        \onslide*<7>{
+          \begin{center}
+            Qual è la \textbf{resa} del processo di precipitazione?
+          \end{center}
+        }
+        \onslide*<8>{
+          
+          \begin{figure}[h!]
+            \centering
+            \begin{tikzpicture}
+              \begin{axis}[
+                mbarplot,
+                bar width=20pt,
+                ylabel={Total yield $[\%]$},
+                %xlabel={Pellet to powder yield},
+                title={Pellet to powder yield},
+                width=0.65\textwidth,
+                height=6cm,
+                xmax = 0.1,
+                xmin = -0.1,
+                xticklabels={},
+                xtick={0},
+                legend style={anchor=north west},
+                nodes near coords,
+              ]
+        
+              \addplot plot coordinates {(-0.01, 1)};
+              \addplot plot coordinates {(0, 30)};
+              \addplot plot coordinates {(0.01, 75)};
+        
+              \legend{Day 1, Previous research, Current}
+        
+              \end{axis}
+            \end{tikzpicture}
+          \end{figure}
+            
+            
+            
+          
+        }
+      \end{frame}
   \section{Caratterizzazione della polvere}
     \subsection{Microscopia a Scansione Elettronica}
     \subsection{Distribuzione granulometrica}
