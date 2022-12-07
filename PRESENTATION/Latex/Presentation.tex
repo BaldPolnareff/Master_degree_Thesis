@@ -15,6 +15,8 @@
 \usepackage{pgfplots}
 \usepgfplotslibrary{dateplot}
 
+\usepackage[labelformat=empty]{caption}
+
 
 
 
@@ -340,10 +342,115 @@
         }
       \end{frame}
   \section{Caratterizzazione della polvere}
+
+    \begin{frame}{Requisiti della polvere}
+        \onslide*<1>{
+        \begin{center}
+          Quali sono i \textbf{requisiti} fondamentali per una polvere SLS ready?
+        \end{center}  
+        }
+
+        \begin{itemize}
+          \item <2-> Granulometria
+          \item <3-> Morfologia
+          \item <4> Stabilità termica
+          
+          
+        \end{itemize}
+
+        \onslide*<2>{La polvere deve avere una distribuzione media tra 20 e 80 $\mu m$}
+        \onslide*<3>{Le particelle devono essere sferiche, non vuote, per consentire la formazione efficace di colli di sinterizzazione}
+        \onslide*<4>{La polvere deve rimanere termicamente inalterata durante la stampa}
+
+      \end{frame}
+
+
+
+
     \subsection{Microscopia a Scansione Elettronica}
+
+    \begin{frame}
+      \frametitle{Microscopia a Scansione Elettronica}
+
+      \onslide*<1>{La microscopia a scansione elettronica (\textbf{SEM}) è un metodo di analisi che permette di ricostruire la morfologia di una superficie in 3D, sfruttando l'emissione di 
+      \textbf{elettroni secondari} da un campione sottoposto ad un fascio di elettroni.}
+
+      \onslide*<2>{
+        \begin{figure}[h]
+          \centering
+          \includegraphics[width=0.9\textwidth]{Pictures/Vector/PDF/SEM_fake.pdf}
+        \end{figure}
+      }
+
+      \onslide*<3>{
+        \begin{center}
+          Come dovrebbe apparire una polvere SLS ideale?
+        \end{center}
+      }
+
+      \onslide*<4>{
+        \begin{figure}[h]
+          \centering
+          \caption{DALLE-2 Prompt: \textit{Round particles seen through a SEM microscope}}
+          \includegraphics[width=0.4\textwidth]{Pictures/Vector/PDF/DALLE.pdf}
+        \end{figure}
+      }
+      
+      \onslide*<5>{
+
+        \begin{figure}[h]
+          \centering
+          \caption{MAG: 461X}
+          \includegraphics[width=0.6\textwidth]{Pictures/Vector/PDF/SEM/04_02.eps}
+        \end{figure}
+      }
+
+      \onslide*<6>{
+        \begin{figure}[h]
+          \centering
+          \caption{MAG: 400X}
+          \includegraphics[width=0.6\textwidth]{Pictures/Vector/PDF/SEM/sample_06.eps}
+        \end{figure}
+      }
+
+      \onslide*<7>{
+        \begin{figure}[h]
+          \centering
+          \caption{MAG: 800X}
+          \includegraphics[width=0.6\textwidth]{Pictures/Vector/PDF/SEM/sample_03.eps}
+        \end{figure}
+      }
+      
+          
+    \end{frame}
     \subsection{Distribuzione granulometrica}
-    \subsection{Analisi termogravimetrica}
-    \subsection{Analisi termica differenziale}
+
+    \begin{frame}
+      \frametitle{Distribuzione granulometrica}
+
+
+    \end{frame}
+
+    \subsection{Stabilità termica}
+
+      \subsubsection{Analisi termica differenziale}
+
+        \begin{frame}
+          \frametitle{Analisi termica differenziale}
+        
+          
+        
+        \end{frame}
+      \subsubsection{Analisi termogravimetrica}
+
+        \begin{frame}
+          \frametitle{Analisi termogravimetrica}
+        
+          
+        
+        \end{frame}
+
+
 \section{Stampa 3D}
 \section{Conclusioni}
 
