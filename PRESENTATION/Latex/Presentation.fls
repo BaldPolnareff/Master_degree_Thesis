@@ -1734,6 +1734,16 @@ INPUT ./Pictures/Vector/PDF/SEM/sample_03.eps
 INPUT ./Pictures/Vector/PDF/SEM/sample_03-eps-converted-to.pdf
 INPUT ./Pictures/Vector/PDF/SEM/sample_03-eps-converted-to.pdf
 INPUT ./Pictures/Vector/PDF/SEM/sample_03-eps-converted-to.pdf
+INPUT ./Pictures/Vector/PDF/PSD.pdf
+INPUT ./Pictures/Vector/PDF/PSD.pdf
+INPUT Pictures/Vector/PDF/PSD.pdf
+INPUT ./Pictures/Vector/PDF/PSD.pdf
+INPUT ./Pictures/Vector/PDF/PSD.pdf
+INPUT ./Pictures/Vector/PDF/PSD_circularity.pdf
+INPUT ./Pictures/Vector/PDF/PSD_circularity.pdf
+INPUT Pictures/Vector/PDF/PSD_circularity.pdf
+INPUT ./Pictures/Vector/PDF/PSD_circularity.pdf
+INPUT ./Pictures/Vector/PDF/PSD_circularity.pdf
 OUTPUT Presentation.nav
 OUTPUT Presentation.toc
 OUTPUT Presentation.snm
@@ -1741,6 +1751,7 @@ INPUT Presentation.aux
 INPUT ./Presentation.out
 INPUT ./Presentation.out
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
