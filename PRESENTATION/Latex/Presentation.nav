@@ -56,23 +56,25 @@
 \headcommand {\beamer@subsectionpages {57}{60}}
 \headcommand {\beamer@subsectionentry {0}{3}{3}{61}{Stabilità termica}}
 \headcommand {\beamer@subsubsectionentry {0}{3}{3}{1}{61}{Calorimetria Differenziale a Scansione}}
-\headcommand {\slideentry {3}{3}{1}{61/61}{Stabilità termica}{0}}
-\headcommand {\beamer@framepages {61}{61}}
-\headcommand {\beamer@subsubsectionentry {0}{3}{3}{2}{62}{Analisi termogravimetrica}}
-\headcommand {\slideentry {3}{3}{2}{62/62}{Stabilità termica}{0}}
-\headcommand {\beamer@framepages {62}{62}}
-\headcommand {\beamer@sectionpages {45}{62}}
-\headcommand {\beamer@subsectionpages {61}{62}}
-\headcommand {\sectionentry {4}{Stampa 3D}{63}{Stampa 3D}{0}}
-\headcommand {\slideentry {4}{0}{1}{63/63}{}{0}}
-\headcommand {\beamer@framepages {63}{63}}
-\headcommand {\beamer@sectionpages {63}{63}}
-\headcommand {\beamer@subsectionpages {63}{63}}
-\headcommand {\sectionentry {5}{Conclusioni}{64}{Conclusioni}{0}}
-\headcommand {\slideentry {5}{0}{1}{64/64}{}{0}}
-\headcommand {\beamer@framepages {64}{64}}
-\headcommand {\beamer@partpages {1}{64}}
-\headcommand {\beamer@subsectionpages {64}{64}}
-\headcommand {\beamer@sectionpages {64}{64}}
-\headcommand {\beamer@documentpages {64}}
-\headcommand {\gdef \inserttotalframenumber {16}}
+\headcommand {\slideentry {3}{3}{1}{61/65}{Stabilità termica}{0}}
+\headcommand {\beamer@framepages {61}{65}}
+\headcommand {\slideentry {3}{3}{2}{66/73}{Stabilità termica}{0}}
+\headcommand {\beamer@framepages {66}{73}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{3}{2}{74}{Analisi termogravimetrica}}
+\headcommand {\slideentry {3}{3}{3}{74/80}{Stabilità termica}{0}}
+\headcommand {\beamer@framepages {74}{80}}
+\headcommand {\beamer@sectionpages {45}{80}}
+\headcommand {\beamer@subsectionpages {61}{80}}
+\headcommand {\sectionentry {4}{Stampa 3D}{81}{Stampa 3D}{0}}
+\headcommand {\slideentry {4}{0}{1}{81/81}{}{0}}
+\headcommand {\beamer@framepages {81}{81}}
+\headcommand {\beamer@sectionpages {81}{81}}
+\headcommand {\beamer@subsectionpages {81}{81}}
+\headcommand {\sectionentry {5}{Conclusioni}{82}{Conclusioni}{0}}
+\headcommand {\slideentry {5}{0}{1}{82/82}{}{0}}
+\headcommand {\beamer@framepages {82}{82}}
+\headcommand {\beamer@partpages {1}{82}}
+\headcommand {\beamer@subsectionpages {82}{82}}
+\headcommand {\beamer@sectionpages {82}{82}}
+\headcommand {\beamer@documentpages {82}}
+\headcommand {\gdef \inserttotalframenumber {17}}

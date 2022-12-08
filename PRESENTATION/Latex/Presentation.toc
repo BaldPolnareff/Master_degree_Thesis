@@ -8,6 +8,6 @@
 \beamer@subsectionintoc {3}{2}{Distribuzione granulometrica}{57}{0}{3}
 \beamer@subsectionintoc {3}{3}{Stabilità termica}{61}{0}{3}
 \beamer@subsubsectionintoc {3}{3}{1}{Calorimetria Differenziale a Scansione}{61}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{2}{Analisi termogravimetrica}{62}{0}{3}
-\beamer@sectionintoc {4}{Stampa 3D}{63}{0}{4}
-\beamer@sectionintoc {5}{Conclusioni}{64}{0}{5}
+\beamer@subsubsectionintoc {3}{3}{2}{Analisi termogravimetrica}{74}{0}{3}
+\beamer@sectionintoc {4}{Stampa 3D}{81}{0}{4}
+\beamer@sectionintoc {5}{Conclusioni}{82}{0}{5}

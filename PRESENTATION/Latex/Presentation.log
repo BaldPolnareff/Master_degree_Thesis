@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.25)  8 DEC 2022 00:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.25)  8 DEC 2022 22:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1287,6 +1287,142 @@ Overfull \vbox (22.37921pt too high) detected at line 452
 
 ] [64
 
+] [65
+
+] [66
+
+]
+<Pictures/Vector/PDF/DSC/DSC.pdf, id=2067, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/DSC/DSC.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/DSC/DSC.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC.pdf  used on input line 540.
+(pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
+
+Overfull \vbox (22.37921pt too high) detected at line 540
+ []
+
+[67
+
+ <./Pictures/Vector/PDF/DSC/DSC.pdf>]
+<Pictures/Vector/PDF/DSC/DSC_heating.pdf, id=2094, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/DSC/DSC_heating.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/DSC/DSC_heating.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_heating.pdf  used on input line 540.
+(pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
+
+Overfull \vbox (22.37921pt too high) detected at line 540
+ []
+
+[68
+
+ <./Pictures/Vector/PDF/DSC/DSC_heating.pdf>]
+<Pictures/Vector/PDF/DSC/DSC_cooling.pdf, id=2135, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/DSC/DSC_cooling.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/DSC/DSC_cooling.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_cooling.pdf  used on input line 540.
+(pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
+
+Overfull \vbox (22.37921pt too high) detected at line 540
+ []
+
+[69
+
+ <./Pictures/Vector/PDF/DSC/DSC_cooling.pdf>]
+<Pictures/Vector/PDF/DSC/DSC_points-1.pdf, id=2164, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/DSC/DSC_points-1.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/DSC/DSC_points-1.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-1.pdf  used on input line 540.
+(pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
+
+Overfull \vbox (22.37921pt too high) detected at line 540
+ []
+
+[70
+
+ <./Pictures/Vector/PDF/DSC/DSC_points-1.pdf>]
+<Pictures/Vector/PDF/DSC/DSC_points-2.pdf, id=2193, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/DSC/DSC_points-2.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/DSC/DSC_points-2.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-2.pdf  used on input line 540.
+(pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
+
+Overfull \vbox (22.37921pt too high) detected at line 540
+ []
+
+[71
+
+ <./Pictures/Vector/PDF/DSC/DSC_points-2.pdf>]
+<Pictures/Vector/PDF/DSC/DSC_points-3.pdf, id=2223, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/DSC/DSC_points-3.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/DSC/DSC_points-3.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-3.pdf  used on input line 540.
+(pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
+
+Overfull \vbox (22.37921pt too high) detected at line 540
+ []
+
+[72
+
+ <./Pictures/Vector/PDF/DSC/DSC_points-3.pdf>]
+<Pictures/Vector/PDF/DSC/DSC_points-4.pdf, id=2260, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/DSC/DSC_points-4.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/DSC/DSC_points-4.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-4.pdf  used on input line 540.
+(pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
+
+Overfull \vbox (22.37921pt too high) detected at line 540
+ []
+
+[73
+
+ <./Pictures/Vector/PDF/DSC/DSC_points-4.pdf>] [74
+
+] [75
+
+] [76
+
+]
+<Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf, id=2306, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf  used on input line 581.
+(pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
+
+Overfull \vbox (22.37921pt too high) detected at line 581
+ []
+
+[77
+
+ <./Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf>]
+<Pictures/Vector/PDF/TGA/gTGA_derivative.pdf, id=2340, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/TGA/gTGA_derivative.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/TGA/gTGA_derivative.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/TGA/gTGA_derivative.pdf  used on input line 581.
+(pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
+
+Overfull \vbox (22.37921pt too high) detected at line 581
+ []
+
+[78
+
+ <./Pictures/Vector/PDF/TGA/gTGA_derivative.pdf>] [79
+
+]
+<Pictures/Vector/PDF/TGA/TGA_overlapped.pdf, id=2366, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/TGA/TGA_overlapped.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/TGA/TGA_overlapped.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/TGA/TGA_overlapped.pdf  used on input line 581.
+(pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
+
+Overfull \vbox (22.37921pt too high) detected at line 581
+ []
+
+[80
+
+ <./Pictures/Vector/PDF/TGA/TGA_overlapped.pdf>] [81
+
+] [82
+
 ]
 \tf@nav=\write6
 \openout6 = `Presentation.nav'.
@@ -1302,18 +1438,18 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 99CDBBA31512A87B6DB77D365FE60702;1628.
  ) 
 Here is how much of TeX's memory you used:
- 36765 strings out of 480852
- 867090 string characters out of 5906872
- 1240629 words of memory out of 6000000
- 53224 multiletter control sequences out of 15000+600000
- 415962 words of font info for 71 fonts, out of 8000000 for 9000
+ 36876 strings out of 480852
+ 870618 string characters out of 5906872
+ 1240683 words of memory out of 6000000
+ 53287 multiletter control sequences out of 15000+600000
+ 416318 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,18n,126p,1889b,2321s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on Presentation.pdf (64 pages, 48566207 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
+Output written on Presentation.pdf (82 pages, 48717801 bytes).
 PDF statistics:
- 2120 PDF objects out of 2487 (max. 8388607)
- 1487 compressed objects within 15 object streams
- 142 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2470 PDF objects out of 2487 (max. 8388607)
+ 1745 compressed objects within 18 object streams
+ 178 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 
