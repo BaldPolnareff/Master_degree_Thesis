@@ -584,7 +584,236 @@
 \section{Stampa 3D}
 
   \begin{frame}
+    \frametitle{Modellazione e Slicing}
+
+    DA FARE
+  
+    
+  
+  \end{frame}
+
+  \begin{frame}
     \frametitle{Setup}
+
+    \onslide*<1>{
+
+      \begin{figure}[h]
+        \centering
+        \caption{Sharebot SnowWhite$^2$}
+        \includegraphics[width=0.2\textwidth]{Pictures/Vector/PDF/sharebot_snowhite2.pdf}
+      \end{figure}
+    }
+
+    \onslide*<2>{
+        
+        \begin{figure}[h]
+          \centering
+          \caption{Touch UI}
+          \includegraphics[width=0.8\textwidth]{Pictures/Vector/PDF/Sharebot_GUI.pdf}
+        \end{figure}
+    }
+
+    \onslide*<3-6>{
+      \begin{center}
+        Quali sono i \textbf{parametri di stampa} fondamentali?
+      \end{center}
+    }
+
+    \begin{itemize}
+      \item <4-6> \textbf{Temperatura ambientale}
+      \item <5-6> \textbf{Temperatura del letto di polvere}
+      \item <6> \textbf{Potenza del laser}
+    \end{itemize}
+
+    \onslide*<4>{Ottimale tra 85 e 95 $ ^{\circ}C$, a seconda della geometria stampata}
+    \onslide*<5>{Deve rimanere all'interno della finestra di sinterizzazione}
+    \onslide*<6>{Ottimale tra 25 \% e il 35 \% della potenza massima (14 W), a seconda della geometria stampata}
+
+
+
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Risultati}
+
+    \onslide*<1>{
+
+      \begin{figure}[h]
+        \centering
+        \caption{Campioni DMA}
+        \includegraphics[width=0.6\textwidth]{Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf}
+      \end{figure}
+    }
+
+    \onslide*<2>{
+
+    \begin{figure}[h]
+      \centering
+      \includegraphics[width=0.4\textwidth]{Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf}
+    \end{figure}
+
+      Campioni prismatici, 15 e 10 layer rispettivamente (1.5 e 1.0 mm), stampati con potenza del 25 \% (3.5 W) a 90 $ ^{\circ}C$.
+    }
+
+    \onslide*<3>{
+
+      \begin{figure}[h]
+        \centering
+        \caption{Esagono con pattern intricato}
+        \includegraphics[width=0.4\textwidth]{Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf}
+      \end{figure}
+    }
+
+    \onslide*<4>{
+
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.25\textwidth]{Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf}
+      \end{figure}
+
+      Campione con trama sottile, 15 layer (1.5 mm), stampato con potenza del 35 \% (4.9 W) a 87 $ ^{\circ}C$.
+    }
+
+    \onslide*<5>{
+
+      \begin{figure}[h]
+        \centering
+        \caption{Imbarcazione con pareti sottili e curve}
+        \includegraphics[width=0.6\textwidth]{Pictures/Vector/PDF/Printed_parts/boat.pdf}
+      \end{figure}
+    }
+
+    \onslide*<6>{
+
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.4\textwidth]{Pictures/Vector/PDF/Printed_parts/boat.pdf}
+      \end{figure}
+
+      Campione con pareti sottili e curve, 50 layer (5 mm), stampato con potenza del 30 \% (4.20 W) a 90 $ ^{\circ}C$.
+    }
+
+    \onslide*<7>{
+
+      \begin{figure}[h]
+        \centering
+        \caption{Ottagono con bordo sottile e array di fori ottagonali}
+        \includegraphics[width=0.4\textwidth]{Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf}
+      \end{figure}
+    }
+
+    \onslide*<8>{
+
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.25\textwidth]{Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf}
+      \end{figure}
+
+      Campione con bordo sottile e array di fori ottagonali, 55 layer (5.5 mm), stampato con potenza del 35 \% (4.9 W) a 95 $ ^{\circ}C$.
+    }
+  
+    
+  
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Analisi Meccanica Dinamica}
+
+      \onslide*<1>{L'\textbf{analisi meccanica dinamica} (DMA) è un'analisi termica utilizzata per lo studio delle proprietà viscoelastiche dei materiali. \\ 
+      La prova è stata svolta applicando un carico sinusoidale di 1 N a 1 Hz su un campione di prova, al crescere della temperatura.}
+      \onslide*<2-6>{
+        \begin{center}
+          Quali caratteristiche fondamentali sono state analizzate?
+        \end{center}
+
+      }
+
+      \begin{itemize}
+        \item <3-6> Modulo di conservazione $E'$
+        \item <4-6> Modulo di perdita $E''$
+        \item <5-6> Fattore di smorzamento $tan \delta = \frac{E''}{E'}$
+        \item <6>  \textbf{Temperatura di transizione vetrosa $T_g$}
+
+      \end{itemize}
+
+      \onslide*<3>{Il modulo di conservazione è indice del comportamento elastico del materiale.}
+      \onslide*<4>{Il modulo di perdita è indice della dissipazione di energia sotto forma di calore.}
+      \onslide*<5>{Il fattore di smorzamento è il rapporto tra i due moduli.}
+      \onslide*<6>{La temperatura di transizione vetrosa è deducibile dal massimo della $tan \delta$, con maggiore precisione rispetto ad una DSC.}
+
+ 
+  
+    
+  
+  \end{frame}
+
+    \begin{frame}
+      \frametitle{Analisi Meccanica Dinamica}
+
+      \onslide*<1>{
+
+        \begin{figure}[h]
+          \centering
+          \caption{Prova DMA per un campione di PHBH stampato in SLS}
+          \includegraphics[width=0.6\textwidth]{Pictures/Vector/PDF/DMA.pdf}
+        \end{figure}
+
+      }
+
+      \onslide*<2>{
+
+        \begin{figure}[h]
+          \centering
+          \caption{Moduli}
+          \includegraphics[width=0.6\textwidth]{Pictures/Vector/PDF/DMA-1.pdf}
+        \end{figure}
+
+      }
+
+      \onslide*<3>{
+
+        \begin{figure}[h]
+          \centering
+          \caption{Temperatura di transizione vetrosa}
+          \includegraphics[width=0.6\textwidth]{Pictures/Vector/PDF/DMA-2.pdf}
+        \end{figure}
+
+      }
+    
+    
+    \end{frame}
+
+  \begin{frame}
+    \frametitle{Stabilità termica}
+
+    \onslide*<1>{A conferma dell'ottima stabilità termica del PHBH, è stata effettuata un'altra \textbf{analisi termogravimetrica}}
+
+    \onslide*<2>{
+
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.9\textwidth]{Pictures/Vector/PDF/TGA/TGA_final-1.pdf}
+      \end{figure}
+
+    }
+
+    \onslide*<3>{
+
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.9\textwidth]{Pictures/Vector/PDF/TGA/TGA_final-2.pdf}
+      \end{figure}
+
+    } 
+
+    \onslide*<4>{
+
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.9\textwidth]{Pictures/Vector/PDF/TGA/TGA_final-3.pdf}
+      \end{figure}
+
+    }
   
     
   

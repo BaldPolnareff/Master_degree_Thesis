@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'Cover.blg'
+[53] biber:340> INFO - === Fri Dec  9, 2022, 16:02:44
+[63] Biber.pm:418> INFO - Reading 'Cover.bcf'
+[115] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[126] bbl.pm:654> INFO - Writing 'Cover.bbl' with encoding 'UTF-8'
+[126] bbl.pm:757> INFO - Output to Cover.bbl
+[126] Biber.pm:130> WARN - The file 'Cover.bcf' does not contain any citations!
+[126] Biber.pm:132> INFO - WARNINGS: 1
