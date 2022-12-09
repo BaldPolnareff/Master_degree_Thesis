@@ -68,13 +68,15 @@
 \headcommand {\sectionentry {4}{Stampa 3D}{81}{Stampa 3D}{0}}
 \headcommand {\slideentry {4}{0}{1}{81/81}{}{0}}
 \headcommand {\beamer@framepages {81}{81}}
-\headcommand {\beamer@sectionpages {81}{81}}
-\headcommand {\beamer@subsectionpages {81}{81}}
-\headcommand {\sectionentry {5}{Conclusioni}{82}{Conclusioni}{0}}
-\headcommand {\slideentry {5}{0}{1}{82/82}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{82/82}{}{0}}
 \headcommand {\beamer@framepages {82}{82}}
-\headcommand {\beamer@partpages {1}{82}}
-\headcommand {\beamer@subsectionpages {82}{82}}
-\headcommand {\beamer@sectionpages {82}{82}}
-\headcommand {\beamer@documentpages {82}}
-\headcommand {\gdef \inserttotalframenumber {17}}
+\headcommand {\beamer@sectionpages {81}{82}}
+\headcommand {\beamer@subsectionpages {81}{82}}
+\headcommand {\sectionentry {5}{Conclusioni}{83}{Conclusioni}{0}}
+\headcommand {\slideentry {5}{0}{1}{83/83}{}{0}}
+\headcommand {\beamer@framepages {83}{83}}
+\headcommand {\beamer@partpages {1}{83}}
+\headcommand {\beamer@subsectionpages {83}{83}}
+\headcommand {\beamer@sectionpages {83}{83}}
+\headcommand {\beamer@documentpages {83}}
+\headcommand {\gdef \inserttotalframenumber {18}}
