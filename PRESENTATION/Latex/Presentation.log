@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.25)  9 DEC 2022 20:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.10.25)  9 DEC 2022 23:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -589,7 +589,232 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen282
 \beamer@dimb=\dimen283
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texlive/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropolis.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
+ (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count322
+ (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count323
+\c@listtotal=\count324
+\c@listcount=\count325
+\c@liststart=\count326
+\c@liststop=\count327
+\c@citecount=\count328
+\c@citetotal=\count329
+\c@multicitecount=\count330
+\c@multicitetotal=\count331
+\c@instcount=\count332
+\c@maxnames=\count333
+\c@minnames=\count334
+\c@maxitems=\count335
+\c@minitems=\count336
+\c@citecounter=\count337
+\c@maxcitecounter=\count338
+\c@savedcitecounter=\count339
+\c@uniquelist=\count340
+\c@uniquename=\count341
+\c@refsection=\count342
+\c@refsegment=\count343
+\c@maxextratitle=\count344
+\c@maxextratitleyear=\count345
+\c@maxextraname=\count346
+\c@maxextradate=\count347
+\c@maxextraalpha=\count348
+\c@abbrvpenalty=\count349
+\c@highnamepenalty=\count350
+\c@lownamepenalty=\count351
+\c@maxparens=\count352
+\c@parenlevel=\count353
+\blx@tempcnta=\count354
+\blx@tempcntb=\count355
+\blx@tempcntc=\count356
+\c@blx@maxsection=\count357
+\c@blx@maxsegment@0=\count358
+\blx@notetype=\count359
+\blx@parenlevel@text=\count360
+\blx@parenlevel@foot=\count361
+\c@blx@sectionciteorder@0=\count362
+\blx@entrysetcounter=\count363
+\blx@biblioinstance=\count364
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language3
+\c@mincomprange=\count365
+\c@maxcomprange=\count366
+\c@mincompwidth=\count367
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count368
+\c@savedafterword=\count369
+\c@annotator=\count370
+\c@savedannotator=\count371
+\c@author=\count372
+\c@savedauthor=\count373
+\c@bookauthor=\count374
+\c@savedbookauthor=\count375
+\c@commentator=\count376
+\c@savedcommentator=\count377
+\c@editor=\count378
+\c@savededitor=\count379
+\c@editora=\count380
+\c@savededitora=\count381
+\c@editorb=\count382
+\c@savededitorb=\count383
+\c@editorc=\count384
+\c@savededitorc=\count385
+\c@foreword=\count386
+\c@savedforeword=\count387
+\c@holder=\count388
+\c@savedholder=\count389
+\c@introduction=\count390
+\c@savedintroduction=\count391
+\c@namea=\count392
+\c@savednamea=\count393
+\c@nameb=\count394
+\c@savednameb=\count395
+\c@namec=\count396
+\c@savednamec=\count397
+\c@translator=\count398
+\c@savedtranslator=\count399
+\c@shortauthor=\count400
+\c@savedshortauthor=\count401
+\c@shorteditor=\count402
+\c@savedshorteditor=\count403
+\c@labelname=\count404
+\c@savedlabelname=\count405
+\c@institution=\count406
+\c@savedinstitution=\count407
+\c@lista=\count408
+\c@savedlista=\count409
+\c@listb=\count410
+\c@savedlistb=\count411
+\c@listc=\count412
+\c@savedlistc=\count413
+\c@listd=\count414
+\c@savedlistd=\count415
+\c@liste=\count416
+\c@savedliste=\count417
+\c@listf=\count418
+\c@savedlistf=\count419
+\c@location=\count420
+\c@savedlocation=\count421
+\c@organization=\count422
+\c@savedorganization=\count423
+\c@origlocation=\count424
+\c@savedoriglocation=\count425
+\c@origpublisher=\count426
+\c@savedorigpublisher=\count427
+\c@publisher=\count428
+\c@savedpublisher=\count429
+\c@language=\count430
+\c@savedlanguage=\count431
+\c@origlanguage=\count432
+\c@savedoriglanguage=\count433
+\c@pageref=\count434
+\c@savedpageref=\count435
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+\c@textcitecount=\count436
+\c@textcitetotal=\count437
+\c@textcitemaxnames=\count438
+\c@biburlbigbreakpenalty=\count439
+\c@biburlbreakpenalty=\count440
+\c@biburlnumpenalty=\count441
+\c@biburlucpenalty=\count442
+\c@biburllcpenalty=\count443
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count444
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count445
+\c@bbx:relatedtotal=\count446
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-05-07 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count447
+\l__pdf_internal_box=\box72
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2021-05-07 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropolis.sty
 Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
  (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
@@ -600,21 +825,21 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
  (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count322
-\calc@Bcount=\count323
+\calc@Acount=\count448
+\calc@Bcount=\count449
 \calc@Adimen=\dimen284
 \calc@Bdimen=\dimen285
-\calc@Askip=\skip64
-\calc@Bskip=\skip65
+\calc@Askip=\skip86
+\calc@Bskip=\skip87
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count324
-\calc@Cskip=\skip66
+\calc@Ccount=\count450
+\calc@Cskip=\skip88
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box72
+\pgfnodeparttextbox=\box73
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
@@ -634,7 +859,7 @@ Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count325
+\pgf@plot@mark@count=\count451
 \pgfplotmarksize=\dimen290
 )
 \tikz@lastx=\dimen291
@@ -645,35 +870,35 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@lastmovetoy=\dimen296
 \tikzleveldistance=\dimen297
 \tikzsiblingdistance=\dimen298
-\tikz@figbox=\box73
-\tikz@figbox@bg=\box74
-\tikz@tempbox=\box75
-\tikz@tempbox@bg=\box76
-\tikztreelevel=\count326
-\tikznumberofchildren=\count327
-\tikznumberofcurrentchild=\count328
-\tikz@fig@count=\count329
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count452
+\tikznumberofchildren=\count453
+\tikznumberofcurrentchild=\count454
+\tikz@fig@count=\count455
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count330
-\pgfmatrixcurrentcolumn=\count331
-\pgf@matrix@numberofcolumns=\count332
+\pgfmatrixcurrentrow=\count456
+\pgfmatrixcurrentcolumn=\count457
+\pgf@matrix@numberofcolumns=\count458
 )
-\tikz@expandcount=\count333
+\tikz@expandcount=\count459
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-\metropolis@titleseparator@linewidth=\skip67
-\metropolis@progressonsectionpage=\skip68
-\metropolis@progressonsectionpage@linewidth=\skip69
-\metropolis@blocksep=\skip70
-\metropolis@blockadjust=\skip71
-\metropolis@parskip=\skip72
+\metropolis@titleseparator@linewidth=\skip89
+\metropolis@progressonsectionpage=\skip90
+\metropolis@progressonsectionpage@linewidth=\skip91
+\metropolis@blocksep=\skip92
+\metropolis@blockadjust=\skip93
+\metropolis@parskip=\skip94
 ) (/usr/share/texlive/texmf-dist/tex/latex/beamertheme-metropolis/beamerouterthememetropolis.sty
 Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
-\metropolis@frametitle@padding=\skip73
-\metropolis@progressinheadfoot=\skip74
-\metropolis@progressinheadfoot@linewidth=\skip75
+\metropolis@frametitle@padding=\skip95
+\metropolis@progressinheadfoot=\skip96
+\metropolis@progressinheadfoot@linewidth=\skip97
 ) (/usr/share/texlive/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty
 Package: beamercolorthememetropolis 2017/01/23 Metropolis color theme
 ) (/usr/share/texlive/texmf-dist/tex/latex/beamertheme-metropolis/beamerfontthememetropolis.sty
@@ -698,12 +923,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen306
 \cmidrulekern=\dimen307
 \defaultaddspace=\dimen308
-\@cmidla=\count334
-\@cmidlb=\count335
+\@cmidla=\count460
+\@cmidlb=\count461
 \@aboverulesep=\dimen309
 \@belowrulesep=\dimen310
-\@thisruleclass=\count336
-\@lastruleclass=\count337
+\@thisruleclass=\count462
+\@lastruleclass=\count463
 \@thisrulewidth=\dimen311
 ) (/usr/share/texlive/texmf-dist/tex/latex/ccicons/ccicons.sty
 Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
@@ -713,7 +938,7 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@toks=\toks48
 \XKV@tempa@toks=\toks49
 )
-\XKV@depth=\count338
+\XKV@depth=\count464
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/08 v1.18 Data Visualization (1.18)
@@ -722,28 +947,28 @@ Package: pgfplots 2021/05/08 v1.18 Data Visualization (1.18)
 \t@pgfplots@tokb=\toks51
 \t@pgfplots@tokc=\toks52
 \pgfplots@tmpa=\dimen312
-\c@pgfplots@coordindex=\count339
-\c@pgfplots@scanlineindex=\count340
+\c@pgfplots@coordindex=\count465
+\c@pgfplots@scanlineindex=\count466
  (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count341
+\c@pgfplotsarray@tmp=\count467
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count342
+\c@pgfplotstable@counta=\count468
 \t@pgfplotstable@a=\toks53
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count343
+\c@pgfplotslibrarysurf@no=\count469
  (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen313
 \pgfdecoratedremainingdistance=\dimen314
 \pgfdecoratedinputsegmentcompleteddistance=\dimen315
 \pgfdecoratedinputsegmentremainingdistance=\dimen316
 \pgf@decorate@distancetomove=\dimen317
-\pgf@decorate@repeatstate=\count344
+\pgf@decorate@repeatstate=\count470
 \pgfdecorationsegmentamplitude=\dimen318
 \pgfdecorationsegmentlength=\dimen319
 )
-\tikz@lib@dec@box=\box77
+\tikz@lib@dec@box=\box78
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count345
+\pgfplots@numplots=\count471
 \pgfplots@xmin@reg=\dimen320
 \pgfplots@xmax@reg=\dimen321
 \pgfplots@ymin@reg=\dimen322
@@ -757,17 +982,17 @@ File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.dateplot.code.tex (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-\pgfcalendarcurrentjulian=\count346
-\pgf@cal@easter@Y=\count347
-\pgf@cal@easter@G=\count348
-\pgf@cal@easter@C=\count349
-\pgf@cal@easter@X=\count350
-\pgf@cal@easter@Z=\count351
-\pgf@cal@easter@D=\count352
-\pgf@cal@easter@E=\count353
-\pgf@cal@easter@N=\count354
-\pgf@cal@easter@M=\count355
-\pgf@cal@easter@julianday=\count356
+\pgfcalendarcurrentjulian=\count472
+\pgf@cal@easter@Y=\count473
+\pgf@cal@easter@G=\count474
+\pgf@cal@easter@C=\count475
+\pgf@cal@easter@X=\count476
+\pgf@cal@easter@Z=\count477
+\pgf@cal@easter@D=\count478
+\pgf@cal@easter@E=\count479
+\pgf@cal@easter@N=\count480
+\pgf@cal@easter@M=\count481
+\pgf@cal@easter@julianday=\count482
 ))) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
@@ -783,8 +1008,8 @@ Package caption Info: beamer document class detected.
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption-beamer.sto
 File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the beamer document classes (AR)
 ))
-\c@caption@flags=\count357
-\c@continuedfloat=\count358
+\c@caption@flags=\count483
+\c@continuedfloat=\count484
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
@@ -794,33 +1019,35 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks54
 \inpenc@posthook=\toks55
-) (/usr/share/texlive/texmf-dist/tex/latex/beamertheme-metropolis/pgfplotsthemetol.sty
+)
+
+Package biblatex Warning: Load 'inputenc' before biblatex.
+
+\@quotelevel=\count485
+\@quotereset=\count486
+(/usr/share/texlive/texmf-dist/tex/latex/beamertheme-metropolis/pgfplotsthemetol.sty
 Package: pgfplotsthemetol 2017/01/23 PGFplots colors based on Paul Tol's SRON technical note
-) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count359
-\l__pdf_internal_box=\box78
 ) (./Presentation.aux)
 \openout1 = `Presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -858,16 +1085,16 @@ LaTeX Font Info:    ... okay on input line 47.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count360
+\scratchcounter=\count487
 \scratchdimen=\dimen333
 \scratchbox=\box79
-\nofMPsegments=\count361
-\nofMParguments=\count362
+\nofMPsegments=\count488
+\nofMParguments=\count489
 \everyMPshowfont=\toks56
-\MPscratchCnt=\count363
+\MPscratchCnt=\count490
 \MPscratchDim=\dimen334
-\MPnumerator=\count364
-\makeMPintoPDFobject=\count365
+\MPnumerator=\count491
+\makeMPintoPDFobject=\count492
 \everyMPtoPDFconversion=\toks57
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -875,7 +1102,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 50.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -883,64 +1110,64 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count366
+\c@section@level=\count493
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
  (./Presentation.out) (./Presentation.out)
-\@outlinefile=\write5
-\openout5 = `Presentation.out'.
+\@outlinefile=\write6
+\openout6 = `Presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 47.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 47.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 50.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 47.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 47.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 47.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 47.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 47.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 47.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 47.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 47.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 47.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 47.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 47.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 47.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 47.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 47.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 47.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 47.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 47.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 50.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 50.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 47.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 50.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 47.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 50.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 47.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 50.
  (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -954,22 +1181,38 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `Presentation.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Presentation.bbl' found.
+ (./Presentation.bbl)
+Package biblatex Info: Reference section=0 on input line 50.
+Package biblatex Info: Reference segment=0 on input line 50.
+
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (./Presentation.nav)
-<Pictures/Vector/PDF/polito_logo.pdf, id=57, 915.42pt x 860.21387pt>
+<Pictures/Vector/PDF/polito_logo.pdf, id=61, 915.42pt x 860.21387pt>
 File: Pictures/Vector/PDF/polito_logo.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/polito_logo.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/polito_logo.pdf  used on input line 49.
+Package pdftex.def Info: Pictures/Vector/PDF/polito_logo.pdf  used on input line 52.
 (pdftex.def)             Requested size: 45.4105pt x 42.67912pt.
 
-Overfull \vbox (64.57918pt too high) detected at line 49
+Overfull \vbox (64.57918pt too high) detected at line 52
  []
 
 
-Overfull \vbox (15.63992pt too high) detected at line 49
+Overfull \vbox (15.63992pt too high) detected at line 52
  []
 
 [1
@@ -977,21 +1220,21 @@ Overfull \vbox (15.63992pt too high) detected at line 49
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictures/Vector/PDF/polito_logo.pdf>] (./Presentation.toc) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 57.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 60.
  (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [3
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 75.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 78.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [4
@@ -1003,10 +1246,10 @@ File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ] [7
 
 ]
-<Pictures/Vector/PDF/hand_bio.pdf, id=112, 533.99493pt x 533.99493pt>
+<Pictures/Vector/PDF/hand_bio.pdf, id=116, 533.99493pt x 533.99493pt>
 File: Pictures/Vector/PDF/hand_bio.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/hand_bio.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/hand_bio.pdf  used on input line 88.
+Package pdftex.def Info: Pictures/Vector/PDF/hand_bio.pdf  used on input line 91.
 (pdftex.def)             Requested size: 119.50279pt x 119.49997pt.
  [8
 
@@ -1019,10 +1262,10 @@ Package pdftex.def Info: Pictures/Vector/PDF/hand_bio.pdf  used on input line 88
 ] [12
 
 ]
-<Pictures/Vector/PDF/3d_printing.pdf, id=192, 449.82729pt x 449.82729pt>
+<Pictures/Vector/PDF/3d_printing.pdf, id=196, 449.82729pt x 449.82729pt>
 File: Pictures/Vector/PDF/3d_printing.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/3d_printing.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/3d_printing.pdf  used on input line 121.
+Package pdftex.def Info: Pictures/Vector/PDF/3d_printing.pdf  used on input line 124.
 (pdftex.def)             Requested size: 119.50279pt x 119.4988pt.
  [13
 
@@ -1047,13 +1290,13 @@ Package pdftex.def Info: Pictures/Vector/PDF/3d_printing.pdf  used on input line
 ] [23
 
 ]
-<Pictures/Vector/PDF/sintering_necks.pdf, id=252, 3854.4pt x 2168.1pt>
+<Pictures/Vector/PDF/sintering_necks.pdf, id=256, 3854.4pt x 2168.1pt>
 File: Pictures/Vector/PDF/sintering_necks.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/sintering_necks.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/sintering_necks.pdf  used on input line 186.
+Package pdftex.def Info: Pictures/Vector/PDF/sintering_necks.pdf  used on input line 189.
 (pdftex.def)             Requested size: 278.83578pt x 156.84413pt.
 
-Overfull \vbox (11.05406pt too high) detected at line 186
+Overfull \vbox (11.05406pt too high) detected at line 189
  []
 
 [24
@@ -1067,10 +1310,10 @@ Overfull \vbox (11.05406pt too high) detected at line 186
 ] [28
 
 ]
-<Pictures/Vector/PDF/phbh_molecule.pdf, id=285, 1001.65176pt x 323.85518pt>
+<Pictures/Vector/PDF/phbh_molecule.pdf, id=289, 1001.65176pt x 323.85518pt>
 File: Pictures/Vector/PDF/phbh_molecule.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/phbh_molecule.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/phbh_molecule.pdf  used on input line 224.
+Package pdftex.def Info: Pictures/Vector/PDF/phbh_molecule.pdf  used on input line 227.
 (pdftex.def)             Requested size: 199.1693pt x 64.39432pt.
  [29
 
@@ -1081,13 +1324,13 @@ Package pdftex.def Info: Pictures/Vector/PDF/phbh_molecule.pdf  used on input li
 ] [32
 
 ]
-<Pictures/Vector/PDF/flask.pdf, id=316, 2168.1pt x 2710.125pt>
+<Pictures/Vector/PDF/flask.pdf, id=320, 2168.1pt x 2710.125pt>
 File: Pictures/Vector/PDF/flask.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/flask.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/flask.pdf  used on input line 254.
+Package pdftex.def Info: Pictures/Vector/PDF/flask.pdf  used on input line 257.
 (pdftex.def)             Requested size: 119.50279pt x 149.36748pt.
 
-Overfull \vbox (76.57635pt too high) detected at line 254
+Overfull \vbox (76.57635pt too high) detected at line 257
  []
 
 [33
@@ -1099,50 +1342,50 @@ Overfull \vbox (76.57635pt too high) detected at line 254
 ] [36
 
 ]
-<Pictures/Vector/PDF/process_diagram_readapted.pdf, id=343, 1280.73439pt x 720.41412pt>
+<Pictures/Vector/PDF/process_diagram_readapted.pdf, id=347, 1280.73439pt x 720.41412pt>
 File: Pictures/Vector/PDF/process_diagram_readapted.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/process_diagram_readapted.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted.pdf  used on input line 343.
+Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted.pdf  used on input line 346.
 (pdftex.def)             Requested size: 318.67209pt x 179.24567pt.
  [37
 
  <./Pictures/Vector/PDF/process_diagram_readapted.pdf>]
-<Pictures/Vector/PDF/process_diagram_readapted-step1.pdf, id=370, 1280.73439pt x 720.41412pt>
+<Pictures/Vector/PDF/process_diagram_readapted-step1.pdf, id=374, 1280.73439pt x 720.41412pt>
 File: Pictures/Vector/PDF/process_diagram_readapted-step1.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/process_diagram_readapted-step1.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted-step1.pdf  used on input line 343.
+Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted-step1.pdf  used on input line 346.
 (pdftex.def)             Requested size: 318.67209pt x 179.24567pt.
  [38
 
  <./Pictures/Vector/PDF/process_diagram_readapted-step1.pdf>]
-<Pictures/Vector/PDF/process_diagram_readapted-step2.pdf, id=722, 1280.73439pt x 720.41412pt>
+<Pictures/Vector/PDF/process_diagram_readapted-step2.pdf, id=726, 1280.73439pt x 720.41412pt>
 File: Pictures/Vector/PDF/process_diagram_readapted-step2.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/process_diagram_readapted-step2.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted-step2.pdf  used on input line 343.
+Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted-step2.pdf  used on input line 346.
 (pdftex.def)             Requested size: 318.67209pt x 179.24567pt.
  [39
 
  <./Pictures/Vector/PDF/process_diagram_readapted-step2.pdf>]
-<Pictures/Vector/PDF/process_diagram_readapted-step3.pdf, id=1084, 1280.73439pt x 720.41412pt>
+<Pictures/Vector/PDF/process_diagram_readapted-step3.pdf, id=1088, 1280.73439pt x 720.41412pt>
 File: Pictures/Vector/PDF/process_diagram_readapted-step3.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/process_diagram_readapted-step3.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted-step3.pdf  used on input line 343.
+Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted-step3.pdf  used on input line 346.
 (pdftex.def)             Requested size: 318.67209pt x 179.24567pt.
  [40
 
  <./Pictures/Vector/PDF/process_diagram_readapted-step3.pdf>]
-<Pictures/Vector/PDF/process_diagram_readapted-step4.pdf, id=1155, 1280.73439pt x 720.41412pt>
+<Pictures/Vector/PDF/process_diagram_readapted-step4.pdf, id=1159, 1280.73439pt x 720.41412pt>
 File: Pictures/Vector/PDF/process_diagram_readapted-step4.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/process_diagram_readapted-step4.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted-step4.pdf  used on input line 343.
+Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted-step4.pdf  used on input line 346.
 (pdftex.def)             Requested size: 318.67209pt x 179.24567pt.
  [41
 
  <./Pictures/Vector/PDF/process_diagram_readapted-step4.pdf>]
-<Pictures/Vector/PDF/process_diagram_readapted-step5.pdf, id=1517, 1280.73439pt x 720.41412pt>
+<Pictures/Vector/PDF/process_diagram_readapted-step5.pdf, id=1521, 1280.73439pt x 720.41412pt>
 File: Pictures/Vector/PDF/process_diagram_readapted-step5.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/process_diagram_readapted-step5.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted-step5.pdf  used on input line 343.
+Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted-step5.pdf  used on input line 346.
 (pdftex.def)             Requested size: 318.67209pt x 179.24567pt.
  [42
 
@@ -1163,13 +1406,13 @@ Package pdftex.def Info: Pictures/Vector/PDF/process_diagram_readapted-step5.pdf
 ] [50
 
 ]
-<Pictures/Vector/PDF/SEM_fake.pdf, id=1911, 3854.4pt x 2168.1pt>
+<Pictures/Vector/PDF/SEM_fake.pdf, id=1915, 3854.4pt x 2168.1pt>
 File: Pictures/Vector/PDF/SEM_fake.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/SEM_fake.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/SEM_fake.pdf  used on input line 425.
+Package pdftex.def Info: Pictures/Vector/PDF/SEM_fake.pdf  used on input line 428.
 (pdftex.def)             Requested size: 358.50229pt x 201.63783pt.
 
-Overfull \vbox (16.96375pt too high) detected at line 425
+Overfull \vbox (16.96375pt too high) detected at line 428
  []
 
 [51
@@ -1177,13 +1420,13 @@ Overfull \vbox (16.96375pt too high) detected at line 425
  <./Pictures/Vector/PDF/SEM_fake.pdf>] [52
 
 ]
-<Pictures/Vector/PDF/DALLE.pdf, id=1927, 1027.83994pt x 1027.83994pt>
+<Pictures/Vector/PDF/DALLE.pdf, id=1931, 1027.83994pt x 1027.83994pt>
 File: Pictures/Vector/PDF/DALLE.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/DALLE.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/DALLE.pdf  used on input line 425.
+Package pdftex.def Info: Pictures/Vector/PDF/DALLE.pdf  used on input line 428.
 (pdftex.def)             Requested size: 159.333pt x 159.32922pt.
 
-Overfull \vbox (2.45505pt too high) detected at line 425
+Overfull \vbox (2.45505pt too high) detected at line 428
  []
 
 [53
@@ -1196,15 +1439,15 @@ Package epstopdf Info: Source file: <Pictures/Vector/PDF/SEM/04_02.eps>
 (epstopdf)                    date: 2022-12-07 20:45:13
 (epstopdf)                    size: 915008 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Vector/PDF/SEM/04_02-eps-converted-to.pdf Pictures/Vector/PDF/SEM/04_02.eps>
-(epstopdf)             \includegraphics on input line 425.
+(epstopdf)             \includegraphics on input line 428.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Vector/PDF/SEM/04_02-eps-converted-to.pdf, id=1938, 2312.64pt x 1571.8725pt>
+<Pictures/Vector/PDF/SEM/04_02-eps-converted-to.pdf, id=1942, 2312.64pt x 1571.8725pt>
 File: Pictures/Vector/PDF/SEM/04_02-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/SEM/04_02-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/SEM/04_02-eps-converted-to.pdf  used on input line 425.
+Package pdftex.def Info: Pictures/Vector/PDF/SEM/04_02-eps-converted-to.pdf  used on input line 428.
 (pdftex.def)             Requested size: 239.00558pt x 162.44913pt.
 
-Overfull \vbox (5.57495pt too high) detected at line 425
+Overfull \vbox (5.57495pt too high) detected at line 428
  []
 
 [54
@@ -1217,15 +1460,15 @@ Package epstopdf Info: Source file: <Pictures/Vector/PDF/SEM/sample_06.eps>
 (epstopdf)                    date: 2022-12-07 20:45:18
 (epstopdf)                    size: 1438800 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Vector/PDF/SEM/sample_06-eps-converted-to.pdf Pictures/Vector/PDF/SEM/sample_06.eps>
-(epstopdf)             \includegraphics on input line 425.
+(epstopdf)             \includegraphics on input line 428.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Vector/PDF/SEM/sample_06-eps-converted-to.pdf, id=1950, 2312.64pt x 1571.8725pt>
+<Pictures/Vector/PDF/SEM/sample_06-eps-converted-to.pdf, id=1954, 2312.64pt x 1571.8725pt>
 File: Pictures/Vector/PDF/SEM/sample_06-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/SEM/sample_06-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/SEM/sample_06-eps-converted-to.pdf  used on input line 425.
+Package pdftex.def Info: Pictures/Vector/PDF/SEM/sample_06-eps-converted-to.pdf  used on input line 428.
 (pdftex.def)             Requested size: 239.00558pt x 162.44913pt.
 
-Overfull \vbox (5.57495pt too high) detected at line 425
+Overfull \vbox (5.57495pt too high) detected at line 428
  []
 
 [55
@@ -1238,15 +1481,15 @@ Package epstopdf Info: Source file: <Pictures/Vector/PDF/SEM/sample_03.eps>
 (epstopdf)                    date: 2022-12-07 20:45:21
 (epstopdf)                    size: 1071228 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Vector/PDF/SEM/sample_03-eps-converted-to.pdf Pictures/Vector/PDF/SEM/sample_03.eps>
-(epstopdf)             \includegraphics on input line 425.
+(epstopdf)             \includegraphics on input line 428.
 Package epstopdf Info: Output file is already uptodate.
-<Pictures/Vector/PDF/SEM/sample_03-eps-converted-to.pdf, id=1963, 2312.64pt x 1571.8725pt>
+<Pictures/Vector/PDF/SEM/sample_03-eps-converted-to.pdf, id=1967, 2312.64pt x 1571.8725pt>
 File: Pictures/Vector/PDF/SEM/sample_03-eps-converted-to.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/SEM/sample_03-eps-converted-to.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/SEM/sample_03-eps-converted-to.pdf  used on input line 425.
+Package pdftex.def Info: Pictures/Vector/PDF/SEM/sample_03-eps-converted-to.pdf  used on input line 428.
 (pdftex.def)             Requested size: 239.00558pt x 162.44913pt.
 
-Overfull \vbox (5.57495pt too high) detected at line 425
+Overfull \vbox (5.57495pt too high) detected at line 428
  []
 
 [56
@@ -1256,25 +1499,25 @@ Overfull \vbox (5.57495pt too high) detected at line 425
 ] [58
 
 ]
-<Pictures/Vector/PDF/PSD.pdf, id=1985, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/PSD.pdf, id=1989, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/PSD.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/PSD.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/PSD.pdf  used on input line 452.
+Package pdftex.def Info: Pictures/Vector/PDF/PSD.pdf  used on input line 455.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 452
+Overfull \vbox (22.37921pt too high) detected at line 455
  []
 
 [59
 
  <./Pictures/Vector/PDF/PSD.pdf>]
-<Pictures/Vector/PDF/PSD_circularity.pdf, id=2006, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/PSD_circularity.pdf, id=2010, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/PSD_circularity.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/PSD_circularity.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/PSD_circularity.pdf  used on input line 452.
+Package pdftex.def Info: Pictures/Vector/PDF/PSD_circularity.pdf  used on input line 455.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 452
+Overfull \vbox (22.37921pt too high) detected at line 455
  []
 
 [60
@@ -1292,85 +1535,85 @@ Overfull \vbox (22.37921pt too high) detected at line 452
 ] [66
 
 ]
-<Pictures/Vector/PDF/DSC/DSC.pdf, id=2067, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/DSC/DSC.pdf, id=2071, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/DSC/DSC.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/DSC/DSC.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC.pdf  used on input line 540.
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC.pdf  used on input line 543.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 540
+Overfull \vbox (22.37921pt too high) detected at line 543
  []
 
 [67
 
  <./Pictures/Vector/PDF/DSC/DSC.pdf>]
-<Pictures/Vector/PDF/DSC/DSC_heating.pdf, id=2094, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/DSC/DSC_heating.pdf, id=2098, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/DSC/DSC_heating.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/DSC/DSC_heating.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_heating.pdf  used on input line 540.
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_heating.pdf  used on input line 543.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 540
+Overfull \vbox (22.37921pt too high) detected at line 543
  []
 
 [68
 
  <./Pictures/Vector/PDF/DSC/DSC_heating.pdf>]
-<Pictures/Vector/PDF/DSC/DSC_cooling.pdf, id=2135, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/DSC/DSC_cooling.pdf, id=2139, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/DSC/DSC_cooling.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/DSC/DSC_cooling.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_cooling.pdf  used on input line 540.
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_cooling.pdf  used on input line 543.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 540
+Overfull \vbox (22.37921pt too high) detected at line 543
  []
 
 [69
 
  <./Pictures/Vector/PDF/DSC/DSC_cooling.pdf>]
-<Pictures/Vector/PDF/DSC/DSC_points-1.pdf, id=2164, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/DSC/DSC_points-1.pdf, id=2168, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/DSC/DSC_points-1.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/DSC/DSC_points-1.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-1.pdf  used on input line 540.
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-1.pdf  used on input line 543.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 540
+Overfull \vbox (22.37921pt too high) detected at line 543
  []
 
 [70
 
  <./Pictures/Vector/PDF/DSC/DSC_points-1.pdf>]
-<Pictures/Vector/PDF/DSC/DSC_points-2.pdf, id=2193, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/DSC/DSC_points-2.pdf, id=2197, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/DSC/DSC_points-2.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/DSC/DSC_points-2.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-2.pdf  used on input line 540.
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-2.pdf  used on input line 543.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 540
+Overfull \vbox (22.37921pt too high) detected at line 543
  []
 
 [71
 
  <./Pictures/Vector/PDF/DSC/DSC_points-2.pdf>]
-<Pictures/Vector/PDF/DSC/DSC_points-3.pdf, id=2223, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/DSC/DSC_points-3.pdf, id=2227, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/DSC/DSC_points-3.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/DSC/DSC_points-3.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-3.pdf  used on input line 540.
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-3.pdf  used on input line 543.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 540
+Overfull \vbox (22.37921pt too high) detected at line 543
  []
 
 [72
 
  <./Pictures/Vector/PDF/DSC/DSC_points-3.pdf>]
-<Pictures/Vector/PDF/DSC/DSC_points-4.pdf, id=2260, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/DSC/DSC_points-4.pdf, id=2264, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/DSC/DSC_points-4.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/DSC/DSC_points-4.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-4.pdf  used on input line 540.
+Package pdftex.def Info: Pictures/Vector/PDF/DSC/DSC_points-4.pdf  used on input line 543.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 540
+Overfull \vbox (22.37921pt too high) detected at line 543
  []
 
 [73
@@ -1382,25 +1625,25 @@ Overfull \vbox (22.37921pt too high) detected at line 540
 ] [76
 
 ]
-<Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf, id=2306, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf, id=2310, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf  used on input line 581.
+Package pdftex.def Info: Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf  used on input line 584.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 581
+Overfull \vbox (22.37921pt too high) detected at line 584
  []
 
 [77
 
  <./Pictures/Vector/PDF/TGA/gTGA_noderivative.pdf>]
-<Pictures/Vector/PDF/TGA/gTGA_derivative.pdf, id=2340, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/TGA/gTGA_derivative.pdf, id=2344, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/TGA/gTGA_derivative.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/TGA/gTGA_derivative.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/TGA/gTGA_derivative.pdf  used on input line 581.
+Package pdftex.def Info: Pictures/Vector/PDF/TGA/gTGA_derivative.pdf  used on input line 584.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 581
+Overfull \vbox (22.37921pt too high) detected at line 584
  []
 
 [78
@@ -1408,128 +1651,168 @@ Overfull \vbox (22.37921pt too high) detected at line 581
  <./Pictures/Vector/PDF/TGA/gTGA_derivative.pdf>] [79
 
 ]
-<Pictures/Vector/PDF/TGA/TGA_overlapped.pdf, id=2366, 1445.4pt x 813.0375pt>
+<Pictures/Vector/PDF/TGA/TGA_overlapped.pdf, id=2370, 1445.4pt x 813.0375pt>
 File: Pictures/Vector/PDF/TGA/TGA_overlapped.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/TGA/TGA_overlapped.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/TGA/TGA_overlapped.pdf  used on input line 581.
+Package pdftex.def Info: Pictures/Vector/PDF/TGA/TGA_overlapped.pdf  used on input line 584.
 (pdftex.def)             Requested size: 318.67209pt x 179.25339pt.
 
-Overfull \vbox (22.37921pt too high) detected at line 581
+Overfull \vbox (22.37921pt too high) detected at line 584
  []
 
 [80
 
  <./Pictures/Vector/PDF/TGA/TGA_overlapped.pdf>] [81
 
-] [82
-
 ]
-<Pictures/Vector/PDF/sharebot_snowhite2.pdf, id=2395, 2020.7274pt x 4315.8476pt>
-File: Pictures/Vector/PDF/sharebot_snowhite2.pdf Graphic file (type pdf)
-<use Pictures/Vector/PDF/sharebot_snowhite2.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/sharebot_snowhite2.pdf  used on input line 634.
-(pdftex.def)             Requested size: 79.66649pt x 170.10204pt.
+<Pictures/Vector/PDF/3dprinting_diagram.pdf, id=2394, 2313.46315pt x 1439.37015pt>
+File: Pictures/Vector/PDF/3dprinting_diagram.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/3dprinting_diagram.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/3dprinting_diagram.pdf  used on input line 602.
+(pdftex.def)             Requested size: 298.75394pt x 185.87279pt.
 
-Overfull \vbox (66.62263pt too high) detected at line 634
+Overfull \vbox (28.99861pt too high) detected at line 602
+ []
+
+[82
+
+ <./Pictures/Vector/PDF/3dprinting_diagram.pdf>]
+<Pictures/Vector/PDF/octagon_3D.pdf, id=2514, 2168.1pt x 2168.1pt>
+File: Pictures/Vector/PDF/octagon_3D.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/octagon_3D.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/octagon_3D.pdf  used on input line 631.
+(pdftex.def)             Requested size: 199.1693pt x 199.15665pt.
+
+Overfull \vbox (14.48256pt too high) detected at line 631
  []
 
 [83
 
- <./Pictures/Vector/PDF/sharebot_snowhite2.pdf>]
+ <./Pictures/Vector/PDF/octagon_3D.pdf>]
+<Pictures/Vector/PDF/octagon_halfrender.pdf, id=2526, 2168.1pt x 2168.1pt>
+File: Pictures/Vector/PDF/octagon_halfrender.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/octagon_halfrender.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/octagon_halfrender.pdf  used on input line 631.
+(pdftex.def)             Requested size: 199.1693pt x 199.15665pt.
 
-pdfTeX warning: pdflatex (file ./Pictures/Vector/PDF/Sharebot_GUI.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/Vector/PDF/Sharebot_GUI.pdf, id=2408, 1240.635pt x 696.6025pt>
-File: Pictures/Vector/PDF/Sharebot_GUI.pdf Graphic file (type pdf)
-<use Pictures/Vector/PDF/Sharebot_GUI.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/Sharebot_GUI.pdf  used on input line 634.
-(pdftex.def)             Requested size: 318.67209pt x 178.92274pt.
-
-Overfull \vbox (75.44334pt too high) detected at line 634
+Overfull \vbox (14.48256pt too high) detected at line 631
  []
 
 [84
 
- <./Pictures/Vector/PDF/Sharebot_GUI.pdf>] [85
+ <./Pictures/Vector/PDF/octagon_halfrender.pdf>]
+<Pictures/Vector/PDF/octagon_render.pdf, id=2546, 2168.1pt x 2168.1pt>
+File: Pictures/Vector/PDF/octagon_render.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/octagon_render.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/octagon_render.pdf  used on input line 631.
+(pdftex.def)             Requested size: 199.1693pt x 199.15665pt.
 
-] [86
+Overfull \vbox (14.48256pt too high) detected at line 631
+ []
 
-] [87
+[85
 
-] [88
+ <./Pictures/Vector/PDF/octagon_render.pdf>]
+<Pictures/Vector/PDF/sharebot_snowhite2.pdf, id=2557, 2020.7274pt x 4315.8476pt>
+File: Pictures/Vector/PDF/sharebot_snowhite2.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/sharebot_snowhite2.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/sharebot_snowhite2.pdf  used on input line 672.
+(pdftex.def)             Requested size: 79.66649pt x 170.10204pt.
+
+Overfull \vbox (66.62263pt too high) detected at line 672
+ []
+
+[86
+
+ <./Pictures/Vector/PDF/sharebot_snowhite2.pdf>]
+
+pdfTeX warning: pdflatex (file ./Pictures/Vector/PDF/Sharebot_GUI.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/Vector/PDF/Sharebot_GUI.pdf, id=2570, 1240.635pt x 696.6025pt>
+File: Pictures/Vector/PDF/Sharebot_GUI.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/Sharebot_GUI.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/Sharebot_GUI.pdf  used on input line 672.
+(pdftex.def)             Requested size: 318.67209pt x 178.92274pt.
+
+Overfull \vbox (75.44334pt too high) detected at line 672
+ []
+
+[87
+
+ <./Pictures/Vector/PDF/Sharebot_GUI.pdf>] [88
+
+] [89
+
+] [90
+
+] [91
 
 ]
-<Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf, id=2463, 527.08154pt x 340.27995pt>
+<Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf, id=2625, 527.08154pt x 340.27995pt>
 File: Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf  used on input line 717.
+Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf  used on input line 755.
 (pdftex.def)             Requested size: 239.00558pt x 154.298pt.
- [89
+ [92
 
  <./Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf>]
 File: Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf  used on input line 717.
+Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf  used on input line 755.
 (pdftex.def)             Requested size: 159.333pt x 102.8636pt.
- [90
+ [93
 
 ]
-<Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf, id=2487, 485.358pt x 506.43146pt>
+<Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf, id=2649, 485.358pt x 506.43146pt>
 File: Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf  used on input line 717.
+Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf  used on input line 755.
 (pdftex.def)             Requested size: 159.333pt x 166.24968pt.
 
-Overfull \vbox (9.3755pt too high) detected at line 717
+Overfull \vbox (9.3755pt too high) detected at line 755
  []
 
-[91
+[94
 
  <./Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf>]
 File: Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf  used on input line 717.
+Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/organic_pattern.pdf  used on input line 755.
 (pdftex.def)             Requested size: 99.58464pt x 103.90411pt.
- [92
+ [95
 
 ]
-<Pictures/Vector/PDF/Printed_parts/boat.pdf, id=2511, 796.97664pt x 483.21152pt>
+<Pictures/Vector/PDF/Printed_parts/boat.pdf, id=2672, 796.97664pt x 483.21152pt>
 File: Pictures/Vector/PDF/Printed_parts/boat.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/Printed_parts/boat.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/boat.pdf  used on input line 717.
+Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/boat.pdf  used on input line 755.
 (pdftex.def)             Requested size: 239.00558pt x 144.90558pt.
- [93
+ [96
 
  <./Pictures/Vector/PDF/Printed_parts/boat.pdf>]
 File: Pictures/Vector/PDF/Printed_parts/boat.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/Printed_parts/boat.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/boat.pdf  used on input line 717.
+Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/boat.pdf  used on input line 755.
 (pdftex.def)             Requested size: 159.333pt x 96.60371pt.
- [94
+ [97
 
 ]
-<Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf, id=2534, 511.32811pt x 511.32811pt>
+<Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf, id=2696, 511.32811pt x 511.32811pt>
 File: Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf  used on input line 717.
+Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf  used on input line 755.
 (pdftex.def)             Requested size: 159.333pt x 159.33711pt.
 
-Overfull \vbox (2.46294pt too high) detected at line 717
+Overfull \vbox (2.46294pt too high) detected at line 755
  []
 
-[95
+[98
 
  <./Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf>]
 File: Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf  used on input line 717.
+Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf  used on input line 755.
 (pdftex.def)             Requested size: 99.58464pt x 99.57983pt.
- [96
-
-] [97
-
-] [98
-
-] [99
+ [99
 
 ] [100
 
@@ -1537,109 +1820,147 @@ Package pdftex.def Info: Pictures/Vector/PDF/Printed_parts/octagon_holes.pdf  us
 
 ] [102
 
+] [103
+
+] [104
+
+] [105
+
 ]
-<Pictures/Vector/PDF/DMA.pdf, id=2590, 718.90126pt x 496.04181pt>
+<Pictures/Vector/PDF/DMA.pdf, id=2752, 718.90126pt x 496.04181pt>
 File: Pictures/Vector/PDF/DMA.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/DMA.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/DMA.pdf  used on input line 784.
+Package pdftex.def Info: Pictures/Vector/PDF/DMA.pdf  used on input line 822.
 (pdftex.def)             Requested size: 239.00558pt x 164.9129pt.
 
-Overfull \vbox (8.03873pt too high) detected at line 784
+Overfull \vbox (8.03873pt too high) detected at line 822
  []
 
-[103
+[106
 
  <./Pictures/Vector/PDF/DMA.pdf>]
-<Pictures/Vector/PDF/DMA-1.pdf, id=2623, 718.90126pt x 496.04181pt>
+<Pictures/Vector/PDF/DMA-1.pdf, id=2784, 718.90126pt x 496.04181pt>
 File: Pictures/Vector/PDF/DMA-1.pdf Graphic file (type pdf)
 <use Pictures/Vector/PDF/DMA-1.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/DMA-1.pdf  used on input line 784.
+Package pdftex.def Info: Pictures/Vector/PDF/DMA-1.pdf  used on input line 822.
 (pdftex.def)             Requested size: 239.00558pt x 164.9129pt.
 
-Overfull \vbox (8.03873pt too high) detected at line 784
- []
-
-[104
-
- <./Pictures/Vector/PDF/DMA-1.pdf>]
-<Pictures/Vector/PDF/DMA-2.pdf, id=2657, 718.90126pt x 496.04181pt>
-File: Pictures/Vector/PDF/DMA-2.pdf Graphic file (type pdf)
-<use Pictures/Vector/PDF/DMA-2.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/DMA-2.pdf  used on input line 784.
-(pdftex.def)             Requested size: 239.00558pt x 164.9129pt.
-
-Overfull \vbox (8.03873pt too high) detected at line 784
- []
-
-[105
-
- <./Pictures/Vector/PDF/DMA-2.pdf>] [106
-
-]
-<Pictures/Vector/PDF/TGA/TGA_final-1.pdf, id=2716, 1445.4pt x 813.0375pt>
-File: Pictures/Vector/PDF/TGA/TGA_final-1.pdf Graphic file (type pdf)
-<use Pictures/Vector/PDF/TGA/TGA_final-1.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/TGA/TGA_final-1.pdf  used on input line 820.
-(pdftex.def)             Requested size: 358.50229pt x 201.65851pt.
-
-Overfull \vbox (16.98442pt too high) detected at line 820
+Overfull \vbox (8.03873pt too high) detected at line 822
  []
 
 [107
 
- <./Pictures/Vector/PDF/TGA/TGA_final-1.pdf>]
-<Pictures/Vector/PDF/TGA/TGA_final-2.pdf, id=2741, 1445.4pt x 813.0375pt>
-File: Pictures/Vector/PDF/TGA/TGA_final-2.pdf Graphic file (type pdf)
-<use Pictures/Vector/PDF/TGA/TGA_final-2.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/TGA/TGA_final-2.pdf  used on input line 820.
-(pdftex.def)             Requested size: 358.50229pt x 201.65851pt.
+ <./Pictures/Vector/PDF/DMA-1.pdf>]
+<Pictures/Vector/PDF/DMA-2.pdf, id=2818, 718.90126pt x 496.04181pt>
+File: Pictures/Vector/PDF/DMA-2.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/DMA-2.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/DMA-2.pdf  used on input line 822.
+(pdftex.def)             Requested size: 239.00558pt x 164.9129pt.
 
-Overfull \vbox (16.98442pt too high) detected at line 820
+Overfull \vbox (8.03873pt too high) detected at line 822
  []
 
 [108
 
- <./Pictures/Vector/PDF/TGA/TGA_final-2.pdf>]
-<Pictures/Vector/PDF/TGA/TGA_final-3.pdf, id=2764, 1445.4pt x 813.0375pt>
-File: Pictures/Vector/PDF/TGA/TGA_final-3.pdf Graphic file (type pdf)
-<use Pictures/Vector/PDF/TGA/TGA_final-3.pdf>
-Package pdftex.def Info: Pictures/Vector/PDF/TGA/TGA_final-3.pdf  used on input line 820.
-(pdftex.def)             Requested size: 358.50229pt x 201.65851pt.
-
-Overfull \vbox (16.98442pt too high) detected at line 820
- []
-
-[109
-
- <./Pictures/Vector/PDF/TGA/TGA_final-3.pdf>] [110
+ <./Pictures/Vector/PDF/DMA-2.pdf>] [109
 
 ]
-\tf@nav=\write6
-\openout6 = `Presentation.nav'.
+<Pictures/Vector/PDF/TGA/TGA_final-1.pdf, id=2878, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/TGA/TGA_final-1.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/TGA/TGA_final-1.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/TGA/TGA_final-1.pdf  used on input line 858.
+(pdftex.def)             Requested size: 358.50229pt x 201.65851pt.
 
-\tf@toc=\write7
-\openout7 = `Presentation.toc'.
+Overfull \vbox (16.98442pt too high) detected at line 858
+ []
 
-\tf@snm=\write8
-\openout8 = `Presentation.snm'.
+[110
+
+ <./Pictures/Vector/PDF/TGA/TGA_final-1.pdf>]
+<Pictures/Vector/PDF/TGA/TGA_final-2.pdf, id=2903, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/TGA/TGA_final-2.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/TGA/TGA_final-2.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/TGA/TGA_final-2.pdf  used on input line 858.
+(pdftex.def)             Requested size: 358.50229pt x 201.65851pt.
+
+Overfull \vbox (16.98442pt too high) detected at line 858
+ []
+
+[111
+
+ <./Pictures/Vector/PDF/TGA/TGA_final-2.pdf>]
+<Pictures/Vector/PDF/TGA/TGA_final-3.pdf, id=2926, 1445.4pt x 813.0375pt>
+File: Pictures/Vector/PDF/TGA/TGA_final-3.pdf Graphic file (type pdf)
+<use Pictures/Vector/PDF/TGA/TGA_final-3.pdf>
+Package pdftex.def Info: Pictures/Vector/PDF/TGA/TGA_final-3.pdf  used on input line 858.
+(pdftex.def)             Requested size: 358.50229pt x 201.65851pt.
+
+Overfull \vbox (16.98442pt too high) detected at line 858
+ []
+
+[112
+
+ <./Pictures/Vector/PDF/TGA/TGA_final-3.pdf>] [113
+
+] [114
+
+] [115
+
+] [116
+
+] [117
+
+] [118
+
+] [119
+
+] [120
+
+] [121
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 925.
+
+[122
+
+] [123
+
+
+] [124
+
+
+]
+\tf@nav=\write7
+\openout7 = `Presentation.nav'.
+
+\tf@toc=\write8
+\openout8 = `Presentation.toc'.
+
+\tf@snm=\write9
+\openout9 = `Presentation.snm'.
 
  (./Presentation.aux)
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 99CDBBA31512A87B6DB77D365FE60702;1628.
+(rerunfilecheck)             Checksum: 279EA4684E668E1E7D1B8A8AF3A9E9BF;1722.
+Package logreq Info: Writing requests to 'Presentation.run.xml'.
+\openout1 = `Presentation.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 37037 strings out of 480852
- 875100 string characters out of 5906872
- 1240924 words of memory out of 6000000
- 53379 multiletter control sequences out of 15000+600000
- 418467 words of font info for 80 fonts, out of 8000000 for 9000
+ 44202 strings out of 480852
+ 1020901 string characters out of 5906872
+ 1776941 words of memory out of 6000000
+ 60444 multiletter control sequences out of 15000+600000
+ 418936 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,18n,126p,1889b,2321s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on Presentation.pdf (110 pages, 60418946 bytes).
+ 128i,18n,126p,1889b,2317s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
+Output written on Presentation.pdf (124 pages, 88788058 bytes).
 PDF statistics:
- 2885 PDF objects out of 2984 (max. 8388607)
- 2053 compressed objects within 21 object streams
- 234 named destinations out of 1000 (max. 500000)
- 336 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3129 PDF objects out of 3580 (max. 8388607)
+ 2224 compressed objects within 23 object streams
+ 269 named destinations out of 1000 (max. 500000)
+ 364 words of extra memory for PDF output out of 10000 (max. 10000000)
 

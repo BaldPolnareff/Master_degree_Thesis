@@ -1,0 +1,238 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{AM_design_review}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c079bf85ec4611c5e789b2198218dd1d}{%
+           family={A.\bibnamedelimi Alfaify},
+           familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={F.M.\bibnamedelimi Abdullah},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           suffix={M.\bibnamedelimi Saleh},
+           suffixi={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=bba38b3bfc82c1945ce59c6eb124f1fb}{%
+           family={Al-Ahmari},
+           familyi={A\bibinithyphendelim A\bibinitperiod},
+           given={A.M.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{19059eb92b656b0f5dd2db22135bdb6c}
+      \strng{fullhash}{19059eb92b656b0f5dd2db22135bdb6c}
+      \strng{bibnamehash}{19059eb92b656b0f5dd2db22135bdb6c}
+      \strng{authorbibnamehash}{19059eb92b656b0f5dd2db22135bdb6c}
+      \strng{authornamehash}{19059eb92b656b0f5dd2db22135bdb6c}
+      \strng{authorfullhash}{19059eb92b656b0f5dd2db22135bdb6c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{title}{Design for Additive Manufacturing: A Systematic Review}
+      \field{volume}{12}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.3390/su12197936
+      \endverb
+    \endentry
+    \entry{Padovano_SLS_Review}{article}{}
+      \name{author}{1}{}{%
+        {{hash=082dd4eecb157591e416f836aefc4a82}{%
+           family={Badini},
+           familyi={B\bibinitperiod},
+           given={Federico\bibnamedelimb Lupone;\bibnamedelimb Elisa\bibnamedelimb Padovano;\bibnamedelimb Francesco\bibnamedelimb Casamento;\bibnamedelima Claudio},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{fullhash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{bibnamehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{authorbibnamehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{authornamehash}{082dd4eecb157591e416f836aefc4a82}
+      \strng{authorfullhash}{082dd4eecb157591e416f836aefc4a82}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials}
+      \field{title}{Process Phenomena and Material Properties in Selective Laser Sintering of Polymers: A Review}
+      \field{year}{2021}
+    \endentry
+    \entry{DechetMaximilianA2020OtDo}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8b18ddd92993dbc85eda5e4a7525c146}{%
+           family={Dechet},
+           familyi={D\bibinitperiod},
+           given={Maximilian\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=96b5dbb1e0b7434389230a521dea46bb}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V}%
+      }
+      \strng{namehash}{72f3babcc0f6b63717533647620478a7}
+      \strng{fullhash}{72f3babcc0f6b63717533647620478a7}
+      \strng{bibnamehash}{72f3babcc0f6b63717533647620478a7}
+      \strng{authorbibnamehash}{72f3babcc0f6b63717533647620478a7}
+      \strng{authornamehash}{72f3babcc0f6b63717533647620478a7}
+      \strng{authorfullhash}{72f3babcc0f6b63717533647620478a7}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this contribution, some aspects of the development of powder bed fusion (PBF) feedstock powders via the solution-dissolution process, also known as precipitation, are exemplary addressed based on the authors' own work. The development is based on the selection of an appropriate polymer-solvent system, followed by the investigation of the cloud point diagram. After identification of a polymer-solvent system for precipitation, process-product relations, i.e. the influence of stirring, concentration and thermal regime on particle size distribution and shape, can be assessed. Via thorough product characterization concerning, amongst others, flowability and thermal properties, not only applicable PBF process parameters, but also necessary in-situ additive-enhancement with thermal stabilizers or post-processing with flow aids can be derived.}
+      \field{issn}{2212-8271}
+      \field{journaltitle}{Procedia CIRP}
+      \field{title}{On the Development of Polymer Particles for Laser Powder Bed Fusion via Precipitation}
+      \field{volume}{94}
+      \field{year}{2020}
+      \field{pages}{95\bibrangedash 99}
+      \range{pages}{5}
+      \keyw{Additive Manufacturing ; Feedstock ; Particles ; Polymers ; Powder bed fusion ; Precipitation}
+    \endentry
+    \entry{Messori_Bondioli_PHAs}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d284d0c24a1e7d5da8b2082876199166}{%
+           family={Giubilini},
+           familyi={G\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9b34388e22c92e437614f5b33716d7e8}{%
+           family={Bondioli},
+           familyi={B\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=dddc74c273b151ee218a38a5103a707f}{%
+           family={Messori},
+           familyi={M\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2955225dad661d6fa8886d1552d85b1a}{%
+           family={Nyström},
+           familyi={N\bibinitperiod},
+           given={Gustav},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9e80da04365e2fbe23ff3c74b4f69d11}{%
+           family={Siqueira},
+           familyi={S\bibinitperiod},
+           given={Gilberto},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{fullhash}{f00d36acffa8362e004ff394790319ad}
+      \strng{bibnamehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{authorbibnamehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{authornamehash}{ce1f55ef6d07760fc4ade645661e4000}
+      \strng{authorfullhash}{f00d36acffa8362e004ff394790319ad}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In recent years, biopolymers have been attracting the attention of researchers and specialists from different fields, including biotechnology, material science, engineering, and medicine. The reason is the possibility of combining sustainability with scientific and technological progress. This is an extremely broad research topic, and a distinction has to be made among different classes and types of biopolymers. Polyhydroxyalkanoate (PHA) is a particular family of polyesters, synthetized by microorganisms under unbalanced growth conditions, making them both bio-based and biodegradable polymers with a thermoplastic behavior. Recently, PHAs were used more intensively in biomedical applications because of their tunable mechanical properties, cytocompatibility, adhesion for cells, and controllable biodegradability. Similarly, the 3D-printing technologies show increasing potential in this particular field of application, due to their advantages in tailor-made design, rapid prototyping, and manufacturing of complex structures. In this review, first, the synthesis and the production of PHAs are described, and different production techniques of medical implants are compared. Then, an overview is given on the most recent and relevant medical applications of PHA for drug delivery, vessel stenting, and tissue engineering. A special focus is reserved for the innovations brought by the introduction of additive manufacturing in this field, as compared to the traditional techniques. All of these advances are expected to have important scientific and commercial applications in the near future.}
+      \field{issn}{2306-5354}
+      \field{journaltitle}{Bioengineering}
+      \field{number}{2}
+      \field{title}{Advantages of Additive Manufacturing for Biomedical Applications of Polyhydroxyalkanoates}
+      \field{volume}{8}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.3390/bioengineering8020029
+      \endverb
+    \endentry
+    \entry{Solutions_plastic_pollution}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c76f3a8c048e85411d5f167f60dafc54}{%
+           family={J.\bibnamedelimi Nikiema},
+           familyi={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Z.\bibnamedelimi Asiedu},
+           giveni={Z\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c76f3a8c048e85411d5f167f60dafc54}
+      \strng{fullhash}{c76f3a8c048e85411d5f167f60dafc54}
+      \strng{bibnamehash}{c76f3a8c048e85411d5f167f60dafc54}
+      \strng{authorbibnamehash}{c76f3a8c048e85411d5f167f60dafc54}
+      \strng{authornamehash}{c76f3a8c048e85411d5f167f60dafc54}
+      \strng{authorfullhash}{c76f3a8c048e85411d5f167f60dafc54}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Science and Pollution Research}
+      \field{title}{A review of the cost and effectiveness of solutions to address plastic pollution}
+      \field{volume}{29}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1007/s11356-021-18038-5
+      \endverb
+    \endentry
+    \entry{SLS_3dprinting_biomedical_polymers}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1eca5b1be9dfb82bc563124caf786b9d}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a61a62b555518f9d45d1262ecfa04fc4}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c2490bbe7619d4f6ab356db1243d0ede}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=846f5daf861748af3cff8500355fae0d}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Chinese}%
+      }
+      \strng{namehash}{f6a0804d7ce72d2a3b5497ff48d535b4}
+      \strng{fullhash}{17f696780bee057cbfbf5c4949632055}
+      \strng{bibnamehash}{f6a0804d7ce72d2a3b5497ff48d535b4}
+      \strng{authorbibnamehash}{f6a0804d7ce72d2a3b5497ff48d535b4}
+      \strng{authornamehash}{f6a0804d7ce72d2a3b5497ff48d535b4}
+      \strng{authorfullhash}{17f696780bee057cbfbf5c4949632055}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gaofenzi Cailiao Kexue Yu Gongcheng/Polymeric Materials Science and Engineering}
+      \field{number}{3}
+      \field{title}{Selective laser sintering 3D printing of biomedical polymer materials}
+      \field{volume}{32}
+      \field{year}{2016}
+      \field{pages}{178\bibrangedash 183}
+      \range{pages}{6}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

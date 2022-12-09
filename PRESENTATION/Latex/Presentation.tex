@@ -1,4 +1,5 @@
 \documentclass[15pt, aspectratio=169]{beamer}
+\usepackage[backend=biber]{biblatex}
 
 \usetheme[progressbar=frametitle]{metropolis}
 \usepackage{appendixnumberbeamer}
@@ -34,6 +35,8 @@
 \setlength{\metropolis@progressonsectionpage@linewidth}{2pt}
 \setlength{\metropolis@progressinheadfoot@linewidth}{2pt}
 \makeatother
+
+\addbibresource{/home/giorgio/Bibliography/bibliography.bib}
 
 
 \title{Preparazione di polvere di biopolimeri}
@@ -586,11 +589,46 @@
   \begin{frame}
     \frametitle{Modellazione e Slicing}
 
-    DA FARE
-  
-    
+    \onslide*<1>{
+      \begin{figure}[h]
+        \centering
+        \caption{Workflow di modellazione e slicing}
+        \includegraphics[width=0.75\textwidth]{Pictures/Vector/PDF/3dprinting_diagram.pdf}
+        
+      \end{figure}
+    }
+
   
   \end{frame}
+
+    \begin{frame}
+      \frametitle{Modellazione e Slicing}
+
+      \onslide*<1>{
+        \begin{figure}[h]
+          \centering
+          \includegraphics[width=0.5\textwidth]{Pictures/Vector/PDF/octagon_3D.pdf}
+        \end{figure}
+      }   
+  
+      \onslide*<2>{
+        \begin{figure}[h]
+          \centering
+          \includegraphics[width=0.5\textwidth]{Pictures/Vector/PDF/octagon_halfrender.pdf}
+        \end{figure}
+      }
+  
+      \onslide*<3>{
+        \begin{figure}[h]
+          \centering
+          \includegraphics[width=0.5\textwidth]{Pictures/Vector/PDF/octagon_render.pdf}
+        \end{figure}
+      }
+    
+    
+      
+    
+    \end{frame}
 
   \begin{frame}
     \frametitle{Setup}
@@ -822,8 +860,69 @@
 
 \section{Conclusioni}
 
+  \begin{frame}
+    \frametitle{Innovazione}
+  
+      \onslide*<1-5>{
+        \begin{center}
+          Risultati ottenuti ben oltre le aspettative ed estremamente \textbf{innovativi}:
+        \end{center}
+      }
+
+      \begin{itemize}
+        \item <2-5> Produzione di polvere di PHBH ad \textbf{alto rendimento} ed SLS ready
+        \item <3-5> Riproducibilità e \textbf{scalabilità} della produzione di polvere
+        \item <4-5> Stampa \textbf{SLS} di elevata risoluzione e con ottima \textbf{stabilità termica}
+        \item <5>   Enorme \textbf{potenziale applicativo} 
+        
+        \end{itemize}
+  
+  \end{frame}
+
+    \begin{frame}
+      \frametitle{Pubblicazione}
+
+      \onslide*<1-2>{
+        \begin{center}
+          Il lavoro è parte di una pubblicazione, al momento in peer review, per la rivista \textbf{Materials Today Sustainability}:
+        \end{center}
+      }
+
+      \onslide*<2>{
+        \begin{center}  
+          \textit{Novel 3D Printable Bio-based and Biodegradable Poly(3-hydroxybutyrate-co-3-
+          hydroxyhexanoate) Microspheres for Selective Laser Sintering Applications} \\ 
+
+          
+          A. Giubilini, G. Colucci, G. De Trane, F. Lupone, C. Badini, P. Minetola, F. Bondioli, M. Messori
+        \end{center}
+      
+      }
+    
+      
+    
+    \end{frame}
+
+    {\setbeamercolor{palette primary}{fg=black, bg=white}
+      \begin{frame}[standout]
+        Grazie per l'attenzione
+      \end{frame}
+    }
 
 
+
+    \begin{frame}[allowframebreaks]{Bibliografia}
+    
+        \nocite{Padovano_SLS_Review}
+        \nocite{SLS_3dprinting_biomedical_polymers}
+        \nocite{Messori_Bondioli_PHAs}
+        \nocite{Solutions_plastic_pollution}
+        \nocite{AM_design_review}
+        \nocite{DechetMaximilianA2020OtDo}
+        \printbibliography
+
+    
+    \end{frame}
 
 
 
