@@ -18,6 +18,10 @@
 
 \usepackage[labelformat=empty]{caption}
 
+%\usepackage[dvipsnames]{xcolor}
+%\definecolor{Background}{HTML}{F0F0F0}
+%\definecolor{Foreground}{HTML}{23373B}
+
 
 
 
@@ -58,11 +62,16 @@
 
 
 \section{Introduzione}
-  \subsection{Obiettivo}
+  \subsection{Obiettivi}
 
-  \begin{frame}{Obiettivo}
+  \begin{frame}{Obiettivi}
 
-    \onslide+<1-4>{Qual è lo scopo di questa tesi?}
+    \onslide+<1-4>{
+      \begin{center}
+        \alert<1>{Qual è lo scopo di questa tesi?}
+      \end{center}
+    
+    }
 
     
     \begin{itemize}
@@ -165,7 +174,11 @@
   \begin{frame}
     \frametitle{Selective Laser Sintering}
 
-    \onslide*<1>{\alert<1>{Cosa è il Selective Laser Sintering?}}
+    \onslide*<1>{
+      \begin{center}
+        \alert<1>{Cosa è il Selective Laser Sintering?}
+      \end{center}
+      }
   
     \onslide*<2->{L'\textbf{SLS} 
     è una tecnologia di produzione additiva che impiega un laser per \alert<3>{sinterizzare} delle particelle 
@@ -224,6 +237,12 @@
         
       \end{figure}
     }
+
+    \onslide*<6>{
+      %\begin{center}
+          Copolimero della famiglia dei poliidrossialcanoati (PHA), con la più ampia finestra di sinterizzazione e potenziale per SLS
+      %\end{center}
+    }
   \end{frame}
 \section{Produzione della polvere}
 
@@ -248,10 +267,15 @@
           
         }
 
+        \onslide<4-7>{
+          \begin{center}
+            \alert<4>{Quali sono i vantaggi?}
+          \end{center}
+        }
         \begin{itemize}
-          \item <4-6> Rendimenti più alti rispetto alla macinatura criogenica
-          \item <5-6> Polveri con una distribuzione di dimensioni più uniforme
-          \item <6> Polveri con morfologia adeguata per l'SLS
+          \item <5-7> \textbf{Rendimenti più alti} rispetto alla macinatura criogenica
+          \item <6-7> Polveri con una \textbf{distribuzione} di dimensioni più \textbf{uniforme}
+          \item <7> Polveri con \textbf{morfologia} adeguata per l'\textbf{SLS}
         \end{itemize}
         
       \end{frame}
@@ -305,10 +329,10 @@
         }
         \onslide*<7>{
           \begin{center}
-            Qual è la \textbf{resa} del processo di precipitazione?
+            \alert{Qual è la resa del processo di precipitazione?}
           \end{center}
         }
-        \onslide*<8>{
+        \onslide*<8->{
           
           \begin{figure}[h!]
             \centering
@@ -329,9 +353,9 @@
                 nodes near coords,
               ]
         
-              \addplot plot coordinates {(-0.01, 1)};
-              \addplot plot coordinates {(0, 30)};
-              \addplot plot coordinates {(0.01, 75)};
+              \onslide*<8->{\addplot plot coordinates {(-0.01, 1)};} 
+              \onslide*<9->{\addplot plot coordinates {(0, 30)};}    
+              \onslide*<10>{\addplot plot coordinates {(0.01, 75)};}
         
               \legend{Day 1, Previous research, Current}
         
@@ -349,21 +373,21 @@
     \begin{frame}{Requisiti della polvere}
         \onslide*<1>{
         \begin{center}
-          Quali sono i \textbf{requisiti} fondamentali per una polvere SLS ready?
+          \alert<1>{Quali sono i requisiti fondamentali per una polvere SLS ready?}
         \end{center}  
         }
 
         \begin{itemize}
-          \item <2-> Granulometria
-          \item <3-> Morfologia
-          \item <4> Stabilità termica
+          \item <2->  \textbf{Granulometria}
+          \item <3->  \textbf{Morfologia}
+          \item <4>   \textbf{Stabilità termica}
           
           
         \end{itemize}
 
-        \onslide*<2>{La polvere deve avere una distribuzione media tra 20 e 80 $\mu m$}
-        \onslide*<3>{Le particelle devono essere sferiche, non vuote, per consentire la formazione efficace di colli di sinterizzazione}
-        \onslide*<4>{La polvere deve rimanere termicamente inalterata durante la stampa}
+        \onslide*<2>{La polvere deve avere una distribuzione media tra \textbf{20 e 80 $\mu m$}}
+        \onslide*<3>{Le particelle devono essere \textbf{sferiche}, non vuote, per consentire la formazione efficace di \textbf{colli di sinterizzazione}}
+        \onslide*<4>{La polvere deve rimanere \textbf{termicamente inalterata} durante la stampa}
 
       \end{frame}
 
@@ -375,23 +399,29 @@
     \begin{frame}
       \frametitle{Microscopia a Scansione Elettronica}
 
-      \onslide*<1>{La microscopia a scansione elettronica (\textbf{SEM}) è un metodo di analisi che permette di ricostruire la morfologia di una superficie in 3D, sfruttando l'emissione di 
+      \onslide*<1>{
+        \begin{center}
+          \alert<1>{Microscopia a Scansione Elettronica}
+        \end{center}
+      }
+
+      \onslide*<2>{La microscopia a scansione elettronica (\textbf{SEM}) è un metodo di analisi che permette di ricostruire la morfologia di una superficie in 3D, sfruttando l'emissione di 
       \textbf{elettroni secondari} da un campione sottoposto ad un fascio di elettroni.}
 
-      \onslide*<2>{
+      \onslide*<3>{
         \begin{figure}[h]
           \centering
           \includegraphics[width=0.9\textwidth]{Pictures/Vector/PDF/SEM_fake.pdf}
         \end{figure}
       }
 
-      \onslide*<3>{
+      \onslide*<4>{
         \begin{center}
-          Come dovrebbe apparire una polvere SLS ideale?
+          \alert{Come dovrebbe apparire una polvere SLS ideale?}
         \end{center}
       }
 
-      \onslide*<4>{
+      \onslide*<5>{
         \begin{figure}[h]
           \centering
           \caption{DALLE-2 Prompt: \textit{Round particles seen through a SEM microscope}}
@@ -399,7 +429,7 @@
         \end{figure}
       }
       
-      \onslide*<5>{
+      \onslide*<6>{
 
         \begin{figure}[h]
           \centering
@@ -408,7 +438,7 @@
         \end{figure}
       }
 
-      \onslide*<6>{
+      \onslide*<7>{
         \begin{figure}[h]
           \centering
           \caption{MAG: 400X}
@@ -416,7 +446,7 @@
         \end{figure}
       }
 
-      \onslide*<7>{
+      \onslide*<8>{
         \begin{figure}[h]
           \centering
           \caption{MAG: 800X}
@@ -431,11 +461,17 @@
     \begin{frame}
       \frametitle{Distribuzione granulometrica}
 
-      \onslide*<1>{La distribuzione ideale descritta in letteratura per la polvere SLS è tra \textbf{20} e \textbf{80 $\mu m$}}
+      \onslide*<1>{
+        \begin{center}
+          \alert<1>{Qual è la distribuzione granulometrica della polvere ottenuta?}
+        \end{center}
+      }
 
-      \onslide*<2>{I risultati ottenuti per \textbf{z-stack defocusing} di immagini in microscopia ottica (10X) confermano quanto già osservato con la microscopia a scansione elettronica}
+      \onslide*<2>{La distribuzione ideale descritta in letteratura per la polvere SLS è tra \textbf{20} e \textbf{80 $\mu m$}}
 
-      \onslide*<3>{
+      \onslide*<3>{I risultati ottenuti per \textbf{z-stack defocusing} di immagini in microscopia ottica (10X) confermano quanto già osservato con la microscopia a scansione elettronica}
+
+      \onslide*<4>{
         \begin{figure}[h]
           \centering
           \caption{Particle size distribution}
@@ -443,7 +479,15 @@
         \end{figure}
       }
 
-      \onslide*<4>{
+      \onslide*<5>{
+        \begin{figure}[h]
+          \centering
+          \caption{Particle circularity}
+          \includegraphics[width=0.8\textwidth]{Pictures/Vector/PDF/PSD_circularity-0.pdf}
+        \end{figure}
+      }
+
+      \onslide*<6>{
         \begin{figure}[h]
           \centering
           \caption{Particle circularity}
@@ -456,12 +500,30 @@
 
     \subsection{Stabilità termica}
 
+
+    \begin{frame}
+      \frametitle{Stabilità termica}
+
+      \onslide*<1>{
+        \begin{center}
+          \alert<1>{Quali sono le caratteristiche termiche della polvere ottenuta?}
+        \end{center}
+        }
+      
+      \onslide*<2->{La polvere è stata sottoposta a due analisi fondamentali:}
+
+      \begin{itemize}
+        \item <3-> \textbf{Calorimetria Differenziale a Scansione}
+        \item <4>  \textbf{Analisi Termogravimetrica}
+      \end{itemize}
+    
+    \end{frame}
       \subsubsection{Calorimetria Differenziale a Scansione}
 
         \begin{frame}
           \frametitle{Calorimetria Differenziale a Scansione}
 
-          \onslide*<1>{La calorimetria differenziale a scansione (\textbf{DSC}) è un metodo di analisi che permette di studiare la variazione di energia di un campione sottoposto ad un aumento graduale di temperatura.}
+          \onslide*<1>{La calorimetria differenziale a scansione (\textbf{DSC}) è un metodo di analisi che permette di studiare la variazione di energia di un campione sottoposto ad un aumento e decremento graduale di temperatura.}
           \onslide*<2->{
             \begin{center}
               Cosa permette di individuare nei \textbf{polimeri}?
@@ -478,7 +540,8 @@
         \begin{frame}
           \frametitle{DSC}
         
-          \onslide*<1>{La prova è stata svolta in \textit{aria} in un intervallo di temperatura da \textit{-50 a 180 $ ^{\circ}C$}, su campioni di \textbf{polvere} e \textbf{pellet}.}
+          \onslide*<1>{La prova è stata svolta in \textit{aria} in un intervallo di temperatura da \textit{-50 a 180 $ ^{\circ}C$}, su campioni di \textbf{polvere} e \textbf{pellet}, con una rampa 
+          di riscaldamento di \textit{10 $ ^{\circ}C$/min}}
 
           \onslide*<2>{
             \begin{figure}[h]
@@ -568,7 +631,7 @@
 
           \onslide*<6>{
             \begin{center}
-              Come si comporta la \textbf{polvere} rispetto al \textbf{pellet} di materiale iniziale?  
+              \alert{Come si comporta la polvere rispetto al pellet di materiale iniziale?}  
             \end{center}
           }
 
@@ -590,11 +653,36 @@
     \frametitle{Modellazione e Slicing}
 
     \onslide*<1>{
+      \begin{center}
+        \alert{Come si crea un oggetto da stampare in 3D?}
+      \end{center}
+
+    }
+
+    \onslide*<2>{
       \begin{figure}[h]
         \centering
-        \caption{Workflow di modellazione e slicing}
-        \includegraphics[width=0.75\textwidth]{Pictures/Vector/PDF/3dprinting_diagram.pdf}
+        \caption{Modellazione e triangolarizzazione della mesh}
+        \includegraphics[width=0.75\textwidth]{Pictures/Vector/PDF/3dprinting_diagram-1.pdf}
         
+      \end{figure}
+    }
+
+    \onslide*<3>{
+      
+      \begin{figure}
+        \centering
+        \caption{Slicing e generazione del G-CODE}
+        \includegraphics[width=0.75\textwidth]{Pictures/Vector/PDF/3dprinting_diagram-2.pdf}
+      \end{figure}
+      
+    }
+
+    \onslide*<4>{
+      \begin{figure}
+        \centering
+        \caption{Stampa}
+        \includegraphics[width=0.75\textwidth]{Pictures/Vector/PDF/3dprinting_diagram-3.pdf}
       \end{figure}
     }
 
@@ -653,7 +741,7 @@
 
     \onslide*<3-6>{
       \begin{center}
-        Quali sono i \textbf{parametri di stampa} fondamentali?
+        \alert<3>{Quali sono i parametri di stampa fondamentali?}
       \end{center}
     }
 
@@ -674,7 +762,13 @@
   \begin{frame}
     \frametitle{Risultati}
 
-    \onslide*<1>{
+      \onslide*<1>{
+        \begin{center}
+          \alert{Quali sono i risultati ottenuti?}
+        \end{center}
+      }
+
+    \onslide*<2>{
 
       \begin{figure}[h]
         \centering
@@ -683,7 +777,7 @@
       \end{figure}
     }
 
-    \onslide*<2>{
+    \onslide*<3>{
 
     \begin{figure}[h]
       \centering
@@ -693,7 +787,7 @@
       Campioni prismatici, 15 e 10 layer rispettivamente (1.5 e 1.0 mm), stampati con potenza del 25 \% (3.5 W) a 90 $ ^{\circ}C$.
     }
 
-    \onslide*<3>{
+    \onslide*<4>{
 
       \begin{figure}[h]
         \centering
@@ -702,7 +796,7 @@
       \end{figure}
     }
 
-    \onslide*<4>{
+    \onslide*<5>{
 
       \begin{figure}[h]
         \centering
@@ -712,7 +806,7 @@
       Campione con trama sottile, 15 layer (1.5 mm), stampato con potenza del 35 \% (4.9 W) a 87 $ ^{\circ}C$.
     }
 
-    \onslide*<5>{
+    \onslide*<6>{
 
       \begin{figure}[h]
         \centering
@@ -721,7 +815,7 @@
       \end{figure}
     }
 
-    \onslide*<6>{
+    \onslide*<7>{
 
       \begin{figure}[h]
         \centering
@@ -731,7 +825,7 @@
       Campione con pareti sottili e curve, 50 layer (5 mm), stampato con potenza del 30 \% (4.20 W) a 90 $ ^{\circ}C$.
     }
 
-    \onslide*<7>{
+    \onslide*<8>{
 
       \begin{figure}[h]
         \centering
@@ -740,7 +834,7 @@
       \end{figure}
     }
 
-    \onslide*<8>{
+    \onslide*<9>{
 
       \begin{figure}[h]
         \centering
@@ -757,9 +851,15 @@
   \begin{frame}
     \frametitle{Analisi Meccanica Dinamica}
 
-      \onslide*<1>{L'\textbf{analisi meccanica dinamica} (DMA) è un'analisi termica utilizzata per lo studio delle proprietà viscoelastiche dei materiali. \\ 
+      \onslide*<1>{
+        \begin{center}
+          \alert{Analisi Meccanica Dinamica}
+        \end{center}
+      }
+
+      \onslide*<2>{L'\textbf{analisi meccanica dinamica} (DMA) è un'analisi termica utilizzata per lo studio delle proprietà viscoelastiche dei materiali. \\ 
       La prova è stata svolta applicando un carico sinusoidale di 1 N a 1 Hz su un campione di prova, al crescere della temperatura.}
-      \onslide*<2-6>{
+      \onslide*<3-7>{
         \begin{center}
           Quali caratteristiche fondamentali sono state analizzate?
         \end{center}
@@ -767,17 +867,17 @@
       }
 
       \begin{itemize}
-        \item <3-6> Modulo di conservazione $E'$
-        \item <4-6> Modulo di perdita $E''$
-        \item <5-6> Fattore di smorzamento $tan \delta = \frac{E''}{E'}$
-        \item <6>  \textbf{Temperatura di transizione vetrosa $T_g$}
+        \item <4-7> \textbf{Modulo di conservazione $E'$}
+        \item <5-7> \textbf{Modulo di perdita $E''$}
+        \item <6-7> \textbf{Fattore di smorzamento $tan \delta = \frac{E''}{E'}$}
+        \item <7>  \textbf{Temperatura di transizione vetrosa $T_g$}
 
       \end{itemize}
 
-      \onslide*<3>{Il modulo di conservazione è indice del comportamento elastico del materiale.}
-      \onslide*<4>{Il modulo di perdita è indice della dissipazione di energia sotto forma di calore.}
-      \onslide*<5>{Il fattore di smorzamento è il rapporto tra i due moduli.}
-      \onslide*<6>{La temperatura di transizione vetrosa è deducibile dal massimo della $tan \delta$, con maggiore precisione rispetto ad una DSC.}
+      \onslide*<4>{Il modulo di conservazione è indice del comportamento elastico del materiale.}
+      \onslide*<5>{Il modulo di perdita è indice della dissipazione di energia sotto forma di calore.}
+      \onslide*<6>{Il fattore di smorzamento è il rapporto tra i due moduli.}
+      \onslide*<7>{La temperatura di transizione vetrosa è deducibile dal massimo della $tan \delta$, con maggiore precisione rispetto ad una DSC.}
 
  
   
@@ -824,9 +924,15 @@
   \begin{frame}
     \frametitle{Stabilità termica}
 
-    \onslide*<1>{A conferma dell'ottima stabilità termica del PHBH, è stata effettuata un'altra \textbf{analisi termogravimetrica}}
+    \onslide*<1>{
+      \begin{center}
+        \alert{Come si comporta termicamente il PHBH una volta stampato?}
+      \end{center}
+    }
 
-    \onslide*<2>{
+    \onslide*<2>{A conferma dell'ottima stabilità termica del PHBH, è stata effettuata un'altra \textbf{analisi termogravimetrica}}
+
+    \onslide*<3>{
 
       \begin{figure}[h]
         \centering
@@ -835,7 +941,7 @@
 
     }
 
-    \onslide*<3>{
+    \onslide*<4>{
 
       \begin{figure}[h]
         \centering
@@ -844,7 +950,7 @@
 
     } 
 
-    \onslide*<4>{
+    \onslide*<5>{
 
       \begin{figure}[h]
         \centering
@@ -865,7 +971,7 @@
   
       \onslide*<1-5>{
         \begin{center}
-          Risultati ottenuti ben oltre le aspettative ed estremamente \textbf{innovativi}:
+          \alert<1>{Risultati ottenuti ben oltre le aspettative ed estremamente innovativi}
         \end{center}
       }
 
@@ -903,11 +1009,11 @@
     
     \end{frame}
 
-    {\setbeamercolor{palette primary}{fg=black, bg=white}
+    %{\setbeamercolor{}{fg=Foreground, bg=Background}
       \begin{frame}[standout]
         Grazie per l'attenzione
       \end{frame}
-    }
+    %}
 
 
 
@@ -923,8 +1029,6 @@
 
     
     \end{frame}
-
-
 
 
 

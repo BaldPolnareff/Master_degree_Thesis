@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber Presentation"] 1670624546 "Presentation.bcf" "Presentation.bbl" "Presentation" 1670624704 0
+["biber Presentation"] 1670695851 "Presentation.bcf" "Presentation.bbl" "Presentation" 1670776802 0
   "/home/giorgio/Bibliography/bibliography.bib" 1669921667 37976 10a395987966ee61dd5c7b61a9e02403 ""
-  "Presentation.bcf" 1670624704 107871 9edb13e8db50f963447c6c3aa291b5fb "pdflatex"
+  "Presentation.bcf" 1670776801 107871 9edb13e8db50f963447c6c3aa291b5fb "pdflatex"
   (generated)
   "Presentation.bbl"
   "Presentation.blg"
   (rewritten before read)
-["pdflatex"] 1670624700 "/home/giorgio/Master_degree_Thesis/PRESENTATION/Latex/Presentation.tex" "Presentation.pdf" "Presentation" 1670624704 0
+["pdflatex"] 1670776797 "/home/giorgio/Master_degree_Thesis/PRESENTATION/Latex/Presentation.tex" "Presentation.pdf" "Presentation" 1670776802 0
   "/home/giorgio/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1666715532 1343369 79b4fa7aaef8742bbc57cfc8de7128cd ""
-  "/home/giorgio/Master_degree_Thesis/PRESENTATION/Latex/Presentation.tex" 1670624700 26335 f2db4959d66bc9e5bdb534535c5f1b9f ""
+  "/home/giorgio/Master_degree_Thesis/PRESENTATION/Latex/Presentation.tex" 1670776797 29146 cc8d46d3e5b73811a26a25a3de306c76 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm" 1136768653 1536 f0fa079cdc83a6ffeda21e42352cf1ea ""
@@ -45,6 +45,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Regular.pfb" 1561066284 161572 bb30ea92dc6a34b19f8780a0189e9a8c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb" 1248133631 36094 798f80770b3b148ceedd006d487db67c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb" 1248133631 24457 5cbb7bdf209d5d1ce9892a9b80a307cc ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1248133631 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb" 1248133631 24420 52dbb8e8aa0069a1b987309557f8d303 ""
@@ -316,7 +317,9 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1642711416 40136 b05acc85e8425979e52682d98a2bcacf ""
   "/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1666721076 5128886 bee8a469c671f29d2f051530537fbbf8 ""
   "Pictures/Vector/PDF/3d_printing.pdf" 1670352409 2580 c24f249b00a72e9ade7fb7b6735002f3 ""
-  "Pictures/Vector/PDF/3dprinting_diagram.pdf" 1670621684 15799562 7483134d2575abece92702a5faf97d5b ""
+  "Pictures/Vector/PDF/3dprinting_diagram-1.pdf" 1670688286 15800739 6e137c9d4a8ed8469d635f7d5db77420 ""
+  "Pictures/Vector/PDF/3dprinting_diagram-2.pdf" 1670688368 15784057 95db729e1dcc6408637cf12b1e654668 ""
+  "Pictures/Vector/PDF/3dprinting_diagram-3.pdf" 1670688446 15789453 61ea4c1a8fe52d736191f38d3a7993b3 ""
   "Pictures/Vector/PDF/DALLE.pdf" 1670438613 21555185 a13a9c0137d1990909a56530b8390420 ""
   "Pictures/Vector/PDF/DMA-1.pdf" 1670605469 19001 3c2ddfaf75413b5cefb4e17b532af715 ""
   "Pictures/Vector/PDF/DMA-2.pdf" 1670613824 24677 601eeb96aab3395773047fd621d24d76 ""
@@ -329,6 +332,7 @@
   "Pictures/Vector/PDF/DSC/DSC_points-3.pdf" 1670533933 22233 ac805cd9dc791d73062e7837c88c0639 ""
   "Pictures/Vector/PDF/DSC/DSC_points-4.pdf" 1670534084 20811 e49075b4e8059c6eff3958e4df08a49a ""
   "Pictures/Vector/PDF/PSD.pdf" 1670451083 10972 d573f5bc753dc56a3301ea05672bb9d7 ""
+  "Pictures/Vector/PDF/PSD_circularity-0.pdf" 1670686584 13597 f9c2fc63d0913367de952da1a9510fd0 ""
   "Pictures/Vector/PDF/PSD_circularity.pdf" 1670453451 554073 d6f99948742727c9a8be1e0d63f5fb80 ""
   "Pictures/Vector/PDF/Printed_parts/DMA_samples.pdf" 1670608486 4309264 d37d9e3c62fed8d9eb5e1efcd354dad2 ""
   "Pictures/Vector/PDF/Printed_parts/boat.pdf" 1670608486 429422 30d2fc006aed776ea43531dc0686f6e8 ""
@@ -360,13 +364,13 @@
   "Pictures/Vector/PDF/process_diagram_readapted.pdf" 1670368214 48595 2ead8369e03287ca6b4f7b93225271d3 ""
   "Pictures/Vector/PDF/sharebot_snowhite2.pdf" 1670606645 2516351 2bd12bc3b44b255b74289e70992c35ba ""
   "Pictures/Vector/PDF/sintering_necks.pdf" 1670364335 4306176 4eebefd599fb92a99e960d5284eb14c4 ""
-  "Presentation.aux" 1670624704 10524 6f916c9e0ec8ee539fac9136ea131ea3 "pdflatex"
-  "Presentation.bbl" 1670624547 12172 cc850213a4c18aafc4c591af27179f17 "biber Presentation"
-  "Presentation.nav" 1670624704 5696 faf952ebb525c65a31e44a4adb732bd7 "pdflatex"
-  "Presentation.out" 1670624704 1722 279ea4684e668e1e7d1b8a8af3a9e9bf "pdflatex"
-  "Presentation.run.xml" 1670624704 2390 47df9641c6e75441ffd88263f9945ab0 "pdflatex"
-  "Presentation.tex" 1670624700 26335 f2db4959d66bc9e5bdb534535c5f1b9f ""
-  "Presentation.toc" 1670624704 809 7783fa253f5348c4b1a67e23ee299b3c "pdflatex"
+  "Presentation.aux" 1670776801 10678 9c211e76de9a19e3300eb728f52c3944 "pdflatex"
+  "Presentation.bbl" 1670695851 12172 cc850213a4c18aafc4c591af27179f17 "biber Presentation"
+  "Presentation.nav" 1670776801 5814 575ca3ab0e0ed165da94f3af71019ef5 "pdflatex"
+  "Presentation.out" 1670776801 1722 adf188f8c928d9ddc77ae38f301cbfd6 "pdflatex"
+  "Presentation.run.xml" 1670776801 2390 47df9641c6e75441ffd88263f9945ab0 "pdflatex"
+  "Presentation.tex" 1670776797 29146 cc8d46d3e5b73811a26a25a3de306c76 ""
+  "Presentation.toc" 1670776801 809 3a01557a7d97fe2908925eb7c2f5123e "pdflatex"
   (generated)
   "Presentation.aux"
   "Presentation.bcf"
