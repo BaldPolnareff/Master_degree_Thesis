@@ -3,11 +3,11 @@
 \beamer@subsectionintoc {1}{2}{Ricerca}{17}{0}{1}
 \beamer@subsectionintoc {1}{3}{Scelta del biopolimero}{25}{0}{1}
 \beamer@sectionintoc {2}{Produzione della polvere}{31}{0}{2}
-\beamer@sectionintoc {3}{Caratterizzazione della polvere}{49}{0}{3}
-\beamer@subsectionintoc {3}{1}{Microscopia a Scansione Elettronica}{54}{0}{3}
-\beamer@subsectionintoc {3}{2}{Distribuzione granulometrica}{62}{0}{3}
-\beamer@subsectionintoc {3}{3}{Stabilità termica}{68}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{1}{Calorimetria Differenziale a Scansione}{72}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{2}{Analisi termogravimetrica}{85}{0}{3}
-\beamer@sectionintoc {4}{Stampa 3D}{92}{0}{4}
-\beamer@sectionintoc {5}{Conclusioni}{130}{0}{5}
+\beamer@sectionintoc {3}{Caratterizzazione della polvere}{51}{0}{3}
+\beamer@subsectionintoc {3}{1}{Microscopia a Scansione Elettronica}{56}{0}{3}
+\beamer@subsectionintoc {3}{2}{Distribuzione granulometrica}{64}{0}{3}
+\beamer@subsectionintoc {3}{3}{Stabilità termica}{70}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{1}{Calorimetria Differenziale a Scansione}{74}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{2}{Analisi termogravimetrica}{87}{0}{3}
+\beamer@sectionintoc {4}{Stampa 3D}{94}{0}{4}
+\beamer@sectionintoc {5}{Conclusioni}{132}{0}{5}

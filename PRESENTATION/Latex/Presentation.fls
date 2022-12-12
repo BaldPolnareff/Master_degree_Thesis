@@ -1760,6 +1760,7 @@ INPUT ./Pictures/Vector/PDF/sintering_necks.pdf
 INPUT Pictures/Vector/PDF/sintering_necks.pdf
 INPUT ./Pictures/Vector/PDF/sintering_necks.pdf
 INPUT ./Pictures/Vector/PDF/sintering_necks.pdf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT ./Pictures/Vector/PDF/phbh_molecule.pdf
 INPUT ./Pictures/Vector/PDF/phbh_molecule.pdf
 INPUT Pictures/Vector/PDF/phbh_molecule.pdf
@@ -1812,6 +1813,16 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT ./Pictures/Vector/PDF/pellets.pdf
+INPUT ./Pictures/Vector/PDF/pellets.pdf
+INPUT Pictures/Vector/PDF/pellets.pdf
+INPUT ./Pictures/Vector/PDF/pellets.pdf
+INPUT ./Pictures/Vector/PDF/pellets.pdf
+INPUT ./Pictures/Vector/PDF/powder_render.pdf
+INPUT ./Pictures/Vector/PDF/powder_render.pdf
+INPUT Pictures/Vector/PDF/powder_render.pdf
+INPUT ./Pictures/Vector/PDF/powder_render.pdf
+INPUT ./Pictures/Vector/PDF/powder_render.pdf
 INPUT ./Pictures/Vector/PDF/SEM_fake.pdf
 INPUT ./Pictures/Vector/PDF/SEM_fake.pdf
 INPUT Pictures/Vector/PDF/SEM_fake.pdf
@@ -1872,7 +1883,6 @@ INPUT ./Pictures/Vector/PDF/PSD_circularity.pdf
 INPUT Pictures/Vector/PDF/PSD_circularity.pdf
 INPUT ./Pictures/Vector/PDF/PSD_circularity.pdf
 INPUT ./Pictures/Vector/PDF/PSD_circularity.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT ./Pictures/Vector/PDF/DSC/DSC.pdf
 INPUT ./Pictures/Vector/PDF/DSC/DSC.pdf
 INPUT Pictures/Vector/PDF/DSC/DSC.pdf
